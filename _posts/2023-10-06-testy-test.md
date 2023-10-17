@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Testy test
-pagination: enabled: true
+pagination:
+  enabled: true
 ---
 
 Hello
