@@ -17,10 +17,10 @@ author:
   name:           'Nico Boyce'
   url:            https://deltastring.com
 
-paginate:         4
+# paginate:         4
 
-plugins:
-  - jekyll-paginate-v2
+# plugins:
+#  - jekyll-paginate-v2
 #  - jekyll-gist
 
 # Custom vars
