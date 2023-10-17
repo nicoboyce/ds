@@ -1,5 +1,7 @@
 ---
 layout: post
+pagination:
+  enabled: true
 title: Introducing Hyde
 ---
 
