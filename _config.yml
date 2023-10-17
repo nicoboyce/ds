@@ -19,8 +19,8 @@ author:
 
 # paginate:         4
 
-# plugins:
-#  - jekyll-paginate-v2
+plugins:
+ - jekyll-paginate-v2
 #  - jekyll-gist
 
 # Custom vars
