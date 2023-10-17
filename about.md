@@ -1,30 +1,20 @@
 ---
 layout: page
-title: About
+title: About Deltastring
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+We are a boutique Zendesk implementation agency, with a team assembled from experienced specialists.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+We specialise in bringing DevOps processes to govern your Zendesk and associated tooling.
 
-There are currently two themes built on Poole:
+## What can Deltastring do for you?
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Feel like you're losing the battle with your own systems? Worried that you've built up a tangled web of legacy business rules and feeling like you need to start afresh?
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+We can help you. Here's how we operate:
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+* Complete export of all Zendesk objects: views, macros, triggers, automations, roles, groups, and so on.
+* Version control: track all changes and develop a release schedule.
+* Process mapping: find how everything within your Zendesk interacts. Be sure where each ticket goes.
+* Cleanup: orphaned objects are carefully removed, broken references are resolved, non-functional items are disabled.
+* Testing and deployment process: be sure your changes are effective.
