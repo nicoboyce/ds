@@ -26,6 +26,6 @@ author:
 # Custom vars
 version:          1.1
 
-excerpt_separator: <!--excerpt-end-->
+excerpt_separator: "<!--excerpt-end-->"
 # github:
 #   repo:           https://github.com/poole/hyde
