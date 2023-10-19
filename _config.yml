@@ -17,7 +17,7 @@ author:
   name:           'Nico Boyce'
   url:            https://deltastring.com
 
-excerpt_separator: <!-- excerpt-end -->
+excerpt_separator: '<!-- excerpt-end -->'
 
 # paginate:         4
 
