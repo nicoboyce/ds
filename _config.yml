@@ -17,8 +17,6 @@ author:
   name:           'Nico Boyce'
   url:            https://deltastring.com
 
-excerpt_separator: '<!-- excerpt-end -->'
-
 # paginate:         4
 
 # plugins:
@@ -28,5 +26,6 @@ excerpt_separator: '<!-- excerpt-end -->'
 # Custom vars
 version:          1.1
 
+excerpt_separator: <!-- excerpt-end -->
 # github:
 #   repo:           https://github.com/poole/hyde
