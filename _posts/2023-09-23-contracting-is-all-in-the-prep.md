@@ -11,7 +11,7 @@ Any time hardware issues arise it is always at a cost. Poor tech choices mean it
 
 *Please note that **bold type** denotes a specific product recommendation. I have only linked to products where they're not so well-known; I trust you can find your way to Apple.com.
 
-None of these links are affiliate links, because I make my living helping with Zendesk implementation rather than gaming Amazon. Do let me know any suggestions or feedback relating to this post. Thanks! *
+None of these links are affiliate links, because I make my living helping with Zendesk implementation rather than gaming Amazon. Do let me know any suggestions or feedback relating to this post. Thanks!*
 
 ### Choosing your devices
 
