@@ -3,13 +3,13 @@ layout: post
 title: Contracting is all in the preparation
 ---
 
-Recently I caught up with an industry colleague for a check-in. She's super talented but new to gig work, so was complaining that getting settled in to her new contract had been slow progress because of hardware issues. I shared my contracting equipment checklist with her and now I'm also sharing it with you.
+Recently I caught up with an industry colleague for a check-in. She's super talented but new to gig work, so was complaining that getting settled in to her new contract had been slow progress because of hardware issues. I shared my contracting equipment checklist with her and now I'm also sharing an expanded version with you.
 
 ### Optimise for zero downtime
 
-Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. Let's start with the basics...<!--excerpt-end-->
+Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. How do we avoid that? Let's start with the basics...<!--excerpt-end-->
 
-*Please note that **bold type** denotes a specific product recommendation. I have only linked to specific products where they're not so well-known. None of these links are affiliate links. Do let me know any suggestions or feedback on this post. Thanks!*
+*Please note that **bold type** denotes a specific product recommendation. I have only linked to products where they're not so well-known; I trust you can find your way to Apple.com. None of these links are affiliate links. Do let me know any suggestions or feedback on this post. Thanks!*
 
 ### Choosing your devices
 
@@ -60,7 +60,7 @@ Two SIM cards is an absolute must. They need to be on different networks. Don't 
 
 Test the tethering or hotspot capabilities of your phone. If you need an upgrade on your phone, I use a low end **OnePlus** and it does the job. Recently I have had Huawei, Honor, and Poco handsets which I do not recommend because of bloatware and durability issues. Look for something dual SIM and go into the developer options to tweak the network handling. Battery life is the most important feature of a phone in 2023, because there's no mass market phone that can't do everything else needed of it. USB-C charging is essential.
 
-Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London, which means that your phone switches betweeo 5G and 4G fishing for the best service. This reduces your battey and makes your calls jittery. 4G is reliable and fast enough for most purposes.
+Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London, which means that your phone switches between 5G and 4G fishing for the best service. This reduces your battey and makes your calls jittery. 4G is reliable and fast enough for most purposes.
 
 I would also recommend choosing a less aggressive hand-off profile configuration for any dual-network phones or routers. This is probably a blog post in itself but jumping between networks while on a Zoom call is not good.
 
