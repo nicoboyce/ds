@@ -260,6 +260,7 @@ a.sidebar-nav-item:focus {
 
 .on-mob {
   display: block;
+  text-align: right;
 }
 @media (min-width: 48em) {
   .on-mob {
