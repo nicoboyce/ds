@@ -439,12 +439,3 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
-.no-mob {
-  display: none;
-}
-@media (min-width: 48em) {
-  .no-mob {
-    display: inline;
-  }
-}
