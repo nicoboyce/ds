@@ -60,7 +60,7 @@ Two SIM cards is an absolute must. They need to be on different networks. Don't 
 
 Test the tethering or hotspot capabilities of your phone. If you need an upgrade on your phone, I use a low end **OnePlus** and it does the job. Recently I have had Huawei, Honor, and Poco handsets which I do not recommend because of bloatware and durability issues. Look for something dual SIM and go into the developer options to tweak the network handling. Battery life is the most important feature of a phone in 2023, because there's no mass market phone that can't do everything else needed of it. USB-C charging is essential.
 
-Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London, which means that your phone switches between 5G and 4G fishing for the best service. This reduces your battey and makes your calls jittery. 4G is reliable and fast enough for most purposes.
+Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London, which means that your phone constantly switches between 5G and 4G hunting for the best service. This reduces your battery and makes your calls jittery. 4G is reliable and fast enough for most purposes.
 
 I would also recommend choosing a less aggressive hand-off profile configuration for any dual-network phones or routers. This is probably a blog post in itself but jumping between networks while on a Zoom call is not good.
 
