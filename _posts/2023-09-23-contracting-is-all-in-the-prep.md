@@ -66,7 +66,7 @@ I would also recommend choosing a less aggressive hand-off profile configuration
 
 ### Don't forget the accessories
 
-Peripherals are the most personal choice of all of this, so you will want to build up your home office yourself according to your own needs. I use an **Anker** vertical mouse and a **Corsair** keyboard which I quite like apart from the disco lights. I think it's a K70. They're connected through a **Kensington** USB-C hub which also charges the laptop. If you find a mice you particularly like, my recommendation is to buy two spares, chuck one in your office bag and one in a drawer somewhere.
+Peripherals are the most personal choice of all of this, so you will want to build up your home office yourself according to your own needs. I use an **Anker** vertical mouse and a **Corsair** keyboard which I quite like apart from the disco lights. I think it's a K70. They're connected through a **Kensington** USB-C hub which also charges the laptop. If you find a mouse you particularly like, my recommendation is to buy two spares, chuck one in your office bag and one in a drawer somewhere.
 
 My monitor is an **MSI** 4k 32" curved thing they marketed as a "gaming monitor" but actually is much more suited to coding and spreadsheets. The current model is the G321CUV which appears to have replaced the MAG321CURV that I use. Previously I had a very different setup with two external 1080p monitors flanking my MacBook. This new setup is far better for me.
 
