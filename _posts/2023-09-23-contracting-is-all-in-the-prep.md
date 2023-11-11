@@ -9,9 +9,9 @@ Recently I caught up with an industry colleague for a check-in. She's super tale
 
 Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. How do we avoid that? Let's start with the basics...<!--excerpt-end-->
 
-> Please note that **bold type** denotes a specific product recommendation. I have only linked to products where they're not so well-known; I trust you can find your way to Apple.com.
->
->None of these links are affiliate links, because I make my living helping with Zendesk implementation rather than gaming Amazon. Do let me know any suggestions or feedback relating to this post. Thanks!
+* Please note that **bold type** denotes a specific product recommendation. I have only linked to products where they're not so well-known; I trust you can find your way to Apple.com. *
+
+* None of these links are affiliate links, because I make my living helping with Zendesk implementation rather than gaming Amazon. Do let me know any suggestions or feedback relating to this post. Thanks! *
 
 ### Choosing your devices
 

@@ -79,6 +79,10 @@ a:focus {
   text-decoration: underline;
 }
 
+em {
+  font-size: 0.8rem;
+}
+
 img + em {
   font-size: 0.8rem;
   color: darkgrey;
