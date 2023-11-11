@@ -15,6 +15,9 @@ Any time hardware issues arise it is always at a cost. Poor tech choices mean it
 
 You need two laptops. Yes you do. They must both be laptops, because you may need to be on site with either or both. You need two because it's not worth losing a day's pay or more because your one and only laptop needs fixing.
 
+![Nico heading to work. Funky sunglasses: optional.](/public/img/work-day.jpg)
+*Nico heads to work. Bad sunglasses: optional.*
+
 You should probably have both a MacOS and a Windows laptop. There will be occasions where (whatever it is you're working on) you need to prove it works on the other main desktop OS. You likely already have a preference between the two options, which means your preference should be your primary device and the other should be your backup device.
 
 For each of these recommendations, I will assume there are no other considerations. If you're an avid gamer, youtuber, digital artist, or otherwise digital creative outside of your IT contracting, you'll likely have more advanced needs for your laptop which you will need to account for.
@@ -56,8 +59,6 @@ Nowadays we can get pretty much everything done anywhere with an internet connec
 Two SIM cards is an absolute must. They need to be on different networks. Don't make the mistake of using MVNOs on the same service, eg. if there's no O2 there's also no GiffGaff so it's not a useful backup. My current SIM cards of choice are **Smarty** and **GiffGaff** both of which offer serious quantities of data at good prices and also reliable connections. Some "unlimited" plans are better than others. I have downloaded 600GB of data on my Smarty SIM with no throttling.
 
 Test the tethering or hotspot capabilities of your phone. If you need an upgrade on your phone, I use a low end **OnePlus** and it does the job. Recently I have had Huawei, Honor, and Poco handsets which I do not recommend because of bloatware and durability issues. Look for something dual SIM and go into the developer options to tweak the network handling. Battery life is the most important feature of a phone in 2023, because there's no mass market phone that can't do everything else needed of it. USB-C charging is essential.
-
-![Nico heading to work. Funky sunglasses: optional.](/public/img/work-day.jpg "Nico heads to work. Bad sunglasses: optional.")
 
 Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London, which means that your phone switches betweeo 5G and 4G fishing for the best service. This reduces your battey and makes your calls jittery. 4G is reliable and fast enough for most purposes.
 
