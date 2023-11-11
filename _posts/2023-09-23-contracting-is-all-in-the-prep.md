@@ -7,7 +7,7 @@ Recently I caught up with an industry colleague for a check-in. She's super tale
 
 ### Optimise for zero downtime
 
-Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. Let's start with the basics<!--excerpt-end-->.
+Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. Let's start with the basics...<!--excerpt-end-->
 
 *Please note that **bold type** denotes a specific product recommendation. I have only linked to specific products where they're not so well-known. None of these links are affiliate links. Do let me know any suggestions or feedback on this post. Thanks!*
 
