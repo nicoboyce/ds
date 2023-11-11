@@ -257,3 +257,12 @@ a.sidebar-nav-item:focus {
     display: inline;
   }
 }
+
+.on-mob {
+  display: inline;
+}
+@media (min-width: 48em) {
+  .on-mob {
+    display: none;
+  }
+}
