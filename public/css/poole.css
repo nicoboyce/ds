@@ -79,6 +79,12 @@ a:focus {
   text-decoration: underline;
 }
 
+img + em {
+  font-size: 0.8rem;
+  color: darkgrey;
+  line-height: 0.8;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
