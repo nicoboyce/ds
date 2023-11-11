@@ -52,7 +52,7 @@ The venerable **Dell XPS 13** is also an option, but at time of writing you can 
 
 I personally wouldn't show up with an Alienware or ROG laptop despite the impressive features of these devices.
 
-If your primary device is a Windows one, then the correct backup option is the **Apple MacBook Air M1** because it's the cheapest ARM-based MacBook.
+If your primary device is a Windows one, then the correct backup option is the **Apple MacBook Air M1** because it's the cheapest ARM-based MacBook. Naturally, this means that the Windows-first route is the more expensive option.
 
 ### Network effects
 
@@ -96,6 +96,6 @@ Keep your devices charged and packed when not in use. Sometimes I'll need to get
 
 ### Avoid stress, be ready
 
-That colleague I mentioned at the start? It wasn't even her fault. Someone grabbed her laptop charger on the way out of a meeting presumably assuming it was theirs. Because she couldn't charge that device, she had to get a loaner and then set it up with the software she needed. So much time wasted, so unprofessional.
+That colleague I mentioned at the start? It wasn't even her fault. Someone grabbed her laptop charger on the way out of a meeting, presumably assuming it was theirs. Because she couldn't charge that device, she had to get a loaner and then set it up with the software she needed. So much time wasted, so unprofessional.
 
 Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is my cable, see the tape around the plug?" and carry a spare of anything mission-critical. Don't risk losing time by being unprepared.
