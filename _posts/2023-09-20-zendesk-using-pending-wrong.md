@@ -32,3 +32,9 @@ Each of the status values in Zendesk correspond to a position in the process of 
 ![Zendesk ticket lifecycle.](/public/img/zendesk-ticket-lifecycle.jpeg)
 *The possible routes between Zendesk status families.*
 
+However, it then becomes apparent that there is a weak link in the chain as we put together workflows. We can (hopefully) presume a timely and useful response to our On Hold tickets. So long as our views are well-configured then we can also know that Open and New tickets are put in front of agents. The Pending status puts our workflow in jeopardy though. We can't rely on the Requester to respond.
+
+### To chase? Or let it rot?
+
+The instinctive approach is to chase these Pending tickets, automate some reminders to the Requester and basically nag them into coming back to us and letting us try and solve their problem.
+
