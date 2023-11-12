@@ -38,3 +38,4 @@ However, it then becomes apparent that there is a weak link in the chain as we p
 
 The instinctive approach is to chase these Pending tickets, automate some reminders to the Requester and basically nag them into coming back to us and letting us try and solve their problem.
 
+Is this the right approach though? I'm not sure it's best for either party.
