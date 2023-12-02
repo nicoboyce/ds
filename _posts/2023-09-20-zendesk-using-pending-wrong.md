@@ -39,3 +39,14 @@ However, it then becomes apparent that there is a weak link in the chain as we p
 The instinctive approach is to chase these Pending tickets, automate some reminders to the Requester and basically nag them into coming back to us and letting us try and solve their problem.
 
 Is this the right approach though? I'm not sure it's best for either party.
+
+Let's split this out and game theory it:
+
+Firstly, what are our options here? We could put a ticket on pending and chase it for a response for a time, or we could solve the ticket and let it reopen if the customer responds. Further to that, we can do a combination of the two, depending on the ticket properties. A good starting point is the ticket creator.
+
+Why would we look at tickets based on the creator? Well, a ticket created by an End User could well be a throwaway comment, a piece of feedback, a feature request, or a super serious blocker to their own business.
+
+| Ticket origin    | We chase | We solve |
+|------------------|-----------|------------|
+| Proactive, i.e. agent or system | 1.99      | *7*        |
+| End user created | **1.89**  | 5234       |
