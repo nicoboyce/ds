@@ -30,7 +30,7 @@ Each of the status values in Zendesk correspond to a position in the process of 
 * Closed: this is an archived state following from Solved where the ticket remains only for review purposes.
 
 ![Zendesk ticket lifecycle.](/public/img/zendesk-ticket-lifecycle.jpeg)
-*The possible routes between Zendesk status families.*
+*The routes between Zendesk status families.*
 
 However, it then becomes apparent that there is a weak link in the chain as we put together workflows. We can (hopefully) presume a timely and useful response to our On Hold tickets. So long as our views are well-configured then we can also know that Open and New tickets are put in front of agents. The Pending status puts our workflow in jeopardy though. We can't rely on the Requester to respond.
 
@@ -40,13 +40,34 @@ The instinctive approach is to chase these Pending tickets, automate some remind
 
 Is this the right approach though? I'm not sure it's best for either party.
 
-Let's split this out and game theory it:
-
 Firstly, what are our options here? We could put a ticket on pending and chase it for a response for a time, or we could solve the ticket and let it reopen if the customer responds. Further to that, we can do a combination of the two, depending on the ticket properties. A good starting point is the ticket creator.
 
 Why would we look at tickets based on the creator? Well, a ticket created by an End User could well be a throwaway comment, a piece of feedback, a feature request, or a super serious blocker to their own business.
+
+A proactive ticket, whether created by our systems or agents, should in principle always be a priority matter for the business to provide its service to the customer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | Ticket origin    | We chase | We solve |
 |------------------|-----------|------------|
 | Proactive, i.e. agent or system | 1.99      | *7*        |
 | End user created | **1.89**  | 5234       |
+
+
+
+
+
+Let's split this out and game theory it:
