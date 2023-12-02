@@ -34,7 +34,7 @@ Each of the status values in Zendesk correspond to a position in the process of 
 
 However, it then becomes apparent that there is a weak link in the chain as we put together workflows. We can (hopefully) presume a timely and useful response to our On Hold tickets. So long as our views are well-configured then we can also know that Open and New tickets are put in front of agents. The Pending status puts our workflow in jeopardy though. We can't rely on the Requester to respond.
 
-### To chase? Or let it rot?
+### To chase? Or just forget?
 
 The instinctive approach is to chase these Pending tickets, automate some reminders to the Requester and basically nag them into coming back to us and letting us try and solve their problem.
 
@@ -44,7 +44,18 @@ Firstly, what are our options here? We could put a ticket on pending and chase i
 
 Why would we look at tickets based on the creator? Well, a ticket created by an End User could well be a throwaway comment, a piece of feedback, a feature request, or a super serious blocker to their own business.
 
-A proactive ticket, whether created by our systems or agents, should in principle always be a priority matter for the business to provide its service to the customer.
+A proactive ticket, whether created by our systems or agents, should in principle always be a priority matter for the business to provide its service to the customer. If we can just solve this, we should probably reflect on whether it is necessary at all. Let's assume we do need to chase these.
+
+The requestor created tickets, though, these could be vital or trivial to us, but we do know they're sufficiently significant to the customer that they made contact.
+
+### Divide and conquer
+
+
+
+
+
+
+
 
 
 
