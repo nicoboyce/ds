@@ -74,13 +74,23 @@ html {
 .sidebar a {
   color: #fff;
 }
+@media (min-width: 48em) {
+  .sidebar a {
+    font-size: 1.36rem;
+  }
+}
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 107.23%;
+  font-size: 2.7rem;
+}
+@media (min-width: 48em) {
+  .sidebar-about h1{
+    font-size: 2.89rem;
+  }
 }
 
 /* Sidebar nav */
