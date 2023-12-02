@@ -75,7 +75,7 @@ html {
   color: #fff;
 }
 @media (min-width: 48em) {
-  .sidebar a {
+  .lead {
     font-size: 1.36rem;
   }
 }
