@@ -17,7 +17,7 @@ Any time hardware issues arise it is always at a cost. Poor tech choices mean it
 
 You need two laptops. Yes you do. They must both be laptops, because you may need to be on site with either or both. You need two because it's not worth losing a day's pay or more because your one and only laptop needs fixing.
 
-![Nico heading to work. Funky sunglasses: optional.](/public/img/work-day.jpg)
+![Nico heading to work. Bad sunglasses: optional.](/public/img/work-day.jpg)
 *Nico heads to work. Bad sunglasses: optional.*
 
 You should probably have both a MacOS and a Windows laptop. There will be occasions where (whatever it is you're working on) you need to prove it works on the other main desktop OS. You likely already have a preference between the two options, which means your preference should be your primary device and the other should be your backup device.
@@ -90,7 +90,7 @@ Here's where the magic comes in.
 
 Colour-code your work gear. Pick a distinctive colour and make it your own. Anything you can choose the colour, choose that colour. Anything you can't choose the colour, use some electrical tape to mark it out as being part of this set of items.
 
-I have gone with yellow. My work bag (which is a **Beagles Original rolltop rucksack**) and my phone case and anything I'm liable to regret leaving at a desk is either bright yellow itself or marked with bright yellow electrical tape. There's no need to waste time checking you've grabbed all of your bits.
+I have gone with yellow. My work bag (which is a **Beagles Original rolltop rucksack**) and my phone case and anything I'm liable to regret leaving at a desk is either bright yellow itself or marked with yellow electrical tape. There's no need to waste time checking you've grabbed all of your bits.
 
 Keep your devices charged and packed when not in use. Sometimes I'll need to get to a location at short notice. Sometimes I'm having to leave early in the morning to get to the site. I'm never looking to waste time checking things when I could just be prepared.
 
@@ -98,4 +98,4 @@ Keep your devices charged and packed when not in use. Sometimes I'll need to get
 
 That colleague I mentioned at the start? It wasn't even her fault. Someone grabbed her laptop charger on the way out of a meeting, presumably assuming it was theirs. Because she couldn't charge that device, she had to get a loaner and then set it up with the software she needed. So much time wasted, so unprofessional.
 
-Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is my cable, see the tape around the plug?" and carry a spare of anything mission-critical. Don't risk losing time by being unprepared.
+Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is my cable, see the tape?" and carry a spare of anything mission-critical. Don't risk losing time, money, and reputation by being unprepared.
