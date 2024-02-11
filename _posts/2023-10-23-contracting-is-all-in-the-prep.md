@@ -5,7 +5,7 @@ title: Contracting is all in the preparation
 
 Recently I caught up with an industry colleague for a check-in. She's super talented but new to gig work, so was complaining that getting settled in to her new contract had been slow progress because of hardware issues. I shared my rookie contractor equipment checklist with her and now I'm also sharing an expanded version with you.<!--excerpt-end-->
 
-This advice is aimed at contractors, consultants, small agencies like ourselves. If you're equipping a growing team, particularly remote teams and especially across borders, [Hofy](https://www.hofy.com) are the experts. I have worked with Hofy but have no current partnership with them, I recommend them simply because they are good.
+This advice is aimed at contractors, consultants, small agencies like ourselves. If you're equipping a growing team, particularly remote teams and especially across borders, I can't help you but [Hofy](https://www.hofy.com) are the experts. I have worked with Hofy but have no current partnership with them, I recommend them simply because they are good.
 
 ### Optimise for zero downtime
 
