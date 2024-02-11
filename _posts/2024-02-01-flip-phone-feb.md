@@ -9,6 +9,10 @@ My fascination with portable computing has been a lifelong affair<!--excerpt-end
 
 I also have and occasionally boot up most of my past smartphones, including a 2010 HTC Desire, the first-gen Moto G, Nexus 6P, BlackBerry Classic, and various other OnePlus and Huawei models. Reflecting on them, it seems I gravitated towards phones that, in hindsight, hold some significance, though with a peculiar aversion to Samsung.
 
+
+![A pile of old phones.](/public/img/phones.jpeg)
+*A pile of Nico's old phones. I found a couple more after assembling this stack.*
+
 I've experimented with different form factors. I pre-ordered the Moto 360 watch in 2014, but that device was far from consumer-ready so I quickly sold it. VR, for the most part, has passed me by, but I can't deny I am itching to get my face in an Apple Vision Pro. Indisputably, I have been a lifelong devotee to battery-powered computing. But the smartphone itself? It’s time to go.
 
 Firstly, being constantly available to anyone who knows how to reach me is incredibly convenient for them, but ultimately, it becomes a burden on me. Fixing your Zendesk integration at 3 am might be doable, but it's not ideal for me or my family. I'll have to remember to include a charge for that in my next contract. Sometimes, I do actually need to be unavailable.
