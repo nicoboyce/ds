@@ -50,35 +50,4 @@ The requestor created tickets, though, these could be vital or trivial to us, bu
 
 ### Divide and conquer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-| Ticket origin    | We chase | We solve |
-|------------------|-----------|------------|
-| Proactive, i.e. agent or system | 1.99      | *7*        |
-| End user created | **1.89**  | 5234       |
-
-
-
-
-
-Let's split this out and game theory it:
+In wrapping up, the nuanced nature of Zendesk's Pending status calls for a reconsideration of default approaches. Zendesk admins play a pivotal role in steering CX managers towards more effective practices. It's crucial to encourage them to think outside the defaults, acknowledging that just because a feature is intended or described a certain way, it may not always be the optimal method for servicing customers. By fostering a mindset of flexibility and proactivity, Zendesk teams can align their tooling with the unique needs of their customers, leading to a more responsive and customer-centric ticketing process.
