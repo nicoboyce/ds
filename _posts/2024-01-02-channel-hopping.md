@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Channel hopping
+published: false
 ---
 
 This is a challenge I have seen different clients deal with in different ways.

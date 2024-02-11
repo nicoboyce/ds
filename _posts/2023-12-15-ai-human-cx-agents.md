@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Can AI and human service agents co-exist?
+published: false
 ---
 
 Obviously the covid situation had a big affect on the ways people work in many industries and roles, but in call centres for banks and utility companies it really did turn the whole world upside down overnight. The companies where I have worked were surprisingly adaptable with the situation that evolved day by day. Laptops were issued, furniture delivered to homes, everything carried on as normal as possible with barely a pause for breath.
