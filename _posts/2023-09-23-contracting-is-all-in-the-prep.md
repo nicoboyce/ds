@@ -5,6 +5,8 @@ title: Contracting is all in the preparation
 
 Recently I caught up with an industry colleague for a check-in. She's super talented but new to gig work, so was complaining that getting settled in to her new contract had been slow progress because of hardware issues. I shared my rookie contractor equipment checklist with her and now I'm also sharing an expanded version with you.
 
+This advice is aimed at contractors, consultants, small agencies like ourselves. If you're equipping a growing team, particularly remote teams and especially across borders, [Hofy](https://www.hofy.com) are the experts. I have worked with Hofy but have no current partnership with them, I recommend them because they are good.
+
 ### Optimise for zero downtime
 
 Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. How do we avoid that? Let's start with the basics...<!--excerpt-end-->
@@ -35,12 +37,14 @@ The MacBook Air series looks nice but they won't get you through a day of work w
 
 The MacBook Pro 14" and 16" are great great computers but the improvements do not justify the price hike in my opinion. If you have extra cash in your budget, you'd be better off upgrading the RAM in the 13".
 
+*So Apple binned the Pro 13" right after I published this article unconditionally recommending it. I blame [Marques Brownlee](https://www.youtube.com/watch?v=pSdKnNj7ozk), normally a great tech reviewer, for only looking at the Pro 13" from the perspective of doing YouTube as a job. Basically no one does that in the real world. If you're in the business of, well, business, this is still a great buy from [Laptopsdirect.co.uk](https://www.laptopsdirect.co.uk/search-results/m2%20pro%2013) etc.*
+
 If your primary device is a MacBook, your backup device needs to meet the following criteria:
 * Windows 11
 * At least 8GB RAM but more is better. My backup device is a **Chuwi Gemibook** with 12GB.
 * USB-C charging. You don't want to need to bring a separate charger for your backup device.
 
-So long as you've ticked those boxes, it's free choice here. I use a £150ish [Chuwi](https://store.chuwi.com/collections/laptop) and it's fine.
+So long as you've ticked those boxes, it's free choice here. I use that £150ish [Chuwi](https://store.chuwi.com/collections/laptop) and it's fine.
 
 #### Windows users
 
@@ -58,11 +62,11 @@ If your primary device is a Windows one, then the correct backup option is the *
 
 Nowadays we can get pretty much everything done anywhere with an internet connection, which is great so long as that internet connection is reliable. Here's how we ensure the bits and bytes keep flowing:
 
-Two SIM cards is an absolute must. They need to be on different networks. Don't make the mistake of using MVNOs on the same service, eg. if there's no O2 there's also no GiffGaff so it's not a useful backup. My current SIM cards of choice are **Smarty** and **GiffGaff** both of which offer serious quantities of data at good prices and also reliable connections. Some "unlimited" plans are better than others. I have downloaded 600GB of data on my Smarty SIM with no throttling.
+Two SIM cards is an absolute must. They need to be on different networks. Don't make the mistake of using MVNOs on the same service, eg. if there's no O2 there's also no GiffGaff so it's not a useful backup. My current SIM cards of choice are **Smarty** and **GiffGaff** both of which offer serious quantities of data at good prices and also reliable connections. Some "unlimited" plans are better than others. I use minimum 600GB monthly on my Smarty SIM with no throttling.
 
 Test the tethering or hotspot capabilities of your phone. If you need an upgrade on your phone, I use a low end **OnePlus** and it does the job. Recently I have had Huawei, Honor, and Poco handsets which I do not recommend because of bloatware and durability issues. Look for something dual SIM and go into the developer options to tweak the network handling. Battery life is the most important feature of a phone in 2023, because there's no mass market phone that can't do everything else needed of it. USB-C charging is essential.
 
-Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London, which means that your phone constantly switches between 5G and 4G hunting for the best service. This reduces your battery and makes your calls jittery. 4G is reliable and fast enough for most purposes.
+Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London. This results in your phone constantly switching between 5G and 4G, impacting battery life and call quality. 4G is reliable and fast enough for most purposes.
 
 I would also recommend choosing a less aggressive hand-off profile configuration for any dual-network phones or routers. This is probably a blog post in itself but jumping between networks while on a Zoom call is not good.
 
@@ -92,10 +96,10 @@ Colour-code your work gear. Pick a distinctive colour and make it your own. Anyt
 
 I have gone with yellow. My work bag (which is a **Beagles Original rolltop rucksack**) and my phone case and anything I'm liable to regret leaving at a desk is either bright yellow itself or marked with yellow electrical tape. There's no need to waste time checking you've grabbed all of your bits.
 
-Keep your devices charged and packed when not in use. Sometimes I'll need to get to a location at short notice. Sometimes I'm having to leave early in the morning to get to the site. I'm never looking to waste time checking things when I could just be prepared.
+Keep your devices charged and packed when not in use. Sometimes I'll need to get to a location at short notice. Sometimes I'm having to leave early in the morning to get to the site. I prefer being prepared over losing critical time checking things.
 
 ### Avoid stress, be ready
 
 That colleague I mentioned at the start? It wasn't even her fault. Someone grabbed her laptop charger on the way out of a meeting, presumably assuming it was theirs. Because she couldn't charge that device, she had to get a loaner and then set it up with the software she needed. So much time wasted, so unprofessional.
 
-Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is my cable, see the tape?" and carry a spare of anything mission-critical. Don't risk losing time, money, and reputation by being unprepared.
+Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is my cable, see the tape?" and carry a spare of anything mission-critical. Avoid the risk of losing time, money, and reputation by staying prepared.
