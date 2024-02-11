@@ -90,6 +90,8 @@ You've got your laptop and your backup laptop, but that's not enough to know you
 * USB-C cables. These are not all created equal. Make sure each can charge both of your laptops and your phone, as well as transmit sufficient data to connect your device to a 4k monitor or projector should that be necessary. Label them with a little wrap of electrical tape so that you know which are yours. I typically carry three for an office day.
 * Laptop chargers. I have two Apple chargers which are I think 70W. They can also charge a phone if necessary but it's better for the battery to charge the phone from the laptop. Incidentally, I have two 12V USB-PD chargers fitted in my car in case I need to charge on the move. My MacBook doesn't charge well at 12V but using two does do the job okay.
 
+*Since originally writing this I have added a [Ring Can Inverter](https://www.halfords.com/tools/garage-workshop/inverters/ring-can-inverter-435701.html?stockInventory=undefined) to the car, which is much better for charging a MacBook and I do recommend this item.*
+
 ### Make it efficient
 
 Here's where the magic comes in.
