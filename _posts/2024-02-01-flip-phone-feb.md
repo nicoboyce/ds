@@ -7,7 +7,7 @@ I've been curious about [Flip Phone February](https://www.notion.so/How-to-Quit-
 
 My fascination with portable computing has been a lifelong affair<!--excerpt-end-->. In my childhood, one of my most treasured possessions was a [1988 Zenith SupersPort](https://en.wikipedia.org/wiki/Zenith_SupersPort), and I often daydreamed about owning a [9000 series Nokia](https://en.wikipedia.org/wiki/Nokia_9000_Communicator) someday. During my teenage years, my Dell Inspiron was my entire world (actually I recently got my hands on another 2004 Inspiron, still a great device) and I still occasionally boot Marvin, my 2008 Acer Aspire One A150L. I guess I have around 30 computers of various kinds in various stages of disassembly.
 
-I also have and occasionally boot up most of my past smartphones, including a 2010 HTC Desire, the first-gen Moto G, Nexus 6P, BlackBerry Classic, and various other OnePlus and Huawei models. Reflecting on them, it seems I gravitated towards phones that, in hindsight, hold some significance, though with a peculiar aversion to Samsung.
+I also have and occasionally boot up most of my past smartphones, including a 2010 HTC Desire, the first-gen Moto G, Nexus 6P, BlackBerry Classic, and various other OnePlus and Huawei models. It's an interesting cross-section of Android history, though with a peculiar aversion to Samsung.
 
 
 ![A pile of old phones.](/public/img/phones.jpeg)
