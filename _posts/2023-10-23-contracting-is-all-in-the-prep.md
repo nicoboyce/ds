@@ -11,9 +11,11 @@ This advice is aimed at contractors, consultants, small agencies like ourselves.
 
 Any time hardware issues arise it is always at a cost. Poor tech choices mean it takes longer to solve the client's problem. Very poor choices can mean you lose out on pay. How do we avoid that? Let's start with the basics...
 
-*Please note that **bold type** denotes a specific product recommendation. I have only linked to products where they're not so well-known; I trust you can find your way to Apple.com.*
+*Please note that **bold type** denotes a specific product recommendation.*
 
-*None of these links are affiliate links, because I make my living helping with Zendesk implementation rather than gaming Amazon. Do let me know any suggestions or feedback relating to this post. Thanks!*
+*None of these links are affiliate links, because I make my living helping with Zendesk implementation rather than gaming Amazon.*
+
+*Do let me know any suggestions or feedback relating to this post. Thanks!*
 
 ### Choosing your devices
 
@@ -64,7 +66,7 @@ Nowadays we can get pretty much everything done anywhere with an internet connec
 
 Two SIM cards is an absolute must. They need to be on different networks. Don't make the mistake of using MVNOs on the same service, eg. if there's no O2 there's also no GiffGaff so it's not a useful backup. My current SIM cards of choice are **[Smarty](https://smarty.co.uk/)** and **[GiffGaff](https://www.giffgaff.com/)** both of which offer serious quantities of data at good prices and also reliable connections. Some "unlimited" plans are better than others. I use minimum 600GB monthly on my Smarty SIM with no throttling.
 
-Test the tethering or hotspot capabilities of your phone. If you need an upgrade on your phone, I use a low end **OnePlus** and it does the job. Recently I have had Huawei, Honor, and Poco handsets which I do not recommend because of bloatware and durability issues. Look for something dual SIM and go into the developer options to tweak the network handling. Battery life is the most important feature of a phone in 2023, because there's no mass market phone that can't do everything else needed of it. USB-C charging is essential.
+Test the tethering or hotspot capabilities of your phone. If you need an upgrade on your phone, I use a low end **[OnePlus](https://www.oneplus.com/uk/store/phone)** and it does the job. Recently I have had Huawei, Honor, and Poco handsets which I do not recommend because of bloatware and durability issues. Look for something dual SIM and go into the developer options to tweak the network handling. Battery life is the most important feature of a phone in 2023, because there's no mass market phone that can't do everything else needed of it. USB-C charging is essential.
 
 Incidentally, I always disable 5G on mobile devices. 5G connections at the moment are too inconsistent, even in London. This results in your phone constantly switching between 5G and 4G, impacting battery life and call quality. 4G is reliable and fast enough for most purposes.
 
@@ -72,7 +74,7 @@ I would also recommend choosing a less aggressive hand-off profile configuration
 
 ### Don't forget the accessories
 
-Peripherals are the most personal choice of all of this, so you will want to build up your home office yourself according to your own needs. I use an **Anker** vertical mouse and a **Corsair** keyboard which I quite like apart from the disco lights. I think it's a K70. They're connected through a **Kensington** USB-C hub which also charges the laptop. If you find a mouse you particularly like, my recommendation is to buy two spares. Chuck one in your office bag and one in a drawer somewhere.
+Peripherals are the most personal choice of all of this, so you will want to build up your home office yourself according to your own needs. I use an **[Anker](https://www.anker.com/products/a7852?variant=37438089461910)** vertical mouse and a **[Corsair](https://www.corsair.com/uk/en/c/keyboards)** keyboard which I quite like apart from the disco lights. I think it's a K70. They're connected through a **Kensington** USB-C hub which also charges the laptop. If you find a mouse you particularly like, my recommendation is to buy two spares. Chuck one in your office bag and one in a drawer somewhere.
 
 My monitor is an **MSI** 4k 32" curved thing they marketed as a "gaming monitor" but actually is much more suited to coding and spreadsheets. The current model is the G321CUV which appears to have replaced the MAG321CURV that I use. Previously I had a very different setup with two external 1080p monitors flanking my MacBook. This new setup is far better for me.
 
@@ -94,7 +96,7 @@ Here's where the magic comes in.
 
 Colour-code your work gear. Pick a distinctive colour and make it your own. Anything you can choose the colour, choose that colour. Anything you can't choose the colour, use some electrical tape to mark it out as being part of this set of items.
 
-I have gone with yellow. My work bag (which is a **Beagles Original rolltop rucksack**) and my phone case and anything I'm liable to regret leaving at a desk is either bright yellow itself or marked with yellow electrical tape. There's no need to waste time checking you've grabbed all of your bits.
+I have gone with yellow. My work bag (which is a Beagles Original rolltop rucksack) and my phone case and anything I'm liable to regret leaving at a desk is either bright yellow itself or marked with yellow electrical tape. There's no need to waste time checking you've grabbed all of your bits.
 
 Keep your devices charged and packed when not in use. Sometimes I'll need to get to a location at short notice. Sometimes I'm having to leave early in the morning to get to the site. I prefer being prepared over losing critical time checking things.
 
