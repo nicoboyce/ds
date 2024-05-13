@@ -16,7 +16,7 @@ title: Blog
 
     {{ post.excerpt }}
     <a href="{{ post.url }}">Read more!</a><br /><br />
-    <img src="/public/img/ds-icon.png" width="36" height="36">
+    <img src="/public/img/dstr.jpg" width="36" height="36">
   </div>
   {% endfor %}
 </div>
