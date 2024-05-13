@@ -17,7 +17,7 @@ In the super-competitive Hampshire hospitality trade, Nico quickly gained a repu
 
 Zendesk fell at the intersection between Nico's work passions: using data to guide continuous improvement of customer experience with engineering solutions. His recent clients include London unicorns Checkout.com and Starling Bank, S&P 500 component Etsy, along with various smaller scale B2B and B2C startups, each of which had their own distinct set of Zendesk opportunities.
 
-![Nico Boyce, founder of Deltastring Ltd.](/public/img/nico-office.jpg)
+![Nico Boyce, founder of Deltastring Ltd.](/public/img/nico-office.jpeg)
 *CX consultant and Zendesk specialist Nico Boyce is the founder of Deltastring Ltd.*
 
 Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic.
