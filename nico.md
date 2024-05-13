@@ -1,11 +1,15 @@
 ---
 layout: page
-title: About Deltastring
+title: Who is Nico Boyce?
 ---
 
-# Deltastring are the bespoke Zendesk solutions agency
+# Nico Boyce is the leader of Deltastring Ltd.
 
-Feel like you’re losing the battle with your own systems? Worried that you’ve built up a tangled web of legacy business rules and feeling like you need to start afresh? Want to implement something new and exciting but don't know where to begin?
+Nico studied photonics at the University of Southampton before taking a hard left with his career and working in the world of bars and restaurants for a decade.
+
+At university he primarily focused on automated control and measurement, using Python for programming both instrument adjustment actuators and also data collection and analysis. Outside of studies, he was an editor of the newspaper and a popular student politician.
+
+In the hospitality trade in Hampshire Nico quickly gained a reputation as an expert in beer and spirits and as a data-led restaurateur with an eye for efficiency. His company had contracts with local producers, UK market leaders, and international giants. His team operated pubs and restaurants, off-license retailers and events. After achieving multiple TripAdvisor certificates and CAMRA awards, Nico made the decision to switch careers and bring his CX and data experience to other industries.
 
 ### We are here to help you.
 
@@ -18,7 +22,7 @@ We are experienced Zendesk specialists, an all-star squad assembled from operati
 * Establish a testing and deployment process: hypothesise and measure to be sure your changes are effective.
 * All the while, enjoy enhanced support from friendly humans.
 
-Deltastring Ltd is led by Nico Boyce, whose CV includes London unicorns Checkout.com and Starling Bank, S&P 500 component Etsy, along with various other smaller scale B2B and B2C startups, each of which had their own distinct set of Zendesk challenges. He's assisted by a top team of CX and Ops pros on a freelance basis, with experience across industries and functions.
+<p>Deltastring Ltd is led by Nico Boyce, whose CV includes London unicorns Checkout.com and Starling Bank, S&P 500 component Etsy, along with various other smaller scale B2B and B2C startups, each of which had their own distinct set of Zendesk challenges. He's assisted by a top team of CX and Ops pros on a freelance basis, with experience across industries and functions.</p>
 
 ![Nico Boyce, Deltastring Ltd founder.](/public/img/nico-mugshot-small.jpg)
 *CX consultant and Zendesk specialist Nico Boyce leads Deltastring Ltd.*
