@@ -199,11 +199,11 @@ a.sidebar-nav-item:focus {
 
 /* Orange */
 .theme-base-09 .sidebar {
-  background-color: rgba(207, 89, 26, 0.96);
+  background-color: #d05e25;
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
-  color: #cf591a;
+  color: #d05e25;
 }
 
 /* Yellow */
