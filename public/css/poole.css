@@ -245,8 +245,10 @@ img {
   border-radius: 5px;
 }
 
-img .on-mob {
-  display: inline;
+@media (min-width: 48em) {
+  #foot-img {
+    display: inline;
+  }
 }
 
 /* Tables */
