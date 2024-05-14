@@ -271,8 +271,9 @@ a.sidebar-nav-item:focus {
 
 .on-mob {
   display: block;
-  align-items: flex-end;
+  text-align: right;
 }
+
 @media (min-width: 48em) {
   .on-mob {
     display: none;
