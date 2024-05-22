@@ -81,10 +81,6 @@ a:focus {
 
 em {
   font-size: 0.8rem;
-}
-
-img + em {
-  font-size: 0.8rem;
   color: darkgrey;
   line-height: 0.8;
 }
