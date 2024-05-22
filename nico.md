@@ -9,7 +9,8 @@ Nico has been building and hacking software since the mid nineties, starting out
 
 At university he primarily focused on automated control and measurement, using Python for programming both instrument adjustment actuators and also data collection and analysis. Outside of studies, he was an editor of the newspaper and a popular student politician.
 
-> "Nico Boyce is a powerful source of knowledge in the community" —Zendesk User Group UK and Ireland leader
+> "Nico Boyce is a powerful source of knowledge in the community"
+*—Zendesk User Group UK and Ireland leader*
 
 In the super-competitive Hampshire hospitality trade, Nico quickly gained a reputation as an expert buyer of alcohol and as a data-led restaurateur with an eye for efficiency. His company had contracts with local producers, UK market leaders, and international giants. His team operated pubs and restaurants, off-license retailers and events. After achieving multiple TripAdvisor certificates and CAMRA awards, Nico made the decision to switch careers and bring his CX and data experience to other industries.
 
