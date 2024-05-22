@@ -9,7 +9,7 @@ Bringing someone like me in is often not an obvious route. Zendesk is marketed a
 
 Usually at this point your ops managers answer the call from whichever SaaS vendor is cold calling at this time and they have all sorts of services to reduce the cost per ticket. But ultimately bigger savings can be achieved by just outsourcing to a BPO in the Philippines for example.
 
-Where I come in is unlocking this cost-quality doom spiral. Because I am external, I can translate from Ops to Product and back again, and because I have managed support agents and other customer-facing roles then I can help identifying the opportunities.
+Where I come in is unlocking this cost-quality doom spiral. Because I am external, a third party engineer, I can translate from Ops to Product and back again, and because I have managed support agents and other customer-facing roles I can help to identify the opportunities.
 
 The first thing is to get everything out there and understood. From the Ops side we need the process maps, particularly including escalation points, and all the documentation. I export all of the Zendesk objects over the API and have my own tooling for mapping these to CSVs which marry easily to the processes. We get all those files into version control, usually Github. Sometimes organisations prefer to keep Ops config in a separate Git instance to the product.
 
