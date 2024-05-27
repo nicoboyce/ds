@@ -5,7 +5,7 @@ title: "Quick wins: Getting started with the Zendesk API"
 
 I am always always hearing ops managers who want to get better at Zendesk having this particular problem. 
 
-They've some understanding of engineering and they're looking to explore how Zendesk objects look via the API. They have set up token access but hit a roadblock:
+They've some understanding of engineering and they're looking to explore how Zendesk objects look via the API. They have set up token access but hit a roadblock<!--excerpt-end-->:
 
 "I can't get Postman to talk to Zendesk! It just says error 401"
 
