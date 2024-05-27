@@ -25,5 +25,3 @@ Zendesk fell at the intersection between Nico's work passions: using data to gui
 Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic.
 
 Send a quick [email](mailto:nico@deltastring.com) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/) or message Nico on [WhatsApp](https://wa.me/447596476097).
-
-![Deltastring icon](/public/img/delta.png)
