@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Flip Phone Feb?
+published: false
 ---
 
 I've been curious about [Flip Phone February](https://www.notion.so/How-to-Quit-Your-Smartphone-The-New-York-Times-36d2c019930e4f3b97d5432a55363f9b?pvs=21), and not only because ditching the apps apparently merits yet another alliterative month. On paper I should be all over this like tech contractors on client’s swag. In reality, though? It’s as mad as Apple Vision.
