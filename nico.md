@@ -9,7 +9,7 @@ Nico has been building and hacking software since the mid nineties, starting out
 
 At university he primarily focused on automated control and measurement, using Python for programming both instrument adjustment actuators and also data collection and analysis. Outside of studies, he was an editor of the newspaper and a popular student politician.
 
-> "Nico Boyce is a powerful source of knowledge in the community"
+> "Nico Boyce is a powerful source of knowledge in the Zendesk community"
 
 *Zendesk User Group UK and Ireland leader*
 
