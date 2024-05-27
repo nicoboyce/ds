@@ -22,7 +22,7 @@ Zendesk fell at the intersection between Nico's work passions: using data to gui
 ![Nico Boyce, founder of Deltastring Ltd.](/public/img/nico-office.jpeg)
 *CX consultant and Zendesk specialist Nico Boyce is the founder of Deltastring Ltd.*
 
-Outside of work, Nico keeps busy creating and performing across a range of artistic disciplines. His personal website is [https://nicoboyce.com](nicoboyce.com) where you can find out more.
+Outside of work, Nico keeps busy creating and performing across a range of artistic disciplines. His personal website is [nicoboyce.com](https://nicoboyce.com) where you can find out more.
 
 Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic.
 
