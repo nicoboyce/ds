@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-    Quick wins: Getting started with the Zendesk API
+title: "Quick wins: Getting started with the Zendesk API"
 ---
 
 I am always always hearing ops managers who want to get better at Zendesk having this particular problem. 
