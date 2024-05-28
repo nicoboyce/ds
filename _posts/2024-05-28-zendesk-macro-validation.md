@@ -22,13 +22,17 @@ What you do instead is you use Liquid in a macro to populate an internal note wh
 
 Here's a real-life example of the macro Liquid markup:
 
-<code>{% if clientID != empty and tier !&#x3D; \&quot;-\&quot; %}
+{% raw %}
+```
+{% if clientID != empty and tier !&#x3D; \&quot;-\&quot; %}
 Transfer: ok.
 
 Hello accounts team. This ticket was transferred from {{ ticket.group.name }}.
 {% else %}
 Ticket transfer failed, please check the client and tier fields.
-{% endif %}</code>
+{% endif %}
+```
+{% endraw %}
 
 You can see that this macro lets the agent know whether the ticket transfer will go ahead. It also lets the accounts team know where the ticket came from. The macro also adds a tag, something like `transfer-requested` which can activate a trigger.
 
