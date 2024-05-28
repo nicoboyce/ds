@@ -22,7 +22,7 @@ What you do instead is you use Liquid in a macro to populate an internal note wh
 
 Here's a real-life example of the macro Liquid markup:
 
-<code>{% if clientID != empty and tier != \"-\" %}
+<code>{% if clientID != empty and tier !&#x3D; \&quot;-\&quot; %}
 Transfer: ok.
 
 Hello accounts team. This ticket was transferred from {{ ticket.group.name }}.
