@@ -24,7 +24,7 @@ Here's a real-life example of the macro Liquid markup:
 
 {% raw %}
 ```
-{% if clientID != empty and tier !&#x3D; \&quot;-\&quot; %}
+{% if clientID != empty and tier != empty and tier != \"-\" %}
 Transfer: ok.
 
 Hello accounts team. This ticket was transferred from {{ ticket.group.name }}.
