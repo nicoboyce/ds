@@ -4,7 +4,9 @@ title: The Manifesto
 published: False
 ---
 
+# It's here. The Deltastring Manifesto
 
+People asked what we are all about. Here you go...
 
 
 ### Software is inherently opinionated. Sometimes it can be wrong.
