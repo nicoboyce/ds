@@ -26,29 +26,29 @@
         {% endif %}
       {% endfor %}
     </nav>
-
+    <span class="sidebar-nav-item">
+      <!-- Google Calendar Appointment Scheduling begin -->
+      <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+      <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+      <script>
+      (function() {
+        var target = document.currentScript;
+        window.addEventListener('load', function() {
+          calendar.schedulingButton.load({
+            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf?gv=true',
+            color: '#eff0ea',
+            label: 'Book a chat!',
+            target,
+          });
+        });
+      })();
+      </script>
+      <!-- end Google Calendar Appointment Scheduling -->
+      </span>
+      <br />
     <span class="sidebar-nav-item"><a href="mailto:nico@deltastring.com">Email</a> | <a href="https://www.linkedin.com/in/nicoboyce/">LinkedIn</a> | <a href="https://wa.me/447769023498">WhatsApp</a></span>
 <br />
-    <span class="sidebar-nav-item">
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf?gv=true',
-      color: '#eff0ea',
-      label: 'Book a chat!',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
-</span>
-<br />
+
     <span class="sidebar-nav-item no-mob">{% include info.html %}</span>
   </div>
 </div>
