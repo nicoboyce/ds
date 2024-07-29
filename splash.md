@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Splash
+title: Deltastring Ltd.
 ---
 
 <h1>Deltastring are the Zendesk solution experts.</h1>
