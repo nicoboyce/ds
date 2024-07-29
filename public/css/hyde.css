@@ -56,7 +56,7 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: {{ site.dark }};
+  color: #1C0B31;
   background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -72,7 +72,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: {{ site.dark }};
+  color: #1C0B31;
 }
 @media (min-width: 64em) {
   .lead {
@@ -83,7 +83,7 @@ html {
 /* About section */
 .sidebar-about h1 {
   margin-bottom: .5rem;
-  color: {{ site.light }};
+  color: #EFF0EA;
   margin-top: 0;
   font-family: "Rokkitt", serif;
   font-size: 2.7rem;
