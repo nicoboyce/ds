@@ -13,6 +13,9 @@ url:              https://deltastring.com
 baseurl:          /main/
 email:            nico@deltastring.com
 tel:              447769023498
+dark:             #1C0B31
+light:            #EFF0EA
+orange:           #d05e25
 
 author:
   name:           'Nico Boyce'

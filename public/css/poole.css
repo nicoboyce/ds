@@ -59,8 +59,8 @@ html {
 }
 
 body {
-  color: #1C0B31;
-  background-color: #eff0ea;
+  color: {{ site.dark }};
+  background-color: {{ site.light }};
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lemonada", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.25;
-  color: #1C0B31;
+  color: {{ site.dark }};
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -140,7 +140,7 @@ hr {
   margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #eff0ea;
+  border-bottom: 1px solid {{ site.light }};
 }
 
 abbr {
