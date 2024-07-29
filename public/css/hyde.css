@@ -289,3 +289,13 @@ a.sidebar-nav-item:focus {
     width: 600px;
   }
 }
+
+.page > p img {
+  width: 100%;
+}
+
+@media (min-width: 48em) {
+  .page > p img {
+    width: 600px;
+  }
+}
