@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Deltastring
+title: About Us
 ---
 
 # Deltastring are the bespoke Zendesk solutions agency

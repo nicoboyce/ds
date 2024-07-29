@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Who is Nico Boyce?
+title: More about Nico
 ---
 
 # Nico Boyce is the leader of Deltastring Ltd.
