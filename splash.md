@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Deltastring are the London Zendesk implementation specialists
+title: Splash
 ---
 
 <h1>Deltastring is a business which does things</h1>
