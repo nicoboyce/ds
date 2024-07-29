@@ -11,7 +11,7 @@ They've some understanding of engineering and they're looking to explore how Zen
 
 It's not obvious but this is how to do it. You just choose "basic auth" and add /token to the username, which will be the email address for your Zendesk account. The password is the token.
 
-For example if your email address is nico@deltastring.com (probably not because that's my email address) set your Basic Auth username to be "nico@deltastring.com/token" and the password to be the token string.
+For example if your email address is {{ site.email }} (probably not because that's my email address) set your Basic Auth username to be "{{ site.email }}/token" and the password to be the token string.
 
 ![Connecting to Zendesk in Postman.](/public/img/postman.png)
 *Connecting to Zendesk in Postman.*

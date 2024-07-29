@@ -27,4 +27,4 @@ We at Deltastring specialise in bringing DevOps processes to govern your Zendesk
 
 Does better Zendesk change management sound good? Time to get in touch.
 
-Send a quick [email](mailto:nico@deltastring.com) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/) or message Nico on [WhatsApp](https://wa.me/447596476097).
+Send a quick [email](mailto:{{ site.email }}) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/) or message Nico on [WhatsApp](https://wa.me/447596476097).
