@@ -5,7 +5,7 @@ title: More about Nico
 
 # Nico Boyce is the leader of Deltastring Ltd.
 
-Nico has been hacking and building software since the mid nineties, starting out with a scavenged Zenith SupersPort and a Nokia 2110. An early project was porting an ELIZA implementation found on an old 5¼" floppy to TI Basic. Find another Zendesk engineer with over 25 years experience building chatbots!
+Nico has been hacking and building software since the mid nineties, starting out with a scavenged Zenith SupersPort and a Nokia 2110. An early project was porting an ELIZA implementation, found on an old 5¼" floppy, over to TI Basic. Find another Zendesk engineer with over 25 years experience building chatbots!
 
 He studied photonics at the University of Southampton before taking a hard left with his career and working in the world of bars and restaurants for a decade.
 
