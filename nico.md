@@ -12,7 +12,7 @@ He studied photonics at the University of Southampton before taking a hard left 
 ![Nico Boyce, founder of Deltastring Ltd.](/public/img/nicooo.jpeg)
 *Nico Boyce, Zendesk expert*
 
-At university he primarily focused on automated control and measurement, using Python for programming both instrument adjustment actuators and also data collection and analysis. Outside of studies, he was an editor of the newspaper and a popular student politician.
+At university he primarily focused on automated control and measurement, using Python for programming both instrument adjustment actuators and also data collection and analysis. Outside of studies, he was editor of the campus newspaper and a popular student politician.
 
 > "Nico Boyce is a powerful source of knowledge in the Zendesk community"
 
