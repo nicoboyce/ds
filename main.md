@@ -17,3 +17,7 @@ No task is too big or too small. We've set up Zendesk for teams of under ten and
 ### Let's make excellent happen, together.
 
 Get in touch and let's solve interesting problems.
+
+>"Delivered on time, on budget, in deep partnership, improving the daily work for our care partners, directly impacting the experience of our merchants"
+
+*—VP Experience, Checkout.com*
