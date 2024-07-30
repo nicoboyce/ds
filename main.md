@@ -14,10 +14,10 @@ Sometimes we're a little different to other Zendesk agencies. We're not super bi
 
 No task is too big or too small. We've set up Zendesk for teams of under ten and we've revamped instances with agents totalling over ten thousand. We like a challenge. Show us what you've got!
 
-### Let's make excellent happen, together.
-
 Get in touch and let's solve interesting problems.
+
+### Let's make excellent happen, together.
 
 >"Delivered on time, on budget, in deep partnership, improving the daily work for our care partners, directly impacting the experience of our merchants"
 
-*—VP Experience, Checkout.com*
+*—Eric Matteson, VP Experience, Checkout.com*

@@ -13,6 +13,10 @@ Well no, at least not for us. We have a [methodology](https://deltastring.com/20
 
 ### So who are you?
 
+>"Nico is London's best teacher of Zendesk" 
+
+*—Jake Samson, Systems Manager at HyperJar*
+
 I am Nico Boyce. You can read more about me on [this page](https://deltastring.com/nico/) or even more on my personal website [nicoboyce.com](https://nicoboyce.com). I'm the leader of Deltastring and the writer of the [Zendesk Cookbook](https://deltastring.com/2024/07/29/well-read/). I primarily focus on the technical and engineering side of things. We have some top freelancers in the Deltastring family with expertise across operations and CX functions, specifically processes and data.
 
 ![Nico Boyce, founder of Deltastring Ltd.](/public/img/nico-office.jpeg)

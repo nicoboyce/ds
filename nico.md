@@ -16,7 +16,7 @@ At university he primarily focused on automated control and measurement, using P
 
 > "Nico Boyce is a powerful source of knowledge in the Zendesk community"
 
-*—Zendesk User Group UK and Ireland leader*
+*—Jason McDonald, Zendesk User Group leader*
 
 In the super-competitive Hampshire hospitality trade, Nico quickly gained a reputation as an expert buyer of alcohol and as a data-led restaurateur with an eye for efficiency. His company had contracts with local producers, UK market leaders, and international giants. His team operated pubs and restaurants, off-license retailers and events. After achieving multiple TripAdvisor certificates and CAMRA awards, Nico made the decision to switch careers and bring his CX and data experience to other industries.
 
