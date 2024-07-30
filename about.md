@@ -3,28 +3,21 @@ layout: page
 title: About Us
 ---
 
-# Deltastring are the bespoke Zendesk solutions agency
+# Deltastring build Zendesk solutions.
 
-Feel like you’re losing the battle with your own systems? Worried that you’ve built up a tangled web of legacy business rules and feeling like you need to start afresh? Want to implement something new and exciting but don't know where to begin?
+It's as simple as that. You bring the Zendesk, we'll bring the solutions.
 
-### We are here to help you.
+### It's not that simple though, is it?
 
-We are experienced Zendesk specialists, an all-star squad assembled from operations pros across sectors, based in the South of England. Here is how we perform best:
+Well no, at least not for us. We have a [methodology](https://deltastring.com/2024/05/22/unlock-zendesk-with-deltastring/) you can read about. We also have a manifesto in development. Beyond that, we have a stack of laptops and a big ol' archive of scripts and processes and hopes and dreams.
 
-* API export of all Zendesk objects: views, macros, triggers, automations, roles, groups, and so on. Let's get the complete picture and full understanding.
-* Version control: track all changes, document as we implement, develop a release schedule. Apply engineering principles to your instance.
-* Process mapping: find how everything within your Zendesk interacts. Be sure where each ticket goes. Reverse engineer legacy routines and identify opportunities to simplify and streamline.
-* Cleanup: orphaned objects are carefully removed, broken references are resolved, non-functional items are disabled.
-* Establish a testing and deployment process: hypothesise and measure to be sure your changes are effective.
-* All the while, enjoy enhanced support from friendly humans.
+### So who are you?
 
-Deltastring Ltd is led by Nico Boyce, whose CV includes London unicorns Checkout.com and Starling Bank, S&P 500 component Etsy, along with various other smaller scale B2B and B2C startups, each of which had their own distinct set of Zendesk challenges. He's assisted by a top team of CX and Ops pros on a freelance basis, with experience across industries and functions.
+I am Nico Boyce. You can read more about me on [this page](https://deltastring.com/nico/) or even more on my personal website [nicoboyce.com](https://nicoboyce.com). I'm the leader of Deltastring, primarily focused on the technical and engineering side of things. We have some top freelancers in the Deltastring family with expertise across operations and CX functions.
 
-![Nico Boyce, Deltastring Ltd founder.](/public/img/nico-mugshot-small.jpg)
-*CX consultant and Zendesk specialist Nico Boyce leads Deltastring Ltd.*
+![Nico Boyce, founder of Deltastring Ltd.](/public/img/nico-office.jpeg)
+*CX consultant and Zendesk specialist Nico Boyce is the founder of Deltastring Ltd.*
 
-We at Deltastring specialise in bringing DevOps processes to govern your Zendesk and associated tooling.
+### I have other questions
 
-Does better Zendesk change management sound good? Time to get in touch.
-
-Send a quick [email](mailto:{{ site.email }}) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/) or message Nico on [WhatsApp](https://wa.me/447596476097).
+There's a range of ways to get in touch and we're happy to chatter on all things Zendesk.
