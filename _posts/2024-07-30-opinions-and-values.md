@@ -5,7 +5,7 @@ title: "We value your opinion"
 
 It's okay as a small business, as a contractor, as a supplier, to be opinionated. It's okay to bring those opinions to the table talking to clients.
 
-The next step is the key step.
+The next step is the key step.<!--excerpt-end-->
 
 Decide what happens if the client takes the opposite position and will not budge.
 
