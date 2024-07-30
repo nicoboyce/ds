@@ -4,7 +4,7 @@ title: Deltastring are the London Zendesk implementation specialists
 ---
 
 ![This is not an image of Deltastring HQ.](/public/img/office.jpeg)
-*Deltastring HQ does not look like this stock photo.*
+*Deltastring .*
 
 # Hello. We are Deltastring.
 
