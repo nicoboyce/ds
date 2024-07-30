@@ -7,7 +7,7 @@ title: More about Nico
 
 Nico has been hacking and building software since the mid nineties, starting out with a scavenged Zenith SupersPort and a Nokia 2110. An early project was porting an ELIZA implementation, found on an old 5¼" floppy, over to TI Basic. Find another Zendesk engineer with over 25 years experience building chatbots!
 
-He studied photonics at the University of Southampton before taking a hard left with his career and working in the world of bars and restaurants for a decade.
+He studied photonics at the University of Southampton before taking a hard left with his career and working in the world of bars and restaurants for a decade. Now he operates Deltastring and also is the author and maintainer of the [Zendesk Cookbook](https://deltastring.com/2024/07/29/well-read/).
 
 ![Nico Boyce, founder of Deltastring Ltd.](/public/img/nicooo.jpeg)
 *Nico Boyce, Zendesk expert*
