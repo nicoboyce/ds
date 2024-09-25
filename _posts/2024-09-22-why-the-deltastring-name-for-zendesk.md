@@ -5,8 +5,8 @@ title: Why are we called Deltastring?
 
 Sometimes I get asked about how I named the company. It's not an easy thing to do. Here's what I thought about.
 
-![The Deltastring tool preview.](/public/img/tool.jpeg)
-*The Deltastring tool, a preview*
+<p><img src="/public/img/tool.jpeg" alt="The Deltastring tool preview." style="mix-blend-mode: darken;">
+<em>The Deltastring tool, a preview</em></p>
 
 Deltastring Ltd isn't my first company. I previously had a business in the restaurant trade<!--excerpt-end--> which I closed down at the end of 2019. I gave that company a name which was personal to me. I think names have a lot of influence over how we feel about things, and I would have liked to feel less bad about the end of that endeavour.
 
