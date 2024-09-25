@@ -24,6 +24,4 @@ I am Nico Boyce. You can read more about me on [this page](https://deltastring.c
 
 ### I have other questions
 
-Here's a range of ways to get in touch: [email](mailto:{{ site.email }}), [LinkedIn](https://www.linkedin.com/in/nicoboyce/), [WhatsApp](https://wa.me/{{ site.tel }}). We're happy to chatter on all things Zendesk.
-
-
+Please do get in touch: [email](mailto:{{ site.email }}), [LinkedIn](https://www.linkedin.com/in/nicoboyce/), [WhatsApp](https://wa.me/{{ site.tel }}). We're happy to chatter on all things Zendesk.
