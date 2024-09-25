@@ -40,7 +40,7 @@ I worked at igloo.energy and at hofy.co but one of those later went and bought t
 
 > The company name must be made of existing real words.
 
-Have you ever worked at a company where the name was a portmanteau or acronym or something with no obvious meaning or pronounciation? I certainly have. Sometimes you're a huge success and your name enters the public lexicon. I'm talking Ebay or Google type thing. Mostly you're not ever big enough that people stop asking how it's pronounced.
+Have you ever worked at a company where the name was a portmanteau or acronym or something with no obvious meaning or pronounciation? I certainly have. Sometimes you become huge and your name enters the public lexicon. I'm talking Ebay or Google type thing. Mostly you're not ever big enough that people stop asking how it's pronounced.
 
 Again, Hofy is an example of this one. Depop was another place I worked that broke this rule. Did it work for them? Both were acquired by larger companies which also break this rule: Deel and Etsy respectively.
 
