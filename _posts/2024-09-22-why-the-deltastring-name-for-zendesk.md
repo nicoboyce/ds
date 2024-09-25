@@ -71,3 +71,9 @@ Delta is a symbol used in maths and sciences to denote a change or difference in
 A string, in this sense, is a data type containing a series of characters. There's a more thorough description on [Wikipedia](https://en.wikipedia.org/wiki/String_(computer_science)) should you want that.
 
 The Deltastring name jumped out at me from the list of available two word .com domains and I'm still happy with it. What do you think?
+
+#### addendum
+
+After publishing this it occurred to me that I read something similar from Paul Graham many years ago, which is still online [here](https://paulgraham.com/name.html).
+
+I think I recall that Paul Graham persuaded justin.tv to change their name to twitch.com and I think that worked out okay for them?
