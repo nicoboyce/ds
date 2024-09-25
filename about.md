@@ -9,7 +9,7 @@ It's as simple as that. You bring the Zendesk, we'll bring the solutions.
 
 ### It's not that simple though, is it?
 
-Well no, at least not for us. We have a [methodology](https://deltastring.com/2024/05/22/unlock-zendesk-with-deltastring/) you can read about. We also have a manifesto in development. Beyond that, we have a stack of laptops and a big ol' archive of scripts and processes and hopes and dreams.
+Well no, at least not for us. We have a [methodology](https://deltastring.com/2024/05/22/unlock-zendesk-with-deltastring/) you can read about. We also have a [manifesto](https://deltastring.com/manifesto/). Beyond that, we have a stack of laptops and a big ol' archive of scripts and processes and hopes and dreams.
 
 ### So who are you?
 

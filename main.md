@@ -11,7 +11,7 @@ We're the friendly Zendesk solution specialists.
 
 Sometimes we're a little different to other Zendesk agencies. We're not super big and set in our ways, but we have plenty of experience and can work within your processes.
 
-No task is too big or too small. We've set up Zendesk for teams of under ten and we've revamped instances with agents totalling over ten thousand. We like a challenge. Show us what you've got!
+No task is too big or too small. We've set up Zendesk for teams of under ten and we've revamped instances with agents totalling tens of thousands. We like a challenge. Show us what you've got!
 
 Get in touch and let's solve interesting problems.
 
