@@ -76,4 +76,4 @@ The Deltastring name jumped out at me from the list of available two word .com d
 
 After publishing this it occurred to me that I read something similar from Paul Graham many years ago, which is still online [here](https://paulgraham.com/name.html).
 
-As I recall that Paul Graham persuaded justin.tv to change their name to twitch.com and I think that worked out okay for them?
+As I recall Paul Graham persuaded justin.tv to change their name to twitch.com and I think that worked out okay for them?
