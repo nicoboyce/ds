@@ -13,7 +13,7 @@ I believe that AI is a red herring. We'll all be unpicking it from our tooling s
 
 These AI system vendors all said "You're probably worrying that we're going to replace your real humans but actually we're just here to make them more efficient!" You don't need to type at chatGPT or whatever the latest model is for too long before you see that there's no risk of this fully replacing a real human person. On the other hand, making your existing humans more efficient is functionally the same as replacing some subset. If your average worker now performs 20% more operations over a time then you're now able to reduce your total worker-hours accordingly.
 
-Think of it like your local supermarket. Mine is now full of these wretched self-service machines, with one or two people hanging around to make sure nothing goes wrong. What happened to the friendly checkout lad with the cappuccino-stain moustache? Who knows.
+Think of it like your local supermarket. Mine is now full of these wretched self-service machines, with one or two people hanging around to make sure nothing goes wrong. What happened to the friendly checkout lad with the cappuccino-stain moustache? Who knows. But who will tell me where to find the eggs?
 
 ![My old Blackberry.](/public/img/work.jpg)
 *I am no Luddite but I have to admit I still miss this thing.*
