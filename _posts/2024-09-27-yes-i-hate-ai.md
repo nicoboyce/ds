@@ -7,7 +7,7 @@ title: Yes I hate AI and I'm not yet afraid to say it
 
 You can probably tell from the title of this post that I am not, at present, an AI advocate. Have you implemented some AI system recently? Apparently they are all the rage, but I don't see it at ground level. I certainly see them cause plenty of rage.
 
-I believe that AI is a red herring. We'll all be unpicking it from our tooling soon enough. Here's some reasons to stay away from building solutions on these AI products.
+I believe that AI is a red herring. We'll all be unpicking it from our tooling soon enough. Here's some reasons to stay away from building solutions on these AI products.<!--excerpt-end-->
 
 ## Don't lose rungs from your career ladder
 
