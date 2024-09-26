@@ -32,11 +32,11 @@ It's in these situations that even the best planned processes can crumble. Ticke
 
 ### What does Marques get wrong?
 
-One thing I see again and again from MKBHD is that Marques doesn't consider his situation unusual. He makes Youtube videos for a living, which is great but almost no one else out there does that. When I buy a new laptop, it is because I have some work to do. Fundamentally, I want the technology to get out of my way and let me do the thing. The problem is, "doing the thing" looks different at my desk to his. Exporting 8k footage from Final Cut has different requirements to juggling windows of VS Code, Excel, Notepad++ and so on. But I am sure that the vast majority of people who work on computers use Excel daily and Final Cut never.
+One thing I see again and again from MKBHD is that Marques doesn't consider his situation unusual. He makes Youtube videos for a living, which is great but almost no one else out there does that. When I buy a new laptop, it is because I have some work to do. Fundamentally, I want the technology to get out of my way and let me do the thing. The problem is, "doing the thing" looks different at my desk to his. Exporting 8k footage from Final Cut has different requirements to juggling windows of VS Code, Excel, Notepad++ and so on. But I am sure that the vast majority of people who work on computers use Excel daily and Final Cut approximately never.
 
 That's not to say there's no space for finding the joy in tech, but these things are a means to an end for almost all of us in 2024. I'm not preordering the latest gadget these days, just trying to help my users achieve more and complain less.
 
-That said, I did move my home office around and take a quick ugly snap at the weekend. What do you think?
+That said, I did move my home office around and take a quick ugly snap at the weekend. Works for me!
 
 ![Nico's desk.](/public/img/desk.jpeg)
 *Nico's desk in his home office and studio space.*
