@@ -32,7 +32,7 @@ Did you know that the water companies in the UK use dowsing to try and detect le
 
 ## What is happening in there?
 
-These models essentially ingest all the content their designers can steal. They consume thoughts and ideas and excrete a bizarre parody of reasoning. Be prepared to talk them through [the simplest of queries](https://xeiaso.net/blog/2024/strawberry/) and definitely don't let them talk directly to your customers.
+These models essentially ingest all the content their designers can steal. They consume thoughts and ideas and excrete a bizarre parody of reasoning. Be prepared to talk them through [the simplest of queries](https://xeiaso.net/blog/2024/strawberry/) and definitely don't let them talk directly to your customers. Definitely don't pipe sensitive data in and don't be surprised if [it turns out you're dead](https://www.tomsguide.com/opinion/according-to-chatgpt-im-dead).
 
 ![A Chevy for a dollar.](/public/img/chevy.jpg)
 *A Chevy for a dollar. Bargain.*
@@ -49,4 +49,4 @@ If you're "all-in" on AI then it's going to be very expensive to get out of it w
 
 #### addendum
 
-Between writing and publishing this, OpenAI CEO Sam Altman did the thing that he was previously temporarily sacked for planning but said he wouldn't do but we all knew he definitely would, ditching the non-profit foundation and reportedly awarding himself billions of dollars of equity. Shocking stuff. [Vox has the best summary](https://www.vox.com/future-perfect/374275/openai-just-sold-you-out) and brace yourself for OpenAI to do big dollar deals with the big software vendors while the pricing goes to the moon for anyone who isn't Microsoft scale.
+Between writing and publishing this, news broke that OpenAI CEO Sam Altman did the thing that he was previously temporarily sacked for planning but said he wouldn't do but we all knew he definitely would, ditching the non-profit foundation and reportedly awarding himself billions of dollars of equity. Shocking stuff. [Vox has the best summary](https://www.vox.com/future-perfect/374275/openai-just-sold-you-out) and brace yourself for OpenAI to do big dollar deals with the big software vendors while the pricing goes to the moon for anyone who isn't Microsoft scale.
