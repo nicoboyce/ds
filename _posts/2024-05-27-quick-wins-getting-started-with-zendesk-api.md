@@ -16,6 +16,6 @@ For example if your email address is {{ site.email }} (probably not because that
 ![Connecting to Zendesk in Postman.](/public/img/postman.png)
 *Connecting to Zendesk in Postman.*
 
-Make sure you're using a GET type request and take a look through the responses to queries such as https://{your-domain}.zendesk.com/api/v2/{object}.json where {object} can be macros, views, triggers, and other objects as described in the [Zendesk developers API reference](https://developer.zendesk.com/api-reference/ticketing/introduction/).
+Make sure you're using a GET type request and take a look through the responses to queries such as https://{your-domain}.zendesk.com/api/v2/{object}.json where {object} can be macros, views, triggers, and other objects as described in the [Zendesk developers API reference](https://developer.zendesk.com/api-reference/ticketing/introduction/){:target="_blank"}.
 
 Be sure to let me know any suggestions you have for more quick wins I can share!

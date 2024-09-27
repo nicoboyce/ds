@@ -24,4 +24,4 @@ Our founder is Nico Boyce. You can read more about Nico on [this page](https://d
 
 ### I have other questions
 
-Please do get in touch: [email](mailto:{{ site.email }}), [LinkedIn](https://www.linkedin.com/in/nicoboyce/), [WhatsApp](https://wa.me/{{ site.tel }}). We're happy to chatter on all things Zendesk.
+Please do get in touch: [email](mailto:{{ site.email }}), [LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"}, [WhatsApp](https://wa.me/{{ site.tel }}). We're happy to chatter on all things Zendesk.

@@ -3,7 +3,7 @@ layout: post
 title: How do you unlock your Zendesk? Why bring in Deltastring?
 ---
 
-I was chatting with a friend-of-a-friend on [LinkedIn](https://www.linkedin.com/in/nicoboyce/) and while they were familiar with Zendesk, they weren't sure what a Zendesk consultant would do for a business. Maybe this is true more generally, so here's how I explained it on this day in history.
+I was chatting with a friend-of-a-friend on [LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"} and while they were familiar with Zendesk, they weren't sure what a Zendesk consultant would do for a business. Maybe this is true more generally, so here's how I explained it on this day in history.
 
 Bringing someone like me in is often not an obvious route. Zendesk is marketed as a no code solution, usually it is owned within BizOps and they just have their techiest support agent add macros etc. But then down the road it becomes a sprawling mess of disjointed objects<!--excerpt-end--> and there's no way they are handing it over to a product team like that. Your agents all need two screens and their fingers lock in to the shape of ctrl+c/v because your systems don't talk.
 

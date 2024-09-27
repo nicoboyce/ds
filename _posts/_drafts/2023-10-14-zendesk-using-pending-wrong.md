@@ -4,7 +4,7 @@ title: Zendesk teams are mostly using Pending wrong
 published: false
 ---
 
-It's 2023 and we all ought to know better than to be dragged into daft debates on the internet. This is particularly true on two of my favourite sites, Stack Overflow and [LinkedIn](https://www.linkedin.com/in/nicoboyce/). Yet here I am needing more words and space to explain this one. At least we're now on my own website where no one can write underneath "You're wrong Nico!" and create further confusion.
+It's 2023 and we all ought to know better than to be dragged into daft debates on the internet. This is particularly true on two of my favourite sites, Stack Overflow and [LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"}. Yet here I am needing more words and space to explain this one. At least we're now on my own website where no one can write underneath "You're wrong Nico!" and create further confusion.
 
 If you're reading this, you're probably familiar with the Pending status in Zendesk and also might have chuckled at the post which led to this. It was just a daft meme of someone celebrating, captioned "When they finally let you solve the thousands of tickets in the Pending view" or similar. This was of course sufficient to trigger a lengthy argument: what is the Pending status even for?<!--excerpt-end-->
 

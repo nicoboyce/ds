@@ -7,7 +7,7 @@ Inspiration for today's quick win comes from Reddit user Yaldabaoth2000, who ask
 
 Let's dive in and see if we can come up with a better answer than Reddit managed<!--excerpt-end-->:
 
-To be honest, Reddit isn't the place to go for this. You'll find experienced Zendesk pros on the Slack at [Support Driven](https://www.supportdriven.com/) or in the Linkedin Zendesk Certified group or plenty of other places, but I don't recommend Reddit. This particular discussion is a great example.
+To be honest, Reddit isn't the place to go for this. You'll find experienced Zendesk pros on the Slack at [Support Driven](https://www.supportdriven.com/){:target="_blank"} or in the Linkedin Zendesk Certified group or plenty of other places, but I don't recommend Reddit. This particular discussion is a great example.
 
 ![Reddit doesn't Zendesk.](/public/img/reddit.jpeg)
 *Reddit doesn't Zendesk.*
