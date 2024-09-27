@@ -32,7 +32,7 @@ Did you know that the water companies in the UK use dowsing to try and detect le
 
 ## What is happening in there?
 
-These models essentially ingest all the content their designers can steal. They consume thoughts and ideas and excrete a bizarre parody of reasoning. Be prepared to talk them through [the simplest of queries](https://xeiaso.net/blog/2024/strawberry/) and definitely don't let them talk directly to your customers. Definitely don't pipe sensitive data in and don't be surprised if [it turns out you're dead](https://www.tomsguide.com/opinion/according-to-chatgpt-im-dead).
+These models essentially ingest all the content their designers can steal. They consume thoughts and ideas and excrete a bizarre parody of reasoning. Be prepared to talk them through [the simplest of queries](https://xeiaso.net/blog/2024/strawberry/) and definitely don't let them talk directly to your customers. Definitely [don't tell it any secrets](https://www.reddit.com/r/ChatGPT/comments/129ltu5/can_chatgpt_really_keep_a_secret_see_my/) in and don't be surprised if [it turns out you're dead](https://www.tomsguide.com/opinion/according-to-chatgpt-im-dead).
 
 ![A Chevy for a dollar.](/public/img/chevy.jpg)
 *A Chevy for a dollar. Bargain.*
