@@ -1,7 +1,7 @@
 
 
 @font-face {
-  font-family: 'Atkinson-Hyperlegible';
+  font-family: Atkinson-Hyperlegible;
   src: url('/public/fonts/woff/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
   font-weight: normal;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'Atkinson-Hyperlegible';
+  font-family: Atkinson-Hyperlegible;
   src: url('/public/fonts/woff/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
   font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Atkinson-Hyperlegible';
+  font-family: Atkinson-Hyperlegible;
   src: url('/public/fonts/woff/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
   font-weight: normal;
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'Atkinson-Hyperlegible';
+  font-family: Atkinson-Hyperlegible;
   src: url('/public/fonts/woff/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');
   font-weight: bold;
@@ -34,7 +34,7 @@
 
 /* Font Two */
 @font-face {
-  font-family: 'AmstradPC';
+  font-family: AmstradPC;
   src: url('/public/fonts/woff/WebPlus_Amstrad_PC.woff') format('woff'),
        url('/public/fonts/ttf/MxPlus_Amstrad_PC.ttf') format('truetype');
   font-weight: normal;
@@ -44,7 +44,7 @@
 
 
 html {
-  font-family: 'Atkinson-Hyperlegible', sans-serif;
+  font-family: Atkinson-Hyperlegible, sans-serif;
 }
 
 @media (min-width: 48em) {
@@ -97,7 +97,7 @@ html {
   margin-bottom: .5rem;
   color: #EFF0EA;
   margin-top: 0;
-  font-family: "AmstradPC", serif;
+  font-family: AmstradPC, serif;
   font-size: 2.7rem;
 }
 @media (min-width: 64em) {
