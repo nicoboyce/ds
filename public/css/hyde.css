@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Atkinson-Hyperlegible';
-  src: url('/public/fonts/woff/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'),
+  src: url('/public/fonts/woff/Atkinson-Hyperlegible-Regular-102a.woff') format('woff'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Atkinson-Hyperlegible';
-  src: url('/public/fonts/woff/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'),
+  src: url('/public/fonts/woff/Atkinson-Hyperlegible-Bold-102a.woff') format('woff'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Atkinson-Hyperlegible';
-  src: url('/public/fonts/woff/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'),
+  src: url('/public/fonts/woff/Atkinson-Hyperlegible-Italic-102a.woff') format('woff'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: 'Atkinson-Hyperlegible';
-  src: url('/public/fonts/woff/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'),
+  src: url('/public/fonts/woff/Atkinson-Hyperlegible-BoldItalic-102a.woff') format('woff'),
        url('/public/fonts/ttf/Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
