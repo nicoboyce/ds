@@ -1,7 +1,7 @@
 
 
 html {
-  font-family: "Karma", Helvetica, Arial, sans-serif;
+/*  font-family: "Karma", Helvetica, Arial, sans-serif; */
 }
 @media (min-width: 48em) {
   html {
@@ -14,6 +14,11 @@ html {
   }
 }
 
+@font-face {
+  font-family: 'AmstradPC';
+  src: url('/public/WebPlus_Amstrad_PC.woff') format('woff'),
+       url('/public/MxPlus_Amstrad_PC.ttf') format('truetype');
+}
 
 /*
  * Sidebar
@@ -54,7 +59,7 @@ html {
   margin-bottom: .5rem;
   color: #EFF0EA;
   margin-top: 0;
-  font-family: "Rokkitt", serif;
+  font-family: "AmstradPC", serif;
   font-size: 2.7rem;
 }
 @media (min-width: 64em) {
