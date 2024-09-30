@@ -86,7 +86,7 @@ em {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Atkinson-Hyperlegible, Helvetica, Arial, sans-serif;
+  font-family: 'Atkinson-Hyperlegible', Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.25;
   color: #1C0B31;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 2rem;
-  font-family: AmstradPC;
+  font-family: 'AmstradPC';
 }
 h2 {
   margin-top: 1rem;
@@ -410,7 +410,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: AmstradPC, Helvetica, Arial, sans-serif;
+  font-family: 'AmstradPC', Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
