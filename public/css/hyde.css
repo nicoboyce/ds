@@ -1,21 +1,5 @@
 
 
-html {
-  font-family: "Atkinson-Hyperlegible", Helvetica, Arial, sans-serif;
-}
-
-@media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-/* Font One */
 @font-face {
   font-family: 'Atkinson-Hyperlegible';
   src: url('/public/fonts/woff/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'),
@@ -55,6 +39,23 @@ html {
        url('/public/fonts/ttf/MxPlus_Amstrad_PC.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+
+
+html {
+  font-family: Atkinson-Hyperlegible, Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
 }
 
 /*
