@@ -9,10 +9,6 @@
   <link rel="stylesheet" href="{{ site.url }}/public/css/syntax.css">
   <link rel="stylesheet" href="{{ site.url }}/public/css/hyde.css">
 
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -32,35 +28,5 @@
         {{ page.title }} &middot; {{ site.title }}
       {% endif %}
     </title>
-    {% if page.title == "Deltastring Ltd." %}
-    <style>
-      body {
-        background-image: url('/public/img/office.jpeg');
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        background-size: cover;
-        background-position: center top;
-      }
-      h1 {
-        font-size: 4rem; font-family: 'AmstradPC'; font-weight: bold; color: #1C0B31; text-align: left; text-shadow: 2px 2px 4px #EFF0EA; line-height: 1;
-      }
-      .splash {
-        background-color: #1C0B31;
-        background-blend-mode: lighten;
-      }
-      .button {
-        display: inline-block;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        transition: 0.3s;
-        color: #d05e25; background-color: #EFF0EA; font-size: 2em; font-family: 'AmstradPC'; font-weight: normal; text-align: center; border-radius:10%; padding:1% 2%;
-      }
-      .button:hover {
-        background-color: #ffffff;
-      }
-      </style>
-      {% else %}
-      {% endif %}
-
+    
 </head>
