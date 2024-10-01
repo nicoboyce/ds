@@ -329,3 +329,7 @@ a.sidebar-nav-item:focus {
   row-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 }
+
+.clientlogos {
+  mix-blend-mode: darken;
+}
