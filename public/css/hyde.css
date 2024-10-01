@@ -318,3 +318,11 @@ a.sidebar-nav-item:focus {
     width: 600px;
   }
 }
+
+.logo {
+  display: grid;
+  width: 100%;
+  column-gap: 2%;
+  row-gap: 50px;
+  background-color: darkgrey;
+}
