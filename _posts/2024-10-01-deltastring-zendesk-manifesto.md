@@ -1,9 +1,10 @@
 ---
-layout: page
-title: The Manifesto
+layout: post
+title: The Deltastring Manifesto
+meta: Rules to live your best Zendesk life by.
 ---
 
-# It's here. The Deltastring Manifesto
+*{{ page.meta }}*
 
 People asked what we are all about. We're happy to explain.
 

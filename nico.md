@@ -1,6 +1,7 @@
 ---
 layout: page
 title: More about Nico
+meta: Nico Boyce, top London Zendesk expert.
 ---
 
 # Nico Boyce is the leader of Deltastring Ltd.
