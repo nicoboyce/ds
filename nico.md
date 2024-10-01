@@ -9,7 +9,7 @@ Nico has been hacking and building software since the mid nineties, starting out
 
 He studied photonics at the University of Southampton before taking a hard left with his career and working in the world of bars and restaurants for a decade. Now he operates Deltastring and also is the author and maintainer of the [Zendesk Cookbook](https://deltastring.com/2024/07/29/well-read/).
 
-![Nico Boyce, Zendesk expert, Deltastring Ltd.](/public/img/nico-mugshot-small.jpg)
+![Nico Boyce, Zendesk expert, Deltastring Ltd.](/public/img/work-day.jpg)
 *Nico Boyce, Zendesk expert, Deltastring Ltd.*
 
 At university he primarily focused on automated control and measurement, using Python for programming both instrument adjustment actuators and also data collection and analysis. Outside of studies, he was editor of the campus newspaper and a popular student politician.
