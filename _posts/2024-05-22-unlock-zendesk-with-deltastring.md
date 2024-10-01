@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How do you unlock your Zendesk? Why bring in Deltastring?
-meta: Be the Zendesk contractor ready for anything with this ultimate kit list!
+meta: Your customers see Zendesk as a core part of your service. Now you can treat it accordingly.
 ---
 
 *{{ page.meta }}*

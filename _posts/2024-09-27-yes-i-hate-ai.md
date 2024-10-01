@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Yes I hate AI and I'm not yet afraid to say it
+meta: though when the machines rise up please don't quote me on that
 ---
 
-*though when the machines rise up please don't quote me on that*
+*{{ page.meta }}*
 
 You can probably tell from the title of this post that I am not, at present, an AI advocate. Have you implemented some AI system recently? Apparently they are all the rage, but I don't see it at ground level. I certainly see them cause plenty of rage.
 

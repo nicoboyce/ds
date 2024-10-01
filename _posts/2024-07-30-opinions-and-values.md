@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "We value your opinion"
+meta: Being true to your values differentiates your agency!
 ---
+
+*{{ page.meta }}*
 
 It's okay as a small business, as a contractor, as a supplier, to be opinionated. It's okay to bring those opinions to the table talking to clients.
 

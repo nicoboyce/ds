@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Zendesk sins: spam relay"
+meta: Protect yourselves and your customers with some simple rules.
 ---
+
+*{{ page.meta }}*
 
 We all make mistakes. Ultimately the difference between a rookie Zendesk contractor and a greybeard is in the length of the trail of errors you leave behind. Perhaps also your rookie status is evident if [you leave your only charger in a meeting room](https://deltastring.com/2023/10/23/contracting-is-all-in-the-prep/)!
 

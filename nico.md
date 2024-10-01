@@ -31,4 +31,4 @@ Outside of work, Nico keeps busy creating and performing across a range of artis
 
 Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic.
 
-Send a quick [email](mailto:{{ site.email }}) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"} or message Nico on [WhatsApp](https://wa.me/{{ site.tel }}).
+Send a quick [email](mailto:{{ site.email }}) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"}{:rel="noopener noreferrer"} or message Nico on [WhatsApp](https://wa.me/{{ site.tel }}){:target="_blank"}{:rel="noopener noreferrer"}.
