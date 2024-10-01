@@ -8,6 +8,11 @@ meta: Rules to live your best Zendesk life by.
 
 People asked what we are all about. We're happy to explain.
 
+![Nico Boyce, Zendesk expert, Deltastring Ltd.](/public/img/nicooo.jpeg)
+*Me, at home.*
+
+<!--excerpt-end-->
+
 ### We don't think the unthinkable.
 
 No one does. Let's focus and be realistic.
