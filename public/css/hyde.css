@@ -322,7 +322,11 @@ a.sidebar-nav-item:focus {
 .logo {
   display: grid;
   width: 100%;
+  max-width: 100%;
   column-gap: 2%;
+  justify-content: space-evenly;
+  align-content: start;
   row-gap: 50px;
   background-color: darkgrey;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr
 }
