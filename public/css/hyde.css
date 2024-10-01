@@ -54,6 +54,10 @@ html {
   }
 }
 
+.content h1 a {
+  text-shadow: 2px 2px 2px #1C0B31;
+}
+
 /*
  * Sidebar
  *
@@ -92,7 +96,7 @@ html {
 /* About section */
 .sidebar-about h1 {
   margin-bottom: .5rem;
-  color: #EFF0EA;
+  text-shadow: 2px 2px 2px #EFF0EA;
   margin-top: 0;
   font-family: 'AmstradPC', serif;
   font-size: 2.7rem;
