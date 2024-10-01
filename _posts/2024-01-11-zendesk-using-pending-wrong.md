@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Are Zendesk teams mostly using Pending wrong?
+meta: Fix your workflows by rethinking Pending in the Zendesk ticket lifecycle.
 ---
+
+*{{ page.meta }}*
 
 It's 2024 and we all ought to know better than to be dragged into daft debates on the internet. This is particularly true on two of my favourite sites, Stack Overflow and [LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"}. Yet here I am needing more words and space to explain this one. At least we're now on my own website where no one can write underneath "You're wrong Nico!" and create further confusion.
 

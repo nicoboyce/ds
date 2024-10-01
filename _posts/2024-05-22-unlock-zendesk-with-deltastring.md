@@ -1,7 +1,10 @@
 ---
 layout: post
 title: How do you unlock your Zendesk? Why bring in Deltastring?
+meta: Be the Zendesk contractor ready for anything with this ultimate kit list!
 ---
+
+*{{ page.meta }}*
 
 I was chatting with a friend-of-a-friend on [LinkedIn](https://www.linkedin.com/in/nicoboyce/){:target="_blank"} and while they were familiar with Zendesk, they weren't sure what a Zendesk consultant would do for a business. Maybe this is true more generally, so here's how I explained it on this day in history.
 
@@ -14,7 +17,6 @@ Where I come in is unlocking this cost-quality doom spiral. Because I am externa
 The first thing is to get everything out there and understood. From the Ops side we need the process maps, particularly including escalation points, and all the documentation. I export all of the Zendesk objects over the API and have my own tooling for mapping these to CSVs which marry easily to the processes. We get all those files into version control, usually Github. Sometimes organisations prefer to keep Ops config in a separate Git instance to the product.
 
 Next it’s about bringing in the Product people, which is straightforward when you have VCS, automated deployment, and the Zendesk sandbox test environment aligned. Collaboration becomes straightforward when what the Ops people see as GSheets/Excel/etc the engineers receive as the corresponding JSON.
-
 
 ![Deltastring unlock Zendesk collaboration.](/public/img/zendesk-integration-development-deltastring.jpeg)
 *Deltastring unlock Zendesk collaboration.*
