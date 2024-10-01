@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Contracting is all in the preparation
+meta: Be the Zendesk contractor ready for anything with this ultimate kit list!
 ---
+
+*{{ page.meta }}*
 
 Recently I caught up with an industry colleague for a check-in. She's super talented but new to gig work, so was complaining that getting settled in to her new contract had been slow progress because of hardware issues. I shared my rookie contractor equipment checklist with her and now I'm also sharing an expanded version with you.<!--excerpt-end-->
 
