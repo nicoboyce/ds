@@ -43,6 +43,14 @@ html {
   font-family: 'Atkinson-Hyperlegible', sans-serif;
 }
 
+p {
+  content-visibility: auto;
+}
+
+div {
+  content-visibility: auto;
+}
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
