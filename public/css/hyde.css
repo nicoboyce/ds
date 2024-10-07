@@ -45,13 +45,15 @@ p {
   content-visibility: auto;
 }
 
+.logo {
+  content-visibility: visible;
+}
+
 div {
   content-visibility: auto;
 }
 
-.logo {
-  content-visibility: visible;
-}
+
 
 @media (min-width: 48em) {
   html {
