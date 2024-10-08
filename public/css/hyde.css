@@ -84,6 +84,9 @@ p {
     width: 18rem;
     text-align: left;
   }
+  .marg {
+    margin-bottom: 0rem;
+  }
 }
 
 /* Sidebar links */
@@ -117,7 +120,7 @@ p {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 1;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
