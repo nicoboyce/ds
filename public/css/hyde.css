@@ -146,7 +146,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .info {
     line-height: 1;
-    font-size: 0.6vw;
+    font-size: 0.0.6rem;
   }
 }
 
