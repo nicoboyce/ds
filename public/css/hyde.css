@@ -71,7 +71,7 @@ p {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2em 1em;
   color: #1C0B31;
   background-color: #202020;
 }
@@ -81,11 +81,11 @@ p {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 18em;
     text-align: left;
   }
   .marg {
-    margin-bottom: 0rem;
+    margin-bottom: 0em;
   }
 }
 
@@ -95,28 +95,28 @@ p {
 }
 @media (min-width: 64em) {
   .lead {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 1.2;
   }
 }
 
 /* About section */
 .sidebar-about h1 {
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
   text-shadow: 2px 2px 2px #EFF0EA;
   margin-top: 0;
   font-family: 'AmstradPC', serif;
-  font-size: 2.7rem;
+  font-size: 2.7em;
 }
 @media (min-width: 64em) {
   .sidebar-about h1{
-    font-size: 2.66rem;
+    font-size: 2.66em;
   }
 }
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 .sidebar-nav-item {
   display: block;
@@ -139,9 +139,9 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    right:  1em;
+    bottom: 1em;
+    left:   1em;
   }
 }
 
@@ -159,22 +159,22 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    4em;
+  padding-bottom: 4em;
 }
 
 @media (min-width: 48em) {
   .content {
     max-width: 100%;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    margin-left: 20em;
+    margin-right: 2em;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 22em;
+    margin-right: 4em;
   }
 }
 
@@ -191,15 +191,15 @@ a.sidebar-nav-item:focus {
     right: 0;
   }
   .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
+    margin-left: 2em;
+    margin-right: 20em;
   }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
+    margin-left: 4em;
+    margin-right: 22em;
   }
 }
 
