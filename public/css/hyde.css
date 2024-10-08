@@ -43,14 +43,16 @@ html {
 
 p {
   content-visibility: auto;
-  font-size: 1vw;
 }
-
-
 
 @media (min-width: 48em) {
   html {
-    font-size: 0.8vw;
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
   }
 }
 
