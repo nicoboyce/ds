@@ -60,19 +60,13 @@ p {
   text-shadow: 2px 2px 2px #1C0B31;
 }
 
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
 .sidebar {
   text-align: center;
   padding: 2em 1em;
   color: #1C0B31;
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     max-width: 360px;
