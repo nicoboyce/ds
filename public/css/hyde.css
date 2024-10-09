@@ -57,13 +57,13 @@ p {
 }
 
 .content h1 a {
-  text-shadow: 2px 2px 2px #1C0B31;
+  text-shadow: 2px 2px 2px #111d30;
 }
 
 .sidebar {
   text-align: center;
   padding: 2em 1em;
-  color: #1C0B31;
+  color: #111d30;
   background-color: #202020;
 }
 
@@ -88,7 +88,7 @@ p {
 
 /* Sidebar links */
 .sidebar a {
-  color: #1C0B31;
+  color: #111d30;
 }
 @media (min-width: 64em) {
   .lead {
