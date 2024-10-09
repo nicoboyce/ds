@@ -67,6 +67,8 @@ p {
   background-color: #202020;
 }
 
+
+
 @media (min-width: 48em) {
   .sidebar {
     max-width: 360px;
@@ -82,11 +84,7 @@ p {
   }
 }
 
-@media (min-width: 64em) {
-  .sidebar-about h1 {
-    font-size: 2.75rem;
-  }
-}
+
 
 /* Sidebar links */
 .sidebar a {
@@ -110,6 +108,12 @@ p {
 @media (min-width: 48em) {
   .sidebar-about h1{
     font-size: 3vw;
+  }
+}
+
+@media (min-width: 64em) {
+  .sidebar-about h1 {
+    font-size: 2.75rem;
   }
 }
 
