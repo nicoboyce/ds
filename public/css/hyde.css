@@ -75,6 +75,7 @@ p {
 }
 @media (min-width: 48em) {
   .sidebar {
+    max-width: 360px;
     position: fixed;
     top: 0;
     left: 0;
@@ -84,6 +85,12 @@ p {
   }
   .marg {
     margin-bottom: 0em;
+  }
+}
+
+@media (min-width: 1800px) {
+  .sidebar-about h1 {
+    font-size: 2.75rem;
   }
 }
 
