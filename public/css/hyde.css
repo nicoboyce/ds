@@ -111,7 +111,7 @@ p {
   }
 }
 
-@media (min-width: 110em) {
+@media (min-width: 112em) {
   .sidebar-about h1 {
     font-size: 2.75rem;
   }
