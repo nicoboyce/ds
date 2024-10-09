@@ -111,14 +111,7 @@ p {
   }
 }
 
-@media (min-width: 112em) {
-  .sidebar-about h1 {
-    font-size: 2.75rem;
-  }
-  .content {
-    margin-left: 400px;
-  }
-}
+
 
 /* Sidebar nav */
 .sidebar-nav {
@@ -339,4 +332,14 @@ a.sidebar-nav-item:focus {
 
 .clientlogos {
   mix-blend-mode: darken;
+}
+
+
+@media (min-width: 112em) {
+  .sidebar-about h1 {
+    font-size: 2.75rem;
+  }
+  .content {
+    margin-left: 400px;
+  }
 }
