@@ -115,6 +115,9 @@ p {
   .sidebar-about h1 {
     font-size: 2.75rem;
   }
+  .content {
+    margin-left: 400px;
+  }
 }
 
 /* Sidebar nav */
