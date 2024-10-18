@@ -14,6 +14,7 @@ title: Blog
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
+    <p><em>{{ post.meta }}</em></p>
     {{ post.excerpt }}
     <a href="{{ post.url }}">Read more!</a><br /><br />
     <img src="/public/img/delta.png" width="36" height="36">
