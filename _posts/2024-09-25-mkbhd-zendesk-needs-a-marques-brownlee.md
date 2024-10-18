@@ -4,8 +4,6 @@ title: The Zendesk world needs a Marques Brownlee
 meta: Look at your own processes like a busy and disinterested user does.
 ---
 
-*{{ page.meta }}*
-
 You're probably familiar with Marques Brownlee. He's the undisputed king of [Youtube tech reviews](https://www.youtube.com/@mkbhd) and has sidelines in car reviews, podcasts, advertising things like laptop covers and his sleep tracking mattress or something. I phase out when he starts talking about sleep tracking to be honest. Today there has been a bunch of fuss over his new app<!--excerpt-end--> which I guess he probably described to someone as the Spotify of phone wallpapers. Very old school thing to launch, like a n-gate Ycombinator parody "Uber for dogs" but we shall see.
 
 ### What has this got to do with Zendesk?

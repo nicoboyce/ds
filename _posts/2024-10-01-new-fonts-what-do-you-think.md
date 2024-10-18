@@ -5,4 +5,3 @@ published: false
 meta: Be the Zendesk contractor ready for anything with this ultimate kit list!
 ---
 
-*{{ page.meta }}*

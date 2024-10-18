@@ -4,8 +4,6 @@ title: The Deltastring Manifesto
 meta: Rules to live your best Zendesk life by.
 ---
 
-*{{ page.meta }}*
-
 People asked what we are all about. We're happy to explain.
 
 ![Nico Boyce, Zendesk expert, Deltastring Ltd.](/public/img/nicooo.jpeg)

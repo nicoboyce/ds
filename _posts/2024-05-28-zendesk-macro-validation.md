@@ -4,8 +4,6 @@ title: "Quick wins: Zendesk macro validation"
 meta: Cut down on that ticket ping-pong!
 ---
 
-*{{ page.meta }}*
-
 Inspiration for today's quick win comes from Reddit user Yaldabaoth2000, who asked the community "How to prevent a macro being sent until things are filled out" in a post [here](https://www.reddit.com/r/Zendesk/comments/1cx3d08/how_to_prevent_a_macro_being_sent_until_things/).
 
 Let's dive in and see if we can come up with a better answer than Reddit managed<!--excerpt-end-->:

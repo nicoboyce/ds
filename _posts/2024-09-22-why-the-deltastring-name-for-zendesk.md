@@ -4,8 +4,6 @@ title: Why are we called Deltastring?
 meta: My rules for naming companies in tech.
 ---
 
-*{{ page.meta }}*
-
 Sometimes I get asked about how I named the company. It's not an easy thing to do. Here's what I thought about.
 
 <p><img src="/public/img/tool.jpeg" alt="The Deltastring tool preview." style="mix-blend-mode: darken;">

@@ -4,8 +4,6 @@ title: "Quick wins: Token access with the Zendesk API"
 meta: Stop using simple Zendesk passwords in Postman.
 ---
 
-*{{ page.meta }}*
-
 I am always always hearing ops managers who want to get better at Zendesk having this particular problem. 
 
 They've some understanding of engineering and they're looking to explore how Zendesk objects look via the API. They have set up token access but hit a roadblock<!--excerpt-end-->:
