@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Deltastring News
-meta: tl;dr it's all the latest Zendesk ecosystem stuff but in one classy place
+meta: "tl;dr it's all the latest Zendesk ecosystem stuff but in one classy place"
 published: false
 ---
 
