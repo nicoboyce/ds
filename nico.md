@@ -27,8 +27,8 @@ Zendesk fell at the intersection between Nico's work passions: using data to gui
 
 Outside of work, Nico keeps busy creating and performing across a range of artistic disciplines. His personal website is [nicoboyce.com](https://nicoboyce.com) where you can find out more.
 
-![Nico Boyce, mooching around Deltastring HQ.](/public/img/nicobb.jpeg)
-*Nico, at home in rural Hampshire*
+![Nico Boyce.](/public/img/specs.jpeg)
+*Nico mugshot*
 
 Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic.
 
