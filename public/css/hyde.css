@@ -41,9 +41,6 @@ html {
   font-family: 'Atkinson-Hyperlegible', sans-serif;
 }
 
-p {
-  content-visibility: auto;
-}
 
 @media (min-width: 48em) {
   html {
