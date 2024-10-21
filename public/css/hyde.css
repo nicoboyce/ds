@@ -54,7 +54,7 @@ html {
 }
 
 .content h1 a {
-  text-shadow: 2px 2px 2px #111d30;
+  text-shadow: 2px 2px 0px #111d30;
 }
 
 .sidebar {
