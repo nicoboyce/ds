@@ -2,7 +2,6 @@
 layout: post
 title: "Deltastring Editorial: Why the Internet Archive shows Zendesk is still the right choice"
 meta: For all its flaws, Zendesk is the mature support ecosystem.
-date: 2024-10-23 22:30:00
 ---
 
 Readers will be well aware of the battle with hackers the Internet Archive has faced over recent days. Distracted with legal challenges, the venerable web institution inadvertently exposed an access token and suddenly had miscreants taunting them from within their own systems.
