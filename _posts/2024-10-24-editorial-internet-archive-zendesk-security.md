@@ -7,7 +7,7 @@ meta: For all its flaws, Zendesk is the mature support ecosystem.
 Readers will be well aware of the battle with hackers the Internet Archive has faced over recent days. Distracted with legal challenges, the venerable web institution inadvertently exposed an access token and suddenly had miscreants taunting them from within their own systems.
 
 
-<p><img src="/public/img/postman.jpeg" alt="Internet Archive leaked Zendesk access tokens." style="mix-blend-mode: darken;">
+<p><img src="https://deltastring.com/public/img/postman.jpeg" alt="Internet Archive leaked Zendesk access tokens." style="mix-blend-mode: darken;">
 <em>How secure is your Zendesk?</em></p>
 
 The resulting mess caused a flood of bad press for the IA but also for Zendesk as every tech blog pointed fingers and blamed the victims. It's important for the tech world to hold vendors for account if they ship insecure products. It's also important to recognise that a lock is only secure until you leave the key lying around.<!--excerpt-end-->
