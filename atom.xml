@@ -19,11 +19,7 @@ layout: null
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
-<<<<<<< HEAD
    <updated>{{ page.date | date: "%Y-%m-%d" }}T08:29:30+00:00</updated>
-=======
-   <updated>{{ post.date | date: "%Y-%m-%d" }}T08:29.30+00:00</updated>
->>>>>>> 145d7a5f609d6889ce6bae47ae3f4ea71d9891b9
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
