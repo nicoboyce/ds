@@ -59,7 +59,7 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2em 1em;
+  padding: 1em 1em;
   color: #111d30;
   background-color: #202020;
 }
@@ -160,7 +160,7 @@ a.sidebar-nav-item:focus {
 
 .content {
   padding-top:    4em;
-  padding-bottom: 2em;
+  padding-bottom: 0em;
 }
 
 @media (min-width: 48em) {
