@@ -340,6 +340,10 @@ a.sidebar-nav-item:focus {
   margin-bottom: 0px;
 }
 
+.logo {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 @media (min-width: 112em) {
   .sidebar-about h1 {
