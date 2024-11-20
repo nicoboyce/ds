@@ -331,7 +331,7 @@ a.sidebar-nav-item:focus {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
 }
 
-.clientlogos {
+.clientlogos-bg {
   mix-blend-mode: darken;
 }
 
