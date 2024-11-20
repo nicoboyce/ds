@@ -326,6 +326,7 @@ a.sidebar-nav-item:focus {
   max-width: 100%;
   justify-content: space-between;
   grid-template-columns: auto auto auto auto auto auto;
+  column-gap: 1px;
 }
 
 .clientlogos-bg {
