@@ -333,6 +333,11 @@ a.sidebar-nav-item:focus {
 
 .clientlogos-bg {
   mix-blend-mode: darken;
+  margin-bottom: 0px;
+}
+
+.clientlogos {
+  margin-bottom: 0px;
 }
 
 
