@@ -148,6 +148,10 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.info {
+  text-align: right;
+}
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
