@@ -328,7 +328,7 @@ a.sidebar-nav-item:focus {
   justify-content: space-evenly;
   align-content: start;
   row-gap: 50px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+  grid-template-columns: fit-content(1fr) fit-content(1fr) fit-content(1fr) fit-content(1fr) fit-content(1fr) fit-content(1fr);
 }
 
 .clientlogos-bg {
