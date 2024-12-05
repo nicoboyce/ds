@@ -6,7 +6,7 @@ meta: "What will success look like? These are the indicators!"
 
 Here we are, on the verge of '25 (I think we can drop the "twenty" now?) and it's a good moment to look forward and consider how we can best be prepared to deliver great solutions for clients as the business operations landscape changes under our feet.
 
-The winners will be<!--excerpt-end--> the businesses who are not afraid to take a big leap. Staying still is no longer an option, to stagnate is to wither in '25. Success will be defined by making bold moves and having the agility to adapt to new information in near real time.
+The winners will be the businesses who are not afraid to take a big leap.<!--excerpt-end--> Staying still is no longer an option, to stagnate is to wither in '25. Success will be defined by making bold moves and having the agility to adapt to new information in near real time.
 
 We work with clients at different scales and in different phases of growth and development. With consultation with some of our key growth-minded contacts across operations tooling, here are our indicators of the agility small businesses like ours will need to demonstrate in the year to come.
 
@@ -15,6 +15,12 @@ We work with clients at different scales and in different phases of growth and d
 Be open to alternatives to your existing solutions. Our partners have seen real success in the last few months when they have re-evaluated their telephony solutions, their ticketing systems, even real bread and butter stuff like web hosting and asset tracking.
 
 We've taken this on board in recent weeks and moved our banking, our payroll solution, some web services too. The key thing is to look in the cold light of day at the cost and the features. Your existing provider probably keeps easing the cost up each renewal but justifies that with additional features you didn't ask for and haven't used. What have their competitors got going on?
+
+### Win when the tide comes in or goes out
+
+We exist in an increasingly uncertain world. It felt like business held its breath over the last two quarters while anticipated political changes presented the possibility of rejigged tax regimes. For many, the instinct is to be cautious, see what happens in the economy and react accordingly. The next businesses of Amazon or Google scale will be doing the opposite. They will be committing to actions now, making decisions that will lead to growth in different scenarios.
+
+If you make great money delivering service X, what happens when X is out and everyone needs Y? If your products or services exist in an ecosystem, who is the market maker and will this marketplace exist indefinitely? The winners in '25 will be ready to grow wherever that growth is, they won't wait to see what happens and then chase.
 
 ### Prevent disruptions through preparation
 
@@ -35,10 +41,4 @@ Paul Graham talks extensively about the hockey stick growth curve. The Airbnb fo
 
 The winners in '25 will have this same mentality. They will commit to achieving success and they will be ready for opportunities. It doesn't mean there will never be stress or problems, but it will mean not being overtaken by the competitor who is ready to scale supply and capable of fulfilling needs.
 
-For agencies such as ourselves, this means being able to leverage our network of specialists and freelancers to solve problems for our clients. What does it mean for you?
-
-### Win when the tide comes in or goes out
-
-We exist in an increasingly uncertain world. It felt like business held its breath over the last two quarters while anticipated political changes presented the possibility of rejigged tax regimes. For many, the instinct is to be cautious, see what happens in the economy and react accordingly. The next businesses of Amazon or Google scale will be doing the opposite. They will be committing to actions now, making decisions that will lead to growth in different scenarios.
-
-If you make great money delivering service X, what happens when X is out and everyone needs Y? If your products or services exist in an ecosystem, who is the market maker and will this marketplace exist indefinitely? The winners in '25 will be ready to grow wherever that growth is, they won't wait to see what happens and then chase.
+For agencies such as ourselves, this means [being alert to what's new](https://news.deltastring.com/) and able to leverage our network of specialists and freelancers to solve problems for our clients. What does it mean for you?
