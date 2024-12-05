@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Raise your game in '25: four ways to win next year"
-meta: What will success look like? These are the indicators!
+meta: "What will success look like? These are the indicators!"
 ---
 
 Here we are, on the verge of '25 (I think we can drop the "twenty" now?) and it's a good moment to look forward and consider how we can best be prepared to deliver great solutions for clients as the business operations landscape changes under our feet.
