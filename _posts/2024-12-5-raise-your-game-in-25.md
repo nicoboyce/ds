@@ -16,7 +16,7 @@ Be open to alternatives to your existing solutions. Our partners have seen real 
 
 We've taken this on board in recent weeks and moved our banking, our payroll solution, some web services too. The key thing is to look in the cold light of day at the cost and the features. Your existing provider probably keeps easing the cost up each renewal but justifies that with additional features you didn't ask for and haven't used. What have their competitors got going on?
 
-### Win when the tide comes in or goes out
+### Win whether the tide comes in or goes out
 
 We exist in an increasingly uncertain world. It felt like business held its breath over the last two quarters while anticipated political changes presented the possibility of rejigged tax regimes. For many, the instinct is to be cautious, see what happens in the economy and react accordingly. The next businesses of Amazon or Google scale will be doing the opposite. They will be committing to actions now, making decisions that will lead to growth in different scenarios.
 
