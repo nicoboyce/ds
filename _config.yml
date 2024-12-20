@@ -6,7 +6,7 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-theme:            jekyll-agency
+theme: jekyll-agency
 title:            'Deltastring.'
 tagline:          'Zendesk solutions specialists'
 description:      'Engineering solutions for Zendesk success.'
@@ -22,10 +22,7 @@ orange:           #d05e25
 grey:             #7a7a7a
 sure:             'not sure'
 
-author:
-  name:           'Nico Boyce'
-  url:            https://deltastring.com
-
+author:   'Nico Boyce'
 
 excerpt_separator: "<!--excerpt-end-->"
 
