@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body class="theme-base-09">
+  <body id="page-top">
 
-  {% include sidebar.html %}
+      {{ content }}
 
-  <div class="content container">
-    {{ content }}
-    <hr />
-    <div class="logo container">
-      <a href="https://www.linkedin.com/company/depop/" target="_blank" rel="noopener noreferrer"><img class="clientlogos" src="/public/img/logos/depop_logo.jpg" alt="Depop"></a>
-      <a href="https://www.linkedin.com/company/hofyworking/" target="_blank" rel="noopener noreferrer"><img class="clientlogos-bg" src="/public/img/logos/hofy_logo.jpg" alt="Hofy"></a>
-      <a href="https://www.linkedin.com/company/igloo-energy/" target="_blank" rel="noopener noreferrer"><img class="clientlogos-bg" src="/public/img/logos/igloo_logo.jpg" alt="Igloo Energy"></a>
-      <a href="https://www.linkedin.com/company/hyperjar/" target="_blank" rel="noopener noreferrer"><img class="clientlogos" src="/public/img/logos/hyperjar_logo.jpg" alt="HyperJar"></a>
-      <a href="https://www.linkedin.com/company/ivc-evidensia/" target="_blank" rel="noopener noreferrer"><img class="clientlogos-bg" src="/public/img/logos/ivc_evidensia_logo.jpg" alt="Ivc Evidensia"></a>
-      <a href="https://www.linkedin.com/company/checkout/" target="_blank" rel="noopener noreferrer"><img class="clientlogos" src="/public/img/logos/checkout_logo.jpg" alt="Checkout"></a>
-    </div>
-    <hr />
-<div class="info-foot no-mob">{% include info.html %}</div></div>
-  <div class="sidebar on-mob">
-    <div class="sidebar-sticky">
+	  {% include footer.html %}
 
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="assets/js/jquery.min.js"></script>
+	  <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-      <span class="sidebar-nav-item on-mob">{% include info.html %}<img src="https://deltastring.com/public/img/pixel-nico.png" alt="pixel nico" width="50%" /></span>
-    </div>
-  </div>
+	  <!-- Plugin JavaScript -->
+	  <script src="assets/js/jquery.easing.min.js"></script>
 
-</body>
+	  <!-- Contact form JavaScript -->
+	  <script src="assets/js/jqBootstrapValidation.js"></script>
+	  <script src="assets/js/contact_me.js"></script>
 
+	  <!-- Custom scripts for this template -->
+	  <script src="assets/js/agency.min.js"></script>
+
+  </body>
 </html>

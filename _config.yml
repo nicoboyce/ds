@@ -6,6 +6,7 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
+theme:            jekyll-agency
 title:            'Deltastring.'
 tagline:          'Zendesk solutions specialists'
 description:      'Engineering solutions for Zendesk success.'
@@ -27,3 +28,5 @@ author:
 
 
 excerpt_separator: "<!--excerpt-end-->"
+
+locale: 'en-GB'
