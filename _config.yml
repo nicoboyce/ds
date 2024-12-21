@@ -27,3 +27,9 @@ author:   'Nico Boyce'
 excerpt_separator: "<!--excerpt-end-->"
 
 locale: 'en-GB'
+
+analytics:
+  google: #Google Analytics tracking code here
+
+collections:
+  portfolio:
