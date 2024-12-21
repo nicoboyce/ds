@@ -77,7 +77,7 @@ en: &DEFAULT_EN
   clients:
     section: clients
     max-height: 200px
-    horizontal-scrolling: "yes"
+    horizontal-scrolling: "no"
     list:
       - title: "Checkout"
         url: https://checkout.com
@@ -96,7 +96,7 @@ en: &DEFAULT_EN
         logo: https://deltastring.com/assets/img/logos/igloo_logo.jpg
       - title: "IVC Evidensia"
         url: https://ivc-evidensia.com
-        logo: https://deltastring.com/assets/img/logos/ivc-evidensia_logo.jpg
+        logo: https://deltastring.com/assets/img/logos/ivc_evidensia_logo.jpg
 
   team:
     title: "OUR AMAZING TEAM"
