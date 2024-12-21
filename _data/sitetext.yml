@@ -47,22 +47,22 @@ en: &DEFAULT_EN
       - title: "Our predecessor business makes forays into CX"
         year: "2016-2019"
         desc: "Nico sets up and operates his first company, rethinking hospitality with data-led process iteration, while Rosie is an experienced senior manager from the world of retail."
-        image: assets/img/timeline/1.jpg
+        image: https://deltastring.com/public/img/work.jpg
         alt:
       - title: "Learning Zendesk, focusing on actionable insights"
         year: "2019-2021"
         desc: "We turn our attention to Zendesk, talking our learnings from the restaurant world to streamline and simplify the agent experience."
-        image: assets/img/timeline/2.jpg
+        image: https://deltastring.com/public/img/depop.jpg
         alt:
       - title: "Data and engineering"
         year: "2022"
         desc: "Following a project with a data engineering team, combining this with previous chatbots and API integration setups leads to our first Zendesk applications."
-        image: assets/img/timeline/3.jpg
+        image: https://deltastring.com/public/img/tool.jpeg
         alt: image alt text
       - title: "End-to-end projects with enterprise clients"
         year: "2023-now"
         desc: "Our bread-and-butter has been these end-to-end deployment processes for enterprise clients looking to switch to Zendesk or rethink their Zendesk approach."
-        image: assets/img/timeline/4.jpg
+        image: https://deltastring.com/public/img/nico-ofice.jpeg
         alt:
         # you can enforce the alignment
         align: right
@@ -105,17 +105,17 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Nico Boyce"
-        role: "Founder, lead engineer"
+        role: "Co-Founder, Engineering & Strategy"
         image: https://deltastring.com/public/img/nico-mugshot-small.jpg
         social:
           - url: https://nicoboyce.com
-            icon: fab fa-link
+            icon: far fa-link
           - url: https://github.com/nicoboyce
             icon: fab fa-github
           - url: https://linkedin.com/in/nicoboyce/
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Rosie"
+        role: "Co-Founder, Business & Operations"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
