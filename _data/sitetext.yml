@@ -81,22 +81,22 @@ en: &DEFAULT_EN
     list:
       - title: "Checkout"
         url: https://checkout.com
-        logo: https://deltastring.com/assets/img/logos/checkout-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/checkout_logo.jpg
       - title: "Depop"
         url: https://depop.com
-        logo: https://deltastring.com/assets/img/logos/depop-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/depop_logo.jpg
       - title: "Hofy"
         url: https://hofy.com
-        logo: https://deltastring.com/assets/img/logos/hofy-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/hofy_logo.jpg
       - title: "Hyperjar"
         url: https://hyperjar.com
-        logo: https://deltastring.com/assets/img/logos/hyperjar-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/hyperjar_logo.jpg
       - title: "Igloo"
         url: https://igloo.energy
-        logo: https://deltastring.com/assets/img/logos/igloo-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/igloo_logo.jpg
       - title: "IVC Evidensia"
         url: https://ivc-evidensia.com
-        logo: https://deltastring.com/assets/img/logos/ivc-evidensia-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/ivc-evidensia_logo.jpg
 
   team:
     title: "OUR AMAZING TEAM"
