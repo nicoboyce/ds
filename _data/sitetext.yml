@@ -143,6 +143,10 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
+      - url: "mailto:nico@deltastring.com"
+        icon: "fa fa-envelope"
+      - url: https://wa.me/447769023498
+        icon: "fab fa-whatsapp"
       - url: https://linkedin.com/in/nicoboyce/
         icon: "fab fa-linkedin-in"
       - url: https://github.com/nicoboyce/
