@@ -108,12 +108,12 @@ en: &DEFAULT_EN
         role: "Founder, lead engineer"
         image: https://deltastring.com/public/img/nico-mugshot-small.jpg
         social:
-          - url: # https://twitter.com
-            icon: # fab fa-twitter
-          - url: # https://facebook.com
-            icon: # fab fa-facebook-f
-          - url: # https://linkedin.com
-            icon: # fab fa-linkedin-in
+          - url: https://nicoboyce.com
+            icon: fab fa-house
+          - url: https://github.com/nicoboyce
+            icon: fab fa-github
+          - url: https://linkedin.com/in/nicoboyce/
+            icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
         image: assets/img/team/2.jpg
