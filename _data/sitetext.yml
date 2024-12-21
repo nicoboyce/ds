@@ -150,7 +150,7 @@ en: &DEFAULT_EN
       - url: https://linkedin.com/in/nicoboyce/
         icon: "fab fa-linkedin-in"
       - url: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf
-        icon: "fa-solid fa-calendar-days"
+        icon: "fa fa-calendar"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
