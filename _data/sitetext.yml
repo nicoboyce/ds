@@ -151,6 +151,8 @@ en: &DEFAULT_EN
         icon: "fab fa-linkedin-in"
       - url: https://github.com/nicoboyce/
         icon: "fab fa-github"
+      - url: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf
+        icon: "fa calendar-days"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
