@@ -76,7 +76,7 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 150px
+    max-height: 200px
     horizontal-scrolling: "yes"
     list:
       - title: "Depop"
