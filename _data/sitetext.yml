@@ -76,21 +76,27 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    max-height: 200px
+    horizontal-scrolling: "yes"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "Checkout"
+        url: https://checkout.com
+        logo: public/img/logos/checkout-logo.jpg
+      - title: "Depop"
+        url: https://depop.com
+        logo: public/img/logos/depop-logo.jpg
+      - title: "Hofy"
+        url: https://hofy.com
+        logo: public/img/logos/hofy-logo.jpg
+      - title: "Hyperjar"
+        url: https://hyperjar.com
+        logo: public/img/logos/hyperjar-logo.jpg
+      - title: "Igloo"
+        url: https://igloo.energy
+        logo: public/img/logos/igloo-logo.jpg
+      - title: "IVC Evidensia"
+        url: https://ivc-evidensia.com
+        logo: public/img/logos/ivc-evidensia-logo.jpg
 
   team:
     title: "OUR AMAZING TEAM"
