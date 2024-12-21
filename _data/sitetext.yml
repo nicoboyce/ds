@@ -104,16 +104,6 @@ en: &DEFAULT_EN
     subtext: We're additionally supported with a handpicked range of freelance specialists.
     section: team
     people:
-      - name: "Nico Boyce"
-        role: "Co-Founder, Engineering & Strategy"
-        image: https://deltastring.com/public/img/nbb.jpeg
-        social:
-          - url: https://nicoboyce.com
-            icon: fa fa-link
-          - url: https://github.com/nicoboyce
-            icon: fab fa-github
-          - url: https://linkedin.com/in/nicoboyce/
-            icon: fab fa-linkedin-in
       - name: "Rosie Elliott-Welch"
         role: "Co-Founder, Business & Operations"
         image: https://deltastring.com/public/img/rew.jpeg
@@ -123,6 +113,16 @@ en: &DEFAULT_EN
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nico Boyce"
+        role: "Co-Founder, Engineering & Strategy"
+        image: https://deltastring.com/public/img/nbb.png
+        social:
+          - url: https://nicoboyce.com
+            icon: fa fa-link
+          - url: https://github.com/nicoboyce
+            icon: fab fa-github
+          - url: https://linkedin.com/in/nicoboyce/
             icon: fab fa-linkedin-in
 
   contact:
