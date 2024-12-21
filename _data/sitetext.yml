@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Engineering solutions"
     section: services
     list:
       - title: "Integrate"
