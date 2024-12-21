@@ -46,7 +46,7 @@ en: &DEFAULT_EN
     events:
       - title: "Our predecessor business makes forays into CX"
         year: "2016-2019"
-        desc: "Nico sets up and operates his first company, rethinking hospitality with data-led process iteration."
+        desc: "Nico sets up and operates his first company, rethinking hospitality with data-led process iteration, while Rosie is an experienced senior manager from the world of retail."
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Learning Zendesk, focusing on actionable insights"
@@ -66,12 +66,12 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Be part <br> of our <br> story!"
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "The agile Zendesk agency"
+    body: "Our backgrounds are in hospitality and retail franchise management and ownership, so we know how it is to provide premium service on an inelastic budget. We've talked the talk and walked the walk, with multiple TripAdvisor certificates, industry awards, extensive internal and external recognition for our leadership."
     section: about
 
   clients:
@@ -84,19 +84,19 @@ en: &DEFAULT_EN
         logo: https://deltastring.com/assets/img/logos/checkout-logo.jpg
       - title: "Depop"
         url: https://depop.com
-        logo: https://deltastring.com/public/img/logos/depop-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/depop-logo.jpg
       - title: "Hofy"
         url: https://hofy.com
-        logo: https://deltastring.com/public/img/logos/hofy-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/hofy-logo.jpg
       - title: "Hyperjar"
         url: https://hyperjar.com
-        logo: https://deltastring.com/public/img/logos/hyperjar-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/hyperjar-logo.jpg
       - title: "Igloo"
         url: https://igloo.energy
-        logo: https://deltastring.com/public/img/logos/igloo-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/igloo-logo.jpg
       - title: "IVC Evidensia"
         url: https://ivc-evidensia.com
-        logo: https://deltastring.com/public/img/logos/ivc-evidensia-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/ivc-evidensia-logo.jpg
 
   team:
     title: "OUR AMAZING TEAM"
