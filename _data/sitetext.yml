@@ -109,7 +109,7 @@ en: &DEFAULT_EN
         image: https://deltastring.com/public/img/nico-mugshot-small.jpg
         social:
           - url: https://nicoboyce.com
-            icon: fab fa-house
+            icon: fab fa-globe
           - url: https://github.com/nicoboyce
             icon: fab fa-github
           - url: https://linkedin.com/in/nicoboyce/
