@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Unleash your Zendesk
-    text: Get the best out of your tools, because efficient agents means happy customers
+    text: Get the best out of your tools, because efficient agents mean happy customers
     button: Tell Me More
     buttonlink: "#services"
 
@@ -81,7 +81,7 @@ en: &DEFAULT_EN
     list:
       - title: "Checkout"
         url: https://checkout.com
-        logo: https://deltastring.com/public/img/logos/checkout-logo.jpg
+        logo: https://deltastring.com/assets/img/logos/checkout-logo.jpg
       - title: "Depop"
         url: https://depop.com
         logo: https://deltastring.com/public/img/logos/depop-logo.jpg
