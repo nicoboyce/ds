@@ -106,7 +106,7 @@ en: &DEFAULT_EN
     people:
       - name: "Nico Boyce"
         role: "Co-Founder, Engineering & Strategy"
-        image: https://deltastring.com/public/img/nico-mugshot-small.jpg
+        image: https://deltastring.com/public/img/nbb.jpeg
         social:
           - url: https://nicoboyce.com
             icon: fa fa-link
@@ -114,9 +114,9 @@ en: &DEFAULT_EN
             icon: fab fa-github
           - url: https://linkedin.com/in/nicoboyce/
             icon: fab fa-linkedin-in
-      - name: "Rosie"
+      - name: "Rosie Elliott-Welch"
         role: "Co-Founder, Business & Operations"
-        image: assets/img/team/2.jpg
+        image: https://deltastring.com/public/img/rew.jpeg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
