@@ -29,7 +29,7 @@ en: &DEFAULT_EN
         icon: fas fa-robot
       - title: "Iterate"
         desc: "Reveal actionable insights, see the measurable results of the changes you deploy."
-        icon: fa-solid fa-arrows-spin
+        icon: fa-solid fa-arrow-up-right-dots
 
   portfolio:
     title: "Portfolio"
