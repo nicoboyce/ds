@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Unleash your Zendesk potential
-    text: Get better value from your tools, increased productivity from your agents, great solutions for your customers!
+    title: Unleash your Zendesk
+    text: Get the best out of your tools, because efficient agents means happy customers
     button: Tell Me More
     buttonlink: "#services"
 
@@ -21,19 +21,19 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Integrate"
+        desc: "Connect your systems, bringing data to where it's needed. Take actions directly from tickets, increasing efficiency and accountability."
+        icon: fas fa-network-wired #find more at https://fontawesome.com/icons
+      - title: "Automate"
+        desc: "Free your agents from repetitive tasks to focus on the hard stuff."
+        icon: fas fa-robot
+      - title: "Iterate"
+        desc: "Reveal actionable insights, see the measurable results of the changes you deploy."
+        icon: fab fa-arrows-spin
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Projects and clients, past and present."
     section: portfolio
     closebutton: "Close Project"
 

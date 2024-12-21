@@ -1,8 +1,8 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  title: Checkout.com
+  subtitle: L1/L2 migration from Salesforce to Zendesk
+  thumbnail: https://deltastring.com/public/img/checkout_logo.jpg
   
 #what displays when the item is clicked:
 title: Title
