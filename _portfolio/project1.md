@@ -5,9 +5,9 @@ image: assets/img/logos/checkout-logo.jpg
 alt: Checkout.com logo
 
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  title: Checkout.com
+  subtitle: Salesforce to Zendesk migration
+  thumbnail: assets/img/logos/checkout-logo.jpg
 ---
 Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
