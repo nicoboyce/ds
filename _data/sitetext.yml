@@ -25,10 +25,10 @@ en: &DEFAULT_EN
         desc: "Connect your systems, bringing data to where it's needed. Take actions directly from tickets, increasing efficiency and accountability."
         icon: fas fa-network-wired #find more at https://fontawesome.com/icons
       - title: "Automate"
-        desc: "Free your agents from repetitive tasks to focus on the hard stuff."
+        desc: "Free your agents from repetitive tasks to focus on the hard stuff, better outcomes for your customers."
         icon: fas fa-robot
       - title: "Iterate"
-        desc: "Reveal actionable insights, see the measurable results of the changes you deploy."
+        desc: "Reveal actionable insights, see the measurable results of the changes you deploy. Build your knowledge and share best practice as your team see what excellence looks like."
         icon: fas fa-chart-line
 
   portfolio:
