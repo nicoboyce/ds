@@ -151,6 +151,8 @@ en: &DEFAULT_EN
         icon: "fab fa-linkedin-in"
       - url: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf
         icon: "fa fa-calendar"
+      - url: https://www.youtube.com/@deltastringdotcom
+        icon: "fab fa-youtube"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
