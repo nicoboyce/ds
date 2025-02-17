@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Zendesk migrations, automations, integrations, appliocations.
+    title: Unleash your Zendesk
     text: Get the best out of your tools, because efficient agents mean happy customers
     button: Tell Me More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Engineering solutions"
+    text: "Zendesk migrations, automations, integrations, applications."
     section: services
     list:
       - title: "Integrate"
