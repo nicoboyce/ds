@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Unleash your Zendesk
+    title: Zendesk migrations, automations, integrations, appliocations.
     text: Get the best out of your tools, because efficient agents mean happy customers
     button: Tell Me More
     buttonlink: "#services"
