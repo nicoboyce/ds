@@ -1,5 +1,23 @@
 ---
 ---
+// Global CSS
+@use "base/page.scss";
+
+// Components
+@use "components/buttons.scss";
+@use "components/navbar.scss";
+@use "components/client-scroll.scss";
+
+// Layout
+@use "layout/masthead.scss";
+@use "layout/services.scss";
+@use "layout/portfolio.scss";
+@use "layout/timeline.scss";
+@use "layout/team.scss";
+@use "layout/contact.scss";
+@use "layout/footer.scss";
+
+
 @charset "utf-8";
 // Core variables and mixins
 @use "base/variables.scss";
@@ -24,20 +42,3 @@ $black: {{ site.data.style.black | default: "#000" }} !default;
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
-
-// Global CSS
-@use "base/page.scss";
-
-// Components
-@use "components/buttons.scss";
-@use "components/navbar.scss";
-@use "components/client-scroll.scss";
-
-// Layout
-@use "layout/masthead.scss";
-@use "layout/services.scss";
-@use "layout/portfolio.scss";
-@use "layout/timeline.scss";
-@use "layout/team.scss";
-@use "layout/contact.scss";
-@use "layout/footer.scss";
