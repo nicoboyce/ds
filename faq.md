@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frequently Asked Questions
-background: white
+background: grey
 ---
 
 # Lorem ipsum
