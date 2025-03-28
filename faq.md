@@ -1,9 +1,5 @@
 ---
-layout: page
+layout: faqs
 title: Frequently Asked Questions
 background: grey
 ---
-
-# Lorem ipsum
-
-etc
