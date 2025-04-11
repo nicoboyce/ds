@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   header:
     title: Unleash your Zendesk
     text: Get the best out of your tools, because efficient agents mean happy customers
-    button: Tell Me More
-    buttonlink: "#services"
+    button: Book a chat
+    buttonlink: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf"
 
   services:
     title: "Services"
