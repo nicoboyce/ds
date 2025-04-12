@@ -1,35 +1,39 @@
-# Dependencies
-markdown:         kramdown
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
 
-# Permalinks
-permalink:        pretty
-# relative_permalinks: true
+# Site settings
+# are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Setup
 theme: jekyll-agency
-title:            'Deltastring'
-tagline:          'Zendesk solutions specialists'
-description:      'Engineering solutions for Zendesk success.'
-location:         'Hampshire, England.'
-url:              https://deltastring.com
-baseurl:          /
-email:            nico@deltastring.com
-tel:              447769023498
-dark:             #1C0B31
-newdark:          #111d30
-light:            #EFF0EA
-orange:           #d05e25
-grey:             #7a7a7a
-sure:             'shrug'
 
-author:   'Nico Boyce'
+url    : "https://deltastring.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 
-excerpt_separator: "<!--excerpt-end-->"
+title      : Deltastring
+email      : nico@deltastring.com #this is also the email contact forms will go to
+description: "Engineering solutions for Zendesk success."
+author     : Nico Boyce
+# logo:     #optional, defaults to site title
+  # path: assets\img\clients\creative-market.jpg
+  # height: 60 #height in px, defaults to 52px
 
-locale: 'en-GB'
+locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
 
 collections:
   portfolio:
+
+markdown: kramdown
+
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
