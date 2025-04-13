@@ -41,13 +41,13 @@ You can watch our videos on [YouTube](https://www.youtube.com/@deltastringdotcom
 <h3>What do people say about Nico Boyce and Deltastring Ltd?</h3>
 
 **"Delivered on time, on budget, in deep partnership, improving the daily work for our care partners, directly impacting the experience of our merchants"**
-*VP Experience at Checkout.com*
+*—VP Experience at Checkout.com*
 
 **"London's best teacher of Zendesk"**
-*Systems Manager at HyperJar*
+*—Systems Manager at HyperJar*
 
 **"A powerful source of knowledge in the Zendesk community"**
-*Zendesk User Group UK and Ireland leader*
+*—Zendesk User Group UK and Ireland leader*
 
 **"The sole person in Operations we trust with Write access to the Git"**
-*Director of Operations at Etsy brand Depop*
+*—Director of Operations at Etsy brand Depop*
