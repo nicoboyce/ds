@@ -68,7 +68,7 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
       - title: "Expanding our services, growing our team"
-        year: "today"
+        year: "TODAY"
         desc: "Deltastring do Zendesk migrations, automations, integrations, applications. We're looking to a future where businesses of all scales require intelligent systems."
         image: https://deltastring.com/assets/img/timeline/showcase.jpeg
         alt:
