@@ -27,7 +27,7 @@ author     : Nico Boyce
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: G-F1CP4L7W7W
+  google: # G-F1CP4L7W7W
 
 collections:
   portfolio:
