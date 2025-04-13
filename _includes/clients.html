@@ -1,6 +1,6 @@
 <!-- Clients -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-  <section class="py-5" id="{{ site.data.sitetext[site.locale].clients.section | default: "clients" }}">
+  <section class="py-5 bg-light" id="{{ site.data.sitetext[site.locale].clients.section | default: "clients" }}">
     <div class="container">
       <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
 	    {% for client in site.data.sitetext[site.locale].clients.list %}
