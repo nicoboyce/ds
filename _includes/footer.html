@@ -3,7 +3,7 @@
   <div class="container">
     {% if site.locale and site.locale != "" and site.locale != nil %}
     <div class="row align-items-center">
-      <div class="col-md-4">
+      <div class="col-md-4" style="text-align:left;">
         <span class="copyright"
           >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
         >
@@ -24,12 +24,11 @@
       </div>
       <!-- Legal -->
       <div class="col-md-4">
-        <ul class="list-inline quicklinks">
+        <ul class="list-inline quicklinks" style="text-align:right;">
           <li class="list-inline-item">
             <a href="legal"
               >{{ site.data.sitetext[site.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
+              "Privacy Policy" }}</a>
           </li><br />
           <li class="list-inline-item">
             <a href="ms">Modern Slavery Policy</a>
@@ -42,7 +41,7 @@
     </div>
     {% else %}
     <div class="row align-items-center">
-      <div class="col-md-4">
+      <div class="col-md-4" style="text-align:left;">
         <span class="copyright"
           >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
         >
@@ -63,7 +62,7 @@
       </div>
       <!-- Legal -->
       <div class="col-md-4">
-        <ul class="list-inline quicklinks">
+        <ul class="list-inline quicklinks" style="text-align:right;">
           <li class="list-inline-item">
             <a href="legal"
               >{{ site.data.sitetext.footer.legal | default:
