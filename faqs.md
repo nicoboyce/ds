@@ -4,10 +4,6 @@ title: Frequently Asked Questions
 background: grey
 ---
 
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Frequently Asked Questions</h2>
-</div>
-
 **Who are Deltastring Ltd?**
 
 Deltastring Ltd are a Zendesk agency based in Hampshire, led by Nico Boyce and Rosie Elliott-Welch.
@@ -26,7 +22,9 @@ Rosie's specialisms are in people and processes, as well as using business intel
 
 **Where are Deltastring based?**
 
-We are based in the Winchester area, which is handy for our clients in London, Bristol, or other South of England locations.<br />We do not take ad hoc meetings at our office, but you are welcome to <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf">book a virtual meeting</a> to discuss your business needs.
+We are based in the Winchester area, which is handy for our clients in London, Bristol, or other South of England locations.
+
+We do not take ad hoc meetings at our office, but you are welcome to <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf">book a virtual meeting</a> to discuss your business needs.
 
 **We would like to book Nico for our podcast or conference or other speaking engagement. What do we do?**
 

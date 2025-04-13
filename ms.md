@@ -4,10 +4,6 @@ title: Modern Day Slavery Policy Statement
 background: grey
 ---
 
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Modern Day Slavery Policy Statement</h2>
-</div>
-
 This document outlines the Deltastring Ltd modern day slavery policy, also known as an anti-modern slavery policy or human trafficking policy. It represents a formal document and guidelines that outlines our commitment to preventing and combating modern slavery in our operations and supply chains.
 
 Modern slavery is a crime and a violation of fundamental human rights. It takes various forms, such as slavery, servitude, forced and compulsory labour (including child labour), debt bondage, and human trafficking, all of which have in common the deprivation of a person’s liberty by another to exploit them for personal or commercial gain.
