@@ -58,12 +58,13 @@ en: &DEFAULT_EN
         year: "2022"
         desc: "Following a project with a data engineering team, combining this with previous chatbots and API integration setups leads to our first Zendesk applications."
         image: https://deltastring.com/assets/img/timeline/dsdesk.jpeg
-        alt: image alt text
+        alt: 
       - title: "End-to-end projects with enterprise clients"
         year: "2023-now"
         desc: "Our bread-and-butter has been these end-to-end deployment processes for enterprise clients looking to switch to Zendesk or rethink their Zendesk approach."
         image: https://deltastring.com/assets/img/timeline/nico-office.jpeg
         alt:
+        image-style: "rotate: 33deg;"
         # you can enforce the alignment
         align: right
     end: "Be part <br> of our <br> story!"
