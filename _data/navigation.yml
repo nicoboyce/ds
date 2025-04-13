@@ -23,8 +23,8 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Team"
       section: team
-    - title: "Contact"
-      section: contact
+    - title: "FAQs"
+      url: "https://deltastring.com/faqs"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
