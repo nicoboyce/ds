@@ -8,6 +8,8 @@ background: grey
 
 Deltastring Ltd are a Zendesk agency based in Hampshire, led by Nico Boyce and Rosie Elliott-Welch.
 
+Deltastring provide Zendesk migrations, automations, integrations, applications.
+
 **Tell me more about Nico Boyce**
 
 Nico Boyce is a Zendesk engineer and a co-founder of Deltastring Ltd, a growing business operations consultancy. He has been developing software since the mid nineties, starting out with a scavenged Zenith SupersPort and a Nokia 2110. An early project was porting an ELIZA implementation, found on an old 5¼” floppy, over to TI Basic. Is there anyone else in the Zendesk space approaching thirty years building chatbots?
@@ -35,3 +37,17 @@ That's great, Nico loves speaking at events and is an experienced podcast guest 
 You can connect with Nico on [LinkedIn](https://www.linkedin.com/in/nicoboyce/).
 
 You can watch our videos on [YouTube](https://www.youtube.com/@deltastringdotcom).
+
+**What do people say about Nico Boyce and Deltastring Ltd?**
+
+>Delivered on time, on budget, in deep partnership, improving the daily work for our care partners, directly impacting the experience of our merchants
+*VP Experience at Checkout.com*
+
+>London's best teacher of Zendesk
+*Systems Manager at HyperJar*
+
+>A powerful source of knowledge in the Zendesk community
+*Zendesk User Group UK and Ireland leader*
+
+>The sole person in Operations we trust with Write access to the Git
+*Director of Operations at Etsy brand Depop*
