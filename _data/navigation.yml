@@ -16,13 +16,13 @@
 en: &DEFAULT_EN
   nav:
     - title: "Services"
-      section: services
+      url: "https://deltastring.com/#services"
     - title: "About"
-      section: about
+      url: "https://deltastring.com/#about
     - title: "Timeline"
-      section: timeline
+      url: "https://deltastring.com/#timeline"
     - title: "Team"
-      section: team
+      url: "https://deltastring.com/#team"
     - title: "FAQs"
       url: "https://deltastring.com/faqs"
 en-US:
