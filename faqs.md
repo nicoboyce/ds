@@ -12,7 +12,7 @@ Deltastring provide Zendesk migrations, automations, integrations, applications.
 
 <h3>Tell me more about Nico Boyce</h3>>
 
-Nico Boyce is a Zendesk engineer and a co-founder of Deltastring Ltd, a growing business operations consultancy. He has been developing software since the mid nineties, starting out with a scavenged Zenith SupersPort and a Nokia 2110. An early project was porting an ELIZA implementation, found on an old 5¼” floppy, over to TI Basic. Is there anyone else in the Zendesk space approaching thirty years building chatbots?
+Nico Boyce is a Zendesk engineer and a co-founder of Deltastring Ltd, a growing business operations consultancy. He has been writing software since the mid nineties, starting out with a scavenged Zenith SupersPort, an Amstrad PC1512, and a Nokia 2110. An early project was porting an ELIZA implementation, found on an unlabeled 5¼” floppy, over to TI Basic. Is there anyone else in the Zendesk space approaching thirty years building chatbots?
 
 Unlike most Zendesk specialists, Nico has a background in Python and data. He is primarily focused on the Zendesk API and building integrations between systems. He has built out Ultimate AI, Zapier, Salto, and custom integrations for clients. The project he worked on implementing Ultimate AI with Zendesk chat at HyperJar has been extensively referenced as a case study.
 
