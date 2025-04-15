@@ -1,0 +1,22 @@
+{
+    "name": "Deltastring.com for Zendesk solutions",
+    "description": "Deltastring provide Zendesk migrations, automations, integrations, applications.",
+    "short_name": "Deltastring",
+    "start_url": "/",
+    "lang": "en-GB",
+    "theme_color": "#d05e25",
+    "display": "browser",
+    "orientation": "any",
+    "icons": [
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
