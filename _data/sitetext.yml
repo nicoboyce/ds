@@ -81,6 +81,12 @@ en: &DEFAULT_EN
     body: "Our backgrounds are in hospitality and retail franchise management and ownership, so we know how it is to provide premium service on an inelastic budget. We've talked the talk and walked the walk, with multiple TripAdvisor certificates, industry awards, extensive internal and external recognition for our leadership."
     section: about
 
+  aside:
+    title: "Your Zendesk, unleashed"
+    text: "Time to turbocharge your team"
+    body: "Are your agents constantly flipping between second—even third—screens? Their routine of endless ctrl-c and ctrl-v is a productivity sink, wasting time and efficiency just to get data where it needs to be. <br />We streamline that process. Our integrations and automations connect your Zendesk directly to the systems responsible for decision-making. No more manual data wrangling, just pure, efficient workflows that power your business. <br />Ready to turbocharge your operations? Book a meeting with us and see efficiency transformed."
+    section: aside
+
   clients:
     section: clients
     max-height: 200px
