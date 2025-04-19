@@ -84,7 +84,7 @@ en: &DEFAULT_EN
   aside:
     title: "Your Zendesk, unleashed"
     text: "Time to turbocharge your team"
-    body: "Are your agents constantly flipping between second—even third—screens? Their routine of endless ctrl-c and ctrl-v is a productivity sink, wasting time and efficiency just to get data where it needs to be. <br />We streamline that process. Our integrations and automations connect your Zendesk directly to the systems responsible for decision-making. No more manual data wrangling, just pure, efficient workflows that power your business. <br />Ready to turbocharge your operations? Book a meeting with us and see efficiency transformed."
+    body: "Are your agents constantly flipping between second—even third—screens? Their routine of endless ctrl-c and ctrl-v is a productivity sink, wasting time and efficiency just to get data where it needs to be. <br /><br />We streamline that process. Our integrations and automations connect your Zendesk directly to the systems responsible for decision-making. No more manual data wrangling, just pure, efficient workflows that power your business. <br /><br />Ready to turbocharge your operations? Book a meeting with us and see efficiency transformed."
     section: aside
 
   clients:
