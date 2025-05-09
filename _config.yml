@@ -20,8 +20,8 @@ title      : Deltastring
 email      : nico@deltastring.com #this is also the email contact forms will go to
 description: "Engineering solutions for Zendesk success."
 author     : Nico Boyce
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
+logo:     #optional, defaults to site title
+  path: assets\img\ds-logo-trans.svg
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
