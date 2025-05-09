@@ -73,7 +73,7 @@ en: &DEFAULT_EN
         image: https://deltastring.com/assets/img/timeline/showcase.jpeg
         alt:
         image-style: "rotate: -38deg;"
-    end: "Be part <br> of our <br> story!"
+    # end: "Be part <br> of our <br> story!"
 
   about:
     title: "About Us"
