@@ -46,7 +46,7 @@
 		  {% endfor %}	
             
 		  {% if site.data.sitetext[site.locale].timeline.end %}	
-			<li class="timeline-inverted">
+			<li class="timeline-inverted" style="display:none">
               <div class="timeline-image">
                 <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
               </div>
@@ -110,7 +110,7 @@
     {% endfor %}	
           
     {% if site.data.sitetext.timeline.end %}	
-    <li class="timeline-inverted">
+    <li class="timeline-inverted" style="display:none">
       <!-- <img src="/assets/img/ds-logo-trans.svg"  alt="Deltastring logo"> -->
             <div class="timeline-image">
               <h4>{{ site.data.sitetext.timeline.end }}</h4>
