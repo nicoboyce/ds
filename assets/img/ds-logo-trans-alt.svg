@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1535" height="1000">
 
+<!-- middle of circle fill -->
+<circle r="456" cx="768" cy="500" fill="#111d30" />
+
 <!-- ALL THINGS ORANGE eb7824 -->
 <!-- circle outline -->
 <circle r="476" cx="768" cy="500" fill="white" fill-opacity="0" stroke="#eb7824" stroke-width="30" />
