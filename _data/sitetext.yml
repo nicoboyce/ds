@@ -73,7 +73,7 @@ en: &DEFAULT_EN
         image: https://deltastring.com/assets/img/timeline/showcase.jpeg
         alt:
         image-style: "rotate: -38deg;"
-    end: "Be part <br> of our <br> story!"
+    # end: "Be part <br> of our <br> story!"
 
   about:
     title: "About Us"
@@ -124,8 +124,8 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Rosie Elliott-Welch"
-        role: "Co-Founder, Business & Operations"
-        image: https://deltastring.com/assets/img/team/rew.jpeg
+        role: "Founder, Business & Operations"
+        image: https://deltastring.com/assets/img/pixel-rew.png # https://deltastring.com/assets/img/team/rew.jpeg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -134,8 +134,8 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Nico Boyce"
-        role: "Co-Founder, Engineering & Strategy"
-        image: https://deltastring.com/assets/img/team/nicobboyce.jpeg
+        role: "Founder, Engineering & Strategy"
+        image: https://deltastring.com/assets/img/pixel-nbb.png # https://deltastring.com/assets/img/team/nicobboyce.jpeg
         social:
           - url: https://nicoboyce.com
             icon: fa fa-link
