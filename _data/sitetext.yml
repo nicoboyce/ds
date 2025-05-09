@@ -125,7 +125,7 @@ en: &DEFAULT_EN
     people:
       - name: "Rosie Elliott-Welch"
         role: "Founder, Business & Operations"
-        image: https://deltastring.com/assets/img/pixel-rew.png # https://deltastring.com/assets/img/team/rew.jpeg
+        image: https://deltastring.com/assets/img/team/rew.jpeg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -135,7 +135,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Nico Boyce"
         role: "Founder, Engineering & Strategy"
-        image: https://deltastring.com/assets/img/pixel-nbb.png # https://deltastring.com/assets/img/team/nicobboyce.jpeg
+        image: https://deltastring.com/assets/img/team/nicobboyce.jpeg
         social:
           - url: https://nicoboyce.com
             icon: fa fa-link
