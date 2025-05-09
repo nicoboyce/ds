@@ -48,9 +48,13 @@
 		  {% if site.data.sitetext[site.locale].timeline.end %}	
 			<li class="timeline-inverted">
               <div class="timeline-image">
-                <img src="/assets/img/ds-logo-trans.svg" alt="Deltastring logo">
+                <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
               </div>
             </li>
+      {% else %}
+      <li>
+              <img src="/assets/img/ds-logo-trans.svg"  alt="Deltastring logo">
+      </li>
 		  {% endif %}
 
           </ul>
@@ -106,7 +110,14 @@
           
     {% if site.data.sitetext.timeline.end %}	
     <li class="timeline-inverted">
-      <img src="/assets/img/ds-logo-trans.svg" alt="Deltastring logo">
+      <!-- <img src="/assets/img/ds-logo-trans.svg"  alt="Deltastring logo"> -->
+            <div class="timeline-image">
+              <h4>{{ site.data.sitetext.timeline.end }}</h4>
+            </div>
+          </li>
+    {% else %}
+          <li>
+                  <img src="/assets/img/ds-logo-trans.svg"  alt="Deltastring logo">
           </li>
     {% endif %}
 
