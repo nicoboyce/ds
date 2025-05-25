@@ -11,8 +11,9 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
-        <img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 30%; display: block;">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].aside.body | markdownify }}<br /><img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Nico" style="max-width: 30%; display: block;"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a></div>
       </div>
+      
     </div>
    <!-- <div class="row">
       <div class="col-lg-8 mx-auto text-center">
@@ -33,9 +34,9 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}</div>
-        <img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 30%; display: block;">
-      </div>
+      <div class="large text-muted">{{ site.data.sitetext.aside.body | markdownify }}<br /><img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 30%; display: block;"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a></div>
     </div>
+          </div>
     <!--
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
