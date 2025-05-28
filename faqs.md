@@ -30,7 +30,7 @@ We do not take ad hoc meetings at our office, but you are welcome to <a href="ht
 
 <h3>We would like to book Nico for our podcast or conference or other speaking engagement. What do we do?</h3>>
 
-That's great, Nico loves speaking at events and is an experienced podcast guest and host. Please email such requests to <a href="mailto:rosie@deltastring.com">Rosie</a> who will help get this booked.
+That's great, Nico loves speaking at events and is an experienced podcast guest and host. Please email such requests to <a href="mailto:pr@deltastring.com">pr@deltastring.com</a> and we'll get back to you.
 
 <h3>Where else can we find you on the internet?</h3>>
 
