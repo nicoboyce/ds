@@ -110,12 +110,15 @@ en: &DEFAULT_EN
       - title: "Checkout"
         url: https://checkout.com
         logo: https://deltastring.com/assets/img/logos/checkout_logo.jpg
-      - title: "Curate Health"
-        url: https://curatehealth.co.uk
-        logo: https://deltastring.com/assets/img/logos/curate_health_logo.jpg
+      - title: "Distributed"
+        url: https://www.distributed.com
+        logo: https://deltastring.com/assets/img/logos/dstbtd_logo.jpg
       - title: "Route 101"
         url: https://route101.com
         logo: https://deltastring.com/assets/img/logos/route101_logo.jpg
+      - title: "Zendesk Inc"
+        url: https://zendesk.com
+        logo: https://deltastring.com/assets/img/logos/zendesk_logo.jpg
 
   team:
     title: "OUR AMAZING TEAM"
