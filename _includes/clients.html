@@ -42,7 +42,7 @@
     {% for client in site.data.sitetext.clients.list %}
       <div class="col">
         <a href="{{ client.url }}">
-          <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
+          <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" onmouseover="this.src='{{ client.logo }}';" onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}';"alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
         </a>
       </div>
     {% endfor %}
