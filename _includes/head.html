@@ -63,34 +63,52 @@
   {% if page.layout == "page" %}
   <style>
   
+/* 1) Make the row scrollable as a flex container */
+.horizontal-scroll {
+  display: flex;
+  flex-wrap: nowrap;           /* keep items in one line */
+  overflow-x: auto;            /* enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* smooth on iOS */
+  gap: 1rem;                   /* space between columns */
+  padding-bottom: 1rem;        /* account for scrollbar */
+}
+
+/* 2) Optional: snap each logo into position */
+.horizontal-scroll.active {
+  scroll-snap-type: x mandatory;
+}
+.horizontal-scroll .logo-cell {
+  scroll-snap-align: center;
+}
+
+/* 3) Hide native scrollbar (optional, for WebKit) */
+.horizontal-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+/* 4) Your existing hover-swap */
 .image-container {
-    position: relative; /* Ensure the container is positioned relative */
+  position: relative;
+  display: block;
 }
-
 .image-container img {
-    position: absolute; /* Stack images on top of each other */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    width: 100%; /* Make images fill the container */
-    height: auto; /* Maintain aspect ratio */
-    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+  position: absolute;     /* stack */
+  top: 0; left: 0;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
 }
-
-.image-container img.top {
-    opacity: 1; /* Fully visible */
-}
-
-.image-container img.bottom {
-    opacity: 0; /* Initially hidden */
-}
-
-.image-container:hover img.top {
-    opacity: 0; /* Make top image transparent on hover */
-}
-
-.image-container:hover img.bottom {
-    opacity: 1; /* Show bottom image on hover */
-}
+.image-container img.top   { opacity: 1; }
+.image-container img.bottom{ opacity: 0; }
+.image-container:hover img.top    { opacity: 0; }
+.image-container:hover img.bottom { opacity: 1; }
 
 
     #pagecontainer {
