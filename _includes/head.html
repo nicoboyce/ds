@@ -62,13 +62,17 @@
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
   <style>
+
     .image-container {
     position: relative;
     display: inline-block; /* Ensure the container fits the images */
+    overflow: hidden; /* Hide any overflow */
 }
 
 .image-container img {
-    position: absolute;
+    position: absolute; /* Position images absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
     width: 100%; /* Make images fill the container */
     height: auto; /* Maintain aspect ratio */
     transition: opacity 0.5s ease; /* Smooth transition for opacity */
