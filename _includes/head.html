@@ -62,15 +62,13 @@
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
   <style>
-
-    .image-container {
-    position: relative;
-    display: inline-block; /* Ensure the container fits the images */
-    overflow: hidden; /* Hide any overflow */
+  
+.image-container {
+    position: relative; /* Ensure the container is positioned relative */
 }
 
 .image-container img {
-    position: absolute; /* Position images absolutely */
+    position: absolute; /* Stack images on top of each other */
     top: 0; /* Align to the top */
     left: 0; /* Align to the left */
     width: 100%; /* Make images fill the container */
@@ -93,6 +91,7 @@
 .image-container:hover img.bottom {
     opacity: 1; /* Show bottom image on hover */
 }
+
 
     #pagecontainer {
       padding-top: 150px;

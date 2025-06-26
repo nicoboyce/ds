@@ -4,12 +4,13 @@
     <div class="container">
       <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
 	    {% for client in site.data.sitetext[site.locale].clients.list %}
-<div class="col">
+<div class="col position-relative">
     <a href="{{ client.url }}" class="image-container">
         <img class="img-fluid d-block mx-auto top" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
         <img class="img-fluid d-block mx-auto bottom" src="{{ client.logo }}" alt="Second Image" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
     </a>
 </div>
+
 
 
 	    {% endfor %}
@@ -21,12 +22,13 @@
   <div class="container">
     <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
     {% for client in site.data.sitetext.clients.list %}
-<div class="col">
+<div class="col position-relative">
     <a href="{{ client.url }}" class="image-container">
         <img class="img-fluid d-block mx-auto top" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
         <img class="img-fluid d-block mx-auto bottom" src="{{ client.logo }}" alt="Second Image" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
     </a>
 </div>
+
 
 
     {% endfor %}
