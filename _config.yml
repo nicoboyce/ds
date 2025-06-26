@@ -18,7 +18,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : Deltastring
 email      : nico@deltastring.com #this is also the email contact forms will go to
-description: "Engineering solutions for Zendesk success."
+description: "Zendesk migrations, automations, integrations, applications."
 author     : Nico Boyce
 logo:     #optional, defaults to site title
   path: assets\img\ds-logo-trans-alt.svg
