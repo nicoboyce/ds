@@ -62,6 +62,34 @@
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
   <style>
+    .image-container {
+    position: relative;
+    display: inline-block; /* Ensure the container fits the images */
+}
+
+.image-container img {
+    position: absolute;
+    width: 100%; /* Make images fill the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.image-container img.top {
+    opacity: 1; /* Fully visible */
+}
+
+.image-container img.bottom {
+    opacity: 0; /* Initially hidden */
+}
+
+.image-container:hover img.top {
+    opacity: 0; /* Make top image transparent on hover */
+}
+
+.image-container:hover img.bottom {
+    opacity: 1; /* Show bottom image on hover */
+}
+
     #pagecontainer {
       padding-top: 150px;
     }

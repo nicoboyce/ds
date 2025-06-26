@@ -4,11 +4,14 @@
     <div class="container">
       <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
 	    {% for client in site.data.sitetext[site.locale].clients.list %}
-        <div class="col">
-          <a href="{{ client.url }}">
-            <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].clients.max-height | default: "100px" }}">
-          </a>
-        </div>
+<div class="col">
+    <a href="{{ client.url }}" class="image-container">
+        <img class="img-fluid d-block mx-auto top" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
+        <img class="img-fluid d-block mx-auto bottom" src="{{ client.logo }}" alt="Second Image" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
+    </a>
+</div>
+
+
 	    {% endfor %}
       </div>
     </div>
@@ -18,11 +21,14 @@
   <div class="container">
     <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
     {% for client in site.data.sitetext.clients.list %}
-      <div class="col">
-        <a href="{{ client.url }}">
-          <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
-        </a>
-      </div>
+<div class="col">
+    <a href="{{ client.url }}" class="image-container">
+        <img class="img-fluid d-block mx-auto top" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
+        <img class="img-fluid d-block mx-auto bottom" src="{{ client.logo }}" alt="Second Image" style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}">
+    </a>
+</div>
+
+
     {% endfor %}
     </div>
   </div>
