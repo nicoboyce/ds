@@ -30,8 +30,8 @@
       <div class="col">
         <a href="{{ client.url }}">
           <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}"
-            onmouseover="this.src='{{ client.logo }}'; this.style.filter='none';"
-            onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}'; this.style.filter='invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);'"
+            onmouseover="this.src='{{ client.logo }}';"
+            onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}';"
             alt="{{ client.title }}"
             style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }};">
 
@@ -49,8 +49,8 @@
       <div class="col">
         <a href="{{ client.url }}">
           <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}"
-            onmouseover="this.src='{{ client.logo }}'; this.style.filter='none';"
-            onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}'; this.style.filter='invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);'"
+            onmouseover="this.src='{{ client.logo }}';"
+            onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}';"
             alt="{{ client.title }}"
             style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }};">
         </a>
