@@ -22,30 +22,40 @@
 
 <!-- Clients -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-  <section class="py-5" id="{{ site.data.sitetext[site.locale].clients.section | default: "clients" }}">
-    <div class="container">
-      <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
-	    {% for client in site.data.sitetext[site.locale].clients.list %}
-        <div class="col">
-          <a href="{{ client.url }}">
-            <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" onmouseover="this.src='{{ client.logo }}';" onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}';"alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
-        </a>
-        </div>
-	    {% endfor %}
-      </div>
-    </div>
-  </section>
-{% else %}
-<section class="py-5" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
+<section class="py-5" id="{{ site.data.sitetext[site.locale].clients.section | default: " clients" }}">
   <div class="container">
-    <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
-    {% for client in site.data.sitetext.clients.list %}
+    <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling=="yes" %} id="scrolling-clients"
+      {% endif %}>
+      {% for client in site.data.sitetext[site.locale].clients.list %}
       <div class="col">
         <a href="{{ client.url }}">
-          <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}" onmouseover="this.src='{{ client.logo }}';" onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}';"alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
+          <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}"
+            onmouseover="this.src='{{ client.logo }}'; this.style.filter='none';"
+            onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}'; this.style.filter='invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);'"
+            alt="{{ client.title }}"
+            style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}; filter: invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);">
+
         </a>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="py-5" id="{{ site.data.sitetext.clients.section | default: " clients" }}">
+  <div class="container">
+    <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling=="yes" %} id="scrolling-clients" {% endif %}>
+      {% for client in site.data.sitetext.clients.list %}
+      <div class="col">
+        <a href="{{ client.url }}">
+          <img class="img-fluid d-block mx-auto" src="{{ client.logo | replace: '.jpg', '-black.jpg' }}"
+            onmouseover="this.src='{{ client.logo }}'; this.style.filter='none';"
+            onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}'; this.style.filter='invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);'"
+            alt="{{ client.title }}"
+            style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}; filter: invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);">
+        </a>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
