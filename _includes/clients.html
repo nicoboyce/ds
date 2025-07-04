@@ -33,7 +33,7 @@
             onmouseover="this.src='{{ client.logo }}'; this.style.filter='none';"
             onmouseout="this.src='{{ client.logo | replace: '.jpg', '-black.jpg' }}'; this.style.filter='invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);'"
             alt="{{ client.title }}"
-            style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }}; filter: invert(10%) sepia(3%) saturate(2646%) hue-rotate(169deg) brightness(100%) contrast(90%);">
+            style="max-height: {{ site.data.sitetext.clients.max-height | default: '100px' }};">
 
         </a>
       </div>
