@@ -107,6 +107,9 @@ en: &DEFAULT_EN
       - title: "IVC Evidensia"
         url: https://ivc-evidensia.com
         logo: https://deltastring.com/assets/img/logos/ivc_evidensia_logo.jpg
+      - title: "Salto"
+        url: https://salto.io
+        logo: https://deltastring.com/assets/img/logos/salto_io_logo.jpg
       - title: "Ventrica"
         url: https://ventrica.co.uk
         logo: https://deltastring.com/assets/img/logos/ventrica_ltd_logo.jpg
@@ -164,7 +167,7 @@ en: &DEFAULT_EN
         icon: "fa fa-envelope"
       - url: https://wa.me/447769023498
         icon: "fab fa-whatsapp"
-      - url: https://linkedin.com/in/nicoboyce/
+      - url: https://www.linkedin.com/company/deltastring/
         icon: "fab fa-linkedin-in"
       - url: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf
         icon: "fa fa-calendar"
