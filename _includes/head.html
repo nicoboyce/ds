@@ -39,7 +39,7 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | append: " | " | append: site.company_name }}{% else %}{{ site.company_name }}{% endif %}</title>
   
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
