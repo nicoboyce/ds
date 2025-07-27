@@ -3,7 +3,7 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="https://deltastring.com/#page-top">
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" alt="{{ site.company_name | default: site.title }} logo"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
@@ -54,7 +54,7 @@
         <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+        <h1 class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</h1>
 	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
@@ -70,7 +70,7 @@
         <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+        <h1 class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</h1>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>

@@ -18,29 +18,37 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
+                <label for="name" class="sr-only">{{ site.data.sitetext[site.locale].contact.name | default: "Name" }}</label>
                 <input name="name" class="form-control" id="name" type="text"
                   placeholder="{{ site.data.sitetext[site.locale].contact.name | default: "Name*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.name-validation | default: "Please enter your name." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.name-validation | default: "Please enter your name." }}"
+                  aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
+                <label for="email" class="sr-only">{{ site.data.sitetext[site.locale].contact.email | default: "Email" }}</label>
                 <input name="_replyto" class="form-control" id="email" type="email"
                   placeholder="{{ site.data.sitetext[site.locale].contact.email | default: "Email*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}"
+                  aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
+                <label for="phone" class="sr-only">{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number" }}</label>
                 <input name="phone" class="form-control" id="phone" type="tel"
                   placeholder="{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}"
+                  aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
+                <label for="message" class="sr-only">{{ site.data.sitetext[site.locale].contact.message | default: "Message" }}</label>
                 <textarea name="message" class="form-control" id="message"
                   placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}"></textarea>
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}"
+                  aria-required="true"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -79,29 +87,37 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input name="name" class="form-control" id="name" type="text"
+                <label for="name2" class="sr-only">{{ site.data.sitetext.contact.name | default: "Name" }}</label>
+                <input name="name" class="form-control" id="name2" type="text"
                   placeholder="{{ site.data.sitetext.contact.name | default: "Name*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.name-validation | default: "Please enter your name." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.name-validation | default: "Please enter your name." }}"
+                  aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="_replyto" class="form-control" id="email" type="email"
+                <label for="email2" class="sr-only">{{ site.data.sitetext.contact.email | default: "Email" }}</label>
+                <input name="_replyto" class="form-control" id="email2" type="email"
                   placeholder="{{ site.data.sitetext.contact.email | default: "Email*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.email-validation | default: "Please enter your email address." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.email-validation | default: "Please enter your email address." }}"
+                  aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="phone" class="form-control" id="phone" type="tel"
+                <label for="phone2" class="sr-only">{{ site.data.sitetext.contact.phone | default: "Phone Number" }}</label>
+                <input name="phone" class="form-control" id="phone2" type="tel"
                   placeholder="{{ site.data.sitetext.contact.phone | default: "Phone Number*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.phone-validation | default: "Please enter your phone number." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.phone-validation | default: "Please enter your phone number." }}"
+                  aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <textarea name="message" class="form-control" id="message"
+                <label for="message2" class="sr-only">{{ site.data.sitetext.contact.message | default: "Message" }}</label>
+                <textarea name="message" class="form-control" id="message2"
                   placeholder="{{ site.data.sitetext.contact.message | default: "Message*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.message-validation | default: "Please enter a message." }}"></textarea>
+                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.message-validation | default: "Please enter a message." }}"
+                  aria-required="true"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>

@@ -7,20 +7,21 @@
   tabindex="-1"
   role="dialog"
   aria-hidden="true"
+  aria-labelledby="p{{ forloop.index }}-title"
 >
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
+      <button class="close-modal" data-dismiss="modal" aria-label="Close modal">
         <div class="lr">
           <div class="rl"></div>
         </div>
-      </div>
+      </button>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">{{ project.title }}</h2>
+              <h2 class="text-uppercase" id="p{{ forloop.index }}-title">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
               <img
                 class="img-fluid d-block mx-auto"
@@ -51,20 +52,21 @@
   tabindex="-1"
   role="dialog"
   aria-hidden="true"
+  aria-labelledby="p{{ forloop.index }}-title"
 >
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
+      <button class="close-modal" data-dismiss="modal" aria-label="Close modal">
         <div class="lr">
           <div class="rl"></div>
         </div>
-      </div>
+      </button>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">{{ project.title }}</h2>
+              <h2 class="text-uppercase" id="p{{ forloop.index }}-title">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
               <img
                 class="img-fluid d-block mx-auto"

@@ -4,6 +4,22 @@ body {
   @include body-font;
 }
 
+// Skip navigation link for accessibility
+.skip-nav-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: $black;
+  color: $white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+  
+  &:focus {
+    top: 0;
+  }
+}
+
 p {
   line-height: 1.75;
 }
@@ -68,4 +84,29 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+// Enhanced focus indicators for accessibility
+*:focus {
+  outline: 3px solid $primary;
+  outline-offset: 2px;
+}
+
+// Better focus indicators for buttons
+.btn:focus,
+button:focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+}
+
+// Screen reader only content
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
 }

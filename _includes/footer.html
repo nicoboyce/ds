@@ -16,8 +16,8 @@
           {% for link in site.data.sitetext[site.locale].footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+            <a href="{{ link.url }}" aria-label="{{ link.title | default: 'Social media link' }}">
+              {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
             </a>
             {% endif %}
           </li>
@@ -56,8 +56,8 @@
           {% for link in site.data.sitetext.footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+            <a href="{{ link.url }}" aria-label="{{ link.title | default: 'Social media link' }}">
+              {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
             </a>
             {% endif %}
           </li>
@@ -74,7 +74,7 @@
             >
           </li>
           <li class="list-inline-item">
-            <a href="ms">"Modern Slavery Policy</a>
+            <a href="ms">Modern Slavery Policy</a>
           </li>
           <li class="list-inline-item">
             <a href="no-ai">Do not train AI on our work</a>
