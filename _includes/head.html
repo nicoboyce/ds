@@ -33,11 +33,77 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
+  <meta name="keywords" content="Zendesk optimization, Zendesk migration, customer experience automation, CX integration, Zendesk agency, customer support automation, Southampton UK">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Deltastring">
+  <meta property="og:locale" content="{{ site.locale | default: 'en_US' }}">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Deltastring",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/img/ds-logo-trans-alt.svg",
+    "description": "{{ site.description }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Southampton",
+      "addressCountry": "UK"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+44-7769-023498",
+      "contactType": "customer service",
+      "email": "{{ site.email }}"
+    },
+    "founder": [
+      {
+        "@type": "Person",
+        "name": "Nico Boyce",
+        "jobTitle": "Founder, CTO"
+      },
+      {
+        "@type": "Person", 
+        "name": "Rosie Elliott-Welch",
+        "jobTitle": "Founder, CEO"
+      }
+    ],
+    "serviceType": [
+      "Zendesk Migration",
+      "Zendesk Integration", 
+      "Customer Experience Automation",
+      "Zendesk Applications Development"
+    ],
+    "areaServed": {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/deltastring/",
+      "https://www.youtube.com/@deltastringdotcom"
+    ]
+  }
+  </script>
 
   <!-- Bootstrap core CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />

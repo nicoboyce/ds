@@ -48,22 +48,22 @@ en: &DEFAULT_EN
         year: "2016-2019"
         desc: "Nico sets up and operates his first company, rethinking hospitality with data-led process iteration, while Rosie is an experienced senior manager from the world of retail."
         image: https://deltastring.com/assets/img/timeline/work.jpg
-        alt:
+        alt: "Early hospitality business operations with data-led process iteration approach"
       - title: "Learning Zendesk, focusing on actionable insights"
         year: "2019-2021"
         desc: "We turn our attention to Zendesk, talking our learnings from the restaurant world to streamline and simplify the agent experience."
         image: https://deltastring.com/assets/img/timeline/depop.jpg
-        alt:
+        alt: "Depop collaboration period - learning Zendesk platform and customer experience optimization"
       - title: "Data and engineering"
         year: "2022"
         desc: "Following a project with a data engineering team, combining this with previous chatbots and API integration setups leads to our first Zendesk applications."
         image: https://deltastring.com/assets/img/timeline/dsdesk.jpeg
-        alt: 
+        alt: "DSDesk application development - first Zendesk applications combining data engineering and automation" 
       - title: "End-to-end projects with enterprise clients"
         year: "2023-2025"
         desc: "Our bread-and-butter has been these complete deployment processes for enterprise clients looking to switch to Zendesk or rethink their Zendesk approach."
         image: https://deltastring.com/assets/img/timeline/nico-office.jpeg
-        alt:
+        alt: "Nico Boyce in office environment managing enterprise Zendesk deployment projects"
         image-style: "rotate: 32deg;"
         # you can enforce the alignment
         align: right
@@ -71,7 +71,7 @@ en: &DEFAULT_EN
         year: "TODAY"
         desc: "Deltastring do Zendesk migrations, automations, integrations, applications. We're looking to a future where businesses of all scales require intelligent systems."
         image: https://deltastring.com/assets/img/timeline/showcase.jpeg
-        alt:
+        alt: "Modern Deltastring service showcase - comprehensive Zendesk solutions and team expansion"
         image-style: "rotate: -38deg;"
     # end: "Be part <br> of our <br> story!"
 
@@ -95,36 +95,47 @@ en: &DEFAULT_EN
       - title: "Depop"
         url: https://depop.com
         logo: https://deltastring.com/assets/img/logos/depop_logo.jpg
+        alt: "Depop client logo - fashion marketplace platform"
       - title: "Hofy"
         url: https://hofy.com
         logo: https://deltastring.com/assets/img/logos/hofy_logo.jpg
+        alt: "Hofy client logo - remote work equipment provider"
       - title: "Igloo"
         url: https://igloo.energy
         logo: https://deltastring.com/assets/img/logos/igloo_logo.jpg
+        alt: "Igloo Energy client logo - renewable energy supplier"
       - title: "Hyperjar"
         url: https://hyperjar.com
         logo: https://deltastring.com/assets/img/logos/hyperjar_logo.jpg
+        alt: "Hyperjar client logo - digital savings and spending platform"
       - title: "IVC Evidensia"
         url: https://ivc-evidensia.com
         logo: https://deltastring.com/assets/img/logos/ivc_evidensia_logo.jpg
+        alt: "IVC Evidensia client logo - veterinary care provider"
       - title: "Salto"
         url: https://salto.io
         logo: https://deltastring.com/assets/img/logos/salto_io_logo.jpg
+        alt: "Salto client logo - DevOps configuration management platform"
       - title: "Ventrica"
         url: https://ventrica.co.uk
         logo: https://deltastring.com/assets/img/logos/ventrica_ltd_logo.jpg
+        alt: "Ventrica client logo - customer experience outsourcing provider"
       - title: "Checkout"
         url: https://checkout.com
         logo: https://deltastring.com/assets/img/logos/checkout_logo.jpg
+        alt: "Checkout.com client logo - global payment processing platform"
       - title: "Distributed"
         url: https://www.distributed.com
         logo: https://deltastring.com/assets/img/logos/dstbtd_logo.jpg
+        alt: "Distributed client logo - remote work solutions provider"
       - title: "Route 101"
         url: https://route101.com
         logo: https://deltastring.com/assets/img/logos/route101_logo.jpg
+        alt: "Route 101 client logo - telecommunications provider"
       - title: "Zendesk Inc"
         url: https://zendesk.com
         logo: https://deltastring.com/assets/img/logos/zendesk_logo.jpg
+        alt: "Zendesk Inc client logo - customer service software platform"
 
   team:
     title: "OUR AMAZING TEAM"
@@ -135,12 +146,14 @@ en: &DEFAULT_EN
       - name: "Rosie Elliott-Welch"
         role: "Founder, CEO"
         image: https://deltastring.com/assets/img/team/rew.jpeg
+        alt: "Rosie Elliott-Welch, Founder and CEO of Deltastring, experienced business operations professional"
         social:
           - url: https://www.linkedin.com/in/rosie-elliott-welch-219965185/
             icon: fab fa-linkedin-in
       - name: "Nico Boyce"
         role: "Founder, CTO"
         image: https://deltastring.com/assets/img/team/nicobboyce.jpeg
+        alt: "Nico Boyce, Founder and CTO of Deltastring, Zendesk technical specialist and developer"
         social:
           - url: https://linkedin.com/in/nicoboyce/
             icon: fab fa-linkedin-in
