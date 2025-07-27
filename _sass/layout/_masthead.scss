@@ -2,7 +2,13 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("#{$header-image}");
+  // Use WebP with JPEG fallback
+  background-image: url("https://deltastring.com/assets/img/office.jpeg");
+  background-image: 
+    image-set(
+      url("https://deltastring.com/assets/img/office.webp") type("image/webp"),
+      url("https://deltastring.com/assets/img/office.jpeg") type("image/jpeg")
+    );
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

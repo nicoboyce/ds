@@ -153,6 +153,7 @@ en: &DEFAULT_EN
         social:
           - url: https://www.linkedin.com/in/rosie-elliott-welch-219965185/
             icon: fab fa-linkedin-in
+            title: "Rosie Elliott-Welch's LinkedIn profile"
       - name: "Nico Boyce"
         role: "Founder, CTO"
         image: https://deltastring.com/assets/img/team/nicobboyce.jpeg
@@ -160,6 +161,7 @@ en: &DEFAULT_EN
         social:
           - url: https://linkedin.com/in/nicoboyce/
             icon: fab fa-linkedin-in
+            title: "Nico Boyce's LinkedIn profile"
 
   contact:
     title: "Contact Us"
@@ -181,14 +183,19 @@ en: &DEFAULT_EN
     social:
       - url: "mailto:nico@deltastring.com"
         icon: "fa fa-envelope"
+        title: "Email Deltastring"
       - url: https://wa.me/447769023498
         icon: "fab fa-whatsapp"
+        title: "Contact us on WhatsApp"
       - url: https://www.linkedin.com/company/deltastring/
         icon: "fab fa-linkedin-in"
+        title: "Deltastring on LinkedIn"
       - url: https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf
         icon: "fa fa-calendar"
+        title: "Schedule a meeting with Deltastring"
       - url: https://www.youtube.com/@deltastringdotcom
         icon: "fab fa-youtube"
+        title: "Deltastring on YouTube"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

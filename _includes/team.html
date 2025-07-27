@@ -18,8 +18,8 @@
 		<ul class="list-inline social-buttons">
 		{% for network in person.social %}
 		  <li class="list-inline-item">
-			<a href="{{ network.url }}">
-			  <i class="{{ network.icon }}"></i>
+			<a href="{{ network.url }}" aria-label="{{ network.title | default: 'Social media profile' }}">
+			  <i class="{{ network.icon }}" aria-hidden="true"></i>
 			</a>
 		  </li>
 		{% endfor %}
