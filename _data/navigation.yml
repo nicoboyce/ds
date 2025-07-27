@@ -17,6 +17,17 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       url: "https://deltastring.com/#services"
+      dropdown:
+        - title: "Zendesk Migration"
+          url: "/zendesk-migration"
+        - title: "Zendesk Integration"
+          url: "/zendesk-integration"
+        - title: "CX Automation"
+          url: "/customer-experience-automation"
+        - title: "Custom Applications"
+          url: "/zendesk-applications"
+    - title: "Resources"
+      url: "/resources"
     - title: "About"
       url: "https://deltastring.com/#about"
     - title: "Timeline"

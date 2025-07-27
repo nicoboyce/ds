@@ -21,15 +21,18 @@ en: &DEFAULT_EN
     text: "Zendesk migrations, automations, integrations, applications."
     section: services
     list:
+      - title: "Migrate"
+        desc: "Seamless [Zendesk migration services](/zendesk-migration) from legacy systems with zero data loss and minimal downtime. Expert planning and execution for enterprise transitions."
+        icon: fas fa-exchange-alt
       - title: "Integrate"
-        desc: "Connect your systems, bringing data to where it's needed. Take actions directly from tickets, increasing efficiency and accountability."
-        icon: fas fa-network-wired #find more at https://fontawesome.com/icons
+        desc: "Custom [Zendesk integrations](/zendesk-integration) connecting your customer service platform with CRM, billing systems, and business tools. Eliminate manual data entry."
+        icon: fas fa-network-wired
       - title: "Automate"
-        desc: "Free your agents from repetitive tasks to focus on the hard stuff, better outcomes for your customers."
+        desc: "[Customer experience automation](/customer-experience-automation) that frees your agents from repetitive tasks to focus on complex problem-solving and better customer outcomes."
         icon: fas fa-robot
-      - title: "Iterate"
-        desc: "Reveal actionable insights, see the measurable results of the changes you deploy. Build your knowledge and share best practice as your team see what excellence looks like."
-        icon: fas fa-chart-line
+      - title: "Develop"
+        desc: "Bespoke [Zendesk applications](/zendesk-applications) that extend platform functionality with custom features tailored to your specific business requirements."
+        icon: fas fa-code
 
   portfolio:
     title: "Portfolio"
@@ -84,7 +87,7 @@ en: &DEFAULT_EN
   aside:
     title: "Streamline, simplify, supercharge!"
     text: "The best processes get out of the way of productivity"
-    body: "Are your agents constantly flipping between second—even third—screens? Their routine of endless ctrl-c and ctrl-v is a productivity sink, wasting time and efficiency just to get data where it needs to be. <br /><br />We streamline that process. Our integrations and automations connect your Zendesk directly to the systems responsible for decision-making. No more manual data wrangling, just pure, efficient workflows that power your business. <br /><br />Agents forget they are navigating Zendesk but instead just see themselves as talking to customers, solving problems. Ready to accelerate your operations? Book a meeting with us and see efficiency transformed."
+    body: "Are your agents constantly flipping between second—even third—screens? Their routine of endless ctrl-c and ctrl-v is a productivity sink, wasting time and efficiency just to get data where it needs to be. <br /><br />We streamline that process. Our [Zendesk integrations](/zendesk-integration) and [automation solutions](/customer-experience-automation) connect your Zendesk directly to the systems responsible for decision-making. No more manual data wrangling, just pure, efficient workflows that power your business. <br /><br />Agents forget they are navigating Zendesk but instead just see themselves as talking to customers, solving problems. Explore our [comprehensive resources](/resources) or book a meeting with us and see efficiency transformed."
     section: aside
 
   clients:

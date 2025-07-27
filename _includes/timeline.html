@@ -31,7 +31,7 @@
               {% endif %}
             {%- endif -%}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" style="{{ event.image-style | default: ""}}" alt="{{ event.alt | default: ""}}">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" style="{{ event.image-style | default: ""}}" alt="{{ event.alt | default: ""}}" loading="lazy" decoding="async">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </div>
-    <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; max-height:300px; max-width: 80%;" alt="Deltastring logo">
+    <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; max-height:300px; max-width: 80%;" alt="Deltastring logo" loading="lazy" decoding="async">
   </section>
 {% else %}
 <section class="bg-light page-section" id="{{ site.data.sitetext.timeline.section | default: "about" }}">
@@ -93,7 +93,7 @@
             {% endif %}
           {%- endif -%}
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="{{ event.image }}" style="{{ event.image-style | default: ""}}" alt="{{ event.alt | default: ""}}">
+              <img class="rounded-circle img-fluid" src="{{ event.image }}" style="{{ event.image-style | default: ""}}" alt="{{ event.alt | default: ""}}" loading="lazy" decoding="async">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -121,7 +121,7 @@
       </div>
     </div>
   </div>
-  <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; height:200px;" alt="Deltastring logo">
+  <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; height:200px;" alt="Deltastring logo" loading="lazy" decoding="async">
 </section>
 {% endif %}
 <!-- End About -->

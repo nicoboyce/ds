@@ -1,2 +1,20 @@
 User-agent: *
+Allow: /
+
+# Disallow assets and administrative files
 Disallow: /assets/
+Disallow: /_*
+Disallow: /.git*
+Disallow: /Gemfile*
+Disallow: /_config.yml
+
+# Allow specific important assets
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Sitemap location
+Sitemap: https://deltastring.com/sitemap.xml
+
+# Crawl-delay for courtesy (optional)
+Crawl-delay: 1

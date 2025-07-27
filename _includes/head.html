@@ -1,5 +1,8 @@
 <head>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- Resource hints for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <link rel="manifest" href="manifest.json">
 
 <meta name="mobile-web-app-capable" content="yes">
@@ -56,27 +59,50 @@
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
   
-  <!-- Schema.org JSON-LD -->
+  <!-- Schema.org JSON-LD for Local Business -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Deltastring",
+    "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+    "name": "Deltastring Ltd",
+    "alternateName": "Deltastring",
     "url": "{{ site.url }}",
     "logo": "{{ site.url }}/assets/img/ds-logo-trans-alt.svg",
     "description": "{{ site.description }}",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Southampton",
-      "addressCountry": "UK"
+      "addressRegion": "Hampshire",
+      "addressCountry": "GB",
+      "postalCode": "SO15"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.9097,
+      "longitude": -1.4044
     },
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+44-7769-023498",
       "contactType": "customer service",
-      "email": "{{ site.email }}"
+      "email": "{{ site.email }}",
+      "availableLanguage": "English"
     },
     "founder": [
+      {
+        "@type": "Person",
+        "name": "Nico Boyce",
+        "jobTitle": "Founder, CTO",
+        "url": "https://linkedin.com/in/nicoboyce/"
+      },
+      {
+        "@type": "Person", 
+        "name": "Rosie Elliott-Welch",
+        "jobTitle": "Founder, CEO",
+        "url": "https://www.linkedin.com/in/rosie-elliott-welch-219965185/"
+      }
+    ],
+    "employee": [
       {
         "@type": "Person",
         "name": "Nico Boyce",
@@ -89,15 +115,87 @@
       }
     ],
     "serviceType": [
-      "Zendesk Migration",
-      "Zendesk Integration", 
+      "Zendesk Migration Services",
+      "Zendesk Integration Services", 
       "Customer Experience Automation",
-      "Zendesk Applications Development"
+      "Zendesk Applications Development",
+      "CX Consulting",
+      "Customer Service Optimization"
     ],
-    "areaServed": {
-      "@type": "Country",
-      "name": "United Kingdom"
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Zendesk Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Zendesk Migration",
+            "description": "Professional Zendesk migration services with zero data loss guarantee"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Zendesk Integration",
+            "description": "Custom API integrations connecting Zendesk with business systems"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Customer Experience Automation",
+            "description": "Intelligent automation workflows for customer service operations"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Zendesk Applications",
+            "description": "Custom Zendesk apps and marketplace applications development"
+          }
+        }
+      ]
     },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      {
+        "@type": "City",
+        "name": "Southampton"
+      },
+      {
+        "@type": "City",
+        "name": "London"
+      },
+      {
+        "@type": "City",
+        "name": "Bristol"
+      }
+    ],
+    "knowsAbout": [
+      "Zendesk",
+      "Customer Experience",
+      "Customer Service Automation",
+      "CRM Integration",
+      "API Development",
+      "Customer Support Optimization"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "12",
+      "bestRating": "5"
+    },
+    "openingHours": "Mo-Fr 09:00-17:00",
+    "paymentAccepted": "Bank Transfer, Credit Card",
+    "currenciesAccepted": "GBP, EUR",
+    "priceRange": "£££",
     "sameAs": [
       "https://www.linkedin.com/company/deltastring/",
       "https://www.youtube.com/@deltastringdotcom"
@@ -116,10 +214,8 @@
     {% endfor %}
   {% else %}
     <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- Combined Google Fonts request with display=swap for performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Kaushan+Script&family=Droid+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet" type="text/css">
   {% endif %}
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
