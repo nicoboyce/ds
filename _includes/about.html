@@ -10,7 +10,26 @@
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}<br /><img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Nico" style="max-width: 30%; display: block;"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a></div>
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}<br />
+        
+        <!-- Pixel Character with Speech Bubble -->
+        <div style="position: relative; display: inline-block; margin: 20px 0;">
+          <img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 150px; display: block; margin: 0 auto;">
+          
+          <!-- SVG Speech Bubble -->
+          <svg style="position: absolute; top: -60px; left: 50%; transform: translateX(-50%); z-index: 10;" width="220" height="60" viewBox="0 0 220 60">
+            <!-- Bubble background -->
+            <rect x="5" y="5" width="210" height="40" rx="8" ry="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+            <!-- Speech bubble tail -->
+            <polygon points="110,45 115,50 105,50" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+            <!-- Text -->
+            <text x="110" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+              "Premium service on any budget!"
+            </text>
+          </svg>
+        </div>
+        
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a></div>
       </div>
       
     </div>
@@ -32,7 +51,26 @@
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}<br /><img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 30%; display: block;"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a></div>
+        <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}<br />
+        
+        <!-- Pixel Character with Speech Bubble -->
+        <div style="position: relative; display: inline-block; margin: 20px 0;">
+          <img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 150px; display: block; margin: 0 auto;">
+          
+          <!-- SVG Speech Bubble -->
+          <svg style="position: absolute; top: -60px; left: 50%; transform: translateX(-50%); z-index: 10;" width="220" height="60" viewBox="0 0 220 60">
+            <!-- Bubble background -->
+            <rect x="5" y="5" width="210" height="40" rx="8" ry="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+            <!-- Speech bubble tail -->
+            <polygon points="110,45 115,50 105,50" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+            <!-- Text -->
+            <text x="110" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+              "Premium service on any budget!"
+            </text>
+          </svg>
+        </div>
+        
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a></div>
     </div>
           </div>
     <!--
