@@ -85,10 +85,27 @@ en: &DEFAULT_EN
     section: about
 
   aside:
-    title: "Streamline, simplify, supercharge!"
+    title: "Don't Pay Agent Salaries for Robot Work"
     text: "The best processes get out of the way of productivity"
     body: "Are your agents constantly flipping between second—even third—screens? Their routine of endless ctrl-c and ctrl-v is a productivity sink, wasting time and efficiency just to get data where it needs to be. <br /><br />We streamline that process. Our [Zendesk integrations](/zendesk-integration) and [automation solutions](/customer-experience-automation) connect your Zendesk directly to the systems responsible for decision-making. No more manual data wrangling, just pure, efficient workflows that power your business. <br /><br />Agents forget they are navigating Zendesk but instead just see themselves as talking to customers, solving problems. Explore our [comprehensive resources](/resources) or book a meeting with us and see efficiency transformed."
     section: aside
+
+  testimonials:
+    title: "What Our Clients Say"
+    text: "Real feedback from our valued partners"
+    section: testimonials
+    list:
+      - quote: "Delivered on time, on budget, in deep partnership, improving the daily work for our care partners, directly impacting the experience of our merchants"
+        author: "VP Experience"
+        company: "Checkout.com"
+      - quote: "London's best teacher of Zendesk"
+        author: "Systems Manager"
+        company: "HyperJar"
+      - quote: "A powerful source of knowledge in the Zendesk community"
+        author: "Zendesk User Group UK and Ireland leader"
+      - quote: "The sole person in Operations we trust with Write access to the Git"
+        author: "Director of Operations"
+        company: "Etsy brand Depop"
 
   clients:
     section: clients
