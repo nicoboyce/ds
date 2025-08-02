@@ -1,14 +1,38 @@
 User-agent: *
 Allow: /
 
-# Disallow assets and administrative files
+# Block subdomains from indexing (prevent duplicate content)
+# These should be handled at DNS/server level, but adding for completeness
+User-agent: *
+Disallow: http://www.deltastring.com/
+Disallow: https://www.deltastring.com/
+Disallow: http://*.deltastring.com/
+Disallow: https://*.deltastring.com/
+
+# Disallow development and build files
 Disallow: /assets/
 Disallow: /_*
 Disallow: /.git*
 Disallow: /Gemfile*
 Disallow: /_config.yml
+Disallow: /_site/
+Disallow: /node_modules/
+Disallow: /.bundle/
+Disallow: /vendor/
 
-# Allow specific important assets
+# Block temporary and analysis files
+Disallow: /deltastring*.json
+Disallow: /*-analysis.txt
+Disallow: /convert-to-webp.sh
+Disallow: /google-search-console-setup.md
+Disallow: /jekyll-agency.gemspec
+Disallow: /ping
+
+# Block sensitive or private files
+Disallow: /legal.html
+Disallow: /no-ai.html
+
+# Allow specific important assets for performance
 Allow: /assets/img/
 Allow: /assets/css/
 Allow: /assets/js/
@@ -16,5 +40,5 @@ Allow: /assets/js/
 # Sitemap location
 Sitemap: https://deltastring.com/sitemap.xml
 
-# Crawl-delay for courtesy (optional)
+# Crawl-delay for courtesy
 Crawl-delay: 1
