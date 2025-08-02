@@ -54,3 +54,8 @@ $contact-image: "{{ site.data.style.contact-image }}";
 a {
   text-decoration: underline;
 }
+
+// Ensure muted text color override works
+.text-muted {
+  color: #5a6169 !important;
+}
