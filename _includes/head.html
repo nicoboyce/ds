@@ -21,8 +21,6 @@
 <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
 <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
-  {% comment %}
-  <!-- Commented out until Google Tag Manager is properly configured -->
   {% if site.analytics.google %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
@@ -37,7 +35,6 @@
   </script>
   <!-- End Google Analytics -->
   {% endif %}
-  {% endcomment %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
   <meta name="keywords" content="Zendesk optimization, Zendesk migration, customer experience automation, CX integration, Zendesk agency, customer support automation, Southampton UK">
