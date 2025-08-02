@@ -57,27 +57,35 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+    "@type": ["Organization", "ProfessionalService"],
     "name": "Deltastring Ltd",
     "alternateName": "Deltastring",
     "url": "{{ site.url }}",
     "logo": "{{ site.url }}/assets/img/ds-logo-trans-alt.svg",
     "description": "{{ site.description }}",
+    "duns": "231104049",
+    "vatID": "GB471506205",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Companies House Number",
+      "value": "15214660"
+    },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Southampton",
+      "streetAddress": "37 Leatherhead Gardens",
+      "addressLocality": "Hedge End",
       "addressRegion": "Hampshire",
       "addressCountry": "GB",
-      "postalCode": "SO15"
+      "postalCode": "SO30 2TY"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 50.9097,
-      "longitude": -1.4044
+      "latitude": 50.9167,
+      "longitude": -1.3167
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+44-7769-023498",
+      "telephone": "{{ site.data.sitetext[site.locale].contact.phone }}",
       "contactType": "customer service",
       "email": "{{ site.email }}",
       "availableLanguage": "English"
@@ -187,8 +195,8 @@
       "bestRating": "5"
     },
     "openingHours": "Mo-Fr 09:00-17:00",
-    "paymentAccepted": "Bank Transfer, Credit Card",
-    "currenciesAccepted": "GBP, EUR",
+    "paymentAccepted": "Bank Transfer",
+    "currenciesAccepted": "GBP, EUR, USD",
     "priceRange": "£££",
     "sameAs": [
       "https://www.linkedin.com/company/deltastring/",

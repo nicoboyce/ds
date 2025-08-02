@@ -184,6 +184,7 @@ en: &DEFAULT_EN
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
     section: contact
+    phone: "+44-7769-023498"
     name: "Name*"
     name-validation: "Please enter your name."
     email: "Email*"
