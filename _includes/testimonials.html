@@ -1,6 +1,6 @@
 <!-- Testimonials -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="py-5" id="{{ site.data.sitetext[site.locale].testimonials.section | default: "testimonials" }}">
+<section class="page-section bg-light" id="{{ site.data.sitetext[site.locale].testimonials.section | default: "testimonials" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -10,17 +10,22 @@
     </div>
     <div class="row">
       {% for testimonial in site.data.sitetext[site.locale].testimonials.list %}
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="testimonial-item">
-          <blockquote class="blockquote">
-            <p class="mb-3">"{{ testimonial.quote }}"</p>
-            <footer class="blockquote-footer">
-              <cite title="Source Title">{{ testimonial.author }}</cite>
-              {% if testimonial.company %}
-              <br><small class="text-muted">{{ testimonial.company }}</small>
-              {% endif %}
-            </footer>
-          </blockquote>
+      <div class="col-lg-6 mb-5">
+        <div class="testimonial-item h-100 p-4 bg-white rounded shadow-sm">
+          <div class="testimonial-content">
+            <div class="testimonial-quote mb-4">
+              <i class="fas fa-quote-left text-primary fa-2x mb-3"></i>
+              <p class="lead text-muted">{{ testimonial.quote }}</p>
+            </div>
+            <div class="testimonial-author text-right">
+              <div class="author-info">
+                <h5 class="mb-1 text-dark">{{ testimonial.author }}</h5>
+                {% if testimonial.company %}
+                <p class="small text-muted mb-0">{{ testimonial.company }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {% endfor %}
@@ -28,7 +33,7 @@
   </div>
 </section>
 {% else %}
-<section class="py-5" id="{{ site.data.sitetext.testimonials.section | default: "testimonials" }}">
+<section class="page-section bg-light" id="{{ site.data.sitetext.testimonials.section | default: "testimonials" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -38,17 +43,22 @@
     </div>
     <div class="row">
       {% for testimonial in site.data.sitetext.testimonials.list %}
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="testimonial-item">
-          <blockquote class="blockquote">
-            <p class="mb-3">"{{ testimonial.quote }}"</p>
-            <footer class="blockquote-footer">
-              <cite title="Source Title">{{ testimonial.author }}</cite>
-              {% if testimonial.company %}
-              <br><small class="text-muted">{{ testimonial.company }}</small>
-              {% endif %}
-            </footer>
-          </blockquote>
+      <div class="col-lg-6 mb-5">
+        <div class="testimonial-item h-100 p-4 bg-white rounded shadow-sm">
+          <div class="testimonial-content">
+            <div class="testimonial-quote mb-4">
+              <i class="fas fa-quote-left text-primary fa-2x mb-3"></i>
+              <p class="lead text-muted">{{ testimonial.quote }}</p>
+            </div>
+            <div class="testimonial-author text-right">
+              <div class="author-info">
+                <h5 class="mb-1 text-dark">{{ testimonial.author }}</h5>
+                {% if testimonial.company %}
+                <p class="small text-muted mb-0">{{ testimonial.company }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {% endfor %}
