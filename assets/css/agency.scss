@@ -49,3 +49,8 @@ $contact-image: "{{ site.data.style.contact-image }}";
     align-items: center !important;
   }
 }
+
+// Link accessibility improvements
+a {
+  text-decoration: underline;
+}
