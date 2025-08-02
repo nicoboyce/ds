@@ -28,7 +28,7 @@ logo:     #optional, defaults to site title
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: G-F1CP4L7W7W
+  google: G-BNB2XTYYBS
 
 collections:
   portfolio:
