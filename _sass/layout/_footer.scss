@@ -41,3 +41,31 @@ ul.social-buttons {
     }
   }
 }
+
+// Footer legal links styling for proper wrapping
+.footer .col-md-4:last-child ul.list-inline {
+  .list-inline-item {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 5px;
+    text-align: left !important;
+    
+    &:nth-child(1), &:nth-child(2) {
+      margin-bottom: 10px;
+    }
+    
+    &:nth-child(3) {
+      width: 100%;
+      text-align: center !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    text-align: center !important;
+    .list-inline-item {
+      width: 100%;
+      text-align: center !important;
+      margin-bottom: 5px;
+    }
+  }
+}
