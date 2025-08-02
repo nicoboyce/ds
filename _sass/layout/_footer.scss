@@ -42,39 +42,13 @@ ul.social-buttons {
   }
 }
 
-// Footer legal links styling for proper wrapping
-.footer .col-md-4:last-child ul.list-inline {
-  .list-inline-item {
-    display: inline-block !important;
-    vertical-align: top;
-    width: 48%;
-    margin-right: 2%;
-    margin-bottom: 8px;
-    
-    &:nth-child(1), &:nth-child(2) {
-      // First two items side by side
-      margin-bottom: 8px;
-    }
-    
-    &:nth-child(2) {
-      margin-right: 0;
-    }
-    
-    &:nth-child(3) {
-      width: 100%;
-      margin-right: 0;
-      text-align: center;
-      display: block;
-    }
-  }
+// Footer legal links - remove inline styling to display one per line
+.footer .col-md-4:last-child ul {
+  list-style: none;
+  padding: 0;
   
-  @media (max-width: 768px) {
-    .list-inline-item {
-      width: 100% !important;
-      margin-right: 0 !important;
-      text-align: center !important;
-      margin-bottom: 5px;
-      display: block !important;
-    }
+  li {
+    display: block;
+    text-align: right;
   }
 }
