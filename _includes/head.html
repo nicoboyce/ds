@@ -26,9 +26,6 @@
   {% if site.analytics.google %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
-  <script>
-    window.GA_TRACKING_ID = "{{ site.analytics.google }}";
-  </script>
   <script src="/assets/js/google-analytics.js"></script>
   <!-- End Google Analytics -->
   {% endif %}
@@ -218,28 +215,6 @@
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
   <link href="assets/css/agency.css" rel="stylesheet" />
 
-  <!-- Page container change top padding when nav shrinks -->
-  {% if page.layout == "page" %}
-  <style>
-    .pagecontainer {
-      padding-top: 150px;
-    }
-    @media only screen and (max-width: 991px) {
-      .pagecontainer {
-        padding-top: 100px;
-      }
-    }
-  </style>
-  {% endif %}
-  
-  <!-- Retro Pixel Font for Speech Bubbles -->
-  <style>
-    @font-face {
-      font-family: 'Amstrad PC';
-      src: url('/assets/Ac437_Amstrad_PC.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
-  </style>
+  <!-- Page styles -->
+  <link href="assets/css/page-styles.css" rel="stylesheet" />
 </head>

@@ -4,7 +4,12 @@ function gtag() {
 }
 gtag("js", new Date());
 
-// The tracking ID will be set by the calling page
-if (window.GA_TRACKING_ID) {
-  gtag("config", window.GA_TRACKING_ID);
+// Extract tracking ID from the gtag script URL
+const gtagScripts = document.querySelectorAll('script[src*="googletagmanager.com/gtag/js"]');
+if (gtagScripts.length > 0) {
+  const gtagSrc = gtagScripts[0].src;
+  const trackingId = gtagSrc.match(/id=([^&]+)/);
+  if (trackingId && trackingId[1]) {
+    gtag("config", trackingId[1]);
+  }
 }
