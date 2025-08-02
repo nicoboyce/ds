@@ -6,6 +6,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preload" href="assets/css/agency.css" as="style">
+  <link rel="preload" href="assets/css/bootstrap.min.css" as="style">
   <link rel="manifest" href="site.webmanifest">
 
 <meta name="mobile-web-app-capable" content="yes">
@@ -25,14 +27,9 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "{{ site.analytics.google }}");
+    window.GA_TRACKING_ID = "{{ site.analytics.google }}";
   </script>
+  <script src="/assets/js/google-analytics.js"></script>
   <!-- End Google Analytics -->
   {% endif %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">

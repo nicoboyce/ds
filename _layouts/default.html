@@ -19,9 +19,11 @@
 	  <!-- Plugin JavaScript - deferred for performance -->
 	  <script src="assets/js/jquery.easing.min.js" defer></script>
 
-	  <!-- Contact form JavaScript - deferred for performance -->
+	  <!-- Contact form JavaScript - loaded only when contact forms are present -->
+	  {% if page.layout == "page" and page.url contains "contact" %}
 	  <script src="assets/js/jqBootstrapValidation.js" defer></script>
 	  <script src="assets/js/contact_me.js" defer></script>
+	  {% endif %}
 
 	  <!-- Custom scripts for this template - deferred for performance -->
 	  <script src="assets/js/agency.min.js" defer></script>
