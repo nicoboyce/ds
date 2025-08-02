@@ -1,0 +1,105 @@
+<!-- Minimal Cookie Notice -->
+<div id="cookie-notice" class="cookie-notice" style="display: none;">
+  <div class="cookie-content">
+    <span class="cookie-text">
+      We use cookies to analyze site usage and improve your experience. 
+      <a href="/legal.html" class="cookie-link">Learn more</a>
+    </span>
+    <button class="cookie-accept" onclick="acceptCookies()">Got it</button>
+  </div>
+</div>
+
+<style>
+.cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17, 29, 48, 0.95);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  padding: 12px 20px;
+  z-index: 9999;
+  border-top: 2px solid #c05713;
+  box-shadow: 0 -2px 20px rgba(0,0,0,0.1);
+}
+
+.cookie-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cookie-text {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #eff0e9;
+}
+
+.cookie-link {
+  color: #c05713;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.cookie-link:hover {
+  color: #eb7824;
+  text-decoration: none;
+}
+
+.cookie-accept {
+  background: #c05713;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.cookie-accept:hover {
+  background: #a64810;
+}
+
+@media (max-width: 768px) {
+  .cookie-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+  
+  .cookie-text {
+    font-size: 13px;
+  }
+}
+</style>
+
+<script>
+function showCookieNotice() {
+  if (!localStorage.getItem('cookiesAccepted')) {
+    document.getElementById('cookie-notice').style.display = 'block';
+    
+    // Auto-dismiss after 30 seconds
+    setTimeout(function() {
+      if (!localStorage.getItem('cookiesAccepted')) {
+        acceptCookies();
+      }
+    }, 30000);
+  }
+}
+
+function acceptCookies() {
+  localStorage.setItem('cookiesAccepted', 'true');
+  document.getElementById('cookie-notice').style.display = 'none';
+}
+
+// Show notice when page loads
+document.addEventListener('DOMContentLoaded', showCookieNotice);
+</script>
