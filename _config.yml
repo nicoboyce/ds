@@ -16,10 +16,10 @@ theme: jekyll-agency
 url    : "https://deltastring.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : "Deltastring: Zendesk Optimization & CX Integration Experts"
+title      : "Deltastring: Zendesk migrations, automations, integrations, applications"
 company_name: "Deltastring"
 email      : nico@deltastring.com #this is also the email contact forms will go to
-description: "Expert Zendesk migrations, automations, integrations & applications. Streamline your customer experience with boutique Zendesk agency services from Southampton, UK."
+description: "Expert Zendesk migrations, automations, integrations, applications. Streamline your customer experience with boutique Zendesk agency services from Southampton, UK."
 author     : Nico Boyce
 logo:     #optional, defaults to site title
   path: assets/img/ds-logo-trans-alt.svg
