@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Disallow development and build files
+Disallow: /_site/
+Disallow: /node_modules/
+Disallow: /.bundle/
+Disallow: /vendor/
+Disallow: /.git
+Disallow: /Gemfile
+Disallow: /_config.yml
+
+# Block temporary and analysis files
+Disallow: /*.json
+Disallow: /*-analysis.txt
+Disallow: /convert-to-webp.sh
+Disallow: /google-search-console-setup.md
+Disallow: /jekyll-agency.gemspec
+Disallow: /ping
+
+# Allow assets for performance
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://deltastring.com/sitemap.xml
+
+# Crawl-delay for courtesy
+Crawl-delay: 1

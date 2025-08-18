@@ -1,0 +1,19 @@
+/* Page container styles for subpages */
+.pagecontainer {
+  padding-top: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+  .pagecontainer {
+    padding-top: 100px;
+  }
+}
+
+/* Retro Pixel Font for Speech Bubbles */
+@font-face {
+  font-family: 'Amstrad PC';
+  src: url('/assets/Ac437_Amstrad_PC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
