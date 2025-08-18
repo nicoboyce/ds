@@ -1,80 +1,17 @@
 <!-- About -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-  <section class="page-section" id="{{ site.data.sitetext[site.locale].timeline.section | default: "about" }}">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].timeline.title | markdownify | default: "About" }}</h2>
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].timeline.text | default: "timeline"}}</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-      {%- assign align = site.data.sitetext[site.locale].timeline.start_align -%}
-      {%- for event in site.data.sitetext[site.locale].timeline.events -%}
-            {%- if align == "right" -%}
-              {%- if event.align and event.align == "left" -%}
-                {%- assign align = "right" -%}
-                <li>
-              {%- else -%}
-                {%- assign align = "left" %}
-                <li class="timeline-inverted">
-              {% endif %}
-            {% else %}
-              {%- if event.align and event.align == "right" -%}
-                {%- assign align = "left" -%}
-                <li class="timeline-inverted">
-              {%- else -%}
-                {%- assign align = "right" %}
-                <li>
-              {% endif %}
-            {%- endif -%}
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" style="{{ event.image-style | default: ""}}" alt="{{ event.alt | default: ""}}" loading="lazy" decoding="async">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>{{ event.year | markdownify }}</h4>
-                  <h4 class="subheading">{{ event.title }}</h4>
-                </div>
-                <div class="timeline-body">
-                  <div class="text-muted">{{ event.desc | markdownify }}</div>
-                </div>
-              </div>
-            </li>
-		  {% endfor %}	
-            
-		  {% if site.data.sitetext[site.locale].timeline.end %}	
-			<li class="timeline-inverted" style="display:none">
-              <div class="timeline-image">
-                <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
-              </div>
-            </li>
-      {% else %}
-
-		  {% endif %}
-
-          </ul>
-        </div>
-      </div>
-    </div>
-    <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; max-height:300px; max-width: 80%;" alt="Deltastring logo" loading="lazy" decoding="async">
-  </section>
-{% else %}
-<section class="bg-light page-section" id="{{ site.data.sitetext.timeline.section | default: "about" }}">
+<section class="page-section" id="{{ site.data.sitetext.en.timeline.section | default: "about" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.timeline.title | markdownify | default: "About" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.timeline.text | default: "timeline"}}</h3>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.en.timeline.title | markdownify | default: "About" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.en.timeline.text | default: "timeline"}}</h3>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
-    {%- assign align = site.data.sitetext.timeline.start_align -%}
-    {%- for event in site.data.sitetext.timeline.events -%}
+    {%- assign align = site.data.sitetext.en.timeline.start_align -%}
+    {%- for event in site.data.sitetext.en.timeline.events -%}
           {%- if align == "right" -%}
             {%- if event.align and event.align == "left" -%}
               {%- assign align = "right" -%}
@@ -107,11 +44,10 @@
           </li>
     {% endfor %}	
           
-    {% if site.data.sitetext.timeline.end %}	
+    {% if site.data.sitetext.en.timeline.end %}	
     <li class="timeline-inverted" style="display:none">
-      <!-- <img src="/assets/img/ds-logo-trans.svg"  alt="Deltastring logo"> -->
             <div class="timeline-image">
-              <h4>{{ site.data.sitetext.timeline.end }}</h4>
+              <h4>{{ site.data.sitetext.en.timeline.end }}</h4>
             </div>
           </li>
     {% else %}
@@ -121,7 +57,6 @@
       </div>
     </div>
   </div>
-  <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; height:200px;" alt="Deltastring logo" loading="lazy" decoding="async">
+  <img src="/assets/img/ds-logo-trans.svg" style="display: block; margin-left: auto; margin-right: auto; max-height:300px; max-width: 80%;" alt="Deltastring logo" loading="lazy" decoding="async">
 </section>
-{% endif %}
 <!-- End About -->

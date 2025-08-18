@@ -1,12 +1,11 @@
 <!-- Contact -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
+<section class="page-section" id="{{ site.data.sitetext.en.contact.section | default: "contact" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">
-          {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].contact.text | default: "" }}</h3>
+          {{ site.data.sitetext.en.contact.title | markdownify | default: Contact Us }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.en.contact.text | default: "" }}</h3>
       </div>
     </div>
     <div class="row">
@@ -18,47 +17,47 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="name" class="sr-only">{{ site.data.sitetext[site.locale].contact.name | default: "Name" }}</label>
+                <label for="name" class="sr-only">{{ site.data.sitetext.en.contact.name | default: "Name" }}</label>
                 <input name="name" class="form-control" id="name" type="text"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.name | default: "Name*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.name-validation | default: "Please enter your name." }}"
+                  placeholder="{{ site.data.sitetext.en.contact.name | default: "Name*" }}"
+                  required="required" data-validation-required-message="{{ site.data.sitetext.en.contact.name-validation | default: "Please enter your name." }}"
                   aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <label for="email" class="sr-only">{{ site.data.sitetext[site.locale].contact.email | default: "Email" }}</label>
+                <label for="email" class="sr-only">{{ site.data.sitetext.en.contact.email | default: "Email" }}</label>
                 <input name="_replyto" class="form-control" id="email" type="email"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.email | default: "Email*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}"
+                  placeholder="{{ site.data.sitetext.en.contact.email | default: "Email*" }}"
+                  required="required" data-validation-required-message="{{ site.data.sitetext.en.contact.email-validation | default: "Please enter your email address." }}"
                   aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <label for="phone" class="sr-only">{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number" }}</label>
+                <label for="phone" class="sr-only">{{ site.data.sitetext.en.contact.phone | default: "Phone Number" }}</label>
                 <input name="phone" class="form-control" id="phone" type="tel"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}"
+                  placeholder="{{ site.data.sitetext.en.contact.phone | default: "Phone Number*" }}"
+                  required="required" data-validation-required-message="{{ site.data.sitetext.en.contact.phone-validation | default: "Please enter your phone number." }}"
                   aria-required="true">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="message" class="sr-only">{{ site.data.sitetext[site.locale].contact.message | default: "Message" }}</label>
+                <label for="message" class="sr-only">{{ site.data.sitetext.en.contact.message | default: "Message" }}</label>
                 <textarea name="message" class="form-control" id="message"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}"
+                  placeholder="{{ site.data.sitetext.en.contact.message | default: "Message*" }}"
+                  required="required" data-validation-required-message="{{ site.data.sitetext.en.contact.message-validation | default: "Please enter a message." }}"
                   aria-required="true"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <input type="hidden" name="_subject" id="email-subject"
-              value="{{ site.data.sitetext[site.locale].contact.subject | default: "Contact Form Submission" }}">
+              value="{{ site.data.sitetext.en.contact.subject | default: "Contact Form Submission" }}">
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
               <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                type="submit">{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
+                type="submit">{{ site.data.sitetext.en.contact.submit | default: "Send Message" }}</button>
             </div>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
@@ -68,74 +67,4 @@
     </div>
   </div>
 </section>
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.contact.section | default: "contact" }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">
-          {{ site.data.sitetext.contact.title | markdownify | default: Contact Us }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.contact.text | default: "" }}</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <form id="contactForm"
-          action="https://formspree.io/{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}"
-          novalidate="novalidate" method="POST">
-          <!--name="sentMessage"-->
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="name2" class="sr-only">{{ site.data.sitetext.contact.name | default: "Name" }}</label>
-                <input name="name" class="form-control" id="name2" type="text"
-                  placeholder="{{ site.data.sitetext.contact.name | default: "Name*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.name-validation | default: "Please enter your name." }}"
-                  aria-required="true">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="form-group">
-                <label for="email2" class="sr-only">{{ site.data.sitetext.contact.email | default: "Email" }}</label>
-                <input name="_replyto" class="form-control" id="email2" type="email"
-                  placeholder="{{ site.data.sitetext.contact.email | default: "Email*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.email-validation | default: "Please enter your email address." }}"
-                  aria-required="true">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="form-group">
-                <label for="phone2" class="sr-only">{{ site.data.sitetext.contact.phone | default: "Phone Number" }}</label>
-                <input name="phone" class="form-control" id="phone2" type="tel"
-                  placeholder="{{ site.data.sitetext.contact.phone | default: "Phone Number*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.phone-validation | default: "Please enter your phone number." }}"
-                  aria-required="true">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="message2" class="sr-only">{{ site.data.sitetext.contact.message | default: "Message" }}</label>
-                <textarea name="message" class="form-control" id="message2"
-                  placeholder="{{ site.data.sitetext.contact.message | default: "Message*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext.contact.message-validation | default: "Please enter a message." }}"
-                  aria-required="true"></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <input type="hidden" name="_subject" id="email-subject"
-              value="{{ site.data.sitetext.contact.subject | default: "Contact Form Submission" }}">
-            <div class="clearfix"></div>
-            <div class="col-lg-12 text-center">
-              <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                type="submit">{{ site.data.sitetext.contact.submit | default: "Send Message" }}</button>
-            </div>
-            <input type="text" name="_gotcha" style="display:none">
-            <input type="hidden" name="_next" value="#" />
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-{% endif %}
 <!-- End Contact -->

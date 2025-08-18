@@ -1,16 +1,15 @@
 <!-- About -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section bg-light" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+<section class="page-section bg-light" id="{{ site.data.sitetext.en.about.section | default: "about" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | default: "" }}</h3>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.en.about.title | default: "About Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.en.about.text | default: "" }}</h3>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}<br />
+        <div class="large text-muted">{{ site.data.sitetext.en.about.body | markdownify }}<br />
         
         <!-- Pixel Character with Speech Bubble Container -->
         <div class="speech-bubble-container" style="display: flex; align-items: flex-start; justify-content: center; margin: 20px 0; gap: 0px; flex-wrap: wrap;">
@@ -36,7 +35,7 @@
         </div>
         
         <div style="text-align: center; margin-top: 20px;">
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.en.header.buttonlink }}">Now tell us about you!</a>
         </div></div>
       </div>
       
@@ -48,55 +47,4 @@
     </div>-->
   </div>
 </section>
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}<br />
-        
-        <!-- Pixel Character with Speech Bubble Container -->
-        <div class="speech-bubble-container" style="display: flex; align-items: flex-start; justify-content: center; margin: 20px 0; gap: 0px; flex-wrap: wrap;">
-          <picture>
-            <source srcset="https://deltastring.com/assets/img/pixel-rew.webp" type="image/webp">
-            <img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie" style="max-width: 150px; flex-shrink: 0;" loading="lazy" decoding="async" width="113" height="150">
-          </picture>
-          
-          <!-- Pixel Art Speech Bubble -->
-          <svg width="220" height="80" viewBox="0 0 220 80" style="flex-shrink: 0; max-width: 100%;">
-            <!-- Pixel art speech bubble with stepped corners -->
-            <path d="M 8,4 L 196,4 L 196,5 L 197,5 L 197,6 L 198,6 L 198,7 L 199,7 L 199,8 L 200,8 L 200,46 L 199,46 L 199,47 L 198,47 L 198,48 L 197,48 L 197,49 L 196,49 L 196,50 L 40,50 L 30,65 L 30,50 L 8,50 L 8,49 L 7,49 L 7,48 L 6,48 L 6,47 L 5,47 L 5,46 L 4,46 L 4,8 L 5,8 L 5,7 L 6,7 L 6,6 L 7,6 L 7,5 L 8,5 L 8,4 Z" 
-                  fill="#ffffff" stroke="#000000" stroke-width="3" stroke-linejoin="miter"/>
-            <!-- Inner white fill to ensure clean interior -->
-            <path d="M 10,7 L 194,7 L 194,8 L 195,8 L 195,9 L 196,9 L 196,10 L 197,10 L 197,44 L 196,44 L 196,45 L 195,45 L 195,46 L 194,46 L 194,47 L 38,47 L 33,57 L 33,47 L 10,47 L 10,46 L 9,46 L 9,45 L 8,45 L 8,44 L 7,44 L 7,10 L 8,10 L 8,9 L 9,9 L 9,8 L 10,8 L 10,7 Z" 
-                  fill="#ffffff" stroke="none"/>
-            <!-- Text -->
-            <text x="103" y="23" text-anchor="middle" font-family="'Amstrad PC', monospace" font-size="11" fill="#000000">
-              UNIQUE PROBLEMS?
-              <tspan x="103" dy="14">FRESH SOLUTIONS!</tspan>
-            </text>
-          </svg>
-        </div>
-        
-        <div style="text-align: center; margin-top: 20px;">
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">Now tell us about you!</a>
-        </div></div>
-    </div>
-          </div>
-    <!--
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <img src="https://deltastring.com/assets/img/pixel-rew.png" alt="Pixel Rosie">
-      </div>
-    </div>
-    -->
-  </div>
-</section>
-{% endif %}
 <!-- End About -->
