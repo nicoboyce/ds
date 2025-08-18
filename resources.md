@@ -3,6 +3,7 @@ layout: page
 title: Zendesk Resources & Guides
 description: Expert guides, best practices, and resources for Zendesk optimization, migration, and integration. Free knowledge base from Deltastring specialists.
 background: grey
+published: false
 ---
 
 # Zendesk Resources & Best Practices
