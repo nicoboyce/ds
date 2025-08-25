@@ -853,3 +853,97 @@ News page updated: news.md
 2025-08-26 00:43:39,320 - INFO - This week's articles: 0
 2025-08-26 00:43:39,321 - INFO - Feeds processed: 8
 2025-08-26 00:43:39,321 - INFO - Site updated: 26/08/2025 00:43
+2025-08-26 00:54:01,058 - INFO - Working in: /Users/nico/ds/ds
+2025-08-26 00:54:01,058 - INFO - Starting daily RSS automation pipeline
+2025-08-26 00:54:01,058 - INFO - Timestamp: 2025-08-26T00:54:01.058807
+2025-08-26 00:54:01,058 - INFO - 
+--- Starting: Git Pull ---
+2025-08-26 00:54:01,058 - INFO - === GIT PULL ===
+2025-08-26 00:54:01,058 - INFO - Running: Pulling latest changes
+2025-08-26 00:54:01,541 - INFO - Output: Already up to date.
+2025-08-26 00:54:01,541 - INFO - SUCCESS: Git Pull
+2025-08-26 00:54:01,541 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-26 00:54:01,541 - INFO - === RSS INGESTION ===
+2025-08-26 00:54:01,541 - INFO - Running: Ingesting RSS feeds
+2025-08-26 00:54:03,940 - INFO - Output: Starting RSS ingestion...
+Processing 8 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 153
+  Today: 88
+  Yesterday: 3
+  This week: 0
+  Data saved to: _data/rss
+SUCCESS: Found 153 articles
+2025-08-26 00:54:03,940 - INFO - SUCCESS: RSS Ingestion
+2025-08-26 00:54:03,940 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-26 00:54:03,940 - INFO - === CLAUDE SUMMARIES ===
+2025-08-26 00:54:03,940 - INFO - Running: Generating Claude summaries
+2025-08-26 00:54:04,697 - INFO - Output: Generating daily summary for 88 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating weekly summary for 91 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Daily Summary Preview:
+==================================================
+**Lead Summary**: 26 Zendesk ecosystem updates available requiring administrator review.
+
+**Key Developments**:
+- **Platform Updates**: Multiple feature releases and configuration changes
+- **Integrat...
+2025-08-26 00:54:04,698 - INFO - SUCCESS: Claude Summaries
+2025-08-26 00:54:04,698 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-26 00:54:04,698 - INFO - === GENERATE RSS PAGE ===
+2025-08-26 00:54:04,698 - INFO - Running: Generating RSS feeds page
+2025-08-26 00:54:04,759 - INFO - Output: Generating RSS feeds page...
+News page updated: news.md
+  Today: 88 articles
+  This week: 0 articles
+  This month: 12 articles
+2025-08-26 00:54:04,760 - INFO - SUCCESS: Generate RSS Page
+2025-08-26 00:54:04,760 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-26 00:54:04,760 - INFO - === JEKYLL BUILD ===
+2025-08-26 00:54:04,760 - INFO - Running: Building Jekyll site
+2025-08-26 00:54:05,590 - INFO - Output: Configuration file: /Users/nico/ds/ds/_config.yml
+            Source: /Users/nico/ds/ds
+       Destination: /Users/nico/ds/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.356 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-26 00:54:05,590 - INFO - SUCCESS: Jekyll Build
+2025-08-26 00:54:05,590 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-26 00:54:05,590 - INFO - === GIT COMMIT & PUSH ===
+2025-08-26 00:54:05,590 - INFO - Running: Adding changes to git
