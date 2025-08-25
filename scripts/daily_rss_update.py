@@ -98,7 +98,9 @@ class DailyRSSPipeline:
     def jekyll_build(self):
         """Build Jekyll site"""
         logger.info("=== JEKYLL BUILD ===")
-        return self.run_command("bundle exec jekyll build", "Building Jekyll site")
+        # Set Ruby path and build Jekyll
+        ruby_env = 'export PATH="/opt/homebrew/opt/ruby/bin:/Users/nico/.gem/ruby/3.4.0/bin:$PATH" && '
+        return self.run_command(f"{ruby_env}bundle exec jekyll build", "Building Jekyll site")
     
     def git_commit_push(self):
         """Commit and push changes"""

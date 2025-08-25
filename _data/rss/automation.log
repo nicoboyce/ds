@@ -313,3 +313,74 @@ News page updated: news.md
 2025-08-25 23:55:02,145 - INFO - This week's articles: 0
 2025-08-25 23:55:02,145 - INFO - Feeds processed: 8
 2025-08-25 23:55:02,145 - INFO - Site updated: 25/08/2025 23:55
+2025-08-26 00:03:30,885 - INFO - Working in: /Users/nico/ds/ds
+2025-08-26 00:03:30,885 - INFO - Starting daily RSS automation pipeline
+2025-08-26 00:03:30,885 - INFO - Timestamp: 2025-08-26T00:03:30.885532
+2025-08-26 00:03:30,885 - INFO - 
+--- Starting: Git Pull ---
+2025-08-26 00:03:30,885 - INFO - === GIT PULL ===
+2025-08-26 00:03:30,885 - INFO - Running: Pulling latest changes
+2025-08-26 00:03:31,297 - INFO - Output: Already up to date.
+2025-08-26 00:03:31,297 - INFO - SUCCESS: Git Pull
+2025-08-26 00:03:31,297 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-26 00:03:31,297 - INFO - === RSS INGESTION ===
+2025-08-26 00:03:31,297 - INFO - Running: Ingesting RSS feeds
+2025-08-26 00:03:33,637 - INFO - Output: Starting RSS ingestion...
+Processing 8 feeds
+Fetching: Zendesk Announcements
+  Found 0 articles
+Fetching: Zendesk What's New
+  Found 0 articles
+Fetching: Zendesk Developer Updates
+  Found 0 articles
+Fetching: Zendesk Release Notes
+  Found 0 articles
+Fetching: Zendesk Service Notifications
+  Found 0 articles
+Fetching: Deltastring YouTube
+  Found 0 articles
+Fetching: Internal Note
+  Found 0 articles
+Fetching: Google News - Zendesk
+  Found 0 articles
+
+Ingestion complete:
+  Total articles: 0
+  Today: 0
+  Yesterday: 0
+  This week: 0
+  Data saved to: _data/rss
+INFO: No new articles found in this run.
+2025-08-26 00:03:33,637 - INFO - SUCCESS: RSS Ingestion
+2025-08-26 00:03:33,637 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-26 00:03:33,637 - INFO - === CLAUDE SUMMARIES ===
+2025-08-26 00:03:33,637 - ERROR - CLAUDE_API_KEY environment variable not set
+2025-08-26 00:03:33,637 - INFO - Creating fallback summaries...
+2025-08-26 00:03:33,638 - INFO - SUCCESS: Claude Summaries
+2025-08-26 00:03:33,638 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-26 00:03:33,638 - INFO - === GENERATE RSS PAGE ===
+2025-08-26 00:03:33,638 - INFO - Running: Generating RSS feeds page
+2025-08-26 00:03:33,674 - INFO - Output: Generating RSS feeds page...
+News page updated: news.md
+  Today: 0 articles
+  Total this week: 0 articles
+2025-08-26 00:03:33,674 - INFO - SUCCESS: Generate RSS Page
+2025-08-26 00:03:33,674 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-26 00:03:33,674 - INFO - === JEKYLL BUILD ===
+2025-08-26 00:03:33,674 - INFO - Running: Building Jekyll site
+2025-08-26 00:03:33,953 - INFO - Output: Configuration file: /Users/nico/ds/ds/_config.yml
+            Source: /Users/nico/ds/ds
+       Destination: /Users/nico/ds/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.074 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-26 00:03:33,953 - INFO - SUCCESS: Jekyll Build
+2025-08-26 00:03:33,953 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-26 00:03:33,953 - INFO - === GIT COMMIT & PUSH ===
+2025-08-26 00:03:33,953 - INFO - Running: Adding changes to git
