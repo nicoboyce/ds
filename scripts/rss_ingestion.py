@@ -29,7 +29,7 @@ class RSSIngestion:
         content = f"{title}{pub_date}".encode('utf-8')
         return hashlib.md5(content).hexdigest()[:12]
     
-    def fetch_feed(self, feed_config, max_items=10):
+    def fetch_feed(self, feed_config, max_items=50):
         """Fetch and parse RSS feed"""
         try:
             headers = {
@@ -98,16 +98,18 @@ class RSSIngestion:
         return deduplicated
     
     def categorise_by_date(self, articles):
-        """Categorise articles by date (today, yesterday, this week)"""
+        """Categorise articles by date (today, yesterday, this week, this month)"""
         now = datetime.now()
         today = now.date()
         yesterday = today - timedelta(days=1)
         week_start = today - timedelta(days=today.weekday())
+        month_start = today.replace(day=1)
         
         categorised = {
             'today': [],
             'yesterday': [], 
             'this_week': [],
+            'this_month': [],
             'older': []
         }
         
@@ -139,6 +141,8 @@ class RSSIngestion:
                 categorised['yesterday'].append(article)
             elif pub_date >= week_start:
                 categorised['this_week'].append(article)
+            elif pub_date >= month_start:
+                categorised['this_month'].append(article)
             else:
                 categorised['older'].append(article)
         
@@ -160,6 +164,7 @@ class RSSIngestion:
             'today_count': len(categorised['today']),
             'yesterday_count': len(categorised['yesterday']),
             'week_count': len(categorised['this_week']),
+            'month_count': len(categorised['this_month']),
             'last_updated': datetime.now().isoformat(),
             'feeds_processed': len(self.config['feeds'])
         }

@@ -305,7 +305,8 @@ background: grey
         
         print(f"News page updated: {self.page_path}")
         print(f"  Today: {stats['today_count']} articles")
-        print(f"  Total this week: {stats['week_count']} articles")
+        print(f"  This week: {stats['week_count']} articles")
+        print(f"  This month: {stats.get('month_count', 0)} articles")
         
         return stats
 
