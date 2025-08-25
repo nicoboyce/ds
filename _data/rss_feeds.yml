@@ -1,0 +1,55 @@
+# RSS feeds configuration - only user-approved feeds
+feeds:
+  - name: "Zendesk Announcements"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyZxbA0z94u03z.rss"
+    category: "zendesk"
+    colour: "primary"
+    description: "Official announcements from Zendesk"
+    
+  - name: "Zendesk What's New"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyZxbBNtFL3L-S.rss"
+    category: "zendesk"
+    colour: "success"
+    description: "Official 'what's new?' from Zendesk"
+    
+  - name: "Zendesk Developer Updates"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyZxbBzX-0gI5S.rss"
+    category: "zendesk"
+    colour: "info"
+    description: "Official developer updates from Zendesk"
+    
+  - name: "Zendesk Release Notes"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyZxbCBpOZL_BS.rss"
+    category: "zendesk"
+    colour: "warning"
+    description: "Official release notes from Zendesk"
+    
+  - name: "Zendesk Service Notifications"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyZxbCUN5ebOBz.rss"
+    category: "zendesk"
+    colour: "danger"
+    description: "Official service notifications from Zendesk"
+    
+  - name: "Deltastring YouTube"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyaAjBj82Xa9yy.rss"
+    category: "deltastring"
+    colour: "secondary"
+    description: "Deltastring Ltd Zendesk solutions on YouTube"
+    
+  - name: "Internal Note"
+    url: "https://internalnote.com/rss/"
+    category: "tech"
+    colour: "dark"
+    description: "Internal Note blog"
+    
+  - name: "Google News - Zendesk"
+    url: "https://news.google.com/rss/search?q=zendesk&hl=en-GB&gl=GB&ceid=GB:en"
+    category: "news"
+    colour: "warning"
+    description: "Google News search results for Zendesk"
+
+categories:
+  zendesk: "Zendesk Official"
+  deltastring: "Deltastring Content"
+  tech: "Technology"
+  news: "Industry News"

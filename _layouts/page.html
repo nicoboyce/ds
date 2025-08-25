@@ -3,6 +3,10 @@ layout: default
 ---
 {% include nav.html %}
 
+{% if page.title == "Industry RSS Feeds" %}
+<link rel="stylesheet" href="{{ '/assets/css/rss-feeds.css' | relative_url }}">
+{% endif %}
+
 {% if page.background == "grey" or page.background == "gray" %}
 <script>
 document.getElementById("page-top").className="bg-light";
