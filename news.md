@@ -15,24 +15,65 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar-day text-primary"></i>
         Today - 26 August 2025
-        <span class="badge badge-primary ml-2">0 articles</span>
+        <span class="badge badge-primary ml-2">88 articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 00:39 this morning</small>
+            <small class="text-muted">Generated at 00:43 this morning</small>
         </div>
         <div class="summary-content">
-            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>
+<p>Daily summary generation requires Claude API key configuration.</p>
         </div>
     </div>
 
     <div class="date-articles">
-        <div class="alert alert-light">
-            <i class="fas fa-info-circle text-muted"></i>
-            No new articles today. Check back later for updates.
-        </div>
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://www.youtube.com/watch?v=XBbqKLsfZ0s" class="text-dark">We're making AI do the tasks human people are good at but computers can't really do #ai #zendesk</a>
+                <span class="source-badge">Deltastring YouTube</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 208 days ago
+            </small>
+        </article>
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://www.youtube.com/watch?v=N2TxEgpggm4" class="text-dark">Beacon teaser. Zendesk configuration made better.</a>
+                <span class="source-badge">Deltastring YouTube</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 89 days ago
+            </small>
+        </article>
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/8157433800090-Introducing-the-Redirect-Rules-API" class="text-dark">Introducing the Redirect Rules API</a>
+                <span class="source-badge">Zendesk Developer Updates</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 306 days ago
+            </small>
+        </article>
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 5 days ago
+            </small>
+        </article>
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance" class="text-dark">[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 5 days ago
+            </small>
+        </article>
     </div>
 </div>
 
@@ -41,16 +82,37 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar-alt text-secondary"></i>
         Yesterday - 25 August 2025
-        <span class="badge badge-secondary ml-2">0 articles</span>
+        <span class="badge badge-secondary ml-2">3 articles</span>
     </h2>
     
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#yesterday-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show 0 articles from yesterday
+                <i class="fas fa-chevron-right"></i> Show 3 articles from yesterday
             </a>
         </small>
         <div class="collapse" id="yesterday-list">
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNpdW1mY3FOMDJnRF9NSVJVNU1yaUNpQklnM0tXcmROdXF1Y1BrR0tkcHVrN0RwWjR2eXFwOXRKQVNLWElHQ1pQWHlKMnpma0xjYTU1OTY2ZC15LUlGVmNqZ056cVE0X0s1aHhEQkZwRDJwS0NkM09mRTE5eFp2d210WUpVQnlpVGhIZzVNTmdrNnBpNDVUaHN6SzRIZUE?oc=5" class="text-dark">Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value - San Francisco Chronicle</a>
+                    <span class="source-badge">Google News - Zendesk</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> recently</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
+                    <span class="source-badge">Google News - Zendesk</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> recently</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5neVRMZEgzQUNQMUt5NF9LMmo0d19VWlpNVFdLUHlOWlNGdWhqbnpPX2pWQjRoSi1iSWl4STRmZkxkaF85RlhlTXB6b25FMmZ1X19Sc0Vn0gFbQVVfeXFMTlJoX05lRmhTX0lkYk5GcVlidDFhNnV1dFRwVFRpOEl0Yl9vSEI0ZllxU2RPckU2MVVRdkxKQWZTNTBkUkZlbGhGY21VRGU1VzhpT3VNMlFGUlFJSQ?oc=5" class="text-dark">0-Click Zendesk Flaw Lets Hackers Hijack Accounts and View All Tickets - GBHackers News</a>
+                    <span class="source-badge">Google News - Zendesk</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> recently</small>
+            </article>
         </div>
     </div>
 </div>
@@ -69,7 +131,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p>No articles this week.</p>
+<p>Weekly summary generation requires Claude API key configuration.</p>
         </div>
     </div>
 

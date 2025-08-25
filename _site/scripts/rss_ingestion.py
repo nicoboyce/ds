@@ -45,12 +45,25 @@ class RSSIngestion:
             
             # Handle both RSS and Atom formats
             items = root.findall('.//item') or root.findall('.//{http://www.w3.org/2005/Atom}entry')
+            print(f"  Found {len(items)} raw items in feed")
             
-            for item in items[:max_items]:
-                title_elem = item.find('title') or item.find('.//{http://www.w3.org/2005/Atom}title')
-                link_elem = item.find('link') or item.find('.//{http://www.w3.org/2005/Atom}link')
-                desc_elem = item.find('description') or item.find('.//{http://www.w3.org/2005/Atom}summary')
-                pub_date_elem = item.find('pubDate') or item.find('.//{http://www.w3.org/2005/Atom}published')
+            for i, item in enumerate(items[:max_items]):
+                # Fix the element finding logic
+                title_elem = item.find('title')
+                if title_elem is None:
+                    title_elem = item.find('.//{http://www.w3.org/2005/Atom}title')
+                
+                link_elem = item.find('link')
+                if link_elem is None:
+                    link_elem = item.find('.//{http://www.w3.org/2005/Atom}link')
+                
+                desc_elem = item.find('description')
+                if desc_elem is None:
+                    desc_elem = item.find('.//{http://www.w3.org/2005/Atom}summary')
+                
+                pub_date_elem = item.find('pubDate')
+                if pub_date_elem is None:
+                    pub_date_elem = item.find('.//{http://www.w3.org/2005/Atom}published')
                 
                 if title_elem is not None and title_elem.text:
                     # Handle Atom link element
@@ -64,6 +77,7 @@ class RSSIngestion:
                     # Clean description of HTML tags
                     import re
                     description = re.sub(r'<[^>]+>', '', description).strip()
+                    
                     
                     article = {
                         'id': self.generate_article_id(title_elem.text.strip(), pub_date),
