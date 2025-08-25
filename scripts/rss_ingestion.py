@@ -118,17 +118,26 @@ class RSSIngestion:
             try:
                 # Handle various date formats
                 pub_date_str = article['pub_date']
+                pub_date = today  # Default fallback
+                
                 if pub_date_str:
                     # Try common RSS date formats
-                    for fmt in ['%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S']:
+                    formats = [
+                        '%a, %d %b %Y %H:%M:%S %Z',  # Mon, 25 Aug 2025 14:08:26 GMT
+                        '%a, %d %b %Y %H:%M:%S %z',  # With timezone offset
+                        '%Y-%m-%dT%H:%M:%S%z',       # ISO format
+                        '%Y-%m-%d %H:%M:%S',         # Simple format
+                        '%d %b %Y %H:%M:%S',         # Without day name
+                    ]
+                    
+                    for fmt in formats:
                         try:
-                            pub_date = datetime.strptime(pub_date_str.split('+')[0].split('-')[0].strip(), fmt.split('%z')[0].strip()).date()
+                            # Remove timezone abbreviations for parsing
+                            clean_date = pub_date_str.replace(' GMT', '').replace(' UTC', '').strip()
+                            pub_date = datetime.strptime(clean_date, fmt.replace(' %Z', '').replace(' %z', '')).date()
                             break
-                        except:
+                        except ValueError:
                             continue
-                    else:
-                        # Fallback to today if parsing fails
-                        pub_date = today
                 else:
                     pub_date = today
             except:
