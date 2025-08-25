@@ -6,7 +6,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Daily and weekly summaries of industry news, curated and analysed.</p>
+        <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
     </div>
 </div>
 
@@ -14,84 +14,25 @@ background: grey
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-calendar-day text-primary"></i>
-        Today - 25th August 2025
-        <span class="badge badge-primary ml-2">12 articles</span>
+        Today - 25 August 2025
+        <span class="badge badge-primary ml-2">0 articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 09:30 this morning</small>
+            <small class="text-muted">Generated at 23:45 this morning</small>
         </div>
         <div class="summary-content">
-            <p class="lead">Today's official Zendesk updates demonstrate significant AI expansion and workflow improvements across the platform:</p>
-            <ul class="summary-points">
-                <li><strong>AI Expansion:</strong> AI agents now available on email and web form channels, extending automated support capabilities</li>
-                <li><strong>Agent Efficiency:</strong> Quick answers expanded to all Suite and Knowledge customers, plus new macro auto-assist suggestions</li>
-                <li><strong>Admin Consolidation:</strong> QA user and license management centralised in Admin Center for better oversight</li>
-                <li><strong>Security & Control:</strong> IP address restrictions for messaging and enhanced file upload controls</li>
-            </ul>
-            <p class="summary-insight"><em>Notable trend: Zendesk is heavily investing in AI-powered automation while improving administrative control and security features.</em></p>
+<p>Daily summary generation requires Claude API key configuration.</p>
         </div>
     </div>
 
     <div class="date-articles">
-        <article class="feed-item border-bottom py-3">
-            <div class="row">
-                <div class="col-md-12">
-                    <h5 class="item-title">
-                        <a href="#" class="text-dark">Quick answers will be available to all customers with Zendesk Suite and Knowledge plans</a>
-                        <span class="source-badge">Zendesk Announcements</span>
-                    </h5>
-                    <p class="item-summary text-muted">
-                        Zendesk is expanding Quick answers availability to all customers with Suite and Knowledge plans, improving agent efficiency and response times...
-                    </p>
-                    <small class="text-muted">
-                        <i class="far fa-clock"></i> 09:30 this morning
-                    </small>
-                </div>
-            </div>
-        </article>
-
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="#" class="text-dark">AI agents are now available on email and web form channels</a>
-                <span class="source-badge">Zendesk What's New</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 08:45 this morning
-            </small>
-        </article>
-
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="#" class="text-dark">Zendesk QA user and license management is moving to Zendesk Admin Center</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 08:15 this morning
-            </small>
-        </article>
-
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="#" class="text-dark">Macros for auto assist suggestions to help agents save time</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 07:30 this morning
-            </small>
-        </article>
-
-        <article class="feed-item py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/2025/08/moving-toward-value-added-conversations-in-zendesk/" class="text-dark">Moving Toward Value-Added Conversations in Zendesk</a>
-                <span class="source-badge">Internal Note</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 06:20 this morning
-            </small>
-        </article>
+        <div class="alert alert-light">
+            <i class="fas fa-info-circle text-muted"></i>
+            No new articles today. Check back later for updates.
+        </div>
     </div>
 </div>
 
@@ -99,45 +40,17 @@ background: grey
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-calendar-alt text-secondary"></i>
-        Yesterday - 24th August 2025
-        <span class="badge badge-secondary ml-2">8 articles</span>
+        Yesterday - 24 August 2025
+        <span class="badge badge-secondary ml-2">0 articles</span>
     </h2>
     
-    <div class="claude-summary mb-4">
-        <div class="summary-header">
-            <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-        </div>
-        <div class="summary-content">
-            <p class="lead">Yesterday focused on infrastructure and developer experience improvements:</p>
-            <ul class="summary-points">
-                <li><strong>Remote Work:</strong> New collaboration tools addressing hybrid work challenges</li>
-                <li><strong>Zendesk APIs:</strong> Advanced ticket management endpoints released</li>
-                <li><strong>Security:</strong> Authentication best practices discussion gaining momentum</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="collapsed-articles" id="yesterday-articles">
+    <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#yesterday-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show 8 articles from yesterday
+                <i class="fas fa-chevron-right"></i> Show 0 articles from yesterday
             </a>
         </small>
         <div class="collapse" id="yesterday-list">
-            <article class="feed-item border-bottom py-2 mt-3">
-                <h6 class="item-title">
-                    <a href="#" class="text-dark">The Future of Remote Work: New Collaboration Tools</a>
-                    <span class="source-badge">TechCrunch</span>
-                </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 24/08/2025 16:30</small>
-            </article>
-            <article class="feed-item border-bottom py-2">
-                <h6 class="item-title">
-                    <a href="#" class="text-dark">New Zendesk API Endpoints for Advanced Ticket Management</a>
-                    <span class="source-badge">Zendesk</span>
-                </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 24/08/2025 14:20</small>
-            </article>
         </div>
     </div>
 </div>
@@ -146,8 +59,8 @@ background: grey
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-calendar-week text-success"></i>
-        This Week - 19th-25th August 2025
-        <span class="badge badge-success ml-2">47 articles</span>
+        This Week - 25-31 August 2025
+        <span class="badge badge-success ml-2">0 articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
@@ -156,40 +69,19 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p class="lead">This week's standout themes across 47 articles from our feeds:</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="summary-points">
-                        <li><strong>AI/ML Adoption (15 articles):</strong> Focus shifted from hype to practical implementation</li>
-                        <li><strong>Database Performance (8 articles):</strong> Major updates across PostgreSQL, MySQL ecosystems</li>
-                        <li><strong>Developer Experience (12 articles):</strong> Rust tooling gaining enterprise adoption</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="summary-points">
-                        <li><strong>Remote Work Tools (7 articles):</strong> New solutions for distributed teams</li>
-                        <li><strong>Security & Auth (5 articles):</strong> Best practices and new vulnerabilities</li>
-                    </ul>
-                    <p class="summary-insight mt-3"><em><strong>Key Insight:</strong> Clear trend toward operational efficiency - every major platform is focusing on reducing manual work.</em></p>
-                </div>
-            </div>
+<p>Weekly summary generation requires Claude API key configuration.</p>
         </div>
     </div>
 
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#week-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 47 articles from this week
+                <i class="fas fa-chevron-right"></i> Show all 0 articles from this week
             </a>
         </small>
         <div class="collapse" id="week-list">
             <div class="mt-3">
-                <h6 class="text-muted">Monday 19th August (9 articles)</h6>
-                <h6 class="text-muted">Tuesday 20th August (12 articles)</h6>
-                <h6 class="text-muted">Wednesday 21st August (8 articles)</h6>
-                <h6 class="text-muted">Thursday 22nd August (6 articles)</h6>
-                <h6 class="text-muted">Friday 23rd August (4 articles)</h6>
-                <h6 class="text-muted">Weekend 24th-25th August (8 articles)</h6>
+                <small class="text-muted">Articles grouped by day - click to expand individual days</small>
             </div>
         </div>
     </div>
@@ -202,11 +94,11 @@ background: grey
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>47</strong><br>
+                    <strong>0</strong><br>
                     <small class="text-muted">Articles This Week</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>5</strong><br>
+                    <strong>8</strong><br>
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
@@ -215,7 +107,7 @@ background: grey
                 </div>
                 <div class="col-md-3">
                     <strong>Tomorrow 09:00</strong><br>
-                    <small class="text-muted">Next Summary</small>
+                    <small class="text-muted">Next Update</small>
                 </div>
             </div>
         </div>
