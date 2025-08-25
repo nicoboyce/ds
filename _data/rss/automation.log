@@ -235,3 +235,69 @@ RSS feeds page updated: rss-feeds.md
 2025-08-25 23:45:37,396 - INFO - This week's articles: 0
 2025-08-25 23:45:37,396 - INFO - Feeds processed: 8
 2025-08-25 23:45:37,396 - INFO - Site updated: 25/08/2025 23:45
+2025-08-25 23:54:57,645 - INFO - Working in: /Users/nico/ds/ds
+2025-08-25 23:54:57,646 - INFO - Starting daily RSS automation pipeline
+2025-08-25 23:54:57,646 - INFO - Timestamp: 2025-08-25T23:54:57.646078
+2025-08-25 23:54:57,646 - INFO - 
+--- Starting: Git Pull ---
+2025-08-25 23:54:57,646 - INFO - === GIT PULL ===
+2025-08-25 23:54:57,646 - INFO - Running: Pulling latest changes
+2025-08-25 23:54:58,116 - INFO - Output: Already up to date.
+2025-08-25 23:54:58,116 - INFO - SUCCESS: Git Pull
+2025-08-25 23:54:58,117 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-25 23:54:58,117 - INFO - === RSS INGESTION ===
+2025-08-25 23:54:58,117 - INFO - Running: Ingesting RSS feeds
+2025-08-25 23:55:00,785 - INFO - Output: Starting RSS ingestion...
+Processing 8 feeds
+Fetching: Zendesk Announcements
+  Found 0 articles
+Fetching: Zendesk What's New
+  Found 0 articles
+Fetching: Zendesk Developer Updates
+  Found 0 articles
+Fetching: Zendesk Release Notes
+  Found 0 articles
+Fetching: Zendesk Service Notifications
+  Found 0 articles
+Fetching: Deltastring YouTube
+  Found 0 articles
+Fetching: Internal Note
+  Found 0 articles
+Fetching: Google News - Zendesk
+  Found 0 articles
+
+Ingestion complete:
+  Total articles: 0
+  Today: 0
+  Yesterday: 0
+  This week: 0
+  Data saved to: _data/rss
+INFO: No new articles found in this run.
+2025-08-25 23:55:00,786 - INFO - SUCCESS: RSS Ingestion
+2025-08-25 23:55:00,786 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-25 23:55:00,786 - INFO - === CLAUDE SUMMARIES ===
+2025-08-25 23:55:00,786 - ERROR - CLAUDE_API_KEY environment variable not set
+2025-08-25 23:55:00,786 - INFO - Creating fallback summaries...
+2025-08-25 23:55:00,786 - INFO - SUCCESS: Claude Summaries
+2025-08-25 23:55:00,786 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-25 23:55:00,786 - INFO - === GENERATE RSS PAGE ===
+2025-08-25 23:55:00,786 - INFO - Running: Generating RSS feeds page
+2025-08-25 23:55:00,821 - INFO - Output: Generating RSS feeds page...
+News page updated: news.md
+  Today: 0 articles
+  Total this week: 0 articles
+2025-08-25 23:55:00,821 - INFO - SUCCESS: Generate RSS Page
+2025-08-25 23:55:00,821 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-25 23:55:00,821 - INFO - === JEKYLL BUILD ===
+2025-08-25 23:55:00,822 - INFO - Running: Building Jekyll site
+2025-08-25 23:55:00,900 - ERROR - Command failed: Command 'bundle exec jekyll build' returned non-zero exit status 127.
+2025-08-25 23:55:00,900 - ERROR - FAILED: Jekyll Build
+2025-08-25 23:55:00,900 - WARNING - Non-critical step failed - continuing pipeline
+2025-08-25 23:55:00,900 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-25 23:55:00,900 - INFO - === GIT COMMIT & PUSH ===
+2025-08-25 23:55:00,900 - INFO - Running: Adding changes to git
