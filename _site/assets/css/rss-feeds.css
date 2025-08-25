@@ -1,0 +1,177 @@
+/* RSS Feeds Page Styling */
+
+/* Summary sections - emphasising dates */
+.summary-section {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.summary-title {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f8f9fa;
+    font-weight: 700;
+}
+
+.summary-title .badge {
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+
+/* Claude AI Summary Styling */
+.claude-summary {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-left: 4px solid #17a2b8;
+    border-radius: 6px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.summary-header h4 {
+    color: #17a2b8;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.summary-content .lead {
+    font-size: 1.1rem;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.summary-points {
+    margin: 1rem 0;
+}
+
+.summary-points li {
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.summary-insight {
+    background: rgba(23, 162, 184, 0.1);
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    color: #0c5460;
+    font-style: italic;
+}
+
+/* Source badges - de-emphasised */
+.source-badge {
+    display: inline-block;
+    background: #6c757d;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    font-weight: normal;
+}
+
+.feed-title i {
+    margin-right: 0.5rem;
+}
+
+.feed-item {
+    transition: background-color 0.2s ease;
+}
+
+.feed-item:hover {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.item-title a {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.item-title a:hover {
+    color: #fed136 !important;
+    text-decoration: underline;
+}
+
+.item-summary {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+.feed-item img {
+    border: 1px solid #e9ecef;
+    transition: transform 0.2s ease;
+}
+
+.feed-item:hover img {
+    transform: scale(1.02);
+}
+
+.feed-item small {
+    font-size: 0.85rem;
+}
+
+.feed-item small i {
+    margin-right: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .feed-source {
+        padding: 1rem;
+    }
+    
+    .feed-title {
+        font-size: 1.3rem;
+    }
+    
+    .item-title {
+        font-size: 1.1rem;
+    }
+    
+    .feed-item .col-md-4 {
+        margin-top: 1rem;
+    }
+}
+
+/* Feed statistics styling */
+.alert-info {
+    background-color: #e8f4f8;
+    border-color: #bee5eb;
+}
+
+.alert-info h6 {
+    color: #0c5460;
+    margin-bottom: 1rem;
+}
+
+/* Loading states for future use */
+.feed-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.feed-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #fed136;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

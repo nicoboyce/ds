@@ -301,3 +301,15 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-25 23:55:00,900 - INFO - === GIT COMMIT & PUSH ===
 2025-08-25 23:55:00,900 - INFO - Running: Adding changes to git
+2025-08-25 23:55:00,922 - INFO - Running: Committing changes
+2025-08-25 23:55:00,936 - INFO - Output: [master 601fa64] Daily RSS update - 25/08/2025 23:55
+ 4 files changed, 70 insertions(+), 4 deletions(-)
+2025-08-25 23:55:00,936 - INFO - Running: Pushing to GitHub
+2025-08-25 23:55:02,144 - INFO - SUCCESS: Git Commit & Push
+2025-08-25 23:55:02,144 - ERROR - Pipeline completed with failures: Jekyll Build
+2025-08-25 23:55:02,145 - INFO - === COMPLETION STATS ===
+2025-08-25 23:55:02,145 - INFO - Total articles processed: 0
+2025-08-25 23:55:02,145 - INFO - Today's articles: 0
+2025-08-25 23:55:02,145 - INFO - This week's articles: 0
+2025-08-25 23:55:02,145 - INFO - Feeds processed: 8
+2025-08-25 23:55:02,145 - INFO - Site updated: 25/08/2025 23:55
