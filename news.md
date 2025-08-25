@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Industry RSS Feeds
+title: Zendesk News & Updates
 background: grey
 ---
 

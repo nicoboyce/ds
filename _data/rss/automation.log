@@ -223,3 +223,15 @@ RSS feeds page updated: rss-feeds.md
 --- Starting: Git Commit & Push ---
 2025-08-25 23:45:36,296 - INFO - === GIT COMMIT & PUSH ===
 2025-08-25 23:45:36,296 - INFO - Running: Adding changes to git
+2025-08-25 23:45:36,317 - INFO - Running: Committing changes
+2025-08-25 23:45:36,331 - INFO - Output: [master 79c82c9] Daily RSS update - 25/08/2025 23:45
+ 4 files changed, 92 insertions(+), 6 deletions(-)
+2025-08-25 23:45:36,332 - INFO - Running: Pushing to GitHub
+2025-08-25 23:45:37,395 - INFO - SUCCESS: Git Commit & Push
+2025-08-25 23:45:37,395 - ERROR - Pipeline completed with failures: Jekyll Build
+2025-08-25 23:45:37,396 - INFO - === COMPLETION STATS ===
+2025-08-25 23:45:37,396 - INFO - Total articles processed: 0
+2025-08-25 23:45:37,396 - INFO - Today's articles: 0
+2025-08-25 23:45:37,396 - INFO - This week's articles: 0
+2025-08-25 23:45:37,396 - INFO - Feeds processed: 8
+2025-08-25 23:45:37,396 - INFO - Site updated: 25/08/2025 23:45

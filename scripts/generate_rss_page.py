@@ -12,7 +12,7 @@ import sys
 import re
 
 class RSSPageGenerator:
-    def __init__(self, data_dir='_data/rss', page_path='rss-feeds.md'):
+    def __init__(self, data_dir='_data/rss', page_path='news.md'):
         self.data_dir = Path(data_dir)
         self.page_path = Path(page_path)
         
@@ -303,7 +303,7 @@ background: grey
         with open(self.page_path, 'w', encoding='utf-8') as f:
             f.write(content)
         
-        print(f"RSS feeds page updated: {self.page_path}")
+        print(f"News page updated: {self.page_path}")
         print(f"  Today: {stats['today_count']} articles")
         print(f"  Total this week: {stats['week_count']} articles")
         
