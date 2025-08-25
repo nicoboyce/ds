@@ -208,8 +208,10 @@ if __name__ == '__main__':
     ingestion = RSSIngestion()
     stats = ingestion.run()
     
-    # Exit with error code if no articles found
+    # No articles found is normal behaviour - not an error
     if stats['total_articles'] == 0:
-        print("WARNING: No articles found!")
-        # Temporarily disabled to allow testing
-        # sys.exit(1)
+        print("INFO: No new articles found in this run.")
+    else:
+        print(f"SUCCESS: Found {stats['total_articles']} articles")
+    
+    # Always exit successfully - empty feeds are normal

@@ -139,3 +139,87 @@ RSS feeds page updated: rss-feeds.md
 --- Starting: Git Commit & Push ---
 2025-08-25 23:45:05,732 - INFO - === GIT COMMIT & PUSH ===
 2025-08-25 23:45:05,732 - INFO - Running: Adding changes to git
+2025-08-25 23:45:05,793 - INFO - Running: Committing changes
+2025-08-25 23:45:05,808 - INFO - Output: [master 5d89754] Daily RSS update - 25/08/2025 23:45
+ 8 files changed, 254 insertions(+), 130 deletions(-)
+ create mode 100644 _data/rss/articles.json
+ create mode 100644 _data/rss/automation.log
+ create mode 100644 _data/rss/categorised.json
+ create mode 100644 _data/rss/stats.json
+ create mode 100644 _data/rss/summaries.json
+ create mode 100755 setup_local.sh
+2025-08-25 23:45:05,808 - INFO - Running: Pushing to GitHub
+2025-08-25 23:45:07,042 - INFO - SUCCESS: Git Commit & Push
+2025-08-25 23:45:07,043 - ERROR - Pipeline completed with failures: Jekyll Build
+2025-08-25 23:45:07,043 - INFO - === COMPLETION STATS ===
+2025-08-25 23:45:07,043 - INFO - Total articles processed: 0
+2025-08-25 23:45:07,043 - INFO - Today's articles: 0
+2025-08-25 23:45:07,043 - INFO - This week's articles: 0
+2025-08-25 23:45:07,043 - INFO - Feeds processed: 8
+2025-08-25 23:45:07,043 - INFO - Site updated: 25/08/2025 23:45
+2025-08-25 23:45:33,867 - INFO - Working in: /Users/nico/ds/ds
+2025-08-25 23:45:33,867 - INFO - Starting daily RSS automation pipeline
+2025-08-25 23:45:33,867 - INFO - Timestamp: 2025-08-25T23:45:33.867748
+2025-08-25 23:45:33,867 - INFO - 
+--- Starting: Git Pull ---
+2025-08-25 23:45:33,867 - INFO - === GIT PULL ===
+2025-08-25 23:45:33,867 - INFO - Running: Pulling latest changes
+2025-08-25 23:45:34,287 - INFO - Output: Already up to date.
+2025-08-25 23:45:34,288 - INFO - SUCCESS: Git Pull
+2025-08-25 23:45:34,288 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-25 23:45:34,288 - INFO - === RSS INGESTION ===
+2025-08-25 23:45:34,288 - INFO - Running: Ingesting RSS feeds
+2025-08-25 23:45:36,196 - INFO - Output: Starting RSS ingestion...
+Processing 8 feeds
+Fetching: Zendesk Announcements
+  Found 0 articles
+Fetching: Zendesk What's New
+  Found 0 articles
+Fetching: Zendesk Developer Updates
+  Found 0 articles
+Fetching: Zendesk Release Notes
+  Found 0 articles
+Fetching: Zendesk Service Notifications
+  Found 0 articles
+Fetching: Deltastring YouTube
+  Found 0 articles
+Fetching: Internal Note
+  Found 0 articles
+Fetching: Google News - Zendesk
+  Found 0 articles
+
+Ingestion complete:
+  Total articles: 0
+  Today: 0
+  Yesterday: 0
+  This week: 0
+  Data saved to: _data/rss
+INFO: No new articles found in this run.
+2025-08-25 23:45:36,196 - INFO - SUCCESS: RSS Ingestion
+2025-08-25 23:45:36,196 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-25 23:45:36,196 - INFO - === CLAUDE SUMMARIES ===
+2025-08-25 23:45:36,196 - ERROR - CLAUDE_API_KEY environment variable not set
+2025-08-25 23:45:36,196 - INFO - Creating fallback summaries...
+2025-08-25 23:45:36,196 - INFO - SUCCESS: Claude Summaries
+2025-08-25 23:45:36,196 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-25 23:45:36,196 - INFO - === GENERATE RSS PAGE ===
+2025-08-25 23:45:36,196 - INFO - Running: Generating RSS feeds page
+2025-08-25 23:45:36,222 - INFO - Output: Generating RSS feeds page...
+RSS feeds page updated: rss-feeds.md
+  Today: 0 articles
+  Total this week: 0 articles
+2025-08-25 23:45:36,222 - INFO - SUCCESS: Generate RSS Page
+2025-08-25 23:45:36,222 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-25 23:45:36,222 - INFO - === JEKYLL BUILD ===
+2025-08-25 23:45:36,222 - INFO - Running: Building Jekyll site
+2025-08-25 23:45:36,295 - ERROR - Command failed: Command 'bundle exec jekyll build' returned non-zero exit status 127.
+2025-08-25 23:45:36,295 - ERROR - FAILED: Jekyll Build
+2025-08-25 23:45:36,295 - WARNING - Non-critical step failed - continuing pipeline
+2025-08-25 23:45:36,296 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-25 23:45:36,296 - INFO - === GIT COMMIT & PUSH ===
+2025-08-25 23:45:36,296 - INFO - Running: Adding changes to git
