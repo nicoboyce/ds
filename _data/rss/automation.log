@@ -841,3 +841,15 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-26 00:43:38,103 - INFO - === GIT COMMIT & PUSH ===
 2025-08-26 00:43:38,103 - INFO - Running: Adding changes to git
+2025-08-26 00:43:38,183 - INFO - Running: Committing changes
+2025-08-26 00:43:38,215 - INFO - Output: [master 199aa97] Daily RSS update - 26/08/2025 00:43
+ 30 files changed, 3762 insertions(+), 128 deletions(-)
+2025-08-26 00:43:38,215 - INFO - Running: Pushing to GitHub
+2025-08-26 00:43:39,320 - INFO - SUCCESS: Git Commit & Push
+2025-08-26 00:43:39,320 - INFO - Pipeline completed successfully!
+2025-08-26 00:43:39,320 - INFO - === COMPLETION STATS ===
+2025-08-26 00:43:39,320 - INFO - Total articles processed: 153
+2025-08-26 00:43:39,320 - INFO - Today's articles: 88
+2025-08-26 00:43:39,320 - INFO - This week's articles: 0
+2025-08-26 00:43:39,321 - INFO - Feeds processed: 8
+2025-08-26 00:43:39,321 - INFO - Site updated: 26/08/2025 00:43
