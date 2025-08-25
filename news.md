@@ -21,10 +21,10 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 00:09 this morning</small>
+            <small class="text-muted">Generated at 00:10 this morning</small>
         </div>
         <div class="summary-content">
-<p>Daily summary generation requires Claude API key configuration.</p>
+            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>
         </div>
     </div>
 
@@ -69,7 +69,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p>Weekly summary generation requires Claude API key configuration.</p>
+<p>No articles this week.</p>
         </div>
     </div>
 

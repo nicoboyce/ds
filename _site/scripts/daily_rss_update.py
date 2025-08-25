@@ -37,13 +37,16 @@ class DailyRSSPipeline:
         """Run shell command and handle errors"""
         logger.info(f"Running: {description}")
         try:
+            # Ensure environment variables are passed through
+            env = os.environ.copy()
             result = subprocess.run(
                 command,
                 shell=True,
                 check=True,
                 capture_output=True,
                 text=True,
-                timeout=300  # 5 minutes timeout
+                timeout=300,  # 5 minutes timeout
+                env=env
             )
             if result.stdout.strip():
                 logger.info(f"Output: {result.stdout.strip()}")
