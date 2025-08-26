@@ -152,7 +152,7 @@ class RSSPageGenerator:
         
         content = f"""---
 layout: page
-title: Industry RSS Feeds
+title: Zendesk news, from Deltastring
 background: grey
 ---
 
