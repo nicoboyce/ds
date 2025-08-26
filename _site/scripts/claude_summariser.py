@@ -299,6 +299,8 @@ Ignore marketplace app updates. Format as: "Feature: description. Feature: descr
 Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin Center) not generic terms."""
         
         try:
+            # Use requests library for API call
+            import requests
             response = requests.post(
                 'https://api.anthropic.com/v1/messages',
                 headers={
@@ -328,25 +330,58 @@ Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin 
     def fallback_release_notes_summary(self, release_notes):
         """Fallback summary for release notes when Claude API unavailable"""
         description = release_notes.get('description', '')
-        lines = description.split('\\n')
         
-        # Look for specific product mentions
+        # More specific parsing for common patterns
         features = []
-        products = ['Copilot', 'AI Agents', 'Admin Center', 'Support', 'Talk', 'Chat', 'Messaging', 
-                   'Knowledge', 'WFM', 'Workforce Management', 'Mobile', 'QA']
         
-        for line in lines[:20]:  # Check first 20 lines
-            for product in products:
-                if product in line and ('New:' in line or 'new' in line.lower() or 'introduced' in line.lower()):
-                    # Extract the feature description
-                    feature_desc = line.split(':', 1)[-1].strip() if ':' in line else line.strip()
-                    if len(feature_desc) > 10 and len(feature_desc) < 200:
-                        features.append(f"{product}: {feature_desc[:100]}")
-                    break
+        # Look for Copilot updates
+        if 'Copilot' in description:
+            if 'macros' in description.lower() and 'auto assist' in description.lower():
+                features.append("Copilot: auto assist can now suggest existing macros to agents")
+            elif 'add existing macros' in description.lower():
+                features.append("Copilot: admins can add existing macros to auto assist procedures")
+            elif 'copilot' in description.lower():
+                # Extract what follows Copilot mention
+                copilot_match = description[description.find('Copilot'):]
+                if 'New:' in copilot_match[:100]:
+                    feature = copilot_match.split('New:')[1].split('.')[0].strip()[:80]
+                    if feature:
+                        features.append(f"Copilot: {feature}")
+        
+        # Look for AI Agents updates  
+        if 'AI Agents' in description:
+            if 'UI' in description or 'interface' in description.lower() or 'block' in description.lower():
+                features.append("AI Agents Advanced: improved UI for managing dialogue builder blocks")
+            elif 'AI Agents Advanced' in description:
+                # Extract what follows
+                ai_match = description[description.find('AI Agents'):]
+                if 'New:' in ai_match[:150]:
+                    feature = ai_match.split('New:')[1].split('.')[0].strip()[:80]
+                    if feature:
+                        features.append(f"AI Agents: {feature}")
+        
+        # Look for other key updates
+        for keyword in ['Support', 'Admin Center', 'Talk', 'Messaging', 'Knowledge', 'QA']:
+            if keyword in description and 'New:' in description:
+                idx = description.find(keyword)
+                if idx != -1:
+                    context = description[idx:idx+200]
+                    if 'New:' in context:
+                        feature = context.split('New:')[1].split('.')[0].strip()[:60]
+                        if feature and len(feature) > 10:
+                            features.append(f"{keyword}: {feature}")
+                            break
         
         if features:
-            return '. '.join(features[:2])  # Return top 2 features
+            # Return the most specific features
+            return '. '.join(features[:2])
         else:
+            # Last resort - try to extract anything after "New:"
+            if 'New:' in description:
+                first_new = description.split('New:')[1].split('.')[0].strip()[:100]
+                if first_new:
+                    return f"Latest updates: {first_new}"
+            
             # Generic fallback
             title = release_notes.get('title', '')
             date = title.replace('Release notes through ', '') if 'Release notes through' in title else 'Latest'
