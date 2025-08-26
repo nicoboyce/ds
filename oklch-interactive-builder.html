@@ -267,31 +267,57 @@
 
     <script>
         function updateColorScheme() {
-            const l = parseFloat(document.getElementById('lightness').value);
-            const c = parseFloat(document.getElementById('chroma').value);
-            const h = parseFloat(document.getElementById('hue').value);
-            
-            // Update base color
-            const baseColor = `oklch(${l} ${c} ${h})`;
-            const baseColorEl = document.getElementById('base-color');
-            baseColorEl.style.background = baseColor;
-            baseColorEl.textContent = `Base Color: oklch(${l} ${c} ${h}°)`;
-            
-            // Update complementary colors
-            updateComplementaryColors(l, c, h);
-            
-            // Update tints and shades
-            updateTints(l, c, h);
-            updateShades(l, c, h);
-            
-            // Update color schemes
-            updateColorSchemes(l, c, h);
-            
-            // Update grays
-            updateGrays(l, c, h);
-            
-            // Update usage recommendations
-            updateUsageRecommendations(h);
+            try {
+                console.log('updateColorScheme called');
+                
+                const lInput = document.getElementById('lightness');
+                const cInput = document.getElementById('chroma');
+                const hInput = document.getElementById('hue');
+                
+                if (!lInput || !cInput || !hInput) {
+                    console.error('Input elements not found');
+                    return;
+                }
+                
+                const l = parseFloat(lInput.value);
+                const c = parseFloat(cInput.value);
+                const h = parseFloat(hInput.value);
+                
+                console.log('Values:', {l, c, h});
+                
+                // Update base color
+                const baseColor = `oklch(${l} ${c} ${h})`;
+                const baseColorEl = document.getElementById('base-color');
+                
+                if (!baseColorEl) {
+                    console.error('Base color element not found');
+                    return;
+                }
+                
+                baseColorEl.style.background = baseColor;
+                baseColorEl.textContent = `Base Color: oklch(${l} ${c} ${h}°)`;
+                console.log('Base color updated');
+                
+                // Update complementary colors
+                updateComplementaryColors(l, c, h);
+                
+                // Update tints and shades
+                updateTints(l, c, h);
+                updateShades(l, c, h);
+                
+                // Update color schemes
+                updateColorSchemes(l, c, h);
+                
+                // Update grays
+                updateGrays(l, c, h);
+                
+                // Update usage recommendations
+                updateUsageRecommendations(h);
+                
+                console.log('updateColorScheme completed');
+            } catch (error) {
+                console.error('Error in updateColorScheme:', error);
+            }
         }
         
         function updateComplementaryColors(l, c, h) {

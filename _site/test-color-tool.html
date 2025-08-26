@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Color Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-color { width: 100px; height: 50px; margin: 10px; display: inline-block; }
+        .controls { margin: 20px 0; }
+        .controls input { margin: 10px; padding: 5px; }
+        #debug { background: #f0f0f0; padding: 10px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Debug Color Tool</h1>
+    
+    <div class="controls">
+        <label>Lightness: <input type="number" id="lightness" min="0" max="1" step="0.01" value="0.67"></label>
+        <label>Chroma: <input type="number" id="chroma" min="0" max="0.4" step="0.01" value="0.13"></label>
+        <label>Hue: <input type="number" id="hue" min="0" max="360" step="1" value="55"></label>
+    </div>
+    
+    <div id="debug">Debug info will appear here...</div>
+    
+    <div id="base-color" class="test-color">Base Color</div>
+    <div id="test-colors"></div>
+
+    <script>
+        function log(message) {
+            const debug = document.getElementById('debug');
+            debug.innerHTML += message + '<br>';
+            console.log(message);
+        }
+
+        function updateColors() {
+            log('updateColors called');
+            
+            const lInput = document.getElementById('lightness');
+            const cInput = document.getElementById('chroma');
+            const hInput = document.getElementById('hue');
+            
+            if (!lInput || !cInput || !hInput) {
+                log('ERROR: Input elements not found');
+                return;
+            }
+            
+            const l = parseFloat(lInput.value);
+            const c = parseFloat(cInput.value);
+            const h = parseFloat(hInput.value);
+            
+            log(`Values: l=${l}, c=${c}, h=${h}`);
+            
+            const baseColor = `oklch(${l} ${c} ${h})`;
+            log(`Base color: ${baseColor}`);
+            
+            const baseEl = document.getElementById('base-color');
+            if (baseEl) {
+                baseEl.style.background = baseColor;
+                baseEl.textContent = baseColor;
+                log('Base color element updated');
+            } else {
+                log('ERROR: Base color element not found');
+            }
+            
+            // Test complementary color
+            const compHue = (h + 180) % 360;
+            const compColor = `oklch(${l} ${c} ${compHue})`;
+            
+            const testContainer = document.getElementById('test-colors');
+            if (testContainer) {
+                testContainer.innerHTML = `
+                    <div class="test-color" style="background: ${compColor};">
+                        Complementary: ${compColor}
+                    </div>
+                `;
+                log('Test colors updated');
+            } else {
+                log('ERROR: Test colors container not found');
+            }
+        }
+
+        // Test different initialization approaches
+        log('Script loaded');
+        
+        // Try immediate execution
+        log('Trying immediate execution...');
+        updateColors();
+        
+        // Try DOMContentLoaded
+        document.addEventListener('DOMContentLoaded', function() {
+            log('DOMContentLoaded fired');
+            updateColors();
+            
+            // Add event listeners
+            const inputs = ['lightness', 'chroma', 'hue'];
+            inputs.forEach(id => {
+                const input = document.getElementById(id);
+                if (input) {
+                    input.addEventListener('input', updateColors);
+                    log(`Event listener added to ${id}`);
+                } else {
+                    log(`ERROR: Could not find input ${id}`);
+                }
+            });
+        });
+        
+        // Try window.onload as backup
+        window.onload = function() {
+            log('window.onload fired');
+            updateColors();
+        };
+    </script>
+</body>
+</html>
