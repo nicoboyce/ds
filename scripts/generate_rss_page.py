@@ -156,6 +156,8 @@ title: Zendesk news, from Deltastring
 background: grey
 ---
 
+<link rel="stylesheet" href="/assets/css/rss-feeds.css">
+
 <div class="row">
     <div class="col-lg-12">
         <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
@@ -314,6 +316,8 @@ layout: page
 title: Industry RSS Feeds - {now.strftime('%d %B %Y')} Archive
 background: grey
 ---
+
+<link rel="stylesheet" href="/assets/css/rss-feeds.css">
 
 <div class="alert alert-warning mb-4">
     <i class="fas fa-archive"></i> This is an archived version from {now.strftime('%d %B %Y')}. 

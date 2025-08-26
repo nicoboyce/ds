@@ -4,6 +4,8 @@ title: Zendesk news, from Deltastring
 background: grey
 ---
 
+<link rel="stylesheet" href="/assets/css/rss-feeds.css">
+
 <div class="row">
     <div class="col-lg-12">
         <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
@@ -21,7 +23,7 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 10:37 today</small>
+            <small class="text-muted">Generated at 10:41 today</small>
         </div>
         <div class="summary-content">
 <p><strong>New Features</strong>: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 4 more. <strong>Early Access</strong>: Zendesk QA for Advanced AI agents.</p>
