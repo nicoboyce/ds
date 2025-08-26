@@ -21,10 +21,15 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 01:02 this morning</small>
+            <small class="text-muted">Generated at 01:03 this morning</small>
         </div>
         <div class="summary-content">
-<p>Daily summary generation requires Claude API key configuration.</p>
+<p><strong>Lead Summary</strong>: 26 Zendesk ecosystem updates available requiring administrator review.</p>
+            <p><strong>Key Developments</strong>:</p>
+            <p>- <strong>Platform Updates</strong>: Multiple feature releases and configuration changes</p>
+            <p>- <strong>Integration Changes</strong>: API and workflow modifications may impact existing setups</p>
+            <p>- <strong>Security Updates</strong>: Review new security and compliance features</p>
+            <p><strong>Strategic Insight</strong>: Regular monitoring of official Zendesk updates essential for maintaining optimal instance performance.</p>
         </div>
     </div>
 
@@ -131,7 +136,12 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p>Weekly summary generation requires Claude API key configuration.</p>
+<p><strong>Lead Summary</strong>: 57 Zendesk ecosystem updates available requiring administrator review.</p>
+            <p><strong>Key Developments</strong>:</p>
+            <p>- <strong>Platform Updates</strong>: Multiple feature releases and configuration changes</p>
+            <p>- <strong>Integration Changes</strong>: API and workflow modifications may impact existing setups</p>
+            <p>- <strong>Security Updates</strong>: Review new security and compliance features</p>
+            <p><strong>Strategic Insight</strong>: Regular monitoring of official Zendesk updates essential for maintaining optimal instance performance.</p>
         </div>
     </div>
 
