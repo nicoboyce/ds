@@ -24,7 +24,7 @@ background: grey
             <small class="text-muted">Generated at 01:33 today</small>
         </div>
         <div class="summary-content">
-<p><strong>New Features</strong>: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 4 more. <strong>Early Access</strong>: Zendesk QA for Advanced AI agents.</p>
+<p>Daily summary generation requires Claude API key configuration.</p>
         </div>
     </div>
 
@@ -218,7 +218,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>New Feature</strong>: support for OAuth refresh token grant type and OAuth access and refresh token expirations. <strong>Security</strong>: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. <strong>Service Issues</strong>: 5 incidents/maintenance.</p>
+<p>Weekly summary generation requires Claude API key configuration.</p>
         </div>
     </div>
 

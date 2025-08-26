@@ -1360,3 +1360,83 @@ News page updated: news.md
 2025-08-26 01:12:49,579 - INFO - This week's articles: 0
 2025-08-26 01:12:49,579 - INFO - Feeds processed: 8
 2025-08-26 01:12:49,579 - INFO - Site updated: 26/08/2025 01:12
+2025-08-26 01:33:47,982 - INFO - Working in: /Users/nico/ds/ds
+2025-08-26 01:33:47,982 - INFO - Starting daily RSS automation pipeline
+2025-08-26 01:33:47,982 - INFO - Timestamp: 2025-08-26T01:33:47.982656
+2025-08-26 01:33:47,982 - INFO - 
+--- Starting: Git Pull ---
+2025-08-26 01:33:47,982 - INFO - === GIT PULL ===
+2025-08-26 01:33:47,982 - INFO - Running: Pulling latest changes
+2025-08-26 01:33:48,483 - INFO - Output: Already up to date.
+2025-08-26 01:33:48,484 - INFO - SUCCESS: Git Pull
+2025-08-26 01:33:48,484 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-26 01:33:48,484 - INFO - === RSS INGESTION ===
+2025-08-26 01:33:48,484 - INFO - Running: Ingesting RSS feeds
+2025-08-26 01:33:51,106 - INFO - Output: Starting RSS ingestion...
+Processing 8 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 153
+  Latest (48h): 20
+  This week (2-7d): 10
+  This month (7-30d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 153 articles (Latest: 20, Week: 10, Month: 40)
+2025-08-26 01:33:51,106 - INFO - SUCCESS: RSS Ingestion
+2025-08-26 01:33:51,106 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-26 01:33:51,106 - INFO - === CLAUDE SUMMARIES ===
+2025-08-26 01:33:51,106 - ERROR - CLAUDE_API_KEY environment variable not set
+2025-08-26 01:33:51,106 - INFO - Creating fallback summaries...
+2025-08-26 01:33:51,106 - INFO - SUCCESS: Claude Summaries
+2025-08-26 01:33:51,106 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-26 01:33:51,106 - INFO - === GENERATE RSS PAGE ===
+2025-08-26 01:33:51,106 - INFO - Running: Generating RSS feeds page
+2025-08-26 01:33:51,140 - INFO - Output: Generating RSS feeds page...
+News page updated: news.md
+  Today: 0 articles
+  This week: 10 articles
+  This month: 40 articles
+2025-08-26 01:33:51,140 - INFO - SUCCESS: Generate RSS Page
+2025-08-26 01:33:51,140 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-26 01:33:51,140 - INFO - === JEKYLL BUILD ===
+2025-08-26 01:33:51,140 - INFO - Running: Building Jekyll site
+2025-08-26 01:33:51,420 - INFO - Output: Configuration file: /Users/nico/ds/ds/_config.yml
+            Source: /Users/nico/ds/ds
+       Destination: /Users/nico/ds/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.082 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-26 01:33:51,420 - INFO - SUCCESS: Jekyll Build
+2025-08-26 01:33:51,420 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-26 01:33:51,420 - INFO - === GIT COMMIT & PUSH ===
+2025-08-26 01:33:51,420 - INFO - Running: Adding changes to git

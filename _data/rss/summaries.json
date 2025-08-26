@@ -1,6 +1,5 @@
 {
-  "latest": "**New Features**: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 4 more. **Early Access**: Zendesk QA for Advanced AI agents.",
-  "weekly": "**New Feature**: support for OAuth refresh token grant type and OAuth access and refresh token expirations. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. **Service Issues**: 5 incidents/maintenance.",
-  "monthly": "**New Features**: trial cooldown periods for paid apps and the Marketplace partner developer support. **Service Issues**: 4 incidents/maintenance.",
-  "generated_at": "2025-08-26T01:31:53.979546"
+  "daily": "Daily summary generation requires Claude API key configuration.",
+  "weekly": "Weekly summary generation requires Claude API key configuration.",
+  "generated_at": "2025-08-26T01:33:51.106521"
 }
