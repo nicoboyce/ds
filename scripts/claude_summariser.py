@@ -39,13 +39,9 @@ class ClaudeSummariser:
             context = "this week's Zendesk ecosystem trends"
             focus = "strategic planning considerations and longer-term trends"
         
-        prompt = f"""You are analysing {context} for Zendesk instance administrators, solution partners, and technical decision-makers who manage Zendesk implementations.
+        prompt = f"""You are a Zendesk expert providing {timeframe} briefing to administrators managing Zendesk instances. Your audience needs specific, actionable insights - not generic summaries.
 
-Your audience includes:
-- Zendesk administrators managing enterprise instances
-- Solution partners implementing Zendesk for clients  
-- Technical leads planning Zendesk configurations
-- Operations managers overseeing customer support workflows
+TARGET AUDIENCE: Zendesk administrators, solution partners, technical leads who need to know what requires immediate attention vs longer-term planning.
 
 ARTICLES TO ANALYSE:
 """
@@ -53,35 +49,32 @@ ARTICLES TO ANALYSE:
         for i, article in enumerate(articles, 1):
             prompt += f"\n{i}. **{article['title']}** (Source: {article['source']})\n"
             if article['description']:
-                prompt += f"   Summary: {article['description']}\n"
+                prompt += f"   Details: {article['description'][:150]}...\n"
         
         prompt += f"""
 
-ANALYSIS REQUIREMENTS:
+ANALYSIS FOCUS:
+- IMMEDIATE ACTIONS: What needs administrator attention this week?
+- FEATURE ROLLOUTS: Which new features are rolling out and impact on workflows?
+- SECURITY/COMPLIANCE: Any security updates, compliance changes, or vulnerabilities?
+- INTEGRATIONS/APIs: Breaking changes or new API capabilities?
+- EARLY ACCESS: New EAPs, beta programs, or limited availability features?
 
-Focus specifically on:
-- Implementation impacts and required timeline actions
-- Feature changes affecting existing workflows and agent training
-- Migration, upgrade, or configuration considerations  
-- Security, compliance, and governance implications
-- Budget planning for new features or licensing changes
-- Integration impacts with existing systems
-- User adoption and change management considerations
+AVOID: Generic "monitor updates" advice. Focus on specific, actionable insights.
 
-Avoid generic tech commentary. Be specific about operational impact for Zendesk professionals.
+FORMAT (keep concise):
 
-FORMAT YOUR RESPONSE:
+**{focus.replace('immediate implementation impacts and action items', 'Critical Updates').replace('strategic planning considerations and longer-term trends', 'Strategic Trends')}**:
+[2-3 sentence summary of what Zendesk admins need to know RIGHT NOW]
 
-**Lead Summary** (1-2 sentences): {focus}
+**Priority Actions**:
+• **[HIGH/MEDIUM/LOW]**: [Specific action required] - [Timeline if known]
+• **[HIGH/MEDIUM/LOW]**: [Specific action required] - [Timeline if known]
+• **[HIGH/MEDIUM/LOW]**: [Specific action required] - [Timeline if known]
 
-**Key Developments** (3-4 bullet points):
-- **[Category]:** Specific operational impact and what administrators need to do
-- **[Category]:** Implementation timeline and planning considerations
-- **[Category]:** Technical or workflow changes requiring action
+**Bottom Line**: [One sentence: the single most important thing for Zendesk professionals to know from these updates]
 
-**Strategic Insight** (1 sentence): One key trend or pattern across these updates that Zendesk professionals should monitor.
-
-Write for professionals who need actionable intelligence, not general tech news consumers."""
+Be specific. Use exact feature names, dates, and impacts. Skip generic advice."""
 
         return prompt
     
@@ -164,20 +157,38 @@ Write for professionals who need actionable intelligence, not general tech news 
         if not key_points:
             key_points.append("**Platform Updates**: General Zendesk ecosystem updates available")
         
-        # Create summary
-        lead_summary = f"**Lead Summary**: {len(articles)} Zendesk updates available"
+        # Create focused summary in new format
+        critical_updates = f"{len(articles)} Zendesk updates available"
         if announcements:
-            lead_summary += f" with {len(announcements)} major feature announcements"
+            critical_updates += f" including {len(announcements)} new feature rollouts"
         if service_issues:
-            lead_summary += f" and {len(service_issues)} service notifications"
-        lead_summary += "."
+            critical_updates += f" and {len(service_issues)} service notifications"
+        critical_updates += ". Key items require immediate administrator review."
         
-        return f"""{lead_summary}
+        # Build priority actions
+        actions = []
+        if service_issues:
+            actions.append("**HIGH**: Review service incidents and maintenance windows - Immediate")
+        if security_items:
+            actions.append("**HIGH**: Assess security updates and apply necessary patches - This week")
+        if announcements:
+            actions.append("**MEDIUM**: Evaluate new features for workflow impact - Planning phase")
+        if dev_updates:
+            actions.append("**MEDIUM**: Review API changes for integration compatibility - Testing phase")
+        
+        if not actions:
+            actions.append("**LOW**: Monitor general platform updates - Ongoing")
+        
+        bottom_line = "Multiple feature announcements require workflow assessment" if announcements else \
+                     "Service stability issues need immediate attention" if service_issues else \
+                     "Routine platform updates available for review"
+        
+        return f"""**Critical Updates**: {critical_updates}
 
-**Key Developments**:
-{chr(10).join([f"- {point}" for point in key_points[:4]])}
+**Priority Actions**:
+{chr(10).join([f"• {action}" for action in actions[:3]])}
 
-**Strategic Insight**: {'Security and service stability updates require immediate review' if security_items or service_issues else 'Feature rollouts may impact existing workflows and require planning'}."""
+**Bottom Line**: {bottom_line}."""
     
     def generate_summaries(self):
         """Generate daily and weekly summaries"""
