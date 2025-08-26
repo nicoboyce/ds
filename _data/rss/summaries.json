@@ -2,7 +2,7 @@
   "latest": "**Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews",
   "weekly": "**New Features**: API support for WhatsApp Flows, import enhancements for the Exchange and Gmail connectors and the move of Zendesk QA user and license management to Zendesk Admin Center. **Service Issues**: 5 incidents/maintenance.",
   "monthly": "**New Features**: a new approach to email authentication, the new external Oauth page in Admin Center, the excluded terms enhancement to AI-generated translations, plus 1 more. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots, Duo Protection for Zendesk with Duo Access Gateway - Duo Security. **Service Issues**: 5 incidents/maintenance.",
-  "generated_at": "2025-08-26T12:44:46.683961",
+  "generated_at": "2025-08-26T13:14:37.846911",
   "release_notes": {
     "summary": "Copilot: auto assist can now suggest existing macros to agents. AI Agents Advanced: improved dialogue builder UI for hiding/disabling parameter branches.",
     "article": {

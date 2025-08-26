@@ -126,22 +126,20 @@ class RSSIngestion:
         return deduplicated
     
     def categorise_by_date(self, articles):
-        """Categorise articles by date (current 48h, rolling week, rolling month)"""
+        """Categorise articles by date (recent 48h, week 3-7 days, month 8-35 days)"""
         now = datetime.now()
         today = now.date()
         two_days_ago = today - timedelta(days=2)
-        week_ago = today - timedelta(days=7)
-        month_ago = today - timedelta(days=30)
+        seven_days_ago = today - timedelta(days=7)
+        thirty_five_days_ago = today - timedelta(days=35)
         
         categorised = {
-            'latest': [],       # Last 48 hours
-            'this_week': [],    # 2-7 days ago (excluding current)
-            'this_month': [],   # 7-30 days ago (excluding current and week)
-            'older': [],        # More than 30 days
+            'latest': [],       # Last 48 hours (days 0-2)
+            'this_week': [],    # 3-7 days ago (preceding 5 days)
+            'this_month': [],   # 8-35 days ago (preceding 4 weeks)
+            'older': [],        # More than 35 days
             'latest_release_notes': None,  # Most recent Zendesk release notes
-            # Keep legacy keys for compatibility
-            'today': [],
-            'yesterday': []
+            # Remove legacy keys - no longer needed
         }
         
         # First, find the latest release notes article
@@ -188,19 +186,20 @@ class RSSIngestion:
                 print(f"  ERROR parsing date for '{article['title'][:50]}...': {e}")
                 pub_date = datetime(2020, 1, 1).date()
             
-            # Categorise by date - exclusive periods
-            if pub_date >= two_days_ago:
+            # Categorise by date with new ranges
+            days_ago = (today - pub_date).days
+            
+            if days_ago <= 2:
+                # Last 48 hours (0-2 days)
                 categorised['latest'].append(article)
-                # Also add to legacy categories for backward compatibility
-                if pub_date == today:
-                    categorised['today'].append(article)
-                elif pub_date == today - timedelta(days=1):
-                    categorised['yesterday'].append(article)
-            elif pub_date >= week_ago:
+            elif days_ago <= 7:
+                # 3-7 days ago (preceding 5 days)
                 categorised['this_week'].append(article)
-            elif pub_date >= month_ago:
+            elif days_ago <= 35:
+                # 8-35 days ago (preceding 4 weeks)
                 categorised['this_month'].append(article)
             else:
+                # Older than 35 days
                 categorised['older'].append(article)
         
         return categorised
@@ -266,8 +265,6 @@ class RSSIngestion:
         stats = {
             'total_articles': len(articles),
             'latest_count': len(categorised['latest']),
-            'today_count': len(categorised['today']),
-            'yesterday_count': len(categorised['yesterday']),
             'week_count': len(categorised['this_week']),
             'month_count': len(categorised['this_month']),
             'last_updated': datetime.now().isoformat(),
@@ -304,8 +301,8 @@ class RSSIngestion:
         print(f"\nIngestion complete:")
         print(f"  Total articles: {stats['total_articles']}")
         print(f"  Latest (48h): {stats['latest_count']}")
-        print(f"  This week (2-7d): {stats['week_count']}")
-        print(f"  This month (7-30d): {stats['month_count']}")
+        print(f"  This week (3-7d): {stats['week_count']}")
+        print(f"  This month (8-35d): {stats['month_count']}")
         print(f"  Data saved to: {self.data_dir}")
         
         return stats

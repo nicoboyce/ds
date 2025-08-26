@@ -228,7 +228,6 @@ class RSSPageGenerator:
         """Generate the complete RSS feeds page content"""
         now = datetime.now()
         today_str = now.strftime("%d %B %Y") 
-        yesterday_str = (now - timedelta(days=1)).strftime("%d %B %Y")
         archive_date = now.strftime('%Y-%m-%d')
         archive_url = f"https://deltastring.com/news-{archive_date}/"
         
@@ -238,15 +237,10 @@ class RSSPageGenerator:
         
         filtered_stats = {
             'latest_count': len(exclude_release_notes(articles.get('latest', []))),
-            'yesterday_count': len(exclude_release_notes(articles.get('yesterday', []))),
             'week_count': len(exclude_release_notes(articles.get('this_week', []))),
-            'today_count': len(exclude_release_notes(articles.get('today', [])))
+            'month_count': len(exclude_release_notes(articles.get('this_month', [])))
         }
         
-        # Week range
-        week_start = now - timedelta(days=now.weekday())
-        week_end = week_start + timedelta(days=6)
-        week_str = f"{week_start.strftime('%d')}-{week_end.strftime('%d %B %Y')}"
         
         content = f"""---
 layout: page
@@ -269,7 +263,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">{filtered_stats.get('latest_count', filtered_stats.get('today_count', 0))} articles</span>
+        <span class="badge badge-primary ml-2">{filtered_stats['latest_count']} articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
@@ -306,47 +300,14 @@ background: grey
         </div>
 """
         
-        content += """    </div>
-</div>
-
-<!-- Yesterday's Summary -->
-<div class="summary-section mb-5">
-    <h2 class="summary-title">
-        <i class="fas fa-calendar-alt text-secondary"></i>
-        Yesterday - """ + yesterday_str + f"""
-        <span class="badge badge-secondary ml-2">{filtered_stats['yesterday_count']} articles</span>
-    </h2>
-    
-    <div class="collapsed-articles">
-        <small class="text-muted">
-            <a href="#" data-toggle="collapse" data-target="#yesterday-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show {filtered_stats['yesterday_count']} articles from yesterday
-            </a>
-        </small>
-        <div class="collapse" id="yesterday-list">
-"""
-        
-        # Yesterday's articles - excluding release notes
-        yesterday_filtered = [a for a in articles['yesterday'] if 'Release notes through' not in a.get('title', '')]
-        for article in yesterday_filtered[:8]:
-            content += f"""            <article class="feed-item border-bottom py-2 mt-3">
-                <h6 class="item-title">
-                    <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
-                    <span class="source-badge">{article['source']}</span>
-                </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> {self.format_time_ago(article.get('pub_date', ''))}</small>
-            </article>
-"""
-        
-        content += f"""        </div>
-    </div>
+        content += f"""    </div>
 </div>
 
 <!-- This Week's Summary -->
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-calendar-week text-success"></i>
-        This Week - {week_str}
+        Week - Days 3-7
         <span class="badge badge-success ml-2">{filtered_stats['week_count']} articles</span>
     </h2>
     
@@ -374,6 +335,28 @@ background: grey
     </div>
 </div>
 
+<!-- This Month's Summary -->
+<div class="summary-section mb-5">
+    <h2 class="summary-title">
+        <i class="fas fa-calendar text-info"></i>
+        Month - Days 8-35
+        <span class="badge badge-info ml-2">{filtered_stats['month_count']} articles</span>
+    </h2>
+    
+    <div class="collapsed-articles">
+        <small class="text-muted">
+            <a href="#" data-toggle="collapse" data-target="#month-list" class="text-decoration-none">
+                <i class="fas fa-chevron-right"></i> Show {filtered_stats['month_count']} articles from this month
+            </a>
+        </small>
+        <div class="collapse" id="month-list">
+            <div class="mt-3">
+                <small class="text-muted">Older articles from the past month</small>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Stats Summary -->
 <div class="row mt-5">
     <div class="col-lg-12">
@@ -381,8 +364,8 @@ background: grey
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>{filtered_stats['week_count']}</strong><br>
-                    <small class="text-muted">Articles This Week</small>
+                    <strong>{stats['total_articles']}</strong><br>
+                    <small class="text-muted">Total Articles</small>
                 </div>
                 <div class="col-md-3">
                     <strong>{stats['feeds_processed']}</strong><br>
@@ -449,9 +432,9 @@ background: grey
             f.write(content)
         
         print(f"News page updated: {self.page_path}")
-        print(f"  Today: {stats['today_count']} articles")
-        print(f"  This week: {stats['week_count']} articles")
-        print(f"  This month: {stats.get('month_count', 0)} articles")
+        print(f"  Latest (48h): {stats['latest_count']} articles")
+        print(f"  This week (3-7d): {stats['week_count']} articles")
+        print(f"  This month (8-35d): {stats.get('month_count', 0)} articles")
         
         return stats
 
