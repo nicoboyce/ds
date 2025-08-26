@@ -178,6 +178,17 @@ class RSSPageGenerator:
         archive_date = now.strftime('%Y-%m-%d')
         archive_url = f"https://deltastring.com/news-{archive_date}/"
         
+        # Recalculate stats excluding release notes
+        def exclude_release_notes(article_list):
+            return [a for a in article_list if 'Release notes through' not in a.get('title', '')]
+        
+        filtered_stats = {
+            'latest_count': len(exclude_release_notes(articles.get('latest', []))),
+            'yesterday_count': len(exclude_release_notes(articles.get('yesterday', []))),
+            'week_count': len(exclude_release_notes(articles.get('this_week', []))),
+            'today_count': len(exclude_release_notes(articles.get('today', [])))
+        }
+        
         # Week range
         week_start = now - timedelta(days=now.weekday())
         week_end = week_start + timedelta(days=6)
@@ -204,7 +215,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">{stats.get('latest_count', stats.get('today_count', 0))} articles</span>
+        <span class="badge badge-primary ml-2">{filtered_stats.get('latest_count', filtered_stats.get('today_count', 0))} articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
@@ -227,8 +238,9 @@ background: grey
     <div class="date-articles">
 """
         
-        # Latest articles (48h)
-        latest_articles = articles.get('latest', articles.get('today', []))[:10]  # Show 10 most recent
+        # Latest articles (48h) - excluding release notes since they have their own panel
+        all_latest = articles.get('latest', articles.get('today', []))
+        latest_articles = [a for a in all_latest if 'Release notes through' not in a.get('title', '')][:10]  # Filter release notes
         for i, article in enumerate(latest_articles):
             include_desc = i == 0  # Only first article gets description
             content += self.format_article_html(article, include_desc) + "\n"
@@ -248,20 +260,21 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar-alt text-secondary"></i>
         Yesterday - """ + yesterday_str + f"""
-        <span class="badge badge-secondary ml-2">{stats['yesterday_count']} articles</span>
+        <span class="badge badge-secondary ml-2">{filtered_stats['yesterday_count']} articles</span>
     </h2>
     
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#yesterday-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show {stats['yesterday_count']} articles from yesterday
+                <i class="fas fa-chevron-right"></i> Show {filtered_stats['yesterday_count']} articles from yesterday
             </a>
         </small>
         <div class="collapse" id="yesterday-list">
 """
         
-        # Yesterday's articles
-        for article in articles['yesterday'][:8]:
+        # Yesterday's articles - excluding release notes
+        yesterday_filtered = [a for a in articles['yesterday'] if 'Release notes through' not in a.get('title', '')]
+        for article in yesterday_filtered[:8]:
             content += f"""            <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
@@ -280,7 +293,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar-week text-success"></i>
         This Week - {week_str}
-        <span class="badge badge-success ml-2">{stats['week_count']} articles</span>
+        <span class="badge badge-success ml-2">{filtered_stats['week_count']} articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
@@ -296,7 +309,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#week-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all {stats['week_count']} articles from this week
+                <i class="fas fa-chevron-right"></i> Show all {filtered_stats['week_count']} articles from this week
             </a>
         </small>
         <div class="collapse" id="week-list">
@@ -314,7 +327,7 @@ background: grey
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>{stats['week_count']}</strong><br>
+                    <strong>{filtered_stats['week_count']}</strong><br>
                     <small class="text-muted">Articles This Week</small>
                 </div>
                 <div class="col-md-3">
