@@ -514,13 +514,15 @@
             updateColorScheme();
         }
         
-        // Add event listeners
-        document.getElementById('lightness').addEventListener('input', updateColorScheme);
-        document.getElementById('chroma').addEventListener('input', updateColorScheme);
-        document.getElementById('hue').addEventListener('input', updateColorScheme);
-        
-        // Initial update
-        updateColorScheme();
+        // Add event listeners and initial update when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('lightness').addEventListener('input', updateColorScheme);
+            document.getElementById('chroma').addEventListener('input', updateColorScheme);
+            document.getElementById('hue').addEventListener('input', updateColorScheme);
+            
+            // Initial update
+            updateColorScheme();
+        });
     </script>
 </body>
 </html>
