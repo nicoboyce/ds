@@ -144,6 +144,8 @@ class RSSPageGenerator:
         now = datetime.now()
         today_str = now.strftime("%d %B %Y") 
         yesterday_str = (now - timedelta(days=1)).strftime("%d %B %Y")
+        archive_date = now.strftime('%Y-%m-%d')
+        archive_url = f"https://deltastring.com/news-{archive_date}/"
         
         # Week range
         week_start = now - timedelta(days=now.weekday())
@@ -175,16 +177,16 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at {now.strftime('%H:%M')} today</small>
+            <small class="text-muted">Generated at {now.strftime('%H:%M')} today | <a href="/news-{archive_date}/">Permanent link</a></small>
         </div>
         <div class="summary-content">
 {self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')))}
         </div>
         <div class="share-buttons mt-2">
             <small>Share: 
-                <a href="mailto:?subject=Zendesk%20Latest%20Updates&body=Check%20out%20the%20latest%20Zendesk%20updates%20at%20https://deltastring.com/news/" class="text-muted mx-1"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://deltastring.com/news/" class="text-muted mx-1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="#" onclick="navigator.clipboard.writeText('Latest Zendesk Updates: https://deltastring.com/news/'); alert('Copied to clipboard!'); return false;" class="text-muted mx-1"><i class="fas fa-copy"></i> Copy</a>
+                <a href="mailto:?subject=Zendesk%20Latest%20Updates%20-%20{today_str.replace(' ', '%20')}&body=Check%20out%20today's%20Zendesk%20updates%20at%20{archive_url}" class="text-muted mx-1"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url={archive_url}" class="text-muted mx-1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#" onclick="navigator.clipboard.writeText('Zendesk Updates {today_str}: {archive_url}'); alert('Copied to clipboard!'); return false;" class="text-muted mx-1"><i class="fas fa-copy"></i> Copy</a>
             </small>
         </div>
     </div>
