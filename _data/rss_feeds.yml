@@ -42,6 +42,12 @@ feeds:
     colour: "dark"
     description: "Internal Note blog"
     
+  - name: "Zendesk Press Releases"
+    url: "https://fetchrss.com/feed/ZxbA-k_ue4VyaK2sGYtqx0eD.rss"
+    category: "zendesk"
+    colour: "primary"
+    description: "Official press releases from Zendesk"
+    
   - name: "Google News - Zendesk"
     url: "https://news.google.com/rss/search?q=zendesk&hl=en-GB&gl=GB&ceid=GB:en"
     category: "news"
