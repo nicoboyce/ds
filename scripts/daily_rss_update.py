@@ -74,22 +74,9 @@ class DailyRSSPipeline:
         """Generate Claude summaries"""
         logger.info("=== CLAUDE SUMMARIES ===")
         
-        # Check for API key
+        # Always run the summariser - it has its own fallback logic
         if not os.environ.get('CLAUDE_API_KEY'):
-            logger.error("CLAUDE_API_KEY environment variable not set")
-            logger.info("Creating fallback summaries...")
-            
-            # Create minimal summaries as fallback
-            fallback = {
-                'daily': 'Daily summary generation requires Claude API key configuration.',
-                'weekly': 'Weekly summary generation requires Claude API key configuration.',
-                'generated_at': datetime.now().isoformat()
-            }
-            
-            with open(self.data_dir / 'summaries.json', 'w') as f:
-                json.dump(fallback, f, indent=2)
-            
-            return True
+            logger.warning("CLAUDE_API_KEY not set - using intelligent fallback summaries")
         
         return self.run_command("python3 scripts/claude_summariser.py", "Generating Claude summaries")
     

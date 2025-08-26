@@ -21,10 +21,10 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 01:33 today</small>
+            <small class="text-muted">Generated at 01:35 today</small>
         </div>
         <div class="summary-content">
-<p>Daily summary generation requires Claude API key configuration.</p>
+<p><strong>New Features</strong>: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 4 more. <strong>Early Access</strong>: Zendesk QA for Advanced AI agents.</p>
         </div>
     </div>
 
@@ -218,7 +218,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p>Weekly summary generation requires Claude API key configuration.</p>
+<p><strong>New Feature</strong>: support for OAuth refresh token grant type and OAuth access and refresh token expirations. <strong>Security</strong>: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. <strong>Service Issues</strong>: 5 incidents/maintenance.</p>
         </div>
     </div>
 
