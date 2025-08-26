@@ -258,6 +258,8 @@ background: grey
 
 {self.generate_release_notes_panel(summaries)}
 
+{{% include nicos-commentary.html %}}
+
 <!-- Latest Summary (Last 48 Hours) -->
 <div class="summary-section mb-5">
     <h2 class="summary-title">
@@ -307,7 +309,7 @@ background: grey
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-calendar-week text-success"></i>
-        Week - Days 3-7
+        This Week
         <span class="badge badge-success ml-2">{filtered_stats['week_count']} articles</span>
     </h2>
     
@@ -328,10 +330,26 @@ background: grey
             </a>
         </small>
         <div class="collapse" id="week-list">
-            <div class="mt-3">
-                <small class="text-muted">Articles grouped by day - click to expand individual days</small>
-            </div>
-        </div>
+"""  
+        # Add week articles - excluding release notes
+        week_filtered = exclude_release_notes(articles.get('this_week', []))
+        for article in week_filtered[:20]:  # Show up to 20 articles
+            source_badge = ''
+            if article['source'] == 'Internal Note':
+                source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
+            elif 'Google News' not in article['source']:
+                source_badge = f'<span class="source-badge">{article["source"]}</span>'
+            
+            content += f"""            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
+                    {source_badge}
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> {self.format_time_ago(article.get('pub_date', ''))}</small>
+            </article>
+"""
+        
+        content += f"""        </div>
     </div>
 </div>
 
@@ -339,7 +357,7 @@ background: grey
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-calendar text-info"></i>
-        Month - Days 8-35
+        This Month
         <span class="badge badge-info ml-2">{filtered_stats['month_count']} articles</span>
     </h2>
     
@@ -350,10 +368,26 @@ background: grey
             </a>
         </small>
         <div class="collapse" id="month-list">
-            <div class="mt-3">
-                <small class="text-muted">Older articles from the past month</small>
-            </div>
-        </div>
+"""  
+        # Add month articles - excluding release notes
+        month_filtered = exclude_release_notes(articles.get('this_month', []))
+        for article in month_filtered[:30]:  # Show up to 30 articles
+            source_badge = ''
+            if article['source'] == 'Internal Note':
+                source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
+            elif 'Google News' not in article['source']:
+                source_badge = f'<span class="source-badge">{article["source"]}</span>'
+            
+            content += f"""            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
+                    {source_badge}
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> {self.format_time_ago(article.get('pub_date', ''))}</small>
+            </article>
+"""
+        
+        content += f"""        </div>
     </div>
 </div>
 
