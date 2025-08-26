@@ -120,18 +120,64 @@ Write for professionals who need actionable intelligence, not general tech news 
             
         except Exception as e:
             print(f"Claude API error: {e}")
-            return self.fallback_summary(len(prompt.split('ARTICLES TO ANALYSE:')[1].split('\n\nANALYSIS REQUIREMENTS:')[0].split('\n\n')))
+            return None  # Will be handled by caller
     
-    def fallback_summary(self, article_count):
-        """Fallback summary if Claude API fails"""
-        return f"""**Lead Summary**: {article_count} Zendesk ecosystem updates available requiring administrator review.
+    def fallback_summary(self, articles):
+        """Generate intelligent fallback summary from article analysis"""
+        if not articles:
+            return "No new articles available."
+        
+        # Analyze articles by source and content
+        zendesk_official = []
+        dev_updates = []
+        security_items = []
+        service_issues = []
+        announcements = []
+        
+        for article in articles:
+            title = article['title'].lower()
+            source = article['source'].lower()
+            
+            if 'announcement' in title or 'announcing' in title:
+                announcements.append(article['title'])
+            elif 'service incident' in title or 'maintenance' in title:
+                service_issues.append(article['title'])
+            elif 'security' in title or 'vulnerability' in title or 'oauth' in title:
+                security_items.append(article['title'])
+            elif 'api' in title or 'developer' in source:
+                dev_updates.append(article['title'])
+            elif 'zendesk' in source:
+                zendesk_official.append(article['title'])
+        
+        # Build intelligent summary
+        key_points = []
+        
+        if announcements:
+            key_points.append(f"**New Features**: {len(announcements)} feature announcements including {announcements[0][:60]}...")
+        if service_issues:
+            key_points.append(f"**Service Updates**: {len(service_issues)} service notifications requiring attention")
+        if security_items:
+            key_points.append(f"**Security**: {len(security_items)} security-related updates requiring review")
+        if dev_updates:
+            key_points.append(f"**Developer**: {len(dev_updates)} API and integration changes")
+        
+        if not key_points:
+            key_points.append("**Platform Updates**: General Zendesk ecosystem updates available")
+        
+        # Create summary
+        lead_summary = f"**Lead Summary**: {len(articles)} Zendesk updates available"
+        if announcements:
+            lead_summary += f" with {len(announcements)} major feature announcements"
+        if service_issues:
+            lead_summary += f" and {len(service_issues)} service notifications"
+        lead_summary += "."
+        
+        return f"""{lead_summary}
 
 **Key Developments**:
-- **Platform Updates**: Multiple feature releases and configuration changes
-- **Integration Changes**: API and workflow modifications may impact existing setups
-- **Security Updates**: Review new security and compliance features
+{chr(10).join([f"- {point}" for point in key_points[:4]])}
 
-**Strategic Insight**: Regular monitoring of official Zendesk updates essential for maintaining optimal instance performance."""
+**Strategic Insight**: {'Security and service stability updates require immediate review' if security_items or service_issues else 'Feature rollouts may impact existing workflows and require planning'}."""
     
     def generate_summaries(self):
         """Generate daily and weekly summaries"""
@@ -143,7 +189,8 @@ Write for professionals who need actionable intelligence, not general tech news 
         if articles['today']:
             print(f"Generating daily summary for {len(articles['today'])} articles...")
             daily_prompt = self.build_zendesk_prompt(articles['today'][:10], 'daily')
-            summaries['daily'] = self.call_claude_api(daily_prompt)
+            daily_summary = self.call_claude_api(daily_prompt)
+            summaries['daily'] = daily_summary if daily_summary else self.fallback_summary(articles['today'][:10])
         else:
             summaries['daily'] = "No new articles today."
         
@@ -152,7 +199,8 @@ Write for professionals who need actionable intelligence, not general tech news 
         if week_articles:
             print(f"Generating weekly summary for {len(week_articles)} articles...")
             weekly_prompt = self.build_zendesk_prompt(week_articles[:20], 'weekly')
-            summaries['weekly'] = self.call_claude_api(weekly_prompt)
+            weekly_summary = self.call_claude_api(weekly_prompt)
+            summaries['weekly'] = weekly_summary if weekly_summary else self.fallback_summary(week_articles[:20])
         else:
             summaries['weekly'] = "No articles this week."
         

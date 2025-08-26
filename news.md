@@ -15,70 +15,24 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar-day text-primary"></i>
         Today - 26 August 2025
-        <span class="badge badge-primary ml-2">88 articles</span>
+        <span class="badge badge-primary ml-2">0 articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 01:03 this morning</small>
+            <small class="text-muted">Generated at 01:10 this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Lead Summary</strong>: 26 Zendesk ecosystem updates available requiring administrator review.</p>
-            <p><strong>Key Developments</strong>:</p>
-            <p>- <strong>Platform Updates</strong>: Multiple feature releases and configuration changes</p>
-            <p>- <strong>Integration Changes</strong>: API and workflow modifications may impact existing setups</p>
-            <p>- <strong>Security Updates</strong>: Review new security and compliance features</p>
-            <p><strong>Strategic Insight</strong>: Regular monitoring of official Zendesk updates essential for maintaining optimal instance performance.</p>
+            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>
         </div>
     </div>
 
     <div class="date-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://www.youtube.com/watch?v=XBbqKLsfZ0s" class="text-dark">We're making AI do the tasks human people are good at but computers can't really do #ai #zendesk</a>
-                <span class="source-badge">Deltastring YouTube</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 208 days ago
-            </small>
-        </article>
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://www.youtube.com/watch?v=N2TxEgpggm4" class="text-dark">Beacon teaser. Zendesk configuration made better.</a>
-                <span class="source-badge">Deltastring YouTube</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 89 days ago
-            </small>
-        </article>
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/8157433800090-Introducing-the-Redirect-Rules-API" class="text-dark">Introducing the Redirect Rules API</a>
-                <span class="source-badge">Zendesk Developer Updates</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 306 days ago
-            </small>
-        </article>
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
-            </small>
-        </article>
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance" class="text-dark">[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
-            </small>
-        </article>
+        <div class="alert alert-light">
+            <i class="fas fa-info-circle text-muted"></i>
+            No new articles today. Check back later for updates.
+        </div>
     </div>
 </div>
 
@@ -87,13 +41,13 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar-alt text-secondary"></i>
         Yesterday - 25 August 2025
-        <span class="badge badge-secondary ml-2">3 articles</span>
+        <span class="badge badge-secondary ml-2">20 articles</span>
     </h2>
     
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#yesterday-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show 3 articles from yesterday
+                <i class="fas fa-chevron-right"></i> Show 20 articles from yesterday
             </a>
         </small>
         <div class="collapse" id="yesterday-list">
@@ -106,17 +60,52 @@ background: grey
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
-                    <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
-                    <span class="source-badge">Google News - Zendesk</span>
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9539350542362-Announcing-quick-answers-availability-to-all-Suite-and-Knowledge-customers" class="text-dark">Announcing quick answers availability to all Suite and Knowledge customers</a>
+                    <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> recently</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
-                    <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5neVRMZEgzQUNQMUt5NF9LMmo0d19VWlpNVFdLUHlOWlNGdWhqbnpPX2pWQjRoSi1iSWl4STRmZkxkaF85RlhlTXB6b25FMmZ1X19Sc0Vn0gFbQVVfeXFMTlJoX05lRmhTX0lkYk5GcVlidDFhNnV1dFRwVFRpOEl0Yl9vSEI0ZllxU2RPckU2MVVRdkxKQWZTNTBkUkZlbGhGY21VRGU1VzhpT3VNMlFGUlFJSQ?oc=5" class="text-dark">0-Click Zendesk Flaw Lets Hackers Hijack Accounts and View All Tickets - GBHackers News</a>
-                    <span class="source-badge">Google News - Zendesk</span>
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9618795149466-Announcing-the-move-of-Zendesk-QA-user-and-license-management-to-Zendesk-Admin-Center" class="text-dark">Announcing the move of Zendesk QA user and license management to Zendesk Admin Center</a>
+                    <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> recently</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9620124154522-Announcing-import-enhancements-for-the-Exchange-and-Gmail-connectors" class="text-dark">Announcing import enhancements for the Exchange and Gmail connectors</a>
+                    <span class="source-badge">Zendesk Announcements</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9567151199130-Announcing-macros-for-auto-assist-suggestions" class="text-dark">Announcing macros for auto assist suggestions</a>
+                    <span class="source-badge">Zendesk Announcements</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9601885707802-Announcing-the-new-external-Oauth-page-in-Admin-Center" class="text-dark">Announcing the new external Oauth page in Admin Center</a>
+                    <span class="source-badge">Zendesk Announcements</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9611518490650-Announcing-a-new-approach-to-email-authentication" class="text-dark">Announcing a new approach to email authentication</a>
+                    <span class="source-badge">Zendesk Announcements</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9533260748954-Announcing-Zendesk-QA-for-Advanced-AI-agents-EAP" class="text-dark">Announcing Zendesk QA for Advanced AI agents EAP</a>
+                    <span class="source-badge">Zendesk Announcements</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
             </article>
         </div>
     </div>
@@ -136,12 +125,11 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Lead Summary</strong>: 57 Zendesk ecosystem updates available requiring administrator review.</p>
+<p><strong>Lead Summary</strong>: 20 Zendesk updates available with 14 major feature announcements.</p>
             <p><strong>Key Developments</strong>:</p>
-            <p>- <strong>Platform Updates</strong>: Multiple feature releases and configuration changes</p>
-            <p>- <strong>Integration Changes</strong>: API and workflow modifications may impact existing setups</p>
-            <p>- <strong>Security Updates</strong>: Review new security and compliance features</p>
-            <p><strong>Strategic Insight</strong>: Regular monitoring of official Zendesk updates essential for maintaining optimal instance performance.</p>
+            <p>- <strong>New Features</strong>: 14 feature announcements including Announcing quick answers availability to all Suite and Knowl...</p>
+            <p>- <strong>Security</strong>: 1 security-related updates requiring review</p>
+            <p><strong>Strategic Insight</strong>: Security and service stability updates require immediate review.</p>
         </div>
     </div>
 

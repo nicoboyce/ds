@@ -132,13 +132,14 @@ class RSSIngestion:
             try:
                 # Handle various date formats
                 pub_date_str = article['pub_date']
-                pub_date = today  # Default fallback
+                pub_date = None  # Don't default to today - force proper parsing
                 
                 if pub_date_str:
                     # Try common RSS date formats
                     formats = [
                         '%a, %d %b %Y %H:%M:%S %Z',  # Mon, 25 Aug 2025 14:08:26 GMT
                         '%a, %d %b %Y %H:%M:%S %z',  # With timezone offset
+                        '%a, %d %b %Y %H:%M:%S',     # Without timezone
                         '%Y-%m-%dT%H:%M:%S%z',       # ISO format
                         '%Y-%m-%d %H:%M:%S',         # Simple format
                         '%d %b %Y %H:%M:%S',         # Without day name
@@ -146,16 +147,22 @@ class RSSIngestion:
                     
                     for fmt in formats:
                         try:
-                            # Remove timezone abbreviations for parsing
-                            clean_date = pub_date_str.replace(' GMT', '').replace(' UTC', '').strip()
+                            # Try parsing with different timezone handling
+                            clean_date = pub_date_str.replace(' GMT', '').replace(' UTC', '').replace(' +0000', '').strip()
                             pub_date = datetime.strptime(clean_date, fmt.replace(' %Z', '').replace(' %z', '')).date()
                             break
                         except ValueError:
                             continue
+                    
+                    # If all formats failed, try manual parsing
+                    if pub_date is None:
+                        print(f"  WARNING: Could not parse date '{pub_date_str}' for article '{article['title'][:50]}...'")
+                        pub_date = datetime(2020, 1, 1).date()  # Put unparseable dates in 'older'
                 else:
-                    pub_date = today
-            except:
-                pub_date = today
+                    pub_date = datetime(2020, 1, 1).date()  # Put undated articles in 'older'
+            except Exception as e:
+                print(f"  ERROR parsing date for '{article['title'][:50]}...': {e}")
+                pub_date = datetime(2020, 1, 1).date()
             
             # Categorise by date
             if pub_date == today:
