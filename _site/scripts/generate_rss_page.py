@@ -184,7 +184,7 @@ background: grey
 """
         
         # Latest articles (48h)
-        latest_articles = articles.get('latest', articles.get('today', []))[:5]  # Limit to 5 most recent
+        latest_articles = articles.get('latest', articles.get('today', []))[:10]  # Show 10 most recent
         for i, article in enumerate(latest_articles):
             include_desc = i == 0  # Only first article gets description
             content += self.format_article_html(article, include_desc) + "\n"
