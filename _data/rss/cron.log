@@ -92,3 +92,20 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-26 00:54:05,590 - INFO - === GIT COMMIT & PUSH ===
 2025-08-26 00:54:05,590 - INFO - Running: Adding changes to git
+2025-08-26 00:54:05,777 - INFO - Running: Committing changes
+2025-08-26 00:54:05,832 - INFO - Output: [master 6d01d7e] Daily RSS update - 26/08/2025 00:54
+ 9 files changed, 520 insertions(+), 332 deletions(-)
+ create mode 100644 _data/rss/cron.log
+2025-08-26 00:54:05,833 - INFO - Running: Pushing to GitHub
+2025-08-26 00:54:06,165 - ERROR - Command failed: Command 'git push origin master' returned non-zero exit status 128.
+2025-08-26 00:54:06,166 - ERROR - Error output: fatal: could not read Username for 'https://github.com': Device not configured
+
+2025-08-26 00:54:06,166 - ERROR - FAILED: Git Commit & Push
+2025-08-26 00:54:06,166 - WARNING - Non-critical step failed - continuing pipeline
+2025-08-26 00:54:06,166 - ERROR - Pipeline completed with failures: Git Commit & Push
+2025-08-26 00:54:06,166 - INFO - === COMPLETION STATS ===
+2025-08-26 00:54:06,166 - INFO - Total articles processed: 153
+2025-08-26 00:54:06,166 - INFO - Today's articles: 88
+2025-08-26 00:54:06,166 - INFO - This week's articles: 0
+2025-08-26 00:54:06,166 - INFO - Feeds processed: 8
+2025-08-26 00:54:06,167 - INFO - Site updated: 26/08/2025 00:54
