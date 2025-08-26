@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deltastring Color Scheme Builder</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #718096;
+            margin-bottom: 30px;
+        }
+        
+        .base-color {
+            background: #eb7824;
+            height: 60px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .color-card {
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+        }
+        
+        .color-swatch {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .color-info {
+            padding: 12px;
+            font-size: 12px;
+        }
+        
+        .color-name {
+            font-weight: bold;
+            margin-bottom: 4px;
+            color: #2d3748;
+        }
+        
+        .color-values {
+            color: #718096;
+            line-height: 1.4;
+        }
+        
+        .tints-shades-grid {
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .tint-shade-swatch {
+            height: 60px;
+            border-radius: 4px;
+            position: relative;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .tint-shade-label {
+            position: absolute;
+            bottom: 2px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 9px;
+            color: rgba(0,0,0,0.6);
+            background: rgba(255,255,255,0.8);
+            padding: 1px 3px;
+            border-radius: 2px;
+        }
+        
+        .scheme-preview {
+            display: flex;
+            height: 100px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        
+        .scheme-color {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .scheme-description {
+            background: #f7fafc;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Deltastring Color Scheme Builder</h1>
+        <p class="subtitle">Building a complete application color scheme from your brand orange #eb7824</p>
+        
+        <div class="base-color">
+            Deltastring Orange: #eb7824 → oklch(0.67 0.13 55°)
+        </div>
+        
+        <div class="section">
+            <h3>Complementary & Contrasting Colors</h3>
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-swatch" style="background: oklch(0.67 0.13 235);">
+                        Complementary
+                    </div>
+                    <div class="color-info">
+                        <div class="color-name">True Complementary</div>
+                        <div class="color-values">
+                            oklch(0.67 0.13 235°)<br>
+                            Hue: 55° + 180° = 235°<br>
+                            Same L&C, opposite hue
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-swatch" style="background: oklch(0.67 0.13 175);">
+                        Split Complement 1
+                    </div>
+                    <div class="color-info">
+                        <div class="color-name">Split Complementary</div>
+                        <div class="color-values">
+                            oklch(0.67 0.13 175°)<br>
+                            Hue: 235° - 60° = 175°<br>
+                            Cyan-green territory
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-swatch" style="background: oklch(0.67 0.13 295);">
+                        Split Complement 2
+                    </div>
+                    <div class="color-info">
+                        <div class="color-name">Split Complementary</div>
+                        <div class="color-values">
+                            oklch(0.67 0.13 295°)<br>
+                            Hue: 235° + 60° = 295°<br>
+                            Purple-magenta territory
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-swatch" style="background: oklch(0.67 0.13 85);">
+                        Analogous 1
+                    </div>
+                    <div class="color-info">
+                        <div class="color-name">Analogous Warm</div>
+                        <div class="color-values">
+                            oklch(0.67 0.13 85°)<br>
+                            Hue: 55° + 30° = 85°<br>
+                            Yellow-orange harmony
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-swatch" style="background: oklch(0.67 0.13 25);">
+                        Analogous 2
+                    </div>
+                    <div class="color-info">
+                        <div class="color-name">Analogous Cool</div>
+                        <div class="color-values">
+                            oklch(0.67 0.13 25°)<br>
+                            Hue: 55° - 30° = 25°<br>
+                            Red-orange harmony
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="color-card">
+                    <div class="color-swatch" style="background: oklch(0.33 0.13 55);">
+                        High Contrast
+                    </div>
+                    <div class="color-info">
+                        <div class="color-name">Dark Orange</div>
+                        <div class="color-values">
+                            oklch(0.33 0.13 55°)<br>
+                            Same hue & chroma<br>
+                            50% darker lightness
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Tints (Lighter) - Adding White</h3>
+            <div class="tints-shades-grid">
+                <div class="tint-shade-swatch" style="background: oklch(0.97 0.01 55);">
+                    <div class="tint-shade-label">95%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.92 0.025 55);">
+                    <div class="tint-shade-label">90%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.87 0.04 55);">
+                    <div class="tint-shade-label">80%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.82 0.06 55);">
+                    <div class="tint-shade-label">70%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.77 0.08 55);">
+                    <div class="tint-shade-label">60%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.72 0.11 55);">
+                    <div class="tint-shade-label">50%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.67 0.13 55);">
+                    <div class="tint-shade-label">Base</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.59 0.13 55);">
+                    <div class="tint-shade-label">10%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.52 0.13 55);">
+                    <div class="tint-shade-label">20%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.42 0.13 55);">
+                    <div class="tint-shade-label">30%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.32 0.13 55);">
+                    <div class="tint-shade-label">40%</div>
+                </div>
+            </div>
+            <div class="description">
+                Tints maintain the orange hue (55°) while decreasing chroma and increasing lightness for backgrounds, subtle accents, and hover states.
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Shades (Darker) - Adding Black</h3>
+            <div class="tints-shades-grid">
+                <div class="tint-shade-swatch" style="background: oklch(0.67 0.13 55);">
+                    <div class="tint-shade-label">Base</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.59 0.13 55);">
+                    <div class="tint-shade-label">10%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.52 0.13 55);">
+                    <div class="tint-shade-label">20%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.45 0.13 55);">
+                    <div class="tint-shade-label">30%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.38 0.13 55);">
+                    <div class="tint-shade-label">40%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.31 0.13 55);">
+                    <div class="tint-shade-label">50%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.24 0.10 55);">
+                    <div class="tint-shade-label">60%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.20 0.08 55);">
+                    <div class="tint-shade-label">70%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.16 0.06 55);">
+                    <div class="tint-shade-label">80%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.12 0.04 55);">
+                    <div class="tint-shade-label">90%</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.08 0.02 55);">
+                    <div class="tint-shade-label">95%</div>
+                </div>
+            </div>
+            <div class="description">
+                Shades maintain the orange hue while decreasing both lightness and chroma for text, borders, and dark mode variants.
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Application Color Schemes</h3>
+            
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin-bottom: 10px;">Professional Warm Palette</h4>
+                <div class="scheme-preview">
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 55);">Primary</div>
+                    <div class="scheme-color" style="background: oklch(0.45 0.13 55);">Primary Dark</div>
+                    <div class="scheme-color" style="background: oklch(0.92 0.025 55);">Background</div>
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 25);">Accent Red</div>
+                    <div class="scheme-color" style="background: oklch(0.25 0.02 55);">Text Dark</div>
+                </div>
+                <div class="scheme-description">
+                    Classic warm scheme using orange shades with red-orange accent. Perfect for CTAs, headers, and professional warmth.
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin-bottom: 10px;">High Contrast Tech Palette</h4>
+                <div class="scheme-preview">
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 55);">Primary Orange</div>
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 235);">Complementary Blue</div>
+                    <div class="scheme-color" style="background: oklch(0.97 0.01 55);">Background</div>
+                    <div class="scheme-color" style="background: oklch(0.15 0.02 235);">Text Navy</div>
+                    <div class="scheme-color" style="background: oklch(0.85 0.02 55);">Surface</div>
+                </div>
+                <div class="scheme-description">
+                    Orange + true complementary blue for maximum contrast and trust. Ideal for tech dashboards and data visualization.
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin-bottom: 10px;">Sophisticated Split-Complement</h4>
+                <div class="scheme-preview">
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 55);">Primary Orange</div>
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 175);">Teal Accent</div>
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 295);">Purple Accent</div>
+                    <div class="scheme-color" style="background: oklch(0.95 0.01 55);">Light Background</div>
+                    <div class="scheme-color" style="background: oklch(0.35 0.08 55);">Dark Text</div>
+                </div>
+                <div class="scheme-description">
+                    Split-complementary with teal and purple accents. Sophisticated and modern for premium brand positioning.
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin-bottom: 10px;">Analogous Harmony</h4>
+                <div class="scheme-preview">
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 55);">Orange Base</div>
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 85);">Yellow-Orange</div>
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 25);">Red-Orange</div>
+                    <div class="scheme-color" style="background: oklch(0.90 0.03 55);">Warm Background</div>
+                    <div class="scheme-color" style="background: oklch(0.25 0.08 55);">Warm Dark</div>
+                </div>
+                <div class="scheme-description">
+                    Harmonious warm palette staying within the orange family. Great for friendly, approachable brand experiences.
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin-bottom: 10px;">Minimal Monochromatic</h4>
+                <div class="scheme-preview">
+                    <div class="scheme-color" style="background: oklch(0.67 0.13 55);">Primary</div>
+                    <div class="scheme-color" style="background: oklch(0.45 0.13 55);">Secondary</div>
+                    <div class="scheme-color" style="background: oklch(0.87 0.04 55);">Light</div>
+                    <div class="scheme-color" style="background: oklch(0.97 0.01 55);">Background</div>
+                    <div class="scheme-color" style="background: oklch(0.20 0.06 55);">Text</div>
+                </div>
+                <div class="scheme-description">
+                    Clean monochromatic approach using only orange tints and shades. Minimal and focused for content-heavy applications.
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h3>Neutral Grays (Matching Orange Warmth)</h3>
+            <div class="tints-shades-grid">
+                <div class="tint-shade-swatch" style="background: oklch(0.98 0.005 55);">
+                    <div class="tint-shade-label">50</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.95 0.01 55);">
+                    <div class="tint-shade-label">100</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.90 0.015 55);">
+                    <div class="tint-shade-label">200</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.82 0.02 55);">
+                    <div class="tint-shade-label">300</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.70 0.025 55);">
+                    <div class="tint-shade-label">400</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.58 0.03 55);">
+                    <div class="tint-shade-label">500</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.46 0.025 55);">
+                    <div class="tint-shade-label">600</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.35 0.02 55);">
+                    <div class="tint-shade-label">700</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.25 0.015 55);">
+                    <div class="tint-shade-label">800</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.15 0.01 55);">
+                    <div class="tint-shade-label">900</div>
+                </div>
+                <div class="tint-shade-swatch" style="background: oklch(0.08 0.005 55);">
+                    <div class="tint-shade-label">950</div>
+                </div>
+            </div>
+            <div class="description">
+                Warm grays that harmonize with your orange by maintaining the 55° hue at very low chroma. Perfect for text, borders, and UI elements.
+            </div>
+        </div>
+        
+        <div style="background: #f7fafc; padding: 20px; border-radius: 8px; margin-top: 30px;">
+            <h4 style="margin-top: 0;">Usage Recommendations:</h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <strong>Primary Actions:</strong> Base orange for buttons, links, CTAs<br>
+                    <strong>Hover States:</strong> 20% darker shade for interactions<br>
+                    <strong>Backgrounds:</strong> 90-95% tints for subtle sections<br>
+                    <strong>Text:</strong> 80-90% shades or warm grays 800-900
+                </div>
+                <div>
+                    <strong>Success:</strong> Split-complement teal (175°)<br>
+                    <strong>Warning:</strong> Analogous yellow-orange (85°)<br>
+                    <strong>Error:</strong> Analogous red-orange (25°)<br>
+                    <strong>Info:</strong> True complement blue (235°)
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
