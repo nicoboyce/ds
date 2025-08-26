@@ -28,15 +28,18 @@ class ClaudeSummariser:
             print("ERROR: No categorised articles found. Run RSS ingestion first.")
             sys.exit(1)
     
-    def build_zendesk_prompt(self, articles, timeframe='daily'):
+    def build_zendesk_prompt(self, articles, timeframe='latest'):
         """Build Claude prompt optimised for Zendesk administrators"""
         
-        if timeframe == 'daily':
-            context = "today's Zendesk ecosystem updates"
+        if timeframe == 'latest':
+            context = "the latest Zendesk ecosystem updates (last 48 hours)"
             focus = "immediate implementation impacts and action items"
+        elif timeframe == 'weekly':
+            context = "this week's Zendesk ecosystem trends (2-7 days ago)"
+            focus = "recent updates and planning considerations"
         else:
-            context = "this week's Zendesk ecosystem trends"
-            focus = "strategic planning considerations and longer-term trends"
+            context = "this month's Zendesk ecosystem changes (7-30 days ago)"
+            focus = "strategic trends and longer-term developments"
         
         prompt = f"""You are a Zendesk expert providing {timeframe} briefing to administrators managing Zendesk instances. Your audience needs specific, actionable insights - not generic summaries.
 
@@ -190,20 +193,21 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
         
         summaries = {}
         
-        # Daily summary (today's articles)
-        if articles['today']:
-            print(f"Generating daily summary for {len(articles['today'])} articles...")
+        # Latest summary (last 48 hours)
+        latest_articles = articles.get('latest', articles.get('current', []))  # Fallback to 'current' for compatibility
+        if latest_articles:
+            print(f"Generating latest summary for {len(latest_articles)} articles...")
             if self.api_key:
-                daily_prompt = self.build_zendesk_prompt(articles['today'][:10], 'daily')
-                daily_summary = self.call_claude_api(daily_prompt)
-                summaries['daily'] = daily_summary if daily_summary else self.fallback_summary(articles['today'][:10])
+                latest_prompt = self.build_zendesk_prompt(latest_articles[:10], 'latest')
+                latest_summary = self.call_claude_api(latest_prompt)
+                summaries['latest'] = latest_summary if latest_summary else self.fallback_summary(latest_articles[:10])
             else:
-                summaries['daily'] = self.fallback_summary(articles['today'][:10])
+                summaries['latest'] = self.fallback_summary(latest_articles[:10])
         else:
-            summaries['daily'] = "No new articles today."
+            summaries['latest'] = "No new articles in the last 48 hours."
         
-        # Weekly summary (this week's articles)
-        week_articles = articles['today'] + articles['yesterday'] + articles['this_week']
+        # Weekly summary (2-7 days ago, excluding current)
+        week_articles = articles.get('this_week', [])
         if week_articles:
             print(f"Generating weekly summary for {len(week_articles)} articles...")
             if self.api_key:
@@ -214,6 +218,19 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
                 summaries['weekly'] = self.fallback_summary(week_articles[:20])
         else:
             summaries['weekly'] = "No articles this week."
+        
+        # Monthly summary (7-30 days ago, excluding current and week)
+        month_articles = articles.get('this_month', [])
+        if month_articles:
+            print(f"Generating monthly summary for {len(month_articles)} articles...")
+            if self.api_key:
+                monthly_prompt = self.build_zendesk_prompt(month_articles[:20], 'monthly')
+                monthly_summary = self.call_claude_api(monthly_prompt)
+                summaries['monthly'] = monthly_summary if monthly_summary else self.fallback_summary(month_articles[:20])
+            else:
+                summaries['monthly'] = self.fallback_summary(month_articles[:20])
+        else:
+            summaries['monthly'] = "No articles in the past month."
         
         # Save summaries
         summaries['generated_at'] = datetime.now().isoformat()
@@ -232,6 +249,7 @@ if __name__ == '__main__':
     summariser = ClaudeSummariser()
     summaries = summariser.generate_summaries()
     
-    print("\nDaily Summary Preview:")
+    print("\nLatest Summary Preview:")
     print("=" * 50)
-    print(summaries['daily'][:200] + "..." if len(summaries['daily']) > 200 else summaries['daily'])
+    latest = summaries.get('latest', 'No latest summary')
+    print(latest[:200] + "..." if len(latest) > 200 else latest)

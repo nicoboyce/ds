@@ -112,19 +112,21 @@ class RSSIngestion:
         return deduplicated
     
     def categorise_by_date(self, articles):
-        """Categorise articles by date (today, yesterday, this week, this month)"""
+        """Categorise articles by date (current 48h, rolling week, rolling month)"""
         now = datetime.now()
         today = now.date()
-        yesterday = today - timedelta(days=1)
-        week_start = today - timedelta(days=today.weekday())
-        month_start = today.replace(day=1)
+        two_days_ago = today - timedelta(days=2)
+        week_ago = today - timedelta(days=7)
+        month_ago = today - timedelta(days=30)
         
         categorised = {
+            'latest': [],       # Last 48 hours
+            'this_week': [],    # 2-7 days ago (excluding current)
+            'this_month': [],   # 7-30 days ago (excluding current and week)
+            'older': [],        # More than 30 days
+            # Keep legacy keys for compatibility
             'today': [],
-            'yesterday': [], 
-            'this_week': [],
-            'this_month': [],
-            'older': []
+            'yesterday': []
         }
         
         for article in articles:
@@ -164,14 +166,17 @@ class RSSIngestion:
                 print(f"  ERROR parsing date for '{article['title'][:50]}...': {e}")
                 pub_date = datetime(2020, 1, 1).date()
             
-            # Categorise by date
-            if pub_date == today:
-                categorised['today'].append(article)
-            elif pub_date == yesterday:
-                categorised['yesterday'].append(article)
-            elif pub_date >= week_start:
+            # Categorise by date - exclusive periods
+            if pub_date >= two_days_ago:
+                categorised['latest'].append(article)
+                # Also add to legacy categories for backward compatibility
+                if pub_date == today:
+                    categorised['today'].append(article)
+                elif pub_date == today - timedelta(days=1):
+                    categorised['yesterday'].append(article)
+            elif pub_date >= week_ago:
                 categorised['this_week'].append(article)
-            elif pub_date >= month_start:
+            elif pub_date >= month_ago:
                 categorised['this_month'].append(article)
             else:
                 categorised['older'].append(article)
@@ -191,6 +196,7 @@ class RSSIngestion:
         # Save summary stats
         stats = {
             'total_articles': len(articles),
+            'latest_count': len(categorised['latest']),
             'today_count': len(categorised['today']),
             'yesterday_count': len(categorised['yesterday']),
             'week_count': len(categorised['this_week']),
@@ -228,9 +234,9 @@ class RSSIngestion:
         
         print(f"\nIngestion complete:")
         print(f"  Total articles: {stats['total_articles']}")
-        print(f"  Today: {stats['today_count']}")
-        print(f"  Yesterday: {stats['yesterday_count']}")
-        print(f"  This week: {stats['week_count']}")
+        print(f"  Latest (48h): {stats['latest_count']}")
+        print(f"  This week (2-7d): {stats['week_count']}")
+        print(f"  This month (7-30d): {stats['month_count']}")
         print(f"  Data saved to: {self.data_dir}")
         
         return stats
@@ -247,6 +253,6 @@ if __name__ == '__main__':
     if stats['total_articles'] == 0:
         print("INFO: No new articles found in this run.")
     else:
-        print(f"SUCCESS: Found {stats['total_articles']} articles")
+        print(f"SUCCESS: Found {stats['total_articles']} articles (Latest: {stats.get('latest_count', 0)}, Week: {stats.get('week_count', 0)}, Month: {stats.get('month_count', 0)})")
     
     # Always exit successfully - empty feeds are normal
