@@ -25,15 +25,16 @@
 
 /* Claude AI Summary Styling */
 .claude-summary {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-left: 4px solid #17a2b8;
+    background: linear-gradient(135deg, #fff5e6 0%, #ffe8cc 100%);
+    border-left: 4px solid #fed136;
     border-radius: 6px;
     padding: 1.25rem;
     margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(254, 209, 54, 0.15);
 }
 
 .summary-header h4 {
-    color: #17a2b8;
+    color: #d4930d;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
@@ -174,4 +175,20 @@
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* Share buttons styling */
+.share-buttons {
+    padding-top: 0.5rem;
+    border-top: 1px solid #fed136;
+    opacity: 0.9;
+}
+
+.share-buttons a {
+    transition: color 0.2s ease;
+}
+
+.share-buttons a:hover {
+    color: #fed136 !important;
+    text-decoration: none;
 }
