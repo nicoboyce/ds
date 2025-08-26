@@ -21,7 +21,7 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 01:12 this morning</small>
+            <small class="text-muted">Generated at 01:16 this morning</small>
         </div>
         <div class="summary-content">
             <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>
@@ -125,11 +125,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Critical Updates</strong>: 20 Zendesk updates available including 14 new feature rollouts. Key items require immediate administrator review.</p>
-            <p><strong>Priority Actions</strong>:</p>
-            <p>• <strong>HIGH</strong>: Assess security updates and apply necessary patches - This week</p>
-            <p>• <strong>MEDIUM</strong>: Evaluate new features for workflow impact - Planning phase</p>
-            <p><strong>Bottom Line</strong>: Multiple feature announcements require workflow assessment.</p>
+<p><strong>New Features</strong>: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 10 more. <strong>Early Access</strong>: Zendesk QA for Advanced AI agents. <strong>Security</strong>: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.</p>
         </div>
     </div>
 

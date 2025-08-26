@@ -17,8 +17,7 @@ class ClaudeSummariser:
         self.api_key = api_key or os.environ.get('CLAUDE_API_KEY')
         
         if not self.api_key:
-            print("ERROR: CLAUDE_API_KEY environment variable not set")
-            sys.exit(1)
+            print("WARNING: CLAUDE_API_KEY environment variable not set - using fallback summaries only")
     
     def load_articles(self):
         """Load categorised articles from ingestion"""
@@ -116,79 +115,74 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
             return None  # Will be handled by caller
     
     def fallback_summary(self, articles):
-        """Generate intelligent fallback summary from article analysis"""
+        """Generate intelligent fallback summary with specific feature names"""
         if not articles:
             return "No new articles available."
         
-        # Analyze articles by source and content
-        zendesk_official = []
-        dev_updates = []
+        # Extract specific features and issues
+        features = []
+        eaps = []
+        api_changes = []
         security_items = []
         service_issues = []
-        announcements = []
         
         for article in articles:
-            title = article['title'].lower()
-            source = article['source'].lower()
+            title = article['title']
+            title_lower = title.lower()
             
-            if 'announcement' in title or 'announcing' in title:
-                announcements.append(article['title'])
-            elif 'service incident' in title or 'maintenance' in title:
-                service_issues.append(article['title'])
-            elif 'security' in title or 'vulnerability' in title or 'oauth' in title:
-                security_items.append(article['title'])
-            elif 'api' in title or 'developer' in source:
-                dev_updates.append(article['title'])
-            elif 'zendesk' in source:
-                zendesk_official.append(article['title'])
+            if 'announcing' in title_lower:
+                if 'eap' in title_lower or 'early access' in title_lower:
+                    # Extract EAP name
+                    eap_name = title.replace('Announcing ', '').replace(' EAP', '').replace(' - Zendesk Announcements', '')
+                    eaps.append(eap_name)
+                else:
+                    # Extract feature name
+                    feature_name = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
+                    features.append(feature_name)
+            elif 'service incident' in title_lower or 'maintenance' in title_lower:
+                service_issues.append(title)
+            elif 'oauth' in title_lower or 'api' in title_lower or 'deprecation' in title_lower:
+                api_changes.append(title)
+            elif 'security' in title_lower or 'authentication' in title_lower or 'vulnerability' in title_lower:
+                security_items.append(title)
         
-        # Build intelligent summary
-        key_points = []
+        # Build specific summary
+        summary_parts = []
         
-        if announcements:
-            key_points.append(f"**New Features**: {len(announcements)} feature announcements including {announcements[0][:60]}...")
-        if service_issues:
-            key_points.append(f"**Service Updates**: {len(service_issues)} service notifications requiring attention")
+        if features:
+            # Show specific feature names, not just count
+            feature_list = features[:3]  # Show first 3
+            if len(features) == 1:
+                summary_parts.append(f"**New Feature**: {feature_list[0]}")
+            elif len(features) <= 3:
+                summary_parts.append(f"**New Features**: {', '.join(feature_list[:-1])} and {feature_list[-1]}")
+            else:
+                summary_parts.append(f"**New Features**: {', '.join(feature_list)}, plus {len(features)-3} more")
+        
+        if eaps:
+            summary_parts.append(f"**Early Access**: {', '.join(eaps)}")
+        
+        if api_changes:
+            api_list = [title.replace(' - Zendesk Developer Updates', '') for title in api_changes[:2]]
+            summary_parts.append(f"**API Updates**: {', '.join(api_list)}")
+        
         if security_items:
-            key_points.append(f"**Security**: {len(security_items)} security-related updates requiring review")
-        if dev_updates:
-            key_points.append(f"**Developer**: {len(dev_updates)} API and integration changes")
+            security_list = [title.replace(' - Zendesk Announcements', '') for title in security_items[:2]]
+            summary_parts.append(f"**Security**: {', '.join(security_list)}")
         
-        if not key_points:
-            key_points.append("**Platform Updates**: General Zendesk ecosystem updates available")
-        
-        # Create focused summary in new format
-        critical_updates = f"{len(articles)} Zendesk updates available"
-        if announcements:
-            critical_updates += f" including {len(announcements)} new feature rollouts"
         if service_issues:
-            critical_updates += f" and {len(service_issues)} service notifications"
-        critical_updates += ". Key items require immediate administrator review."
+            summary_parts.append(f"**Service Issues**: {len(service_issues)} incidents/maintenance")
         
-        # Build priority actions
-        actions = []
-        if service_issues:
-            actions.append("**HIGH**: Review service incidents and maintenance windows - Immediate")
-        if security_items:
-            actions.append("**HIGH**: Assess security updates and apply necessary patches - This week")
-        if announcements:
-            actions.append("**MEDIUM**: Evaluate new features for workflow impact - Planning phase")
-        if dev_updates:
-            actions.append("**MEDIUM**: Review API changes for integration compatibility - Testing phase")
+        if not summary_parts:
+            return "No significant Zendesk platform updates."
         
-        if not actions:
-            actions.append("**LOW**: Monitor general platform updates - Ongoing")
-        
-        bottom_line = "Multiple feature announcements require workflow assessment" if announcements else \
-                     "Service stability issues need immediate attention" if service_issues else \
-                     "Routine platform updates available for review"
-        
-        return f"""**Critical Updates**: {critical_updates}
-
-**Priority Actions**:
-{chr(10).join([f"• {action}" for action in actions[:3]])}
-
-**Bottom Line**: {bottom_line}."""
+        # Create concise summary
+        if len(summary_parts) == 1:
+            return summary_parts[0]
+        elif len(summary_parts) == 2:
+            return f"{summary_parts[0]}. {summary_parts[1]}."
+        else:
+            return f"{summary_parts[0]}. {summary_parts[1]}. {summary_parts[2]}."
     
     def generate_summaries(self):
         """Generate daily and weekly summaries"""
@@ -199,9 +193,12 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
         # Daily summary (today's articles)
         if articles['today']:
             print(f"Generating daily summary for {len(articles['today'])} articles...")
-            daily_prompt = self.build_zendesk_prompt(articles['today'][:10], 'daily')
-            daily_summary = self.call_claude_api(daily_prompt)
-            summaries['daily'] = daily_summary if daily_summary else self.fallback_summary(articles['today'][:10])
+            if self.api_key:
+                daily_prompt = self.build_zendesk_prompt(articles['today'][:10], 'daily')
+                daily_summary = self.call_claude_api(daily_prompt)
+                summaries['daily'] = daily_summary if daily_summary else self.fallback_summary(articles['today'][:10])
+            else:
+                summaries['daily'] = self.fallback_summary(articles['today'][:10])
         else:
             summaries['daily'] = "No new articles today."
         
@@ -209,9 +206,12 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
         week_articles = articles['today'] + articles['yesterday'] + articles['this_week']
         if week_articles:
             print(f"Generating weekly summary for {len(week_articles)} articles...")
-            weekly_prompt = self.build_zendesk_prompt(week_articles[:20], 'weekly')
-            weekly_summary = self.call_claude_api(weekly_prompt)
-            summaries['weekly'] = weekly_summary if weekly_summary else self.fallback_summary(week_articles[:20])
+            if self.api_key:
+                weekly_prompt = self.build_zendesk_prompt(week_articles[:20], 'weekly')
+                weekly_summary = self.call_claude_api(weekly_prompt)
+                summaries['weekly'] = weekly_summary if weekly_summary else self.fallback_summary(week_articles[:20])
+            else:
+                summaries['weekly'] = self.fallback_summary(week_articles[:20])
         else:
             summaries['weekly'] = "No articles this week."
         
