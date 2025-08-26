@@ -79,6 +79,20 @@ class RSSIngestion:
                     description = re.sub(r'<[^>]+>', '', description).strip()
                     
                     
+                    # Extract real URL from Google News links
+                    if 'Google News' in feed_config['name'] and 'news.google.com/rss/articles/' in link:
+                        try:
+                            import base64
+                            import urllib.parse
+                            # Extract the encoded part after 'articles/'
+                            encoded_part = link.split('articles/')[-1].split('?')[0]
+                            # Try to decode - Google News uses a proprietary encoding
+                            # For now, keep the Google News link but add a flag
+                            original_link = link
+                            # We'll need to fetch the redirect URL later
+                        except:
+                            pass
+                    
                     article = {
                         'id': self.generate_article_id(title_elem.text.strip(), pub_date),
                         'title': title_elem.text.strip(),
@@ -185,11 +199,35 @@ class RSSIngestion:
     
     def save_data(self, articles, categorised):
         """Save articles and categorised data"""
-        # Save raw articles
+        # Sort articles by publication date (newest first) before saving
+        from datetime import datetime
+        def parse_pub_date(article):
+            try:
+                pub_date_str = article.get('pub_date', '')
+                if pub_date_str:
+                    # Remove timezone info for parsing
+                    clean = pub_date_str.replace(' GMT', '').replace(' UTC', '').replace(' +0000', '').strip()
+                    # Try common format
+                    try:
+                        return datetime.strptime(clean, '%a, %d %b %Y %H:%M:%S')
+                    except:
+                        return datetime(2020, 1, 1)
+                return datetime(2020, 1, 1)
+            except:
+                return datetime(2020, 1, 1)
+        
+        articles.sort(key=parse_pub_date, reverse=True)
+        
+        # Save raw articles (now sorted)
         with open(self.data_dir / 'articles.json', 'w') as f:
             json.dump(articles, f, indent=2, ensure_ascii=False)
         
-        # Save categorised articles
+        # Sort each category by publication date
+        for category in categorised:
+            if isinstance(categorised[category], list):
+                categorised[category].sort(key=parse_pub_date, reverse=True)
+        
+        # Save categorised articles (now sorted)
         with open(self.data_dir / 'categorised.json', 'w') as f:
             json.dump(categorised, f, indent=2, ensure_ascii=False)
         

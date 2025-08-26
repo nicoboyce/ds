@@ -109,3 +109,92 @@ News page updated: news.md
 2025-08-26 00:54:06,166 - INFO - This week's articles: 0
 2025-08-26 00:54:06,166 - INFO - Feeds processed: 8
 2025-08-26 00:54:06,167 - INFO - Site updated: 26/08/2025 00:54
+2025-08-26 09:30:00,211 - INFO - Working in: /Users/nico/ds/ds
+2025-08-26 09:30:00,212 - INFO - Starting daily RSS automation pipeline
+2025-08-26 09:30:00,212 - INFO - Timestamp: 2025-08-26T09:30:00.212159
+2025-08-26 09:30:00,212 - INFO - 
+--- Starting: Git Pull ---
+2025-08-26 09:30:00,212 - INFO - === GIT PULL ===
+2025-08-26 09:30:00,212 - INFO - Running: Pulling latest changes
+2025-08-26 09:30:00,889 - INFO - Output: Already up to date.
+2025-08-26 09:30:00,889 - INFO - SUCCESS: Git Pull
+2025-08-26 09:30:00,889 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-26 09:30:00,889 - INFO - === RSS INGESTION ===
+2025-08-26 09:30:00,889 - INFO - Running: Ingesting RSS feeds
+2025-08-26 09:30:04,798 - INFO - Output: Starting RSS ingestion...
+Processing 8 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 153
+  Latest (48h): 21
+  This week (2-7d): 10
+  This month (7-30d): 39
+  Data saved to: _data/rss
+SUCCESS: Found 153 articles (Latest: 21, Week: 10, Month: 39)
+2025-08-26 09:30:04,798 - INFO - SUCCESS: RSS Ingestion
+2025-08-26 09:30:04,798 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-26 09:30:04,798 - INFO - === CLAUDE SUMMARIES ===
+2025-08-26 09:30:04,798 - WARNING - CLAUDE_API_KEY not set - using intelligent fallback summaries
+2025-08-26 09:30:04,798 - INFO - Running: Generating Claude summaries
+2025-08-26 09:30:04,966 - INFO - Output: WARNING: CLAUDE_API_KEY environment variable not set - using fallback summaries only
+Generating latest summary for 21 articles...
+Generating weekly summary for 10 articles...
+Generating monthly summary for 39 articles...
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**New Features**: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and ...
+2025-08-26 09:30:04,966 - INFO - SUCCESS: Claude Summaries
+2025-08-26 09:30:04,966 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-26 09:30:04,966 - INFO - === GENERATE RSS PAGE ===
+2025-08-26 09:30:04,966 - INFO - Running: Generating RSS feeds page
+2025-08-26 09:30:05,033 - INFO - Output: Generating RSS feeds page...
+News page updated: news.md
+  Today: 1 articles
+  This week: 10 articles
+  This month: 39 articles
+2025-08-26 09:30:05,034 - INFO - SUCCESS: Generate RSS Page
+2025-08-26 09:30:05,034 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-26 09:30:05,034 - INFO - === JEKYLL BUILD ===
+2025-08-26 09:30:05,034 - INFO - Running: Building Jekyll site
+2025-08-26 09:30:06,076 - INFO - Output: Configuration file: /Users/nico/ds/ds/_config.yml
+            Source: /Users/nico/ds/ds
+       Destination: /Users/nico/ds/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.441 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-26 09:30:06,076 - INFO - SUCCESS: Jekyll Build
+2025-08-26 09:30:06,076 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-26 09:30:06,076 - INFO - === GIT COMMIT & PUSH ===
+2025-08-26 09:30:06,076 - INFO - Running: Adding changes to git
