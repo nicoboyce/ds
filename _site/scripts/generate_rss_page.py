@@ -66,14 +66,32 @@ class RSSPageGenerator:
     def format_article_html(self, article, include_description=False):
         """Format article as HTML"""
         time_ago = self.format_time_ago(article.get('pub_date', ''))
+        source = article.get('source', '')
+        link = article.get('link', '#')
+        
+        # Extract direct URL from Google News redirects
+        if 'Google News' in source and 'news.google.com/rss/articles/' in link:
+            # Google News URLs are redirects, but we can't easily extract the real URL
+            # Just use the Google redirect for now
+            pass
+        
+        # Format source badge based on source type
+        source_badge = ''
+        if source == 'Internal Note':
+            # Make Internal Note badge clickable to the website
+            source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
+        elif 'Google News' not in source:
+            # Show badge for all sources except Google News
+            source_badge = f'<span class="source-badge">{source}</span>'
+        # Else: Google News articles don't get a badge
         
         if include_description and article.get('description'):
             return f"""        <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
-                        <span class="source-badge">{article['source']}</span>
+                        <a href="{link}" class="text-dark">{article['title']}</a>
+                        {source_badge}
                     </h5>
                     <p class="item-summary text-muted">
                         {article['description']}
@@ -87,15 +105,15 @@ class RSSPageGenerator:
         else:
             return f"""        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
-                <span class="source-badge">{article['source']}</span>
+                <a href="{link}" class="text-dark">{article['title']}</a>
+                {source_badge}
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> {time_ago}
             </small>
         </article>"""
     
-    def format_claude_summary(self, summary_text):
+    def format_claude_summary(self, summary_text, articles=None):
         """Format Claude summary for HTML"""
         if not summary_text or summary_text == "No new articles today.":
             return """            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>"""
@@ -105,6 +123,25 @@ class RSSPageGenerator:
         
         # Convert **bold** to <strong>
         html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html)
+        
+        # Check if this is a security alert and make it clickable
+        if articles and '**Security**:' in summary_text:
+            # Find the security article
+            for article in articles:
+                title = article.get('title', '')
+                if ('security' in title.lower() or 'vulnerability' in title.lower() or 
+                    '0-click' in title.lower() or 'flaw' in title.lower()):
+                    # Extract the security part and make it a link
+                    security_match = re.search(r'<strong>Security</strong>: (.*?)(?:\s*-\s*CyberSecurityNews|\s*-\s*GBHackers.*?)?$', html)
+                    if security_match:
+                        security_text = security_match.group(1).strip()
+                        link = self.get_direct_url(article)
+                        # Replace the security text with a linked version
+                        html = html.replace(
+                            f'<strong>Security</strong>: {security_text}',
+                            f'<strong>Security</strong>: <a href="{link}" target="_blank" class="alert-link">{security_text}</a>'
+                        )
+                    break
         
         # Convert bullet points to HTML list
         lines = html.split('\n')
@@ -170,6 +207,23 @@ class RSSPageGenerator:
 </div>
 """
     
+    def get_direct_url(self, article):
+        """Try to get direct URL for security articles"""
+        title = article.get('title', '')
+        source = article.get('source', '')
+        link = article.get('link', '')
+        
+        # For security articles from Google News, try to use direct site
+        if 'security' in title.lower() or 'vulnerability' in title.lower() or '0-click' in title.lower():
+            if 'CyberSecurityNews' in title:
+                # We can't easily extract the real URL, but we know it's from cybersecuritynews.com
+                # For now, just return the Google redirect
+                return link
+            elif 'GBHackers' in title:
+                return link
+        
+        return link
+    
     def generate_page_content(self, articles, summaries, stats):
         """Generate the complete RSS feeds page content"""
         now = datetime.now()
@@ -224,7 +278,7 @@ background: grey
             <small class="text-muted">Generated at {now.strftime('%H:%M')} today | <a href="/news-{archive_date}/">Permanent link</a></small>
         </div>
         <div class="summary-content">
-{self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')))}
+{self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')), articles.get('latest', []))}
         </div>
         <div class="share-buttons mt-2">
             <small>Share: 

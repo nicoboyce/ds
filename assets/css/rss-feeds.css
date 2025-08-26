@@ -75,6 +75,16 @@
     font-weight: normal;
 }
 
+a.source-badge {
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+a.source-badge:hover {
+    background: #5a5e62;
+    color: white;
+}
+
 .feed-title i {
     margin-right: 0.5rem;
 }
