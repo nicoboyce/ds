@@ -178,6 +178,13 @@ background: grey
         <div class="summary-content">
 {self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')))}
         </div>
+        <div class="share-buttons mt-2">
+            <small>Share: 
+                <a href="mailto:?subject=Zendesk%20Latest%20Updates&body=Check%20out%20the%20latest%20Zendesk%20updates%20at%20https://deltastring.com/news/" class="text-muted mx-1"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://deltastring.com/news/" class="text-muted mx-1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#" onclick="navigator.clipboard.writeText('Latest Zendesk Updates: https://deltastring.com/news/'); alert('Copied to clipboard!'); return false;" class="text-muted mx-1"><i class="fas fa-copy"></i> Copy</a>
+            </small>
+        </div>
     </div>
 
     <div class="date-articles">
@@ -292,12 +299,44 @@ background: grey
         
         return content
     
+    def create_archive(self, articles, summaries, stats):
+        """Create a daily archive of the news page"""
+        now = datetime.now()
+        archive_date = now.strftime('%Y-%m-%d')
+        archive_file = Path(f'news-{archive_date}.md')
+        
+        # Generate archive content (same as regular but with archive notice)
+        content = self.generate_page_content(articles, summaries, stats)
+        
+        # Add archive header
+        archive_header = f"""---
+layout: page
+title: Industry RSS Feeds - {now.strftime('%d %B %Y')} Archive
+background: grey
+---
+
+<div class="alert alert-warning mb-4">
+    <i class="fas fa-archive"></i> This is an archived version from {now.strftime('%d %B %Y')}. 
+    <a href="/news/">View latest updates</a>
+</div>
+
+"""
+        
+        # Write archive file
+        with open(archive_file, 'w') as f:
+            f.write(archive_header + content)
+        
+        print(f"Archive created: {archive_file.name}")
+    
     def update_page(self):
         """Update the RSS feeds page with new content"""
         articles, summaries, stats = self.load_data()
         
         print("Generating RSS feeds page...")
         content = self.generate_page_content(articles, summaries, stats)
+        
+        # Create daily archive
+        self.create_archive(articles, summaries, stats)
         
         # Write to file
         with open(self.page_path, 'w', encoding='utf-8') as f:
