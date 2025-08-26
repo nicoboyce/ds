@@ -15,13 +15,13 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">20 articles</span>
+        <span class="badge badge-primary ml-2">21 articles</span>
     </h2>
     
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 01:35 today</small>
+            <small class="text-muted">Generated at 09:19 today</small>
         </div>
         <div class="summary-content">
 <p><strong>New Features</strong>: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 4 more. <strong>Early Access</strong>: Zendesk QA for Advanced AI agents.</p>
@@ -33,11 +33,11 @@ background: grey
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNpdW1mY3FOMDJnRF9NSVJVNU1yaUNpQklnM0tXcmROdXF1Y1BrR0tkcHVrN0RwWjR2eXFwOXRKQVNLWElHQ1pQWHlKMnpma0xjYTU1OTY2ZC15LUlGVmNqZ056cVE0X0s1aHhEQkZwRDJwS0NkM09mRTE5eFp2d210WUpVQnlpVGhIZzVNTmdrNnBpNDVUaHN6SzRIZUE?oc=5" class="text-dark">Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value - San Francisco Chronicle</a>
-                        <span class="source-badge">Google News - Zendesk</span>
+                        <a href="https://internalnote.com/automated-ticket-redaction/" class="text-dark">Automated ticket redaction via triggers in Zendesk</a>
+                        <span class="source-badge">Internal Note</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value&nbsp;&nbsp;San Francisco Chronicle
+                        Zendesk’s new trigger-based redaction automates the removal of personal data, solving the privacy risks of manual oversight. Combined with Redaction Suggestions from the ADPP add-on, this update enables safer workflows, fewer manual steps, and smarter data hygiene for customer support teams.
                     </p>
                     <small class="text-muted">
                         <i class="far fa-clock"></i> recently
@@ -47,11 +47,20 @@ background: grey
         </article>
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNpdW1mY3FOMDJnRF9NSVJVNU1yaUNpQklnM0tXcmROdXF1Y1BrR0tkcHVrN0RwWjR2eXFwOXRKQVNLWElHQ1pQWHlKMnpma0xjYTU1OTY2ZC15LUlGVmNqZ056cVE0X0s1aHhEQkZwRDJwS0NkM09mRTE5eFp2d210WUpVQnlpVGhIZzVNTmdrNnBpNDVUaHN6SzRIZUE?oc=5" class="text-dark">Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value - San Francisco Chronicle</a>
+                <span class="source-badge">Google News - Zendesk</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9539350542362-Announcing-quick-answers-availability-to-all-Suite-and-Knowledge-customers" class="text-dark">Announcing quick answers availability to all Suite and Knowledge customers</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -60,7 +69,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -69,7 +78,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -78,7 +87,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -87,7 +96,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -96,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -105,7 +114,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
         <article class="feed-item border-bottom py-3">
@@ -114,16 +123,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
-            </small>
-        </article>
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/4408829663642-Current-and-upcoming-Zendesk-early-access-programs-EAPs" class="text-dark">Current and upcoming Zendesk early access programs (EAPs)</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>
     </div>
@@ -156,49 +156,49 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9539350542362-Announcing-quick-answers-availability-to-all-Suite-and-Knowledge-customers" class="text-dark">Announcing quick answers availability to all Suite and Knowledge customers</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9618795149466-Announcing-the-move-of-Zendesk-QA-user-and-license-management-to-Zendesk-Admin-Center" class="text-dark">Announcing the move of Zendesk QA user and license management to Zendesk Admin Center</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9620124154522-Announcing-import-enhancements-for-the-Exchange-and-Gmail-connectors" class="text-dark">Announcing import enhancements for the Exchange and Gmail connectors</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9567151199130-Announcing-macros-for-auto-assist-suggestions" class="text-dark">Announcing macros for auto assist suggestions</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9601885707802-Announcing-the-new-external-Oauth-page-in-Admin-Center" class="text-dark">Announcing the new external Oauth page in Admin Center</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9611518490650-Announcing-a-new-approach-to-email-authentication" class="text-dark">Announcing a new approach to email authentication</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9533260748954-Announcing-Zendesk-QA-for-Advanced-AI-agents-EAP" class="text-dark">Announcing Zendesk QA for Advanced AI agents EAP</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 5 hours ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 hours ago</small>
             </article>
         </div>
     </div>
