@@ -192,3 +192,36 @@
     color: #fed136 !important;
     text-decoration: none;
 }
+
+/* Release Notes Panel */
+.release-notes-panel .card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+    border-color: #eb7824 !important;
+}
+
+.release-notes-panel .card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.release-notes-panel .card-header {
+    background: linear-gradient(135deg, #fed136 0%, #eb7824 100%) !important;
+    border-color: #eb7824 !important;
+}
+
+.release-notes-panel .badge-light {
+    color: #eb7824;
+    background-color: #fff;
+    font-weight: normal;
+}
+
+.release-notes-panel .btn-outline-primary {
+    border-color: #eb7824;
+    color: #eb7824;
+}
+
+.release-notes-panel .btn-outline-primary:hover {
+    background-color: #eb7824;
+    border-color: #eb7824;
+    color: #fff;
+}

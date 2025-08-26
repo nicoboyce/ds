@@ -138,10 +138,18 @@ class RSSIngestion:
             'this_week': [],    # 2-7 days ago (excluding current)
             'this_month': [],   # 7-30 days ago (excluding current and week)
             'older': [],        # More than 30 days
+            'latest_release_notes': None,  # Most recent Zendesk release notes
             # Keep legacy keys for compatibility
             'today': [],
             'yesterday': []
         }
+        
+        # First, find the latest release notes article
+        release_notes = [a for a in articles if 'Release notes through' in a.get('title', '')]
+        if release_notes:
+            # Sort by publication date to get the most recent
+            release_notes.sort(key=lambda x: self._parse_date_str(x.get('pub_date', '')), reverse=True)
+            categorised['latest_release_notes'] = release_notes[0]
         
         for article in articles:
             # Parse publication date
@@ -196,6 +204,29 @@ class RSSIngestion:
                 categorised['older'].append(article)
         
         return categorised
+    
+    def _parse_date_str(self, date_str):
+        """Helper to parse date string for sorting"""
+        if not date_str:
+            return datetime(2020, 1, 1)
+        
+        formats = [
+            '%a, %d %b %Y %H:%M:%S %Z',
+            '%a, %d %b %Y %H:%M:%S %z',
+            '%a, %d %b %Y %H:%M:%S',
+            '%Y-%m-%dT%H:%M:%S%z',
+            '%Y-%m-%d %H:%M:%S',
+            '%d %b %Y %H:%M:%S',
+        ]
+        
+        clean_date = date_str.replace(' GMT', '').replace(' UTC', '').replace(' +0000', '').strip()
+        for fmt in formats:
+            try:
+                return datetime.strptime(clean_date, fmt.replace(' %Z', '').replace(' %z', ''))
+            except:
+                continue
+        
+        return datetime(2020, 1, 1)
     
     def save_data(self, articles, categorised):
         """Save articles and categorised data"""

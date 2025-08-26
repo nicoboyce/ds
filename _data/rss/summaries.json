@@ -1,6 +1,21 @@
 {
-  "latest": "**New Features**: quick answers availability to all Suite and Knowledge customers, the move of Zendesk QA user and license management to Zendesk Admin Center, import enhancements for the Exchange and Gmail connectors, plus 4 more. **Early Access**: Zendesk QA for Advanced AI agents.",
-  "weekly": "**New Feature**: support for OAuth refresh token grant type and OAuth access and refresh token expirations. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. **Service Issues**: 5 incidents/maintenance.",
-  "monthly": "**Service Issues**: 3 incidents/maintenance",
-  "generated_at": "2025-08-26T09:30:04.944716"
+  "latest": "**Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews",
+  "weekly": "**New Features**: API support for WhatsApp Flows, import enhancements for the Exchange and Gmail connectors and the move of Zendesk QA user and license management to Zendesk Admin Center. **Service Issues**: 5 incidents/maintenance.",
+  "monthly": "**New Features**: a new approach to email authentication, the new external Oauth page in Admin Center, the excluded terms enhancement to AI-generated translations, plus 1 more. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots, Duo Protection for Zendesk with Duo Access Gateway - Duo Security. **Service Issues**: 5 incidents/maintenance.",
+  "generated_at": "2025-08-26T12:38:34.224565",
+  "release_notes": {
+    "summary": "Feature: Admins can now add existing macros in Copilot auto assist procedures, enabling more customized automation workflows. Feature: AI Agents Advanced has been updated with new capabilities to enhance administrator management and oversight of AI agents.",
+    "article": {
+      "id": "ddd63cbc19e6",
+      "title": "Release notes through 2025-08-22",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9637232938138-Release-notes-through-2025-08-22",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nAI Agents Advanced\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve introduced the ability for admins to add existing macros in auto assist procedures. This means that aut...",
+      "pub_date": "Mon, 25 Aug 2025 15:56:10 +0000",
+      "source": "Zendesk Release Notes",
+      "category": "zendesk",
+      "colour": "warning",
+      "fetched_at": "2025-08-26T12:36:53.953164"
+    },
+    "generated_at": "2025-08-26T12:38:35.119953"
+  }
 }

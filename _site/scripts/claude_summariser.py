@@ -235,11 +235,122 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
         # Save summaries
         summaries['generated_at'] = datetime.now().isoformat()
         
+        # Generate release notes summary only if there's a new one
+        if articles.get('latest_release_notes'):
+            latest_release = articles['latest_release_notes']
+            
+            # Check if we already have a summary for this release
+            existing_summaries = {}
+            try:
+                with open(self.data_dir / 'summaries.json', 'r') as f:
+                    existing_summaries = json.load(f)
+            except:
+                pass
+            
+            existing_release_notes = existing_summaries.get('release_notes', {})
+            existing_article_id = existing_release_notes.get('article', {}).get('id', '')
+            
+            # Only regenerate if it's a different release notes article
+            if latest_release.get('id') != existing_article_id:
+                print(f"New release notes detected: {latest_release.get('title', 'Unknown')}")
+                release_notes_summary = self.summarise_release_notes(latest_release)
+                if release_notes_summary:
+                    summaries['release_notes'] = {
+                        'summary': release_notes_summary,
+                        'article': latest_release,
+                        'generated_at': datetime.now().isoformat()
+                    }
+            elif existing_release_notes:
+                # Keep the existing summary
+                summaries['release_notes'] = existing_release_notes
+        
         with open(self.data_dir / 'summaries.json', 'w') as f:
             json.dump(summaries, f, indent=2, ensure_ascii=False)
         
         print(f"Summaries saved to: {self.data_dir / 'summaries.json'}")
         return summaries
+    
+    def summarise_release_notes(self, release_notes):
+        """Generate focused summary for Zendesk release notes"""
+        if not release_notes:
+            return None
+        
+        if not self.api_key:
+            return self.fallback_release_notes_summary(release_notes)
+        
+        # Extract just the key changes from the description
+        description = release_notes.get('description', '')
+        title = release_notes.get('title', '')
+        
+        prompt = f"""You are analysing the latest Zendesk release notes for administrators. Extract ONLY the most important feature changes and updates that directly impact administrators.
+
+Release: {title}
+
+Content:
+{description[:1500]}
+
+Provide a 1-2 sentence summary focusing ONLY on:
+- Key new features (not marketplace apps)
+- Major UI/workflow changes  
+- Security or compliance updates
+- API or integration changes
+
+Ignore marketplace app updates. Format as: "Feature: description. Feature: description."
+Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin Center) not generic terms."""
+        
+        try:
+            response = requests.post(
+                'https://api.anthropic.com/v1/messages',
+                headers={
+                    'x-api-key': self.api_key,
+                    'anthropic-version': '2023-06-01',
+                    'content-type': 'application/json'
+                },
+                json={
+                    'model': 'claude-3-haiku-20240307',
+                    'max_tokens': 150,
+                    'temperature': 0.3,
+                    'messages': [{'role': 'user', 'content': prompt}]
+                },
+                timeout=10
+            )
+            
+            if response.status_code == 200:
+                return response.json()['content'][0]['text'].strip()
+            else:
+                print(f"Claude API error: {response.status_code}")
+                return self.fallback_release_notes_summary(release_notes)
+        
+        except Exception as e:
+            print(f"Error calling Claude API for release notes: {e}")
+            return self.fallback_release_notes_summary(release_notes)
+    
+    def fallback_release_notes_summary(self, release_notes):
+        """Fallback summary for release notes when Claude API unavailable"""
+        description = release_notes.get('description', '')
+        lines = description.split('\\n')
+        
+        # Look for specific product mentions
+        features = []
+        products = ['Copilot', 'AI Agents', 'Admin Center', 'Support', 'Talk', 'Chat', 'Messaging', 
+                   'Knowledge', 'WFM', 'Workforce Management', 'Mobile', 'QA']
+        
+        for line in lines[:20]:  # Check first 20 lines
+            for product in products:
+                if product in line and ('New:' in line or 'new' in line.lower() or 'introduced' in line.lower()):
+                    # Extract the feature description
+                    feature_desc = line.split(':', 1)[-1].strip() if ':' in line else line.strip()
+                    if len(feature_desc) > 10 and len(feature_desc) < 200:
+                        features.append(f"{product}: {feature_desc[:100]}")
+                    break
+        
+        if features:
+            return '. '.join(features[:2])  # Return top 2 features
+        else:
+            # Generic fallback
+            title = release_notes.get('title', '')
+            date = title.replace('Release notes through ', '') if 'Release notes through' in title else 'Latest'
+            return f"Zendesk release notes for {date} available. Check for updates to your products."
 
 if __name__ == '__main__':
     # Change to script directory  

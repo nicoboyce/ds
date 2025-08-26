@@ -9,7 +9,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.280959"
+      "fetched_at": "2025-08-26T12:36:54.554307"
     },
     {
       "id": "f78776ca0630",
@@ -20,29 +20,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021897"
+      "fetched_at": "2025-08-26T12:36:55.547819"
     },
     {
-      "id": "6b864a3ae58f",
+      "id": "ddd63cbc19e6",
       "title": "Release notes through 2025-08-22",
       "link": "https://support.zendesk.com/hc/en-us/articles/9637232938138-Release-notes-through-2025-08-22",
       "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nAI Agents Advanced\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve introduced the ability for admins to add existing macros in auto assist procedures. This means that aut...",
-      "pub_date": "Mon, 25 Aug 2025 16:08:07 +0000",
+      "pub_date": "Mon, 25 Aug 2025 15:56:10 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672361"
-    },
-    {
-      "id": "fb577b785bf9",
-      "title": "Release notes through 2025-08-15",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9611535601562-Release-notes-through-2025-08-15",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAdmin Center\nCopilot\nMobile\nApp Marketplace\nProducts with no updates this week\nAdmin CenterNew:As part of the removal of support for password access for API authentication, we've proactively turned ...",
-      "pub_date": "Mon, 25 Aug 2025 15:54:29 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672430"
+      "fetched_at": "2025-08-26T12:36:53.953164"
     },
     {
       "id": "736054e19187",
@@ -53,7 +42,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021764"
+      "fetched_at": "2025-08-26T12:36:55.547646"
     },
     {
       "id": "96d1aeacb92d",
@@ -64,7 +53,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021798"
+      "fetched_at": "2025-08-26T12:36:55.547704"
     }
   ],
   "this_week": [
@@ -77,7 +66,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021820"
+      "fetched_at": "2025-08-26T12:36:55.547689"
     },
     {
       "id": "30fcdf2b78ee",
@@ -88,7 +77,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.850977"
+      "fetched_at": "2025-08-26T12:36:54.111224"
     },
     {
       "id": "9972cf8fa396",
@@ -99,7 +88,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851009"
+      "fetched_at": "2025-08-26T12:36:54.111268"
     },
     {
       "id": "cba07001ce51",
@@ -110,18 +99,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886660"
-    },
-    {
-      "id": "d4b0fbd71c8f",
-      "title": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9590471542170-Developer-update-Enhanced-security-guidelines-for-third-party-apps-integrations-and-bots",
-      "description": "Announced on\nRollout complete\n\n\nAugust 12, 2025\nAugust 12, 2025\n\nZendesk has updated the policies that guide development of public applications, integrations, and bots on our APIs, leveraging modern API security technology and enforcing sensible, consistent patterns. These new policies are designed ...",
-      "pub_date": "Thu, 21 Aug 2025 14:04:37 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417411"
+      "fetched_at": "2025-08-26T12:36:53.215494"
     },
     {
       "id": "80cc2837da32",
@@ -132,7 +110,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851021"
+      "fetched_at": "2025-08-26T12:36:54.111286"
     },
     {
       "id": "7d2a02cbb11b",
@@ -143,7 +121,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886719"
+      "fetched_at": "2025-08-26T12:36:53.215550"
     },
     {
       "id": "9753c7940dcb",
@@ -154,7 +132,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851032"
+      "fetched_at": "2025-08-26T12:36:54.111302"
     },
     {
       "id": "c1c482644cdd",
@@ -165,18 +143,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886765"
-    },
-    {
-      "id": "ab5273f4d377",
-      "title": "Announcing support for OAuth refresh token grant type and OAuth access and refresh token expirations",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9182123625370-Announcing-support-for-OAuth-refresh-token-grant-type-and-OAuth-access-and-refresh-token-expirations",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nApril 30, 2025\nApril 30, 2025\nMay 30, 2025\n\n\n\nStarting today, customers can adopt the OAuth refresh token grant type as per the OAuth 2.0 standard, along with support for access and refresh token expiration. Third-party app developers (those publishing inte...",
-      "pub_date": "Tue, 19 Aug 2025 15:02:31 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417460"
+      "fetched_at": "2025-08-26T12:36:53.215591"
     },
     {
       "id": "ab559d3cc395",
@@ -187,7 +154,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851043"
+      "fetched_at": "2025-08-26T12:36:54.111320"
     },
     {
       "id": "b5c2efb5934f",
@@ -198,7 +165,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021846"
+      "fetched_at": "2025-08-26T12:36:55.547749"
     },
     {
       "id": "6b6001ece535",
@@ -209,20 +176,20 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.280978"
+      "fetched_at": "2025-08-26T12:36:54.554345"
     }
   ],
   "this_month": [
     {
-      "id": "148d2be79243",
-      "title": "Release notes through 2025-08-08",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9586728633754-Release-notes-through-2025-08-08",
-      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nAdmin Center\nMessaging and live chat\nApp Marketplace\nProducts with no updates this week\n\nSupport\nNew:\n\nWhen adding a new external email support address, the “Connect other” option is no lo...",
-      "pub_date": "Mon, 18 Aug 2025 15:55:05 +0000",
+      "id": "567f74624ee0",
+      "title": "Release notes through 2025-08-15",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9611535601562-Release-notes-through-2025-08-15",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAdmin Center\nCopilot\nMobile\nApp Marketplace\nProducts with no updates this week\nAdmin CenterNew:As part of the removal of support for password access for API authentication, we've proactively turned ...",
+      "pub_date": "Mon, 18 Aug 2025 15:46:46 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672478"
+      "fetched_at": "2025-08-26T12:36:53.953311"
     },
     {
       "id": "37e8068b35ca",
@@ -233,18 +200,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886819"
-    },
-    {
-      "id": "7baa8ef5c9e6",
-      "title": "What's new in Zendesk: August 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9536605636890-What-s-new-in-Zendesk-August-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nAdmin Center\nSupport\nMessaging\nAI agents\nVoice\nKnowledge\nQuality assurance\nWorkforce management\nAnalytics\nIntegrations\nSecurity\n\nAlso don't miss:\n\nZendesk early...",
-      "pub_date": "Mon, 18 Aug 2025 13:31:51 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.182706"
+      "fetched_at": "2025-08-26T12:36:53.215645"
     },
     {
       "id": "2ff8294128ce",
@@ -255,7 +211,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886847"
+      "fetched_at": "2025-08-26T12:36:53.215675"
     },
     {
       "id": "eac54e075e98",
@@ -266,7 +222,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021778"
+      "fetched_at": "2025-08-26T12:36:55.547661"
     },
     {
       "id": "d150bdd4ac33",
@@ -277,7 +233,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851052"
+      "fetched_at": "2025-08-26T12:36:54.111335"
     },
     {
       "id": "5e44d28b5c72",
@@ -288,161 +244,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851061"
-    },
-    {
-      "id": "9b2dd39157f8",
-      "title": "What's new in Zendesk: July 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9418267571738-What-s-new-in-Zendesk-July-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nZendesk Suite\nObjects and rules\nMessaging and AI agents\nZendesk QA\nZendesk WFM\nKnowledge\nReporting\nApps and integrations\n\nAlso don't miss:\n\nZendesk earl...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.182814"
-    },
-    {
-      "id": "8d55eb27c699",
-      "title": "What's new in Zendesk: June 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9304693978522-What-s-new-in-Zendesk-June-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAccount\nMessaging and AI agents\nObjects and business rules\nZendesk QA\nKnowledge\nZendesk WFM\nDeveloper\n\nAlso don't miss:\n\nZendesk early access programs\nW...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.182868"
-    },
-    {
-      "id": "d73392cd2399",
-      "title": "What's new in Zendesk: May 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9186870292250-What-s-new-in-Zendesk-May-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nZendesk Suite\nKnowledge\nAI agents\nAnalytics\nObjects and rules\nZendesk WFM\nZendesk QA\nMessaging\nDeveloper\n\nAlso, don't miss:\n\nZendesk early access progra...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.182958"
-    },
-    {
-      "id": "6fb1f77a4ba9",
-      "title": "What's new in Zendesk: April 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9067906531994-What-s-new-in-Zendesk-April-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nObjects and rules\nAdmin Center\nAccounts and billing\nKnowledge\nMessaging\nAI agents\nTalk\nExplore\nZendesk QA\nZendesk WFM\nApps and integrations\n\nAlso don't ...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183074"
-    },
-    {
-      "id": "34e94acd9062",
-      "title": "What's new in Zendesk: March 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8950832095002-What-s-new-in-Zendesk-March-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAI agents\nTalk\nAccounts and billing\nSecurity\nApps and integrations\nQuality assurance\nWorkforce management\nMessaging and third-party channels\nDeveloper\n\n...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183153"
-    },
-    {
-      "id": "b108ca4f09dd",
-      "title": "What's new in Zendesk: February 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8796457413274-What-s-new-in-Zendesk-February-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAccounts and billing\nSecurity\nPeople\nMessaging and AI agents\nExplore\nTalk\nQuality assurance\nNew and notable\n\nAlso don't miss:\n\nZendesk early access prog...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183213"
-    },
-    {
-      "id": "599c97864c51",
-      "title": "What's new in Zendesk: January 2025",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8566042707994-What-s-new-in-Zendesk-January-2025",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nObjects and rules\nAccounts and billing\nSecurity\nGuide\nIntegrations\nMessaging\nTalk\nExplore\nZendesk WFM\nDeveloper\nNew and notable\n\nAlso don't miss:\n\nZende...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183365"
-    },
-    {
-      "id": "9d4c3c5be5aa",
-      "title": "What's new in Zendesk: December 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8447930673946-What-s-new-in-Zendesk-December-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAI agents (Ultimate)\nObjects and rules\nIntegrations\nExplore\nZendesk QA\nZendesk WFM\nAI agents (Zendesk)\nNew and notable\n\nAlso don't miss:\n\nZendesk early ...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183458"
-    },
-    {
-      "id": "26f3d48b16f2",
-      "title": "What's new in Zendesk: November 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8262911521690-What-s-new-in-Zendesk-November-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nObjects and rules\nAdmin Center\nPeople\nMessaging and AI agents\nGuide\nZendesk QA\nZendesk WFM\nSecurity\nIntegrations\n\nAlso don't miss:\n\nZendesk early access...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183559"
-    },
-    {
-      "id": "9f5d84d1c9de",
-      "title": "What's new in Zendesk: October 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8081588839194-What-s-new-in-Zendesk-October-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nAdmin Center\nObjects and rules\nAccounts and billing\nSecurity\nSupport\nMessaging and bots\nGuide\nExplore\nZendesk QA\nZendesk WFM\nNew and notable\n\nAlso don't miss:\n\n...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183660"
-    },
-    {
-      "id": "3ebb745d9881",
-      "title": "What's new in Zendesk: September 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/7901336003098-What-s-new-in-Zendesk-September-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nObjects and rules\nAccounts and billing\nPeople\nAgent Workspace\nSupport\nExplore\nZendesk WFM\nAI agents and bots\nSecurity\nDeveloper\n\nAlso don't miss:\n\nZendesk early...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183752"
-    },
-    {
-      "id": "8b1020687cfa",
-      "title": "What's new in Zendesk: August 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/7698503636250-What-s-new-in-Zendesk-August-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nGuide\nExplore\nAI agents (formerly Zendesk bots)\nAdmin Center\nSecurity\nTalk\nZendesk QA\nZendesk WFM\nDevelopers\nNew and notable content\n\nAlso don't miss:\n\n...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183911"
-    },
-    {
-      "id": "fbf73e3b350a",
-      "title": "What's new in Zendesk: July 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/7496117864474-What-s-new-in-Zendesk-July-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\n\nAccounts and billing\nAdmin Center\nGuide\nMessaging and bots\nTalk\nZendesk QA\nApps\nSecurity\n\n\nAlso don't miss:\n\nZendesk early access programs\nWhat's New quarterly...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.183991"
-    },
-    {
-      "id": "e13a32c896c2",
-      "title": "What's new in Zendesk: June 2024",
-      "link": "https://support.zendesk.com/hc/en-us/articles/7334819842714-What-s-new-in-Zendesk-June-2024",
-      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nGuide\nExplore\nAI agents (formerly Zendesk bots)\nZendesk WFM\nSuite\nAdmin Center\nSecurity\n\nAlso don't miss:\n\nZendesk early access programs\nWhat's New quar...",
-      "pub_date": "Thu, 14 Aug 2025 15:07:07 +0000",
-      "source": "Zendesk What's New",
-      "category": "zendesk",
-      "colour": "success",
-      "fetched_at": "2025-08-26T10:34:17.184074"
+      "fetched_at": "2025-08-26T12:36:54.111351"
     },
     {
       "id": "e728b79f5a7f",
@@ -453,7 +255,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851070"
+      "fetched_at": "2025-08-26T12:36:54.111366"
     },
     {
       "id": "f7526be5c9e9",
@@ -464,7 +266,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.280994"
+      "fetched_at": "2025-08-26T12:36:54.554363"
     },
     {
       "id": "12038ab546ed",
@@ -475,18 +277,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022218"
-    },
-    {
-      "id": "b732a4cfc087",
-      "title": "Announcing trial cooldown periods for paid apps",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9329765642266-Announcing-trial-cooldown-periods-for-paid-apps",
-      "description": "Announced on\n        \n        \n          Rollout starts\n        \n        \n          Rollout ends\n        \n      \n      \n        June 3, 2025\n        June 2, 2025\n        June 30, 2025\n      \n    \n  Zendesk is excited to announce the availability of a trial cooldown period feature for paid apps, desi...",
-      "pub_date": "Tue, 12 Aug 2025 19:41:35 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417493"
+      "fetched_at": "2025-08-26T12:36:55.548229"
     },
     {
       "id": "414bfbdeff6b",
@@ -497,18 +288,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022208"
+      "fetched_at": "2025-08-26T12:36:55.548217"
     },
     {
-      "id": "518e0f05c41f",
-      "title": "Announcing the Marketplace partner developer support",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9573998909466-Announcing-the-Marketplace-partner-developer-support",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 11, 2025\nAugust 11, 2025\nAugust 11, 2025\n\nZendesk is excited to announce that we've created a new support process specifically for Marketplace partner developers!  We are introducing a new direct line to a team that can help you when you require supp...",
-      "pub_date": "Tue, 12 Aug 2025 15:07:17 +0000",
+      "id": "aa98fe7be811",
+      "title": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9590471542170-Developer-update-Enhanced-security-guidelines-for-third-party-apps-integrations-and-bots",
+      "description": "Announced on\nRollout complete\n\n\nAugust 12, 2025\nAugust 12, 2025\n\nZendesk has updated the policies that guide development of public applications, integrations, and bots on our APIs, leveraging modern API security technology and enforcing sensible, consistent patterns. These new policies are designed ...",
+      "pub_date": "Tue, 12 Aug 2025 15:09:06 +0000",
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417526"
+      "fetched_at": "2025-08-26T12:36:53.710578"
     },
     {
       "id": "99d2728bea10",
@@ -519,18 +310,18 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281002"
+      "fetched_at": "2025-08-26T12:36:54.554373"
     },
     {
-      "id": "569cfe220785",
-      "title": "Release notes through 2025-08-01",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9561642176026-Release-notes-through-2025-08-01",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nChat and messaging\nCopilot\nTalk\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nChat and messagingNew:\nCustomers can define goals (purchases and renewals) and t...",
-      "pub_date": "Mon, 11 Aug 2025 17:10:13 +0000",
+      "id": "9c5be4d869e0",
+      "title": "Release notes through 2025-08-08",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9586728633754-Release-notes-through-2025-08-08",
+      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nAdmin Center\nMessaging and live chat\nApp Marketplace\nProducts with no updates this week\n\nSupport\nNew:\n\nWhen adding a new external email support address, the “Connect other” option is no lo...",
+      "pub_date": "Mon, 11 Aug 2025 16:38:07 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672523"
+      "fetched_at": "2025-08-26T12:36:53.953421"
     },
     {
       "id": "4936a8f83377",
@@ -541,7 +332,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886877"
+      "fetched_at": "2025-08-26T12:36:53.215706"
     },
     {
       "id": "f01559263043",
@@ -552,7 +343,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021719"
+      "fetched_at": "2025-08-26T12:36:55.547610"
     },
     {
       "id": "affd8c0ebfc6",
@@ -563,7 +354,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022173"
+      "fetched_at": "2025-08-26T12:36:55.548180"
+    },
+    {
+      "id": "651a2caa4f8e",
+      "title": "Announcing the Marketplace partner developer support",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9573998909466-Announcing-the-Marketplace-partner-developer-support",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 11, 2025\nAugust 11, 2025\nAugust 11, 2025\n\nZendesk is excited to announce that we've created a new support process specifically for Marketplace partner developers!  We are introducing a new direct line to a team that can help you when you require supp...",
+      "pub_date": "Thu, 07 Aug 2025 15:43:42 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.710688"
     },
     {
       "id": "36bd24441a69",
@@ -574,7 +376,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021788"
+      "fetched_at": "2025-08-26T12:36:55.547674"
     },
     {
       "id": "6992e416efd0",
@@ -585,7 +387,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851078"
+      "fetched_at": "2025-08-26T12:36:54.111380"
     },
     {
       "id": "abfb06a86146",
@@ -596,7 +398,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851087"
+      "fetched_at": "2025-08-26T12:36:54.111395"
     },
     {
       "id": "7ca80a8ec418",
@@ -607,7 +409,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886903"
+      "fetched_at": "2025-08-26T12:36:53.215734"
     },
     {
       "id": "7186730af0bc",
@@ -618,7 +420,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886928"
+      "fetched_at": "2025-08-26T12:36:53.215760"
     },
     {
       "id": "0c5ce2bc4067",
@@ -629,18 +431,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.886955"
-    },
-    {
-      "id": "b9004b4ddb86",
-      "title": "Release notes through 2025-07-25",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9534833642906-Release-notes-through-2025-07-25",
-      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nAI agents and knowledge\nApp Marketplace\nProducts with no updates this week\n\nSupport\nNew:\n\n\nWe've extended email status support to the Exchange Connector, so agents are now notified when em...",
-      "pub_date": "Tue, 05 Aug 2025 15:02:21 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672578"
+      "fetched_at": "2025-08-26T12:36:53.215788"
     },
     {
       "id": "46d2a980bb2a",
@@ -651,7 +442,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281009"
+      "fetched_at": "2025-08-26T12:36:54.554382"
     },
     {
       "id": "0da6fbd90a10",
@@ -662,7 +453,18 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851096"
+      "fetched_at": "2025-08-26T12:36:54.111410"
+    },
+    {
+      "id": "79e4ee210d78",
+      "title": "Release notes through 2025-08-01",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9561642176026-Release-notes-through-2025-08-01",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nChat and messaging\nCopilot\nTalk\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nChat and messagingNew:\nCustomers can define goals (purchases and renewals) and t...",
+      "pub_date": "Mon, 04 Aug 2025 15:53:26 +0000",
+      "source": "Zendesk Release Notes",
+      "category": "zendesk",
+      "colour": "warning",
+      "fetched_at": "2025-08-26T12:36:53.953531"
     },
     {
       "id": "b8d6f8088797",
@@ -673,7 +475,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.887004"
+      "fetched_at": "2025-08-26T12:36:53.215836"
     },
     {
       "id": "07ac2abf4c79",
@@ -684,7 +486,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851105"
+      "fetched_at": "2025-08-26T12:36:54.111425"
     },
     {
       "id": "d74973d01ac2",
@@ -695,7 +497,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.887049"
+      "fetched_at": "2025-08-26T12:36:53.215875"
     },
     {
       "id": "d39fe456b9d9",
@@ -706,18 +508,29 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281017"
+      "fetched_at": "2025-08-26T12:36:54.554392"
     },
     {
-      "id": "940d87e89d2a",
-      "title": "Release notes through 2025-07-18",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9509459666586-Release-notes-through-2025-07-18",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents, and knowledge\nCopilot\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nAI agents, and knowledgeNew:Knowledge \nKnowledge in the Agent Workspace: quick ...",
-      "pub_date": "Mon, 28 Jul 2025 15:35:50 +0000",
+      "id": "776c8463768f",
+      "title": "What's new in Zendesk: August 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9536605636890-What-s-new-in-Zendesk-August-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nAdmin Center\nSupport\nMessaging\nAI agents\nVoice\nKnowledge\nQuality assurance\nWorkforce management\nAnalytics\nIntegrations\nSecurity\n\nAlso don't miss:\n\nZendesk early...",
+      "pub_date": "Tue, 29 Jul 2025 04:01:52 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.504526"
+    },
+    {
+      "id": "dc25072c2400",
+      "title": "Release notes through 2025-07-25",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9534833642906-Release-notes-through-2025-07-25",
+      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nAI agents and knowledge\nApp Marketplace\nProducts with no updates this week\n\nSupport\nNew:\n\n\nWe've extended email status support to the Exchange Connector, so agents are now notified when em...",
+      "pub_date": "Mon, 28 Jul 2025 15:36:56 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672626"
+      "fetched_at": "2025-08-26T12:36:53.953670"
     },
     {
       "id": "10873b1c0ef4",
@@ -728,7 +541,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.887107"
+      "fetched_at": "2025-08-26T12:36:53.215929"
     },
     {
       "id": "988723a6a672",
@@ -739,7 +552,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022104"
+      "fetched_at": "2025-08-26T12:36:55.548083"
     }
   ],
   "older": [
@@ -752,7 +565,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.887174"
+      "fetched_at": "2025-08-26T12:36:53.215987"
     },
     {
       "id": "0f552a778832",
@@ -763,7 +576,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022139"
+      "fetched_at": "2025-08-26T12:36:55.548132"
     },
     {
       "id": "45bf9ca8f0ed",
@@ -774,7 +587,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021866"
+      "fetched_at": "2025-08-26T12:36:55.547762"
     },
     {
       "id": "da5f2003e55f",
@@ -785,7 +598,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022075"
+      "fetched_at": "2025-08-26T12:36:55.548047"
     },
     {
       "id": "b872e9c08322",
@@ -796,18 +609,18 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281025"
+      "fetched_at": "2025-08-26T12:36:54.554401"
     },
     {
-      "id": "979f728fc899",
-      "title": "Release notes through 2025-07-11",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9483117046170-Release-notes-through-2025-07-11",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents, and knowledge\nCopilot\nProducts with no updates this week\nAI agents, and knowledgeNew:Knowledge Increased the content tags limit from 200 to 1000 per account. AI Agents AdvancedPublic comm...",
-      "pub_date": "Mon, 21 Jul 2025 15:48:10 +0000",
+      "id": "b10af457b9d4",
+      "title": "Release notes through 2025-07-18",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9509459666586-Release-notes-through-2025-07-18",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents, and knowledge\nCopilot\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nAI agents, and knowledgeNew:Knowledge \nKnowledge in the Agent Workspace: quick ...",
+      "pub_date": "Mon, 21 Jul 2025 15:49:34 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672660"
+      "fetched_at": "2025-08-26T12:36:53.953775"
     },
     {
       "id": "6bfd485c1207",
@@ -818,7 +631,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021994"
+      "fetched_at": "2025-08-26T12:36:55.547932"
     },
     {
       "id": "668c00bb00ec",
@@ -829,7 +642,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021947"
+      "fetched_at": "2025-08-26T12:36:55.547869"
     },
     {
       "id": "ca3b87270e8f",
@@ -840,7 +653,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281032"
+      "fetched_at": "2025-08-26T12:36:54.554410"
     },
     {
       "id": "fdc888f2b99c",
@@ -851,7 +664,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022046"
+      "fetched_at": "2025-08-26T12:36:55.548010"
     },
     {
       "id": "3a020fdcb18f",
@@ -862,7 +675,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851115"
+      "fetched_at": "2025-08-26T12:36:54.111440"
     },
     {
       "id": "a1fbda1e7fcf",
@@ -873,7 +686,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281039"
+      "fetched_at": "2025-08-26T12:36:54.554418"
     },
     {
       "id": "09429a2c130d",
@@ -884,7 +697,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021831"
+      "fetched_at": "2025-08-26T12:36:55.547718"
     },
     {
       "id": "8f39e5ddaaf0",
@@ -895,7 +708,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021936"
+      "fetched_at": "2025-08-26T12:36:55.547856"
     },
     {
       "id": "ee23e65bd372",
@@ -906,18 +719,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022227"
+      "fetched_at": "2025-08-26T12:36:55.548243"
     },
     {
-      "id": "c7b0e589dd4d",
-      "title": "Release notes through 2025-07-04",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9455894868890-Release-notes-through-2025-07-04",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAdmin Center\nAI agents and knowledge\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nNew ticket events can be subscribed to via webhooks - Developers can now create or edit an...",
-      "pub_date": "Mon, 14 Jul 2025 15:47:53 +0000",
+      "id": "dd7a2a7c34b3",
+      "title": "Release notes through 2025-07-11",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9483117046170-Release-notes-through-2025-07-11",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents, and knowledge\nCopilot\nProducts with no updates this week\nAI agents, and knowledgeNew:Knowledge Increased the content tags limit from 200 to 1000 per account. AI Agents AdvancedPublic comm...",
+      "pub_date": "Mon, 14 Jul 2025 15:48:45 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672712"
+      "fetched_at": "2025-08-26T12:36:53.953852"
     },
     {
       "id": "a9ead531eaba",
@@ -928,7 +741,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021857"
+      "fetched_at": "2025-08-26T12:36:55.547732"
     },
     {
       "id": "92ee24c1c923",
@@ -939,18 +752,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851124"
-    },
-    {
-      "id": "43807bac3909",
-      "title": "Announcing the removal of legacy custom objects",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9458670168346-Announcing-the-removal-of-legacy-custom-objects",
-      "description": "Phase\nAnnounced on\nRemoved on \n\n\nPhase 1\nJuly 7, 2025\nJanuary 15, 2026\n\n\nPhase 2\nJuly 7, 2025\nJuly 27, 2026\n\nZendesk is officially announcing the End of Life (EOL) for legacy custom objects. Starting July 27, 2026, the legacy custom objects experience will no longer be supported. This includes the l...",
-      "pub_date": "Tue, 08 Jul 2025 15:04:04 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417571"
+      "fetched_at": "2025-08-26T12:36:54.111456"
     },
     {
       "id": "9e4244836f3a",
@@ -961,7 +763,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281046"
+      "fetched_at": "2025-08-26T12:36:54.554426"
     },
     {
       "id": "de5c5034bb26",
@@ -972,18 +774,29 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.887267"
+      "fetched_at": "2025-08-26T12:36:53.216094"
     },
     {
-      "id": "072945e5902c",
-      "title": "Release notes through 2025-06-27",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9434364229018-Release-notes-through-2025-06-27",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nChat and messaging\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nChat and messagingNew:Previously, agents were unable to redact messages during active messagi...",
-      "pub_date": "Sun, 06 Jul 2025 20:35:09 +0000",
+      "id": "e72ba801e92e",
+      "title": "Announcing the removal of legacy custom objects",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9458670168346-Announcing-the-removal-of-legacy-custom-objects",
+      "description": "Phase\nAnnounced on\nRemoved on \n\n\nPhase 1\nJuly 7, 2025\nJanuary 15, 2026\n\n\nPhase 2\nJuly 7, 2025\nJuly 27, 2026\n\nZendesk is officially announcing the End of Life (EOL) for legacy custom objects. Starting July 27, 2026, the legacy custom objects experience will no longer be supported. This includes the l...",
+      "pub_date": "Mon, 07 Jul 2025 15:57:28 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.710798"
+    },
+    {
+      "id": "43615b2fb93c",
+      "title": "Release notes through 2025-07-04",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9455894868890-Release-notes-through-2025-07-04",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAdmin Center\nAI agents and knowledge\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nNew ticket events can be subscribed to via webhooks - Developers can now create or edit an...",
+      "pub_date": "Sun, 06 Jul 2025 20:36:35 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672742"
+      "fetched_at": "2025-08-26T12:36:53.953983"
     },
     {
       "id": "ee0aa447fde2",
@@ -994,29 +807,18 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281053"
+      "fetched_at": "2025-08-26T12:36:54.554435"
     },
     {
-      "id": "04ab07438bcb",
-      "title": "Release notes through 2025-06-20",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9408927288602-Release-notes-through-2025-06-20",
-      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nChat and messaging\nCopilot\nAI Agents and Knowledge\nApp Marketplace\nProducts with no updates this week\n\nSupport\nFixed:\n\nThe recent release allowing CSAT surveys to be submitted on closed ti...",
-      "pub_date": "Mon, 30 Jun 2025 15:32:26 +0000",
+      "id": "6bd00478fde1",
+      "title": "Release notes through 2025-06-27",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9434364229018-Release-notes-through-2025-06-27",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nChat and messaging\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nChat and messagingNew:Previously, agents were unable to redact messages during active messagi...",
+      "pub_date": "Mon, 30 Jun 2025 15:38:36 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672806"
-    },
-    {
-      "id": "b2d4dff8d5f1",
-      "title": "Release notes through 2025-05-23",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9299917622426-Release-notes-through-2025-05-23",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nChat and messaging\nAI agents and knowledge\nCopilot\nApp Marketplace\nZendesk WFM\nProducts with no updates this week\nSupportA Copy button has been introduced next to Ticket Brand on the ticket ...",
-      "pub_date": "Fri, 27 Jun 2025 15:01:36 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672878"
+      "fetched_at": "2025-08-26T12:36:53.954054"
     },
     {
       "id": "9c7300440930",
@@ -1027,7 +829,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022025"
+      "fetched_at": "2025-08-26T12:36:55.547974"
+    },
+    {
+      "id": "95c0ddb89d32",
+      "title": "What's new in Zendesk: July 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9418267571738-What-s-new-in-Zendesk-July-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nZendesk Suite\nObjects and rules\nMessaging and AI agents\nZendesk QA\nZendesk WFM\nKnowledge\nReporting\nApps and integrations\n\nAlso don't miss:\n\nZendesk earl...",
+      "pub_date": "Wed, 25 Jun 2025 23:46:25 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.504757"
     },
     {
       "id": "eb685a66779a",
@@ -1038,18 +851,18 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281059"
+      "fetched_at": "2025-08-26T12:36:54.554443"
     },
     {
-      "id": "1b819801ece2",
-      "title": "Release notes through 2025-06-13",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9380479252250-Release-notes-through-2025-06-13",
-      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAI Agents and Knowledge\nCopilot\nZendesk Workforce Management (WFM)\nMobile\nProducts with no updates this week\n\nAI Agents and Knowledge\nNew:\n\n\n\n\n\nAdded a new public API to list CSAT responses.\n\n\n\n\n\n...",
-      "pub_date": "Mon, 23 Jun 2025 15:45:22 +0000",
+      "id": "e1a06407a4fd",
+      "title": "Release notes through 2025-06-20",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9408927288602-Release-notes-through-2025-06-20",
+      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nChat and messaging\nCopilot\nAI Agents and Knowledge\nApp Marketplace\nProducts with no updates this week\n\nSupport\nFixed:\n\nThe recent release allowing CSAT surveys to be submitted on closed ti...",
+      "pub_date": "Mon, 23 Jun 2025 15:45:07 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672920"
+      "fetched_at": "2025-08-26T12:36:53.954218"
     },
     {
       "id": "f69ad8c69c05",
@@ -1060,7 +873,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021955"
+      "fetched_at": "2025-08-26T12:36:55.547881"
     },
     {
       "id": "ddab759029ee",
@@ -1071,18 +884,18 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281066"
+      "fetched_at": "2025-08-26T12:36:54.554452"
     },
     {
-      "id": "d0c9a195d77a",
-      "title": "Release notes through 2025-05-30",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9325251195802-Release-notes-through-2025-05-30",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nApp Marketplace\nZendesk WFM\nProducts with no updates this week\nApp MarketplaceNew:\n\n\nAsana by Thackd (Support)\n\nAsana by Thackd gives your Zendesk teammates access to create and link tasks in any As...",
-      "pub_date": "Mon, 16 Jun 2025 14:37:23 +0000",
+      "id": "b260ff7f963b",
+      "title": "Release notes through 2025-06-13",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9380479252250-Release-notes-through-2025-06-13",
+      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAI Agents and Knowledge\nCopilot\nZendesk Workforce Management (WFM)\nMobile\nProducts with no updates this week\n\nAI Agents and Knowledge\nNew:\n\n\n\n\n\nAdded a new public API to list CSAT responses.\n\n\n\n\n\n...",
+      "pub_date": "Mon, 16 Jun 2025 14:38:50 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672975"
+      "fetched_at": "2025-08-26T12:36:53.954319"
     },
     {
       "id": "57c65f3275df",
@@ -1093,18 +906,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281072"
-    },
-    {
-      "id": "472e2cc300ac",
-      "title": "Release notes through 2025-06-06",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9355105437722-Release-notes-through-2025-06-06",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents and knowledge\nCopilot\nSupport\nZendesk Workforce management (WFM)\nApp Marketplace\nProducts with no updates this week\nAI agents and knowledgeNew for AI Agents - Advanced\nGenerative replies f...",
-      "pub_date": "Wed, 11 Jun 2025 15:01:33 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.673033"
+      "fetched_at": "2025-08-26T12:36:54.554460"
     },
     {
       "id": "0c87b33c53da",
@@ -1115,7 +917,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022095"
+      "fetched_at": "2025-08-26T12:36:55.548072"
     },
     {
       "id": "ad946ad8c03b",
@@ -1126,7 +928,18 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.281078"
+      "fetched_at": "2025-08-26T12:36:54.554469"
+    },
+    {
+      "id": "bbbe99a5e609",
+      "title": "Release notes through 2025-06-06",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9355105437722-Release-notes-through-2025-06-06",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents and knowledge\nCopilot\nSupport\nZendesk Workforce management (WFM)\nApp Marketplace\nProducts with no updates this week\nAI agents and knowledgeNew for AI Agents - Advanced\nGenerative replies f...",
+      "pub_date": "Mon, 09 Jun 2025 16:10:37 +0000",
+      "source": "Zendesk Release Notes",
+      "category": "zendesk",
+      "colour": "warning",
+      "fetched_at": "2025-08-26T12:36:53.954457"
     },
     {
       "id": "e69a7c78068f",
@@ -1137,7 +950,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021927"
+      "fetched_at": "2025-08-26T12:36:55.547844"
     },
     {
       "id": "d1c083c01ae7",
@@ -1148,7 +961,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-08-26T10:34:17.851133"
+      "fetched_at": "2025-08-26T12:36:54.111473"
     },
     {
       "id": "c3f9268fe266",
@@ -1159,62 +972,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021916"
-    },
-    {
-      "id": "d5bde7cfa1b9",
-      "title": "Announcing improvements to User Identities API for trustworthy email verification",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9084978390810-Announcing-improvements-to-User-Identities-API-for-trustworthy-email-verification",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nApril 3, 2025\nApril 3, 2025\nApril 11, 2025\n\n\n\nAs of today, we’re introducing two new properties to the User Identities API that will help provide clarity and trust as to whether a user has verified their email address, including how and when that verificati...",
-      "pub_date": "Wed, 04 Jun 2025 19:52:31 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417623"
-    },
-    {
-      "id": "d5e6f4fe233f",
-      "title": "Announcing support for OAuth 2.0 Client Credentials grant type",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8983332483226-Announcing-support-for-OAuth-2-0-Client-Credentials-grant-type",
-      "description": "Announced on\nRollout on\n\n\nMarch 4, 2025\nMarch 4, 2025\n\n\n\nStarting today, Zendesk is adding support for the Client Credentials grant type for confidential OAuth clients. \nThis announcement includes the following topics:\n\nWhat's changing?\nWhy is Zendesk making this change?\nWhat do I need to do?\n\nWhat'...",
-      "pub_date": "Wed, 04 Jun 2025 19:52:09 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417649"
-    },
-    {
-      "id": "dd1e805c1c60",
-      "title": "Account settings cdn changes",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8719481720730-Account-settings-cdn-changes",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nJanuary 21, 2025\nFebruary 24, 2025\nFebruary 24, 2025\n\n\n\nThe \"cdn\" key in the Account Show Settings API will show the current default and secondary (fallback) CDN URLs used by the Support agent interface.\nThis announcement includes the following topics:\n\nWha...",
-      "pub_date": "Wed, 04 Jun 2025 19:51:20 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417677"
-    },
-    {
-      "id": "7eb03294dd1c",
-      "title": "Announcing the removal of OAuth 2.0 grant types for Support",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8302546989466-Announcing-the-removal-of-OAuth-2-0-grant-types-for-Support",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 27, 2024\nAugust 27, 2024\nFebruary 17, 2025\n\n\n\nIn alignment with OAuth 2.0 best practices, Zendesk will stop accepting implicit and password grants for access tokens starting February 17, 2025, for Zendesk Support only. This removal does not apply to ...",
-      "pub_date": "Wed, 04 Jun 2025 19:50:43 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417723"
-    },
-    {
-      "id": "25d66a874ce7",
-      "title": "Deprecation of OAuth access token reference path in ZIS",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8263007584026-Deprecation-of-OAuth-access-token-reference-path-in-ZIS",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nOctober 28, 2024\nDecember 5, 2024\nDecember 5, 2024\n\n\n\nWe’re announcing an upcoming update to the way that OAuth connections can be referenced within Zendesk Integration Services (ZIS) flows and custom actions.\nThis announcement includes the following topics...",
-      "pub_date": "Wed, 04 Jun 2025 17:48:49 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417751"
+      "fetched_at": "2025-08-26T12:36:55.547832"
     },
     {
       "id": "80b1594b8e5e",
@@ -1225,7 +983,29 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.033983"
+      "fetched_at": "2025-08-26T12:36:54.279088"
+    },
+    {
+      "id": "a4be2420eb94",
+      "title": "Announcing trial cooldown periods for paid apps",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9329765642266-Announcing-trial-cooldown-periods-for-paid-apps",
+      "description": "Announced on\n        \n        \n          Rollout starts\n        \n        \n          Rollout ends\n        \n      \n      \n        June 3, 2025\n        June 2, 2025\n        June 30, 2025\n      \n    \n  Zendesk is excited to announce the availability of a trial cooldown period feature for paid apps, desi...",
+      "pub_date": "Mon, 02 Jun 2025 18:05:30 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.710870"
+    },
+    {
+      "id": "82caa0855119",
+      "title": "Release notes through 2025-05-30",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9325251195802-Release-notes-through-2025-05-30",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nApp Marketplace\nZendesk WFM\nProducts with no updates this week\nApp MarketplaceNew:\n\n\nAsana by Thackd (Support)\n\nAsana by Thackd gives your Zendesk teammates access to create and link tasks in any As...",
+      "pub_date": "Sun, 01 Jun 2025 21:12:49 +0000",
+      "source": "Zendesk Release Notes",
+      "category": "zendesk",
+      "colour": "warning",
+      "fetched_at": "2025-08-26T12:36:53.954608"
     },
     {
       "id": "305e2af9938c",
@@ -1236,7 +1016,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034000"
+      "fetched_at": "2025-08-26T12:36:54.279133"
     },
     {
       "id": "42d36c42c971",
@@ -1247,18 +1027,29 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022121"
+      "fetched_at": "2025-08-26T12:36:55.548107"
     },
     {
-      "id": "be2c2517d170",
-      "title": "Release notes through 2025-05-16",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9270398524442-Release-notes-through-2025-05-16",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents and knowledge\nCopilot\nApp Marketplace\nProducts with no updates this week\nAI agents and knowledge\nAI Agents AdvancedNew:\n\n\nNavigating out of the Procedure page: We’ve made a minor UX improv...",
-      "pub_date": "Mon, 26 May 2025 16:48:45 +0000",
+      "id": "c18637c0f4ea",
+      "title": "What's new in Zendesk: June 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9304693978522-What-s-new-in-Zendesk-June-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAccount\nMessaging and AI agents\nObjects and business rules\nZendesk QA\nKnowledge\nZendesk WFM\nDeveloper\n\nAlso don't miss:\n\nZendesk early access programs\nW...",
+      "pub_date": "Tue, 27 May 2025 20:12:15 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.504891"
+    },
+    {
+      "id": "de2c4e4cc2f0",
+      "title": "Release notes through 2025-05-23",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9299917622426-Release-notes-through-2025-05-23",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nChat and messaging\nAI agents and knowledge\nCopilot\nApp Marketplace\nZendesk WFM\nProducts with no updates this week\nSupportA Copy button has been introduced next to Ticket Brand on the ticket ...",
+      "pub_date": "Mon, 26 May 2025 16:50:24 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.673103"
+      "fetched_at": "2025-08-26T12:36:53.954769"
     },
     {
       "id": "57ceab9a3881",
@@ -1269,7 +1060,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021985"
+      "fetched_at": "2025-08-26T12:36:55.547920"
     },
     {
       "id": "272ef57675f5",
@@ -1280,7 +1071,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022165"
+      "fetched_at": "2025-08-26T12:36:55.548167"
     },
     {
       "id": "d9341e3b1044",
@@ -1291,7 +1082,18 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034008"
+      "fetched_at": "2025-08-26T12:36:54.279151"
+    },
+    {
+      "id": "b526b0f5da0d",
+      "title": "Release notes through 2025-05-16",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9270398524442-Release-notes-through-2025-05-16",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents and knowledge\nCopilot\nApp Marketplace\nProducts with no updates this week\nAI agents and knowledge\nAI Agents AdvancedNew:\n\n\nNavigating out of the Procedure page: We’ve made a minor UX improv...",
+      "pub_date": "Sun, 18 May 2025 20:05:08 +0000",
+      "source": "Zendesk Release Notes",
+      "category": "zendesk",
+      "colour": "warning",
+      "fetched_at": "2025-08-26T12:36:53.954878"
     },
     {
       "id": "4f87e6044a74",
@@ -1302,7 +1104,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022112"
+      "fetched_at": "2025-08-26T12:36:55.548095"
     },
     {
       "id": "49e52b36f8b6",
@@ -1313,7 +1115,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034014"
+      "fetched_at": "2025-08-26T12:36:54.279167"
     },
     {
       "id": "88680e6fdbf9",
@@ -1324,7 +1126,29 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034020"
+      "fetched_at": "2025-08-26T12:36:54.279183"
+    },
+    {
+      "id": "6bd21c02a492",
+      "title": "What's new in Zendesk: May 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9186870292250-What-s-new-in-Zendesk-May-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nZendesk Suite\nKnowledge\nAI agents\nAnalytics\nObjects and rules\nZendesk WFM\nZendesk QA\nMessaging\nDeveloper\n\nAlso, don't miss:\n\nZendesk early access progra...",
+      "pub_date": "Fri, 25 Apr 2025 20:51:25 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.505084"
+    },
+    {
+      "id": "0cedb58a5f54",
+      "title": "Announcing support for OAuth refresh token grant type and OAuth access and refresh token expirations",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9182123625370-Announcing-support-for-OAuth-refresh-token-grant-type-and-OAuth-access-and-refresh-token-expirations",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nApril 30, 2025\nApril 30, 2025\nMay 30, 2025\n\n\n\nStarting today, customers can adopt the OAuth refresh token grant type as per the OAuth 2.0 standard, along with support for access and refresh token expiration. Third-party app developers (those publishing inte...",
+      "pub_date": "Thu, 24 Apr 2025 16:31:33 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.710950"
     },
     {
       "id": "1f998af76725",
@@ -1335,7 +1159,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022015"
+      "fetched_at": "2025-08-26T12:36:55.547961"
     },
     {
       "id": "839edacfd864",
@@ -1346,7 +1170,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022147"
+      "fetched_at": "2025-08-26T12:36:55.548144"
     },
     {
       "id": "5a869a53aa23",
@@ -1357,7 +1181,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021964"
+      "fetched_at": "2025-08-26T12:36:55.547893"
     },
     {
       "id": "b38376a1a84d",
@@ -1368,7 +1192,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034025"
+      "fetched_at": "2025-08-26T12:36:54.279198"
     },
     {
       "id": "76e5d6b9fc12",
@@ -1379,7 +1203,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022004"
+      "fetched_at": "2025-08-26T12:36:55.547946"
     },
     {
       "id": "47820e3b25ee",
@@ -1390,7 +1214,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034031"
+      "fetched_at": "2025-08-26T12:36:54.279214"
     },
     {
       "id": "fe790378adc3",
@@ -1401,7 +1225,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022255"
+      "fetched_at": "2025-08-26T12:36:55.548281"
+    },
+    {
+      "id": "95dfed63a34c",
+      "title": "Announcing improvements to User Identities API for trustworthy email verification",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9084978390810-Announcing-improvements-to-User-Identities-API-for-trustworthy-email-verification",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nApril 3, 2025\nApril 3, 2025\nApril 11, 2025\n\n\n\nAs of today, we’re introducing two new properties to the User Identities API that will help provide clarity and trust as to whether a user has verified their email address, including how and when that verificati...",
+      "pub_date": "Mon, 31 Mar 2025 16:28:44 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.711082"
     },
     {
       "id": "fb57e8c3764b",
@@ -1412,7 +1247,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022084"
+      "fetched_at": "2025-08-26T12:36:55.548059"
     },
     {
       "id": "25b440171e5b",
@@ -1423,7 +1258,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022036"
+      "fetched_at": "2025-08-26T12:36:55.547997"
     },
     {
       "id": "6d4f3e12166d",
@@ -1434,7 +1269,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021875"
+      "fetched_at": "2025-08-26T12:36:55.547774"
     },
     {
       "id": "8cf9fbd947bb",
@@ -1445,7 +1280,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021974"
+      "fetched_at": "2025-08-26T12:36:55.547906"
     },
     {
       "id": "98db3f6fc4c4",
@@ -1456,7 +1291,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022055"
+      "fetched_at": "2025-08-26T12:36:55.548022"
+    },
+    {
+      "id": "59d43ac49e7b",
+      "title": "What's new in Zendesk: April 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9067906531994-What-s-new-in-Zendesk-April-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nObjects and rules\nAdmin Center\nAccounts and billing\nKnowledge\nMessaging\nAI agents\nTalk\nExplore\nZendesk QA\nZendesk WFM\nApps and integrations\n\nAlso don't ...",
+      "pub_date": "Wed, 26 Mar 2025 20:30:08 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.505363"
     },
     {
       "id": "8d1855516530",
@@ -1467,7 +1313,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021887"
+      "fetched_at": "2025-08-26T12:36:55.547788"
     },
     {
       "id": "e33a16c223ee",
@@ -1478,29 +1324,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022065"
+      "fetched_at": "2025-08-26T12:36:55.548035"
     },
     {
-      "id": "8df35138da0a",
-      "title": "Announcing new bulk APIs for agent availability with omnichannel routing",
-      "link": "https://support.zendesk.com/hc/en-us/articles/8513847999514-Announcing-new-bulk-APIs-for-agent-availability-with-omnichannel-routing",
-      "description": "Phase\nAnnounced on\nRollout on\n\n\nPhase 1\nDecember 10, 2024\nDecember 10, 2024\n\n\nPhase 2\nMarch 4, 2025\nMarch 4, 2025\n\n\n\nZendesk is excited to announce the release of a new bulk update API that allows admins to update their agent availability values, such as agents' unified status.\nThis announcement inc...",
-      "pub_date": "Tue, 11 Mar 2025 15:22:06 +0000",
+      "id": "2acabdb90537",
+      "title": "Announcing support for OAuth 2.0 Client Credentials grant type",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8983332483226-Announcing-support-for-OAuth-2-0-Client-Credentials-grant-type",
+      "description": "Announced on\nRollout on\n\n\nMarch 4, 2025\nMarch 4, 2025\n\n\n\nStarting today, Zendesk is adding support for the Client Credentials grant type for confidential OAuth clients. \nThis announcement includes the following topics:\n\nWhat's changing?\nWhy is Zendesk making this change?\nWhat do I need to do?\n\nWhat'...",
+      "pub_date": "Tue, 04 Mar 2025 15:33:12 +0000",
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417789"
-    },
-    {
-      "id": "eee0c348591e",
-      "title": "Deprecating the Zopim Chat REST API domain",
-      "link": "https://support.zendesk.com/hc/en-us/articles/7827476398362-Deprecating-the-Zopim-Chat-REST-API-domain",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 19, 2024\nOctober 29, 2024\nMay 12, 2025  \n\n\n\n \nStarting October 29, 2024, Zendesk will update the domain for its Zopim Chat REST API.\nThis announcement includes the following topics:\n\nWhat is changing?\nWhy is Zendesk making this change?\nWhat do I need...",
-      "pub_date": "Tue, 11 Mar 2025 15:01:19 +0000",
-      "source": "Zendesk Developer Updates",
-      "category": "zendesk",
-      "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417820"
+      "fetched_at": "2025-08-26T12:36:53.711141"
     },
     {
       "id": "24852c965396",
@@ -1511,7 +1346,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022130"
+      "fetched_at": "2025-08-26T12:36:55.548120"
     },
     {
       "id": "e77bc3a0fc24",
@@ -1522,7 +1357,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021906"
+      "fetched_at": "2025-08-26T12:36:55.547806"
     },
     {
       "id": "017a5442e706",
@@ -1533,7 +1368,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022183"
+      "fetched_at": "2025-08-26T12:36:55.548192"
+    },
+    {
+      "id": "25eb7c693535",
+      "title": "What's new in Zendesk: March 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8950832095002-What-s-new-in-Zendesk-March-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAI agents\nTalk\nAccounts and billing\nSecurity\nApps and integrations\nQuality assurance\nWorkforce management\nMessaging and third-party channels\nDeveloper\n\n...",
+      "pub_date": "Tue, 25 Feb 2025 21:28:10 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.505531"
     },
     {
       "id": "24b333d33d83",
@@ -1544,7 +1390,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022156"
+      "fetched_at": "2025-08-26T12:36:55.548156"
     },
     {
       "id": "e07ff8097602",
@@ -1555,7 +1401,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022193"
+      "fetched_at": "2025-08-26T12:36:55.548205"
     },
     {
       "id": "babb1806ed3e",
@@ -1566,7 +1412,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034037"
+      "fetched_at": "2025-08-26T12:36:54.279229"
     },
     {
       "id": "1e687ded7ecb",
@@ -1577,7 +1423,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034043"
+      "fetched_at": "2025-08-26T12:36:54.279244"
     },
     {
       "id": "89ed1b402703",
@@ -1588,7 +1434,18 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034049"
+      "fetched_at": "2025-08-26T12:36:54.279260"
+    },
+    {
+      "id": "446bbe5a7fe0",
+      "title": "What's new in Zendesk: February 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8796457413274-What-s-new-in-Zendesk-February-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAccounts and billing\nSecurity\nPeople\nMessaging and AI agents\nExplore\nTalk\nQuality assurance\nNew and notable\n\nAlso don't miss:\n\nZendesk early access prog...",
+      "pub_date": "Tue, 28 Jan 2025 21:12:32 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.505684"
     },
     {
       "id": "54421a47d589",
@@ -1599,7 +1456,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034056"
+      "fetched_at": "2025-08-26T12:36:54.279279"
     },
     {
       "id": "5836873a9559",
@@ -1610,7 +1467,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022247"
+      "fetched_at": "2025-08-26T12:36:55.548269"
+    },
+    {
+      "id": "9a9c08e8a603",
+      "title": "Account settings cdn changes",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8719481720730-Account-settings-cdn-changes",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nJanuary 21, 2025\nFebruary 24, 2025\nFebruary 24, 2025\n\n\n\nThe \"cdn\" key in the Account Show Settings API will show the current default and secondary (fallback) CDN URLs used by the Support agent interface.\nThis announcement includes the following topics:\n\nWha...",
+      "pub_date": "Wed, 15 Jan 2025 20:05:35 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.711210"
     },
     {
       "id": "a58150a6e21a",
@@ -1621,7 +1489,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034062"
+      "fetched_at": "2025-08-26T12:36:54.279294"
     },
     {
       "id": "57098b517eca",
@@ -1632,7 +1500,29 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-08-26T10:34:18.034067"
+      "fetched_at": "2025-08-26T12:36:54.279308"
+    },
+    {
+      "id": "6437520c0eec",
+      "title": "What's new in Zendesk: January 2025",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8566042707994-What-s-new-in-Zendesk-January-2025",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nObjects and rules\nAccounts and billing\nSecurity\nGuide\nIntegrations\nMessaging\nTalk\nExplore\nZendesk WFM\nDeveloper\nNew and notable\n\nAlso don't miss:\n\nZende...",
+      "pub_date": "Wed, 18 Dec 2024 16:35:17 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.505872"
+    },
+    {
+      "id": "8f651bd038de",
+      "title": "Announcing new bulk APIs for agent availability with omnichannel routing",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8513847999514-Announcing-new-bulk-APIs-for-agent-availability-with-omnichannel-routing",
+      "description": "Phase\nAnnounced on\nRollout on\n\n\nPhase 1\nDecember 10, 2024\nDecember 10, 2024\n\n\nPhase 2\nMarch 4, 2025\nMarch 4, 2025\n\n\n\nZendesk is excited to announce the release of a new bulk update API that allows admins to update their agent availability values, such as agents' unified status.\nThis announcement inc...",
+      "pub_date": "Mon, 09 Dec 2024 17:29:07 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.711276"
     },
     {
       "id": "fc1ecd2aa23a",
@@ -1643,40 +1533,150 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.022236"
+      "fetched_at": "2025-08-26T12:36:55.548255"
     },
     {
-      "id": "dc5b70159d8a",
+      "id": "39ab49d7a190",
+      "title": "What's new in Zendesk: December 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8447930673946-What-s-new-in-Zendesk-December-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nAI agents (Ultimate)\nObjects and rules\nIntegrations\nExplore\nZendesk QA\nZendesk WFM\nAI agents (Zendesk)\nNew and notable\n\nAlso don't miss:\n\nZendesk early ...",
+      "pub_date": "Wed, 27 Nov 2024 17:18:14 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.506009"
+    },
+    {
+      "id": "5469c80992ff",
+      "title": "Announcing the removal of OAuth 2.0 grant types for Support",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8302546989466-Announcing-the-removal-of-OAuth-2-0-grant-types-for-Support",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 27, 2024\nAugust 27, 2024\nFebruary 17, 2025\n\n\n\nIn alignment with OAuth 2.0 best practices, Zendesk will stop accepting implicit and password grants for access tokens starting February 17, 2025, for Zendesk Support only. This removal does not apply to ...",
+      "pub_date": "Fri, 01 Nov 2024 21:02:11 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.711341"
+    },
+    {
+      "id": "32a29d8a3561",
+      "title": "Deprecation of OAuth access token reference path in ZIS",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8263007584026-Deprecation-of-OAuth-access-token-reference-path-in-ZIS",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nOctober 28, 2024\nDecember 5, 2024\nDecember 5, 2024\n\n\n\nWe’re announcing an upcoming update to the way that OAuth connections can be referenced within Zendesk Integration Services (ZIS) flows and custom actions.\nThis announcement includes the following topics...",
+      "pub_date": "Fri, 25 Oct 2024 16:00:21 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.711383"
+    },
+    {
+      "id": "9d99e61a1870",
+      "title": "What's new in Zendesk: November 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8262911521690-What-s-new-in-Zendesk-November-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nObjects and rules\nAdmin Center\nPeople\nMessaging and AI agents\nGuide\nZendesk QA\nZendesk WFM\nSecurity\nIntegrations\n\nAlso don't miss:\n\nZendesk early access...",
+      "pub_date": "Fri, 25 Oct 2024 15:42:58 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.506207"
+    },
+    {
+      "id": "d85f427c943e",
       "title": "Introducing the Redirect Rules API",
       "link": "https://support.zendesk.com/hc/en-us/articles/8157433800090-Introducing-the-Redirect-Rules-API",
       "description": "Announced on\nRollout starts\nRollout ends\n\n\nOctober 21, 2024\nOctober 21, 2024\nOctober 21, 2024\n\n\n\nZendesk is excited to announce the launch of the Redirect Rules API, designed to enhance your ability to manage page redirects for objects or URLs that return an HTTP 404 response. This functionality is ...",
-      "pub_date": "Wed, 23 Oct 2024 16:11:51 +0000",
+      "pub_date": "Mon, 07 Oct 2024 18:06:29 +0000",
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417847"
+      "fetched_at": "2025-08-26T12:36:53.711422"
     },
     {
-      "id": "07b2fdcf4263",
-      "title": "Help Center API - Localized inline attachments",
-      "link": "https://support.zendesk.com/hc/en-us/articles/7761141483546-Help-Center-API-Localized-inline-attachments",
-      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 20, 2024\nAugust 20, 2024\nAugust 20, 2024\n\n\n\nInline article attachments are being localized, meaning they are now associated with a specific translation of an article rather than the article itself. This change enables the embedding of localized attac...",
-      "pub_date": "Tue, 27 Aug 2024 15:07:01 +0000",
+      "id": "a04d09330697",
+      "title": "What's new in Zendesk: October 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/8081588839194-What-s-new-in-Zendesk-October-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nAdmin Center\nObjects and rules\nAccounts and billing\nSecurity\nSupport\nMessaging and bots\nGuide\nExplore\nZendesk QA\nZendesk WFM\nNew and notable\n\nAlso don't miss:\n\n...",
+      "pub_date": "Tue, 24 Sep 2024 20:25:07 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.506420"
+    },
+    {
+      "id": "2bec4f35b92a",
+      "title": "What's new in Zendesk: September 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/7901336003098-What-s-new-in-Zendesk-September-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nObjects and rules\nAccounts and billing\nPeople\nAgent Workspace\nSupport\nExplore\nZendesk WFM\nAI agents and bots\nSecurity\nDeveloper\n\nAlso don't miss:\n\nZendesk early...",
+      "pub_date": "Tue, 27 Aug 2024 22:57:42 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.506616"
+    },
+    {
+      "id": "537fe80d9e24",
+      "title": "Deprecating the Zopim Chat REST API domain",
+      "link": "https://support.zendesk.com/hc/en-us/articles/7827476398362-Deprecating-the-Zopim-Chat-REST-API-domain",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 19, 2024\nOctober 29, 2024\nMay 12, 2025  \n\n\n\n \nStarting October 29, 2024, Zendesk will update the domain for its Zopim Chat REST API.\nThis announcement includes the following topics:\n\nWhat is changing?\nWhy is Zendesk making this change?\nWhat do I need...",
+      "pub_date": "Fri, 16 Aug 2024 17:04:08 +0000",
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417869"
+      "fetched_at": "2025-08-26T12:36:53.711466"
     },
     {
-      "id": "0c2c36807a52",
+      "id": "19e4e4287893",
       "title": "Announcing Public API for Media",
       "link": "https://support.zendesk.com/hc/en-us/articles/7821491779354-Announcing-Public-API-for-Media",
       "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 19, 2024\nAugust 20, 2024\nAugust 20, 2024\n\n\n\nZendesk is excited to announce the Public API for Media, a solution designed to streamline the interaction and management of images and article attachments through external integrations based on REST API.\nT...",
-      "pub_date": "Tue, 20 Aug 2024 15:04:00 +0000",
+      "pub_date": "Thu, 15 Aug 2024 20:20:48 +0000",
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-08-26T10:34:17.417897"
+      "fetched_at": "2025-08-26T12:36:53.711503"
+    },
+    {
+      "id": "f39b76486e57",
+      "title": "Help Center API - Localized inline attachments",
+      "link": "https://support.zendesk.com/hc/en-us/articles/7761141483546-Help-Center-API-Localized-inline-attachments",
+      "description": "Announced on\nRollout starts\nRollout ends\n\n\nAugust 20, 2024\nAugust 20, 2024\nAugust 20, 2024\n\n\n\nInline article attachments are being localized, meaning they are now associated with a specific translation of an article rather than the article itself. This change enables the embedding of localized attac...",
+      "pub_date": "Tue, 06 Aug 2024 16:22:47 +0000",
+      "source": "Zendesk Developer Updates",
+      "category": "zendesk",
+      "colour": "info",
+      "fetched_at": "2025-08-26T12:36:53.711540"
+    },
+    {
+      "id": "4facd504ca57",
+      "title": "What's new in Zendesk: August 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/7698503636250-What-s-new-in-Zendesk-August-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nGuide\nExplore\nAI agents (formerly Zendesk bots)\nAdmin Center\nSecurity\nTalk\nZendesk QA\nZendesk WFM\nDevelopers\nNew and notable content\n\nAlso don't miss:\n\n...",
+      "pub_date": "Fri, 26 Jul 2024 13:22:17 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.506934"
+    },
+    {
+      "id": "cba97dcb8b0f",
+      "title": "What's new in Zendesk: July 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/7496117864474-What-s-new-in-Zendesk-July-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\n\nAccounts and billing\nAdmin Center\nGuide\nMessaging and bots\nTalk\nZendesk QA\nApps\nSecurity\n\n\nAlso don't miss:\n\nZendesk early access programs\nWhat's New quarterly...",
+      "pub_date": "Wed, 26 Jun 2024 01:10:49 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.507105"
+    },
+    {
+      "id": "274c281bd0cd",
+      "title": "What's new in Zendesk: June 2024",
+      "link": "https://support.zendesk.com/hc/en-us/articles/7334819842714-What-s-new-in-Zendesk-June-2024",
+      "description": "Click Follow in the What's New section to be notified each month when the What's New is published.\nCheck out what's new in the last month:\n\nSupport\nGuide\nExplore\nAI agents (formerly Zendesk bots)\nZendesk WFM\nSuite\nAdmin Center\nSecurity\n\nAlso don't miss:\n\nZendesk early access programs\nWhat's New quar...",
+      "pub_date": "Tue, 28 May 2024 16:35:14 +0000",
+      "source": "Zendesk What's New",
+      "category": "zendesk",
+      "colour": "success",
+      "fetched_at": "2025-08-26T12:36:53.507270"
     },
     {
       "id": "4f7b9c2c92ac",
@@ -1687,9 +1687,20 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-08-26T10:34:16.887435"
+      "fetched_at": "2025-08-26T12:36:53.216276"
     }
   ],
+  "latest_release_notes": {
+    "id": "ddd63cbc19e6",
+    "title": "Release notes through 2025-08-22",
+    "link": "https://support.zendesk.com/hc/en-us/articles/9637232938138-Release-notes-through-2025-08-22",
+    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nAI Agents Advanced\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve introduced the ability for admins to add existing macros in auto assist procedures. This means that aut...",
+    "pub_date": "Mon, 25 Aug 2025 15:56:10 +0000",
+    "source": "Zendesk Release Notes",
+    "category": "zendesk",
+    "colour": "warning",
+    "fetched_at": "2025-08-26T12:36:53.953164"
+  },
   "today": [
     {
       "id": "3a34743eef96",
@@ -1700,7 +1711,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-08-26T10:34:18.280959"
+      "fetched_at": "2025-08-26T12:36:54.554307"
     }
   ],
   "yesterday": [
@@ -1713,29 +1724,18 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021897"
+      "fetched_at": "2025-08-26T12:36:55.547819"
     },
     {
-      "id": "6b864a3ae58f",
+      "id": "ddd63cbc19e6",
       "title": "Release notes through 2025-08-22",
       "link": "https://support.zendesk.com/hc/en-us/articles/9637232938138-Release-notes-through-2025-08-22",
       "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nAI Agents Advanced\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve introduced the ability for admins to add existing macros in auto assist procedures. This means that aut...",
-      "pub_date": "Mon, 25 Aug 2025 16:08:07 +0000",
+      "pub_date": "Mon, 25 Aug 2025 15:56:10 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672361"
-    },
-    {
-      "id": "fb577b785bf9",
-      "title": "Release notes through 2025-08-15",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9611535601562-Release-notes-through-2025-08-15",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAdmin Center\nCopilot\nMobile\nApp Marketplace\nProducts with no updates this week\nAdmin CenterNew:As part of the removal of support for password access for API authentication, we've proactively turned ...",
-      "pub_date": "Mon, 25 Aug 2025 15:54:29 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:17.672430"
+      "fetched_at": "2025-08-26T12:36:53.953164"
     },
     {
       "id": "736054e19187",
@@ -1746,7 +1746,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021764"
+      "fetched_at": "2025-08-26T12:36:55.547646"
     },
     {
       "id": "96d1aeacb92d",
@@ -1757,7 +1757,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-08-26T10:34:19.021798"
+      "fetched_at": "2025-08-26T12:36:55.547704"
     }
   ]
 }

@@ -139,6 +139,37 @@ class RSSPageGenerator:
         
         return '\n            '.join(formatted_lines)
     
+    def generate_release_notes_panel(self, summaries):
+        """Generate the dedicated release notes panel"""
+        release_notes = summaries.get('release_notes', {})
+        
+        if not release_notes or not release_notes.get('summary'):
+            return ""
+        
+        article = release_notes.get('article', {})
+        summary = release_notes.get('summary', '')
+        title = article.get('title', '').replace('Release notes through ', '')
+        link = article.get('link', '#')
+        
+        return f"""<!-- Latest Zendesk Release Notes -->
+<div class="release-notes-panel mb-4">
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">
+                <i class="fas fa-clipboard-list"></i> Latest Zendesk Release Notes
+                <span class="float-right badge badge-light">{title}</span>
+            </h5>
+        </div>
+        <div class="card-body">
+            <p class="mb-2"><strong>Key Changes:</strong> {summary}</p>
+            <a href="{link}" class="btn btn-sm btn-outline-primary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> View Full Release Notes
+            </a>
+        </div>
+    </div>
+</div>
+"""
+    
     def generate_page_content(self, articles, summaries, stats):
         """Generate the complete RSS feeds page content"""
         now = datetime.now()
@@ -165,6 +196,8 @@ background: grey
         <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
     </div>
 </div>
+
+{self.generate_release_notes_panel(summaries)}
 
 <!-- Latest Summary (Last 48 Hours) -->
 <div class="summary-section mb-5">
