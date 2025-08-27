@@ -232,9 +232,12 @@ permalink: /gradients/
     }
     
     function updateAllGradients() {
+        console.log('updateAllGradients called');
         const color1 = document.getElementById('startColorText').value;
         const color2 = document.getElementById('endColorText').value;
         const weight = parseInt(document.getElementById('blendSlider').value) / 100;
+        
+        console.log('Colors:', color1, color2, 'Weight:', weight);
         
         // Update blend value display
         document.getElementById('blendValue').textContent = Math.round(weight * 100) + '%';
@@ -284,7 +287,18 @@ permalink: /gradients/
             stops.push(`${hex} ${percent}%`);
         }
         
-        document.documentElement.style.setProperty('--gradient-stops', stops.join(', '));
+        const gradientStops = stops.join(', ');
+        console.log('Setting gradient stops:', gradientStops);
+        document.documentElement.style.setProperty('--gradient-stops', gradientStops);
+        
+        // Also try setting it directly on the element
+        const blendedElement = document.getElementById('blendedGradient');
+        if (blendedElement) {
+            blendedElement.style.background = `linear-gradient(to right, ${gradientStops})`;
+            console.log('Set background directly on blended element');
+        } else {
+            console.error('blendedGradient element not found!');
+        }
     }
     
     
@@ -317,6 +331,17 @@ permalink: /gradients/
     
     document.getElementById('blendSlider').addEventListener('input', updateAllGradients);
     
-    // Wait for page load
-    document.addEventListener('DOMContentLoaded', updateAllGradients);
+    // Wait for page load and add debugging
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOM loaded, running updateAllGradients');
+        updateAllGradients();
+    });
+    
+    // Fallback in case DOMContentLoaded already fired
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', updateAllGradients);
+    } else {
+        console.log('DOM already ready, running updateAllGradients immediately');
+        updateAllGradients();
+    }
 </script>
