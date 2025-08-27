@@ -44,12 +44,12 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 13:40 today | <a href="/news-2025-08-27/">Permanent link</a></small>
+            <small class="text-muted">Generated at 14:00 today | <a href="/news-2025-08-27/">Permanent link</a></small>
         </div>
         <div class="summary-content">
-<p><strong>Critical</strong>: 0-day vulnerability [6,7], Accounts hijacked [6,7]</p>
-            <p><strong>Latest</strong>: End User Separation EAP [2], trigger redaction [3], OAuth in Admin [3], WhatsApp Flows API [Zendesk Announcements]</p>
-            <p><strong>Meanwhile</strong>: Former HQ to auction [1,4], Zendesk killer gets funding [Google News - Zendesk]</p>
+<p><strong>Critical</strong>: 0-day vulnerability <a href="#latest-article-6" class="ref-link" data-section="latest"><a href="#latest-article-6" class="ref-link" data-section="latest">[6]</a></a>, <a href="#latest-article-7" class="ref-link" data-section="latest"><a href="#latest-article-7" class="ref-link" data-section="latest">[7]</a></a>, Accounts hijacked <a href="#latest-article-6" class="ref-link" data-section="latest"><a href="#latest-article-6" class="ref-link" data-section="latest">[6]</a></a>, <a href="#latest-article-7" class="ref-link" data-section="latest"><a href="#latest-article-7" class="ref-link" data-section="latest">[7]</a></a></p>
+            <p><strong>Latest</strong>: End User Separation EAP <a href="#latest-article-2" class="ref-link" data-section="latest">[2]</a>, trigger redaction <a href="#latest-article-3" class="ref-link" data-section="latest">[3]</a>, OAuth in Admin <a href="#latest-article-3" class="ref-link" data-section="latest">[3]</a>, WhatsApp Flows API [Zendesk Announcements]</p>
+            <p><strong>Meanwhile</strong>: Former HQ to auction <a href="#latest-article-1" class="ref-link" data-section="latest"><a href="#latest-article-1" class="ref-link" data-section="latest">[1]</a></a>, <a href="#latest-article-4" class="ref-link" data-section="latest"><a href="#latest-article-4" class="ref-link" data-section="latest">[4]</a></a>, Zendesk killer gets funding [Google News - Zendesk]</p>
         </div>
         <div class="share-buttons mt-2">
             <small>Share: 
@@ -61,7 +61,7 @@ background: grey
     </div>
 
     <div class="date-articles">
-        <article class="feed-item border-bottom py-3">
+        <article id="latest-article-1" class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
@@ -77,7 +77,7 @@ background: grey
                 </div>
             </div>
         </article>
-        <article class="feed-item border-bottom py-3">
+        <article id="latest-article-2" class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9641393017242-Announcing-the-End-User-Separation-EAP-for-department-spaces" class="text-dark">Announcing the End User Separation EAP for department spaces</a>
                 <span class="source-badge">Zendesk Announcements</span>
@@ -86,7 +86,7 @@ background: grey
                 <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>
-        <article class="feed-item border-bottom py-3">
+        <article id="latest-article-3" class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/automated-ticket-redaction/" class="text-dark">Automated ticket redaction via triggers in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -95,7 +95,7 @@ background: grey
                 <i class="far fa-clock"></i> recently
             </small>
         </article>
-        <article class="feed-item border-bottom py-3">
+        <article id="latest-article-4" class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNpdW1mY3FOMDJnRF9NSVJVNU1yaUNpQklnM0tXcmROdXF1Y1BrR0tkcHVrN0RwWjR2eXFwOXRKQVNLWElHQ1pQWHlKMnpma0xjYTU1OTY2ZC15LUlGVmNqZ056cVE0X0s1aHhEQkZwRDJwS0NkM09mRTE5eFp2d210WUpVQnlpVGhIZzVNTmdrNnBpNDVUaHN6SzRIZUE?oc=5" class="text-dark">Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value - San Francisco Chronicle</a>
                 
@@ -104,7 +104,7 @@ background: grey
                 <i class="far fa-clock"></i> recently
             </small>
         </article>
-        <article class="feed-item border-bottom py-3">
+        <article id="latest-article-5" class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
                 
@@ -113,7 +113,7 @@ background: grey
                 <i class="far fa-clock"></i> recently
             </small>
         </article>
-        <article class="feed-item border-bottom py-3">
+        <article id="latest-article-6" class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5neVRMZEgzQUNQMUt5NF9LMmo0d19VWlpNVFdLUHlOWlNGdWhqbnpPX2pWQjRoSi1iSWl4STRmZkxkaF85RlhlTXB6b25FMmZ1X19Sc0Vn0gFbQVVfeXFMTlJoX05lRmhTX0lkYk5GcVlidDFhNnV1dFRwVFRpOEl0Yl9vSEI0ZllxU2RPckU2MVVRdkxKQWZTNTBkUkZlbGhGY21VRGU1VzhpT3VNMlFGUlFJSQ?oc=5" class="text-dark">0-Click Zendesk Flaw Lets Hackers Hijack Accounts and View All Tickets - GBHackers News</a>
                 
@@ -139,9 +139,9 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Critical</strong>: 0-day vulnerability [1], Multiple pods: adherence issue (Jul 25) [2], QA assignments stuck (Aug 4) [3]</p>
-            <p><strong>This week</strong>: TTEC and Zendesk partnership [1], dynamic filtering for lookups [2], WhatsApp Flows API [5], Exchange/Gmail import enhancements [7]</p>
-            <p><strong>Meanwhile</strong>: Zendesk QA user management moved [9]</p>
+<p><strong>Critical</strong>: 0-day vulnerability <a href="#week-article-1" class="ref-link" data-section="week">[1]</a>, Multiple pods: adherence issue (Jul 25) <a href="#week-article-2" class="ref-link" data-section="week">[2]</a>, QA assignments stuck (Aug 4) <a href="#week-article-3" class="ref-link" data-section="week">[3]</a></p>
+            <p><strong>This week</strong>: TTEC and Zendesk partnership <a href="#week-article-1" class="ref-link" data-section="week">[1]</a>, dynamic filtering for lookups <a href="#week-article-2" class="ref-link" data-section="week">[2]</a>, WhatsApp Flows API <a href="#week-article-5" class="ref-link" data-section="week">[5]</a>, Exchange/Gmail import enhancements <a href="#week-article-7" class="ref-link" data-section="week">[7]</a></p>
+            <p><strong>Meanwhile</strong>: Zendesk QA user management moved <a href="#week-article-9" class="ref-link" data-section="week">[9]</a></p>
         </div>
     </div>
 
@@ -152,63 +152,63 @@ background: grey
             </a>
         </small>
         <div class="collapse" id="week-list">
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-1" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMihgNBVV95cUxPRGp4OURhTmR4Nm9mZlFBdGhLS1Rqd0QyU2xiSzBFYjBVR0VwTl9MN3QzMHJSY01BTXlWbjhYazMyZThid0V1Umh2Q2ZMaTRvd2xLMGFDeFc4aGs2MW85NmdZMDdsbGs0S2VuandWUURaVzZxN09MRWJhVnpUcHhyaUd5dGNITWZwSXpaQ2U2RmFVb3BReE1QdGluYlFLS0tNZEM4cEdOZjdEVTc5Z013aUxxOENZeV9lbjlpTU11TG42QndfT0pmX1o0ZnBLd2pqV1YzTld3ellVNjc0ZmFFTTZXa0d6cERFZ29USm5WRGYxQU5tQktOZVl0dFcyT2d1VHJQeVZQcE0tZmYyNkpoWHI5Y1hzYVlOeFA4NWtDTFpRVFNBZnN3X3hsWjhzeUFyeXdDUzl0Z3dhaDJHODBHYTZaUkhGRWVOME5hY1JVNHQ2V25XMkl2WDZ2ZW45NlRZWnVVbzlWNWdrT3lfWUxzbzVoRjdjb3RweEFOM1d0RDlSZHU4Umc?oc=5" class="text-dark">TTEC, Zendesk Team Up to Deliver Full-Stack, AI-Driven Customer Experience Solutions - MSN</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-2" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9627544817434-Announcing-enhanced-dynamic-filtering-for-lookup-relationships" class="text-dark">Announcing enhanced dynamic filtering for lookup relationships</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 4 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-3" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP" class="text-dark">Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 4 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-4" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9561647544986-Service-Incident-August-04-2025-Zendesk-QA-Assignments-stuck-on-pending-on-multiple-workspaces-for-several-accounts" class="text-dark">Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 5 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-5" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9623389594010-Announcing-API-support-for-WhatsApp-Flows" class="text-dark">Announcing API support for WhatsApp Flows</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 5 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-6" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9548399427994-Service-Incident-July-31-2025-All-Pods-Zendesk-Sales-Performance-degradation-and-failing-calls" class="text-dark">Service Incident - July 31, 2025 - All Pods | Zendesk Sales - Performance degradation and failing calls</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 6 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-7" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9620124154522-Announcing-import-enhancements-for-the-Exchange-and-Gmail-connectors" class="text-dark">Announcing import enhancements for the Exchange and Gmail connectors</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 6 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-8" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance" class="text-dark">[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 6 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="week-article-9" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9618795149466-Announcing-the-move-of-Zendesk-QA-user-and-license-management-to-Zendesk-Admin-Center" class="text-dark">Announcing the move of Zendesk QA user and license management to Zendesk Admin Center</a>
                     <span class="source-badge">Zendesk Announcements</span>
@@ -227,6 +227,18 @@ background: grey
         <span class="badge badge-info ml-2">37 articles</span>
     </h2>
     
+    <div class="claude-summary mb-4">
+        <div class="summary-header">
+            <h4><i class="fas fa-robot text-info"></i> Monthly Overview</h4>
+            <small class="text-muted">Generated this morning</small>
+        </div>
+        <div class="summary-content">
+<p><strong>Critical</strong>: QA access issues & 5xx errors <a href="#month-article-1" class="ref-link" data-section="month">[1]</a>, Account integration issue <a href="#month-article-8" class="ref-link" data-section="month">[8]</a>, Workflow disruptions <a href="#month-article-10" class="ref-link" data-section="month">[10]</a>, AI Agent delays <a href="#month-article-11" class="ref-link" data-section="month">[11]</a></p>
+            <p><strong>This month</strong>: Announcing email authentication <a href="#month-article-5" class="ref-link" data-section="month">[5]</a>, External OAuth page in Admin Center <a href="#month-article-7" class="ref-link" data-section="month">[7]</a>, Excluded terms for AI translations <a href="#month-article-18" class="ref-link" data-section="month">[18]</a></p>
+            <p><strong>Meanwhile</strong>: 'Zendesk killer' gets funding <a href="#month-article-2" class="ref-link" data-section="month">[2]</a>, Zendesk boosts support with GPT-5 <a href="#month-article-13" class="ref-link" data-section="month">[13]</a>, Expands to meet AI demand <a href="#month-article-14" class="ref-link" data-section="month">[14]</a>, Adopts outcome-based pricing <a href="#month-article-19" class="ref-link" data-section="month">[19]</a></p>
+        </div>
+    </div>
+    
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#month-list" class="text-decoration-none">
@@ -234,210 +246,210 @@ background: grey
             </a>
         </small>
         <div class="collapse" id="month-list">
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-1" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 7 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-2" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJiSzVyRDNkZGJJN05nOUs0U1o3bU5SR2RwMWktd1JLVVpiQkxBbmxob2R1NUFSbXI2SEEyUXZPWjIzaThVOHM0OGFXdTZ3UWxLWEZCRlRSS0thLUN3S0JWOFlNc2ZkcldVZ00ycXJWcWpZM0UtU0d2UlRkYjVFbzI2YXMzRk9FSVV3ZDVoRjBxY1VPQ3h3?oc=5" class="text-dark">Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-3" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://internalnote.com/value-added-conversations/" class="text-dark">Moving Toward Value-Added Conversations in Zendesk</a>
                     <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-4" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9611518490650-Announcing-a-new-approach-to-email-authentication" class="text-dark">Announcing a new approach to email authentication</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 8 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-5" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlB4RjdHZURxeW8zM05JLWtnbDNnc2VnbjdYdEE2aFFHc3JZbWdaaWs4dThRbGJ3azdNM2dENUJvMkxVZklFZnByUnR4WlJWbkVnM094c0x4bS1SclJqMEpISlhxQlE5d3VQWXAzU2pOWG1YVk4tT1lIaGFobVJEc1Z4RFI3UFlWdFNpX3MweVl3NThMYnRNZWNFdkFyY19qQVhmeWh3?oc=5" class="text-dark">Beyond the bot: a blueprint for people-first automation - Raconteur</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-6" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9601885707802-Announcing-the-new-external-Oauth-page-in-Admin-Center" class="text-dark">Announcing the new external Oauth page in Admin Center</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 11 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-7" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9597887995546-Service-Incident-August-14-2025-Multiple-Pods-SunCo-Meta-apps-account-integration-issue" class="text-dark">Service Incident - August 14, 2025 - Multiple Pods | SunCo - Meta apps account integration issue</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 12 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-8" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxONGFZaDc5Ylh0cVNRbHVwdnkzQl95Y0VxaTIzcEdveHN4WWl6T2hSb1QxcVNPd25jN08tWmxxLUp1YlpBR250RTk4MHR5Y0tSZEtERzFDQ0YtTWpobUtpbGRQek5lU2xCNkdyQk9fdXZSbVY2empwbk1mVXhXdm9pWHNXNmY0enplWUZaczhwWGRpRURvMzVXNmNxTQ?oc=5" class="text-dark">Zendesk CTO on the new era of customer experience - Computer Weekly</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-9" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge" class="text-dark">Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 12 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-10" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 13 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-11" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://internalnote.com/help-desk-migration-migrate-merge-and-consolidate-your-zendesk-data-sponsor/" class="text-dark">Help Desk Migration: Migrate, Merge, and Consolidate your Zendesk data (sponsor)</a>
                     <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-12" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPT3d4aENIQ05DVmttSmk3NXFmYk05azQzdUt3WGxUNnlWOFBLaXFIV3ZLWjFSTjhfaWl3bG13cHFQV25JTWhZNkRSblNfMjJSRzFIQjZGVnlNZWZDYUszVzVLeUIxZ3VjWDMwMlVOa013d3ZNSl9fWXlHVUs5blB1bkgtSzh3QlJFSEtGZkNDanJxY2RRcmlDQg?oc=5" class="text-dark">Zendesk Boosts Customer Support Efficiency with GPT-5 Integration - Small Business Trends</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-13" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQUDhKNmJCYVdqRlpmWHVRcEFSdWozY1JIb1dqOTJ0dDJtNG9VbHI2dl9rS3lwOXh4OENOdDQtWERjUjRGTW1wbXJOMXNqX3dJSFdCTkJINEVyVWtiaE96NWYydm5IUWp3ZUZIZGJrOEpGejRSbzRBWTVKLU5PdmhYeTZKWEs?oc=5" class="text-dark">Zendesk Expands to Meet Rising AI-Driven Demand - Nearshore Americas</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-14" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9590471542170-Developer-update-Enhanced-security-guidelines-for-third-party-apps-integrations-and-bots" class="text-dark">Developer update: Enhanced security guidelines for third-party apps, integrations, and bots</a>
                     <span class="source-badge">Zendesk Developer Updates</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 14 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-15" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://internalnote.com/instructions-for-agent-copilot/" class="text-dark">Instructions for Zendesk Agent Copilot auto-assist</a>
                     <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-16" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9585841888410-Announcing-the-excluded-terms-enhancement-to-AI-generated-translations" class="text-dark">Announcing the excluded terms enhancement to AI-generated translations</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 16 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-17" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNb3FSNnpURW1rYjM0VHpSSmp3VDFSLWVESlJUajRmcnozVEticUM3WGdUM1pfY25WelRSOXgyNnN5Vm9Qb0ZHalJydGZDVlhLOWstNl9YVC1RQVVFYkk1N05oVVFrZGE4dWpYQzBPeHJrbDVsSEhwbVpPSS16MG9WTGI4TmxKSGZmMjQwNDlsSVR1RGJ5aWpoeU1JV1JSYmNLN1E?oc=5" class="text-dark">Zendesk's Adoption of Outcome-based Pricing Model - Permira</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-18" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGNhbzFOY3BfVi1GdE15VGN6YnBFTU8zMEEyT1Q3MlNHOFU5Q1JYSDdGR0hBSVJjdFRkaDZQMEoybENYYlNEbUJTd0U3SjVNcFNPbzBzb0UyOEVEblRPX1NPeGt3YUpaWmxVaXhPaDdoYzI2S3RHMzl3eHJvdDlwZEJYVk4xcUVXNGs2aTFVaE4xd3g3NHhKSk1iaVFqREpRT0VhQllISjFVend4MUE?oc=5" class="text-dark">US firm Zendesk ups LatAm investments to capture momentum in AI agents - BNamericas</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-19" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9573998909466-Announcing-the-Marketplace-partner-developer-support" class="text-dark">Announcing the Marketplace partner developer support</a>
                     <span class="source-badge">Zendesk Developer Updates</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 19 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-20" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://news.google.com/rss/articles/CBMiR0FVX3lxTFBIZlA0SzhMWkhRdW9yNkFpcmNVNVpHS1ljcnAzN05kRE5STUlaQlZNSFpIVnhTbFNlYV9qNjk4OFEtV1JadmNV?oc=5" class="text-dark">Duo Protection for Zendesk with Duo Access Gateway - Duo Security</a>
                     
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-21" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9511069653274-Service-Incident-July-22-2025-Multiple-Pods-Let-s-Encrypt-Unavailable-Due-to-Internal-DNS-Server-Outage" class="text-dark">Service Incident - July 22, 2025 - Multiple Pods | Let's Encrypt Unavailable Due to Internal DNS Server Outage</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 20 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-22" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9520482459418-Service-Incident-July-24-2025-All-Pods-AI-Agents-content-page-is-broken" class="text-dark">Service Incident - July 24, 2025 - All Pods | AI Agents content page is broken</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 20 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-23" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9567151199130-Announcing-macros-for-auto-assist-suggestions" class="text-dark">Announcing macros for auto assist suggestions</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 21 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-24" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://internalnote.com/zendesk-news-roundup-for-august-2025/" class="text-dark">Zendesk News Roundup for August 2025</a>
                     <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-25" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9509357722266-Service-Incident-July-21-2025-Pod-18-Support-inbound-and-outbound-email-processing-has-been-halted" class="text-dark">Service Incident - July 21, 2025 - Pod 18 | Support inbound and outbound email processing has been halted</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 22 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-26" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9561388533018-Announcing-enhanced-security-guidelines-for-third-party-apps-integrations-and-bots" class="text-dark">Announcing enhanced security guidelines for third-party apps, integrations, and bots</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 22 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-27" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://www.zendesk.com/newsroom/press-releases/global-survey-reveals-growing-consumer-trust-in-personal-ai-assistants/" class="text-dark">Global survey reveals growing consumer trust in personal AI assistants</a>
                     <span class="source-badge">Zendesk Press Releases</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 28 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-28" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9468397875482-Service-Incident-July-10th-2025-All-Zendesk-instances-inaccessible-due-to-domain-block-in-Turkey" class="text-dark">Service Incident - July 10th, 2025 | All Zendesk instances inaccessible due to domain block in Turkey</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 28 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-29" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9539350542362-Announcing-quick-answers-availability-to-all-Suite-and-Knowledge-customers" class="text-dark">Announcing quick answers availability to all Suite and Knowledge customers</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> 28 days ago</small>
             </article>
-            <article class="feed-item border-bottom py-2 mt-3">
+            <article id="month-article-30" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="https://internalnote.com/whats-new-in-zendesk-ai-for-the-help-center/" class="text-dark">What’s new in Zendesk AI for the Help Center</a>
                     <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -474,3 +486,71 @@ background: grey
         </div>
     </div>
 </div>
+
+<!-- JavaScript for reference links -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Handle reference link clicks
+    document.querySelectorAll('.ref-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                // Check if element is in a collapsed section
+                const collapse = targetElement.closest('.collapse');
+                if (collapse && !collapse.classList.contains('show')) {
+                    // Expand the section first
+                    $(collapse).collapse('show');
+                    
+                    // Wait for animation then scroll
+                    setTimeout(() => {
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        // Highlight the article briefly
+                        targetElement.style.backgroundColor = '#fff3cd';
+                        setTimeout(() => {
+                            targetElement.style.transition = 'background-color 1s';
+                            targetElement.style.backgroundColor = '';
+                        }, 1000);
+                    }, 350);
+                } else {
+                    // Already visible, just scroll
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    // Highlight the article briefly
+                    targetElement.style.backgroundColor = '#fff3cd';
+                    setTimeout(() => {
+                        targetElement.style.transition = 'background-color 1s';
+                        targetElement.style.backgroundColor = '';
+                    }, 1000);
+                }
+            }
+        });
+    });
+    
+    // Update chevron icons when collapsing/expanding
+    $('.collapse').on('show.bs.collapse', function() {
+        $(this).parent().find('.fa-chevron-right').first()
+            .removeClass('fa-chevron-right')
+            .addClass('fa-chevron-down');
+    });
+    
+    $('.collapse').on('hide.bs.collapse', function() {
+        $(this).parent().find('.fa-chevron-down').first()
+            .removeClass('fa-chevron-down')
+            .addClass('fa-chevron-right');
+    });
+});
+</script>
+
+<style>
+.ref-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ref-link:hover {
+    text-decoration: underline;
+}
+</style>

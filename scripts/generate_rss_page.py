@@ -113,8 +113,40 @@ class RSSPageGenerator:
             </small>
         </article>"""
     
-    def format_claude_summary(self, summary_text, articles=None):
-        """Format Claude summary for HTML"""
+    def convert_references_to_links(self, summary_text, articles, section_id):
+        """Convert [N] references to HTML links pointing to specific articles"""
+        if not articles:
+            return summary_text
+        
+        import re
+        
+        # First handle combined references like [1,2] by splitting them  
+        combined_refs = re.findall(r'\[(\d+(?:,\d+)+)\]', summary_text)
+        for combined in combined_refs:
+            refs = combined.split(',')
+            # Replace with individual linked references but check bounds
+            valid_refs = [r for r in refs if int(r) <= len(articles)]
+            if valid_refs:
+                replacement = ', '.join([f'<a href="#{section_id}-article-{r}" class="ref-link" data-section="{section_id}">[{r}]</a>' 
+                                        for r in valid_refs])
+            else:
+                replacement = f'[{combined}]'  # Keep original if no valid refs
+            summary_text = summary_text.replace(f'[{combined}]', replacement)
+        
+        # Convert each single [N] reference to a link
+        def replace_ref(match):
+            ref_num = int(match.group(1))
+            if ref_num <= len(articles):
+                article_id = f"{section_id}-article-{ref_num}"
+                return f'<a href="#{article_id}" class="ref-link" data-section="{section_id}">[{ref_num}]</a>'
+            return match.group(0)
+        
+        # Replace all single [N] patterns
+        result = re.sub(r'\[(\d+)\]', replace_ref, summary_text)
+        return result
+    
+    def format_claude_summary(self, summary_text, articles=None, section_id='latest'):
+        """Format Claude summary for HTML with clickable references"""
         if not summary_text or summary_text == "No new articles today.":
             return """            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>"""
         
@@ -123,6 +155,10 @@ class RSSPageGenerator:
         
         # Convert **bold** to <strong>
         html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html)
+        
+        # Convert [N] references to clickable links
+        if articles:
+            html = self.convert_references_to_links(html, articles, section_id)
         
         # Check if this is a security alert and make it clickable
         if articles and '**Security**:' in summary_text:
@@ -274,7 +310,7 @@ background: grey
             <small class="text-muted">Generated at {now.strftime('%H:%M')} today | <a href="/news-{archive_date}/">Permanent link</a></small>
         </div>
         <div class="summary-content">
-{self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')), articles.get('latest', []))}
+{self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')), articles.get('latest', [])[:10], 'latest')}
         </div>
         <div class="share-buttons mt-2">
             <small>Share: 
@@ -293,7 +329,10 @@ background: grey
         latest_articles = [a for a in all_latest if 'Release notes through' not in a.get('title', '')][:10]  # Filter release notes
         for i, article in enumerate(latest_articles):
             include_desc = i == 0  # Only first article gets description
-            content += self.format_article_html(article, include_desc) + "\n"
+            article_html = self.format_article_html(article, include_desc)
+            # Add ID for reference linking
+            article_html = article_html.replace('<article class="feed-item', f'<article id="latest-article-{i+1}" class="feed-item')
+            content += article_html + "\n"
         
         if not latest_articles:
             content += """        <div class="alert alert-light">
@@ -319,7 +358,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-{self.format_claude_summary(summaries.get('weekly', ''))}
+{self.format_claude_summary(summaries.get('weekly', ''), articles.get('this_week', [])[:20], 'week')}
         </div>
     </div>
 
@@ -333,14 +372,14 @@ background: grey
 """  
         # Add week articles - excluding release notes
         week_filtered = exclude_release_notes(articles.get('this_week', []))
-        for article in week_filtered[:20]:  # Show up to 20 articles
+        for idx, article in enumerate(week_filtered[:20], 1):  # Show up to 20 articles
             source_badge = ''
             if article['source'] == 'Internal Note':
                 source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
             elif 'Google News' not in article['source']:
                 source_badge = f'<span class="source-badge">{article["source"]}</span>'
             
-            content += f"""            <article class="feed-item border-bottom py-2 mt-3">
+            content += f"""            <article id="week-article-{idx}" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
                     {source_badge}
@@ -361,6 +400,16 @@ background: grey
         <span class="badge badge-info ml-2">{filtered_stats['month_count']} articles</span>
     </h2>
     
+    <div class="claude-summary mb-4">
+        <div class="summary-header">
+            <h4><i class="fas fa-robot text-info"></i> Monthly Overview</h4>
+            <small class="text-muted">Generated this morning</small>
+        </div>
+        <div class="summary-content">
+{self.format_claude_summary(summaries.get('monthly', ''), articles.get('this_month', [])[:30], 'month')}
+        </div>
+    </div>
+    
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#month-list" class="text-decoration-none">
@@ -371,14 +420,14 @@ background: grey
 """  
         # Add month articles - excluding release notes
         month_filtered = exclude_release_notes(articles.get('this_month', []))
-        for article in month_filtered[:30]:  # Show up to 30 articles
+        for idx, article in enumerate(month_filtered[:30], 1):  # Show up to 30 articles
             source_badge = ''
             if article['source'] == 'Internal Note':
                 source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
             elif 'Google News' not in article['source']:
                 source_badge = f'<span class="source-badge">{article["source"]}</span>'
             
-            content += f"""            <article class="feed-item border-bottom py-2 mt-3">
+            content += f"""            <article id="month-article-{idx}" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
                     <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
                     {source_badge}
@@ -416,7 +465,75 @@ background: grey
             </div>
         </div>
     </div>
-</div>"""
+</div>
+
+<!-- JavaScript for reference links -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {{
+    // Handle reference link clicks
+    document.querySelectorAll('.ref-link').forEach(link => {{
+        link.addEventListener('click', function(e) {{
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {{
+                // Check if element is in a collapsed section
+                const collapse = targetElement.closest('.collapse');
+                if (collapse && !collapse.classList.contains('show')) {{
+                    // Expand the section first
+                    $(collapse).collapse('show');
+                    
+                    // Wait for animation then scroll
+                    setTimeout(() => {{
+                        targetElement.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+                        // Highlight the article briefly
+                        targetElement.style.backgroundColor = '#fff3cd';
+                        setTimeout(() => {{
+                            targetElement.style.transition = 'background-color 1s';
+                            targetElement.style.backgroundColor = '';
+                        }}, 1000);
+                    }}, 350);
+                }} else {{
+                    // Already visible, just scroll
+                    targetElement.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+                    // Highlight the article briefly
+                    targetElement.style.backgroundColor = '#fff3cd';
+                    setTimeout(() => {{
+                        targetElement.style.transition = 'background-color 1s';
+                        targetElement.style.backgroundColor = '';
+                    }}, 1000);
+                }}
+            }}
+        }});
+    }});
+    
+    // Update chevron icons when collapsing/expanding
+    $('.collapse').on('show.bs.collapse', function() {{
+        $(this).parent().find('.fa-chevron-right').first()
+            .removeClass('fa-chevron-right')
+            .addClass('fa-chevron-down');
+    }});
+    
+    $('.collapse').on('hide.bs.collapse', function() {{
+        $(this).parent().find('.fa-chevron-down').first()
+            .removeClass('fa-chevron-down')
+            .addClass('fa-chevron-right');
+    }});
+}});
+</script>
+
+<style>
+.ref-link {{
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}}
+.ref-link:hover {{
+    text-decoration: underline;
+}}
+</style>"""
         
         return content
     
