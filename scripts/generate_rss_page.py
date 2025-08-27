@@ -328,6 +328,83 @@ class RSSPageGenerator:
         
         return link
     
+    def generate_dont_miss(self, articles):
+        """
+        Generate the "Don't Miss" highlight - the most significant item from the recent period.
+        
+        Args:
+            articles: Dictionary of articles by timeframe
+            
+        Returns:
+            HTML string for the Don't Miss section
+        """
+        # Combine recent articles
+        recent = []
+        recent.extend(articles.get('this_week', []))
+        recent.extend(articles.get('this_month', [])[:20])
+        
+        if not recent:
+            return "<p class='text-muted'>No significant updates in the recent period.</p>"
+        
+        # Prioritise by significance
+        # 1. Security vulnerabilities
+        # 2. Major feature announcements (EAPs, new capabilities)
+        # 3. Breaking changes/deprecations
+        # 4. Service incidents with wide impact
+        
+        dont_miss = None
+        
+        for article in recent:
+            title_lower = article.get('title', '').lower()
+            
+            # Security always wins
+            if 'vulnerability' in title_lower or 'security' in title_lower:
+                dont_miss = article
+                break
+                
+            # Major features
+            if 'eap' in title_lower or 'early access' in title_lower:
+                if not dont_miss:
+                    dont_miss = article
+                    
+            # OAuth/Auth changes are critical
+            if 'oauth' in title_lower or 'authentication' in title_lower:
+                if not dont_miss or 'eap' not in dont_miss.get('title', '').lower():
+                    dont_miss = article
+                    
+        # Default to first article if nothing special found
+        if not dont_miss and recent:
+            dont_miss = recent[0]
+            
+        # Format the highlight
+        if dont_miss:
+            link = dont_miss.get('link', '#')
+            title = dont_miss['title']
+            source = dont_miss.get('source', '')
+            time_ago = self.format_time_ago(dont_miss.get('pub_date', ''))
+            
+            # Add context about why this matters
+            context = ""
+            title_lower = title.lower()
+            if 'oauth' in title_lower or 'authentication' in title_lower:
+                context = "This fundamentally changes how you'll manage third-party integrations."
+            elif 'eap' in title_lower:
+                context = "Early access to test upcoming features before general release."
+            elif 'vulnerability' in title_lower:
+                context = "Critical security issue requiring immediate attention."
+            elif 'deprecat' in title_lower:
+                context = "Breaking change that may affect your integrations."
+            else:
+                context = "Significant platform update affecting Zendesk administrators."
+                
+            return f"""
+                <h6><a href="{link}" class="text-dark" target="_blank">{title}</a></h6>
+                <p class="mb-2">{context}</p>
+                <small class="text-muted">{source} • {time_ago}</small>
+            """
+            
+        return "<p class='text-muted'>No significant updates in the recent period.</p>"
+    
     def generate_categorised_section(self, deduplicated_articles, section_title="Latest Updates"):
         """
         Generate HTML for a categorised section with deduplicated articles.
@@ -393,8 +470,14 @@ class RSSPageGenerator:
             deduped = self.deduplicator.deduplicate_articles(filtered, timeframe)
             return sum(len(arts) for arts in deduped.values())
         
+        # Combine week and month for recently count
+        recently_combined = []
+        recently_combined.extend(articles.get('this_week', []))
+        recently_combined.extend(articles.get('this_month', [])[:20])
+        
         filtered_stats = {
             'latest_count': get_deduplicated_count(articles.get('latest', []), 'latest'),
+            'recently_count': get_deduplicated_count(recently_combined, 'recently'),
             'week_count': get_deduplicated_count(articles.get('this_week', []), 'week'),
             'month_count': get_deduplicated_count(articles.get('this_month', []), 'month')
         }
@@ -418,30 +501,13 @@ background: grey
 
 {{% include nicos-commentary.html %}}
 
-<!-- Latest Summary (Last 48 Hours) -->
+<!-- Latest (Last 48 Hours) -->
 <div class="summary-section mb-5">
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">{filtered_stats['latest_count']} articles</span>
+        <span class="badge badge-primary ml-2">{filtered_stats['latest_count']} stories</span>
     </h2>
-    
-    <div class="claude-summary mb-4">
-        <div class="summary-header">
-            <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at {now.strftime('%H:%M')} today | <a href="/news-{archive_date}/">Permanent link</a></small>
-        </div>
-        <div class="summary-content">
-{self.format_claude_summary(summaries.get('latest', summaries.get('daily', '')), articles.get('latest', [])[:10], 'latest')}
-        </div>
-        <div class="share-buttons mt-2">
-            <small>Share: 
-                <a href="mailto:?subject=Zendesk%20Latest%20Updates%20-%20{today_str.replace(' ', '%20')}&body=Check%20out%20today's%20Zendesk%20updates%20at%20{archive_url}" class="text-muted mx-1"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://www.linkedin.com/sharing/share-offsite/?url={archive_url}" class="text-muted mx-1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="#" onclick="navigator.clipboard.writeText('Zendesk Updates {today_str}: {archive_url}'); alert('Copied to clipboard!'); return false;" class="text-muted mx-1"><i class="fas fa-copy"></i> Copy</a>
-            </small>
-        </div>
-    </div>
 
 """
         
@@ -468,97 +534,57 @@ background: grey
         content += f"""
 </div>
 
-<!-- This Week's Summary -->
+<!-- Recently (3 weeks prior) -->
 <div class="summary-section mb-5">
     <h2 class="summary-title">
-        <i class="fas fa-calendar-week text-success"></i>
-        This Week
-        <span class="badge badge-success ml-2">{filtered_stats['week_count']} articles</span>
+        <i class="fas fa-history text-info"></i>
+        Recently
+        <span class="badge badge-info ml-2">{filtered_stats['recently_count']} stories</span>
     </h2>
     
+    <!-- Don't Miss Highlight -->
+    <div class="dont-miss mb-4">
+        <div class="card border-warning">
+            <div class="card-header bg-warning text-dark">
+                <h5 class="mb-0"><i class="fas fa-exclamation-circle"></i> Don't Miss</h5>
+            </div>
+            <div class="card-body">
+                {self.generate_dont_miss(articles)}
+            </div>
+        </div>
+    </div>
+    
+    <!-- AI Narrative Analysis -->
     <div class="claude-summary mb-4">
         <div class="summary-header">
-            <h4><i class="fas fa-robot text-info"></i> Weekly AI Analysis</h4>
+            <h4><i class="fas fa-robot text-info"></i> Analysis</h4>
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-{self.format_claude_summary(summaries.get('weekly', ''), articles.get('this_week', [])[:20], 'week')}
+            {self.format_claude_summary(summaries.get('recently_narrative', ''), None, 'recently')}
         </div>
     </div>
-
+    
+    <!-- Collapsed topic-based articles -->
     <div class="collapsed-articles">
         <small class="text-muted">
-            <a href="#" data-toggle="collapse" data-target="#week-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all {filtered_stats['week_count']} articles from this week
+            <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
+                <i class="fas fa-chevron-right"></i> Show all {filtered_stats['recently_count']} stories by topic
             </a>
         </small>
-        <div class="collapse" id="week-list">
+        <div class="collapse" id="recently-list">
 """  
-        # Add week articles - excluding release notes
-        week_filtered = [a for a in articles.get('this_week', []) if 'Release notes through' not in a.get('title', '')]
-        for idx, article in enumerate(week_filtered[:20], 1):  # Show up to 20 articles
-            source_badge = ''
-            if article['source'] == 'Internal Note':
-                source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
-            elif 'Google News' not in article['source']:
-                source_badge = f'<span class="source-badge">{article["source"]}</span>'
-            
-            content += f"""            <article id="week-article-{idx}" class="feed-item border-bottom py-2 mt-3">
-                <h6 class="item-title">
-                    <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
-                    {source_badge}
-                </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> {self.format_time_ago(article.get('pub_date', ''))}</small>
-            </article>
-"""
+        # Combine week and month articles for "recently" (3 weeks)
+        recently_articles = []
+        recently_articles.extend(articles.get('this_week', []))
+        recently_articles.extend(articles.get('this_month', [])[:20])  # Limit older articles
         
-        content += f"""        </div>
-    </div>
-</div>
-
-<!-- This Month's Summary -->
-<div class="summary-section mb-5">
-    <h2 class="summary-title">
-        <i class="fas fa-calendar text-info"></i>
-        This Month
-        <span class="badge badge-info ml-2">{filtered_stats['month_count']} articles</span>
-    </h2>
-    
-    <div class="claude-summary mb-4">
-        <div class="summary-header">
-            <h4><i class="fas fa-robot text-info"></i> Monthly Overview</h4>
-            <small class="text-muted">Generated this morning</small>
-        </div>
-        <div class="summary-content">
-{self.format_claude_summary(summaries.get('monthly', ''), articles.get('this_month', [])[:30], 'month')}
-        </div>
-    </div>
-    
-    <div class="collapsed-articles">
-        <small class="text-muted">
-            <a href="#" data-toggle="collapse" data-target="#month-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show {filtered_stats['month_count']} articles from this month
-            </a>
-        </small>
-        <div class="collapse" id="month-list">
-"""  
-        # Add month articles - excluding release notes
-        month_filtered = [a for a in articles.get('this_month', []) if 'Release notes through' not in a.get('title', '')]
-        for idx, article in enumerate(month_filtered[:30], 1):  # Show up to 30 articles
-            source_badge = ''
-            if article['source'] == 'Internal Note':
-                source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
-            elif 'Google News' not in article['source']:
-                source_badge = f'<span class="source-badge">{article["source"]}</span>'
-            
-            content += f"""            <article id="month-article-{idx}" class="feed-item border-bottom py-2 mt-3">
-                <h6 class="item-title">
-                    <a href="{article.get('link', '#')}" class="text-dark">{article['title']}</a>
-                    {source_badge}
-                </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> {self.format_time_ago(article.get('pub_date', ''))}</small>
-            </article>
-"""
+        # Filter and deduplicate
+        recently_filtered = [a for a in recently_articles if 'Release notes through' not in a.get('title', '')]
+        deduplicated_recently = self.deduplicator.deduplicate_articles(recently_filtered, 'recently')
+        
+        # Generate categorised sections within collapse
+        content += self.generate_categorised_section(deduplicated_recently, "Recent Updates")
         
         content += f"""        </div>
     </div>

@@ -181,60 +181,104 @@ REQUIREMENTS:
         
         return "\n\n".join(summary_parts)
     
+    def generate_fallback_narrative(self, articles):
+        """Generate a fallback narrative analysis without AI"""
+        
+        # Count different types of updates
+        incidents = 0
+        features = 0
+        security = 0
+        business = 0
+        
+        for article in articles:
+            title_lower = article.get('title', '').lower()
+            if 'incident' in title_lower or 'outage' in title_lower:
+                incidents += 1
+            elif 'vulnerability' in title_lower or 'security' in title_lower:
+                security += 1
+            elif any(term in title_lower for term in ['announcing', 'eap', 'release', 'feature']):
+                features += 1
+            elif any(term in title_lower for term in ['auction', 'hq', 'partner', 'acquisition']):
+                business += 1
+        
+        # Build narrative based on patterns
+        narratives = []
+        
+        if incidents >= 3 and features >= 3:
+            narratives.append("The past few weeks show Zendesk pushing new features while struggling with platform stability.")
+        elif incidents >= 4:
+            narratives.append("Multiple service incidents over the past weeks suggest ongoing stability challenges across Zendesk products.")
+        elif features >= 5:
+            narratives.append("Zendesk has been in a heavy development cycle, rolling out multiple new capabilities and improvements.")
+            
+        if security > 0:
+            narratives.append("Security concerns require immediate attention from administrators.")
+            
+        if business > 0 and features > 0:
+            narratives.append("Business developments alongside product updates show Zendesk navigating both market pressures and technical evolution.")
+            
+        if not narratives:
+            return "Recent weeks have seen routine platform updates and maintenance across the Zendesk ecosystem."
+            
+        return " ".join(narratives[:2])  # Limit to 2 sentences
+    
+    def build_narrative_prompt(self, articles):
+        """Build prompt for narrative analysis of recent period"""
+        
+        prompt = f"""Analyse these Zendesk ecosystem updates from the past 3 weeks and write a brief narrative (2-3 sentences).
+
+ARTICLES:
+"""
+        
+        for i, article in enumerate(articles, 1):
+            prompt += f"\n[{i}] {article['title']}\n"
+        
+        prompt += f"""
+
+Write a narrative analysis that:
+1. Identifies the main theme or trend (e.g., "Zendesk is pushing hard on AI features while dealing with stability issues")
+2. Connects related stories (e.g., incidents alongside new features)
+3. Notes any tensions or contradictions (e.g., expansion news vs HQ auction)
+4. Provides context about what this means for Zendesk professionals
+
+Do NOT just list items. Write 2-3 connected sentences that tell the story of what's happening.
+Focus on patterns and implications, not individual items.
+Be direct and analytical, not promotional."""
+
+        return prompt
     
     def generate_summaries(self):
-        """Generate daily and weekly summaries with clickable references"""
+        """Generate summaries including narrative analysis for recently section"""
         articles = self.load_articles()
         
         summaries = {}
         
-        # Latest summary (last 48 hours)
-        latest_articles = articles.get('latest', articles.get('current', []))  # Fallback to 'current' for compatibility
-        if latest_articles:
-            print(f"Generating latest summary for {len(latest_articles)} articles...")
-            if self.api_key:
-                latest_prompt = self.build_zendesk_prompt(latest_articles[:10], 'latest')
-                latest_summary = self.call_claude_api(latest_prompt)
-                if latest_summary:
-                    summaries['latest'] = latest_summary
-                else:
-                    summaries['latest'] = self.fallback_summary(latest_articles[:10])
-            else:
-                summaries['latest'] = self.fallback_summary(latest_articles[:10])
-        else:
-            summaries['latest'] = "No new articles in the last 48 hours."
+        # No longer generate latest summary (removed from UI)
+        summaries['latest'] = ""
         
-        # Weekly summary (2-7 days ago, excluding current)
-        week_articles = articles.get('this_week', [])
-        if week_articles:
-            print(f"Generating weekly summary for {len(week_articles)} articles...")
-            if self.api_key:
-                weekly_prompt = self.build_zendesk_prompt(week_articles[:20], 'weekly')
-                weekly_summary = self.call_claude_api(weekly_prompt)
-                if weekly_summary:
-                    summaries['weekly'] = weekly_summary
-                else:
-                    summaries['weekly'] = self.fallback_summary(week_articles[:20])
-            else:
-                summaries['weekly'] = self.fallback_summary(week_articles[:20])
-        else:
-            summaries['weekly'] = "No articles this week."
+        # Generate narrative for "recently" section (combines week + month)
+        recently_articles = []
+        recently_articles.extend(articles.get('this_week', []))
+        recently_articles.extend(articles.get('this_month', [])[:20])
         
-        # Monthly summary (7-30 days ago, excluding current and week)
-        month_articles = articles.get('this_month', [])
-        if month_articles:
-            print(f"Generating monthly summary for {len(month_articles)} articles...")
+        if recently_articles:
+            print(f"Generating narrative analysis for {len(recently_articles)} recent articles...")
             if self.api_key:
-                monthly_prompt = self.build_zendesk_prompt(month_articles[:20], 'monthly')
-                monthly_summary = self.call_claude_api(monthly_prompt)
-                if monthly_summary:
-                    summaries['monthly'] = monthly_summary
+                narrative_prompt = self.build_narrative_prompt(recently_articles[:30])
+                narrative_summary = self.call_claude_api(narrative_prompt)
+                if narrative_summary:
+                    summaries['recently_narrative'] = narrative_summary
                 else:
-                    summaries['monthly'] = self.fallback_summary(month_articles[:20])
+                    # Fallback narrative
+                    summaries['recently_narrative'] = self.generate_fallback_narrative(recently_articles)
             else:
-                summaries['monthly'] = self.fallback_summary(month_articles[:20])
+                summaries['recently_narrative'] = self.generate_fallback_narrative(recently_articles)
         else:
-            summaries['monthly'] = "No articles in the past month."
+            summaries['recently_narrative'] = "No significant updates in the recent period."
+        
+        # Keep weekly and monthly for backwards compatibility but they won't be shown
+        summaries['weekly'] = ""
+        summaries['monthly'] = ""
         
         # Save summaries
         summaries['generated_at'] = datetime.now().isoformat()
