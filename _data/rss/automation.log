@@ -1935,3 +1935,358 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-27 09:29:52,433 - INFO - === GIT COMMIT & PUSH ===
 2025-08-27 09:29:52,433 - INFO - Running: Adding changes to git
+2025-08-27 10:05:01,025 - INFO - Working in: /home/nico/ds
+2025-08-27 10:05:01,026 - INFO - Starting daily RSS automation pipeline
+2025-08-27 10:05:01,026 - INFO - Timestamp: 2025-08-27T10:05:01.026517
+2025-08-27 10:05:01,027 - INFO - 
+--- Starting: Git Pull ---
+2025-08-27 10:05:01,027 - INFO - === GIT PULL ===
+2025-08-27 10:05:01,028 - INFO - Running: Pulling latest changes
+2025-08-27 10:05:01,844 - INFO - Output: Already up to date.
+2025-08-27 10:05:01,845 - INFO - ✅ SUCCESS: Git Pull
+2025-08-27 10:05:01,845 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-27 10:05:01,845 - INFO - === RSS INGESTION ===
+2025-08-27 10:05:01,846 - INFO - Running: Ingesting RSS feeds
+2025-08-27 10:05:09,832 - INFO - Output: Starting RSS ingestion...
+Processing 9 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 7
+  This week (3-7d): 9
+  This month (8-35d): 41
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 7, Week: 9, Month: 41)
+2025-08-27 10:05:09,833 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-27 10:05:09,834 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-27 10:05:09,834 - INFO - === CLAUDE SUMMARIES ===
+2025-08-27 10:05:09,834 - INFO - Running: Generating Claude summaries
+2025-08-27 10:05:12,479 - INFO - Output: Generating latest summary for 7 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating weekly summary for 9 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating monthly summary for 41 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.
+2025-08-27 10:05:12,480 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-27 10:05:12,480 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-27 10:05:12,480 - INFO - === GENERATE RSS PAGE ===
+2025-08-27 10:05:12,481 - INFO - Running: Generating RSS feeds page
+2025-08-27 10:05:13,794 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-27.md
+News page updated: news.md
+  Latest (48h): 7 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 41 articles
+2025-08-27 10:05:13,796 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-27 10:05:13,796 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-27 10:05:13,797 - INFO - === JEKYLL BUILD ===
+2025-08-27 10:05:13,798 - INFO - Testing bundle availability...
+2025-08-27 10:05:13,798 - INFO - Running: Checking bundle location
+2025-08-27 10:05:13,812 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-08-27 10:05:13,813 - ERROR - Failed command: which bundle
+2025-08-27 10:05:13,814 - ERROR - Bundle not found in PATH
+2025-08-27 10:05:13,815 - INFO - Attempting Jekyll build...
+2025-08-27 10:05:13,815 - INFO - Running: Building Jekyll site
+2025-08-27 10:05:13,822 - ERROR - ❌ COMMAND FAILED with exit code 127
+2025-08-27 10:05:13,823 - ERROR - Failed command: bundle exec jekyll build
+2025-08-27 10:05:13,824 - ERROR - Error output: /bin/sh: 1: bundle: not found
+
+2025-08-27 10:05:13,825 - ERROR - 🔴 FAILED: Jekyll Build
+2025-08-27 10:05:13,825 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 10:05:13,826 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-27 10:05:13,827 - INFO - === GIT COMMIT & PUSH ===
+2025-08-27 10:05:13,827 - INFO - Running: Adding changes to git
+2025-08-27 10:05:14,085 - INFO - Running: Committing changes
+2025-08-27 10:05:14,663 - ERROR - ❌ COMMAND FAILED with exit code 128
+2025-08-27 10:05:14,664 - ERROR - Failed command: git commit -m "Daily RSS update - 27/08/2025 10:05"
+2025-08-27 10:05:14,664 - ERROR - Error output: Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'nico@stuff.(none)')
+
+2025-08-27 10:05:14,665 - ERROR - 🔴 FAILED: Git Commit & Push
+2025-08-27 10:05:14,665 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 10:05:14,666 - ERROR - Pipeline completed with failures: Jekyll Build, Git Commit & Push
+2025-08-27 10:05:14,666 - INFO - === COMPLETION STATS ===
+2025-08-27 10:05:14,667 - INFO - Total articles processed: 168
+2025-08-27 10:05:14,667 - INFO - Today's articles: 0
+2025-08-27 10:05:14,667 - INFO - This week's articles: 9
+2025-08-27 10:05:14,668 - INFO - Feeds processed: 9
+2025-08-27 10:05:14,668 - INFO - Site updated: 27/08/2025 10:05
+2025-08-27 10:05:14,940 - INFO - Working in: /home/nico/ds
+2025-08-27 10:05:14,941 - INFO - Starting daily RSS automation pipeline
+2025-08-27 10:05:14,941 - INFO - Timestamp: 2025-08-27T10:05:14.941495
+2025-08-27 10:05:14,942 - INFO - 
+--- Starting: Git Pull ---
+2025-08-27 10:05:14,942 - INFO - === GIT PULL ===
+2025-08-27 10:05:14,943 - INFO - Running: Pulling latest changes
+2025-08-27 10:05:15,783 - INFO - Output: Already up to date.
+2025-08-27 10:05:15,785 - INFO - ✅ SUCCESS: Git Pull
+2025-08-27 10:05:15,786 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-27 10:05:15,786 - INFO - === RSS INGESTION ===
+2025-08-27 10:05:15,787 - INFO - Running: Ingesting RSS feeds
+2025-08-27 10:05:22,475 - INFO - Output: Starting RSS ingestion...
+Processing 9 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 7
+  This week (3-7d): 9
+  This month (8-35d): 41
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 7, Week: 9, Month: 41)
+2025-08-27 10:05:22,476 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-27 10:05:22,476 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-27 10:05:22,476 - INFO - === CLAUDE SUMMARIES ===
+2025-08-27 10:05:22,476 - INFO - Running: Generating Claude summaries
+2025-08-27 10:05:25,082 - INFO - Output: Generating latest summary for 7 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating weekly summary for 9 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating monthly summary for 41 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.
+2025-08-27 10:05:25,083 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-27 10:05:25,083 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-27 10:05:25,083 - INFO - === GENERATE RSS PAGE ===
+2025-08-27 10:05:25,083 - INFO - Running: Generating RSS feeds page
+2025-08-27 10:05:25,769 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-27.md
+News page updated: news.md
+  Latest (48h): 7 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 41 articles
+2025-08-27 10:05:25,770 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-27 10:05:25,770 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-27 10:05:25,771 - INFO - === JEKYLL BUILD ===
+2025-08-27 10:05:25,771 - INFO - Testing bundle availability...
+2025-08-27 10:05:25,771 - INFO - Running: Checking bundle location
+2025-08-27 10:05:25,784 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-08-27 10:05:25,785 - ERROR - Failed command: which bundle
+2025-08-27 10:05:25,786 - ERROR - Bundle not found in PATH
+2025-08-27 10:05:25,786 - INFO - Attempting Jekyll build...
+2025-08-27 10:05:25,787 - INFO - Running: Building Jekyll site
+2025-08-27 10:05:25,794 - ERROR - ❌ COMMAND FAILED with exit code 127
+2025-08-27 10:05:25,795 - ERROR - Failed command: bundle exec jekyll build
+2025-08-27 10:05:25,796 - ERROR - Error output: /bin/sh: 1: bundle: not found
+
+2025-08-27 10:05:25,796 - ERROR - 🔴 FAILED: Jekyll Build
+2025-08-27 10:05:25,797 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 10:05:25,798 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-27 10:05:25,798 - INFO - === GIT COMMIT & PUSH ===
+2025-08-27 10:05:25,799 - INFO - Running: Adding changes to git
+2025-08-27 10:05:26,540 - INFO - Running: Committing changes
+2025-08-27 10:05:27,872 - ERROR - ❌ COMMAND FAILED with exit code 128
+2025-08-27 10:05:27,873 - ERROR - Failed command: git commit -m "Daily RSS update - 27/08/2025 10:05"
+2025-08-27 10:05:27,874 - ERROR - Error output: Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'nico@stuff.(none)')
+
+2025-08-27 10:05:27,874 - ERROR - 🔴 FAILED: Git Commit & Push
+2025-08-27 10:05:27,875 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 10:05:27,876 - ERROR - Pipeline completed with failures: Jekyll Build, Git Commit & Push
+2025-08-27 10:05:27,877 - INFO - === COMPLETION STATS ===
+2025-08-27 10:05:27,878 - INFO - Total articles processed: 168
+2025-08-27 10:05:27,879 - INFO - Today's articles: 0
+2025-08-27 10:05:27,879 - INFO - This week's articles: 9
+2025-08-27 10:05:27,880 - INFO - Feeds processed: 9
+2025-08-27 10:05:27,881 - INFO - Site updated: 27/08/2025 10:05
+2025-08-27 11:06:33,478 - INFO - Working in: /home/nico/ds
+2025-08-27 11:06:33,480 - INFO - Starting daily RSS automation pipeline
+2025-08-27 11:06:33,481 - INFO - Timestamp: 2025-08-27T11:06:33.481078
+2025-08-27 11:06:33,481 - INFO - 
+--- Starting: Git Pull ---
+2025-08-27 11:06:33,481 - INFO - === GIT PULL ===
+2025-08-27 11:06:33,482 - INFO - Running: Pulling latest changes
+2025-08-27 11:06:34,334 - INFO - Output: Already up to date.
+2025-08-27 11:06:34,335 - INFO - ✅ SUCCESS: Git Pull
+2025-08-27 11:06:34,335 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-27 11:06:34,336 - INFO - === RSS INGESTION ===
+2025-08-27 11:06:34,336 - INFO - Running: Ingesting RSS feeds
+2025-08-27 11:06:42,324 - INFO - Output: Starting RSS ingestion...
+Processing 9 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 7
+  This week (3-7d): 9
+  This month (8-35d): 41
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 7, Week: 9, Month: 41)
+2025-08-27 11:06:42,325 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-27 11:06:42,325 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-27 11:06:42,326 - INFO - === CLAUDE SUMMARIES ===
+2025-08-27 11:06:42,326 - INFO - Running: Generating Claude summaries
+2025-08-27 11:06:45,138 - INFO - Output: Generating latest summary for 7 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating weekly summary for 9 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating monthly summary for 41 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.
+2025-08-27 11:06:45,139 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-27 11:06:45,139 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-27 11:06:45,139 - INFO - === GENERATE RSS PAGE ===
+2025-08-27 11:06:45,139 - INFO - Running: Generating RSS feeds page
+2025-08-27 11:06:45,749 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-27.md
+News page updated: news.md
+  Latest (48h): 7 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 41 articles
+2025-08-27 11:06:45,750 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-27 11:06:45,750 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-27 11:06:45,751 - INFO - === JEKYLL BUILD ===
+2025-08-27 11:06:45,751 - INFO - Testing bundle availability...
+2025-08-27 11:06:45,751 - INFO - Running: Checking bundle location
+2025-08-27 11:06:45,759 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-08-27 11:06:45,903 - ERROR - Failed command: which bundle
+2025-08-27 11:06:45,904 - ERROR - Bundle not found in PATH
+2025-08-27 11:06:45,904 - INFO - Attempting Jekyll build...
+2025-08-27 11:06:45,905 - INFO - Running: Building Jekyll site
+2025-08-27 11:06:45,909 - ERROR - ❌ COMMAND FAILED with exit code 127
+2025-08-27 11:06:45,909 - ERROR - Failed command: bundle exec jekyll build
+2025-08-27 11:06:45,910 - ERROR - Error output: /bin/sh: 1: bundle: not found
+
+2025-08-27 11:06:45,910 - ERROR - 🔴 FAILED: Jekyll Build
+2025-08-27 11:06:45,910 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 11:06:45,910 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-27 11:06:45,911 - INFO - === GIT COMMIT & PUSH ===
+2025-08-27 11:06:45,911 - INFO - Running: Adding changes to git
