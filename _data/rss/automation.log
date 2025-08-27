@@ -2425,3 +2425,107 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-27 11:07:46,460 - INFO - === GIT COMMIT & PUSH ===
 2025-08-27 11:07:46,460 - INFO - Running: Adding changes to git
+2025-08-27 12:40:21,392 - INFO - Working in: /home/nico/ds
+2025-08-27 12:40:21,393 - INFO - Starting daily RSS automation pipeline
+2025-08-27 12:40:21,400 - INFO - Timestamp: 2025-08-27T12:40:21.394006
+2025-08-27 12:40:21,401 - INFO - 
+--- Starting: Git Pull ---
+2025-08-27 12:40:21,401 - INFO - === GIT PULL ===
+2025-08-27 12:40:21,402 - INFO - Running: Pulling latest changes
+2025-08-27 12:40:22,236 - INFO - Output: Already up to date.
+2025-08-27 12:40:22,236 - INFO - ✅ SUCCESS: Git Pull
+2025-08-27 12:40:22,237 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-27 12:40:22,237 - INFO - === RSS INGESTION ===
+2025-08-27 12:40:22,237 - INFO - Running: Ingesting RSS feeds
+2025-08-27 12:40:33,301 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 0 raw items in feed
+  Found 0 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 7
+  This week (3-7d): 9
+  This month (8-35d): 41
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 7, Week: 9, Month: 41)
+2025-08-27 12:40:33,301 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-27 12:40:33,302 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-27 12:40:33,302 - INFO - === CLAUDE SUMMARIES ===
+2025-08-27 12:40:33,302 - INFO - Running: Generating Claude summaries
+2025-08-27 12:40:36,596 - INFO - Output: Generating latest summary for 7 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating weekly summary for 9 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating monthly summary for 41 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.
+2025-08-27 12:40:36,596 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-27 12:40:36,597 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-27 12:40:36,597 - INFO - === GENERATE RSS PAGE ===
+2025-08-27 12:40:36,597 - INFO - Running: Generating RSS feeds page
+2025-08-27 12:40:37,259 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-27.md
+News page updated: news.md
+  Latest (48h): 7 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 41 articles
+2025-08-27 12:40:37,260 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-27 12:40:37,261 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-27 12:40:37,261 - INFO - === JEKYLL BUILD ===
+2025-08-27 12:40:37,262 - INFO - Testing bundle availability...
+2025-08-27 12:40:37,262 - INFO - Running: Checking bundle location
+2025-08-27 12:40:37,275 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-08-27 12:40:37,276 - ERROR - Failed command: which bundle
+2025-08-27 12:40:37,276 - ERROR - Bundle not found in PATH
+2025-08-27 12:40:37,276 - INFO - Attempting Jekyll build...
+2025-08-27 12:40:37,277 - INFO - Running: Building Jekyll site
+2025-08-27 12:40:37,281 - ERROR - ❌ COMMAND FAILED with exit code 127
+2025-08-27 12:40:37,281 - ERROR - Failed command: bundle exec jekyll build
+2025-08-27 12:40:37,281 - ERROR - Error output: /bin/sh: 1: bundle: not found
+
+2025-08-27 12:40:37,282 - ERROR - 🔴 FAILED: Jekyll Build
+2025-08-27 12:40:37,282 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 12:40:37,282 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-27 12:40:37,282 - INFO - === GIT COMMIT & PUSH ===
+2025-08-27 12:40:37,283 - INFO - Running: Adding changes to git
