@@ -54,21 +54,23 @@ ARTICLES:
 Format (2-3 lines total):
 
 If security/incidents exist:
-**Critical**: New 0-day revealed [link], service incident affecting X since [date]
+**Critical**: 0-day vulnerability [1], Multiple pods: adherence issue (Jul 25) [2], QA assignments stuck (Aug 4) [3]
 
 Main news (REQUIRED):
-**{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}**: End User Separation EAP, automated trigger redaction at Internal Note, enhanced filtering August 26
+**{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}**: End User Separation EAP [1], trigger redaction [2], OAuth in Admin Center [3], WhatsApp Flows API [4]
 
 If interesting side news exists:
-**Meanwhile**: Former HQ to auction, partnership with X announced
+**Meanwhile**: Former HQ to auction [1], Zendesk killer gets funding [2]
 
 Rules:
-- Just state facts - no "administrators should" or "be aware" 
-- Security/incidents go first if they exist
-- Omit any line that has no content (except main news - always include)
-- Use commas to list multiple items in one sentence
-- Specific names and dates only
-- No editorial comments or recommendations"""
+- Use [N] for each reference - one article per bracket
+- For incidents: use exact wording from title "Multiple pods" not made-up names
+- Ultra-short: "OAuth in Admin" not "new OAuth page in Admin Center"  
+- Strip all filler words
+- Security/incidents first
+- Max 3-4 items per line
+- Each item ≤4 words
+- Be factual - don't invent details"""
 
         return prompt
     
@@ -193,8 +195,47 @@ Rules:
         else:
             return f"{summary_parts[0]}. {summary_parts[1]}. {summary_parts[2]}."
     
+    def clean_google_news_url(self, url):
+        """Try to extract actual URL from Google News redirect"""
+        if 'news.google.com/rss/articles' in url:
+            # Google News URLs are complex encoded redirects
+            # For now, we'll just use them as-is since decoding is complex
+            # In future, could implement URL fetching to get redirect target
+            return url
+        return url
+    
+    def convert_references_to_links(self, summary_text, articles):
+        """Convert [1] references to markdown links with article URLs"""
+        import re
+        
+        # First handle combined references like [1,2] by splitting them
+        combined_refs = re.findall(r'\[(\d+(?:,\d+)+)\]', summary_text)
+        for combined in combined_refs:
+            refs = combined.split(',')
+            # Replace with individual references
+            replacement = ' '.join([f'[{r}]' for r in refs])
+            summary_text = summary_text.replace(f'[{combined}]', replacement)
+        
+        # Find all [N] references in the summary
+        references = re.findall(r'\[(\d+)\]', summary_text)
+        
+        # Sort references in descending order to avoid replacing [1] in [10]
+        references = sorted(set(references), key=int, reverse=True)
+        
+        for ref in references:
+            ref_num = int(ref) - 1  # Convert to 0-based index
+            if ref_num < len(articles):
+                article = articles[ref_num]
+                # Clean the URL if it's from Google News
+                clean_url = self.clean_google_news_url(article['link'])
+                # Create a markdown link with just the reference number
+                link = f"[[{ref}]]({clean_url})"
+                summary_text = summary_text.replace(f"[{ref}]", link)
+        
+        return summary_text
+    
     def generate_summaries(self):
-        """Generate daily and weekly summaries"""
+        """Generate daily and weekly summaries with clickable references"""
         articles = self.load_articles()
         
         summaries = {}
@@ -206,7 +247,11 @@ Rules:
             if self.api_key:
                 latest_prompt = self.build_zendesk_prompt(latest_articles[:10], 'latest')
                 latest_summary = self.call_claude_api(latest_prompt)
-                summaries['latest'] = latest_summary if latest_summary else self.fallback_summary(latest_articles[:10])
+                if latest_summary:
+                    # Convert [N] references to clickable links
+                    summaries['latest'] = self.convert_references_to_links(latest_summary, latest_articles[:10])
+                else:
+                    summaries['latest'] = self.fallback_summary(latest_articles[:10])
             else:
                 summaries['latest'] = self.fallback_summary(latest_articles[:10])
         else:
@@ -219,7 +264,11 @@ Rules:
             if self.api_key:
                 weekly_prompt = self.build_zendesk_prompt(week_articles[:20], 'weekly')
                 weekly_summary = self.call_claude_api(weekly_prompt)
-                summaries['weekly'] = weekly_summary if weekly_summary else self.fallback_summary(week_articles[:20])
+                if weekly_summary:
+                    # Convert [N] references to clickable links
+                    summaries['weekly'] = self.convert_references_to_links(weekly_summary, week_articles[:20])
+                else:
+                    summaries['weekly'] = self.fallback_summary(week_articles[:20])
             else:
                 summaries['weekly'] = self.fallback_summary(week_articles[:20])
         else:
@@ -232,7 +281,11 @@ Rules:
             if self.api_key:
                 monthly_prompt = self.build_zendesk_prompt(month_articles[:20], 'monthly')
                 monthly_summary = self.call_claude_api(monthly_prompt)
-                summaries['monthly'] = monthly_summary if monthly_summary else self.fallback_summary(month_articles[:20])
+                if monthly_summary:
+                    # Convert [N] references to clickable links
+                    summaries['monthly'] = self.convert_references_to_links(monthly_summary, month_articles[:20])
+                else:
+                    summaries['monthly'] = self.fallback_summary(month_articles[:20])
             else:
                 summaries['monthly'] = self.fallback_summary(month_articles[:20])
         else:
