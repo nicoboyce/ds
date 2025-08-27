@@ -210,3 +210,170 @@ News page updated: news.md
 2025-08-26 09:30:07,659 - INFO - This week's articles: 10
 2025-08-26 09:30:07,659 - INFO - Feeds processed: 8
 2025-08-26 09:30:07,659 - INFO - Site updated: 26/08/2025 09:30
+2025-08-27 09:00:01,251 - INFO - Working in: /Users/nico/ds/ds
+2025-08-27 09:00:01,252 - INFO - Starting daily RSS automation pipeline
+2025-08-27 09:00:01,252 - INFO - Timestamp: 2025-08-27T09:00:01.252688
+2025-08-27 09:00:01,252 - INFO - 
+--- Starting: Git Pull ---
+2025-08-27 09:00:01,252 - INFO - === GIT PULL ===
+2025-08-27 09:00:01,253 - INFO - Running: Pulling latest changes
+2025-08-27 09:00:02,391 - INFO - Output: Updating abb56c6..bf8a4b0
+Fast-forward
+ CLAUDE.md                                       |  93 +++
+ C_writing.md                                    |  35 +
+ _config.yml                                     |   4 +
+ _includes/footer.html                           |   6 +-
+ _includes/nicos-commentary.html                 |   5 +-
+ _site/404/index.html                            |   6 +-
+ _site/assets/css/agency.css                     | 900 ++++++++++++++++++------
+ _site/assets/css/agency.css.map                 |  39 +-
+ _site/careers/index.html                        |   6 +-
+ _site/contact/index.html                        |   6 +-
+ _site/customer-experience-automation/index.html |   6 +-
+ _site/faqs/index.html                           |   6 +-
+ _site/fetch_rss_sample.py                       |  65 ++
+ _site/index.html                                |   6 +-
+ _site/legal/index.html                          |   6 +-
+ _site/ms/index.html                             |   6 +-
+ _site/news-2025-08-26/index.html                |  11 +-
+ _site/news/index.html                           |  11 +-
+ _site/no-ai/index.html                          |   6 +-
+ _site/oklch-gradient-comparison.html            | 463 ++++++++++++
+ _site/oklch-interactive-builder.html            | 554 +++++++++++++++
+ _site/oklch-vivid-orange.html                   | 463 ++++++++++++
+ _site/privacy/index.html                        |   6 +-
+ _site/sitemap.xml                               |  46 +-
+ _site/test-color-tool.html                      | 115 +++
+ _site/zendesk-applications/index.html           |   6 +-
+ _site/zendesk-custom-app/index.html             |   6 +-
+ _site/zendesk-guide-tutorial/index.html         |   6 +-
+ _site/zendesk-integration/index.html            |   6 +-
+ _site/zendesk-migration-checklist/index.html    |   6 +-
+ _site/zendesk-migration/index.html              |   6 +-
+ _site/zendesk-optimization/index.html           |   6 +-
+ _site/zendesk-sla-best-practices/index.html     |   6 +-
+ _site/zendesk-stripe-integration/index.html     |   6 +-
+ fetch_rss_sample.py                             |  65 ++
+ oklch-gradient-comparison.html                  | 463 ++++++++++++
+ oklch-interactive-builder.html                  | 554 +++++++++++++++
+ oklch-vivid-orange.html                         | 463 ++++++++++++
+ test-color-tool.html                            | 115 +++
+ 39 files changed, 4237 insertions(+), 347 deletions(-)
+ create mode 100644 CLAUDE.md
+ create mode 100644 C_writing.md
+ create mode 100644 _site/fetch_rss_sample.py
+ create mode 100644 _site/oklch-gradient-comparison.html
+ create mode 100644 _site/oklch-interactive-builder.html
+ create mode 100644 _site/oklch-vivid-orange.html
+ create mode 100644 _site/test-color-tool.html
+ create mode 100644 fetch_rss_sample.py
+ create mode 100644 oklch-gradient-comparison.html
+ create mode 100644 oklch-interactive-builder.html
+ create mode 100644 oklch-vivid-orange.html
+ create mode 100644 test-color-tool.html
+2025-08-27 09:00:02,391 - INFO - SUCCESS: Git Pull
+2025-08-27 09:00:02,391 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-27 09:00:02,391 - INFO - === RSS INGESTION ===
+2025-08-27 09:00:02,391 - INFO - Running: Ingesting RSS feeds
+2025-08-27 09:00:07,891 - INFO - Output: Starting RSS ingestion...
+Processing 9 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 7
+  This week (3-7d): 9
+  This month (8-35d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 7, Week: 9, Month: 40)
+2025-08-27 09:00:07,891 - INFO - SUCCESS: RSS Ingestion
+2025-08-27 09:00:07,891 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-27 09:00:07,891 - INFO - === CLAUDE SUMMARIES ===
+2025-08-27 09:00:07,891 - WARNING - CLAUDE_API_KEY not set - using intelligent fallback summaries
+2025-08-27 09:00:07,891 - INFO - Running: Generating Claude summaries
+2025-08-27 09:00:08,042 - INFO - Output: WARNING: CLAUDE_API_KEY environment variable not set - using fallback summaries only
+Generating latest summary for 7 articles...
+Generating weekly summary for 9 articles...
+Generating monthly summary for 40 articles...
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.
+2025-08-27 09:00:08,043 - INFO - SUCCESS: Claude Summaries
+2025-08-27 09:00:08,043 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-27 09:00:08,043 - INFO - === GENERATE RSS PAGE ===
+2025-08-27 09:00:08,043 - INFO - Running: Generating RSS feeds page
+2025-08-27 09:00:08,108 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-27.md
+News page updated: news.md
+  Latest (48h): 7 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 40 articles
+2025-08-27 09:00:08,109 - INFO - SUCCESS: Generate RSS Page
+2025-08-27 09:00:08,109 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-27 09:00:08,109 - INFO - === JEKYLL BUILD ===
+2025-08-27 09:00:08,109 - INFO - Running: Building Jekyll site
+2025-08-27 09:00:08,516 - ERROR - Command failed: Command 'export PATH="/opt/homebrew/opt/ruby/bin:/Users/nico/.gem/ruby/3.4.0/bin:$PATH" && bundle exec jekyll build' returned non-zero exit status 1.
+2025-08-27 09:00:08,516 - ERROR - Error output: bundler: failed to load command: jekyll (/Users/nico/ds/ds/vendor/bundle/ruby/3.4.0/bin/jekyll)
+/Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/definition.rb:691:in 'Bundler::Definition#materialize': Could not find jekyll-sass-converter-2.2.0, rouge-3.30.0, public_suffix-5.1.1, sassc-2.4.0 in locally installed gems (Bundler::GemNotFound)
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/definition.rb:237:in 'Bundler::Definition#specs'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/definition.rb:304:in 'Bundler::Definition#specs_for'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/runtime.rb:18:in 'Bundler::Runtime#setup'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler.rb:166:in 'Bundler.setup'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/setup.rb:32:in 'block in <top (required)>'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/ui/shell.rb:173:in 'Bundler::UI::Shell#with_level'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/ui/shell.rb:119:in 'Bundler::UI::Shell#silence'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/setup.rb:32:in '<top (required)>'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:57:in 'Kernel#require_relative'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:57:in 'Bundler::CLI::Exec#kernel_load'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:23:in 'Bundler::CLI::Exec#run'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/cli.rb:451:in 'Bundler::CLI#exec'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/command.rb:28:in 'Bundler::Thor::Command#run'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in 'Bundler::Thor::Invocation#invoke_command'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor.rb:538:in 'Bundler::Thor.dispatch'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/cli.rb:35:in 'Bundler::CLI.dispatch'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/base.rb:584:in 'Bundler::Thor::Base::ClassMethods#start'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/cli.rb:29:in 'Bundler::CLI.start'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/exe/bundle:28:in 'block in <top (required)>'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/lib/bundler/friendly_errors.rb:118:in 'Bundler.with_friendly_errors'
+	from /Users/nico/.gem/ruby/3.4.0/gems/bundler-2.7.1/exe/bundle:20:in '<top (required)>'
+	from /opt/homebrew/opt/ruby/bin/bundle:25:in 'Kernel#load'
+	from /opt/homebrew/opt/ruby/bin/bundle:25:in '<main>'
+
+2025-08-27 09:00:08,516 - ERROR - FAILED: Jekyll Build
+2025-08-27 09:00:08,516 - WARNING - Non-critical step failed - continuing pipeline
+2025-08-27 09:00:08,516 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-27 09:00:08,516 - INFO - === GIT COMMIT & PUSH ===
+2025-08-27 09:00:08,516 - INFO - Running: Adding changes to git
