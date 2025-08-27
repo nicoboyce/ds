@@ -2,6 +2,9 @@
 """
 Generate RSS feeds page from ingested articles and Claude summaries
 Updates the Jekyll markdown with fresh content
+
+Now includes article deduplication and topic categorisation for better
+organisation of Zendesk news content.
 """
 
 import json
@@ -11,10 +14,15 @@ import os
 import sys
 import re
 
+# Import the deduplicator for article processing
+from article_deduplicator import ArticleDeduplicator
+
 class RSSPageGenerator:
     def __init__(self, data_dir='_data/rss', page_path='news.md'):
         self.data_dir = Path(data_dir)
         self.page_path = Path(page_path)
+        # Initialise the deduplicator
+        self.deduplicator = ArticleDeduplicator(self.data_dir)
         
     def load_data(self):
         """Load articles, summaries, and stats"""
@@ -63,6 +71,68 @@ class RSSPageGenerator:
         except:
             return "recently"
     
+    def format_deduplicated_article_html(self, article, include_description=False):
+        """
+        Format HTML for a deduplicated article with source count indicator.
+        
+        Args:
+            article: Deduplicated article dictionary with source_count
+            include_description: Whether to include article description
+            
+        Returns:
+            HTML string for the article
+        """
+        time_ago = self.format_time_ago(article.get('pub_date', ''))
+        link = article.get('link', '#')
+        source = article.get('source', 'Unknown')
+        source_count = article.get('source_count', 1)
+        
+        # Format source badge with count if multiple sources
+        source_badge = ''
+        if source == 'Internal Note':
+            source_badge = '<a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>'
+        elif 'Google News' not in source:
+            source_badge = f'<span class="source-badge">{source}</span>'
+        
+        # Add source count indicator if multiple sources
+        source_indicator = ''
+        if source_count > 1:
+            sources_list = ', '.join(article.get('sources', []))
+            source_indicator = f' <small class="text-info" title="{sources_list}">[{source_count} sources]</small>'
+        
+        # Add update indicator if this is an updated story
+        update_indicator = ''
+        if article.get('is_update'):
+            update_indicator = ' <span class="badge badge-warning ml-2">Updated</span>'
+        
+        if include_description and article.get('description'):
+            return f"""        <article class="feed-item border-bottom py-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="item-title">
+                        <a href="{link}" class="text-dark">{article['title']}</a>
+                        {source_badge}{source_indicator}{update_indicator}
+                    </h5>
+                    <p class="item-summary text-muted">
+                        {article['description']}
+                    </p>
+                    <small class="text-muted">
+                        <i class="far fa-clock"></i> {time_ago}
+                    </small>
+                </div>
+            </div>
+        </article>"""
+        else:
+            return f"""        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="{link}" class="text-dark">{article['title']}</a>
+                {source_badge}{source_indicator}{update_indicator}
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> {time_ago}
+            </small>
+        </article>"""
+
     def format_article_html(self, article, include_description=False):
         """Format article as HTML"""
         time_ago = self.format_time_ago(article.get('pub_date', ''))
@@ -258,6 +328,58 @@ class RSSPageGenerator:
         
         return link
     
+    def generate_categorised_section(self, deduplicated_articles, section_title="Latest Updates"):
+        """
+        Generate HTML for a categorised section with deduplicated articles.
+        
+        Args:
+            deduplicated_articles: Dictionary of categorised, deduplicated articles
+            section_title: Title for the section
+            
+        Returns:
+            HTML string for the categorised section
+        """
+        html = ""
+        
+        # Process categories in priority order
+        category_order = [
+            'incidents_security',
+            'product_updates', 
+            'operations',
+            'business',
+            'resources'
+        ]
+        
+        for cat_key in category_order:
+            if cat_key not in deduplicated_articles or not deduplicated_articles[cat_key]:
+                continue
+                
+            # Get category info
+            cat_info = self.deduplicator.CATEGORIES[cat_key]
+            cat_name = cat_info['name']
+            articles = deduplicated_articles[cat_key]
+            
+            # Generate category section
+            html += f"""
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            {cat_name}
+            <span class="badge badge-secondary ml-2">{len(articles)}</span>
+        </h5>
+        <div class="category-articles">
+"""
+            
+            # Add articles (first one gets description)
+            for i, article in enumerate(articles):
+                include_desc = (i == 0 and cat_key == 'incidents_security')  # Only first security item gets description
+                html += self.format_deduplicated_article_html(article, include_desc)
+                
+            html += """        </div>
+    </div>
+"""
+        
+        return html
+    
     def generate_page_content(self, articles, summaries, stats):
         """Generate the complete RSS feeds page content"""
         now = datetime.now()
@@ -265,14 +387,16 @@ class RSSPageGenerator:
         archive_date = now.strftime('%Y-%m-%d')
         archive_url = f"https://deltastring.com/news-{archive_date}/"
         
-        # Recalculate stats excluding release notes
-        def exclude_release_notes(article_list):
-            return [a for a in article_list if 'Release notes through' not in a.get('title', '')]
+        # Calculate deduplicated stats
+        def get_deduplicated_count(article_list, timeframe):
+            filtered = [a for a in article_list if 'Release notes through' not in a.get('title', '')]
+            deduped = self.deduplicator.deduplicate_articles(filtered, timeframe)
+            return sum(len(arts) for arts in deduped.values())
         
         filtered_stats = {
-            'latest_count': len(exclude_release_notes(articles.get('latest', []))),
-            'week_count': len(exclude_release_notes(articles.get('this_week', []))),
-            'month_count': len(exclude_release_notes(articles.get('this_month', [])))
+            'latest_count': get_deduplicated_count(articles.get('latest', []), 'latest'),
+            'week_count': get_deduplicated_count(articles.get('this_week', []), 'week'),
+            'month_count': get_deduplicated_count(articles.get('this_month', []), 'month')
         }
         
         
@@ -319,27 +443,29 @@ background: grey
         </div>
     </div>
 
-    <div class="date-articles">
 """
         
-        # Latest articles (48h) - excluding release notes since they have their own panel
+        # Deduplicate and categorise latest articles
         all_latest = articles.get('latest', articles.get('today', []))
-        latest_articles = [a for a in all_latest if 'Release notes through' not in a.get('title', '')][:10]  # Filter release notes
-        for i, article in enumerate(latest_articles):
-            include_desc = i == 0  # Only first article gets description
-            article_html = self.format_article_html(article, include_desc)
-            # Add ID for reference linking
-            article_html = article_html.replace('<article class="feed-item', f'<article id="latest-article-{i+1}" class="feed-item')
-            content += article_html + "\n"
+        # Filter out release notes as they have their own panel
+        latest_filtered = [a for a in all_latest if 'Release notes through' not in a.get('title', '')]
         
-        if not latest_articles:
+        # Run deduplication
+        deduplicated_latest = self.deduplicator.deduplicate_articles(latest_filtered, 'latest')
+        
+        # Generate categorised sections
+        content += self.generate_categorised_section(deduplicated_latest, "Latest 48 Hours")
+        
+        # If no articles at all
+        total_articles = sum(len(arts) for arts in deduplicated_latest.values())
+        if total_articles == 0:
             content += """        <div class="alert alert-light">
             <i class="fas fa-info-circle text-muted"></i>
             No new articles in the last 48 hours. Check back later for updates.
         </div>
 """
         
-        content += f"""    </div>
+        content += f"""
 </div>
 
 <!-- This Week's Summary -->
@@ -369,7 +495,7 @@ background: grey
         <div class="collapse" id="week-list">
 """  
         # Add week articles - excluding release notes
-        week_filtered = exclude_release_notes(articles.get('this_week', []))
+        week_filtered = [a for a in articles.get('this_week', []) if 'Release notes through' not in a.get('title', '')]
         for idx, article in enumerate(week_filtered[:20], 1):  # Show up to 20 articles
             source_badge = ''
             if article['source'] == 'Internal Note':
@@ -417,7 +543,7 @@ background: grey
         <div class="collapse" id="month-list">
 """  
         # Add month articles - excluding release notes
-        month_filtered = exclude_release_notes(articles.get('this_month', []))
+        month_filtered = [a for a in articles.get('this_month', []) if 'Release notes through' not in a.get('title', '')]
         for idx, article in enumerate(month_filtered[:30], 1):  # Show up to 30 articles
             source_badge = ''
             if article['source'] == 'Internal Note':
