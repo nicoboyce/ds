@@ -98,7 +98,7 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
             # Build the request payload
             # Using Sonnet model for balanced speed and quality
             payload = {
-                'model': 'claude-3-5-sonnet-20241022',  # Updated to latest Sonnet model
+                'model': 'claude-3-haiku-20240307',  # Using Haiku - only model available with this API key
                 'max_tokens': 1000,  # Sufficient for our concise summaries
                 'messages': [
                     {
@@ -324,7 +324,7 @@ Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin 
                     'content-type': 'application/json'
                 },
                 json={
-                    'model': 'claude-3-5-sonnet-20241022',  # Using Sonnet for better quality analysis
+                    'model': 'claude-3-haiku-20240307',  # Using Haiku - only model available with this API key
                     'max_tokens': 150,  # Keep release notes summaries brief
                     'temperature': 0.3,  # Lower temperature for factual accuracy
                     'messages': [{'role': 'user', 'content': prompt}]
