@@ -3,8 +3,8 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://deltastring.com/</loc>
-    <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+    <loc>http://localhost:4000/</loc>
+    <lastmod>2025-08-27T11:42:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -18,8 +18,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/careers/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/careers/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -29,8 +29,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/contact/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/contact/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -42,8 +42,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/customer-experience-automation/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/customer-experience-automation/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -53,89 +53,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/faqs/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/legal/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/ms/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/news-2025-08-26/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/news-2025-08-27/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/news/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/no-ai/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>https://deltastring.com/privacy/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/faqs/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -149,8 +68,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-applications/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/legal/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -160,8 +79,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-custom-app/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/ms/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -171,8 +90,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-guide-tutorial/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/news-2025-08-26/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -182,8 +101,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-integration/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/news-2025-08-27/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -193,8 +112,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-migration-checklist/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/news/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -204,8 +123,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-migration/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/no-ai/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -215,8 +134,23 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-optimization/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/privacy/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-applications/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -226,8 +160,8 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-sla-best-practices/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/zendesk-custom-app/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -237,8 +171,74 @@
     
       
         <url>
-          <loc>https://deltastring.com/zendesk-stripe-integration/</loc>
-          <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+          <loc>http://localhost:4000/zendesk-guide-tutorial/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-integration/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-migration-checklist/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-migration/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-optimization/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-sla-best-practices/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://localhost:4000/zendesk-stripe-integration/</loc>
+          <lastmod>2025-08-27T11:42:08+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -251,22 +251,22 @@
   <!-- Portfolio items -->
   
     <url>
-      <loc>https://deltastring.com/portfolio/example/</loc>
-      <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+      <loc>http://localhost:4000/portfolio/example/</loc>
+      <lastmod>2025-08-27T11:42:08+01:00</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://deltastring.com/portfolio/project1/</loc>
-      <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+      <loc>http://localhost:4000/portfolio/project1/</loc>
+      <lastmod>2025-08-27T11:42:08+01:00</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://deltastring.com/portfolio/project2/</loc>
-      <lastmod>2025-08-27T09:29:52+01:00</lastmod>
+      <loc>http://localhost:4000/portfolio/project2/</loc>
+      <lastmod>2025-08-27T11:42:08+01:00</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
     </url>

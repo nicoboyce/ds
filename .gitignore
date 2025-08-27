@@ -6,3 +6,8 @@ Gemfile.lock
 unused
 bootstrap-reference.html
 vendor/
+
+# Shell scripts with API keys
+setup_pi_cron.sh
+test_pi_rss.sh
+fix_pi_git.sh
