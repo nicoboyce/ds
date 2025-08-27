@@ -47,30 +47,24 @@ ARTICLES:
 """
         
         for i, article in enumerate(articles, 1):
-            prompt += f"\n{i}. {article['title']} ({article['source']})\n"
+            prompt += f"\n{i}. {article['title']}\n"
         
         prompt += f"""
 
-Format (2-3 lines total):
+Create a 2-3 line summary with these sections:
 
-If security/incidents exist:
-**Critical**: 0-day vulnerability [1], Multiple pods: adherence issue (Jul 25) [2], QA assignments stuck (Aug 4) [3]
+1. **Critical** (security vulnerabilities, service incidents, urgent issues)
+2. **{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}** (new feature announcements, product updates, release notes)  
+3. **Meanwhile** (business news, HQ auctions, reviews, tangential industry developments)
 
-Main news (REQUIRED):
-**{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}**: End User Separation EAP [1], trigger redaction [2], OAuth in Admin Center [3], WhatsApp Flows API [4]
-
-If interesting side news exists:
-**Meanwhile**: Former HQ to auction [1], Zendesk killer gets funding [2]
-
-Rules:
-- Use [N] for each reference - one article per bracket
-- For incidents: use exact wording from title "Multiple pods" not made-up names
-- Ultra-short: "OAuth in Admin" not "new OAuth page in Admin Center"  
-- Strip all filler words
-- Security/incidents first
-- Max 3-4 items per line
-- Each item ≤4 words
-- Be factual - don't invent details"""
+Guidelines:
+- Use [N] to reference article numbers
+- Write clear summaries that explain what each item is (5-10 words per item)
+- Include enough detail so readers understand the significance
+- For incidents: include pod numbers and dates if mentioned
+- Maximum 4 items per section
+- Only include sections that have relevant content
+- Be accurate to the article titles - don't abbreviate too much"""
 
         return prompt
     
@@ -136,12 +130,19 @@ Rules:
         api_changes = []
         security_items = []
         service_issues = []
+        business_news = []
         
         for article in articles:
             title = article['title']
             title_lower = title.lower()
             
-            if 'announcing' in title_lower:
+            # Critical items first
+            if 'vulnerability' in title_lower or 'security' in title_lower and ('critical' in title_lower or 'exploit' in title_lower or 'hack' in title_lower):
+                security_items.append(title)
+            elif 'service incident' in title_lower or 'degradation' in title_lower or 'outage' in title_lower:
+                service_issues.append(title)
+            # New features and announcements
+            elif 'announcing' in title_lower:
                 if 'eap' in title_lower or 'early access' in title_lower:
                     # Extract EAP name
                     eap_name = title.replace('Announcing ', '').replace(' EAP', '').replace(' - Zendesk Announcements', '')
@@ -150,12 +151,15 @@ Rules:
                     # Extract feature name
                     feature_name = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
                     features.append(feature_name)
-            elif 'service incident' in title_lower or 'maintenance' in title_lower:
-                service_issues.append(title)
+            elif 'release notes' in title_lower:
+                features.append(title)
             elif 'oauth' in title_lower or 'api' in title_lower or 'deprecation' in title_lower:
                 api_changes.append(title)
-            elif 'security' in title_lower or 'authentication' in title_lower or 'vulnerability' in title_lower:
-                security_items.append(title)
+            # Meanwhile items
+            elif 'auction' in title_lower or 'headquarters' in title_lower or 'hq' in title_lower:
+                business_news.append(title)
+            elif 'review' in title_lower or 'acquisition' in title_lower or 'partner' in title_lower:
+                business_news.append(title)
         
         # Build specific summary
         summary_parts = []

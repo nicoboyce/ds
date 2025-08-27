@@ -1,8 +1,8 @@
 {
-  "latest": "**Critical**: 0-day vulnerability [6,7], Accounts hijacked [6,7]  \n\n**Latest**: End User Separation EAP [2], trigger redaction [3], OAuth in Admin [3], WhatsApp Flows API [Zendesk Announcements]\n\n**Meanwhile**: Former HQ to auction [1,4], Zendesk killer gets funding [Google News - Zendesk]",
-  "weekly": "**Critical**: 0-day vulnerability [1], Multiple pods: adherence issue (Jul 25) [2], QA assignments stuck (Aug 4) [3]\n\n**This week**: TTEC and Zendesk partnership [1], dynamic filtering for lookups [2], WhatsApp Flows API [5], Exchange/Gmail import enhancements [7]\n\n**Meanwhile**: Zendesk QA user management moved [9]",
-  "monthly": "**Critical**: QA access issues & 5xx errors [1], Account integration issue [8], Workflow disruptions [10], AI Agent delays [11]\n\n**This month**: Announcing email authentication [5], External OAuth page in Admin Center [7], Excluded terms for AI translations [18]\n\n**Meanwhile**: 'Zendesk killer' gets funding [2], Zendesk boosts support with GPT-5 [13], Expands to meet AI demand [14], Adopts outcome-based pricing [19]",
-  "generated_at": "2025-08-27T13:38:49.113097",
+  "latest": "**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.",
+  "weekly": "**New Features**: enhanced dynamic filtering for lookup relationships, API support for WhatsApp Flows, import enhancements for the Exchange and Gmail connectors, plus 1 more. **Service Issues**: 4 incidents/maintenance.",
+  "monthly": "**New Features**: a new approach to email authentication, the new external Oauth page in Admin Center and the excluded terms enhancement to AI-generated translations. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. **Service Issues**: 4 incidents/maintenance.",
+  "generated_at": "2025-08-27T15:38:03.149187",
   "release_notes": {
     "summary": "Copilot: auto assist can now suggest existing macros to agents. AI Agents Advanced: improved dialogue builder UI for hiding/disabling parameter branches.",
     "article": {
