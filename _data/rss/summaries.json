@@ -1,8 +1,8 @@
 {
   "latest": "**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.",
   "weekly": "**New Features**: enhanced dynamic filtering for lookup relationships, API support for WhatsApp Flows, import enhancements for the Exchange and Gmail connectors, plus 1 more. **Service Issues**: 4 incidents/maintenance.",
-  "monthly": "**New Features**: a new approach to email authentication, the new external Oauth page in Admin Center and the excluded terms enhancement to AI-generated translations. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. **Service Issues**: 4 incidents/maintenance.",
-  "generated_at": "2025-08-27T12:40:36.150056",
+  "monthly": "**New Features**: a new approach to email authentication, the new external Oauth page in Admin Center, the excluded terms enhancement to AI-generated translations, plus 1 more. **Security**: Developer update: Enhanced security guidelines for third-party apps, integrations, and bots. **Service Issues**: 4 incidents/maintenance.",
+  "generated_at": "2025-08-27T12:53:55.702615",
   "release_notes": {
     "summary": "Copilot: auto assist can now suggest existing macros to agents. AI Agents Advanced: improved dialogue builder UI for hiding/disabling parameter branches.",
     "article": {

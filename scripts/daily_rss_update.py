@@ -64,42 +64,68 @@ class DailyRSSPipeline:
             return False
     
     def git_pull(self):
-        """Pull latest changes from git"""
+        """Pull latest changes from git
+        
+        Ensures we have the latest website code before making changes.
+        This prevents merge conflicts and ensures RSS feeds configuration
+        is up to date.
+        """
         logger.info("=== GIT PULL ===")
         return self.run_command("git pull origin master", "Pulling latest changes")
     
     def rss_ingestion(self):
-        """Run RSS ingestion script"""
+        """Run RSS ingestion script
+        
+        Fetches all configured RSS feeds from _data/rss_feeds.yml.
+        Processes and deduplicates articles, categorising them by age
+        (latest/weekly/monthly). Saves to _data/rss/ for further processing.
+        """
         logger.info("=== RSS INGESTION ===")
         return self.run_command("python3 scripts/rss_ingestion.py", "Ingesting RSS feeds")
     
     def claude_summaries(self):
-        """Generate Claude summaries"""
+        """Generate Claude summaries
+        
+        Uses Claude API to create Zendesk-focused summaries for administrators.
+        Falls back to intelligent pattern-based summaries if API unavailable.
+        Generates separate summaries for latest/weekly/monthly timeframes.
+        """
         logger.info("=== CLAUDE SUMMARIES ===")
         
         # Always run the summariser - it has its own fallback logic
+        # The script handles missing API keys gracefully
         if not os.environ.get('CLAUDE_API_KEY'):
             logger.warning("CLAUDE_API_KEY not set - using intelligent fallback summaries")
         
         return self.run_command("python3 scripts/claude_summariser.py", "Generating Claude summaries")
     
     def generate_rss_page(self):
-        """Generate RSS feeds page"""
+        """Generate RSS feeds page
+        
+        Creates/updates the news.md page with latest RSS content.
+        Archives previous version with date stamp. Formats articles
+        with colour coding and includes Claude summaries at the top.
+        """
         logger.info("=== GENERATE RSS PAGE ===")
         return self.run_command("python3 scripts/generate_rss_page.py", "Generating RSS feeds page")
     
     def jekyll_build(self):
         """Build Jekyll site"""
         logger.info("=== JEKYLL BUILD ===")
-        # Test if bundle is available
-        logger.info("Testing bundle availability...")
-        which_result = self.run_command("which bundle", "Checking bundle location")
-        if not which_result:
-            logger.error("Bundle not found in PATH")
+        # Use the local bundle installation
+        bundle_path = "/home/nico/.local/share/gem/ruby/3.1.0/bin/bundle"
+        
+        # Check if bundle exists at expected path
+        import os
+        if not os.path.exists(bundle_path):
+            logger.warning("Bundle not found at expected path, trying global bundle")
+            bundle_cmd = "bundle"
+        else:
+            bundle_cmd = bundle_path
         
         # Try building Jekyll
         logger.info("Attempting Jekyll build...")
-        return self.run_command("bundle exec jekyll build", "Building Jekyll site")
+        return self.run_command(f"{bundle_cmd} exec jekyll build", "Building Jekyll site")
     
     def git_commit_push(self):
         """Commit and push changes"""

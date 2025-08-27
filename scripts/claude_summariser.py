@@ -81,17 +81,25 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
         return prompt
     
     def call_claude_api(self, prompt):
-        """Call Claude API for summary generation"""
+        """Call Claude API for summary generation
+        
+        Uses the Anthropic Messages API to generate summaries optimised for
+        Zendesk administrators. Falls back gracefully if API is unavailable.
+        """
         try:
+            # Configure API headers with authentication
+            # API version must match the model capabilities
             headers = {
                 'Content-Type': 'application/json',
                 'x-api-key': self.api_key,
-                'anthropic-version': '2023-06-01'
+                'anthropic-version': '2023-06-01'  # Required API version
             }
             
+            # Build the request payload
+            # Using Sonnet model for balanced speed and quality
             payload = {
-                'model': 'claude-3-sonnet-20240229',
-                'max_tokens': 1000,
+                'model': 'claude-3-5-sonnet-20241022',  # Updated to latest Sonnet model
+                'max_tokens': 1000,  # Sufficient for our concise summaries
                 'messages': [
                     {
                         'role': 'user',
@@ -101,19 +109,25 @@ Be specific. Use exact feature names, dates, and impacts. Skip generic advice.""
             }
             
             print("Calling Claude API...")
+            # Make the API request with a reasonable timeout
             response = requests.post(
                 'https://api.anthropic.com/v1/messages',
                 headers=headers,
                 json=payload,
-                timeout=30
+                timeout=30  # 30 second timeout for API calls
             )
             
+            # Check for HTTP errors
             response.raise_for_status()
             result = response.json()
             
+            # Extract the text from Claude's response
+            # The API returns content in a structured format
             return result['content'][0]['text']
             
         except Exception as e:
+            # Log the error but don't fail the pipeline
+            # Fallback summaries will be used instead
             print(f"Claude API error: {e}")
             return None  # Will be handled by caller
     
@@ -300,18 +314,19 @@ Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin 
         
         try:
             # Use requests library for API call
+            # This is specifically for release notes which need quick, focused summaries
             import requests
             response = requests.post(
                 'https://api.anthropic.com/v1/messages',
                 headers={
                     'x-api-key': self.api_key,
-                    'anthropic-version': '2023-06-01',
+                    'anthropic-version': '2023-06-01',  # Required API version
                     'content-type': 'application/json'
                 },
                 json={
-                    'model': 'claude-3-haiku-20240307',
-                    'max_tokens': 150,
-                    'temperature': 0.3,
+                    'model': 'claude-3-5-sonnet-20241022',  # Using Sonnet for better quality analysis
+                    'max_tokens': 150,  # Keep release notes summaries brief
+                    'temperature': 0.3,  # Lower temperature for factual accuracy
                     'messages': [{'role': 'user', 'content': prompt}]
                 },
                 timeout=10
