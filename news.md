@@ -44,7 +44,7 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 11:06 today | <a href="/news-2025-08-27/">Permanent link</a></small>
+            <small class="text-muted">Generated at 11:07 today | <a href="/news-2025-08-27/">Permanent link</a></small>
         </div>
         <div class="summary-content">
 <p><strong>Early Access</strong>: the End User Separation for department spaces. <strong>Security</strong>: <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" target="_blank" class="alert-link">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.</a></p>
@@ -220,13 +220,13 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-calendar text-info"></i>
         This Month
-        <span class="badge badge-info ml-2">37 articles</span>
+        <span class="badge badge-info ml-2">36 articles</span>
     </h2>
     
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#month-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show 37 articles from this month
+                <i class="fas fa-chevron-right"></i> Show 36 articles from this month
             </a>
         </small>
         <div class="collapse" id="month-list">
@@ -365,13 +365,6 @@ background: grey
             </article>
             <article class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
-                    <a href="https://news.google.com/rss/articles/CBMiR0FVX3lxTFBIZlA0SzhMWkhRdW9yNkFpcmNVNVpHS1ljcnAzN05kRE5STUlaQlZNSFpIVnhTbFNlYV9qNjk4OFEtV1JadmNV?oc=5" class="text-dark">Duo Protection for Zendesk with Duo Access Gateway - Duo Security</a>
-                    
-                </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> recently</small>
-            </article>
-            <article class="feed-item border-bottom py-2 mt-3">
-                <h6 class="item-title">
                     <a href="https://support.zendesk.com/hc/en-us/articles/9511069653274-Service-Incident-July-22-2025-Multiple-Pods-Let-s-Encrypt-Unavailable-Due-to-Internal-DNS-Server-Outage" class="text-dark">Service Incident - July 22, 2025 - Multiple Pods | Let's Encrypt Unavailable Due to Internal DNS Server Outage</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
@@ -439,6 +432,13 @@ background: grey
                     <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
                 </h6>
                 <small class="text-muted"><i class="far fa-clock"></i> recently</small>
+            </article>
+            <article class="feed-item border-bottom py-2 mt-3">
+                <h6 class="item-title">
+                    <a href="https://support.zendesk.com/hc/en-us/articles/9536605636890-What-s-new-in-Zendesk-August-2025" class="text-dark">What's new in Zendesk: August 2025</a>
+                    <span class="source-badge">Zendesk What's New</span>
+                </h6>
+                <small class="text-muted"><i class="far fa-clock"></i> 29 days ago</small>
             </article>
         </div>
     </div>

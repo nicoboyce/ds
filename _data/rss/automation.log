@@ -2290,3 +2290,138 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-27 11:06:45,911 - INFO - === GIT COMMIT & PUSH ===
 2025-08-27 11:06:45,911 - INFO - Running: Adding changes to git
+2025-08-27 11:06:57,622 - INFO - Running: Committing changes
+2025-08-27 11:06:59,744 - INFO - Output: [master 9acc3b1] Daily RSS update - 27/08/2025 11:06
+ 30 files changed, 20044 insertions(+), 425 deletions(-)
+ create mode 120000 node_modules/.bin/claude
+ create mode 100644 node_modules/.package-lock.json
+ create mode 100644 node_modules/@anthropic-ai/claude-code/LICENSE.md
+ create mode 100644 node_modules/@anthropic-ai/claude-code/README.md
+ create mode 100755 node_modules/@anthropic-ai/claude-code/cli.js
+ create mode 100644 node_modules/@anthropic-ai/claude-code/package.json
+ create mode 100644 node_modules/@anthropic-ai/claude-code/sdk-tools.d.ts
+ create mode 100644 node_modules/@anthropic-ai/claude-code/sdk.d.ts
+ create mode 100644 node_modules/@anthropic-ai/claude-code/sdk.mjs
+ create mode 100644 node_modules/@anthropic-ai/claude-code/yoga.wasm
+ create mode 100644 node_modules/@img/sharp-libvips-linux-arm/README.md
+ create mode 100644 node_modules/@img/sharp-libvips-linux-arm/lib/glib-2.0/include/glibconfig.h
+ create mode 100644 node_modules/@img/sharp-libvips-linux-arm/lib/index.js
+ create mode 100644 node_modules/@img/sharp-libvips-linux-arm/lib/libvips-cpp.so.42
+ create mode 100644 node_modules/@img/sharp-libvips-linux-arm/package.json
+ create mode 100644 node_modules/@img/sharp-libvips-linux-arm/versions.json
+ create mode 100644 node_modules/@img/sharp-linux-arm/LICENSE
+ create mode 100644 node_modules/@img/sharp-linux-arm/README.md
+ create mode 100755 node_modules/@img/sharp-linux-arm/lib/sharp-linux-arm.node
+ create mode 100644 node_modules/@img/sharp-linux-arm/package.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+2025-08-27 11:06:59,744 - INFO - Running: Pushing to GitHub
+2025-08-27 11:07:34,276 - INFO - ✅ SUCCESS: Git Commit & Push
+2025-08-27 11:07:34,276 - ERROR - Pipeline completed with failures: Jekyll Build
+2025-08-27 11:07:34,277 - INFO - === COMPLETION STATS ===
+2025-08-27 11:07:34,277 - INFO - Total articles processed: 168
+2025-08-27 11:07:34,278 - INFO - Today's articles: 0
+2025-08-27 11:07:34,278 - INFO - This week's articles: 9
+2025-08-27 11:07:34,279 - INFO - Feeds processed: 9
+2025-08-27 11:07:34,279 - INFO - Site updated: 27/08/2025 11:07
+2025-08-27 11:07:34,587 - INFO - Working in: /home/nico/ds
+2025-08-27 11:07:34,587 - INFO - Starting daily RSS automation pipeline
+2025-08-27 11:07:34,588 - INFO - Timestamp: 2025-08-27T11:07:34.588095
+2025-08-27 11:07:34,588 - INFO - 
+--- Starting: Git Pull ---
+2025-08-27 11:07:34,588 - INFO - === GIT PULL ===
+2025-08-27 11:07:34,589 - INFO - Running: Pulling latest changes
+2025-08-27 11:07:36,090 - INFO - Output: Already up to date.
+2025-08-27 11:07:36,090 - INFO - ✅ SUCCESS: Git Pull
+2025-08-27 11:07:36,091 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-27 11:07:36,091 - INFO - === RSS INGESTION ===
+2025-08-27 11:07:36,091 - INFO - Running: Ingesting RSS feeds
+2025-08-27 11:07:43,106 - INFO - Output: Starting RSS ingestion...
+Processing 9 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 7
+  This week (3-7d): 9
+  This month (8-35d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 7, Week: 9, Month: 40)
+2025-08-27 11:07:43,107 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-27 11:07:43,107 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-27 11:07:43,107 - INFO - === CLAUDE SUMMARIES ===
+2025-08-27 11:07:43,108 - INFO - Running: Generating Claude summaries
+2025-08-27 11:07:45,933 - INFO - Output: Generating latest summary for 7 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating weekly summary for 9 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Generating monthly summary for 40 articles...
+Calling Claude API...
+Claude API error: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+**Early Access**: the End User Separation for department spaces. **Security**: 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews.
+2025-08-27 11:07:45,934 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-27 11:07:45,934 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-27 11:07:45,934 - INFO - === GENERATE RSS PAGE ===
+2025-08-27 11:07:45,935 - INFO - Running: Generating RSS feeds page
+2025-08-27 11:07:46,440 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-27.md
+News page updated: news.md
+  Latest (48h): 7 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 40 articles
+2025-08-27 11:07:46,441 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-27 11:07:46,441 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-27 11:07:46,442 - INFO - === JEKYLL BUILD ===
+2025-08-27 11:07:46,442 - INFO - Testing bundle availability...
+2025-08-27 11:07:46,442 - INFO - Running: Checking bundle location
+2025-08-27 11:07:46,451 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-08-27 11:07:46,452 - ERROR - Failed command: which bundle
+2025-08-27 11:07:46,452 - ERROR - Bundle not found in PATH
+2025-08-27 11:07:46,452 - INFO - Attempting Jekyll build...
+2025-08-27 11:07:46,453 - INFO - Running: Building Jekyll site
+2025-08-27 11:07:46,458 - ERROR - ❌ COMMAND FAILED with exit code 127
+2025-08-27 11:07:46,458 - ERROR - Failed command: bundle exec jekyll build
+2025-08-27 11:07:46,459 - ERROR - Error output: /bin/sh: 1: bundle: not found
+
+2025-08-27 11:07:46,459 - ERROR - 🔴 FAILED: Jekyll Build
+2025-08-27 11:07:46,459 - WARNING - ⚠️  Non-critical step failed - continuing pipeline
+2025-08-27 11:07:46,460 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-27 11:07:46,460 - INFO - === GIT COMMIT & PUSH ===
+2025-08-27 11:07:46,460 - INFO - Running: Adding changes to git
