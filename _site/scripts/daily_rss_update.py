@@ -52,10 +52,13 @@ class DailyRSSPipeline:
                 logger.info(f"Output: {result.stdout.strip()}")
             return result.returncode == 0
         except subprocess.TimeoutExpired:
-            logger.error(f"Command timed out: {command}")
+            logger.error(f"⏱️ TIMEOUT after 5 minutes: {command}")
             return False
         except subprocess.CalledProcessError as e:
-            logger.error(f"Command failed: {e}")
+            logger.error(f"❌ COMMAND FAILED with exit code {e.returncode}")
+            logger.error(f"Failed command: {command}")
+            if e.stdout:
+                logger.error(f"Standard output: {e.stdout}")
             if e.stderr:
                 logger.error(f"Error output: {e.stderr}")
             return False
@@ -88,9 +91,15 @@ class DailyRSSPipeline:
     def jekyll_build(self):
         """Build Jekyll site"""
         logger.info("=== JEKYLL BUILD ===")
-        # Set Ruby path and build Jekyll
-        ruby_env = 'export PATH="/opt/homebrew/opt/ruby/bin:/Users/nico/.gem/ruby/3.4.0/bin:$PATH" && '
-        return self.run_command(f"{ruby_env}bundle exec jekyll build", "Building Jekyll site")
+        # Test if bundle is available
+        logger.info("Testing bundle availability...")
+        which_result = self.run_command("which bundle", "Checking bundle location")
+        if not which_result:
+            logger.error("Bundle not found in PATH")
+        
+        # Try building Jekyll
+        logger.info("Attempting Jekyll build...")
+        return self.run_command("bundle exec jekyll build", "Building Jekyll site")
     
     def git_commit_push(self):
         """Commit and push changes"""
@@ -149,17 +158,17 @@ class DailyRSSPipeline:
         for step_name, step_func in steps:
             logger.info(f"\n--- Starting: {step_name} ---")
             if not step_func():
-                logger.error(f"FAILED: {step_name}")
+                logger.error(f"🔴 FAILED: {step_name}")
                 failed_steps.append(step_name)
                 
                 # Decide whether to continue or abort
                 if step_name in ["Git Pull", "RSS Ingestion"]:
-                    logger.error("Critical step failed - aborting pipeline")
+                    logger.error("❌ Critical step failed - aborting pipeline")
                     break
                 else:
-                    logger.warning("Non-critical step failed - continuing pipeline")
+                    logger.warning("⚠️  Non-critical step failed - continuing pipeline")
             else:
-                logger.info(f"SUCCESS: {step_name}")
+                logger.info(f"✅ SUCCESS: {step_name}")
         
         # Log completion
         if failed_steps:
