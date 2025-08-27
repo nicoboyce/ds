@@ -146,7 +146,7 @@ class RSSPageGenerator:
         return result
     
     def format_claude_summary(self, summary_text, articles=None, section_id='latest'):
-        """Format Claude summary for HTML with clickable references"""
+        """Format Claude summary for HTML"""
         if not summary_text or summary_text == "No new articles today.":
             return """            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>"""
         
@@ -155,29 +155,6 @@ class RSSPageGenerator:
         
         # Convert **bold** to <strong>
         html = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', html)
-        
-        # Convert [N] references to clickable links
-        if articles:
-            html = self.convert_references_to_links(html, articles, section_id)
-        
-        # Check if this is a security alert and make it clickable
-        if articles and '**Security**:' in summary_text:
-            # Find the security article
-            for article in articles:
-                title = article.get('title', '')
-                if ('security' in title.lower() or 'vulnerability' in title.lower() or 
-                    '0-click' in title.lower() or 'flaw' in title.lower()):
-                    # Extract the security part and make it a link
-                    security_match = re.search(r'<strong>Security</strong>: (.*?)(?:\s*-\s*CyberSecurityNews|\s*-\s*GBHackers.*?)?$', html)
-                    if security_match:
-                        security_text = security_match.group(1).strip()
-                        link = self.get_direct_url(article)
-                        # Replace the security text with a linked version
-                        html = html.replace(
-                            f'<strong>Security</strong>: {security_text}',
-                            f'<strong>Security</strong>: <a href="{link}" target="_blank" class="alert-link">{security_text}</a>'
-                        )
-                    break
         
         # Convert bullet points to HTML list
         lines = html.split('\n')

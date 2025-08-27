@@ -64,7 +64,6 @@ Meanwhile:
 
 REQUIREMENTS:
 - Include EVERY article that fits each category - don't limit the count
-- Use [N] to reference specific article numbers
 - Write concise but informative descriptions (5-15 words per item)
 - For critical items: emphasise the risk/impact
 - For features: clarify what it does and who it affects
@@ -72,7 +71,8 @@ REQUIREMENTS:
 - Group related items together with commas
 - Start each section on a new line
 - Only include sections that have content
-- Use exact feature names from the titles, don't abbreviate"""
+- Use exact feature names from the titles, don't abbreviate
+- Do NOT include reference numbers like [1] or [2]"""
 
         return prompt
     
@@ -132,38 +132,37 @@ REQUIREMENTS:
         if not articles:
             return "No new articles available."
         
-        # Track article indices for references
         critical_items = []
         latest_items = []
         meanwhile_items = []
         
-        for i, article in enumerate(articles, 1):
+        for article in articles:
             title = article['title']
             title_lower = title.lower()
             
             # Critical items (security, outages)
             if any(term in title_lower for term in ['vulnerability', '0-day', '0-click', 'exploit', 'takeover', 'hijack']):
                 desc = title.replace(' - CyberSecurityNews', '').replace(' - GBHackers', '')
-                critical_items.append(f"[{i}] {desc}")
+                critical_items.append(desc)
             elif 'service incident' in title_lower or 'degradation' in title_lower or 'outage' in title_lower:
-                critical_items.append(f"[{i}] {title}")
+                critical_items.append(title)
             
             # Latest items (features, updates, releases)  
             elif 'announcing' in title_lower or 'release notes' in title_lower:
                 if 'eap' in title_lower or 'early access' in title_lower:
                     desc = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
-                    latest_items.append(f"[{i}] EAP: {desc}")
+                    latest_items.append(f"EAP: {desc}")
                 else:
                     desc = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
-                    latest_items.append(f"[{i}] {desc}")
+                    latest_items.append(desc)
             elif any(term in title_lower for term in ['api', 'oauth', 'deprecat', 'integration', 'update']):
                 desc = title.replace(' - Zendesk Developer Updates', '').replace(' - Zendesk Announcements', '')
-                latest_items.append(f"[{i}] {desc}")
+                latest_items.append(desc)
             
             # Meanwhile items (business, reviews, ecosystem)
             elif any(term in title_lower for term in ['auction', 'headquarters', 'hq', 'funding', 'acquisition', 'partner', 'review', 'killer', 'alternative']):
                 desc = title.replace(' - Google News', '').replace(' - Zendesk', '')
-                meanwhile_items.append(f"[{i}] {desc}")
+                meanwhile_items.append(desc)
         
         # Build the summary in the new format
         summary_parts = []

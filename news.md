@@ -44,12 +44,12 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 16:25 today | <a href="/news-2025-08-27/">Permanent link</a></small>
+            <small class="text-muted">Generated at 17:15 today | <a href="/news-2025-08-27/">Permanent link</a></small>
         </div>
         <div class="summary-content">
-<p><strong>Critical</strong> <a href="#latest-article-6" class="ref-link" data-section="latest">[6]</a><a href="#latest-article-7" class="ref-link" data-section="latest">[7]</a> 0-click Zendesk account takeover vulnerability enables full access to all tickets</p>
-            <p><strong>Latest</strong> <a href="#latest-article-2" class="ref-link" data-section="latest">[2]</a> Announcing the End User Separation EAP for department spaces <a href="#latest-article-5" class="ref-link" data-section="latest">[5]</a> Zendesk release notes through 2025-08-22</p>
-            <p><strong>Meanwhile</strong> <a href="#latest-article-1" class="ref-link" data-section="latest">[1]</a><a href="#latest-article-4" class="ref-link" data-section="latest">[4]</a> Former Zendesk HQ headed to auction after 80% valuation drop <a href="#latest-article-3" class="ref-link" data-section="latest">[3]</a> New trigger-based automated ticket redaction feature</p>
+<p><strong>Critical</strong> 0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets, 0-Click Zendesk Flaw Lets Hackers Hijack Accounts and View All Tickets</p>
+            <p><strong>Latest</strong> Announcing the End User Separation EAP for department spaces, Release notes through 2025-08-22</p>
+            <p><strong>Meanwhile</strong> Former Zendesk HQ Headed To Auction Following Steep Drop In Valuation, Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value, Automated ticket redaction via triggers in Zendesk</p>
         </div>
         <div class="share-buttons mt-2">
             <small>Share: 
@@ -139,9 +139,9 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Critical</strong> <a href="#week-article-3" class="ref-link" data-section="week">[3]</a> Service incident causing inability to use adherence feature in GCP <a href="#week-article-4" class="ref-link" data-section="week">[4]</a> Service incident with assignments stuck on pending for multiple workspaces</p>
-            <p><strong>This week</strong> <a href="#week-article-2" class="ref-link" data-section="week">[2]</a> Enhanced dynamic filtering for lookup relationships <a href="#week-article-5" class="ref-link" data-section="week">[5]</a> API support for WhatsApp Flows <a href="#week-article-7" class="ref-link" data-section="week">[7]</a> Import enhancements for Exchange and Gmail connectors <a href="#week-article-9" class="ref-link" data-section="week">[9]</a> Zendesk QA user and license management moved to Zendesk Admin Center</p>
-            <p><strong>Meanwhile</strong> <a href="#week-article-1" class="ref-link" data-section="week">[1]</a> TTEC and Zendesk partnering to deliver AI-driven customer experience solutions <a href="#week-article-6" class="ref-link" data-section="week">[6]</a> Service incident causing performance degradation and failing calls in Zendesk Sales <a href="#week-article-8" class="ref-link" data-section="week">[8]</a> Scheduled database maintenance for Zendesk Sales (Sell)</p>
+<p><strong>Critical</strong> Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts Service Incident - July 31, 2025 - All Pods | Zendesk Sales - Performance degradation and failing calls</p>
+            <p><strong>This week</strong> Announcing enhanced dynamic filtering for lookup relationships Announcing API support for WhatsApp Flows Announcing import enhancements for the Exchange and Gmail connectors Announcing the move of Zendesk QA user and license management to Zendesk Admin Center [Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</p>
+            <p><strong>Meanwhile</strong> TTEC, Zendesk Team Up to Deliver Full-Stack, AI-Driven Customer Experience Solutions</p>
         </div>
     </div>
 
@@ -164,7 +164,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9627544817434-Announcing-enhanced-dynamic-filtering-for-lookup-relationships" class="text-dark">Announcing enhanced dynamic filtering for lookup relationships</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 4 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 5 days ago</small>
             </article>
             <article id="week-article-3" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
@@ -233,9 +233,9 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Critical</strong> Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors <a href="#month-article-1" class="ref-link" data-section="month">[1]</a> Service Incident - August 14, 2025 - Multiple Pods | SunCo - Meta apps account integration issue <a href="#month-article-8" class="ref-link" data-section="month">[8]</a> Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays <a href="#month-article-11" class="ref-link" data-section="month">[11]</a> Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge <a href="#month-article-10" class="ref-link" data-section="month">[10]</a></p>
-            <p><strong>This month</strong> Release notes through 2025-08-15 <a href="#month-article-4" class="ref-link" data-section="month">[4]</a> Release notes through 2025-08-08 <a href="#month-article-17" class="ref-link" data-section="month">[17]</a> Announcing the excluded terms enhancement to AI-generated translations <a href="#month-article-18" class="ref-link" data-section="month">[18]</a> Instructions for Zendesk Agent Copilot auto-assist <a href="#month-article-16" class="ref-link" data-section="month">[16]</a> Announcing the new external Oauth page in Admin Center <a href="#month-article-7" class="ref-link" data-section="month">[7]</a> Announcing a new approach to email authentication <a href="#month-article-5" class="ref-link" data-section="month">[5]</a></p>
-            <p><strong>Meanwhile</strong> Why Andreessen and Bain Backed a Self-Described 'Zendesk Killer' - The Information <a href="#month-article-2" class="ref-link" data-section="month">[2]</a> Moving Toward Value-Added Conversations in Zendesk <a href="#month-article-3" class="ref-link" data-section="month">[3]</a> Beyond the bot: a blueprint for people-first automation - Raconteur <a href="#month-article-6" class="ref-link" data-section="month">[6]</a> Zendesk CTO on the new era of customer experience - Computer Weekly <a href="#month-article-9" class="ref-link" data-section="month">[9]</a> Help Desk Migration: Migrate, Merge, and Consolidate your Zendesk data (sponsor) <a href="#month-article-12" class="ref-link" data-section="month">[12]</a> Zendesk Boosts Customer Support Efficiency with GPT-5 Integration - Small Business Trends <a href="#month-article-13" class="ref-link" data-section="month">[13]</a> Zendesk Expands to Meet Rising AI-Driven Demand - Nearshore Americas <a href="#month-article-14" class="ref-link" data-section="month">[14]</a> Developer update: Enhanced security guidelines for third-party apps, integrations, and bots <a href="#month-article-15" class="ref-link" data-section="month">[15]</a> Zendesk's Adoption of Outcome-based Pricing Model - Permira <a href="#month-article-19" class="ref-link" data-section="month">[19]</a> US firm Zendesk ups LatAm investments to capture momentum in AI agents - BNamericas <a href="#month-article-20" class="ref-link" data-section="month">[20]</a></p>
+<p><strong>Critical</strong> Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors Service Incident - August 14, 2025 - Multiple Pods | SunCo - Meta apps account integration issue Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</p>
+            <p><strong>This month</strong> Release notes through 2025-08-15, 2025-08-08 Announcing a new approach to email authentication Announcing the new external Oauth page in Admin Center Instructions for Zendesk Agent Copilot auto-assist Announcing the excluded terms enhancement to AI-generated translations</p>
+            <p><strong>Meanwhile</strong> Why Andreessen and Bain Backed a Self-Described 'Zendesk Killer' - The Information Moving Toward Value-Added Conversations in Zendesk Beyond the bot: a blueprint for people-first automation - Raconteur Zendesk CTO on the new era of customer experience - Computer Weekly Help Desk Migration: Migrate, Merge, and Consolidate your Zendesk data (sponsor) Zendesk Boosts Customer Support Efficiency with GPT-5 Integration - Small Business Trends Zendesk Expands to Meet Rising AI-Driven Demand - Nearshore Americas Developer update: Enhanced security guidelines for third-party apps, integrations, and bots Zendesk's Adoption of Outcome-based Pricing Model - Permira US firm Zendesk ups LatAm investments to capture momentum in AI agents - BNamericas</p>
         </div>
     </div>
     
@@ -307,7 +307,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge" class="text-dark">Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 12 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 13 days ago</small>
             </article>
             <article id="month-article-10" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
@@ -447,7 +447,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9539350542362-Announcing-quick-answers-availability-to-all-Suite-and-Knowledge-customers" class="text-dark">Announcing quick answers availability to all Suite and Knowledge customers</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 28 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 29 days ago</small>
             </article>
             <article id="month-article-30" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
