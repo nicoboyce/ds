@@ -479,31 +479,47 @@ document.addEventListener('DOMContentLoaded', function() {{
             const targetElement = document.getElementById(targetId);
             
             if (targetElement) {{
-                // Check if element is in a collapsed section
-                const collapse = targetElement.closest('.collapse');
-                if (collapse && !collapse.classList.contains('show')) {{
-                    // Expand the section first
-                    $(collapse).collapse('show');
+                // Function to scroll with navbar offset
+                const scrollToElement = () => {{
+                    const navbarHeight = document.getElementById('mainNav') ? 
+                                         document.getElementById('mainNav').offsetHeight : 70;
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const offsetPosition = elementPosition - navbarHeight - 20; // 20px extra padding
                     
-                    // Wait for animation then scroll
-                    setTimeout(() => {{
-                        targetElement.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
-                        // Highlight the article briefly
-                        targetElement.style.backgroundColor = '#fff3cd';
-                        setTimeout(() => {{
-                            targetElement.style.transition = 'background-color 1s';
-                            targetElement.style.backgroundColor = '';
-                        }}, 1000);
-                    }}, 350);
-                }} else {{
-                    // Already visible, just scroll
-                    targetElement.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+                    window.scrollTo({{
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    }});
+                    
                     // Highlight the article briefly
                     targetElement.style.backgroundColor = '#fff3cd';
                     setTimeout(() => {{
                         targetElement.style.transition = 'background-color 1s';
                         targetElement.style.backgroundColor = '';
                     }}, 1000);
+                }};
+                
+                // Check if element is in a collapsed section
+                const collapse = targetElement.closest('.collapse');
+                if (collapse && !collapse.classList.contains('show')) {{
+                    // Expand the section first
+                    $(collapse).collapse('show');
+                    
+                    // Update chevron icon immediately
+                    const toggleLink = document.querySelector(`[data-target="#${{collapse.id}}"]`);
+                    if (toggleLink) {{
+                        const icon = toggleLink.querySelector('.fa-chevron-right, .fa-chevron-down');
+                        if (icon) {{
+                            icon.classList.remove('fa-chevron-right');
+                            icon.classList.add('fa-chevron-down');
+                        }}
+                    }}
+                    
+                    // Wait for animation to complete then scroll
+                    setTimeout(scrollToElement, 400);
+                }} else {{
+                    // Already visible, just scroll
+                    scrollToElement();
                 }}
             }}
         }});

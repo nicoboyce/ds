@@ -368,7 +368,7 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 14:00 today | <a href="/news-2025-08-27/">Permanent link</a></small>
+            <small class="text-muted">Generated at 15:09 today | <a href="/news-2025-08-27/">Permanent link</a></small>
         </div>
         <div class="summary-content">
 <p><strong>Critical</strong>: 0-day vulnerability <a href="#latest-article-6" class="ref-link" data-section="latest"><a href="#latest-article-6" class="ref-link" data-section="latest">[6]</a></a>, <a href="#latest-article-7" class="ref-link" data-section="latest"><a href="#latest-article-7" class="ref-link" data-section="latest">[7]</a></a>, Accounts hijacked <a href="#latest-article-6" class="ref-link" data-section="latest"><a href="#latest-article-6" class="ref-link" data-section="latest">[6]</a></a>, <a href="#latest-article-7" class="ref-link" data-section="latest"><a href="#latest-article-7" class="ref-link" data-section="latest">[7]</a></a></p>
@@ -407,7 +407,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>
         <article id="latest-article-3" class="feed-item border-bottom py-3">
@@ -530,7 +530,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance" class="text-dark">[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 6 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 7 days ago</small>
             </article>
             <article id="week-article-9" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
@@ -575,7 +575,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues &amp; 5xx errors</a>
                     <span class="source-badge">Zendesk Service Notifications</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 7 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 8 days ago</small>
             </article>
             <article id="month-article-2" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
@@ -666,7 +666,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9590471542170-Developer-update-Enhanced-security-guidelines-for-third-party-apps-integrations-and-bots" class="text-dark">Developer update: Enhanced security guidelines for third-party apps, integrations, and bots</a>
                     <span class="source-badge">Zendesk Developer Updates</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 14 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 15 days ago</small>
             </article>
             <article id="month-article-15" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
@@ -750,7 +750,7 @@ background: grey
                     <a href="https://support.zendesk.com/hc/en-us/articles/9561388533018-Announcing-enhanced-security-guidelines-for-third-party-apps-integrations-and-bots" class="text-dark">Announcing enhanced security guidelines for third-party apps, integrations, and bots</a>
                     <span class="source-badge">Zendesk Announcements</span>
                 </h6>
-                <small class="text-muted"><i class="far fa-clock"></i> 22 days ago</small>
+                <small class="text-muted"><i class="far fa-clock"></i> 23 days ago</small>
             </article>
             <article id="month-article-27" class="feed-item border-bottom py-2 mt-3">
                 <h6 class="item-title">
@@ -823,31 +823,47 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetElement = document.getElementById(targetId);
             
             if (targetElement) {
-                // Check if element is in a collapsed section
-                const collapse = targetElement.closest('.collapse');
-                if (collapse && !collapse.classList.contains('show')) {
-                    // Expand the section first
-                    $(collapse).collapse('show');
+                // Function to scroll with navbar offset
+                const scrollToElement = () => {
+                    const navbarHeight = document.getElementById('mainNav') ? 
+                                         document.getElementById('mainNav').offsetHeight : 70;
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const offsetPosition = elementPosition - navbarHeight - 20; // 20px extra padding
                     
-                    // Wait for animation then scroll
-                    setTimeout(() => {
-                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        // Highlight the article briefly
-                        targetElement.style.backgroundColor = '#fff3cd';
-                        setTimeout(() => {
-                            targetElement.style.transition = 'background-color 1s';
-                            targetElement.style.backgroundColor = '';
-                        }, 1000);
-                    }, 350);
-                } else {
-                    // Already visible, just scroll
-                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                    
                     // Highlight the article briefly
                     targetElement.style.backgroundColor = '#fff3cd';
                     setTimeout(() => {
                         targetElement.style.transition = 'background-color 1s';
                         targetElement.style.backgroundColor = '';
                     }, 1000);
+                };
+                
+                // Check if element is in a collapsed section
+                const collapse = targetElement.closest('.collapse');
+                if (collapse && !collapse.classList.contains('show')) {
+                    // Expand the section first
+                    $(collapse).collapse('show');
+                    
+                    // Update chevron icon immediately
+                    const toggleLink = document.querySelector(`[data-target="#${collapse.id}"]`);
+                    if (toggleLink) {
+                        const icon = toggleLink.querySelector('.fa-chevron-right, .fa-chevron-down');
+                        if (icon) {
+                            icon.classList.remove('fa-chevron-right');
+                            icon.classList.add('fa-chevron-down');
+                        }
+                    }
+                    
+                    // Wait for animation to complete then scroll
+                    setTimeout(scrollToElement, 400);
+                } else {
+                    // Already visible, just scroll
+                    scrollToElement();
                 }
             }
         });
