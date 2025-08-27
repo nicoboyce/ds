@@ -183,10 +183,27 @@ class RSSPageGenerator:
         lines = html.split('\n')
         formatted_lines = []
         in_list = False
+        current_section = None
+        section_items = []
         
         for line in lines:
             line = line.strip()
-            if line.startswith('- **') or line.startswith('• **'):
+            
+            # Check for section headers (Critical:, Latest:, This week:, This month:, Meanwhile:)
+            if line in ['Critical:', 'Latest:', 'This week:', 'This month:', 'Meanwhile:']:
+                # Output previous section if exists
+                if current_section and section_items:
+                    formatted_lines.append(f'<p><strong>{current_section}</strong> {" ".join(section_items)}</p>')
+                    section_items = []
+                current_section = line[:-1]  # Remove colon
+                continue
+                
+            # If we're in a section, collect items
+            if current_section:
+                if line:
+                    section_items.append(line)
+            # Original bullet point handling
+            elif line.startswith('- **') or line.startswith('• **'):
                 if not in_list:
                     formatted_lines.append('<ul class="summary-points">')
                     in_list = True
@@ -206,6 +223,10 @@ class RSSPageGenerator:
                     formatted_lines.append('</ul>')
                     in_list = False
                 formatted_lines.append(f'<p>{line}</p>')
+        
+        # Output last section if exists
+        if current_section and section_items:
+            formatted_lines.append(f'<p><strong>{current_section}</strong> {" ".join(section_items)}</p>')
         
         if in_list:
             formatted_lines.append('</ul>')
