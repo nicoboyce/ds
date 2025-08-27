@@ -9,6 +9,13 @@
   }
 }
 
+/* Blog post image constraints */
+.pagecontainer img,
+.blog-post-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Retro Pixel Font for Speech Bubbles */
 @font-face {
   font-family: 'Amstrad PC';

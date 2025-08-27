@@ -11,3 +11,6 @@ vendor/
 setup_pi_cron.sh
 test_pi_rss.sh
 fix_pi_git.sh
+
+# Critical issues documentation
+CRITICAL_COMMIT_ISSUES.md

@@ -36,6 +36,12 @@ feeds:
     colour: "secondary"
     description: "Deltastring Ltd Zendesk solutions on YouTube"
     
+  - name: "Deltastring Blog"
+    url: "https://deltastring.com/feed.xml"
+    category: "deltastring"
+    colour: "primary"
+    description: "Deltastring Ltd blog posts and updates"
+    
   - name: "Internal Note"
     url: "https://internalnote.com/rss/"
     category: "tech"
