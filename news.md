@@ -44,17 +44,12 @@ background: grey
     <div class="claude-summary mb-4">
         <div class="summary-header">
             <h4><i class="fas fa-robot text-info"></i> AI Summary</h4>
-            <small class="text-muted">Generated at 13:06 today | <a href="/news-2025-08-27/">Permanent link</a></small>
+            <small class="text-muted">Generated at 13:14 today | <a href="/news-2025-08-27/">Permanent link</a></small>
         </div>
         <div class="summary-content">
-<p>Here is the briefing for Zendesk administrators based on the provided articles:</p>
-            <p><strong>Critical Updates</strong>:</p>
-            <p>A critical 0-click vulnerability in Zendesk has been discovered that allows hackers to hijack accounts and access all tickets. Zendesk admins must take immediate action to address this security issue and protect their organizations.</p>
-            <p><strong>Priority Actions</strong>:</p>
-            <p>• <strong>HIGH</strong>: Review all Zendesk accounts and enable enhanced security measures like multi-factor authentication to mitigate the 0-click vulnerability. This should be completed within the next 1-2 weeks.</p>
-            <p>• <strong>HIGH</strong>: Evaluate and apply the latest Zendesk security patches and updates to close this vulnerability. These are likely to be released within the next 7 days.</p>
-            <p>• <strong>MEDIUM</strong>: Audit all Zendesk ticket data and implement additional data protection/redaction processes to secure sensitive customer information, especially if the 0-click exploit has already been exploited.</p>
-            <p><strong>Bottom Line</strong>: Zendesk administrators must prioritize immediate action on the critical 0-click vulnerability that exposes all Zendesk ticket data to potential breach. Securing accounts, applying patches, and reviewing data protection measures are essential to mitigate this high-risk issue.</p>
+<p><strong>Critical</strong>: New 0-day vulnerability revealed allowing account takeover and access to all Zendesk tickets [6][7]</p>
+            <p><strong>Latest</strong>: End User Separation EAP for department spaces [2], automated ticket redaction via triggers [3], release notes through 2025-08-22 [5]</p>
+            <p><strong>Meanwhile</strong>: Former Zendesk HQ headed to auction following 80% drop in valuation [1][4]</p>
         </div>
         <div class="share-buttons mt-2">
             <small>Share: 
@@ -144,13 +139,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-<p><strong>Recent Updates and Planning Considerations</strong>:</p>
-            <p>Zendesk administrators need to be aware of a few critical updates and incidents that require immediate action or planning. These include performance issues, maintenance, and the rollout of new features that will impact workflows.</p>
-            <p><strong>Priority Actions</strong>:</p>
-            <p>• <strong>HIGH</strong>: Address the performance degradation and failing calls in Zendesk Sales - Service Incident on July 31, 2025. Impacted admins should work with Zendesk Support to resolve this issue as soon as possible.</p>
-            <p>• <strong>MEDIUM</strong>: Plan for the scheduled database maintenance for Zendesk Sales (Sell) on September 9, 2025. Admins should communicate the downtime to impacted users and ensure any critical workflows are accounted for.</p>
-            <p>• <strong>MEDIUM</strong>: Prepare for the rollout of enhanced dynamic filtering for lookup relationships, which starts on August 26, 2025. Review how this feature may impact existing processes and update relevant workflows.</p>
-            <p><strong>Bottom Line</strong>: Zendesk administrators need to prioritize resolving the performance issues in Zendesk Sales, plan for the upcoming database maintenance, and get ready for the rollout of the enhanced lookup relationships feature, which will impact existing processes.</p>
+<p><strong>Critical</strong>: Service incident affecting adherence feature in GCP since July 25, 2025; service incident affecting assignments in Zendesk QA since August 04, 2025; service incident affecting Zendesk Sales performance since July 31, 2025.</p>
+            <p><strong>This week</strong>: TTEC and Zendesk team up to deliver AI-driven customer experience solutions; Zendesk announces enhanced dynamic filtering for lookup relationships, API support for WhatsApp Flows, import enhancements for Exchange and Gmail connectors, move of Zendesk QA user and license management to Zendesk Admin Center; Zendesk schedules database maintenance for Zendesk Sales (Sell) on September 9, 2025.</p>
         </div>
     </div>
 

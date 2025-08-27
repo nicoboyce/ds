@@ -41,42 +41,34 @@ class ClaudeSummariser:
             context = "this month's Zendesk ecosystem changes (7-30 days ago)"
             focus = "strategic trends and longer-term developments"
         
-        prompt = f"""You are a Zendesk expert providing {timeframe} briefing to administrators managing Zendesk instances. Your audience needs specific, actionable insights - not generic summaries.
+        prompt = f"""Write a brief Zendesk news digest. Just state facts, no advice.
 
-TARGET AUDIENCE: Zendesk administrators, solution partners, technical leads who need to know what requires immediate attention vs longer-term planning.
-
-ARTICLES TO ANALYSE:
+ARTICLES:
 """
         
         for i, article in enumerate(articles, 1):
-            prompt += f"\n{i}. **{article['title']}** (Source: {article['source']})\n"
-            if article['description']:
-                prompt += f"   Details: {article['description'][:150]}...\n"
+            prompt += f"\n{i}. {article['title']} ({article['source']})\n"
         
         prompt += f"""
 
-ANALYSIS FOCUS:
-- IMMEDIATE ACTIONS: What needs administrator attention this week?
-- FEATURE ROLLOUTS: Which new features are rolling out and impact on workflows?
-- SECURITY/COMPLIANCE: Any security updates, compliance changes, or vulnerabilities?
-- INTEGRATIONS/APIs: Breaking changes or new API capabilities?
-- EARLY ACCESS: New EAPs, beta programs, or limited availability features?
+Format (2-3 lines total):
 
-AVOID: Generic "monitor updates" advice. Focus on specific, actionable insights.
+If security/incidents exist:
+**Critical**: New 0-day revealed [link], service incident affecting X since [date]
 
-FORMAT (keep concise):
+Main news (REQUIRED):
+**{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}**: End User Separation EAP, automated trigger redaction at Internal Note, enhanced filtering August 26
 
-**{focus.replace('immediate implementation impacts and action items', 'Critical Updates').replace('strategic planning considerations and longer-term trends', 'Strategic Trends')}**:
-[2-3 sentence summary of what Zendesk admins need to know RIGHT NOW]
+If interesting side news exists:
+**Meanwhile**: Former HQ to auction, partnership with X announced
 
-**Priority Actions**:
-• **[HIGH/MEDIUM/LOW]**: [Specific action required] - [Timeline if known]
-• **[HIGH/MEDIUM/LOW]**: [Specific action required] - [Timeline if known]
-• **[HIGH/MEDIUM/LOW]**: [Specific action required] - [Timeline if known]
-
-**Bottom Line**: [One sentence: the single most important thing for Zendesk professionals to know from these updates]
-
-Be specific. Use exact feature names, dates, and impacts. Skip generic advice."""
+Rules:
+- Just state facts - no "administrators should" or "be aware" 
+- Security/incidents go first if they exist
+- Omit any line that has no content (except main news - always include)
+- Use commas to list multiple items in one sentence
+- Specific names and dates only
+- No editorial comments or recommendations"""
 
         return prompt
     
