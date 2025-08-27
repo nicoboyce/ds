@@ -38,7 +38,7 @@ permalink: /gradients/
     }
     
     .blended-gradient {
-        background: linear-gradient(to right, var(--gradient-stops));
+        background: linear-gradient(to right, var(--gradient-stops, #eb7824 0%, #111d30 100%));
     }
     
     .controls {
@@ -287,30 +287,28 @@ permalink: /gradients/
         document.documentElement.style.setProperty('--gradient-stops', stops.join(', '));
     }
     
-    function syncColourInputs(sourceId, targetPickerId, targetTextId) {
-        const value = document.getElementById(sourceId).value;
-        document.getElementById(targetPickerId).value = value;
-        document.getElementById(targetTextId).value = value;
-        updateAllGradients();
-    }
     
     // Event listeners
-    document.getElementById('startColorPicker').addEventListener('input', () => 
-        syncColourInputs('startColorPicker', 'startColorPicker', 'startColorText'));
+    document.getElementById('startColorPicker').addEventListener('input', (e) => {
+        document.getElementById('startColorText').value = e.target.value;
+        updateAllGradients();
+    });
     
-    document.getElementById('startColorText').addEventListener('input', () => {
-        const value = document.getElementById('startColorText').value;
+    document.getElementById('startColorText').addEventListener('input', (e) => {
+        const value = e.target.value;
         if (/^#[0-9A-F]{6}$/i.test(value)) {
             document.getElementById('startColorPicker').value = value;
             updateAllGradients();
         }
     });
     
-    document.getElementById('endColorPicker').addEventListener('input', () => 
-        syncColourInputs('endColorPicker', 'endColorPicker', 'endColorText'));
+    document.getElementById('endColorPicker').addEventListener('input', (e) => {
+        document.getElementById('endColorText').value = e.target.value;
+        updateAllGradients();
+    });
     
-    document.getElementById('endColorText').addEventListener('input', () => {
-        const value = document.getElementById('endColorText').value;
+    document.getElementById('endColorText').addEventListener('input', (e) => {
+        const value = e.target.value;
         if (/^#[0-9A-F]{6}$/i.test(value)) {
             document.getElementById('endColorPicker').value = value;
             updateAllGradients();
