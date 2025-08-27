@@ -195,44 +195,6 @@ Rules:
         else:
             return f"{summary_parts[0]}. {summary_parts[1]}. {summary_parts[2]}."
     
-    def clean_google_news_url(self, url):
-        """Try to extract actual URL from Google News redirect"""
-        if 'news.google.com/rss/articles' in url:
-            # Google News URLs are complex encoded redirects
-            # For now, we'll just use them as-is since decoding is complex
-            # In future, could implement URL fetching to get redirect target
-            return url
-        return url
-    
-    def convert_references_to_links(self, summary_text, articles):
-        """Convert [1] references to markdown links with article URLs"""
-        import re
-        
-        # First handle combined references like [1,2] by splitting them
-        combined_refs = re.findall(r'\[(\d+(?:,\d+)+)\]', summary_text)
-        for combined in combined_refs:
-            refs = combined.split(',')
-            # Replace with individual references
-            replacement = ' '.join([f'[{r}]' for r in refs])
-            summary_text = summary_text.replace(f'[{combined}]', replacement)
-        
-        # Find all [N] references in the summary
-        references = re.findall(r'\[(\d+)\]', summary_text)
-        
-        # Sort references in descending order to avoid replacing [1] in [10]
-        references = sorted(set(references), key=int, reverse=True)
-        
-        for ref in references:
-            ref_num = int(ref) - 1  # Convert to 0-based index
-            if ref_num < len(articles):
-                article = articles[ref_num]
-                # Clean the URL if it's from Google News
-                clean_url = self.clean_google_news_url(article['link'])
-                # Create a markdown link with just the reference number
-                link = f"[[{ref}]]({clean_url})"
-                summary_text = summary_text.replace(f"[{ref}]", link)
-        
-        return summary_text
     
     def generate_summaries(self):
         """Generate daily and weekly summaries with clickable references"""
@@ -248,8 +210,7 @@ Rules:
                 latest_prompt = self.build_zendesk_prompt(latest_articles[:10], 'latest')
                 latest_summary = self.call_claude_api(latest_prompt)
                 if latest_summary:
-                    # Convert [N] references to clickable links
-                    summaries['latest'] = self.convert_references_to_links(latest_summary, latest_articles[:10])
+                    summaries['latest'] = latest_summary
                 else:
                     summaries['latest'] = self.fallback_summary(latest_articles[:10])
             else:
@@ -265,8 +226,7 @@ Rules:
                 weekly_prompt = self.build_zendesk_prompt(week_articles[:20], 'weekly')
                 weekly_summary = self.call_claude_api(weekly_prompt)
                 if weekly_summary:
-                    # Convert [N] references to clickable links
-                    summaries['weekly'] = self.convert_references_to_links(weekly_summary, week_articles[:20])
+                    summaries['weekly'] = weekly_summary
                 else:
                     summaries['weekly'] = self.fallback_summary(week_articles[:20])
             else:
@@ -282,8 +242,7 @@ Rules:
                 monthly_prompt = self.build_zendesk_prompt(month_articles[:20], 'monthly')
                 monthly_summary = self.call_claude_api(monthly_prompt)
                 if monthly_summary:
-                    # Convert [N] references to clickable links
-                    summaries['monthly'] = self.convert_references_to_links(monthly_summary, month_articles[:20])
+                    summaries['monthly'] = monthly_summary
                 else:
                     summaries['monthly'] = self.fallback_summary(month_articles[:20])
             else:
