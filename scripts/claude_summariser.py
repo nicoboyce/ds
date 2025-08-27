@@ -41,30 +41,38 @@ class ClaudeSummariser:
             context = "this month's Zendesk ecosystem changes (7-30 days ago)"
             focus = "strategic trends and longer-term developments"
         
-        prompt = f"""Write a brief Zendesk news digest. Just state facts, no advice.
+        prompt = f"""Create a comprehensive Zendesk news digest for Zendesk administrators and consultants.
 
 ARTICLES:
 """
         
         for i, article in enumerate(articles, 1):
-            prompt += f"\n{i}. {article['title']}\n"
+            prompt += f"\n[{i}] {article['title']}\n"
         
         prompt += f"""
 
-Create a 2-3 line summary with these sections:
+Create a structured summary covering ALL relevant items from the articles above:
 
-1. **Critical** (security vulnerabilities, service incidents, urgent issues)
-2. **{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}** (new feature announcements, product updates, release notes)  
-3. **Meanwhile** (business news, HQ auctions, reviews, tangential industry developments)
+Critical:
+(Security vulnerabilities, 0-day exploits, service outages, urgent incidents requiring immediate action)
 
-Guidelines:
-- Use [N] to reference article numbers
-- Write clear summaries that explain what each item is (5-10 words per item)
-- Include enough detail so readers understand the significance
-- For incidents: include pod numbers and dates if mentioned
-- Maximum 4 items per section
-- Only include sections that have relevant content
-- Be accurate to the article titles - don't abbreviate too much"""
+{('Latest' if timeframe == 'latest' else 'This week' if timeframe == 'weekly' else 'This month')}:
+(New features, early access programs, product updates, API changes, deprecations, release notes)
+
+Meanwhile:
+(Industry news, business developments, competitor updates, reviews, acquisitions, general Zendesk ecosystem news)
+
+REQUIREMENTS:
+- Include EVERY article that fits each category - don't limit the count
+- Use [N] to reference specific article numbers
+- Write concise but informative descriptions (5-15 words per item)
+- For critical items: emphasise the risk/impact
+- For features: clarify what it does and who it affects
+- For EAPs: name the specific program
+- Group related items together with commas
+- Start each section on a new line
+- Only include sections that have content
+- Use exact feature names from the titles, don't abbreviate"""
 
         return prompt
     
@@ -120,84 +128,59 @@ Guidelines:
             return None  # Will be handled by caller
     
     def fallback_summary(self, articles):
-        """Generate intelligent fallback summary with specific feature names"""
+        """Generate comprehensive fallback summary matching the new format"""
         if not articles:
             return "No new articles available."
         
-        # Extract specific features and issues
-        features = []
-        eaps = []
-        api_changes = []
-        security_items = []
-        service_issues = []
-        business_news = []
+        # Track article indices for references
+        critical_items = []
+        latest_items = []
+        meanwhile_items = []
         
-        for article in articles:
+        for i, article in enumerate(articles, 1):
             title = article['title']
             title_lower = title.lower()
             
-            # Critical items first
-            if 'vulnerability' in title_lower or 'security' in title_lower and ('critical' in title_lower or 'exploit' in title_lower or 'hack' in title_lower):
-                security_items.append(title)
+            # Critical items (security, outages)
+            if any(term in title_lower for term in ['vulnerability', '0-day', '0-click', 'exploit', 'takeover', 'hijack']):
+                desc = title.replace(' - CyberSecurityNews', '').replace(' - GBHackers', '')
+                critical_items.append(f"[{i}] {desc}")
             elif 'service incident' in title_lower or 'degradation' in title_lower or 'outage' in title_lower:
-                service_issues.append(title)
-            # New features and announcements
-            elif 'announcing' in title_lower:
+                critical_items.append(f"[{i}] {title}")
+            
+            # Latest items (features, updates, releases)  
+            elif 'announcing' in title_lower or 'release notes' in title_lower:
                 if 'eap' in title_lower or 'early access' in title_lower:
-                    # Extract EAP name
-                    eap_name = title.replace('Announcing ', '').replace(' EAP', '').replace(' - Zendesk Announcements', '')
-                    eaps.append(eap_name)
+                    desc = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
+                    latest_items.append(f"[{i}] EAP: {desc}")
                 else:
-                    # Extract feature name
-                    feature_name = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
-                    features.append(feature_name)
-            elif 'release notes' in title_lower:
-                features.append(title)
-            elif 'oauth' in title_lower or 'api' in title_lower or 'deprecation' in title_lower:
-                api_changes.append(title)
-            # Meanwhile items
-            elif 'auction' in title_lower or 'headquarters' in title_lower or 'hq' in title_lower:
-                business_news.append(title)
-            elif 'review' in title_lower or 'acquisition' in title_lower or 'partner' in title_lower:
-                business_news.append(title)
+                    desc = title.replace('Announcing ', '').replace(' - Zendesk Announcements', '')
+                    latest_items.append(f"[{i}] {desc}")
+            elif any(term in title_lower for term in ['api', 'oauth', 'deprecat', 'integration', 'update']):
+                desc = title.replace(' - Zendesk Developer Updates', '').replace(' - Zendesk Announcements', '')
+                latest_items.append(f"[{i}] {desc}")
+            
+            # Meanwhile items (business, reviews, ecosystem)
+            elif any(term in title_lower for term in ['auction', 'headquarters', 'hq', 'funding', 'acquisition', 'partner', 'review', 'killer', 'alternative']):
+                desc = title.replace(' - Google News', '').replace(' - Zendesk', '')
+                meanwhile_items.append(f"[{i}] {desc}")
         
-        # Build specific summary
+        # Build the summary in the new format
         summary_parts = []
         
-        if features:
-            # Show specific feature names, not just count
-            feature_list = features[:3]  # Show first 3
-            if len(features) == 1:
-                summary_parts.append(f"**New Feature**: {feature_list[0]}")
-            elif len(features) <= 3:
-                summary_parts.append(f"**New Features**: {', '.join(feature_list[:-1])} and {feature_list[-1]}")
-            else:
-                summary_parts.append(f"**New Features**: {', '.join(feature_list)}, plus {len(features)-3} more")
+        if critical_items:
+            summary_parts.append("Critical:\n" + ", ".join(critical_items))
         
-        if eaps:
-            summary_parts.append(f"**Early Access**: {', '.join(eaps)}")
+        if latest_items:
+            summary_parts.append("Latest:\n" + ", ".join(latest_items))
         
-        if api_changes:
-            api_list = [title.replace(' - Zendesk Developer Updates', '') for title in api_changes[:2]]
-            summary_parts.append(f"**API Updates**: {', '.join(api_list)}")
-        
-        if security_items:
-            security_list = [title.replace(' - Zendesk Announcements', '') for title in security_items[:2]]
-            summary_parts.append(f"**Security**: {', '.join(security_list)}")
-        
-        if service_issues:
-            summary_parts.append(f"**Service Issues**: {len(service_issues)} incidents/maintenance")
+        if meanwhile_items:
+            summary_parts.append("Meanwhile:\n" + ", ".join(meanwhile_items))
         
         if not summary_parts:
-            return "No significant Zendesk platform updates."
+            return "No significant updates to report."
         
-        # Create concise summary
-        if len(summary_parts) == 1:
-            return summary_parts[0]
-        elif len(summary_parts) == 2:
-            return f"{summary_parts[0]}. {summary_parts[1]}."
-        else:
-            return f"{summary_parts[0]}. {summary_parts[1]}. {summary_parts[2]}."
+        return "\n\n".join(summary_parts)
     
     
     def generate_summaries(self):
