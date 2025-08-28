@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past 3 weeks highlight the company's continued focus on enhancing its AI-driven customer experience solutions, as seen through the announcement of features like WhatsApp Flows, Agent Copilot auto-assist, and improvements to email authentication and translation. However, these updates are accompanied by several service incidents, including performance degradation, workflow disruptions, and AI agent delays, suggesting that Zendesk is also grappling with stability and reliability issues as it races to integrate new technologies. This dual emphasis on innovation and addressing operational challenges likely presents both opportunities and complexities for Zendesk professionals, who must navigate the evolving platform while ensuring seamless customer experiences.",
+  "recently_narrative": "The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with a mix of both positive and concerning developments. While Zendesk is clearly pushing hard on AI-driven features and integrations to enhance customer support efficiency, it has also had to grapple with a range of stability issues, including service incidents affecting adherence, assignments, and workflow disruptions. Amidst this, the auction of a former Zendesk HQ building in San Francisco, which lost 80% of its value, suggests broader challenges in the tech industry. These developments underscore the need for Zendesk professionals to closely monitor the platform's evolving capabilities and reliability, as the company navigates the complex balance between innovation and operational stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-08-27T18:13:40.787522",
+  "generated_at": "2025-08-28T09:00:18.335831",
   "release_notes": {
     "summary": "Copilot: auto assist can now suggest existing macros to agents. AI Agents Advanced: improved dialogue builder UI for hiding/disabling parameter branches.",
     "article": {

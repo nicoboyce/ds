@@ -503,3 +503,106 @@ News page updated: news.md
 2025-08-27 13:06:36,023 - INFO - This week's articles: 9
 2025-08-27 13:06:36,023 - INFO - Feeds processed: 10
 2025-08-27 13:06:36,024 - INFO - Site updated: 27/08/2025 13:06
+2025-08-28 09:00:01,989 - INFO - Working in: /home/nico/ds
+2025-08-28 09:00:01,992 - INFO - Starting daily RSS automation pipeline
+2025-08-28 09:00:01,993 - INFO - Timestamp: 2025-08-28T09:00:01.993021
+2025-08-28 09:00:01,993 - INFO - 
+--- Starting: Git Pull ---
+2025-08-28 09:00:01,993 - INFO - === GIT PULL ===
+2025-08-28 09:00:01,994 - INFO - Running: Pulling latest changes
+2025-08-28 09:00:05,955 - INFO - Output: Updating 5e3bbb5..20e15ed
+Fast-forward
+ _site/assets/js/gradient-tool.js | 266 +++++++++++++++++++++++++++++++++++++++
+ _site/feed.xml                   |   4 +-
+ _site/gradients/index.html       | 197 ++---------------------------
+ _site/sitemap.xml                |  52 ++++----
+ assets/js/gradient-tool.js       | 266 +++++++++++++++++++++++++++++++++++++++
+ gradients.md                     | 197 ++---------------------------
+ 6 files changed, 586 insertions(+), 396 deletions(-)
+ create mode 100644 _site/assets/js/gradient-tool.js
+ create mode 100644 assets/js/gradient-tool.js
+2025-08-28 09:00:05,956 - INFO - ✅ SUCCESS: Git Pull
+2025-08-28 09:00:05,957 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-28 09:00:05,957 - INFO - === RSS INGESTION ===
+2025-08-28 09:00:05,957 - INFO - Running: Ingesting RSS feeds
+2025-08-28 09:00:15,616 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 0 raw items in feed
+  Found 0 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 6
+  This week (3-7d): 10
+  This month (8-35d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 6, Week: 10, Month: 40)
+2025-08-28 09:00:15,616 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-28 09:00:15,617 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-28 09:00:15,617 - INFO - === CLAUDE SUMMARIES ===
+2025-08-28 09:00:15,617 - INFO - Running: Generating Claude summaries
+2025-08-28 09:00:18,486 - INFO - Output: Generating narrative analysis for 30 recent articles...
+Calling Claude API...
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+2025-08-28 09:00:18,486 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-28 09:00:18,486 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-28 09:00:18,487 - INFO - === GENERATE RSS PAGE ===
+2025-08-28 09:00:18,487 - INFO - Running: Generating RSS feeds page
+2025-08-28 09:00:24,523 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-28.md
+News page updated: news.md
+  Latest (48h): 6 articles
+  This week (3-7d): 10 articles
+  This month (8-35d): 40 articles
+2025-08-28 09:00:24,523 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-28 09:00:24,524 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-28 09:00:24,524 - INFO - === JEKYLL BUILD ===
+2025-08-28 09:00:24,524 - INFO - Attempting Jekyll build...
+2025-08-28 09:00:24,524 - INFO - Running: Building Jekyll site
+2025-08-28 09:00:31,741 - INFO - Output: Configuration file: /home/nico/ds/_config.yml
+            Source: /home/nico/ds
+       Destination: /home/nico/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 2.34 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-28 09:00:31,741 - INFO - ✅ SUCCESS: Jekyll Build
+2025-08-28 09:00:31,742 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-28 09:00:31,742 - INFO - === GIT COMMIT & PUSH ===
+2025-08-28 09:00:31,742 - INFO - Running: Adding changes to git
