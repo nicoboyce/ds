@@ -18,6 +18,14 @@ analytics:
 collections:
   portfolio:
 
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      background: "grey"
+
 markdown: kramdown
 permalink: pretty
 

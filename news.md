@@ -15,8 +15,11 @@ background: grey
 <!-- Latest Zendesk Release Notes -->
 <div class="release-notes-panel mb-4">
     <div class="card border-primary">
-        <div class="card-header bg-primary text-white">
-            <h5 class="mb-0">
+        <div class="card-header text-white" style="position: relative; overflow: hidden; padding: 1rem;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+                {% include blended-gradient.html start="#eb7824" end="#111d30" blend="65" height="100%" direction="to right" %}
+            </div>
+            <h5 class="mb-0" style="position: relative; z-index: 10;">
                 <i class="fas fa-clipboard-list"></i> Latest Zendesk Release Notes
                 <span class="float-right badge badge-light">2025-08-22</span>
             </h5>
