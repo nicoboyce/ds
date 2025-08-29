@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with a mix of both positive and concerning developments. While Zendesk is clearly pushing hard on AI-driven features and integrations to enhance customer support efficiency, it has also had to grapple with a range of stability issues, including service incidents affecting adherence, assignments, and workflow disruptions. Amidst this, the auction of a former Zendesk HQ building in San Francisco, which lost 80% of its value, suggests broader challenges in the tech industry. These developments underscore the need for Zendesk professionals to closely monitor the platform's evolving capabilities and reliability, as the company navigates the complex balance between innovation and operational stability.",
+  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability. Security concerns require immediate attention from administrators.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-08-28T09:00:18.335831",
+  "generated_at": "2025-08-29T09:00:18.651740",
   "release_notes": {
     "summary": "Copilot: auto assist can now suggest existing macros to agents. AI Agents Advanced: improved dialogue builder UI for hiding/disabling parameter branches.",
     "article": {

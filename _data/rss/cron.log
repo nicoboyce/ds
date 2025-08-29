@@ -606,3 +606,111 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-08-28 09:00:31,742 - INFO - === GIT COMMIT & PUSH ===
 2025-08-28 09:00:31,742 - INFO - Running: Adding changes to git
+2025-08-28 09:00:48,324 - INFO - Running: Committing changes
+2025-08-28 09:00:49,314 - INFO - Output: [master b0af1b5] Daily RSS update - 28/08/2025 09:00
+ 14 files changed, 2487 insertions(+), 735 deletions(-)
+ create mode 100644 _site/news-2025-08-28/index.html
+ create mode 100644 news-2025-08-28.md
+2025-08-28 09:00:49,314 - INFO - Running: Pushing to GitHub
+2025-08-28 09:00:50,848 - INFO - ✅ SUCCESS: Git Commit & Push
+2025-08-28 09:00:50,848 - INFO - Pipeline completed successfully!
+2025-08-28 09:00:50,849 - INFO - === COMPLETION STATS ===
+2025-08-28 09:00:50,849 - INFO - Total articles processed: 168
+2025-08-28 09:00:50,850 - INFO - Today's articles: 0
+2025-08-28 09:00:50,850 - INFO - This week's articles: 10
+2025-08-28 09:00:50,850 - INFO - Feeds processed: 10
+2025-08-28 09:00:50,850 - INFO - Site updated: 28/08/2025 09:00
+2025-08-29 09:00:01,831 - INFO - Working in: /home/nico/ds
+2025-08-29 09:00:01,832 - INFO - Starting daily RSS automation pipeline
+2025-08-29 09:00:01,832 - INFO - Timestamp: 2025-08-29T09:00:01.832524
+2025-08-29 09:00:01,832 - INFO - 
+--- Starting: Git Pull ---
+2025-08-29 09:00:01,833 - INFO - === GIT PULL ===
+2025-08-29 09:00:01,833 - INFO - Running: Pulling latest changes
+2025-08-29 09:00:02,745 - INFO - Output: Already up to date.
+2025-08-29 09:00:02,746 - INFO - ✅ SUCCESS: Git Pull
+2025-08-29 09:00:02,746 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-29 09:00:02,746 - INFO - === RSS INGESTION ===
+2025-08-29 09:00:02,747 - INFO - Running: Ingesting RSS feeds
+2025-08-29 09:00:13,170 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 0 raw items in feed
+  Found 0 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 6
+  This week (3-7d): 11
+  This month (8-35d): 38
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 6, Week: 11, Month: 38)
+2025-08-29 09:00:13,170 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-29 09:00:13,171 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-29 09:00:13,171 - INFO - === CLAUDE SUMMARIES ===
+2025-08-29 09:00:13,171 - INFO - Running: Generating Claude summaries
+2025-08-29 09:00:18,964 - INFO - Output: Generating narrative analysis for 31 recent articles...
+Calling Claude API...
+Claude API error: 529 Server Error:  for url: https://api.anthropic.com/v1/messages
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+2025-08-29 09:00:18,964 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-29 09:00:18,964 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-29 09:00:18,965 - INFO - === GENERATE RSS PAGE ===
+2025-08-29 09:00:18,965 - INFO - Running: Generating RSS feeds page
+2025-08-29 09:00:25,590 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-29.md
+News page updated: news.md
+  Latest (48h): 6 articles
+  This week (3-7d): 11 articles
+  This month (8-35d): 38 articles
+2025-08-29 09:00:25,591 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-29 09:00:25,591 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-29 09:00:25,591 - INFO - === JEKYLL BUILD ===
+2025-08-29 09:00:25,591 - INFO - Attempting Jekyll build...
+2025-08-29 09:00:25,592 - INFO - Running: Building Jekyll site
+2025-08-29 09:00:32,736 - INFO - Output: Configuration file: /home/nico/ds/_config.yml
+            Source: /home/nico/ds
+       Destination: /home/nico/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 2.308 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-29 09:00:32,737 - INFO - ✅ SUCCESS: Jekyll Build
+2025-08-29 09:00:32,738 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-29 09:00:32,738 - INFO - === GIT COMMIT & PUSH ===
+2025-08-29 09:00:32,739 - INFO - Running: Adding changes to git
