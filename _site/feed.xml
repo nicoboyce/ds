@@ -3,10 +3,10 @@
   <channel>
     <title>Deltastring: Zendesk migrations, automations, integrations, applications</title>
     <description>Expert Zendesk migrations, automations, integrations, applications. Streamline your customer experience with boutique Zendesk agency services from Southampton, UK.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Aug 2025 23:16:49 +0100</pubDate>
-    <lastBuildDate>Sat, 30 Aug 2025 23:16:49 +0100</lastBuildDate>
+    <link>http://0.0.0.0:4001/</link>
+    <atom:link href="http://0.0.0.0:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Aug 2025 23:20:49 +0100</pubDate>
+    <lastBuildDate>Sat, 30 Aug 2025 23:20:49 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
   </channel>

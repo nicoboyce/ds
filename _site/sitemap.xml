@@ -3,8 +3,8 @@
   
   <!-- Homepage -->
   <url>
-    <loc>http://localhost:4000/</loc>
-    <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+    <loc>http://0.0.0.0:4001/</loc>
+    <lastmod>2025-08-30T23:20:49+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -18,8 +18,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/blog/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/blog/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -29,8 +29,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/careers/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/careers/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -40,8 +40,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/contact/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/contact/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -53,8 +53,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/customer-experience-automation/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/customer-experience-automation/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -64,23 +64,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/faqs/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/gradients/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/faqs/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -94,107 +79,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/legal/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/ms/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/news-2025-08-26/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/news-2025-08-27/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/news-2025-08-28/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/news-2025-08-29/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/news-2025-08-30/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/news/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/no-ai/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      
-    
-  
-    
-      
-        <url>
-          <loc>http://localhost:4000/privacy/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/gradients/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -208,8 +94,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-applications/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/legal/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -219,8 +105,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-custom-app/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/ms/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -230,8 +116,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-guide-tutorial/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/news-2025-08-26/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -241,8 +127,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-integration/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/news-2025-08-27/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -252,8 +138,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-migration-checklist/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/news-2025-08-28/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -263,8 +149,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-migration/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/news-2025-08-29/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -274,8 +160,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-optimization/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/news-2025-08-30/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -285,8 +171,8 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-sla-best-practices/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/news/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
@@ -296,8 +182,122 @@
     
       
         <url>
-          <loc>http://localhost:4000/zendesk-stripe-integration/</loc>
-          <lastmod>2025-08-30T23:16:49+01:00</lastmod>
+          <loc>http://0.0.0.0:4001/no-ai/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/privacy/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-applications/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-custom-app/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-guide-tutorial/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-integration/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-migration-checklist/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-migration/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-optimization/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-sla-best-practices/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      
+    
+  
+    
+      
+        <url>
+          <loc>http://0.0.0.0:4001/zendesk-stripe-integration/</loc>
+          <lastmod>2025-08-30T23:20:49+01:00</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
