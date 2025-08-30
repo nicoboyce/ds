@@ -215,7 +215,7 @@ a.source-badge:hover {
 }
 
 .release-notes-panel .card-header {
-    background: linear-gradient(135deg, #d4930d 0%, #c05713 100%) !important;
+    /* background: linear-gradient(135deg, #d4930d 0%, #c05713 100%) !important; */
     border-color: #c05713 !important;
 }
 
