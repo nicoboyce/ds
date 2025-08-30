@@ -1,7 +1,20 @@
-<!-- Nico's Commentary -->
-<!-- Update this file to add personal insights, analysis, or commentary about recent Zendesk news -->
-<!-- The content will appear on the news page when present -->
+<!-- Nico's Commentary - Dynamic based on page date -->
+{% assign page_date = page.title | replace: 'Industry RSS Feeds - ', '' | replace: ' Archive', '' | date: "%Y-%m-%d" %}
+{% if page_date == page.title %}
+  {% assign page_date = site.time | date: "%Y-%m-%d" %}
+{% endif %}
 
+{% assign commentary = null %}
+{% for entry in site.data.commentary.entries %}
+  {% assign entry_date = entry.date | date: "%Y-%m-%d" %}
+  {% if entry_date <= page_date %}
+    {% assign commentary = entry %}
+  {% else %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if commentary %}
 <div class="commentary-section mb-5">
     <div class="card border-warning">
         <div class="card-header text-white d-flex align-items-center justify-content-between" style="background: linear-gradient(to right, #111d30, #eb7824); height: 60px;">
@@ -9,18 +22,11 @@
                 <i class="fas fa-comment-dots mr-2"></i>
                 <h5 class="mb-0">Nico's Commentary</h5>
             </div>
-            <span class="badge badge-light">26 August 2025</span>
+            <span class="badge badge-light">{{ commentary.date | date: "%d %B %Y" }}</span>
         </div>
         <div class="card-body">
-            <p class="mb-2">
-                The <a href="https://cybersecuritynews.com/zendesk-account-takeover-vulnerability/">0-click vulnerability</a> reported this week highlights the proactive approach Zendesk can play in keeping data secure for their users and the customers of Zendesk users. Keep your Zendesk instance secure with SSO, MFA, review of tokens, revoking access for departing employees, and being cautious about third party integrations.
-            </p>
-            <p class="mb-2">
-                The new trigger-based redaction feature <a href="https://internalnote.com/automated-ticket-redaction/">as reported by Internal Note</a> is a game-changer for GDPR. This addresses a long-standing pain point in manual data management workflows. When you do business across jurisdictions and regulatory frameworks it is difficult but critical to ensure compliance.
-            </p>
-            <p class="mb-0">
-                We always welcome better configuration UI for Zendesk AI Agents Advanced (fka Ultimate AI) which is a powerful product but a headache to set up!
-            </p>
+            {{ commentary.content }}
         </div>
     </div>
 </div>
+{% endif %}

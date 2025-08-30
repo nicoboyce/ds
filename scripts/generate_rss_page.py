@@ -295,7 +295,7 @@ class RSSPageGenerator:
         return f"""<!-- Latest Zendesk Release Notes -->
 <div class="release-notes-panel mb-4">
     <div class="card border-primary">
-        <div class="card-header text-white d-flex align-items-center justify-content-between" style="background: linear-gradient(to right, #111d30, #eb7824); height: 60px;">
+        <div class="card-header text-white d-flex align-items-center justify-content-between blended-gradient-container" data-start="#111d30" data-end="#eb7824" data-blend="63" data-direction="to right" style="height: 60px;">
             <div class="d-flex align-items-center">
                 <i class="fas fa-clipboard-list mr-2"></i>
                 <h5 class="mb-0">Latest Zendesk Release Notes</h5>
@@ -546,7 +546,7 @@ background: grey
     <!-- Don't Miss Highlight -->
     <div class="dont-miss mb-4">
         <div class="card border-warning">
-            <div class="card-header text-white d-flex align-items-center" style="background: linear-gradient(to right, #111d30, #eb7824); height: 60px;">
+            <div class="card-header text-white d-flex align-items-center blended-gradient-container" data-start="#111d30" data-end="#eb7824" data-blend="63" data-direction="to right" style="height: 60px;">
                 <i class="fas fa-exclamation-circle mr-2"></i>
                 <h5 class="mb-0">Don't Miss</h5>
             </div>
@@ -714,25 +714,33 @@ document.addEventListener('DOMContentLoaded', function() {{
         # Generate archive content (same as regular but with archive notice)
         content = self.generate_page_content(articles, summaries, stats)
         
-        # Add archive header
-        archive_header = f"""---
-layout: page
-title: Industry RSS Feeds - {now.strftime('%d %B %Y')} Archive
-background: grey
----
-
-<link rel="stylesheet" href="/assets/css/rss-feeds.css">
-
+        # Replace the title in existing frontmatter instead of adding new frontmatter
+        content = content.replace(
+            'title: Zendesk news, from Deltastring',
+            f'title: Industry RSS Feeds - {now.strftime("%d %B %Y")} Archive'
+        )
+        
+        # Add archive notice after frontmatter
+        lines = content.split('\n')
+        frontmatter_end = -1
+        for i, line in enumerate(lines):
+            if i > 0 and line == '---':
+                frontmatter_end = i
+                break
+        
+        if frontmatter_end != -1:
+            archive_notice = f"""
 <div class="alert alert-warning mb-4">
     <i class="fas fa-archive"></i> This is an archived version from {now.strftime('%d %B %Y')}. 
     <a href="/news/">View latest updates</a>
 </div>
-
 """
+            lines.insert(frontmatter_end + 3, archive_notice)
+            content = '\n'.join(lines)
         
         # Write archive file
         with open(archive_file, 'w') as f:
-            f.write(archive_header + content)
+            f.write(content)
         
         print(f"Archive created: {archive_file.name}")
     
