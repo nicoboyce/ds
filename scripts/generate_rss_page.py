@@ -295,7 +295,7 @@ class RSSPageGenerator:
         return f"""<!-- Latest Zendesk Release Notes -->
 <div class="release-notes-panel mb-4">
     <div class="card border-primary">
-        {{% include blended-gradient.html element="div" class="card-header text-white d-flex align-items-center justify-content-between" start="#111d30" end="#eb7824" blend="63" height="60px" %}}
+        <div class="card-header text-white d-flex align-items-center justify-content-between" style="background: linear-gradient(to right, #111d30, #eb7824); height: 60px;">
             <div class="d-flex align-items-center">
                 <i class="fas fa-clipboard-list mr-2"></i>
                 <h5 class="mb-0">Latest Zendesk Release Notes</h5>
@@ -546,7 +546,7 @@ background: grey
     <!-- Don't Miss Highlight -->
     <div class="dont-miss mb-4">
         <div class="card border-warning">
-            {{% include blended-gradient.html element="div" class="card-header text-white d-flex align-items-center" start="#111d30" end="#eb7824" blend="63" height="60px" %}}
+            <div class="card-header text-white d-flex align-items-center" style="background: linear-gradient(to right, #111d30, #eb7824); height: 60px;">
                 <i class="fas fa-exclamation-circle mr-2"></i>
                 <h5 class="mb-0">Don't Miss</h5>
             </div>

@@ -26,15 +26,6 @@ layout: null
     {% endunless %}
   {% endfor %}
 
-  <!-- Portfolio items -->
-  {% for post in site.portfolio %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      <changefreq>yearly</changefreq>
-      <priority>0.6</priority>
-    </url>
-  {% endfor %}
 
   <!-- Posts (if you add a blog) -->
   {% for post in site.posts %}
