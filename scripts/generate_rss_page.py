@@ -295,11 +295,12 @@ class RSSPageGenerator:
         return f"""<!-- Latest Zendesk Release Notes -->
 <div class="release-notes-panel mb-4">
     <div class="card border-primary">
-        <div class="card-header bg-primary text-white">
-            <h5 class="mb-0">
-                <i class="fas fa-clipboard-list"></i> Latest Zendesk Release Notes
-                <span class="float-right badge badge-light">{title}</span>
-            </h5>
+        {{% include blended-gradient.html element="div" class="card-header text-white d-flex align-items-center justify-content-between" start="#111d30" end="#eb7824" blend="63" height="60px" %}}
+            <div class="d-flex align-items-center">
+                <i class="fas fa-clipboard-list mr-2"></i>
+                <h5 class="mb-0">Latest Zendesk Release Notes</h5>
+            </div>
+            <span class="badge badge-light">{title}</span>
         </div>
         <div class="card-body">
             <p class="mb-2"><strong>Key Changes:</strong> {summary}</p>
@@ -545,8 +546,9 @@ background: grey
     <!-- Don't Miss Highlight -->
     <div class="dont-miss mb-4">
         <div class="card border-warning">
-            <div class="card-header bg-warning text-dark">
-                <h5 class="mb-0"><i class="fas fa-exclamation-circle"></i> Don't Miss</h5>
+            {{% include blended-gradient.html element="div" class="card-header text-white d-flex align-items-center" start="#111d30" end="#eb7824" blend="63" height="60px" %}}
+                <i class="fas fa-exclamation-circle mr-2"></i>
+                <h5 class="mb-0">Don't Miss</h5>
             </div>
             <div class="card-body">
                 {self.generate_dont_miss(articles)}

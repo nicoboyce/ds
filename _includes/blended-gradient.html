@@ -7,6 +7,7 @@
      - class: Optional CSS class for styling
      - height: Optional height (default: 100px)
      - direction: Optional gradient direction (default: "to right")
+     - element: HTML element type (default: "div", can be "hr", "span", etc.)
 -->
 
 {% assign start_color = include.start | default: "#eb7824" %}
@@ -15,15 +16,16 @@
 {% assign custom_class = include.class | default: "" %}
 {% assign gradient_height = include.height | default: "100px" %}
 {% assign gradient_direction = include.direction | default: "to right" %}
+{% assign element_type = include.element | default: "div" %}
 {% assign unique_id = start_color | replace: "#", "" | append: end_color | replace: "#", "" | append: blend_percent %}
 
-<div class="blended-gradient-container {{ custom_class }}" 
+<{{ element_type }} class="blended-gradient-container {{ custom_class }}" 
      data-start="{{ start_color }}" 
      data-end="{{ end_color }}" 
      data-blend="{{ blend_percent }}"
      data-direction="{{ gradient_direction }}"
      id="gradient-{{ unique_id }}"
-     style="width: 100%; height: {{ gradient_height }}; border-radius: 8px; background: linear-gradient({{ gradient_direction }}, {{ start_color }}, {{ end_color }});"></div>
+     style="width: 100%; height: {{ gradient_height }}; border-radius: 8px; background: linear-gradient({{ gradient_direction }}, {{ start_color }}, {{ end_color }});"></{{ element_type }}>
 
 <script>
 (function() {
@@ -210,12 +212,15 @@
     }
 
     // Apply gradient when DOM is ready
+    const gradientId = 'gradient-{{ unique_id }}';
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
-            generateBlendedGradient(document.getElementById('gradient-{{ unique_id }}'));
+            const element = document.getElementById(gradientId);
+            if (element) generateBlendedGradient(element);
         });
     } else {
-        generateBlendedGradient(document.getElementById('gradient-{{ unique_id }}'));
+        const element = document.getElementById(gradientId);
+        if (element) generateBlendedGradient(element);
     }
 })();
 </script>
