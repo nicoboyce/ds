@@ -2749,3 +2749,171 @@ Run in verbose mode to see all warnings.
 --- Starting: Git Commit & Push ---
 2025-08-30 09:00:47,297 - INFO - === GIT COMMIT & PUSH ===
 2025-08-30 09:00:47,297 - INFO - Running: Adding changes to git
+2025-08-30 09:00:48,370 - INFO - Running: Committing changes
+2025-08-30 09:00:49,865 - INFO - Output: [master 42ee5cd] Daily RSS update - 30/08/2025 09:00
+ 9 files changed, 5206 insertions(+), 583 deletions(-)
+ create mode 100644 news-2025-08-30.md
+2025-08-30 09:00:49,866 - INFO - Running: Pushing to GitHub
+2025-08-30 09:00:51,295 - INFO - ✅ SUCCESS: Git Commit & Push
+2025-08-30 09:00:51,295 - ERROR - Pipeline completed with failures: Jekyll Build
+2025-08-30 09:00:51,296 - INFO - === COMPLETION STATS ===
+2025-08-30 09:00:51,297 - INFO - Total articles processed: 168
+2025-08-30 09:00:51,297 - INFO - Today's articles: 0
+2025-08-30 09:00:51,298 - INFO - This week's articles: 12
+2025-08-30 09:00:51,298 - INFO - Feeds processed: 10
+2025-08-30 09:00:51,299 - INFO - Site updated: 30/08/2025 09:00
+2025-08-31 09:00:01,490 - INFO - Working in: /home/nico/ds
+2025-08-31 09:00:01,493 - INFO - Starting daily RSS automation pipeline
+2025-08-31 09:00:01,493 - INFO - Timestamp: 2025-08-31T09:00:01.493763
+2025-08-31 09:00:01,494 - INFO - 
+--- Starting: Git Pull ---
+2025-08-31 09:00:01,494 - INFO - === GIT PULL ===
+2025-08-31 09:00:01,494 - INFO - Running: Pulling latest changes
+2025-08-31 09:00:10,251 - INFO - Output: Updating 42ee5cd..3c63093
+Fast-forward
+ _data/commentary.yml                            |  12 +
+ _data/rss/tracked_stories.json                  | 202 ++---
+ _includes/blended-gradient.html                 | 203 +----
+ _includes/head.html                             |   3 +
+ _includes/nicos-commentary.html                 |  44 +-
+ _site/404/index.html                            |   3 +
+ _site/assets/css/agency.css                     | 900 ++++++----------------
+ _site/assets/css/agency.css.map                 |  39 +-
+ _site/assets/css/rss-feeds.css                  |   2 +-
+ _site/assets/js/blended-gradient.js             | 206 +++++
+ _site/blog/index.html                           |   3 +
+ _site/careers/index.html                        |   3 +
+ _site/contact/index.html                        |   3 +
+ _site/customer-experience-automation/index.html |   3 +
+ _site/faqs/index.html                           |   3 +
+ _site/feed.xml                                  |   4 +-
+ _site/gradient_comparison.html                  | 328 ++++++++
+ _site/gradients/index.html                      |   3 +
+ _site/index.html                                |   3 +
+ _site/legal/index.html                          |   3 +
+ _site/ms/index.html                             |   3 +
+ _site/news-2025-08-26/index.html                |  40 +-
+ _site/news-2025-08-27/index.html                |  40 +-
+ _site/news-2025-08-28/index.html                |  40 +-
+ _site/news-2025-08-29/index.html                |  40 +-
+ _site/news-2025-08-30/index.html                | 967 ++++++++++++++++++++++++
+ _site/news-2025-08-31/index.html                | 967 ++++++++++++++++++++++++
+ _site/news/index.html                           | 180 +++--
+ _site/no-ai/index.html                          |   3 +
+ _site/privacy/index.html                        |   5 +-
+ _site/sitemap.xml                               |  95 ++-
+ _site/zendesk-applications/index.html           |   3 +
+ _site/zendesk-custom-app/index.html             |   3 +
+ _site/zendesk-guide-tutorial/index.html         |   3 +
+ _site/zendesk-integration/index.html            |   3 +
+ _site/zendesk-migration-checklist/index.html    |   3 +
+ _site/zendesk-migration/index.html              |   3 +
+ _site/zendesk-optimization/index.html           |   3 +
+ _site/zendesk-sla-best-practices/index.html     |   3 +
+ _site/zendesk-stripe-integration/index.html     |   3 +
+ assets/css/rss-feeds.css                        |   2 +-
+ assets/js/blended-gradient.js                   | 206 +++++
+ gradient_comparison.html                        | 328 ++++++++
+ news-2025-08-26.md                              |   5 -
+ news-2025-08-27.md                              |   5 -
+ news-2025-08-28.md                              |   5 -
+ news-2025-08-29.md                              |   5 -
+ news-2025-08-30.md                              |  57 +-
+ news-2025-08-31.md                              | 553 ++++++++++++++
+ news.md                                         |  54 +-
+ scripts/generate_rss_page.py                    |  46 +-
+ sitemap.xml                                     |   9 -
+ 52 files changed, 4312 insertions(+), 1340 deletions(-)
+ create mode 100644 _data/commentary.yml
+ create mode 100644 _site/assets/js/blended-gradient.js
+ create mode 100644 _site/gradient_comparison.html
+ create mode 100644 _site/news-2025-08-30/index.html
+ create mode 100644 _site/news-2025-08-31/index.html
+ create mode 100644 assets/js/blended-gradient.js
+ create mode 100644 gradient_comparison.html
+ create mode 100644 news-2025-08-31.md
+2025-08-31 09:00:10,253 - INFO - ✅ SUCCESS: Git Pull
+2025-08-31 09:00:10,253 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-08-31 09:00:10,253 - INFO - === RSS INGESTION ===
+2025-08-31 09:00:10,253 - INFO - Running: Ingesting RSS feeds
+2025-08-31 09:00:20,220 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 0 raw items in feed
+  Found 0 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 0
+  This week (3-7d): 13
+  This month (8-35d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 0, Week: 13, Month: 40)
+2025-08-31 09:00:20,221 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-08-31 09:00:20,221 - INFO - 
+--- Starting: Claude Summaries ---
+2025-08-31 09:00:20,221 - INFO - === CLAUDE SUMMARIES ===
+2025-08-31 09:00:20,221 - INFO - Running: Generating Claude summaries
+2025-08-31 09:00:24,191 - INFO - Output: Generating narrative analysis for 33 recent articles...
+Calling Claude API...
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+2025-08-31 09:00:24,191 - INFO - ✅ SUCCESS: Claude Summaries
+2025-08-31 09:00:24,192 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-08-31 09:00:24,192 - INFO - === GENERATE RSS PAGE ===
+2025-08-31 09:00:24,192 - INFO - Running: Generating RSS feeds page
+2025-08-31 09:00:32,523 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-08-31.md
+News page updated: news.md
+  Latest (48h): 0 articles
+  This week (3-7d): 13 articles
+  This month (8-35d): 40 articles
+2025-08-31 09:00:32,523 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-08-31 09:00:32,523 - INFO - 
+--- Starting: Jekyll Build ---
+2025-08-31 09:00:32,524 - INFO - === JEKYLL BUILD ===
+2025-08-31 09:00:32,524 - INFO - Attempting Jekyll build...
+2025-08-31 09:00:32,524 - INFO - Running: Building Jekyll site
+2025-08-31 09:00:56,652 - INFO - Output: Configuration file: /home/nico/ds/_config.yml
+            Source: /home/nico/ds
+       Destination: /home/nico/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 16.672 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-08-31 09:00:56,652 - INFO - ✅ SUCCESS: Jekyll Build
+2025-08-31 09:00:56,652 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-08-31 09:00:56,653 - INFO - === GIT COMMIT & PUSH ===
+2025-08-31 09:00:56,653 - INFO - Running: Adding changes to git

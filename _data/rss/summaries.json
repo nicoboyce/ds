@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has been quite dynamic over the past 3 weeks, with the company doubling down on AI-powered features like Copilot and WhatsApp Flows while also grappling with service incidents and stability issues. Amidst this, Zendesk is navigating a complex landscape, with news of a \"Zendesk killer\" emerging and its former headquarters facing an auction after a steep drop in valuation. This suggests Zendesk is under pressure to innovate and maintain its position in the evolving customer experience landscape, even as it works to address technical challenges and competitive threats. For Zendesk professionals, this underscores the need to stay agile and attuned to the rapidly changing ecosystem.",
+  "recently_narrative": "The Zendesk ecosystem has been grappling with a mix of ambitious feature updates and service incidents over the past three weeks. While the company is pushing forward with new AI-powered capabilities like Copilot recommendations and WhatsApp Flows, it has also had to address several technical issues, including QA access problems, ticket redaction vulnerabilities, and workflow disruptions. Notably, the news of Zendesk's former headquarters being auctioned off following a steep drop in valuation suggests broader challenges the company may be facing, even as it seeks to position itself at the forefront of the AI-powered contact center era. Zendesk professionals will need to navigate this dynamic landscape, balancing the adoption of new features with the need to maintain a stable and secure platform for their customers.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-08-30T09:00:22.492746",
+  "generated_at": "2025-08-31T09:00:24.044273",
   "release_notes": {
     "summary": "Copilot: auto assist can now suggest existing macros to agents. AI Agents Advanced: improved dialogue builder UI for hiding/disabling parameter branches.",
     "article": {

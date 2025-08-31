@@ -39,67 +39,13 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">3 stories</span>
+        <span class="badge badge-primary ml-2">0 stories</span>
     </h2>
 
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <div class="row">
-                <div class="col-md-12">
-                    <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
-                        <span class="source-badge">Zendesk Service Notifications</span>
-                    </h5>
-                    <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors
-                    </p>
-                    <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 days ago
-                    </small>
-                </div>
-            </div>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQblpWVjVNaFR1bjh5RHJaTnloZmpqX1d6aTVBOFdwbDBLOWUyYVJIc1NURHlqaU4zVlJNWVdWOU1RZzdEdGxuRTdzaTRHWGZzcWFjeV95R0RrY0sxYmJOUVlDOWNsUWZDSDRPRUVOZlk1bzl4a1FuaGdJemZWeGNadUVVN2JXV3BUcWc?oc=5" class="text-dark">Zendesk vs Intercom in 2023: Detailed Analysis of Features, Pricing, and More - sekitarBANDUNGcom</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlVDbHc5ejFXdDdRcE1tLTlkc1hSUW9WdTlYRWNZZjVOQTdIQTA3RGkyb2M2SE4zdUhKVFRVelE4eUFhbkd3bXhKZ3dfVWhvWjU4anlyMkl4aFNsTEhyLWlON1p6UHlabC15bGxpU3ZMbmdxVmxPWTVQV3djOHJUTzVwN292TGw4Yl9qQW5DQzd4V000WEVtSGxjSm0?oc=5" class="text-dark">Office Envy: Inside Zendesk's sleek new Austin office - The Business Journals</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
+        <div class="alert alert-light">
+            <i class="fas fa-info-circle text-muted"></i>
+            No new articles in the last 48 hours. Check back later for updates.
+        </div>
 
 </div>
 
@@ -135,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has been quite dynamic over the past 3 weeks, with the company doubling down on AI-powered features like Copilot and WhatsApp Flows while also grappling with service incidents and stability issues. Amidst this, Zendesk is navigating a complex landscape, with news of a "Zendesk killer" emerging and its former headquarters facing an auction after a steep drop in valuation. This suggests Zendesk is under pressure to innovate and maintain its position in the evolving customer experience landscape, even as it works to address technical challenges and competitive threats. For Zendesk professionals, this underscores the need to stay agile and attuned to the rapidly changing ecosystem.</p>
+            <p>The Zendesk ecosystem has been grappling with a mix of ambitious feature updates and service incidents over the past three weeks. While the company is pushing forward with new AI-powered capabilities like Copilot recommendations and WhatsApp Flows, it has also had to address several technical issues, including QA access problems, ticket redaction vulnerabilities, and workflow disruptions. Notably, the news of Zendesk's former headquarters being auctioned off following a steep drop in valuation suggests broader challenges the company may be facing, even as it seeks to position itself at the forefront of the AI-powered contact center era. Zendesk professionals will need to navigate this dynamic landscape, balancing the adoption of new features with the need to maintain a stable and secure platform for their customers.</p>
         </div>
     </div>
     
@@ -158,17 +104,25 @@ background: grey
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
-                        
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
+                        <span class="source-badge">Zendesk Service Notifications</span> <small class="text-info" title="Zendesk Service Notifications, Zendesk Service Notifications">[2 sources]</small>
                     </h5>
                     <p class="item-summary text-muted">
-                        0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets&nbsp;&nbsp;CyberSecurityNews
+                        https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> recently
+                        <i class="far fa-clock"></i> 2 days ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5neVRMZEgzQUNQMUt5NF9LMmo0d19VWlpNVFdLUHlOWlNGdWhqbnpPX2pWQjRoSi1iSWl4STRmZkxkaF85RlhlTXB6b25FMmZ1X19Sc0Vn0gFbQVVfeXFMTlJoX05lRmhTX0lkYk5GcVlidDFhNnV1dFRwVFRpOEl0Yl9vSEI0ZllxU2RPckU2MVVRdkxKQWZTNTBkUkZlbGhGY21VRGU1VzhpT3VNMlFGUlFJSQ?oc=5" class="text-dark">0-Click Zendesk Flaw Lets Hackers Hijack Accounts and View All Tickets - gbhackers.com</a>
@@ -180,14 +134,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP" class="text-dark">Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9561647544986-Service-Incident-August-04-2025-Zendesk-QA-Assignments-stuck-on-pending-on-multiple-workspaces-for-several-accounts" class="text-dark">Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
@@ -345,20 +291,12 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNpdW1mY3FOMDJnRF9NSVJVNU1yaUNpQklnM0tXcmROdXF1Y1BrR0tkcHVrN0RwWjR2eXFwOXRKQVNLWElHQ1pQWHlKMnpma0xjYTU1OTY2ZC15LUlGVmNqZ056cVE0X0s1aHhEQkZwRDJwS0NkM09mRTE5eFp2d210WUpVQnlpVGhIZzVNTmdrNnBpNDVUaHN6SzRIZUE?oc=5" class="text-dark">Exclusive: Former Mid-Market tech HQ to be auctioned after losing 80% of its value - San Francisco Chronicle</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJiSzVyRDNkZGJJN05nOUs0U1o3bU5SR2RwMWktd1JLVVpiQkxBbmxob2R1NUFSbXI2SEEyUXZPWjIzaThVOHM0OGFXdTZ3UWxLWEZCRlRSS0thLUN3S0JWOFlNc2ZkcldVZ00ycXJWcWpZM0UtU0d2UlRkYjVFbzI2YXMzRk9FSVV3ZDVoRjBxY1VPQ3h3?oc=5" class="text-dark">Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information</a>
                 
             </h6>
             <small class="text-muted">
@@ -370,7 +308,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -403,7 +341,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 days ago
+                <i class="far fa-clock"></i> 16 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -428,6 +366,14 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9590471542170-Developer-update-Enhanced-security-guidelines-for-third-party-apps-integrations-and-bots" class="text-dark">Developer update: Enhanced security guidelines for third-party apps, integrations, and bots</a>
+                <span class="source-badge">Zendesk Developer Updates</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        </div>
     </div>
