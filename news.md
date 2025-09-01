@@ -23,9 +23,7 @@ background: grey
             <span class="badge badge-light">2025-08-29</span>
         </div>
         <div class="card-body">
-            <p class="mb-2"><strong>Key Changes:</strong> 1. Zendesk introduced a new "External OAuth clients" page in Admin Center to display apps and integrations using external OAuth authentication.
-2. Zendesk proactively turned off and removed password access for API authentication for accounts with no usage in the past 90 days, and these accounts were automatically enrolled in two-step verification.
-3. Zendesk completed the second phase of the two-step verification rollout on August 28 and will begin the third and final phase in October.</p>
+            <p class="mb-2"><strong>Key Changes:</strong> This week's release notes introduce a new page in Admin Center that displays external OAuth clients used to authenticate and connect to Zendesk accounts. As part of the ongoing removal of password access for API authentication, accounts without recent usage of this feature have had the capability proactively turned off and removed. Accounts that disable password access will now automatically be enrolled in two-step verification, with the final phase of this rollout beginning in October. Additionally, the default content for the welcome email has been updated for new accounts. The Copilot add-on has also been expanded with 15 new recommendation types.</p>
             <a href="https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29" class="btn btn-sm btn-outline-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> View Full Release Notes
             </a>
@@ -103,7 +101,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The recent Zendesk ecosystem updates highlight the company's continued focus on AI-powered customer experience features, such as the announcement of new Copilot recommendation types and the integration of GPT-5 technology. However, this push for innovation is tempered by ongoing stability issues, including service incidents related to performance degradation, workflow disruptions, and AI agent delays. The tension between Zendesk's ambitious roadmap and the need to address underlying infrastructure challenges suggests that the company is navigating a transition towards a more AI-driven contact center landscape, which may present both opportunities and complexities for Zendesk professionals.</p>
+            <p>The Zendesk ecosystem has been a mixed bag over the past three weeks, with the company heavily investing in AI-driven features like Copilot recommendations and WhatsApp Flows, while also grappling with a series of service incidents and stability issues. The push for AI integration seems to signal Zendesk's efforts to position itself as a leader in the AI-powered contact center era, but the ongoing incidents, including workflow disruptions and AI agent delays, suggest the company is also dealing with operational challenges. This dichotomy between innovation and stability could create tension for Zendesk professionals, who must navigate the changing landscape while ensuring reliable customer support services.</p>
         </div>
     </div>
     
