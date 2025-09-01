@@ -23,21 +23,8 @@ background: grey
             <span class="badge badge-light">2025-08-29</span>
         </div>
         <div class="card-body">
-            <p class="mb-2"><strong>Key Changes:</strong> Here is a summary of the key updates from the latest Zendesk release notes that administrators should be aware of:
-
-Admin Center Updates
-A new "External OAuth Clients" page has been added to the Admin Center. This page will display a list of all third-party applications that have been granted OAuth access to your Zendesk instance. 
-
-This is an important change for administrators to be aware of, as it provides visibility into which external apps and integrations have access to your Zendesk data. Administrators should review this list regularly to ensure only authorized apps have access and remove any that are no longer needed.
-
-Additionally, this new page will help with security and compliance, as administrators can audit which third-party integrations have access to sensitive customer information. Administrators should document this new page in their security and compliance procedures.
-
-Administrators should plan to review the External OAuth Clients page in the next 90 days to ensure they understand all the integrations connected to their Zendesk instance. Going forward, this page should be checked quarterly as part of standard security and compliance practices.
-
-Copilot Updates
-There are no updates to the Copilot AI assistant in this release. Administrators can expect the Copilot functionality to remain unchanged.
-
-Overall, the key action item for administrators from this release is to familiarize themselves with the new External OAuth Clients page in the Admin Center. This provides critical</p>
+            <p class="mb-2"><strong>Key Changes:</strong> 1. Zendesk introduced a new page in the Admin Center called "External OAuth clients" that displays a list of OAuth clients connected to the Zendesk account.
+2. There were no updates to Copilot, the App Marketplace, or other core Zendesk products in this release.</p>
             <a href="https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29" class="btn btn-sm btn-outline-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> View Full Release Notes
             </a>
@@ -115,7 +102,7 @@ Overall, the key action item for administrators from this release is to familiar
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has been actively updating its offerings, with a strong focus on enhancing its AI capabilities through new features like Copilot recommendations and GPT-5 integration. However, this period has also seen the company grapple with various service incidents, including performance degradation, workflow disruptions, and AI agent delays, which suggest ongoing stability challenges. While Zendesk is expanding to meet the rising demand for AI-driven customer support, it must also address these operational issues to maintain the trust and confidence of its customer base. For Zendesk professionals, this period highlights the need to stay vigilant, monitor updates closely, and be prepared to navigate both the opportunities and the complexities presented by the company's evolving ecosystem.</p>
+            <p>Over the past three weeks, Zendesk's ecosystem has been a mix of exciting new AI-powered features, such as expanded Copilot recommendations and WhatsApp Flows, alongside ongoing service incidents and maintenance issues. While Zendesk is clearly pushing to stay ahead of the curve in the AI-driven contact center era, it also seems to be grappling with stability challenges, including performance degradation, pending assignments, and delays in AI agent functionality. This balance of innovation and operational challenges may present both opportunities and concerns for Zendesk professionals, who must navigate the rapidly evolving landscape while ensuring reliable service delivery for their customers.</p>
         </div>
     </div>
     

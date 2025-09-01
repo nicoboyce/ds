@@ -1,13 +1,13 @@
 {
   "latest": "",
-  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
+  "recently_narrative": "Over the past three weeks, Zendesk's ecosystem has been a mix of exciting new AI-powered features, such as expanded Copilot recommendations and WhatsApp Flows, alongside ongoing service incidents and maintenance issues. While Zendesk is clearly pushing to stay ahead of the curve in the AI-driven contact center era, it also seems to be grappling with stability challenges, including performance degradation, pending assignments, and delays in AI agent functionality. This balance of innovation and operational challenges may present both opportunities and concerns for Zendesk professionals, who must navigate the rapidly evolving landscape while ensuring reliable service delivery for their customers.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-01T23:24:12.318823",
+  "generated_at": "2025-09-01T23:25:28.164284",
   "release_notes": {
-    "summary": "Copilot: We've introduced a new page called External OAuth clients in Admin Center. Admin Center: We've introduced a new page called External OAuth clients in",
+    "summary": "1. Zendesk introduced a new page in the Admin Center called \"External OAuth clients\" that displays a list of OAuth clients connected to the Zendesk account.\n2. There were no updates to Copilot, the App Marketplace, or other core Zendesk products in this release.",
     "article": {
-      "id": "final-test",
+      "id": "4bd7890db3d7",
       "title": "Release notes through 2025-08-29",
       "link": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
       "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAdmin Center\nCopilot\nApp Marketplace\nProducts with no updates this week\n\nAdmin Center\nNew:\n\nWe've introduced a new page called External OAuth clients in Admin Center. This page displays a list of ...",
@@ -15,8 +15,8 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-09-01T23:15:15.910549"
+      "fetched_at": "2025-09-01T23:25:20.244143"
     },
-    "generated_at": "2025-09-01T23:24:12.318872"
+    "generated_at": "2025-09-01T23:25:29.761881"
   }
 }
