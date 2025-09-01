@@ -165,6 +165,8 @@ en: &DEFAULT_EN
     people:
       - name: "Rosie Elliott-Welch"
         role: "Founder, CEO"
+        email: "rosie@deltastring.com"
+        phone: "+44-7769-023498"
         image: https://deltastring.com/assets/img/team/rew.jpeg
         alt: "Rosie Elliott-Welch, Founder and CEO of Deltastring, experienced business operations professional"
         social:
@@ -173,6 +175,8 @@ en: &DEFAULT_EN
             title: "Rosie Elliott-Welch's LinkedIn profile"
       - name: "Nico Boyce"
         role: "Founder, CTO"
+        email: "nico@deltastring.com"
+        phone: "+447596476097"
         image: https://deltastring.com/assets/img/team/nicobboyce.jpeg
         alt: "Nico Boyce, Founder and CTO of Deltastring, Zendesk technical specialist and developer"
         social:

@@ -85,6 +85,11 @@
 - Never invent or freestyle data - only report what actually exists
 - If creative content is needed, explicitly ask for approval first
 
+### JavaScript & Liquid Rules
+- Never mix inline JavaScript with Liquid templating in the same file
+- Always put JavaScript in separate files in /assets/js/
+- Jekyll will process .js files with front matter for Liquid variables
+
 ### Writing
 - see C_writing.md
 
