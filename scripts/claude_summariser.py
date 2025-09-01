@@ -330,24 +330,16 @@ Be direct and analytical, not promotional."""
         description = release_notes.get('description', '')
         title = release_notes.get('title', '')
         
-        prompt = f"""Report what changed in this Zendesk release. Write for administrators who know their job - just give them the facts.
+        prompt = f"""Summarise the key changes from this Zendesk release in 2-3 factual sentences. Report what changed, not what people should do about it.
 
 Release: {title}
 
 Content:
 {description[:3000]}
 
-Report only what actually changed:
-- New features and what they do
-- Changes to existing functionality  
-- Security/authentication changes with timelines
-- API changes and deprecations
-- Specific numbers, dates, rollout phases
+Cover the main changes to Admin Center, security, APIs, and core functionality. Include specific dates, numbers, and rollout phases where mentioned. Skip marketplace apps and marketing content.
 
-IGNORE: Marketplace apps, general product marketing.
-INCLUDE: Admin Center, security, APIs, authentication, user management.
-
-Be factual and specific. No advice, recommendations, or explanations of why things matter - administrators can figure that out themselves."""
+Write concisely - administrators want facts, not explanations."""
         
         try:
             # Use requests library for API call
