@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+
+<!-- Square orange icon with just the delta triangle -->
+
+<!-- Circle outline -->
+<circle r="45" cx="50" cy="50" fill="white" fill-opacity="0" stroke="#a04610" stroke-width="3" />
+
+<!-- Main body of circle -->
+<circle r="42" cx="50" cy="50" fill="#a04610" />
+
+<!-- Triangle inside delta -->
+<polygon points="35,25 65,75 20,75" fill="white" />
+
+</svg>
