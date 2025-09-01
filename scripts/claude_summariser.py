@@ -335,16 +335,16 @@ Be direct and analytical, not promotional."""
 Release: {title}
 
 Content:
-{description[:1500]}
+{description[:3000]}
 
-Provide a 1-2 sentence summary focusing ONLY on:
+Provide a 3-4 sentence summary focusing ONLY on:
 - Key new features (not marketplace apps)
 - Major UI/workflow changes  
 - Security or compliance updates
 - API or integration changes
 
 Ignore marketplace app updates. Format as: "Feature: description. Feature: description."
-Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin Center) not generic terms."""
+Be specific and provide enough detail for administrators to understand the impact. Use product names (Copilot, AI Agents, Admin Center) not generic terms."""
         
         try:
             # Use requests library for API call
@@ -359,7 +359,7 @@ Be extremely concise and specific. Use product names (Copilot, AI Agents, Admin 
                 },
                 json={
                     'model': 'claude-3-haiku-20240307',  # Using Haiku - only model available with this API key
-                    'max_tokens': 150,  # Keep release notes summaries brief
+                    'max_tokens': 300,  # Allow for more detailed summaries
                     'temperature': 0.3,  # Lower temperature for factual accuracy
                     'messages': [{'role': 'user', 'content': prompt}]
                 },
