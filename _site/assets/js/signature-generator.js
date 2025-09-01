@@ -63,15 +63,7 @@ function generateSignature() {
         return;
     }
 
-    const htmlSignature = `<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Email Signature</title>
-    <link href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <table cellpadding="0" cellspacing="0" border="0" style="font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.2; color: #111d30;">
+    const signatureTable = `<table cellpadding="0" cellspacing="0" border="0" style="font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.2; color: #111d30;">
         <tr>
             <td style="vertical-align: top; padding-right: 15px;">
                 ${profileImage ? `<img src="${profileImage}" alt="${fullName}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;${fullName === 'Nico Boyce' ? ' transform: scaleX(-1);' : ''};">` : ''}
@@ -114,12 +106,22 @@ function generateSignature() {
                 </p>
             </td>
         </tr>
-    </table>
+    </table>`;
+
+    const htmlSignature = `<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Email Signature</title>
+    <link href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    ${signatureTable}
 </body>
 </html>`;
 
     // Display preview and HTML
-    document.getElementById('signaturePreview').innerHTML = htmlSignature;
+    document.getElementById('signaturePreview').innerHTML = signatureTable;
     document.getElementById('signatureHtml').textContent = htmlSignature;
     document.getElementById('output').classList.remove('hidden');
     document.getElementById('copyBtn').disabled = false;
