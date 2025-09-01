@@ -10,6 +10,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import requests
 import sys
+from bs4 import BeautifulSoup
+import re
 
 class ClaudeSummariser:
     def __init__(self, data_dir='_data/rss', api_key=None):
@@ -318,6 +320,110 @@ Be direct and analytical, not promotional."""
         print(f"Summaries saved to: {self.data_dir / 'summaries.json'}")
         return summaries
     
+    def clean_release_notes_content(self, content):
+        """Clean up extracted release notes content for better readability"""
+        
+        # Remove irrelevant sections
+        content = re.sub(r'App Marketplace.*?(?=\n[A-Z]|$)', '', content, flags=re.DOTALL)
+        content = re.sub(r'Products with no updates.*?(?=\n[A-Z]|$)', '', content, flags=re.DOTALL)
+        
+        # Fix broken line breaks within sentences
+        content = re.sub(r'\n(?=[a-z])', ' ', content)  # Join lines that start with lowercase
+        content = re.sub(r'\n(?=\w)', ' ', content)  # Join most broken lines
+        
+        # Remove duplicate section headers
+        lines = content.split('\n')
+        seen_headers = set()
+        cleaned_lines = []
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            # Check if this is a duplicate section header
+            if line in ['Admin Center', 'Copilot', 'AI Agents Advanced', 'Support', 'Mobile'] and line in seen_headers:
+                continue
+            
+            if line in ['Admin Center', 'Copilot', 'AI Agents Advanced', 'Support', 'Mobile']:
+                seen_headers.add(line)
+            
+            cleaned_lines.append(line)
+        
+        content = '\n'.join(cleaned_lines)
+        
+        # Normalize whitespace
+        content = re.sub(r' +', ' ', content)  # Multiple spaces to single space
+        content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)  # Multiple newlines to double
+        
+        return content.strip()
+
+    def extract_release_notes_content(self, url):
+        """Extract release notes content from URL"""
+        try:
+            print(f"Fetching full release notes from: {url}")
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Find the article content area - try multiple selectors
+            article_body = None
+            for selector in ['main', 'article', '.article-body', '[class*=article]', '[class*=content]']:
+                article_body = soup.select_one(selector)
+                if article_body:
+                    break
+                    
+            if not article_body:
+                print("WARNING: Could not find content container, using fallback")
+                return None
+                
+            # Get all text content
+            full_text = article_body.get_text(separator='\n', strip=True)
+            
+            # Find start marker
+            start_marker = "This week's release notes include:"
+            start_idx = full_text.find(start_marker)
+            if start_idx == -1:
+                print("WARNING: Could not find start marker, using fallback")
+                return None
+            
+            # Find end marker - look for common end patterns
+            end_markers = [
+                "App Marketplace",
+                "Products with no updates", 
+                "Next week",
+                "See our What's New",
+                "For more information",
+                "Resources"
+            ]
+            
+            end_idx = -1
+            for marker in end_markers:
+                idx = full_text.find(marker, start_idx + 100)  # Start search after initial content
+                if idx != -1:
+                    end_idx = idx
+                    break
+            
+            if end_idx == -1:
+                # If no end marker found, take a reasonable chunk (first 3000 chars)
+                content = full_text[start_idx:start_idx + 3000]
+            else:
+                content = full_text[start_idx:end_idx]
+            
+            # Clean up the content
+            content = re.sub(r'\n\s*\n', '\n\n', content)  # Normalize line breaks
+            content = content.strip()
+            
+            # Additional cleanup for better readability
+            content = self.clean_release_notes_content(content)
+            
+            return content
+            
+        except Exception as e:
+            print(f"ERROR fetching release notes content: {e}")
+            return None
+
     def summarise_release_notes(self, release_notes):
         """Generate focused summary for Zendesk release notes"""
         if not release_notes:
@@ -326,16 +432,26 @@ Be direct and analytical, not promotional."""
         if not self.api_key:
             return self.fallback_release_notes_summary(release_notes)
         
-        # Extract just the key changes from the description
-        description = release_notes.get('description', '')
+        # Extract full content from the release notes URL
         title = release_notes.get('title', '')
+        url = release_notes.get('link', '')
+        
+        # Try to get full content from URL first
+        full_content = None
+        if url:
+            full_content = self.extract_release_notes_content(url)
+        
+        # Fall back to description if URL extraction fails
+        if not full_content:
+            print("Falling back to truncated RSS description")
+            full_content = release_notes.get('description', '')[:3000]
         
         prompt = f"""Summarise the key changes from this Zendesk release in 2-3 factual sentences. Report what changed, not what people should do about it.
 
 Release: {title}
 
 Content:
-{description[:3000]}
+{full_content}
 
 Cover the main changes to Admin Center, security, APIs, and core functionality. Include specific dates, numbers, and rollout phases where mentioned. Skip marketplace apps and marketing content.
 
