@@ -1,13 +1,13 @@
 {
   "latest": "",
-  "recently_narrative": "Based on the articles provided, it appears that Zendesk is navigating a period of significant technological advancement and customer experience innovation, while also grappling with various service incidents and stability issues. The company is pushing forward with the integration of AI-powered features, such as Copilot recommendations and AI-driven contact centers, indicating a strategic focus on enhancing customer support capabilities. However, the service disruptions and performance degradation incidents suggest that Zendesk is also dealing with operational challenges that may impact its ecosystem. This dynamic highlights the tension between Zendesk's ambitions to lead the CX space with cutting-edge AI solutions and the need to maintain robust platform stability and reliability. For Zendesk professionals, this landscape underscores the importance of staying informed about the company's product roadmap and technical developments, while also being prepared to navigate potential service interruptions and adapt to an increasingly AI-driven customer support landscape.",
+  "recently_narrative": "The past three weeks in the Zendesk ecosystem have been a mix of new feature announcements, including enhanced AI capabilities through Copilot and expanded API support, alongside ongoing service incidents that have disrupted customer experiences. While Zendesk is clearly pushing forward with AI-driven innovations to meet rising demand, the company has also been grappling with stability issues ranging from assignment problems to workflow disruptions, suggesting the need to balance its ambitious product roadmap with maintaining a reliable platform. These updates highlight the evolving landscape for Zendesk professionals, who must navigate both the exciting potential of AI-powered customer support tools and the practical challenges of ensuring a consistent, high-quality experience for end-users.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-01T23:04:09.152333",
+  "generated_at": "2025-09-01T23:09:09.577266",
   "release_notes": {
-    "summary": "Feature: Admin Center now includes a new page called External OAuth clients, which displays a list of authorized external OAuth clients and allows administrators to manage them.",
+    "summary": "Feature: A new External OAuth clients page has been added to the Admin Center, which displays a list of external OAuth clients that have been integrated with the Zendesk instance. This provides administrators with visibility and control over the third-party applications that have access to their Zendesk data.",
     "article": {
-      "id": "123",
+      "id": "4bd7890db3d7",
       "title": "Release notes through 2025-08-29",
       "link": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
       "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAdmin Center\nCopilot\nApp Marketplace\nProducts with no updates this week\n\nAdmin Center\nNew:\n\nWe've introduced a new page called External OAuth clients in Admin Center. This page displays a list of ...",
@@ -15,8 +15,8 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-09-01T09:00:07.951044"
+      "fetched_at": "2025-09-01T23:09:01.181308"
     },
-    "generated_at": "2025-09-01T09:00:16.835549"
+    "generated_at": "2025-09-01T23:09:10.833079"
   }
 }
