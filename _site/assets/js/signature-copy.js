@@ -16,28 +16,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Create a temporary textarea to hold the HTML
-            const tempTextarea = document.createElement('textarea');
-            tempTextarea.style.position = 'fixed';
-            tempTextarea.style.left = '-999999px';
-            tempTextarea.style.top = '-999999px';
-            tempTextarea.value = signatureElement.outerHTML;
-            document.body.appendChild(tempTextarea);
-            
-            // Select and copy the content
-            tempTextarea.select();
-            tempTextarea.setSelectionRange(0, 99999); // For mobile devices
+            // Select the signature element content
+            const range = document.createRange();
+            range.selectNodeContents(signatureElement);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
             
             let successful = false;
             try {
+                // Copy the selection - this copies the rendered HTML, not the source
                 successful = document.execCommand('copy');
                 console.log('Copy command result:', successful);
             } catch (err) {
                 console.error('Copy command failed:', err);
             }
             
-            // Remove temporary textarea
-            document.body.removeChild(tempTextarea);
+            // Clear selection after copying
+            selection.removeAllRanges();
             
             if (successful) {
                 // Update button text temporarily
@@ -52,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.classList.add('btn-primary');
                 }, 2000);
             } else {
-                // Fallback: select the signature for manual copying
+                // Fallback: re-select for manual copying
                 const range = document.createRange();
                 range.selectNodeContents(signatureElement);
                 const selection = window.getSelection();
