@@ -106,20 +106,39 @@ document.addEventListener('DOMContentLoaded', function() {
     const copyButtons = document.querySelectorAll('.copy-signature');
     
     copyButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', async function() {
             const personSlug = this.getAttribute('data-person');
             const signatureElement = document.getElementById('signature-' + personSlug);
             
-            // Create a range and select the signature content
-            const range = document.createRange();
-            range.selectNodeContents(signatureElement);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            
             try {
-                // Copy to clipboard
-                document.execCommand('copy');
+                // Get the HTML content of the signature
+                const signatureHTML = signatureElement.innerHTML;
+                
+                // Try modern clipboard API first
+                if (navigator.clipboard && navigator.clipboard.write) {
+                    const htmlBlob = new Blob([signatureHTML], { type: 'text/html' });
+                    const textBlob = new Blob([signatureElement.innerText], { type: 'text/plain' });
+                    
+                    const clipboardItem = new ClipboardItem({
+                        'text/html': htmlBlob,
+                        'text/plain': textBlob
+                    });
+                    
+                    await navigator.clipboard.write([clipboardItem]);
+                } else if (navigator.clipboard && navigator.clipboard.writeText) {
+                    // Fallback to text-only clipboard
+                    await navigator.clipboard.writeText(signatureElement.innerText);
+                } else {
+                    // Final fallback - select and copy
+                    const range = document.createRange();
+                    range.selectNodeContents(signatureElement);
+                    const selection = window.getSelection();
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+                    
+                    document.execCommand('copy');
+                    selection.removeAllRanges();
+                }
                 
                 // Update button text temporarily
                 const originalText = this.innerHTML;
@@ -135,11 +154,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 
             } catch (err) {
                 console.error('Failed to copy signature:', err);
-                alert('Failed to copy signature. Please try selecting and copying manually.');
+                
+                // Manual selection fallback
+                const range = document.createRange();
+                range.selectNodeContents(signatureElement);
+                const selection = window.getSelection();
+                selection.removeAllRanges();
+                selection.addRange(range);
+                
+                alert('Signature selected. Please copy manually with Ctrl+C (Cmd+C on Mac)');
             }
-            
-            // Clear selection
-            selection.removeAllRanges();
         });
     });
 });
