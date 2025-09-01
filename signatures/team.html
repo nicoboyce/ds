@@ -1,0 +1,146 @@
+---
+layout: default
+title: "Team Email Signatures"
+---
+
+<section class="page-section" style="padding-top: 100px;">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Team Email Signatures</h2>
+            <h3 class="section-subheading text-muted">Professional signatures for all team members</h3>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="alert alert-info">
+                    <h5><i class="fa fa-info-circle"></i> Gmail Setup Instructions</h5>
+                    <ol>
+                        <li>Click the "Copy Signature" button for your name</li>
+                        <li>Open Gmail and click the gear icon → "See all settings"</li>
+                        <li>Scroll to the "Signature" section</li>
+                        <li>Click "Create new" and give it a name</li>
+                        <li>Paste your signature (Ctrl+V / Cmd+V) into the editor</li>
+                        <li>Click "Save Changes" at the bottom</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        {% for person in site.data.sitetext.en.team.people %}
+        <div class="row mb-5">
+            <div class="col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">{{ person.name }} - {{ person.role }}</h5>
+                        <button class="btn btn-primary btn-sm copy-signature" data-person="{{ person.name | slugify }}">
+                            <i class="fa fa-copy"></i> Copy Signature
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div id="signature-{{ person.name | slugify }}" class="signature-container">
+                            <table cellpadding="0" cellspacing="0" border="0" style="font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.2; color: #111d30;">
+                                <tr>
+                                    <td style="vertical-align: top; padding-right: 15px; position: relative;">
+                                        <div style="position: absolute; right: 0; top: 0; height: 90px; width: 1px; background-color: #a04610;"></div>
+                                        <img src="{{ person.image }}" alt="{{ person.alt }}" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;{% if person.image_facing == 'left' %} transform: scaleX(-1);{% endif %}">
+                                    </td>
+                                    <td style="vertical-align: top; padding-left: 15px; width: 1px;">
+                                        <table cellpadding="0" cellspacing="0" border="0" style="white-space: nowrap;">
+                                            <tr>
+                                                <td style="font-weight: bold; font-size: 14px; color: #111d30; padding-bottom: 2px; text-align: right;">
+                                                    {{ person.name }}
+                                                </td>
+                                            </tr>
+                                            <tr><td style="font-weight: normal; font-size: 12px; color: #a04610; padding-bottom: 8px; text-align: right;">{{ person.role }}</td></tr>
+                                            <tr>
+                                                <td style="font-weight: bold; font-size: 11px; color: #111d30; padding-bottom: 2px; text-align: right;">
+                                                    {{ person.email }}
+                                                </td>
+                                            </tr>
+                                            <tr><td style="font-weight: bold; font-size: 11px; color: #111d30; padding-bottom: 2px; text-align: right;">{{ person.phone }}</td></tr>
+                                            <tr>
+                                                <td style="padding-bottom: 0px; text-align: right;">
+                                                    {% for social in person.social %}
+                                                        {% if social.icon == "fab fa-linkedin-in" %}
+                                                            <a href="{{ social.url }}" style="text-decoration: none; margin-left: 12px;"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 16px; height: 16px; vertical-align: middle;"></a>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                    <a href="https://wa.me/{{ person.phone | replace: '+44', '44' | replace: '-', '' }}" style="text-decoration: none; margin-left: 12px;"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" style="width: 16px; height: 16px; vertical-align: middle;"></a>
+                                                    <a href="{{ site.data.sitetext.en.header.buttonlink }}" style="text-decoration: none; margin-left: 12px;">
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/3652/3652267.png" alt="Calendar" style="width: 16px; height: 16px; vertical-align: middle;">
+                                                    </a>
+                                                    <a href="https://deltastring.com" style="text-decoration: none; margin-left: 12px;">
+                                                        <img src="https://deltastring.com/assets/img/ds-icon-square.svg" alt="Deltastring" style="width: 16px; height: 16px; vertical-align: middle;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="2" style="padding-top: 10px; padding-bottom: 10px;">
+                                        <hr style="border: none; border-top: 1px solid #a04610; margin: 0;">
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="2">
+                                        <p style="font-size: 10px; color: #a04610; font-style: italic; margin: 0;">
+                                            {{ site.data.sitetext.en.services.text }}
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const copyButtons = document.querySelectorAll('.copy-signature');
+    
+    copyButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const personSlug = this.getAttribute('data-person');
+            const signatureElement = document.getElementById('signature-' + personSlug);
+            
+            // Create a range and select the signature content
+            const range = document.createRange();
+            range.selectNodeContents(signatureElement);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            
+            try {
+                // Copy to clipboard
+                document.execCommand('copy');
+                
+                // Update button text temporarily
+                const originalText = this.innerHTML;
+                this.innerHTML = '<i class="fa fa-check"></i> Copied!';
+                this.classList.remove('btn-primary');
+                this.classList.add('btn-success');
+                
+                setTimeout(() => {
+                    this.innerHTML = originalText;
+                    this.classList.remove('btn-success');
+                    this.classList.add('btn-primary');
+                }, 2000);
+                
+            } catch (err) {
+                console.error('Failed to copy signature:', err);
+                alert('Failed to copy signature. Please try selecting and copying manually.');
+            }
+            
+            // Clear selection
+            selection.removeAllRanges();
+        });
+    });
+});
+</script>

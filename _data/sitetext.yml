@@ -168,6 +168,7 @@ en: &DEFAULT_EN
         email: "rosie@deltastring.com"
         phone: "+44-7769-023498"
         image: https://deltastring.com/assets/img/team/rew.jpeg
+        image_facing: "right"
         alt: "Rosie Elliott-Welch, Founder and CEO of Deltastring, experienced business operations professional"
         social:
           - url: https://www.linkedin.com/in/rosie-elliott-welch-219965185/
@@ -178,6 +179,7 @@ en: &DEFAULT_EN
         email: "nico@deltastring.com"
         phone: "+447596476097"
         image: https://deltastring.com/assets/img/team/nicobboyce.jpeg
+        image_facing: "left"
         alt: "Nico Boyce, Founder and CTO of Deltastring, Zendesk technical specialist and developer"
         social:
           - url: https://linkedin.com/in/nicoboyce/
