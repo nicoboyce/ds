@@ -1,11 +1,11 @@
 {
   "latest": "",
-  "recently_narrative": "The past three weeks in the Zendesk ecosystem have been a mix of new feature announcements, including enhanced AI capabilities through Copilot and expanded API support, alongside ongoing service incidents that have disrupted customer experiences. While Zendesk is clearly pushing forward with AI-driven innovations to meet rising demand, the company has also been grappling with stability issues ranging from assignment problems to workflow disruptions, suggesting the need to balance its ambitious product roadmap with maintaining a reliable platform. These updates highlight the evolving landscape for Zendesk professionals, who must navigate both the exciting potential of AI-powered customer support tools and the practical challenges of ensuring a consistent, high-quality experience for end-users.",
+  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-01T23:09:09.577266",
+  "generated_at": "2025-09-01T23:12:45.793556",
   "release_notes": {
-    "summary": "Feature: A new External OAuth clients page has been added to the Admin Center, which displays a list of external OAuth clients that have been integrated with the Zendesk instance. This provides administrators with visibility and control over the third-party applications that have access to their Zendesk data.",
+    "summary": "Copilot: We've introduced a new page called External OAuth clients in Admin Center. Admin Center: We've introduced a new page called External OAuth clients in",
     "article": {
       "id": "4bd7890db3d7",
       "title": "Release notes through 2025-08-29",
@@ -17,6 +17,6 @@
       "colour": "warning",
       "fetched_at": "2025-09-01T23:09:01.181308"
     },
-    "generated_at": "2025-09-01T23:09:10.833079"
+    "generated_at": "2025-09-01T23:12:45.793607"
   }
 }

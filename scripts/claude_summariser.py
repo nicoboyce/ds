@@ -330,21 +330,24 @@ Be direct and analytical, not promotional."""
         description = release_notes.get('description', '')
         title = release_notes.get('title', '')
         
-        prompt = f"""You are analysing the latest Zendesk release notes for administrators. Extract ONLY the most important feature changes and updates that directly impact administrators.
+        prompt = f"""You are briefing Zendesk administrators on what they need to know from the latest release notes. Focus on actionable intelligence and operational impacts.
 
 Release: {title}
 
 Content:
 {description[:3000]}
 
-Provide a 3-4 sentence summary focusing ONLY on:
-- Key new features (not marketplace apps)
-- Major UI/workflow changes  
-- Security or compliance updates
-- API or integration changes
+Write a comprehensive summary that administrators can act on. Include:
+- What's changing and when (preserve specific dates, timelines, rollout phases)
+- Why it matters for day-to-day operations 
+- What administrators should do or expect
+- Security/compliance implications
+- Numbers and specifics (like "90 days", "phase 2", user counts)
 
-Ignore marketplace app updates. Format as: "Feature: description. Feature: description."
-Be specific and provide enough detail for administrators to understand the impact. Use product names (Copilot, AI Agents, Admin Center) not generic terms."""
+IGNORE: Marketplace app updates, partner integrations, general product marketing.
+INCLUDE: Admin Center changes, security updates, API changes, authentication changes, user management changes.
+
+Write in clear, direct language. Don't just list features - explain the operational impact and what administrators need to know or do about it."""
         
         try:
             # Use requests library for API call
