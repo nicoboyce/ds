@@ -15,7 +15,7 @@ layout: null
   <!-- All pages with layout: page (excluding unpublished ones) -->
   {% for page in site.pages %}
     {% unless page.url contains '/404' or page.url contains '/assets/' or page.url contains '/_' %}
-      {% if page.layout == 'page' and page.published != false %}
+      {% if page.layout == 'page' and page.published != false and page.sitemap != false %}
         <url>
           <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
           <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>

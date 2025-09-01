@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Email Signature Generator
+sitemap: false
 ---
 
 <style>
