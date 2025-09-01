@@ -3,11 +3,11 @@
   "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-01T23:20:20.150773",
+  "generated_at": "2025-09-01T23:24:12.318823",
   "release_notes": {
     "summary": "Copilot: We've introduced a new page called External OAuth clients in Admin Center. Admin Center: We've introduced a new page called External OAuth clients in",
     "article": {
-      "id": "4bd7890db3d7",
+      "id": "final-test",
       "title": "Release notes through 2025-08-29",
       "link": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
       "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAdmin Center\nCopilot\nApp Marketplace\nProducts with no updates this week\n\nAdmin Center\nNew:\n\nWe've introduced a new page called External OAuth clients in Admin Center. This page displays a list of ...",
@@ -17,6 +17,6 @@
       "colour": "warning",
       "fetched_at": "2025-09-01T23:15:15.910549"
     },
-    "generated_at": "2025-09-01T23:20:20.150828"
+    "generated_at": "2025-09-01T23:24:12.318872"
   }
 }
