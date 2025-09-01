@@ -1,12 +1,12 @@
 entries:
-  - date: "2025-08-26"
+  - date: "2025-09-02"
     content: |
       <p class="mb-2">
-          The <a href="https://cybersecuritynews.com/zendesk-account-takeover-vulnerability/">0-click vulnerability</a> reported this week highlights the proactive approach Zendesk can play in keeping data secure for their users and the customers of Zendesk users. Keep your Zendesk instance secure with SSO, MFA, review of tokens, revoking access for departing employees, and being cautious about third party integrations.
+          Like last week, security takes priority. It's easy to forget to disable old tokens and we see plenty of instances still allowing simple password access, even for API authentication. Drop me an email or book a call and we can talk you through some quick checks here!
       </p>
       <p class="mb-2">
-          The new trigger-based redaction feature <a href="https://internalnote.com/automated-ticket-redaction/">as reported by Internal Note</a> is a game-changer for GDPR. This addresses a long-standing pain point in manual data management workflows. When you do business across jurisdictions and regulatory frameworks it is difficult but critical to ensure compliance.
+          I'm still not sold on the copilot features. I have support managers ask "What is the secret to getting good value out of this?" and if you've figured this out then please do let me know. Sorry friends at Zendesk but this feature feels like it's not quite ready. Maybe these items will help?
       </p>
       <p class="mb-0">
-          We always welcome better configuration UI for Zendesk AI Agents Advanced (fka Ultimate AI) which is a powerful product but a headache to set up!
+          There has been a distinct lack of quality-of-life improvements for Zendesk admins of late. I would really like to see the config interface for the core features get brought up to date before much longer.
       </p>
