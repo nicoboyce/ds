@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 14 hours ago
+                        <i class="far fa-clock"></i> 15 hours ago
                     </small>
                 </div>
             </div>
@@ -74,7 +74,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">26 stories</span>
+        <span class="badge badge-info ml-2">25 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -101,7 +101,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has been a mixed bag over the past three weeks, with the company heavily investing in AI-driven features like Copilot recommendations and WhatsApp Flows, while also grappling with a series of service incidents and stability issues. The push for AI integration seems to signal Zendesk's efforts to position itself as a leader in the AI-powered contact center era, but the ongoing incidents, including workflow disruptions and AI agent delays, suggest the company is also dealing with operational challenges. This dichotomy between innovation and stability could create tension for Zendesk professionals, who must navigate the changing landscape while ensuring reliable customer support services.</p>
+            <p>Over the past three weeks, Zendesk's ecosystem has seen a mix of AI-focused updates, such as the introduction of new Copilot recommendation types and the announcement of the Zendesk AI Summit, alongside ongoing service incidents and stability issues. These include problems with QA access, ticket assignments, and AI agent delays, suggesting that while Zendesk is pushing forward with its AI-powered vision for customer experience, it is also grappling with technical challenges that could impact its customers. This tension between innovation and reliability is likely to be a key concern for Zendesk professionals, who must navigate the company's evolving ecosystem and ensure their customer support operations can withstand the disruptions.</p>
         </div>
     </div>
     
@@ -109,7 +109,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 26 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -198,7 +198,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -312,7 +312,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">6</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -363,14 +363,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQUDhKNmJCYVdqRlpmWHVRcEFSdWozY1JIb1dqOTJ0dDJtNG9VbHI2dl9rS3lwOXh4OENOdDQtWERjUjRGTW1wbXJOMXNqX3dJSFdCTkJINEVyVWtiaE96NWYydm5IUWp3ZUZIZGJrOEpGejRSbzRBWTVKLU5PdmhYeTZKWEs?oc=5" class="text-dark">Zendesk Expands to Meet Rising AI-Driven Demand - Nearshore Americas</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -392,11 +384,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01/09/2025</strong><br>
+                    <strong>02/09/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>Tomorrow 09:00 UTC</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
