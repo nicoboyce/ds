@@ -330,24 +330,24 @@ Be direct and analytical, not promotional."""
         description = release_notes.get('description', '')
         title = release_notes.get('title', '')
         
-        prompt = f"""You are briefing Zendesk administrators on what they need to know from the latest release notes. Focus on actionable intelligence and operational impacts.
+        prompt = f"""Report what changed in this Zendesk release. Write for administrators who know their job - just give them the facts.
 
 Release: {title}
 
 Content:
 {description[:3000]}
 
-Write a comprehensive summary that administrators can act on. Include:
-- What's changing and when (preserve specific dates, timelines, rollout phases)
-- Why it matters for day-to-day operations 
-- What administrators should do or expect
-- Security/compliance implications
-- Numbers and specifics (like "90 days", "phase 2", user counts)
+Report only what actually changed:
+- New features and what they do
+- Changes to existing functionality  
+- Security/authentication changes with timelines
+- API changes and deprecations
+- Specific numbers, dates, rollout phases
 
-IGNORE: Marketplace app updates, partner integrations, general product marketing.
-INCLUDE: Admin Center changes, security updates, API changes, authentication changes, user management changes.
+IGNORE: Marketplace apps, general product marketing.
+INCLUDE: Admin Center, security, APIs, authentication, user management.
 
-Write in clear, direct language. Don't just list features - explain the operational impact and what administrators need to know or do about it."""
+Be factual and specific. No advice, recommendations, or explanations of why things matter - administrators can figure that out themselves."""
         
         try:
             # Use requests library for API call
