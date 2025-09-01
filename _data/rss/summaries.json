@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a mix of exciting new feature announcements and service incidents over the past few weeks. While Zendesk is pushing forward with AI-powered innovations like Copilot recommendations and WhatsApp Flows integration, the company has also faced several outages and stability issues, including problems with QA access, ticket redaction, and AI agent delays. This suggests Zendesk is working to enhance its platform's capabilities, particularly around automation and customer experience, but must also contend with technical challenges that could impact Zendesk professionals and their ability to provide reliable support. The ecosystem updates indicate Zendesk is navigating a complex transition towards an AI-driven future while addressing immediate operational concerns.",
+  "recently_narrative": "Over the past three weeks, Zendesk's ecosystem has been characterized by a dual focus on expanding its AI-powered capabilities while grappling with several service incidents and operational challenges. The company has announced new AI-driven features, such as Copilot recommendations and integration with GPT-5, signaling its commitment to enhancing the customer experience through advanced technologies. However, this period has also seen a number of service disruptions, including issues with the Zendesk QA platform, workflow disruptions, and AI agent delays, highlighting the need for continued stability and reliability improvements. As Zendesk professionals navigate this evolving landscape, they must balance the adoption of innovative tools with the need to maintain a robust and resilient support infrastructure, ensuring seamless customer experiences even as the company pushes the boundaries of what's possible in the AI-powered contact center era.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-01T09:00:15.737333",
+  "generated_at": "2025-09-01T22:58:18.573811",
   "release_notes": {
     "summary": "Feature: Admin Center now includes a new page called External OAuth clients, which displays a list of authorized external OAuth clients and allows administrators to manage them.",
     "article": {

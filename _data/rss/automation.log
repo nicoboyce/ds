@@ -5621,3 +5621,149 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-09-01 09:00:31,594 - INFO - === GIT COMMIT & PUSH ===
 2025-09-01 09:00:31,595 - INFO - Running: Adding changes to git
+2025-09-01 09:00:33,096 - INFO - Running: Committing changes
+2025-09-01 09:00:34,124 - INFO - Output: [master 983251e] Daily RSS update - 01/09/2025 09:00
+ 14 files changed, 2328 insertions(+), 756 deletions(-)
+ create mode 100644 _site/news-2025-09-01/index.html
+ create mode 100644 news-2025-09-01.md
+2025-09-01 09:00:34,125 - INFO - Running: Pushing to GitHub
+2025-09-01 09:00:36,549 - INFO - ✅ SUCCESS: Git Commit & Push
+2025-09-01 09:00:36,550 - INFO - Pipeline completed successfully!
+2025-09-01 09:00:36,550 - INFO - === COMPLETION STATS ===
+2025-09-01 09:00:36,551 - INFO - Total articles processed: 168
+2025-09-01 09:00:36,551 - INFO - Today's articles: 0
+2025-09-01 09:00:36,551 - INFO - This week's articles: 10
+2025-09-01 09:00:36,551 - INFO - Feeds processed: 10
+2025-09-01 09:00:36,552 - INFO - Site updated: 01/09/2025 09:00
+2025-09-01 22:57:58,907 - INFO - Working in: /home/nico/ds
+2025-09-01 22:57:58,908 - INFO - Starting daily RSS automation pipeline
+2025-09-01 22:57:58,908 - INFO - Timestamp: 2025-09-01T22:57:58.908766
+2025-09-01 22:57:58,909 - INFO - 
+--- Starting: Git Pull ---
+2025-09-01 22:57:58,909 - INFO - === GIT PULL ===
+2025-09-01 22:57:58,910 - INFO - Running: Pulling latest changes
+2025-09-01 22:58:03,814 - INFO - Output: Updating 983251e..c0bafeb
+Fast-forward
+ CLAUDE.md                                     |   5 +
+ _data/sitetext.yml                            |   7 +-
+ _site/assets/img/ds-icon-square.svg           |  21 +
+ _site/assets/img/team/nicobboyce-flipped.jpeg | Bin 0 -> 888903 bytes
+ _site/assets/js/signature-copy.js             |  62 +++
+ _site/assets/js/signature-generator.js        | 149 ++++++++
+ _site/feed.xml                                |   4 +-
+ _site/nico-signature-final.html               |  70 ++++
+ _site/signatures/nico/index.html              |  75 ++++
+ _site/signatures/rosie/index.html             |  75 ++++
+ _site/signatures/team/index.html              | 529 ++++++++++++++++++++++++++
+ _site/sitemap.xml                             |  70 ++--
+ assets/img/ds-icon-square.svg                 |  21 +
+ assets/img/team/nicobboyce-flipped.jpeg       | Bin 0 -> 888903 bytes
+ assets/js/signature-copy.js                   |  62 +++
+ assets/js/signature-generator.js              | 142 +++++++
+ nico-signature-final.html                     |  70 ++++
+ signatures/nico.html                          |  79 ++++
+ signatures/rosie.html                         |  79 ++++
+ signatures/team.html                          |  90 +++++
+ sitemap.xml                                   |   2 +-
+ 21 files changed, 1580 insertions(+), 32 deletions(-)
+ create mode 100644 _site/assets/img/ds-icon-square.svg
+ create mode 100644 _site/assets/img/team/nicobboyce-flipped.jpeg
+ create mode 100644 _site/assets/js/signature-copy.js
+ create mode 100644 _site/assets/js/signature-generator.js
+ create mode 100644 _site/nico-signature-final.html
+ create mode 100644 _site/signatures/nico/index.html
+ create mode 100644 _site/signatures/rosie/index.html
+ create mode 100644 _site/signatures/team/index.html
+ create mode 100644 assets/img/ds-icon-square.svg
+ create mode 100644 assets/img/team/nicobboyce-flipped.jpeg
+ create mode 100644 assets/js/signature-copy.js
+ create mode 100644 assets/js/signature-generator.js
+ create mode 100644 nico-signature-final.html
+ create mode 100644 signatures/nico.html
+ create mode 100644 signatures/rosie.html
+ create mode 100644 signatures/team.html
+2025-09-01 22:58:03,814 - INFO - ✅ SUCCESS: Git Pull
+2025-09-01 22:58:03,815 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-09-01 22:58:03,815 - INFO - === RSS INGESTION ===
+2025-09-01 22:58:03,816 - INFO - Running: Ingesting RSS feeds
+2025-09-01 22:58:15,617 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 0 raw items in feed
+  Found 0 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+
+Ingestion complete:
+  Total articles: 168
+  Latest (48h): 2
+  This week (3-7d): 9
+  This month (8-35d): 41
+  Data saved to: _data/rss
+SUCCESS: Found 168 articles (Latest: 2, Week: 9, Month: 41)
+2025-09-01 22:58:15,617 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-09-01 22:58:15,618 - INFO - 
+--- Starting: Claude Summaries ---
+2025-09-01 22:58:15,618 - INFO - === CLAUDE SUMMARIES ===
+2025-09-01 22:58:15,618 - INFO - Running: Generating Claude summaries
+2025-09-01 22:58:18,733 - INFO - Output: Generating narrative analysis for 29 recent articles...
+Calling Claude API...
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+2025-09-01 22:58:18,734 - INFO - ✅ SUCCESS: Claude Summaries
+2025-09-01 22:58:18,734 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-09-01 22:58:18,734 - INFO - === GENERATE RSS PAGE ===
+2025-09-01 22:58:18,735 - INFO - Running: Generating RSS feeds page
+2025-09-01 22:58:28,186 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-09-01.md
+News page updated: news.md
+  Latest (48h): 2 articles
+  This week (3-7d): 9 articles
+  This month (8-35d): 41 articles
+2025-09-01 22:58:28,187 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-09-01 22:58:28,187 - INFO - 
+--- Starting: Jekyll Build ---
+2025-09-01 22:58:28,187 - INFO - === JEKYLL BUILD ===
+2025-09-01 22:58:28,187 - INFO - Attempting Jekyll build...
+2025-09-01 22:58:28,188 - INFO - Running: Building Jekyll site
+2025-09-01 22:58:42,399 - INFO - Output: Configuration file: /home/nico/ds/_config.yml
+            Source: /home/nico/ds
+       Destination: /home/nico/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 3.363 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-09-01 22:58:42,400 - INFO - ✅ SUCCESS: Jekyll Build
+2025-09-01 22:58:42,400 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-09-01 22:58:42,401 - INFO - === GIT COMMIT & PUSH ===
+2025-09-01 22:58:42,401 - INFO - Running: Adding changes to git
