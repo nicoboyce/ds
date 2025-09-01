@@ -446,16 +446,14 @@ Be direct and analytical, not promotional."""
             print("Falling back to truncated RSS description")
             full_content = release_notes.get('description', '')[:3000]
         
-        prompt = f"""Summarise the key changes from this Zendesk release in 2-3 factual sentences. Report what changed, not what people should do about it.
+        prompt = f"""Summarise what changed in this release using natural, flowing language. Write 2-3 sentences that capture the key changes without starting each sentence with "Zendesk" or using numbered lists. Include specific dates and numbers where mentioned.
 
 Release: {title}
 
 Content:
 {full_content}
 
-Cover the main changes to Admin Center, security, APIs, and core functionality. Include specific dates, numbers, and rollout phases where mentioned. Skip marketplace apps and marketing content.
-
-Write concisely - administrators want facts, not explanations."""
+Write naturally and concisely - the context is already Zendesk so avoid redundant company references."""
         
         try:
             # Use requests library for API call

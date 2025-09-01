@@ -7,7 +7,7 @@
   "release_notes": {
     "summary": "1. Zendesk introduced a new \"External OAuth clients\" page in Admin Center to display apps and integrations using external OAuth authentication.\n2. Zendesk proactively turned off and removed password access for API authentication for accounts with no usage in the past 90 days, and these accounts were automatically enrolled in two-step verification.\n3. Zendesk completed the second phase of the two-step verification rollout on August 28 and will begin the third and final phase in October.",
     "article": {
-      "id": "4bd7890db3d7",
+      "id": "natural-language-test",
       "title": "Release notes through 2025-08-29",
       "link": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
       "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAdmin Center\nCopilot\nApp Marketplace\nProducts with no updates this week\n\nAdmin Center\nNew:\n\nWe've introduced a new page called External OAuth clients in Admin Center. This page displays a list of ...",
