@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 20 hours ago
+                        <i class="far fa-clock"></i> yesterday
                     </small>
                 </div>
             </div>
@@ -101,7 +101,9 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The past three weeks have seen a flurry of activity in the Zendesk ecosystem, with the company pushing hard on AI-powered features while also grappling with a series of service incidents and stability issues. The announcement of new Copilot recommendation types and the upcoming Zendesk AI Summit suggest a strong focus on integrating artificial intelligence into the platform, even as customers have experienced problems with AI agent delays, workflow disruptions, and account integration issues. Amidst this, Zendesk has also made moves to deprecate wrappers for the Sunshine Conversations API and transition user and license management to the Admin Center, signaling broader platform changes that may impact Zendesk professionals. The juxtaposition of innovation and instability underscores the challenges Zendesk faces in delivering a seamless customer experience as it navigates the evolving landscape of AI-powered contact centers.</p>
+            <p>Over the past three weeks, Zendesk's ecosystem has been marked by a combination of new feature announcements and ongoing service incidents, reflecting the company's push towards AI-powered customer experience while grappling with stability challenges.</p>
+            <p>The launch of enhanced Copilot recommendation types and API support for WhatsApp Flows, alongside the upcoming Zendesk AI Summit, indicate Zendesk's strategic focus on integrating AI capabilities into its platform. However, this focus appears to be accompanied by a series of service incidents, including issues with QA access, ticket processing, and workflow disruptions, suggesting the company is navigating the complexities of rolling out new technologies while maintaining platform stability.</p>
+            <p>These developments present both opportunities and challenges for Zendesk professionals, who must navigate the rapidly evolving AI-driven landscape while ensuring their customers continue to receive reliable and seamless support. As Zendesk navigates this transition, they will need to balance innovation with operational excellence to meet the evolving needs of their user base.</p>
         </div>
     </div>
     
@@ -131,7 +133,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 days ago
+                        <i class="far fa-clock"></i> 5 days ago
                     </small>
                 </div>
             </div>
@@ -173,7 +175,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 days ago
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        </div>
     </div>
@@ -254,7 +256,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -361,7 +363,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
