@@ -18,3 +18,14 @@ We don’t always get things right, and neither do you. Being perfect isn’t th
 I think a healthy way to live is to give yourself permission to get sidetracked. Get the job done, but on each item build in the scope to get really deep into a niche aspect. When I do this, something good usually emerges.
 
 Even if there's no immediate reward, just knowing more 
+
+## Notes
+- Thank Thomas at Internal Note for mention in September 2025 roundup: https://internalnote.com/zendesk-news-roundup-for-september-2025/
+- Moral Support newsletter (~6 months running)
+
+### Sidetracked section expansion:
+- Google's 20% time -> Gmail, AdSense
+- Need buffers for deep investigations
+- Examples:
+  - Deltastring logos: handmade SVGs (XML-based format, can use inline, JavaScript, standard XML features)
+  - Gradients testing: https://deltastring.com/gradients/ (used on /news/ page)
