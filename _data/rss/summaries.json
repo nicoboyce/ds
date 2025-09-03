@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of activity in the past three weeks, marked by a push towards AI-powered features and solutions, but also grappling with stability challenges and vulnerabilities. While Zendesk is announcing new AI-driven capabilities through Copilot and integrations with partners like TTEC, it is also dealing with service incidents, including assignment issues, performance degradation, and account integration problems. Amidst these developments, Zendesk professionals must navigate a complex landscape, balancing the promise of AI-enhanced customer experience with the need for reliable and secure platform operations. The company's focus on innovation appears to be tempered by the requirement to address operational concerns and maintain the trust of its user base.",
+  "recently_narrative": "The Zendesk ecosystem has been a mix of new feature announcements and service incidents over the past three weeks. The company is clearly pushing hard on AI-powered capabilities, with updates like new Copilot recommendation types and an upcoming Zendesk AI Summit event. However, Zendesk has also been grappling with various stability issues, including access problems, performance degradation, and database maintenance. This tension between expansion and reliability could present challenges for Zendesk professionals as they navigate the evolving platform and prepare for new AI-driven features amidst ongoing service disruptions.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-03T18:00:34.809450",
+  "generated_at": "2025-09-04T00:00:17.755425",
   "release_notes": {
     "summary": "This week's release notes introduce a new page in Admin Center that displays external OAuth clients used to authenticate and connect to Zendesk accounts. As part of the ongoing removal of password access for API authentication, accounts without recent usage of this feature have had the capability proactively turned off and removed. Accounts that disable password access will now automatically be enrolled in two-step verification, with the final phase of this rollout beginning in October. Additionally, the default content for the welcome email has been updated for new accounts. The Copilot add-on has also been expanded with 15 new recommendation types.",
     "article": {
