@@ -17,7 +17,13 @@ We don’t always get things right, and neither do you. Being perfect isn’t th
 
 I think a healthy way to live is to give yourself permission to get sidetracked. Get the job done, but on each item build in the scope to get really deep into a niche aspect. When I do this, something good usually emerges.
 
-Even if there's no immediate reward, just knowing more 
+You've probably heard of the 20% time 
+
+Even if there's no immediate reward, just knowing more and documenting what you discover will always come back around and be useful. When I started designing the Deltastring logo there was an argument that it wasn't a good use of time to get into the maths and the xml. The structure of SVG files is great for building stuff on the web! You can move things around with javascript or scale it to the size of the moon. When it came to putting together ideas for the Beacon logo, it was straightforward to iterate until we had this, which I like a lot.
+
+![Beacon svg logo](https://deltastring.com/assets/img/beacon-logo.svg)
+
+
 
 ## Notes
 - Thank Thomas at Internal Note for mention in September 2025 roundup: https://internalnote.com/zendesk-news-roundup-for-september-2025/
