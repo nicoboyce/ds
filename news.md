@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 11 hours ago
                     </small>
                 </div>
             </div>
@@ -103,9 +103,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9641393017242-Announcing-the-End-User-Separation-EAP-for-department-spaces" class="text-dark" target="_blank">Announcing the End User Separation EAP for department spaces</a></h6>
-                <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 7 days ago</small>
+                <h6><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark" target="_blank">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a></h6>
+                <p class="mb-2">Critical security issue requiring immediate attention.</p>
+                <small class="text-muted">Google News - Zendesk • recently</small>
             
             </div>
         </div>
@@ -118,7 +118,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company pushing forward on AI-powered customer experience features, such as the new Copilot recommendation types and plans for the upcoming AI Summit event. However, these updates are accompanied by a concerning number of service incidents, including performance degradation, integration issues, and workflow disruptions, suggesting that Zendesk is grappling with stability challenges as it expands its product capabilities. For Zendesk professionals, this dynamic points to a need to carefully balance the adoption of new AI-driven tools with a focus on ensuring the core platform remains reliable and resilient for customers.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity over the past three weeks, with the company doubling down on its AI-driven features and capabilities while also grappling with a series of service incidents and security concerns. Alongside announcements of new AI-powered recommendation types and integration with WhatsApp Flows, Zendesk has had to address issues ranging from performance degradation and assignment delays to a concerning vulnerability that enabled unauthorized access to customer tickets. This dichotomy between innovation and stability challenges suggests that Zendesk is navigating a complex landscape, where it must balance its ambitions to deliver cutting-edge AI-driven customer experience solutions with the need to ensure the reliability and security of its core platform for Zendesk professionals and their clients.</p>
         </div>
     </div>
     
@@ -134,7 +134,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">5</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -148,10 +148,18 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 days ago
+                        <i class="far fa-clock"></i> 6 days ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP" class="text-dark">Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP</a>
@@ -167,22 +175,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 12 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge" class="text-dark">Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 19 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        </div>
     </div>
@@ -271,7 +263,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -297,6 +289,23 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 13 days ago
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJiSzVyRDNkZGJJN05nOUs0U1o3bU5SR2RwMWktd1JLVVpiQkxBbmxob2R1NUFSbXI2SEEyUXZPWjIzaThVOHM0OGFXdTZ3UWxLWEZCRlRSS0thLUN3S0JWOFlNc2ZkcldVZ00ycXJWcWpZM0UtU0d2UlRkYjVFbzI2YXMzRk9FSVV3ZDVoRjBxY1VPQ3h3?oc=5" class="text-dark">Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -333,6 +342,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMihgNBVV95cUxPRGp4OURhTmR4Nm9mZlFBdGhLS1Rqd0QyU2xiSzBFYjBVR0VwTl9MN3QzMHJSY01BTXlWbjhYazMyZThid0V1Umh2Q2ZMaTRvd2xLMGFDeFc4aGs2MW85NmdZMDdsbGs0S2VuandWUURaVzZxN09MRWJhVnpUcHhyaUd5dGNITWZwSXpaQ2U2RmFVb3BReE1QdGluYlFLS0tNZEM4cEdOZjdEVTc5Z013aUxxOENZeV9lbjlpTU11TG42QndfT0pmX1o0ZnBLd2pqV1YzTld3ellVNjc0ZmFFTTZXa0d6cERFZ29USm5WRGYxQU5tQktOZVl0dFcyT2d1VHJQeVZQcE0tZmYyNkpoWHI5Y1hzYVlOeFA4NWtDTFpRVFNBZnN3X3hsWjhzeUFyeXdDUzl0Z3dhaDJHODBHYTZaUkhGRWVOME5hY1JVNHQ2V25XMkl2WDZ2ZW45NlRZWnVVbzlWNWdrT3lfWUxzbzVoRjdjb3RweEFOM1d0RDlSZHU4Umc?oc=5" class="text-dark">TTEC, Zendesk Team Up to Deliver Full-Stack, AI-Driven Customer Experience Solutions - MSN</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://internalnote.com/value-added-conversations/" class="text-dark">Moving Toward Value-Added Conversations in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -345,15 +362,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxONGFZaDc5Ylh0cVNRbHVwdnkzQl95Y0VxaTIzcEdveHN4WWl6T2hSb1QxcVNPd25jN08tWmxxLUp1YlpBR250RTk4MHR5Y0tSZEtERzFDQ0YtTWpobUtpbGRQek5lU2xCNkdyQk9fdXZSbVY2empwbk1mVXhXdm9pWHNXNmY0enplWUZaczhwWGRpRURvMzVXNmNxTQ?oc=5" class="text-dark">Zendesk CTO on the new era of customer experience - Computer Weekly</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        </div>
     </div>
