@@ -27,9 +27,12 @@ background: grey
             <a href="https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29" class="btn btn-sm btn-outline-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> View Full Release Notes
             </a>
-            <a href="/2025-09-04-moral-support-reads-the-news/" class="btn btn-sm btn-outline-secondary ml-2">
-                <i class="fas fa-newspaper"></i> Latest Moral Support: "Moral Support reads the news" (04/09/2025)
+            {% assign latest_post = site.posts | first %}
+            {% if latest_post %}
+            <a href="{{ latest_post.url | relative_url }}" class="btn btn-sm btn-outline-secondary ml-2">
+                <i class="fas fa-newspaper"></i> Latest Moral Support: "{{ latest_post.title }}" ({{ latest_post.date | date: "%d/%m/%Y" }})
             </a>
+            {% endif %}
         </div>
     </div>
 </div>
