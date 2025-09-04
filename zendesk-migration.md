@@ -44,6 +44,12 @@ Our migration expertise has helped companies like **Depop**, **Hofy**, and **IVC
 
 Most enterprise migrations complete within **2-4 weeks**, depending on data complexity and integration requirements.
 
+### Salesforce Service Cloud to Zendesk Migration
+
+Moving from Salesforce Service Cloud to Zendesk? Watch our comprehensive guide covering the key steps to avoid common migration pitfalls:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ETlLIyQ42iY?si=migration123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Ready to Migrate to Zendesk?
 
 Don't let migration complexity delay your customer experience improvements. Our experts handle the technical challenges while you focus on your business.

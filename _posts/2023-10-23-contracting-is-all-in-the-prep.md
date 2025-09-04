@@ -107,4 +107,4 @@ Avoid being in a similar situation by ensuring all of your devices are USB-C com
 
 I did a video with more tips for tech contractors. Check it out!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w7o5uYSLqBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w7o5uYSLqBo?si=obK5M9ypZZusVhDC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

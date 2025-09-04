@@ -20,6 +20,12 @@ Transform your Zendesk instance from basic ticketing to a **high-performance cus
 - **App Integration** - Essential tools accessible within Zendesk
 - **Keyboard Shortcuts** - Speed up common agent actions
 
+### Zendesk Macros: Are You Using Them Wrong?
+
+Most teams aren't getting the full potential from their Zendesk macros. Watch our expert guide on macro optimization to transform your agent productivity:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qR-0o7HZAsY?si=macros123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### **Performance Metrics Improvement**
 - **Response Time Reduction** - Target 40-60% improvement
 - **Resolution Rate Increase** - Higher first-contact resolution

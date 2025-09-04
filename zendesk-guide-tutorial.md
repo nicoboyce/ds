@@ -29,6 +29,12 @@ Create a **professional knowledge base** that reduces support tickets by 40% and
 
 ### Complete Zendesk Guide Setup Tutorial
 
+#### **Zendesk 101: Design Efficient Support Processes**
+
+Before diving into Guide setup, understand the fundamentals of designing efficient support processes that your knowledge base will support:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d3QzjCzaWOA?si=zendesk101" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### **Phase 1: Foundation Setup (Week 1)**
 
 **1. Guide Activation & Configuration**
