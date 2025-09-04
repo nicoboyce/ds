@@ -5,8 +5,8 @@
     <description>Expert Zendesk migrations, automations, integrations, applications. Streamline your customer experience with boutique Zendesk agency services from Southampton, UK.</description>
     <link>https://deltastring.com/</link>
     <atom:link href="https://deltastring.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Sep 2025 14:05:22 +0100</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2025 14:05:22 +0100</lastBuildDate>
+    <pubDate>Thu, 04 Sep 2025 14:06:57 +0100</pubDate>
+    <lastBuildDate>Thu, 04 Sep 2025 14:06:57 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -35,7 +35,11 @@
 
 &lt;p&gt;RSS (and I’m including Atom and other syndication formats) is a broad and vague specification. I can’t go to other websites and tell them they need to change the way they build their feed. I did have a chat with one source when we did identify an issue but we needed a robust and consistent way of parsing feeds.&lt;/p&gt;
 
-&lt;p&gt;Plenty of places don’t even do RSS now so alternative methods are needed. I’m pretty handy with Python library BeautifulSoup. If you’re curious about scraping, start with &lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff&lt;/a&gt;. The problem is it ends up being very individual for each source. There’s another batch of sources on the way but we’re talking to the publishers where we can and trying to do things properly first time.&lt;/p&gt;
+&lt;p&gt;Plenty of places don’t even do RSS now so alternative methods are needed. I’m pretty handy with Python library BeautifulSoup. If you’re curious about scraping, start with &lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/cover-automate3.webp&quot; alt=&quot;Automate the Boring Stuff&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem is it ends up being very individual for each source. There’s another batch of sources on the way but we’re talking to the publishers where we can and trying to do things properly first time.&lt;/p&gt;
 
 &lt;p&gt;When there’s a big story, every website in the industry reproduces the news with little variation. It’s 2025, there’s a lot of ChatGPT regurgitation. Before adding the system to group and combine and summarise stories then the whole page would be one long list of every website publishing the same item. This is no use to anyone! One of those cases where LLMs caused the problem but provided the solution.&lt;/p&gt;
 

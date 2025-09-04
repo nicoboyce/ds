@@ -27,7 +27,11 @@ I was a big user of RSS before social media made these feeds less common. Sites 
 
 RSS (and I'm including Atom and other syndication formats) is a broad and vague specification. I can't go to other websites and tell them they need to change the way they build their feed. I did have a chat with one source when we did identify an issue but we needed a robust and consistent way of parsing feeds.
 
-Plenty of places don't even do RSS now so alternative methods are needed. I'm pretty handy with Python library BeautifulSoup. If you're curious about scraping, start with [Automate the Boring Stuff](https://automatetheboringstuff.com/). The problem is it ends up being very individual for each source. There's another batch of sources on the way but we're talking to the publishers where we can and trying to do things properly first time.
+Plenty of places don't even do RSS now so alternative methods are needed. I'm pretty handy with Python library BeautifulSoup. If you're curious about scraping, start with [Automate the Boring Stuff](https://automatetheboringstuff.com/).
+
+![Automate the Boring Stuff](/assets/img/cover-automate3.webp)
+
+The problem is it ends up being very individual for each source. There's another batch of sources on the way but we're talking to the publishers where we can and trying to do things properly first time.
 
 When there's a big story, every website in the industry reproduces the news with little variation. It's 2025, there's a lot of ChatGPT regurgitation. Before adding the system to group and combine and summarise stories then the whole page would be one long list of every website publishing the same item. This is no use to anyone! One of those cases where LLMs caused the problem but provided the solution.
 
