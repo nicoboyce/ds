@@ -68,3 +68,10 @@ a {
   max-width: 100%;
   height: auto;
 }
+
+// Centre image captions (em tags that follow images)
+.pagecontainer p em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
