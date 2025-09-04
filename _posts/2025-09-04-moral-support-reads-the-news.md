@@ -3,7 +3,9 @@ title: "Moral Support reads the news"
 published: true
 ---
 
+<div style="text-align: center;">
 ![Moral Support Header](/assets/img/moral-support-header.png)
+</div>
 
 ## How are you?
 
@@ -11,7 +13,7 @@ Let’s normalise just saying “How are you?” instead of “I hope you’re w
 
 At Deltastring we start from the position “Good customer service is its own reward” and then when the processes are good our clients can use the enhanced data, the released agent capacity, the fresh insights from the customers, however they see fit. “How are you?” is a part of this. Not that vague of course, but we can absolutely throw in “How are you finding the product?” type questions.
 
-Businesses worry about asking open questions, or inviting negativity. When I had restaurants, I always instructed my teams against asking closed or assumptive questions. We’re not afraid of hearing where we can do better. When someone has something to say, they are giving us the gift of an opportunity to act and improve. If they aren’t happy, thank them! I’m so grateful you shared this with us. It’s only through the honesty that we can continue to improve.
+Businesses worry about asking open questions, or inviting negativity. When I had restaurants, I always instructed my teams against asking closed or assumptive questions. We’re not afraid of hearing where we can do better. When someone has something to say, they are giving us the gift of an opportunity to act and improve. If they aren’t happy, thank them! I’m so grateful you shared this with us. It’s only through the honesty that we can continue to improve. Moral Support is here for this!
 
 We don’t always get things right, and neither do you. Being perfect isn’t the goal. Being better tomorrow than we were yesterday, that’s what today is about. So how are you?
 
@@ -32,7 +34,7 @@ RSS (and I'm including Atom and other syndication formats) is a broad and vague 
 Plenty of places don't even do RSS now so alternative methods are needed. I'm pretty handy with Python library BeautifulSoup. If you're curious about scraping, start with [Automate the Boring Stuff](https://automatetheboringstuff.com/).
 
 <div style="text-align: center;">
-<img src="/assets/img/cover-automate3.webp" alt="Automate the Boring Stuff" />
+![Automate the Boring Stuff](/assets/img/cover-automate3.webp)
 </div>
 
 The problem is it ends up being very individual for each source. There's another batch of sources on the way but we're talking to the publishers where we can and trying to do things properly first time.

@@ -15,7 +15,9 @@ These AI system vendors all said "You're probably worrying that we're going to r
 
 Think of it like your local supermarket. Mine is now full of these wretched self-service machines, with one or two people hanging around to make sure nothing goes wrong. What happened to the friendly checkout lad with the cappuccino-stain moustache? Who knows. But who will tell me where to find the eggs?
 
+<div style="text-align: center;">
 ![My old Blackberry.](/public/img/work.jpg)
+</div>
 *I am no Luddite but I have to admit I still miss this thing.*
 
 Of course, if AI is going to help you reduce your workforce, it's the entry level jobs you're canning. Entry level barely exists now. I have no idea how you start a career in 2024. Where do you get your future leaders from if you're no longer recruiting young people entering the workforce? When the foundations are eroded, the house collapses. Management itself presumably becomes entry-level and everyone has a team of robots, not people.
@@ -34,7 +36,9 @@ Did you know that the water companies in the UK use dowsing to try and detect le
 
 These models essentially ingest all the content their designers can steal. They consume thoughts and ideas and excrete a bizarre parody of reasoning. Be prepared to talk them through [the simplest of queries](https://xeiaso.net/blog/2024/strawberry/) and definitely don't let them talk directly to your customers.
 
+<div style="text-align: center;">
 ![A Chevy for a dollar.](/public/img/chevy.jpg)
+</div>
 *A Chevy for a dollar. Bargain.*
 
 Ultimately these models generate what they think a person would write under the circumstances (or an actor would voice) and the end result is something akin to when you copied your friend's homework. It doesn't take much investigation before it comes back covered in red ink.

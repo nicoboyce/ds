@@ -5,13 +5,15 @@
     <description>Expert Zendesk migrations, automations, integrations, applications. Streamline your customer experience with boutique Zendesk agency services from Southampton, UK.</description>
     <link>https://deltastring.com/</link>
     <atom:link href="https://deltastring.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Sep 2025 19:43:02 +0100</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2025 19:43:02 +0100</lastBuildDate>
+    <pubDate>Thu, 04 Sep 2025 21:18:26 +0100</pubDate>
+    <lastBuildDate>Thu, 04 Sep 2025 21:18:26 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
         <title>Moral Support reads the news</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/moral-support-header.png&quot; alt=&quot;Moral Support Header&quot; /&gt;&lt;/p&gt;
+        <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+![Moral Support Header](/assets/img/moral-support-header.png)
+&lt;/div&gt;
 
 &lt;h2 id=&quot;how-are-you&quot;&gt;How are you?&lt;/h2&gt;
 
@@ -19,7 +21,7 @@
 
 &lt;p&gt;At Deltastring we start from the position “Good customer service is its own reward” and then when the processes are good our clients can use the enhanced data, the released agent capacity, the fresh insights from the customers, however they see fit. “How are you?” is a part of this. Not that vague of course, but we can absolutely throw in “How are you finding the product?” type questions.&lt;/p&gt;
 
-&lt;p&gt;Businesses worry about asking open questions, or inviting negativity. When I had restaurants, I always instructed my teams against asking closed or assumptive questions. We’re not afraid of hearing where we can do better. When someone has something to say, they are giving us the gift of an opportunity to act and improve. If they aren’t happy, thank them! I’m so grateful you shared this with us. It’s only through the honesty that we can continue to improve.&lt;/p&gt;
+&lt;p&gt;Businesses worry about asking open questions, or inviting negativity. When I had restaurants, I always instructed my teams against asking closed or assumptive questions. We’re not afraid of hearing where we can do better. When someone has something to say, they are giving us the gift of an opportunity to act and improve. If they aren’t happy, thank them! I’m so grateful you shared this with us. It’s only through the honesty that we can continue to improve. Moral Support is here for this!&lt;/p&gt;
 
 &lt;p&gt;We don’t always get things right, and neither do you. Being perfect isn’t the goal. Being better tomorrow than we were yesterday, that’s what today is about. So how are you?&lt;/p&gt;
 
@@ -40,7 +42,7 @@
 &lt;p&gt;Plenty of places don’t even do RSS now so alternative methods are needed. I’m pretty handy with Python library BeautifulSoup. If you’re curious about scraping, start with &lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-&lt;img src=&quot;/assets/img/cover-automate3.webp&quot; alt=&quot;Automate the Boring Stuff&quot; /&gt;
+![Automate the Boring Stuff](/assets/img/cover-automate3.webp)
 &lt;/div&gt;
 
 &lt;p&gt;The problem is it ends up being very individual for each source. There’s another batch of sources on the way but we’re talking to the publishers where we can and trying to do things properly first time.&lt;/p&gt;
@@ -77,8 +79,9 @@
 
 &lt;p&gt;Think of it like your local supermarket. Mine is now full of these wretched self-service machines, with one or two people hanging around to make sure nothing goes wrong. What happened to the friendly checkout lad with the cappuccino-stain moustache? Who knows. But who will tell me where to find the eggs?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/work.jpg&quot; alt=&quot;My old Blackberry.&quot; /&gt;
-&lt;em&gt;I am no Luddite but I have to admit I still miss this thing.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/work.jpg&quot; alt=&quot;My old Blackberry.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I am no Luddite but I have to admit I still miss this thing.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, if AI is going to help you reduce your workforce, it’s the entry level jobs you’re canning. Entry level barely exists now. I have no idea how you start a career in 2024. Where do you get your future leaders from if you’re no longer recruiting young people entering the workforce? When the foundations are eroded, the house collapses. Management itself presumably becomes entry-level and everyone has a team of robots, not people.&lt;/p&gt;
 
@@ -96,8 +99,9 @@
 
 &lt;p&gt;These models essentially ingest all the content their designers can steal. They consume thoughts and ideas and excrete a bizarre parody of reasoning. Be prepared to talk them through &lt;a href=&quot;https://xeiaso.net/blog/2024/strawberry/&quot;&gt;the simplest of queries&lt;/a&gt; and definitely don’t let them talk directly to your customers.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/chevy.jpg&quot; alt=&quot;A Chevy for a dollar.&quot; /&gt;
-&lt;em&gt;A Chevy for a dollar. Bargain.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/img/chevy.jpg&quot; alt=&quot;A Chevy for a dollar.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A Chevy for a dollar. Bargain.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Ultimately these models generate what they think a person would write under the circumstances (or an actor would voice) and the end result is something akin to when you copied your friend’s homework. It doesn’t take much investigation before it comes back covered in red ink.&lt;/p&gt;
 
@@ -135,8 +139,10 @@
 
 &lt;p&gt;The biggest issue I come across, working with clients of varying scales and across multiple sectors, is where users bring solutions rather than problems. “We need a macro to say X and apply tag Y” is a solution but the person making the request doesn’t see the big picture and may not know about all the available functionality. Let your Zendesk admin know what you’re looking to achieve and they will work with you to get it done.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/zendesk-ticket-lifecycle.jpeg&quot; alt=&quot;The Zendesk ticket lifecycle.&quot; /&gt;
-&lt;em&gt;The Zendesk ticket lifecycle.&lt;/em&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+![The Zendesk ticket lifecycle.](/public/img/zendesk-ticket-lifecycle.jpeg)
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;The Zendesk ticket lifecycle.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I think it is the same with Marques Brownlee. He sees problems, but I don’t feel like he is someone I would go to for solutions. You see that in the way he has struggled to monetise his audience. There is a sense that he and his team are just going to try stuff until something works. You can’t do that in CX. People will go elsewhere.&lt;/p&gt;
 
@@ -156,8 +162,10 @@
 
 &lt;p&gt;That said, I did move my home office around and take a quick ugly snap at the weekend. What do you think?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/desk.jpeg&quot; alt=&quot;Nico&apos;s desk.&quot; /&gt;
-&lt;em&gt;Nico’s desk in his home office and studio space.&lt;/em&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+![Nico&apos;s desk.](/public/img/desk.jpeg)
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Nico’s desk in his home office and studio space.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Sep 2024 00:00:00 +0100</pubDate>
         <link>https://deltastring.com/2024/09/25/mkbhd-zendesk-needs-a-marques-brownlee/</link>
@@ -183,8 +191,10 @@
 
 &lt;p&gt;You need two laptops. Yes you do. They must both be laptops, because you may need to be on site with either or both. You need two because it’s not worth losing a day’s pay or more because your one and only laptop needs fixing.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/work-day.jpg&quot; alt=&quot;Nico heading to work. Bad sunglasses: optional.&quot; /&gt;
-&lt;em&gt;Nico heads to work. Bad sunglasses: optional.&lt;/em&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+![Nico heading to work. Bad sunglasses: optional.](/public/img/work-day.jpg)
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Nico heads to work. Bad sunglasses: optional.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;You should probably have both a MacOS and a Windows laptop. There will be occasions where (whatever it is you’re working on) you need to prove it works on the other main desktop OS. You likely already have a preference between the two options, which means your preference should be your primary device and the other should be your backup device.&lt;/p&gt;
 
