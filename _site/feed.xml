@@ -5,13 +5,15 @@
     <description>Expert Zendesk migrations, automations, integrations, applications. Streamline your customer experience with boutique Zendesk agency services from Southampton, UK.</description>
     <link>https://deltastring.com/</link>
     <atom:link href="https://deltastring.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Sep 2025 14:16:33 +0100</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2025 14:16:33 +0100</lastBuildDate>
+    <pubDate>Thu, 04 Sep 2025 14:57:19 +0100</pubDate>
+    <lastBuildDate>Thu, 04 Sep 2025 14:57:19 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
         <title>Moral Support reads the news</title>
-        <description>&lt;h2 id=&quot;how-are-you&quot;&gt;How are you?&lt;/h2&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/moral-support-header.png&quot; alt=&quot;Moral Support Header&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-are-you&quot;&gt;How are you?&lt;/h2&gt;
 
 &lt;p&gt;Let’s normalise just saying “How are you?” instead of “I hope you’re well” which really means “Don’t you tell me about your problems” doesn’t it?&lt;/p&gt;
 
@@ -37,7 +39,9 @@
 
 &lt;p&gt;Plenty of places don’t even do RSS now so alternative methods are needed. I’m pretty handy with Python library BeautifulSoup. If you’re curious about scraping, start with &lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/cover-automate3.webp&quot; alt=&quot;Automate the Boring Stuff&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+![Automate the Boring Stuff](/assets/img/cover-automate3.webp)
+&lt;/div&gt;
 
 &lt;p&gt;The problem is it ends up being very individual for each source. There’s another batch of sources on the way but we’re talking to the publishers where we can and trying to do things properly first time.&lt;/p&gt;
 

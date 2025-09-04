@@ -3,6 +3,8 @@ title: "Moral Support reads the news"
 published: true
 ---
 
+![Moral Support Header](/assets/img/moral-support-header.png)
+
 ## How are you?
 
 Let’s normalise just saying “How are you?” instead of “I hope you’re well” which really means “Don’t you tell me about your problems” doesn’t it?
@@ -29,7 +31,9 @@ RSS (and I'm including Atom and other syndication formats) is a broad and vague 
 
 Plenty of places don't even do RSS now so alternative methods are needed. I'm pretty handy with Python library BeautifulSoup. If you're curious about scraping, start with [Automate the Boring Stuff](https://automatetheboringstuff.com/).
 
+<div style="text-align: center;">
 ![Automate the Boring Stuff](/assets/img/cover-automate3.webp)
+</div>
 
 The problem is it ends up being very individual for each source. There's another batch of sources on the way but we're talking to the publishers where we can and trying to do things properly first time.
 
