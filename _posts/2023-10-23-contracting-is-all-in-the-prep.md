@@ -102,3 +102,5 @@ Keep your devices charged and packed when not in use. Sometimes I'll need to get
 That colleague I mentioned at the start? It wasn't even her fault. Someone grabbed her laptop charger on the way out of a meeting, presumably assuming it was theirs. Because she couldn't charge that device, she had to get a loaner and then set it up with the software she needed. So much time wasted, so unprofessional.
 
 Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is mine" and carry a spare of anything mission-critical. Avoid the risk of losing time, money, and reputation by staying prepared.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w7o5uYSLqBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
