@@ -59,3 +59,12 @@ a {
 .text-muted {
   color: #5a6169 !important;
 }
+
+// Centre all images in blog posts
+.pagecontainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
