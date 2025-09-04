@@ -45,4 +45,6 @@ Traffic is very healthy but I wouldn't be worried if it was only us checking the
 
 People are very open to these sorts of ideas in the Zendesk ecosystem. Honestly it has been said that Zendesk Inc are not the best stewards of the community around the product but ultimately the reason we all do Zendesk is because we want to provide great support. That support can be for each other too!
 
-I like to surround myself with people who think the same way, we're talking the Kilted Consultant Jason McDonald, Ultimate specialist Jake Samson, people who solve their own problems and this gives them great capability to service their clients.
+I like to surround myself with people who think the same way, we're talking the Kilted Consultant Jason McDonald, Ultimate specialist Jake Samson, Zendesk engineering guru Anthony Stenhouse, people who solve their own problems and this gives them great capability to service their clients.
+
+![Zendeskers](/assets/img/zendeskers.jpeg)
