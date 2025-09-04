@@ -690,7 +690,7 @@ a {
   height: auto;
 }
 
-.pagecontainer p em {
+.pagecontainer img + em {
   display: block;
   text-align: center;
   font-style: italic;

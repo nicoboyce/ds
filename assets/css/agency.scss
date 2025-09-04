@@ -70,7 +70,7 @@ a {
 }
 
 // Centre image captions (em tags that follow images)
-.pagecontainer p em {
+.pagecontainer img + em {
   display: block;
   text-align: center;
   font-style: italic;
