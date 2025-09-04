@@ -4,9 +4,9 @@ title: "Moral Support (Atkins edition)"
 published: true
 ---
 
-Hello! We're keeping it lightweight today. I don't think I've ever had a busier fortnight than between the last Moral Support and now as I sit down to write this in the new house, in between calls on new projects. At least the weather has improved and I haven't needed the Zendesk umbrella so much.
+Hello! We're keeping it lightweight today. I don't think I've ever had a busier fortnight than between the last Moral Support and now as I sit down to write this in the new house, in between calls on new projects. At least the weather has improved and I haven't needed the [Zendesk umbrella](https://www.linkedin.com/company/zendesk/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BcMaA5lYTQMCrsAF0gkH%2BvQ%3D%3D) so much.
 
-Thanks to everyone I've had a call with over the last week or so for making the same "I see you unpacked the important things" joke seeing the rack of guitars in frame. You should check out the new album! You can't be all work and no play, so yes, the laptops and the guitars moved first.
+Thanks to everyone I've had a call with over the last week or so for making the same "I see you unpacked the important things" joke seeing the rack of guitars in frame. You should check out [the new album](https://nicoboyce.com/2025/04/22/releasing-music-for-drecks/)! You can't be all work and no play, so yes, the laptops and the guitars moved first.
 
 Anyway, back to business.
 
@@ -50,6 +50,6 @@ My fellow founder Rosie Elliott-Welch is stepping away from the day-to-day contr
 
 This change reflects the shift in emphasis from being a provider of technical consulting services to being a business with an offering including these services but also providing products and tools and potentially managed services and outsourced processes.
 
-Now I've got my office mostly reassembled watch this space for more news on Beacon, the Deltastring tool for Zendesk configuration management.
+Now I've got my office mostly reassembled watch this space for more news on [Beacon, the Deltastring tool for Zendesk configuration management](https://www.youtube.com/watch?v=d3QzjCzaWOA).
 
 Have a great week, may all your CSATs be positive!
