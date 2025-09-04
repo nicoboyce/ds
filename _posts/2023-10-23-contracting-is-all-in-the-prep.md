@@ -103,4 +103,8 @@ That colleague I mentioned at the start? It wasn't even her fault. Someone grabb
 
 Avoid being in a similar situation by ensuring all of your devices are USB-C compatible for charging. Label all of your items so you can quickly point out "No, that one is mine" and carry a spare of anything mission-critical. Avoid the risk of losing time, money, and reputation by staying prepared.
 
+### More tech contractor tips
+
+I did a video with more tips for tech contractors. Check it out!
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w7o5uYSLqBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
