@@ -16,9 +16,7 @@ The same is definitely true of your users, both the agents and the end users the
 
 The biggest issue I come across, working with clients of varying scales and across multiple sectors, is where users bring solutions rather than problems. "We need a macro to say X and apply tag Y" is a solution but the person making the request doesn't see the big picture and may not know about all the available functionality. Let your Zendesk admin know what you're looking to achieve and they will work with you to get it done.
 
-<div style="text-align: center;">
 ![The Zendesk ticket lifecycle.](/public/img/zendesk-ticket-lifecycle.jpeg)
-</div>
 *The Zendesk ticket lifecycle.*
 
 I think it is the same with Marques Brownlee. He sees problems, but I don't feel like he is someone I would go to for solutions. You see that in the way he has struggled to monetise his audience. There is a sense that he and his team are just going to try stuff until something works. You can't do that in CX. People will go elsewhere.
@@ -39,7 +37,5 @@ That's not to say there's no space for finding the joy in tech, but these things
 
 That said, I did move my home office around and take a quick ugly snap at the weekend. What do you think?
 
-<div style="text-align: center;">
 ![Nico's desk.](/public/img/desk.jpeg)
-</div>
 *Nico's desk in his home office and studio space.*
