@@ -25,6 +25,8 @@ en: &DEFAULT_EN
       url: "https://deltastring.com/#team"
     - title: "FAQs"
       url: "https://deltastring.com/faqs"
+    - title: "Zendesk News"
+      url: "/news"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
