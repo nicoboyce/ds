@@ -682,7 +682,7 @@ a {
   color: #5a6169 !important;
 }
 
-.pagecontainer img {
+.pagecontainer img:not([style*="width: 16px"]) {
   display: block;
   margin-left: auto;
   margin-right: auto;
