@@ -49,6 +49,12 @@ Transform your customer service commitments into measurable results with **exper
 
 ### SLA Performance Optimization
 
+#### **Zendesk SLAs Not Working? Listen to Your Customers**
+
+Having trouble with your SLA performance? Your CSAT responses might hold the key to optimizing your SLAs to match customer expectations:
+
+<!-- SLA video embed pending - need video ID from "#Zendesk SLAs not working? Try this and hear what your customers are trying to tell you!" -->
+
 #### **Proactive Breach Prevention**
 - **Early Warning Systems** - Alerts before SLA breach
 - **Escalation Automation** - Supervisor notifications

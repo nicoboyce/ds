@@ -17,3 +17,7 @@ CRITICAL_COMMIT_ISSUES.md
 
 # Test files
 test_*.py
+
+# Content drafts
+trigger-warning 2.txt
+trigger-warning/
