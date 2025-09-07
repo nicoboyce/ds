@@ -7598,3 +7598,68 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-09-04 12:00:39,249 - INFO - === GIT COMMIT & PUSH ===
 2025-09-04 12:00:39,249 - INFO - Running: Adding changes to git
+2025-09-07 15:34:28,670 - INFO - Working in: /home/nico/ds
+2025-09-07 15:34:28,673 - INFO - Starting daily RSS automation pipeline
+2025-09-07 15:34:28,675 - INFO - Timestamp: 2025-09-07T15:34:28.675091
+2025-09-07 15:34:28,676 - INFO - 
+--- Starting: Git Pull ---
+2025-09-07 15:34:28,677 - INFO - === GIT PULL ===
+2025-09-07 15:34:28,678 - INFO - Running: Pulling latest changes
+2025-09-07 15:34:30,550 - INFO - Output: Already up to date.
+2025-09-07 15:34:30,552 - INFO - ✅ SUCCESS: Git Pull
+2025-09-07 15:34:30,553 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-09-07 15:34:30,564 - INFO - === RSS INGESTION ===
+2025-09-07 15:34:30,567 - INFO - Running: Ingesting RSS feeds
+2025-09-07 15:34:51,364 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 7 raw items in feed
+  Found 7 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+  WARNING: Could not parse date 'Wed, 25 Sep 2024 00:00:00 +0100' for article 'The Zendesk world needs a Marques Brownlee...'
+  WARNING: Could not parse date 'Wed, 04 Jun 2025 00:00:00 +0100' for article 'Moral Support, the flip-flops edition...'
+  WARNING: Could not parse date 'Wed, 02 Jul 2025 00:00:00 +0100' for article 'Moral Support, the heatwave edition...'
+  WARNING: Could not parse date 'Thu, 19 Jun 2025 00:00:00 +0100' for article 'Moral Support (Atkins edition)...'
+  WARNING: Could not parse date 'Thu, 04 Sep 2025 00:00:00 +0100' for article 'Moral Support reads the news...'
+  WARNING: Could not parse date 'Mon, 23 Oct 2023 00:00:00 +0100' for article 'Contracting is all in the preparation...'
+  WARNING: Could not parse date 'Fri, 27 Sep 2024 00:00:00 +0100' for article 'Yes I hate AI and I'm not yet afraid to say it...'
+
+Ingestion complete:
+  Total articles: 175
+  Latest (48h): 1
+  This week (3-7d): 5
+  This month (8-35d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 175 articles (Latest: 1, Week: 5, Month: 40)
+2025-09-07 15:34:51,367 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-09-07 15:34:51,368 - INFO - 
+--- Starting: Claude Summaries ---
+2025-09-07 15:34:51,369 - INFO - === CLAUDE SUMMARIES ===
+2025-09-07 15:34:51,370 - INFO - Running: Generating Claude summaries
