@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks suggest a company in flux, balancing ambitious product enhancements with ongoing service reliability challenges. While Zendesk is pushing forward with new AI-powered features, such as expanded Copilot recommendations and WhatsApp Flow support, it has also had to address several service incidents, including performance degradation, assignment issues, and access problems in its QA environment. This tension between innovation and stability, along with news of a potential Zendesk competitor emerging, creates an uncertain environment for Zendesk professionals who must navigate both the evolving product landscape and the underlying operational complexities.",
+  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-04T12:00:20.544037",
+  "generated_at": "2025-09-07T21:51:04.377965",
   "release_notes": {
     "summary": "This week's release notes introduce a new page in Admin Center that displays external OAuth clients used to authenticate and connect to Zendesk accounts. As part of the ongoing removal of password access for API authentication, accounts without recent usage of this feature have had the capability proactively turned off and removed. Accounts that disable password access will now automatically be enrolled in two-step verification, with the final phase of this rollout beginning in October. Additionally, the default content for the welcome email has been updated for new accounts. The Copilot add-on has also been expanded with 15 new recommendation types.",
     "article": {
