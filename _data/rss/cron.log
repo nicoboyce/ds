@@ -4086,3 +4086,70 @@ News page updated: news.md
 2025-09-04 12:00:39,249 - INFO - === GIT COMMIT & PUSH ===
 2025-09-04 12:00:39,249 - INFO - Running: Adding changes to git
 === CRON TEST MARKER - Sun  7 Sep 15:38:12 BST 2025 ===
+=== CRON TEST at 22:17 - Sun  7 Sep 22:18:24 BST 2025 ===
+=== CRON TEST at 22:41 with absolute paths - Sun  7 Sep 22:39:24 BST 2025 ===
+Traceback (most recent call last):
+  File "/home/nico/ds/scripts/daily_rss_update.py", line 20, in <module>
+    logging.FileHandler('_data/rss/automation.log'),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nico/_data/rss/automation.log'
+=== CRON TEST 22:42 - Sun  7 Sep 22:45:08 BST 2025 ===
+2025-09-07 22:52:03,879 - INFO - Working in: /home/nico/ds
+2025-09-07 22:52:04,106 - INFO - Starting daily RSS automation pipeline
+2025-09-07 22:52:04,107 - INFO - Timestamp: 2025-09-07T22:52:04.107422
+2025-09-07 22:52:04,110 - INFO - 
+--- Starting: Git Pull ---
+2025-09-07 22:52:04,111 - INFO - === GIT PULL ===
+2025-09-07 22:52:04,113 - INFO - Running: Pulling latest changes
+2025-09-07 22:52:07,393 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-09-07 22:52:07,395 - ERROR - Failed command: git pull origin master
+2025-09-07 22:52:07,396 - ERROR - Standard output: Updating 7718eda..25af32e
+
+2025-09-07 22:52:07,399 - ERROR - Error output: From https://github.com/nicoboyce/ds
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	_data/rss/automation.log
+Please commit your changes or stash them before you merge.
+Aborting
+
+2025-09-07 22:52:07,401 - WARNING - Standard pull failed, trying with relaxed SSL
+2025-09-07 22:52:07,402 - INFO - Running: Pulling with relaxed SSL
+2025-09-07 22:52:09,306 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-09-07 22:52:09,306 - ERROR - Failed command: GIT_SSL_NO_VERIFY=true git pull origin master
+2025-09-07 22:52:09,308 - ERROR - Standard output: Updating 7718eda..25af32e
+
+2025-09-07 22:52:09,309 - ERROR - Error output: From https://github.com/nicoboyce/ds
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	_data/rss/automation.log
+Please commit your changes or stash them before you merge.
+Aborting
+
+2025-09-07 22:52:09,310 - WARNING - Pull still failing, adjusting git config and retrying
+2025-09-07 22:52:09,613 - INFO - Running: Final pull attempt
+2025-09-07 22:52:11,078 - ERROR - ❌ COMMAND FAILED with exit code 1
+2025-09-07 22:52:11,079 - ERROR - Failed command: GIT_SSL_NO_VERIFY=true git pull origin master
+2025-09-07 22:52:11,079 - ERROR - Standard output: Updating 7718eda..25af32e
+
+2025-09-07 22:52:11,081 - ERROR - Error output: From https://github.com/nicoboyce/ds
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	_data/rss/automation.log
+Please commit your changes or stash them before you merge.
+Aborting
+
+2025-09-07 22:52:11,082 - ERROR - 🔴 FAILED: Git Pull
+2025-09-07 22:52:11,082 - ERROR - ❌ Critical step failed - aborting pipeline
+2025-09-07 22:52:11,083 - ERROR - Pipeline completed with failures: Git Pull
+2025-09-07 22:52:11,084 - INFO - === COMPLETION STATS ===
+2025-09-07 22:52:11,085 - INFO - Total articles processed: 175
+2025-09-07 22:52:11,086 - INFO - Today's articles: 0
+2025-09-07 22:52:11,087 - INFO - This week's articles: 5
+2025-09-07 22:52:11,087 - INFO - Feeds processed: 10
+2025-09-07 22:52:11,088 - INFO - Site updated: 07/09/2025 22:52

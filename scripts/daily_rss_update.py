@@ -12,12 +12,17 @@ from datetime import datetime
 from pathlib import Path
 import logging
 
-# Configure logging
+# Configure logging with absolute path
+from pathlib import Path
+script_dir = Path(__file__).parent.parent
+log_file = script_dir / '_data' / 'rss' / 'automation.log'
+log_file.parent.mkdir(parents=True, exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('_data/rss/automation.log'),
+        logging.FileHandler(log_file),
         logging.StreamHandler()
     ]
 )
