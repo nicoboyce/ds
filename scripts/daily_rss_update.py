@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Complete daily RSS automation pipeline
-Runs: git pull -> RSS ingestion -> Claude summaries -> page generation -> Jekyll build -> git push
+Runs: git fetch/reset -> RSS ingestion -> Claude summaries -> page generation -> Jekyll build -> git push
 """
 
 import os
@@ -69,30 +69,42 @@ class DailyRSSPipeline:
             return False
     
     def git_pull(self):
-        """Pull latest changes from git
+        """Reset to latest changes from GitHub
         
-        Ensures we have the latest website code before making changes.
-        This prevents merge conflicts and ensures RSS feeds configuration
-        is up to date.
+        Uses git fetch + reset --hard to avoid any merge conflicts and ensure
+        we're always running exactly what's in the repository.
+        This is safe for automated deployments where no local changes are expected.
         """
-        logger.info("=== GIT PULL ===")
+        logger.info("=== GIT RESET TO ORIGIN/MASTER ===")
         
-        # Try standard pull first
-        pull_success = self.run_command("git pull origin master", "Pulling latest changes")
+        # First fetch the latest from origin
+        fetch_success = self.run_command("git fetch origin", "Fetching latest from GitHub")
         
-        if not pull_success:
+        if not fetch_success:
             # If it fails due to TLS/network issues, try with environment variable
-            logger.warning("Standard pull failed, trying with relaxed SSL")
-            pull_success = self.run_command("GIT_SSL_NO_VERIFY=true git pull origin master", "Pulling with relaxed SSL")
+            logger.warning("Standard fetch failed, trying with relaxed SSL")
+            fetch_success = self.run_command("GIT_SSL_NO_VERIFY=true git fetch origin", "Fetching with relaxed SSL")
         
-        if not pull_success:
+        if not fetch_success:
             # As last resort, try configuring git and retrying
-            logger.warning("Pull still failing, adjusting git config and retrying")
+            logger.warning("Fetch still failing, adjusting git config and retrying")
             subprocess.run("git config --global http.postBuffer 524288000", shell=True, capture_output=True)
             subprocess.run("git config --global http.version HTTP/1.1", shell=True, capture_output=True)
-            pull_success = self.run_command("GIT_SSL_NO_VERIFY=true git pull origin master", "Final pull attempt")
+            fetch_success = self.run_command("GIT_SSL_NO_VERIFY=true git fetch origin", "Final fetch attempt")
         
-        return pull_success
+        if not fetch_success:
+            logger.error("Could not fetch from origin - continuing with current code")
+            return False
+        
+        # Now reset hard to origin/master
+        reset_success = self.run_command("git reset --hard origin/master", "Resetting to origin/master")
+        
+        if reset_success:
+            logger.info("Successfully reset to latest GitHub code")
+        else:
+            logger.error("Failed to reset - may have local issues")
+        
+        return reset_success
     
     def rss_ingestion(self):
         """Run RSS ingestion script
