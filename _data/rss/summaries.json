@@ -1,22 +1,22 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks indicate that the company is actively investing in AI-powered features and integrations, such as the new Faye AI-powered Pipedrive Zendesk integration and the announcement of new Copilot recommendation types. However, the updates also reveal ongoing stability and performance challenges, with multiple service incidents reported, including issues with the adherence feature, ticket assignments, and Zendesk Sales performance. These incidents suggest that Zendesk is balancing its product development efforts with the need to address technical challenges and ensure a reliable platform for its customers. For Zendesk professionals, these updates highlight the need to closely monitor the platform's performance and stay informed about upcoming changes and feature releases to effectively leverage the ecosystem.",
+  "recently_narrative": "Over the past 3 weeks, Zendesk has been actively expanding its ecosystem with new AI-powered integrations, automation enhancements, and virtual events, signaling its continued focus on innovation. However, this period has also seen the company grapple with several service incidents, including performance degradation, assignment issues, and access problems, indicating ongoing stability challenges. These incidents, coupled with the announcement of an upcoming database maintenance, suggest that Zendesk is simultaneously pushing forward with new features while also working to address underlying technical issues. For Zendesk professionals, this highlights the need to closely monitor the platform's performance and stay up-to-date with the latest releases and updates to ensure seamless operations and deliver the best possible customer experiences.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-08T16:40:21.702954",
+  "generated_at": "2025-09-08T17:40:26.444998",
   "release_notes": {
-    "summary": "This week's release notes introduce a new page in Admin Center that displays external OAuth clients used to authenticate and connect to Zendesk accounts. As part of the ongoing removal of password access for API authentication, accounts without recent usage of this feature have had the capability proactively turned off and removed. Accounts that disable password access will now automatically be enrolled in two-step verification, with the final phase of this rollout beginning in October. Additionally, the default content for the welcome email has been updated for new accounts. The Copilot add-on has also been expanded with 15 new recommendation types.",
+    "summary": "The latest release introduces several notable enhancements to Zendesk's capabilities. On September 5th, 2025, the company unveiled an advanced AI agent feature, providing customers with more intelligent and responsive support. Additionally, the Workflow Management (WFM) system has been updated, offering improved tools for streamlining and automating various customer service processes. These updates aim to further improve the overall user experience and efficiency of the Zendesk platform.",
     "article": {
-      "id": "4bd7890db3d7",
-      "title": "Release notes through 2025-08-29",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
-      "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAdmin Center\nCopilot\nApp Marketplace\nProducts with no updates this week\n\nAdmin Center\nNew:\n\nWe've introduced a new page called External OAuth clients in Admin Center. This page displays a list of ...",
-      "pub_date": "Sun, 31 Aug 2025 20:09:03 +0000",
+      "id": "e892740a7ffc",
+      "title": "Release notes through 2025-09-05",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nKnowledge\nZendesk Workflow Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nSender Authentication improvements: We've rolled out aut...",
+      "pub_date": "Sun, 07 Sep 2025 23:12:48 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-09-01T23:51:42.871801"
+      "fetched_at": "2025-09-08T17:40:13.202726"
     },
-    "generated_at": "2025-09-01T23:51:53.778496"
+    "generated_at": "2025-09-08T17:40:29.663604"
   }
 }
