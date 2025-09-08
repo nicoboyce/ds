@@ -1,8 +1,22 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI and integration capabilities, while also grappling with ongoing service incidents and stability issues.",
+  "recently_narrative": "The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company pushing forward on AI-powered integrations and new features while also grappling with a series of service incidents and stability issues. The launch of the Faye AI-powered Pipedrive integration and the announcement of new Copilot recommendation types suggest Zendesk's continued focus on leveraging AI to enhance its offerings, even as the platform experiences performance degradation and other technical challenges, as evidenced by the various service incidents reported. This dichotomy between innovation and operational stability highlights the ongoing challenges Zendesk professionals face in ensuring their Zendesk implementations are reliable and effective, even as the platform evolves rapidly.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-09T00:05:26.342980",
-  "release_notes": {}
+  "generated_at": "2025-09-09T00:38:08.197009",
+  "release_notes": {
+    "summary": "1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.\n\n2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.",
+    "article": {
+      "id": "e892740a7ffc",
+      "title": "Release notes through 2025-09-05",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nKnowledge\nZendesk Workflow Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nSender Authentication improvements: We've rolled out aut...",
+      "pub_date": "Sun, 07 Sep 2025 23:12:48 +0000",
+      "source": "Zendesk Release Notes",
+      "category": "zendesk",
+      "colour": "warning",
+      "fetched_at": "2025-09-09T00:37:55.222892"
+    },
+    "generated_at": "2025-09-09T00:38:11.760515"
+  }
 }

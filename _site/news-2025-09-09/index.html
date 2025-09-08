@@ -321,7 +321,9 @@ document.getElementById("page-top").className="bg-light";
             <span class="badge badge-light">2025-09-05</span>
         </div>
         <div class="card-body">
-            <p class="mb-2"><strong>Key Changes:</strong> Support AI Agents now offer auto-detection for sender authentication on Gmail and Office 365 domains, eliminating the need for manual DKIM/SPF configuration. Copilot introduced 15 new recommendation types for refunds and escalations, macro suggestions in auto-assist procedures, and conversation summarization for Slack channels. WFM can now export agent activity timelines to CSV, with scheduled reports available via email delivery.</p>
+            <p class="mb-2"><strong>Key Changes:</strong> 1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.
+
+2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.</p>
             <a href="https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05" class="btn btn-sm btn-outline-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> View Full Release Notes
             </a>
@@ -439,7 +441,7 @@ document.getElementById("page-top").className="bg-light";
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI and integration capabilities, while also grappling with ongoing service incidents and stability issues. Zendesk is pushing forward with new AI-powered integrations, enhanced filtering, and expanded agent management features, indicating a strategic emphasis on improving customer experience and agent productivity. However, the frequent service incidents and performance degradation incidents suggest the company is still working to shore up the reliability and scalability of its platform, which could create challenges for Zendesk professionals tasked with maintaining consistent service levels. Overall, the updates paint a picture of a company in transition, balancing ambitious product development with the need to address underlying technical challenges.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company pushing forward on AI-powered integrations and new features while also grappling with a series of service incidents and stability issues. The launch of the Faye AI-powered Pipedrive integration and the announcement of new Copilot recommendation types suggest Zendesk's continued focus on leveraging AI to enhance its offerings, even as the platform experiences performance degradation and other technical challenges, as evidenced by the various service incidents reported. This dichotomy between innovation and operational stability highlights the ongoing challenges Zendesk professionals face in ensuring their Zendesk implementations are reliable and effective, even as the platform evolves rapidly.</p>
         </div>
     </div>
     
@@ -576,7 +578,7 @@ document.getElementById("page-top").className="bg-light";
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
