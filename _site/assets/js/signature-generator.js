@@ -5,7 +5,7 @@ const teamData = [
         name: "Rosie Elliott-Welch",
         role: "Founder, CEO",
         email: "rosie@deltastring.com",
-        phone: "+44-7769-023498",
+        phone: "+447769023498",
         image: "https://deltastring.com/assets/img/team/rew.jpeg",
         linkedin: "https://www.linkedin.com/in/rosie-elliott-welch-219965185/"
     },

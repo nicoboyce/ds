@@ -26,6 +26,14 @@
         </div>
         <div class="card-body">
             {{ commentary.content }}
+            {% assign latest_post = site.posts | first %}
+            {% if latest_post %}
+            <div class="mt-3">
+                <a href="{{ latest_post.url | relative_url }}" class="btn btn-sm btn-outline-primary">
+                    <i class="fas fa-newspaper"></i> Latest update from Deltastring: "{{ latest_post.title }}" ({{ latest_post.date | date: "%d/%m/%Y" }})
+                </a>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>

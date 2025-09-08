@@ -39,6 +39,13 @@ exclude:
   - Gemfile*
   - node_modules/
   - package*.json
+  - "*.py"
+  - "oklch-*.html"
+  - "test-*.html"
+  - "gradient_comparison.html"
+  - "nico-signature-final.html"
+  - "CURRENT_STATUS.md"
+  - "SETUP_NOTES.md"
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam

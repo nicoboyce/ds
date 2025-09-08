@@ -23,7 +23,7 @@ background: grey
             <span class="badge badge-light">2025-08-29</span>
         </div>
         <div class="card-body">
-            <p class="mb-2"><strong>Key Changes:</strong> Feature: Admin Center now includes a new page called External OAuth clients, which displays a list of authorized external OAuth clients and allows administrators to manage them.</p>
+            <p class="mb-2"><strong>Key Changes:</strong> This week's release notes introduce a new page in Admin Center that displays external OAuth clients used to authenticate and connect to Zendesk accounts. As part of the ongoing removal of password access for API authentication, accounts without recent usage of this feature have had the capability proactively turned off and removed. Accounts that disable password access will now automatically be enrolled in two-step verification, with the final phase of this rollout beginning in October. Additionally, the default content for the welcome email has been updated for new accounts. The Copilot add-on has also been expanded with 15 new recommendation types.</p>
             <a href="https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29" class="btn btn-sm btn-outline-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> View Full Release Notes
             </a>
@@ -54,7 +54,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">27 stories</span>
+        <span class="badge badge-info ml-2">23 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -66,9 +66,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark" target="_blank">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a></h6>
-                <p class="mb-2">Critical security issue requiring immediate attention.</p>
-                <small class="text-muted">Google News - Zendesk • recently</small>
+                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9641393017242-Announcing-the-End-User-Separation-EAP-for-department-spaces" class="text-dark" target="_blank">Announcing the End User Separation EAP for department spaces</a></h6>
+                <p class="mb-2">Early access to test upcoming features before general release.</p>
+                <small class="text-muted">Zendesk Announcements • 12 days ago</small>
             
             </div>
         </div>
@@ -81,7 +81,9 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a mix of exciting new feature announcements and service incidents over the past few weeks. While Zendesk is pushing forward with AI-powered innovations like Copilot recommendations and WhatsApp Flows integration, the company has also faced several outages and stability issues, including problems with QA access, ticket redaction, and AI agent delays. This suggests Zendesk is working to enhance its platform's capabilities, particularly around automation and customer experience, but must also contend with technical challenges that could impact Zendesk professionals and their ability to provide reliable support. The ecosystem updates indicate Zendesk is navigating a complex transition towards an AI-driven future while addressing immediate operational concerns.</p>
+            <p>Over the past three weeks, the Zendesk ecosystem has seen a flurry of updates and announcements, highlighting the company's continued push towards AI-powered capabilities while also grappling with a series of service incidents and stability issues.</p>
+            <p>The introduction of new AI-driven integrations, such as Faye's Pipedrive Zendesk integration, as well as the announcement of expanded Copilot recommendation types, suggests that Zendesk is doubling down on its AI-powered customer service offerings. However, these advancements are juxtaposed with reports of various service incidents, including performance degradation, assignment issues, and access problems, underscoring the need for Zendesk to maintain a focus on platform stability and reliability.</p>
+            <p>For Zendesk professionals, these developments highlight the evolving landscape of customer service and the importance of staying attuned to both the technological advancements and the operational challenges facing the platform. As Zendesk continues to push the boundaries of AI-powered customer service, it will be crucial for users to navigate the balance between innovative capabilities and reliable performance to ensure the best possible outcomes for their organizations.</p>
         </div>
     </div>
     
@@ -89,7 +91,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -97,31 +99,31 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
-                        <span class="source-badge">Zendesk Service Notifications</span> <small class="text-info" title="Zendesk Service Notifications, Zendesk Service Notifications">[2 sources]</small>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025" class="text-dark">Service Incident - September 01, 2025</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors
+                        https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 days ago
+                        <i class="far fa-clock"></i> 5 days ago
                     </small>
                 </div>
             </div>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9UeWduVWNnT0gtVjNNTUNkN0pmaGtLSVFxNHl4WEpMUk9YSVhYSk5PZk1vcktBVVEtYVEwZFdIVjNtVHJTWW90MkV6VFQ0ZHczQkk1MEdNSjBhdllOX3J1UlRsYTZrdGlQbVBRb2RpTmVrRXB1NUtCWdIBfkFVX3lxTE1QSUR3Ymp0OFlFaUh5QzRzSWdfVGI0VEtjNGdkS0tpYjkzYVRQbFRieXhOYnp1SVhPc3NWa25jTEJ1SlprTmQySGJnUGNudFZ1SG9hYXFiWElmUGJHVkw3RVhSanlNc1JURW1lQzdXaVdrUDN4SXB3VDFZLXF6UQ?oc=5" class="text-dark">0-Click Zendesk Account Takeover Vulnerability Enables Access to all Zendesk Tickets - CyberSecurityNews</a>
-                
+                <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
+                <span class="source-badge">Zendesk Service Notifications</span> <small class="text-info" title="Zendesk Service Notifications, Zendesk Service Notifications">[2 sources]</small>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -129,7 +131,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 16 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -137,23 +139,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge" class="text-dark">Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        </div>
     </div>
@@ -161,16 +147,48 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9676691663770-Announcing-WFM-agent-activity-CSV-exports" class="text-dark">Announcing WFM agent activity CSV exports</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 4 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://internalnote.com/zendesk-news-roundup-for-september-2025/" class="text-dark">Zendesk News Roundup for September 2025</a>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9654328628506-Announcing-a-new-permission-to-create-and-edit-end-users" class="text-dark">Announcing a new permission to create and edit end users</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 9 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9646513178650-Announcing-the-deprecation-of-wrappers-for-the-Sunshine-Conversations-API" class="text-dark">Announcing the deprecation of wrappers for the Sunshine Conversations API</a>
                 <span class="source-badge">Zendesk Developer Updates</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 11 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9646331735706-Announcing-changes-to-the-ticket-closing-default-automation" class="text-dark">Announcing changes to the ticket-closing default automation</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -178,7 +196,15 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 11 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9645756522138-Announcing-an-update-the-internal-note-trigger-action" class="text-dark">Announcing an update the internal note trigger action</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -186,7 +212,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -194,7 +220,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -210,7 +236,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 16 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -218,39 +244,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9620124154522-Announcing-import-enhancements-for-the-Exchange-and-Gmail-connectors" class="text-dark">Announcing import enhancements for the Exchange and Gmail connectors</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9618795149466-Announcing-the-move-of-Zendesk-QA-user-and-license-management-to-Zendesk-Admin-Center" class="text-dark">Announcing the move of Zendesk QA user and license management to Zendesk Admin Center</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9611518490650-Announcing-a-new-approach-to-email-authentication" class="text-dark">Announcing a new approach to email authentication</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9601885707802-Announcing-the-new-external-Oauth-page-in-Admin-Center" class="text-dark">Announcing the new external Oauth page in Admin Center</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 16 days ago
+                <i class="far fa-clock"></i> 17 days ago
             </small>
         </article>        </div>
     </div>
@@ -263,36 +257,19 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance" class="text-dark">[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/help-desk-migration-migrate-merge-and-consolidate-your-zendesk-data-sponsor/" class="text-dark">Help Desk Migration: Migrate, Merge, and Consolidate your Zendesk data (sponsor)</a>
+                <a href="https://internalnote.com/is-your-zendesk-implementation-really-working-do-a-health-check-with-premium-plus-sponsor/" class="text-dark">Is your Zendesk implementation really working? Do a Health Check with Premium Plus (sponsor)</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJiSzVyRDNkZGJJN05nOUs0U1o3bU5SR2RwMWktd1JLVVpiQkxBbmxob2R1NUFSbXI2SEEyUXZPWjIzaThVOHM0OGFXdTZ3UWxLWEZCRlRSS0thLUN3S0JWOFlNc2ZkcldVZ00ycXJWcWpZM0UtU0d2UlRkYjVFbzI2YXMzRk9FSVV3ZDVoRjBxY1VPQ3h3?oc=5" class="text-dark">Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information</a>
-                
+                <a href="https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance" class="text-dark">[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        </div>
     </div>
@@ -300,10 +277,26 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPNkRoU3VmUFlocDVkLXI4QlBJSmdOU0x3cUlWM2dVRU55aVZQQkFyUUhvSGRqb09sSkFOcWNQR2FydWlnZTNuTEN2TGdrY2Vpa1BoV00wMGVjUGthOUh0ajlKNS1DRG9NUXN0NW9FWENlTEd5Wm9NSlluWDR4RlNGUnRDR1JzeDg?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration to Bridge Sales and Support - Yahoo Finance</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NXhuVVhWdU9Cekk3TFZYWFVqMFBtcWZIcVB1dkFOTllvMlVQc1RCUmNUaUlGaGQwR3VTeXVzNmhJdkFHVENBUlNfUG5DNGlTQ1Z6ZlBpQnk1LWp0WU9ZTkdObXRLMjZO?oc=5" class="text-dark">I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
                 
@@ -313,51 +306,19 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9642327422874-What-s-new-in-Zendesk-September-2025" class="text-dark">What's new in Zendesk: September 2025</a>
+                <span class="source-badge">Zendesk What's New</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 12 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9642022281754-Our-biggest-digital-event-is-here-Register-now-for-Zendesk-AI-Summit" class="text-dark">Our biggest digital event is here: Register now for Zendesk AI Summit.</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/value-added-conversations/" class="text-dark">Moving Toward Value-Added Conversations in Zendesk</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlB4RjdHZURxeW8zM05JLWtnbDNnc2VnbjdYdEE2aFFHc3JZbWdaaWs4dThRbGJ3azdNM2dENUJvMkxVZklFZnByUnR4WlJWbkVnM094c0x4bS1SclJqMEpISlhxQlE5d3VQWXAzU2pOWG1YVk4tT1lIaGFobVJEc1Z4RFI3UFlWdFNpX3MweVl3NThMYnRNZWNFdkFyY19qQVhmeWh3?oc=5" class="text-dark">Beyond the bot: a blueprint for people-first automation - Raconteur</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9597887995546-Service-Incident-August-14-2025-Multiple-Pods-SunCo-Meta-apps-account-integration-issue" class="text-dark">Service Incident - August 14, 2025 - Multiple Pods | SunCo - Meta apps account integration issue</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxONGFZaDc5Ylh0cVNRbHVwdnkzQl95Y0VxaTIzcEdveHN4WWl6T2hSb1QxcVNPd25jN08tWmxxLUp1YlpBR250RTk4MHR5Y0tSZEtERzFDQ0YtTWpobUtpbGRQek5lU2xCNkdyQk9fdXZSbVY2empwbk1mVXhXdm9pWHNXNmY0enplWUZaczhwWGRpRURvMzVXNmNxTQ?oc=5" class="text-dark">Zendesk CTO on the new era of customer experience - Computer Weekly</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPT3d4aENIQ05DVmttSmk3NXFmYk05azQzdUt3WGxUNnlWOFBLaXFIV3ZLWjFSTjhfaWl3bG13cHFQV25JTWhZNkRSblNfMjJSRzFIQjZGVnlNZWZDYUszVzVLeUIxZ3VjWDMwMlVOa013d3ZNSl9fWXlHVUs5blB1bkgtSzh3QlJFSEtGZkNDanJxY2RRcmlDQg?oc=5" class="text-dark">Zendesk Boosts Customer Support Efficiency with GPT-5 Integration - Small Business Trends</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        </div>
     </div>
@@ -372,7 +333,7 @@ background: grey
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>168</strong><br>
+                    <strong>174</strong><br>
                     <small class="text-muted">Total Articles</small>
                 </div>
                 <div class="col-md-3">
@@ -380,11 +341,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01/09/2025</strong><br>
+                    <strong>08/09/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>Tomorrow 09:00 UTC</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>

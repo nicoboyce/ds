@@ -240,3 +240,15 @@ a.source-badge:hover {
     border-color: #eb7824;
     color: #fff;
 }
+
+/* Commentary section button styling to match release notes */
+.commentary-section .btn-outline-primary {
+    border-color: #eb7824;
+    color: #eb7824;
+}
+
+.commentary-section .btn-outline-primary:hover {
+    background-color: #eb7824;
+    border-color: #eb7824;
+    color: #fff;
+}

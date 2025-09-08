@@ -1,12 +1,12 @@
 // YouTube facade script for lazy loading
 document.addEventListener('DOMContentLoaded', function() {
-  const facade = document.querySelector('.youtube-facade');
-  if (facade) {
+  const facades = document.querySelectorAll('.youtube-facade');
+  facades.forEach(function(facade) {
     facade.addEventListener('click', function() {
       const videoId = this.getAttribute('data-video-id');
       const iframe = document.createElement('iframe');
       iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&cc_load_policy=1&cc_lang_pref=en');
-      iframe.setAttribute('title', 'Zendesk tips and tech contractor life video');
+      iframe.setAttribute('title', 'YouTube video player');
       iframe.setAttribute('allow', 'autoplay; encrypted-media');
       iframe.setAttribute('allowfullscreen', '');
       iframe.style.position = 'absolute';
@@ -19,5 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
       this.innerHTML = '';
       this.appendChild(iframe);
     });
-  }
+  });
 });
