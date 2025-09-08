@@ -9122,3 +9122,117 @@ News page updated: news.md
 --- Starting: Git Commit & Push ---
 2025-09-08 19:41:12,016 - INFO - === GIT COMMIT & PUSH ===
 2025-09-08 19:41:12,017 - INFO - Running: Adding changes to git
+2025-09-08 19:41:40,110 - INFO - Running: Committing changes
+2025-09-08 19:41:41,518 - INFO - Output: [master 37f1f0e] Daily RSS update - 08/09/2025 19:41
+ 13 files changed, 704 insertions(+), 484 deletions(-)
+2025-09-08 19:41:41,518 - INFO - Attempting to push changes to GitHub
+2025-09-08 19:41:41,519 - INFO - Running: Pushing to GitHub
+2025-09-08 19:41:45,139 - INFO - ✅ SUCCESS: Git Commit & Push
+2025-09-08 19:41:45,140 - INFO - Pipeline completed successfully!
+2025-09-08 19:41:45,142 - INFO - === COMPLETION STATS ===
+2025-09-08 19:41:45,144 - INFO - Total articles processed: 174
+2025-09-08 19:41:45,145 - INFO - Today's articles: 0
+2025-09-08 19:41:45,145 - INFO - This week's articles: 6
+2025-09-08 19:41:45,146 - INFO - Feeds processed: 10
+2025-09-08 19:41:45,146 - INFO - Site updated: 08/09/2025 19:41
+2025-09-08 20:40:02,269 - INFO - Working in: /home/nico/ds
+2025-09-08 20:40:02,273 - INFO - Starting daily RSS automation pipeline
+2025-09-08 20:40:02,274 - INFO - Timestamp: 2025-09-08T20:40:02.274457
+2025-09-08 20:40:02,275 - INFO - 
+--- Starting: Git Pull ---
+2025-09-08 20:40:02,276 - INFO - === GIT PULL ===
+2025-09-08 20:40:02,277 - INFO - Running: Pulling latest changes
+2025-09-08 20:40:03,831 - INFO - Output: Already up to date.
+2025-09-08 20:40:03,832 - INFO - ✅ SUCCESS: Git Pull
+2025-09-08 20:40:03,833 - INFO - 
+--- Starting: RSS Ingestion ---
+2025-09-08 20:40:03,834 - INFO - === RSS INGESTION ===
+2025-09-08 20:40:03,834 - INFO - Running: Ingesting RSS feeds
+2025-09-08 20:40:17,873 - INFO - Output: Starting RSS ingestion...
+Processing 10 feeds
+Fetching: Zendesk Announcements
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk What's New
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Developer Updates
+  Found 15 raw items in feed
+  Skipping sponsored content: Announcing the Marketplace partner developer suppo...
+  Found 14 articles
+Fetching: Zendesk Release Notes
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Service Notifications
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Deltastring YouTube
+  Found 13 raw items in feed
+  Found 13 articles
+Fetching: Deltastring Blog
+  Found 7 raw items in feed
+  Found 7 articles
+Fetching: Internal Note
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Zendesk Press Releases
+  Found 15 raw items in feed
+  Found 15 articles
+Fetching: Google News - Zendesk
+  Found 100 raw items in feed
+  Found 50 articles
+  WARNING: Could not parse date 'Wed, 25 Sep 2024 00:00:00 +0100' for article 'The Zendesk world needs a Marques Brownlee...'
+  WARNING: Could not parse date 'Wed, 04 Jun 2025 00:00:00 +0100' for article 'Moral Support, the flip-flops edition...'
+  WARNING: Could not parse date 'Wed, 02 Jul 2025 00:00:00 +0100' for article 'Moral Support, the heatwave edition...'
+  WARNING: Could not parse date 'Thu, 19 Jun 2025 00:00:00 +0100' for article 'Moral Support (Atkins edition)...'
+  WARNING: Could not parse date 'Thu, 04 Sep 2025 00:00:00 +0100' for article 'Moral Support reads the news...'
+  WARNING: Could not parse date 'Mon, 23 Oct 2023 00:00:00 +0100' for article 'Contracting is all in the preparation...'
+  WARNING: Could not parse date 'Fri, 27 Sep 2024 00:00:00 +0100' for article 'Yes I hate AI and I'm not yet afraid to say it...'
+
+Ingestion complete:
+  Total articles: 174
+  Latest (48h): 2
+  This week (3-7d): 6
+  This month (8-35d): 40
+  Data saved to: _data/rss
+SUCCESS: Found 174 articles (Latest: 2, Week: 6, Month: 40)
+2025-09-08 20:40:17,874 - INFO - ✅ SUCCESS: RSS Ingestion
+2025-09-08 20:40:17,875 - INFO - 
+--- Starting: Claude Summaries ---
+2025-09-08 20:40:17,875 - INFO - === CLAUDE SUMMARIES ===
+2025-09-08 20:40:17,876 - INFO - Running: Generating Claude summaries
+2025-09-08 20:40:27,258 - INFO - Output: Generating narrative analysis for 26 recent articles...
+Calling Claude API...
+Summaries saved to: _data/rss/summaries.json
+
+Latest Summary Preview:
+==================================================
+2025-09-08 20:40:27,259 - INFO - ✅ SUCCESS: Claude Summaries
+2025-09-08 20:40:27,259 - INFO - 
+--- Starting: Generate RSS Page ---
+2025-09-08 20:40:27,260 - INFO - === GENERATE RSS PAGE ===
+2025-09-08 20:40:27,260 - INFO - Running: Generating RSS feeds page
+2025-09-08 20:40:36,761 - INFO - Output: Generating RSS feeds page...
+Archive created: news-2025-09-08.md
+News page updated: news.md
+  Latest (48h): 2 articles
+  This week (3-7d): 6 articles
+  This month (8-35d): 40 articles
+2025-09-08 20:40:36,763 - INFO - ✅ SUCCESS: Generate RSS Page
+2025-09-08 20:40:36,764 - INFO - 
+--- Starting: Jekyll Build ---
+2025-09-08 20:40:36,764 - INFO - === JEKYLL BUILD ===
+2025-09-08 20:40:36,790 - INFO - Attempting Jekyll build...
+2025-09-08 20:40:36,791 - INFO - Running: Building Jekyll site
+2025-09-08 20:41:10,616 - INFO - Output: Configuration file: /home/nico/ds/_config.yml
+            Source: /home/nico/ds
+       Destination: /home/nico/ds/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 13.15 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+2025-09-08 20:41:10,618 - INFO - ✅ SUCCESS: Jekyll Build
+2025-09-08 20:41:10,619 - INFO - 
+--- Starting: Git Commit & Push ---
+2025-09-08 20:41:10,619 - INFO - === GIT COMMIT & PUSH ===
+2025-09-08 20:41:10,620 - INFO - Running: Adding changes to git
