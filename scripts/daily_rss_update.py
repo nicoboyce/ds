@@ -50,7 +50,7 @@ class DailyRSSPipeline:
                 check=True,
                 capture_output=True,
                 text=True,
-                timeout=300,  # 5 minutes timeout
+                timeout=600,  # 10 minutes timeout - increased for RSS + Claude API calls
                 env=env
             )
             if result.stdout.strip():

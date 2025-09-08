@@ -363,8 +363,15 @@ Be direct and analytical, not promotional."""
         """Extract release notes content from URL"""
         try:
             print(f"Fetching full release notes from: {url}")
-            response = requests.get(url, timeout=15)
-            response.raise_for_status()
+            try:
+                response = requests.get(url, timeout=15)
+                response.raise_for_status()
+            except requests.Timeout:
+                print(f"ERROR: Timeout fetching {url} after 15 seconds")
+                return None
+            except requests.RequestException as e:
+                print(f"ERROR: Failed to fetch {url}: {e}")
+                return None
             
             soup = BeautifulSoup(response.content, 'html.parser')
             
