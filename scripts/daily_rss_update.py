@@ -77,6 +77,15 @@ class DailyRSSPipeline:
         """
         logger.info("=== GIT RESET TO ORIGIN/MASTER ===")
         
+        # Clean up any stale lock files first
+        lock_file = ".git/index.lock"
+        if os.path.exists(lock_file):
+            logger.warning(f"Removing stale git lock file: {lock_file}")
+            try:
+                os.remove(lock_file)
+            except Exception as e:
+                logger.error(f"Could not remove lock file: {e}")
+        
         # First fetch the latest from origin
         fetch_success = self.run_command("git fetch origin", "Fetching latest from GitHub")
         
