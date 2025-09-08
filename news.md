@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company focused on expanding its AI and automation capabilities. While Zendesk is announcing new integrations, features, and events around its Copilot AI and other AI-powered offerings, it has also been grappling with several service incidents and stability issues. This juxtaposition of innovation and operational challenges suggests Zendesk is pushing hard to stay ahead of the curve in customer experience technology, even as it navigates complex technical and operational hurdles. For Zendesk professionals, this landscape underscores the need to balance the adoption of new AI-driven capabilities with robust incident management and system resilience.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity in the past 3 weeks, with a strong emphasis on AI-powered features and integrations to bridge the gap between sales and support. While Zendesk is pushing forward with innovations like the new Pipedrive integration and Copilot recommendation types, the company has also had to grapple with several service incidents, including performance degradation, assignment issues, and QA access problems. This suggests that as Zendesk continues to expand its offerings, it must also prioritize platform stability and reliability to ensure a seamless experience for its customers. For Zendesk professionals, this means staying informed about the latest updates and developments, while also being prepared to handle potential service disruptions and work closely with the Zendesk team to address any issues that may arise.</p>
         </div>
     </div>
     
@@ -137,7 +137,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        </div>
     </div>
