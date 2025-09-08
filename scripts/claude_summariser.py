@@ -97,7 +97,8 @@ REQUIREMENTS:
             # Using Sonnet model for balanced speed and quality
             payload = {
                 'model': 'claude-3-haiku-20240307',  # Using Haiku - only model available with this API key
-                'max_tokens': 1000,  # Sufficient for our concise summaries
+                'max_tokens': 1500,  # Increased for more detailed summaries
+                'temperature': 0.1,  # Very low for maximum factual accuracy
                 'messages': [
                     {
                         'role': 'user',
@@ -446,14 +447,33 @@ Be direct and analytical, not promotional."""
             print("Falling back to truncated RSS description")
             full_content = release_notes.get('description', '')[:3000]
         
-        prompt = f"""Summarise what changed in this release using natural, flowing language. Write 2-3 sentences that capture the key changes without starting each sentence with "Zendesk" or using numbered lists. Include specific dates and numbers where mentioned.
+        prompt = f"""CRITICAL INSTRUCTIONS - YOU MUST FOLLOW THESE EXACTLY:
 
-Release: {title}
+1. Extract ONLY concrete, specific changes from the release notes below
+2. Use the EXACT feature names as they appear in the text
+3. Include ALL numbers, percentages, dates, and technical details
+4. NEVER use vague words like "improvements", "enhancements", "updates", "notable", "unveiled", "capabilities"
+5. Write dense, information-packed sentences
 
-Content:
+BANNED WORDS (DO NOT USE):
+- improvements, enhancements, updates, notable, unveiled
+- capabilities, streamline, optimize, advanced, robust
+- various, several, multiple (use exact numbers instead)
+- helps, aims, designed to, intended to
+
+REQUIRED FORMAT:
+Write exactly 2-3 sentences. Pack multiple specific changes into each sentence using commas. 
+
+GOOD EXAMPLE:
+"Support added sender authentication auto-detection for Gmail and Office 365 domains, eliminating manual DKIM/SPF configuration. Copilot introduced 15 new recommendation types for refunds and escalations, macro suggestions in auto-assist procedures, and conversation summarisation for Slack channels. WFM now exports agent activity timelines to CSV, with scheduled reports available via email delivery."
+
+BAD EXAMPLE (NEVER WRITE LIKE THIS):
+"The latest release introduces several enhancements to improve the platform. New features help streamline operations."
+
+RELEASE NOTES CONTENT:
 {full_content}
 
-Write naturally and concisely - the context is already Zendesk so avoid redundant company references."""
+YOUR SUMMARY (2-3 fact-packed sentences with specific feature names and numbers):"""
         
         try:
             # Use requests library for API call
@@ -468,8 +488,8 @@ Write naturally and concisely - the context is already Zendesk so avoid redundan
                 },
                 json={
                     'model': 'claude-3-haiku-20240307',  # Using Haiku - only model available with this API key
-                    'max_tokens': 300,  # Allow for more detailed summaries
-                    'temperature': 0.3,  # Lower temperature for factual accuracy
+                    'max_tokens': 800,  # Much higher to allow Haiku to be more detailed
+                    'temperature': 0.1,  # Very low for maximum factual accuracy
                     'messages': [{'role': 'user', 'content': prompt}]
                 },
                 timeout=10

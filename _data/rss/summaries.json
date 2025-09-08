@@ -1,22 +1,8 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks indicate that the company is actively enhancing its platform capabilities, particularly in the areas of AI and integration. Alongside these product updates, Zendesk has also faced several service incidents and stability issues, highlighting the challenges of managing a complex, cloud-based system. While Zendesk is pushing forward with new features like Copilot recommendations and WhatsApp Flows, it must also address underlying infrastructure concerns to ensure a reliable and performant experience for its users. This balancing act between innovation and stability is a key concern for Zendesk professionals, who must navigate the evolving ecosystem and its implications for their day-to-day operations and long-term strategic planning.",
+  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-08T23:40:20.777467",
-  "release_notes": {
-    "summary": "The latest release introduces several notable enhancements to Zendesk's capabilities. On September 5th, 2025, the company unveiled an advanced AI agent feature, providing customers with more intelligent and responsive support. Additionally, the Workflow Management (WFM) system has been updated, offering improved tools for streamlining and automating various customer service processes. These updates aim to further improve the overall user experience and efficiency of the Zendesk platform.",
-    "article": {
-      "id": "e892740a7ffc",
-      "title": "Release notes through 2025-09-05",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nKnowledge\nZendesk Workflow Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nSender Authentication improvements: We've rolled out aut...",
-      "pub_date": "Sun, 07 Sep 2025 23:12:48 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-09-08T17:40:13.202726"
-    },
-    "generated_at": "2025-09-08T17:40:29.663604"
-  }
+  "generated_at": "2025-09-08T23:48:14.746313",
+  "release_notes": {}
 }
