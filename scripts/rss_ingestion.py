@@ -78,6 +78,12 @@ class RSSIngestion:
                     import re
                     description = re.sub(r'<[^>]+>', '', description).strip()
                     
+                    # Skip sponsored content
+                    title_text = title_elem.text.strip()
+                    if 'sponsored' in title_text.lower() or 'sponsored' in description.lower():
+                        print(f"  Skipping sponsored content: {title_text[:50]}...")
+                        continue
+                    
                     
                     # Extract real URL from Google News links
                     if 'Google News' in feed_config['name'] and 'news.google.com/rss/articles/' in link:
