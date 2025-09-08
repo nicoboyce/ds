@@ -1,21 +1,21 @@
 {
   "stories": {
     "zendesk-hq": {
-      "last_seen": "2025-09-09T00:38:21.195381",
+      "last_seen": "2025-09-09T00:40:39.445403",
       "last_title": "Zendesk's former headquarters is now a launch pad for San Francisco's most promising startups - The Business Journals",
-      "first_seen": "2025-09-09T00:38:21.208864",
+      "first_seen": "2025-09-09T00:40:39.458951",
       "update_count": 9
     },
     "user-separation-department": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing the End User Separation EAP for department spaces",
-      "first_seen": "2025-09-09T00:38:21.625269",
+      "first_seen": "2025-09-09T00:40:39.881792",
       "update_count": 0
     },
     "automated-ticket-redaction": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Automated ticket redaction via triggers in Zendesk",
-      "first_seen": "2025-09-09T00:38:21.668375",
+      "first_seen": "2025-09-09T00:40:39.924416",
       "update_count": 0
     },
     "0click-vulnerability": {
@@ -37,15 +37,15 @@
       "update_count": 0
     },
     "enhanced-dynamic-filtering": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing enhanced dynamic filtering for lookup relationships",
-      "first_seen": "2025-09-09T00:38:21.718822",
+      "first_seen": "2025-09-09T00:40:39.977992",
       "update_count": 0
     },
     "incident-july 25": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP",
-      "first_seen": "2025-09-09T00:38:21.794204",
+      "first_seen": "2025-09-09T00:40:40.055230",
       "update_count": 0
     },
     "incident-august 04": {
@@ -55,15 +55,15 @@
       "update_count": 0
     },
     "support-whatsapp-flows": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing API support for WhatsApp Flows",
-      "first_seen": "2025-09-09T00:38:21.843588",
+      "first_seen": "2025-09-09T00:40:40.106286",
       "update_count": 0
     },
     "incident-july 31": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Service Incident - July 31, 2025 - All Pods | Zendesk Sales - Performance degradation and failing calls",
-      "first_seen": "2025-09-09T00:38:21.924908",
+      "first_seen": "2025-09-09T00:40:40.189866",
       "update_count": 0
     },
     "import-enhancements-exchange": {
@@ -73,9 +73,9 @@
       "update_count": 0
     },
     "maintenance-rescheduled-scheduled": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance",
-      "first_seen": "2025-09-09T00:38:21.998601",
+      "first_seen": "2025-09-09T00:40:40.266483",
       "update_count": 0
     },
     "move-zendesk-user": {
@@ -85,21 +85,21 @@
       "update_count": 0
     },
     "incident-august 18": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors",
-      "first_seen": "2025-09-09T00:38:21.327139",
+      "first_seen": "2025-09-09T00:40:39.578466",
       "update_count": 0
     },
     "andreessen-bain-backed": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information",
-      "first_seen": "2025-09-09T00:38:19.618700",
+      "first_seen": "2025-09-09T00:40:37.830292",
       "update_count": 0
     },
     "moving-toward-value": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Moving Toward Value-Added Conversations in Zendesk",
-      "first_seen": "2025-09-09T00:38:19.543044",
+      "first_seen": "2025-09-09T00:40:37.752389",
       "update_count": 0
     },
     "approach-email-authentication": {
@@ -121,57 +121,57 @@
       "update_count": 0
     },
     "incident-august 14": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Service Incident - August 14, 2025 - Multiple Pods | SunCo - Meta apps account integration issue",
-      "first_seen": "2025-09-09T00:38:19.691173",
+      "first_seen": "2025-09-09T00:40:37.903548",
       "update_count": 0
     },
     "zendesk-customer-experience": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Zendesk CTO on the new era of customer experience - Computer Weekly",
-      "first_seen": "2025-09-09T00:38:19.759883",
+      "first_seen": "2025-09-09T00:40:37.975391",
       "update_count": 0
     },
     "incident-august 8": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge",
-      "first_seen": "2025-09-09T00:38:19.852525",
+      "first_seen": "2025-09-09T00:40:38.069917",
       "update_count": 0
     },
     "incident-august 13": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays",
-      "first_seen": "2025-09-09T00:38:19.922467",
+      "first_seen": "2025-09-09T00:40:38.141879",
       "update_count": 0
     },
     "help-desk-migration": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Help Desk Migration: Migrate, Merge, and Consolidate your Zendesk data (sponsor)",
-      "first_seen": "2025-09-09T00:38:20.012052",
+      "first_seen": "2025-09-09T00:40:38.232570",
       "update_count": 0
     },
     "zendesk-boosts-customer": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Zendesk Boosts Customer Support Efficiency with GPT-5 Integration - Small Business Trends",
-      "first_seen": "2025-09-09T00:38:20.112093",
+      "first_seen": "2025-09-09T00:40:38.335868",
       "update_count": 0
     },
     "zendesk-expands-meet": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Zendesk Expands to Meet Rising AI-Driven Demand - Nearshore Americas",
-      "first_seen": "2025-09-09T00:38:20.203035",
+      "first_seen": "2025-09-09T00:40:38.429757",
       "update_count": 0
     },
     "developer-update-enhanced": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
-      "first_seen": "2025-09-09T00:38:20.319286",
+      "first_seen": "2025-09-09T00:40:38.548667",
       "update_count": 0
     },
     "instructions-zendesk-agent": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Instructions for Zendesk Agent Copilot auto-assist",
-      "first_seen": "2025-09-09T00:38:20.392315",
+      "first_seen": "2025-09-09T00:40:38.623322",
       "update_count": 0
     },
     "excluded-terms-enhancement": {
@@ -181,15 +181,15 @@
       "update_count": 0
     },
     "zendesk-adoption-outcome": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Zendesk's Adoption of Outcome-based Pricing Model - Permira",
-      "first_seen": "2025-09-09T00:38:20.481002",
+      "first_seen": "2025-09-09T00:40:38.714347",
       "update_count": 0
     },
     "firm-zendesk-latam": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "US firm Zendesk ups LatAm investments to capture momentum in AI agents - BNamericas",
-      "first_seen": "2025-09-09T00:38:20.615571",
+      "first_seen": "2025-09-09T00:40:38.851268",
       "update_count": 0
     },
     "marketplace-partner-developer": {
@@ -199,21 +199,21 @@
       "update_count": 0
     },
     "protection-zendesk-access": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Duo Protection for Zendesk with Duo Access Gateway - Duo Security",
-      "first_seen": "2025-09-09T00:38:20.719206",
+      "first_seen": "2025-09-09T00:40:38.957440",
       "update_count": 0
     },
     "incident-july 22": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Service Incident - July 22, 2025 - Multiple Pods | Let's Encrypt Unavailable Due to Internal DNS Server Outage",
-      "first_seen": "2025-09-09T00:38:20.864250",
+      "first_seen": "2025-09-09T00:40:39.107234",
       "update_count": 0
     },
     "incident-july 24": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Service Incident - July 24, 2025 - All Pods | AI Agents content page is broken",
-      "first_seen": "2025-09-09T00:38:20.968754",
+      "first_seen": "2025-09-09T00:40:39.215378",
       "update_count": 0
     },
     "macros-auto-assist": {
@@ -223,15 +223,15 @@
       "update_count": 0
     },
     "zendesk-news-roundup": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Zendesk News Roundup for September 2025",
-      "first_seen": "2025-09-09T00:38:21.297138",
+      "first_seen": "2025-09-09T00:40:39.547224",
       "update_count": 0
     },
     "incident-july 21": {
-      "last_seen": "2025-09-09T00:38:19.099676",
+      "last_seen": "2025-09-09T00:40:37.302679",
       "last_title": "Service Incident - July 21, 2025 - Pod 18 | Support inbound and outbound email processing has been halted",
-      "first_seen": "2025-09-09T00:38:21.110169",
+      "first_seen": "2025-09-09T00:40:39.396025",
       "update_count": 0
     },
     "global-survey-reveals": {
@@ -301,9 +301,9 @@
       "update_count": 0
     },
     "upcoming-zendesk-virtual": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Upcoming Zendesk virtual events: September 2025",
-      "first_seen": "2025-09-09T00:38:21.407545",
+      "first_seen": "2025-09-09T00:40:39.659851",
       "update_count": 0
     },
     "entering-powered-contact": {
@@ -313,9 +313,9 @@
       "update_count": 0
     },
     "copilot-recommendation-types": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing new Copilot recommendation types",
-      "first_seen": "2025-09-09T00:38:21.501767",
+      "first_seen": "2025-09-09T00:40:39.755011",
       "update_count": 0
     },
     "office-envy-inside": {
@@ -325,15 +325,15 @@
       "update_count": 0
     },
     "deprecation-wrappers-sunshine": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing the deprecation of wrappers for the Sunshine Conversations API",
-      "first_seen": "2025-09-09T00:38:21.355770",
+      "first_seen": "2025-09-09T00:40:39.606880",
       "update_count": 0
     },
     "biggest-digital-event": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Our biggest digital event is here: Register now for Zendesk AI Summit.",
-      "first_seen": "2025-09-09T00:38:21.580849",
+      "first_seen": "2025-09-09T00:40:39.836106",
       "update_count": 0
     },
     "zendesk-intercom-detailed": {
@@ -343,15 +343,15 @@
       "update_count": 0
     },
     "incident-september 01": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Service Incident - September 01, 2025",
-      "first_seen": "2025-09-09T00:38:21.282286",
+      "first_seen": "2025-09-09T00:40:39.532797",
       "update_count": 0
     },
     "what-zendesk-september": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "What's new in Zendesk: September 2025",
-      "first_seen": "2025-09-09T00:38:21.532342",
+      "first_seen": "2025-09-09T00:40:39.787536",
       "update_count": 0
     },
     "zendesk-sees-customer": {
@@ -361,9 +361,9 @@
       "update_count": 0
     },
     "permission-create-edit": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing a new permission to create and edit end users",
-      "first_seen": "2025-09-09T00:38:21.317629",
+      "first_seen": "2025-09-09T00:40:39.567682",
       "update_count": 0
     },
     "general-availability-service": {
@@ -379,53 +379,53 @@
       "update_count": 0
     },
     "your-zendesk-implementation": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Is your Zendesk implementation really working? Do a Health Check with Premium Plus (sponsor)",
-      "first_seen": "2025-09-09T00:38:21.252008",
+      "first_seen": "2025-09-09T00:40:39.501227",
       "update_count": 0
     },
     "faye-launches-powered": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Faye Launches New AI Powered Pipedrive Zendesk Integration to Bridge Sales and Support - Yahoo Finance",
-      "first_seen": "2025-09-09T00:38:21.234231",
+      "first_seen": "2025-09-09T00:40:39.483371",
       "update_count": 0
     },
     "agent-activity-exports": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing WFM agent activity CSV exports",
-      "first_seen": "2025-09-09T00:38:21.239303",
+      "first_seen": "2025-09-09T00:40:39.488238",
       "update_count": 0
     },
     "reviewed-zendesk-sell": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar",
-      "first_seen": "2025-09-09T00:38:21.274275",
+      "first_seen": "2025-09-09T00:40:39.524108",
       "update_count": 0
     },
     "changes-ticket-closing": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing changes to the ticket-closing default automation",
-      "first_seen": "2025-09-09T00:38:21.380823",
+      "first_seen": "2025-09-09T00:40:39.632003",
       "update_count": 0
     },
     "update-internal-note": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing an update the internal note trigger action",
-      "first_seen": "2025-09-09T00:38:21.474678",
+      "first_seen": "2025-09-09T00:40:39.727993",
       "update_count": 0
     },
     "enhancements-agent-timeout": {
-      "last_seen": "2025-09-09T00:38:21.231272",
+      "last_seen": "2025-09-09T00:40:39.481316",
       "last_title": "Announcing enhancements to agent timeout and disconnection configurations",
-      "first_seen": "2025-09-09T00:38:21.444403",
+      "first_seen": "2025-09-09T00:40:39.696864",
       "update_count": 0
     },
     "zendesk-reports-faster": {
-      "last_seen": "2025-09-09T00:38:21.195381",
+      "last_seen": "2025-09-09T00:40:39.445403",
       "last_title": "Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat",
-      "first_seen": "2025-09-09T00:38:21.196571",
+      "first_seen": "2025-09-09T00:40:39.446700",
       "update_count": 0
     }
   },
-  "last_updated": "2025-09-09T00:38:22.041754"
+  "last_updated": "2025-09-09T00:40:40.311390"
 }
