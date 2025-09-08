@@ -1,22 +1,8 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI and integration capabilities, while also grappling with ongoing service incidents and stability issues. Zendesk is pushing forward with new AI-powered integrations, enhanced filtering, and expanded agent management features, indicating a strategic emphasis on improving customer experience and agent productivity. However, the frequent service incidents and performance degradation incidents suggest the company is still working to shore up the reliability and scalability of its platform, which could create challenges for Zendesk professionals tasked with maintaining consistent service levels. Overall, the updates paint a picture of a company in transition, balancing ambitious product development with the need to address underlying technical challenges.",
+  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI and integration capabilities, while also grappling with ongoing service incidents and stability issues.",
   "weekly": "",
   "monthly": "",
   "generated_at": "2025-09-09T00:05:26.342980",
-  "release_notes": {
-    "summary": "Support AI Agents now offer auto-detection for sender authentication on Gmail and Office 365 domains, eliminating the need for manual DKIM/SPF configuration. Copilot introduced 15 new recommendation types for refunds and escalations, macro suggestions in auto-assist procedures, and conversation summarization for Slack channels. WFM can now export agent activity timelines to CSV, with scheduled reports available via email delivery.",
-    "article": {
-      "id": "e892740a7ffc",
-      "title": "Release notes through 2025-09-05",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nKnowledge\nZendesk Workflow Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nSender Authentication improvements: We've rolled out aut...",
-      "pub_date": "Sun, 07 Sep 2025 23:12:48 +0000",
-      "source": "Zendesk Release Notes",
-      "category": "zendesk",
-      "colour": "warning",
-      "fetched_at": "2025-09-09T00:05:10.566068"
-    },
-    "generated_at": "2025-09-09T00:05:29.390176"
-  }
+  "release_notes": {}
 }

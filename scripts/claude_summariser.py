@@ -370,7 +370,7 @@ Be direct and analytical, not promotional."""
             
             # Find the article content area - try multiple selectors
             article_body = None
-            for selector in ['main', 'article', '.article-body', '[class*=article]', '[class*=content]']:
+            for selector in ['main', 'article', '.article-body', '[class*=article]', '.article-content']:
                 article_body = soup.select_one(selector)
                 if article_body:
                     break
@@ -382,42 +382,32 @@ Be direct and analytical, not promotional."""
             # Get all text content
             full_text = article_body.get_text(separator='\n', strip=True)
             
-            # Find start marker
-            start_marker = "This week's release notes include:"
+            # Start AFTER "Products with no updates this week"
+            start_marker = "Products with no updates this week"
             start_idx = full_text.find(start_marker)
             if start_idx == -1:
                 print("WARNING: Could not find start marker, using fallback")
                 return None
             
-            # Find end marker - look for common end patterns
-            end_markers = [
-                "App Marketplace",
-                "Products with no updates", 
-                "Next week",
-                "See our What's New",
-                "For more information",
-                "Resources"
-            ]
+            # Move past the marker line itself
+            start_idx += len(start_marker)
+            content_from_start = full_text[start_idx:]
             
-            end_idx = -1
-            for marker in end_markers:
-                idx = full_text.find(marker, start_idx + 100)  # Start search after initial content
-                if idx != -1:
-                    end_idx = idx
-                    break
+            # Find App Marketplace that comes at the end
+            end_marker = "App Marketplace"
+            end_idx = content_from_start.find(end_marker)
             
-            if end_idx == -1:
-                # If no end marker found, take a reasonable chunk (first 3000 chars)
-                content = full_text[start_idx:start_idx + 3000]
+            if end_idx != -1:
+                content = content_from_start[:end_idx].strip()
             else:
-                content = full_text[start_idx:end_idx]
+                # If no ending App Marketplace found, take a large chunk
+                content = content_from_start[:5000].strip()
             
             # Clean up the content
             content = re.sub(r'\n\s*\n', '\n\n', content)  # Normalize line breaks
             content = content.strip()
             
-            # Additional cleanup for better readability
-            content = self.clean_release_notes_content(content)
+            print(f"Extracted {len(content)} characters of release notes content")
             
             return content
             
