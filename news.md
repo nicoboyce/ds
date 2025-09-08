@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been actively updating its ecosystem, with a focus on AI-powered integrations and features. While the company has announced new capabilities, such as the Faye AI-powered Pipedrive integration and enhancements to its Copilot recommendation system, it has also been grappling with various service incidents, including performance degradation, assignment issues, and adherence feature problems. These stability challenges highlight the need for Zendesk professionals to closely monitor the platform's health and ensure their implementations can withstand the platform's ongoing evolution and occasional disruptions. The mix of new feature announcements and operational issues suggests Zendesk is simultaneously driving innovation and addressing technical challenges, underscoring the importance of agility and resilience for organizations relying on the Zendesk ecosystem.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and integrations while also grappling with some stability and performance issues. Zendesk is pushing hard to expand its AI-powered features, such as the new Copilot recommendation types and the Faye-powered Pipedrive integration, aimed at bridging the gap between sales and support. However, the ecosystem has also been plagued by a series of service incidents, including problems with agent adherence, assignment issues, and performance degradation, which may raise concerns for Zendesk professionals about the platform's reliability and scalability. Overall, Zendesk appears to be balancing its ambitious product roadmap with the need to address fundamental stability and reliability challenges.</p>
         </div>
     </div>
     
@@ -191,7 +191,7 @@ background: grey
                 <span class="source-badge">Zendesk Developer Updates</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
