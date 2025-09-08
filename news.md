@@ -23,7 +23,7 @@ background: grey
             <span class="badge badge-light">2025-09-05</span>
         </div>
         <div class="card-body">
-            <p class="mb-2"><strong>Key Changes:</strong> The latest release introduces several notable enhancements to Zendesk's capabilities. On September 5th, 2025, the company unveiled an advanced AI agent feature, providing customers with more intelligent and responsive support. Additionally, the Workflow Management (WFM) system has been updated, offering improved tools for streamlining and automating various customer service processes. These updates aim to further improve the overall user experience and efficiency of the Zendesk platform.</p>
+            <p class="mb-2"><strong>Key Changes:</strong> Support AI Agents now offer auto-detection for sender authentication on Gmail and Office 365 domains, eliminating the need for manual DKIM/SPF configuration. Copilot introduced 15 new recommendation types for refunds and escalations, macro suggestions in auto-assist procedures, and conversation summarization for Slack channels. WFM can now export agent activity timelines to CSV, with scheduled reports available via email delivery.</p>
             <a href="https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05" class="btn btn-sm btn-outline-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> View Full Release Notes
             </a>
@@ -111,7 +111,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks indicate that the company is actively enhancing its platform capabilities, particularly in the areas of AI and integration. Alongside these product updates, Zendesk has also faced several service incidents and stability issues, highlighting the challenges of managing a complex, cloud-based system. While Zendesk is pushing forward with new features like Copilot recommendations and WhatsApp Flows, it must also address underlying infrastructure concerns to ensure a reliable and performant experience for its users. This balancing act between innovation and stability is a key concern for Zendesk professionals, who must navigate the evolving ecosystem and its implications for their day-to-day operations and long-term strategic planning.</p>
+            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI and integration capabilities, while also grappling with ongoing service incidents and stability issues. Zendesk is pushing forward with new AI-powered integrations, enhanced filtering, and expanded agent management features, indicating a strategic emphasis on improving customer experience and agent productivity. However, the frequent service incidents and performance degradation incidents suggest the company is still working to shore up the reliability and scalability of its platform, which could create challenges for Zendesk professionals tasked with maintaining consistent service levels. Overall, the updates paint a picture of a company in transition, balancing ambitious product development with the need to address underlying technical challenges.</p>
         </div>
     </div>
     
@@ -369,7 +369,7 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>08/09/2025</strong><br>
+                    <strong>09/09/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
