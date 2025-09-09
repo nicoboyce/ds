@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks reveal a company focused on enhancing its product offerings, particularly in the areas of AI and agent management, while also grappling with ongoing service incidents and stability issues. The introduction of new features like Copilot recommendations and end-user separation capabilities suggest Zendesk's commitment to innovation, but the frequency of service disruptions and performance degradation incidents highlights the need for improved platform reliability. For Zendesk professionals, this landscape underscores the importance of closely monitoring the company's roadmap and proactively addressing any potential service disruptions that may impact their customers and operations.",
+  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks reveal a company focused on enhancing its product offerings, particularly in the areas of workforce management, AI-powered recommendations, and end-user management. However, these updates are accompanied by a series of service incidents, suggesting that Zendesk is also grappling with stability and performance issues across its platform. This tension between innovation and reliability is likely to be a key concern for Zendesk professionals, who must balance the adoption of new features with the need for a stable and reliable customer experience.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-09T11:40:21.534741",
+  "generated_at": "2025-09-09T12:40:24.228752",
   "release_notes": {
     "summary": "1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.\n\n2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.",
     "article": {
