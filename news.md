@@ -99,7 +99,7 @@ background: grey
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9677228809498-Announcing-intelligent-triage-for-Voice-calls" class="text-dark" target="_blank">Announcing intelligent triage for Voice calls</a></h6>
                 <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
-                <small class="text-muted">Zendesk Announcements • 4 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 5 days ago</small>
             
             </div>
         </div>
@@ -112,7 +112,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company pushing forward on AI-powered features like intelligent triage for voice calls and new Copilot recommendation types, while also grappling with a series of service incidents and stability issues. The release of new permissions, automation updates, and virtual events suggest Zendesk is focused on enhancing the platform's capabilities and user experience, even as it deals with challenges like performance degradation, assignment issues, and the migration of its QA dashboards. This mix of innovation and operational challenges underscores the need for Zendesk professionals to stay vigilant, monitor the platform's health, and be prepared to adapt to the evolving ecosystem.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company pushing forward on AI-powered features like intelligent triage for voice calls and new Copilot recommendation types, while also grappling with a series of service incidents and stability issues. The release of new permissions, automation updates, and virtual events suggest Zendesk is focused on enhancing the platform's capabilities and user experience, even as it deals with challenges like performance degradation, assignment issues, and the migration of its QA dashboards. This mix of innovation and operational challenges underscores the need for Zendesk professionals to stay vigilant, monitor the platform's health, and be prepared to navigate both the exciting new features and the potential disruptions that come with a rapidly evolving ecosystem.</p>
         </div>
     </div>
     
@@ -185,7 +185,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 5 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
