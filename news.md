@@ -57,7 +57,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        </div>
     </div>
@@ -86,7 +86,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -129,7 +129,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a focus on enhancing its AI capabilities and addressing ongoing stability issues. The company has unveiled new features like intelligent triage for voice calls and expanded Copilot recommendations, signaling its commitment to leveraging AI to improve customer service. However, the ecosystem has also been plagued by a series of service incidents, including performance degradation, assignment issues, and access problems, underscoring the need for Zendesk to shore up its infrastructure and reliability. These developments suggest that Zendesk is striving to stay ahead of the curve in terms of innovation, but must also grapple with the challenges of maintaining a stable and robust platform for its growing user base.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, showcasing the company's continued focus on enhancing its product offerings while also grappling with various service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and expanded Copilot recommendations, aimed at improving customer service and agent productivity. However, the company has also faced several service disruptions, including performance degradation, assignment issues, and access problems, highlighting the need to address underlying infrastructure and reliability concerns. These developments suggest that Zendesk is striving to stay ahead of the curve in terms of innovation, but must also prioritize the stability and reliability of its platform to ensure a seamless experience for its customers and users.</p>
         </div>
     </div>
     
