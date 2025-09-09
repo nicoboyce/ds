@@ -85,7 +85,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">22 stories</span>
+        <span class="badge badge-info ml-2">23 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -97,9 +97,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9641393017242-Announcing-the-End-User-Separation-EAP-for-department-spaces" class="text-dark" target="_blank">Announcing the End User Separation EAP for department spaces</a></h6>
-                <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 14 days ago</small>
+                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9677228809498-Announcing-intelligent-triage-for-Voice-calls" class="text-dark" target="_blank">Announcing intelligent triage for Voice calls</a></h6>
+                <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
+                <small class="text-muted">Zendesk Announcements • 4 days ago</small>
             
             </div>
         </div>
@@ -112,7 +112,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past 3 weeks reveal a company focused on expanding its AI and automation capabilities, as seen in the announcements of new Copilot recommendation types and enhanced dynamic filtering for lookup relationships. However, this period has also been marked by a series of service incidents, including performance degradation, assignment issues, and access problems in the Zendesk QA environment, suggesting that the company is grappling with stability challenges as it pushes forward with new features. For Zendesk professionals, this landscape highlights the need to closely monitor the platform's reliability and performance, while also staying informed about the evolving AI and automation tools that may impact their workflows and customer experiences.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company pushing forward on AI-powered features like intelligent triage for voice calls and new Copilot recommendation types, while also grappling with a series of service incidents and stability issues. The release of new permissions, automation updates, and virtual events suggest Zendesk is focused on enhancing the platform's capabilities and user experience, even as it deals with challenges like performance degradation, assignment issues, and the migration of its QA dashboards. This mix of innovation and operational challenges underscores the need for Zendesk professionals to stay vigilant, monitor the platform's health, and be prepared to adapt to the evolving ecosystem.</p>
         </div>
     </div>
     
@@ -120,7 +120,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -176,10 +176,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9677228809498-Announcing-intelligent-triage-for-Voice-calls" class="text-dark">Announcing intelligent triage for Voice calls</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 4 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9676691663770-Announcing-WFM-agent-activity-CSV-exports" class="text-dark">Announcing WFM agent activity CSV exports</a>
                 <span class="source-badge">Zendesk Announcements</span>
@@ -253,27 +261,11 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9641393017242-Announcing-the-End-User-Separation-EAP-for-department-spaces" class="text-dark">Announcing the End User Separation EAP for department spaces</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://internalnote.com/automated-ticket-redaction/" class="text-dark">Automated ticket redaction via triggers in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9627544817434-Announcing-enhanced-dynamic-filtering-for-lookup-relationships" class="text-dark">Announcing enhanced dynamic filtering for lookup relationships</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -313,8 +305,25 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJiSzVyRDNkZGJJN05nOUs0U1o3bU5SR2RwMWktd1JLVVpiQkxBbmxob2R1NUFSbXI2SEEyUXZPWjIzaThVOHM0OGFXdTZ3UWxLWEZCRlRSS0thLUN3S0JWOFlNc2ZkcldVZ00ycXJWcWpZM0UtU0d2UlRkYjVFbzI2YXMzRk9FSVV3ZDVoRjBxY1VPQ3h3?oc=5" class="text-dark">Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -340,6 +349,14 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 13 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://internalnote.com/value-added-conversations/" class="text-dark">Moving Toward Value-Added Conversations in Zendesk</a>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
