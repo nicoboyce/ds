@@ -57,7 +57,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        </div>
     </div>
@@ -129,7 +129,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a focus on enhancing the platform's capabilities through AI-powered features and improving operational stability. While Zendesk is pushing forward with intelligent triage for voice calls, new Copilot recommendation types, and automated ticket redaction, the company has also had to address several service incidents, including performance degradation and failing calls in Zendesk Sales. These stability issues, coupled with the announcement of the deprecation of wrappers for the Sunshine Conversations API, suggest that Zendesk is navigating a delicate balance between innovation and reliability, which is crucial for Zendesk professionals who rely on the platform's seamless performance to serve their customers effectively.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a focus on enhancing its AI capabilities and addressing ongoing stability issues. The company has unveiled new features like intelligent triage for voice calls and expanded Copilot recommendations, signaling its commitment to leveraging AI to improve customer service. However, the ecosystem has also been plagued by a series of service incidents, including performance degradation, assignment issues, and access problems, underscoring the need for Zendesk to shore up its infrastructure and reliability. These developments suggest that Zendesk is striving to stay ahead of the curve in terms of innovation, but must also grapple with the challenges of maintaining a stable and robust platform for its growing user base.</p>
         </div>
     </div>
     
