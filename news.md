@@ -114,9 +114,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9677228809498-Announcing-intelligent-triage-for-Voice-calls" class="text-dark" target="_blank">Announcing intelligent triage for Voice calls</a></h6>
+                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05" class="text-dark" target="_blank">Release notes through 2025-09-05</a></h6>
                 <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
-                <small class="text-muted">Zendesk Announcements • 5 days ago</small>
+                <small class="text-muted">Zendesk Release Notes • 2 days ago</small>
             
             </div>
         </div>
@@ -129,7 +129,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, showcasing the company's continued focus on enhancing its product offerings while also grappling with various service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and expanded Copilot recommendations, aimed at improving customer service and agent productivity. However, the company has also faced several service disruptions, including performance degradation, assignment issues, and access problems, highlighting the need to address underlying infrastructure and reliability concerns. These developments suggest that Zendesk is striving to stay ahead of the curve in terms of innovation, but must also prioritize the stability and reliability of its platform to ensure a seamless experience for its customers and users.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company pushing forward on new AI-powered features like intelligent triage for voice calls and enhanced Copilot recommendations, while also grappling with a series of service incidents and stability issues. Alongside these product updates, Zendesk has announced changes to permissions, automations, and API wrappers, signaling an ongoing effort to refine and streamline its platform. However, the frequency of service disruptions and the need for maintenance rescheduling suggest that Zendesk professionals may face challenges in ensuring the reliability and performance of the ecosystem, even as the company expands its capabilities. Overall, the updates paint a picture of a company striving to innovate and improve its offerings, while also needing to address underlying stability concerns.</p>
         </div>
     </div>
     
@@ -274,7 +274,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -388,7 +388,7 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09/09/2025</strong><br>
+                    <strong>10/09/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
