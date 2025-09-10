@@ -41,7 +41,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">7 stories</span>
+        <span class="badge badge-primary ml-2">6 stories</span>
     </h2>
 
 
@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -89,18 +89,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">5</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYkNoblBuRVM1dEptd083T3R2MUZJbFRnNEMwem8yU3FlVE5PS1I4SGRoQko0WlpTbVZoQnNEdjNSQThHLTRRMUdveG9FeWVsMjVDOGNwNmlNWTlKYnJTUXVsUnRFY1E1MjJMdXQzQmJHaDhLRUxmcnJjeU1zYy1VUGhnR2hCbmFXQ1p6T3RVR1liaG4xd3dwQ3ZhYnRHOFUwbTVaMHplZktwSXN1R0VjWUV0cjlHMVFsUmpoT2tibGswbXJscUdtV2FQZC1BTUhTTnV4X2JlMWxhems?oc=5" class="text-dark">How Leroy Merlin Turned WhatsApp Into A Customer Experience Lifeline - MSN</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXRWcTA2UFppOWxYNXM4bUxTVzRuZm0ybFBYS0FQVFN6MnZnY2RHRTU3dGFMb3FabUdKMlpKbTVkRl9OdDJUWG1fTmlFOVBrb01SRnNtMTZmNlUzenVWRVF6b0VtZ2s0c1JRdHJIdlExNnZYMjRmS2xJQUo0dXlYTTFaUkljZXc0dUtIbGRPWVNrd29VbnBiX3Bn?oc=5" class="text-dark">AI is a powerful leveller: Zendesk’s Adrian Fallow unpacks tech’s impact on Indian SMBs - YourStory.com</a>
                 
@@ -142,7 +134,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">22 stories</span>
+        <span class="badge badge-info ml-2">21 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -169,7 +161,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its product offerings while grappling with ongoing service incidents and stability issues. Zendesk is pushing forward with new features, such as intelligent triage for Voice calls, agent activity CSV exports, and enhancements to agent timeout and disconnection configurations, as well as the introduction of a new permission to create and edit end users. However, the company has also faced several service incidents, including performance degradation and failing calls in Zendesk Sales, as well as issues with the adherence feature in GCP and assignments getting stuck on pending in Zendesk QA. These stability challenges underscore the need for Zendesk professionals to closely monitor the platform's health and be prepared to address any disruptions that may arise, even as the company continues to expand its capabilities.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its product offerings while also grappling with service incidents and stability issues. Zendesk is pushing forward with new features, such as intelligent triage for Voice calls, agent activity CSV exports, and automated ticket redaction, demonstrating its commitment to improving the customer experience. However, the ecosystem has also been plagued by service incidents, including performance degradation, assignment issues, and access problems, which may raise concerns among Zendesk professionals about the platform's reliability. As Zendesk navigates these challenges, it will be crucial for professionals to closely monitor the platform's health and stay informed about the latest updates and improvements to ensure their Zendesk implementations are functioning effectively.</p>
         </div>
     </div>
     
@@ -177,7 +169,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 21 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -233,7 +225,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -298,19 +290,11 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9645756522138-Announcing-an-update-the-internal-note-trigger-action" class="text-dark">Announcing an update the internal note trigger action</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9642817125786-Announcing-new-Copilot-recommendation-types" class="text-dark">Announcing new Copilot recommendation types</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
