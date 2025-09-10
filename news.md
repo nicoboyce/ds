@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 8 hours ago
+                        <i class="far fa-clock"></i> 9 hours ago
                     </small>
                 </div>
             </div>
@@ -161,7 +161,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with the company pushing forward on new features and capabilities while also grappling with ongoing service incidents and stability issues. The introduction of intelligent triage for Voice calls and enhancements to agent timeout and disconnection configurations suggest a focus on improving customer support experiences, while the deprecation of wrappers for the Sunshine Conversations API and changes to the ticket-closing default automation indicate a continued evolution of the platform. However, the service incidents and performance degradation issues reported during this period underscore the challenges Zendesk faces in maintaining the reliability and scalability of its offerings, which may be of concern to Zendesk professionals as they navigate the changing landscape.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, indicating the company's focus on enhancing its product offerings while also addressing stability and performance issues. The release of new features, such as intelligent triage for Voice calls and enhancements to agent timeout and disconnection configurations, suggest Zendesk's push towards improving customer service capabilities. However, the reports of service incidents, including performance degradation and failing calls, as well as issues with the Zendesk QA platform, highlight the ongoing challenges the company faces in maintaining a stable and reliable platform. These developments underscore the need for Zendesk professionals to closely monitor the ecosystem and be prepared to adapt to the evolving landscape, ensuring their implementations remain effective and aligned with the company's strategic direction.</p>
         </div>
     </div>
     
@@ -266,7 +266,7 @@ background: grey
                 <span class="source-badge">Zendesk Developer Updates</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
