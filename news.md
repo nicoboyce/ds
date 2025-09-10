@@ -86,7 +86,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -129,7 +129,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, showcasing the company's continued focus on enhancing its product offerings while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for Voice calls and expanded Copilot recommendation types, aimed at improving customer support experiences. However, the ecosystem has also been plagued by a series of service incidents, including performance degradation, assignment issues, and access problems, highlighting the need for Zendesk to prioritize platform reliability and stability. These developments suggest that Zendesk professionals must navigate a dynamic landscape, balancing the adoption of new capabilities with the need to ensure a robust and dependable customer service platform.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its product offerings while also grappling with service incidents and stability issues. Zendesk is pushing forward with new features, such as intelligent triage for Voice calls, agent activity CSV exports, and enhancements to agent timeout and disconnection configurations, as well as the introduction of a new permission to create and edit end users. However, the ecosystem has also been plagued by service incidents, including performance degradation, failing calls, and issues with the adherence feature in GCP. These incidents, coupled with the upcoming database maintenance for Zendesk Sales, suggest that Zendesk is still working to address stability and reliability concerns, which could be of interest to Zendesk professionals as they navigate the evolving platform.</p>
         </div>
     </div>
     
