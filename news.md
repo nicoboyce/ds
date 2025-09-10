@@ -41,9 +41,33 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">5 stories</span>
+        <span class="badge badge-primary ml-2">7 stories</span>
     </h2>
 
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            🚨 Incidents & Security
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="item-title">
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
+                    </h5>
+                    <p class="item-summary text-muted">
+                        https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
+                    </p>
+                    <small class="text-muted">
+                        <i class="far fa-clock"></i> 2 hours ago
+                    </small>
+                </div>
+            </div>
+        </article>        </div>
+    </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
@@ -65,10 +89,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYkNoblBuRVM1dEptd083T3R2MUZJbFRnNEMwem8yU3FlVE5PS1I4SGRoQko0WlpTbVZoQnNEdjNSQThHLTRRMUdveG9FeWVsMjVDOGNwNmlNWTlKYnJTUXVsUnRFY1E1MjJMdXQzQmJHaDhLRUxmcnJjeU1zYy1VUGhnR2hCbmFXQ1p6T3RVR1liaG4xd3dwQ3ZhYnRHOFUwbTVaMHplZktwSXN1R0VjWUV0cjlHMVFsUmpoT2tibGswbXJscUdtV2FQZC1BTUhTTnV4X2JlMWxhems?oc=5" class="text-dark">How Leroy Merlin Turned WhatsApp Into A Customer Experience Lifeline - MSN</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXRWcTA2UFppOWxYNXM4bUxTVzRuZm0ybFBYS0FQVFN6MnZnY2RHRTU3dGFMb3FabUdKMlpKbTVkRl9OdDJUWG1fTmlFOVBrb01SRnNtMTZmNlUzenVWRVF6b0VtZ2s0c1JRdHJIdlExNnZYMjRmS2xJQUo0dXlYTTFaUkljZXc0dUtIbGRPWVNrd29VbnBiX3Bn?oc=5" class="text-dark">AI is a powerful leveller: Zendesk’s Adrian Fallow unpacks tech’s impact on Indian SMBs - YourStory.com</a>
                 
@@ -94,7 +126,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -137,7 +169,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its product offerings while also grappling with stability and service issues. The release of new features, such as intelligent triage for Voice calls, agent activity CSV exports, and Copilot recommendation types, suggests Zendesk's continued investment in AI and automation capabilities to improve customer service. However, the ecosystem has also been plagued by several service incidents, including performance degradation, assignment issues, and access problems, which may raise concerns among Zendesk professionals about the platform's reliability and the need for thorough health checks and maintenance. Overall, the updates paint a picture of Zendesk's ambitious product roadmap, balanced against the challenges of maintaining a stable and reliable platform for its growing customer base.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its product offerings while also grappling with stability and performance issues. The release of new features, such as intelligent triage for Voice calls, agent activity CSV exports, and Copilot recommendation types, suggests Zendesk's continued investment in AI-powered capabilities to improve customer service. However, the ecosystem has also been plagued by several service incidents, including performance degradation, assignment issues, and access problems, which may raise concerns among Zendesk professionals about the platform's reliability and the need for more robust infrastructure. As Zendesk navigates these challenges, it will be crucial for professionals to closely monitor the platform's health and stability to ensure seamless operations and deliver exceptional customer experiences.</p>
         </div>
     </div>
     
@@ -218,7 +250,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -298,7 +330,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 days ago
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        </div>
     </div>
@@ -323,7 +355,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        </div>
     </div>
