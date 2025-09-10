@@ -5,12 +5,14 @@
 {% endif %}
 
 {% assign commentary = null %}
+{% assign latest_date = null %}
 {% for entry in site.data.commentary.entries %}
   {% assign entry_date = entry.date | date: "%Y-%m-%d" %}
   {% if entry_date <= page_date %}
-    {% assign commentary = entry %}
-  {% else %}
-    {% break %}
+    {% if latest_date == null or entry_date > latest_date %}
+      {% assign commentary = entry %}
+      {% assign latest_date = entry_date %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
