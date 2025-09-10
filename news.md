@@ -41,7 +41,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">5 stories</span>
     </h2>
 
 
@@ -65,10 +65,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXRWcTA2UFppOWxYNXM4bUxTVzRuZm0ybFBYS0FQVFN6MnZnY2RHRTU3dGFMb3FabUdKMlpKbTVkRl9OdDJUWG1fTmlFOVBrb01SRnNtMTZmNlUzenVWRVF6b0VtZ2s0c1JRdHJIdlExNnZYMjRmS2xJQUo0dXlYTTFaUkljZXc0dUtIbGRPWVNrd29VbnBiX3Bn?oc=5" class="text-dark">AI is a powerful leveller: Zendesk’s Adrian Fallow unpacks tech’s impact on Indian SMBs - YourStory.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
                 
@@ -129,7 +137,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its product offerings while also grappling with service incidents and stability issues. Zendesk is pushing forward with new features, such as intelligent triage for Voice calls, agent activity CSV exports, and enhancements to agent timeout and disconnection configurations, as well as the introduction of a new permission to create and edit end users. However, the ecosystem has also been plagued by service incidents, including performance degradation, failing calls, and issues with the adherence feature in GCP. These incidents, coupled with the upcoming database maintenance for Zendesk Sales, suggest that Zendesk is still working to address stability and reliability concerns, which could be of interest to Zendesk professionals as they navigate the evolving platform.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its AI capabilities and addressing stability concerns. While Zendesk is pushing forward with new features like intelligent triage for Voice calls and Copilot recommendation types, it has also had to contend with several service incidents, including performance degradation and failing calls in Zendesk Sales. These stability issues, coupled with the upcoming deprecation of wrappers for the Sunshine Conversations API, suggest that Zendesk is navigating a delicate balance between innovation and reliability. For Zendesk professionals, this means staying vigilant for potential disruptions while also exploring the potential benefits of the platform's evolving AI-powered features.</p>
         </div>
     </div>
     
@@ -322,30 +330,21 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJiSzVyRDNkZGJJN05nOUs0U1o3bU5SR2RwMWktd1JLVVpiQkxBbmxob2R1NUFSbXI2SEEyUXZPWjIzaThVOHM0OGFXdTZ3UWxLWEZCRlRSS0thLUN3S0JWOFlNc2ZkcldVZ00ycXJWcWpZM0UtU0d2UlRkYjVFbzI2YXMzRk9FSVV3ZDVoRjBxY1VPQ3h3?oc=5" class="text-dark">Why Andreessen and Bain Backed a Self-Described ‘Zendesk Killer’ - The Information</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NXhuVVhWdU9Cekk3TFZYWFVqMFBtcWZIcVB1dkFOTllvMlVQc1RCUmNUaUlGaGQwR3VTeXVzNmhJdkFHVENBUlNfUG5DNGlTQ1Z6ZlBpQnk1LWp0WU9ZTkdObXRLMjZO?oc=5" class="text-dark">I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
                 
             </h6>
             <small class="text-muted">
