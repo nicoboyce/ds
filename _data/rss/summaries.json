@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
+  "recently_narrative": "Over the past three weeks, Zendesk has been actively expanding its ecosystem with new AI-powered integrations and features, such as the Faye Pipedrive integration and the announcement of intelligent triage for Voice calls. However, this period has also been marked by several service incidents, including delays with AI agents, access issues, and errors in the Zendesk QA environment. These stability challenges suggest that Zendesk is pushing the boundaries of its platform capabilities, which could create both opportunities and risks for Zendesk professionals. As the company continues to enhance its offerings, it will be crucial for users to closely monitor the platform's performance and reliability to ensure seamless customer experiences.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-13T22:00:07.026237",
+  "generated_at": "2025-09-13T22:51:26.190283",
   "release_notes": {
     "summary": "1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.\n\n2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.",
     "article": {

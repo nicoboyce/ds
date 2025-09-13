@@ -102,7 +102,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">23 stories</span>
+        <span class="badge badge-info ml-2">22 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -129,7 +129,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The past few weeks show Zendesk pushing new features while struggling with platform stability.</p>
+            <p>Over the past three weeks, Zendesk has been actively expanding its ecosystem with new AI-powered integrations and features, such as the Faye Pipedrive integration and the announcement of intelligent triage for Voice calls. However, this period has also been marked by several service incidents, including delays with AI agents, access issues, and errors in the Zendesk QA environment. These stability challenges suggest that Zendesk is pushing the boundaries of its platform capabilities, which could create both opportunities and risks for Zendesk professionals. As the company continues to enhance its offerings, it will be crucial for users to closely monitor the platform's performance and reliability to ensure seamless customer experiences.</p>
         </div>
     </div>
     
@@ -137,7 +137,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -315,18 +315,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXRWcTA2UFppOWxYNXM4bUxTVzRuZm0ybFBYS0FQVFN6MnZnY2RHRTU3dGFMb3FabUdKMlpKbTVkRl9OdDJUWG1fTmlFOVBrb01SRnNtMTZmNlUzenVWRVF6b0VtZ2s0c1JRdHJIdlExNnZYMjRmS2xJQUo0dXlYTTFaUkljZXc0dUtIbGRPWVNrd29VbnBiX3Bn?oc=5" class="text-dark">AI is a powerful leveller: Zendesk’s Adrian Fallow unpacks tech’s impact on Indian SMBs - YourStory.com</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
                 
@@ -391,7 +383,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>23:51 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
