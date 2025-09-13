@@ -5,6 +5,7 @@ gemspec
 gem "logger"
 gem "csv"
 gem "base64"
+gem "bigdecimal"
 
 # Delete the following lines if not on Windows: 
 # Performance-booster for watching directories on Windows
