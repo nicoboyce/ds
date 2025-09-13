@@ -121,7 +121,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with a strong focus on AI integration and enhancements. The company has reported significant performance improvements and reliability gains after integrating the latest GPT-5 language model, indicating a push towards leveraging AI to improve customer service. However, this AI-driven progress has been accompanied by a series of service incidents, including delays in AI agent responses and access issues, suggesting that Zendesk is still grappling with stability challenges as it rapidly expands its capabilities. For Zendesk professionals, this landscape signals the need to stay abreast of the latest AI-powered features and their implications, while also being prepared to navigate potential service disruptions as the platform continues to evolve.</p>
+            <p>The past few weeks show Zendesk pushing new features while struggling with platform stability.</p>
         </div>
     </div>
     
