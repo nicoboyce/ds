@@ -129,7 +129,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been actively expanding its ecosystem with new AI-powered integrations and features, such as the Faye Pipedrive integration and the announcement of intelligent triage for Voice calls. However, this period has also been marked by several service incidents, including delays with AI agents, access issues, and errors in the Zendesk QA environment. These stability challenges suggest that Zendesk is pushing the boundaries of its platform capabilities, which could create both opportunities and risks for Zendesk professionals. As the company continues to enhance its offerings, it will be crucial for users to closely monitor the platform's performance and reliability to ensure seamless customer experiences.</p>
+            <p>The past few weeks show Zendesk pushing new features while struggling with platform stability.</p>
         </div>
     </div>
     
@@ -383,7 +383,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:51 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
