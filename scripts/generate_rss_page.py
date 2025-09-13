@@ -218,7 +218,7 @@ class RSSPageGenerator:
     def format_claude_summary(self, summary_text, articles=None, section_id='latest'):
         """Format Claude summary for HTML"""
         if not summary_text or summary_text == "No new articles today.":
-            return """            <p class="lead">No new Zendesk updates today. Check back tomorrow for the latest platform developments.</p>"""
+            return """            <p class="lead">No new Zendesk updates today. Check back in an hour for the latest platform developments.</p>"""
         
         # Convert markdown-style formatting to HTML
         html = summary_text
@@ -528,7 +528,7 @@ background: grey
         if total_articles == 0:
             content += """        <div class="alert alert-light">
             <i class="fas fa-info-circle text-muted"></i>
-            No new articles in the last 48 hours. Check back later for updates.
+            No new articles in the last 48 hours. Check back next hour for updates.
         </div>
 """
         
