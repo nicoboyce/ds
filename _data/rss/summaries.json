@@ -3,7 +3,7 @@
   "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-14T15:00:07.360960",
+  "generated_at": "2025-09-14T16:00:04.063690",
   "release_notes": {
     "summary": "1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.\n\n2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.",
     "article": {
