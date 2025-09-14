@@ -69,7 +69,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">25 stories</span>
+        <span class="badge badge-info ml-2">24 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -104,7 +104,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -126,7 +126,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 days ago
+                        <i class="far fa-clock"></i> 4 days ago
                     </small>
                 </div>
             </div>
@@ -282,7 +282,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">7</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -296,14 +296,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPakdyUnFMSGdFWUVyOHdtT0dOcHR4VmltMnVCMHhTU2Z0MHZmYXlVVktXQ1lfcHUxcmdNOGs2TTJGNFV4dTUyZlpkc1FNVFlOWG5vdFV0S2I5YkZBc2lvRlA0RXY4WDNqbTRNWVQ5UnBCdl9ZaERFa0hXNTE5WFpObnJDSjl5ekt0bWxqamV3ZmlJeDdVVmU0a3FZNER3UzFUZ2k5SDdReV9QR2xP?oc=5" class="text-dark">Zendesk Says It’s Time to Move Beyond Outdated Contact Center Metrics - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOakJ4VGhXdWtRRjBvcWJ4azV3cU1ETzRnU3FRajEzQTlKczd4UEo4SmJjNnViR1dQQWJ0YklFY2hLQXVWR1RXMUFzQlZNWGc2ZHFLeWVVT2JNcFJZblNZSmw5NGg2b3E2NzhYc25mUnFtUGtvMjJBbHBwTE91NU1RTy1sNVdlaGw1cEQ3emdydXZ1c2sydTd6Z3VaNmJKTzVIN2JmUHN3c9IBWEFVX3lxTE5iM3VsRWlUR1hVeTdHUDZoajZ2Q3VsLU9JSWxiUTNIREQyUWxkQUVURlowX09HMl9sZlNEWENfRUVTajd0TXQxbHN4VmJkNG5iTmQ3ZjJ6MnE?oc=5" class="text-dark">Del. Justices Urged To Revive $10.5B Zendesk Deal Challenge - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -374,7 +366,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
