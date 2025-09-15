@@ -3,20 +3,20 @@
   "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-15T17:00:06.101522",
+  "generated_at": "2025-09-15T18:00:07.173745",
   "release_notes": {
-    "summary": "1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.\n\n2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.",
+    "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
-      "id": "e892740a7ffc",
-      "title": "Release notes through 2025-09-05",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nKnowledge\nZendesk Workflow Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nSender Authentication improvements: We've rolled out aut...",
-      "pub_date": "Sun, 07 Sep 2025 23:12:48 +0000",
+      "id": "d37576d4b09b",
+      "title": "Release notes through 2025-09-12",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9717582914970-Release-notes-through-2025-09-12",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nApp Marketplace\nProducts with no updates this week\nCopilotNew:\nIntelligent triage for voice calls helps you get structured insights on intent, entity, sentiment, and language that powers sma...",
+      "pub_date": "Mon, 15 Sep 2025 14:54:24 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-09-09T00:37:55.222892"
+      "fetched_at": "2025-09-15T18:00:04.302187"
     },
-    "generated_at": "2025-09-09T00:38:11.760515"
+    "generated_at": "2025-09-15T18:00:07.173788"
   }
 }
