@@ -56,7 +56,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">25 stories</span>
+        <span class="badge badge-info ml-2">24 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -91,7 +91,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -147,7 +147,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -238,14 +238,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9627121583258-Announcing-the-migration-of-Zendesk-QA-dashboards-to-a-new-platform" class="text-dark">Announcing the migration of Zendesk QA dashboards to a new platform</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 23 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -307,14 +299,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -324,6 +308,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPNkRoU3VmUFlocDVkLXI4QlBJSmdOU0x3cUlWM2dVRU55aVZQQkFyUUhvSGRqb09sSkFOcWNQR2FydWlnZTNuTEN2TGdrY2Vpa1BoV00wMGVjUGthOUh0ajlKNS1DRG9NUXN0NW9FWENlTEd5Wm9NSlluWDR4RlNGUnRDR1JzeDg?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration to Bridge Sales and Support - Yahoo Finance</a>
                 
             </h6>
             <small class="text-muted">
@@ -370,7 +362,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>05:00 (London)</strong><br>
+                    <strong>06:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
