@@ -83,7 +83,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. The company is pushing hard to scale its outcome-based pricing and leverage AI to drive KPI gains for customers, as evidenced by the integration of GPT-5 and the introduction of intelligent triage for voice calls. However, this push for innovation has been accompanied by a series of service incidents, including access issues and 5xx errors, highlighting the need for Zendesk to maintain stability and reliability as it expands its capabilities. For Zendesk professionals, this means navigating a rapidly evolving landscape, where the promise of AI-driven efficiency must be balanced with the realities of managing a complex, mission-critical platform.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. The company is pushing hard to scale its outcome-based pricing and leverage AI to drive KPI gains for customers, as evidenced by the integration of GPT-5 and the introduction of intelligent triage for voice calls. However, this push for innovation has been accompanied by a series of service incidents, including access issues and 5xx errors, highlighting the need for Zendesk to maintain stability and reliability as it expands its capabilities. For Zendesk professionals, this means navigating a rapidly evolving landscape, where the promise of AI-driven efficiency must be balanced with the realities of managing a complex and dynamic platform.</p>
         </div>
     </div>
     
@@ -362,7 +362,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:50 (London)</strong><br>
+                    <strong>11:51 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
