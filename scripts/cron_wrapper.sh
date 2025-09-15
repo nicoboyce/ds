@@ -4,12 +4,6 @@
 # Set up PATH for cron environment
 export PATH="/usr/local/bin:/usr/bin:/bin"
 
-# Set up rbenv if it exists
-if [ -d "$HOME/.rbenv" ]; then
-    export PATH="$HOME/.rbenv/bin:$PATH"
-    eval "$(rbenv init -)"
-fi
-
 # Preserve Claude API key if set
 if [ -n "$CLAUDE_API_KEY" ]; then
     export CLAUDE_API_KEY="$CLAUDE_API_KEY"
