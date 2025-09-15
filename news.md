@@ -83,7 +83,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The past few weeks show Zendesk pushing new features while struggling with platform stability.</p>
+            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company doubling down on AI-powered features and integrations while also grappling with a series of service incidents. The push towards outcome-based pricing and AI-driven customer support is evident, with reports of significant KPI gains and faster response times after integrating GPT-5. However, the ecosystem has also experienced stability issues, including agent access problems, 5xx errors, and customer adherence feature outages, underscoring the challenges of implementing these advanced technologies at scale. For Zendesk professionals, this landscape signals the need to carefully navigate the balance between innovation and reliability, ensuring that the platform's capabilities are leveraged effectively while maintaining a robust and resilient customer experience.</p>
         </div>
     </div>
     
@@ -131,7 +131,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -362,7 +362,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:00 (London)</strong><br>
+                    <strong>11:49 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>

@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The past few weeks show Zendesk pushing new features while struggling with platform stability.",
+  "recently_narrative": "The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company doubling down on AI-powered features and integrations while also grappling with a series of service incidents. The push towards outcome-based pricing and AI-driven customer support is evident, with reports of significant KPI gains and faster response times after integrating GPT-5. However, the ecosystem has also experienced stability issues, including agent access problems, 5xx errors, and customer adherence feature outages, underscoring the challenges of implementing these advanced technologies at scale. For Zendesk professionals, this landscape signals the need to carefully navigate the balance between innovation and reliability, ensuring that the platform's capabilities are leveraged effectively while maintaining a robust and resilient customer experience.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-15T09:00:03.928326",
+  "generated_at": "2025-09-15T10:49:35.419024",
   "release_notes": {
     "summary": "1. Support added auto-detection for sender authentication using ARC (Authenticated Received Chain) headers, increased the number of recent emails imported by the Gmail connector from 50 to 300, and added new import functionality for the Exchange Connector to import the 300 most recent emails.\n\n2. Zendesk Workflow Management (WFM) now allows exporting a structured CSV of agent activity timelines directly from the Agent Activity page, and when grouping by organization in reports, users will see clearer distinctions between actual organizations, non-ticket activity, and data with no associated organization.",
     "article": {
