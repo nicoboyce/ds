@@ -39,13 +39,26 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">0 stories</span>
+        <span class="badge badge-primary ml-2">1 stories</span>
     </h2>
 
-        <div class="alert alert-light">
-            <i class="fas fa-info-circle text-muted"></i>
-            No new articles in the last 48 hours. Check back next hour for updates.
-        </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            💡 Resources & Learning
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQUkxjeEpHdnpMOHFoYmFIRmlRd3VPQk1XQkxCS0YtdDVqZTh5U3ZKaFlCbUJVUlZnbkEzbUdnWVV2ZklTcVNnR2xpYTdmV1U1ZkNtYV91T0szanJrOEJHUGFTVHMxTVZsbk9CVWZqTnBuUEsyMlNSNGNkNXkxX2dtQ0hVV1FmcHR0ME1MRk05ZVhWRjVFZm5NRGl6cEZnd0hYSmhYQTh6NDdac1Bs?oc=5" class="text-dark">AI at the Core: Zendesk’s Bold Vision for the Future of Contact Centers - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
 
 </div>
 
@@ -202,7 +215,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 days ago
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -333,7 +346,7 @@ background: grey
                 <span class="source-badge">Zendesk What's New</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 days ago
+                <i class="far fa-clock"></i> 20 days ago
             </small>
         </article>        </div>
     </div>
@@ -360,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
