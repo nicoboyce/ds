@@ -56,7 +56,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">24 stories</span>
+        <span class="badge badge-info ml-2">25 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -91,7 +91,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -99,7 +99,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -113,7 +113,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 days ago
+                        <i class="far fa-clock"></i> 5 days ago
                     </small>
                 </div>
             </div>
@@ -132,14 +132,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 18 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP" class="text-dark">Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 23 days ago
             </small>
         </article>        </div>
     </div>
@@ -278,7 +270,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -292,6 +284,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPakdyUnFMSGdFWUVyOHdtT0dOcHR4VmltMnVCMHhTU2Z0MHZmYXlVVktXQ1lfcHUxcmdNOGs2TTJGNFV4dTUyZlpkc1FNVFlOWG5vdFV0S2I5YkZBc2lvRlA0RXY4WDNqbTRNWVQ5UnBCdl9ZaERFa0hXNTE5WFpObnJDSjl5ekt0bWxqamV3ZmlJeDdVVmU0a3FZNER3UzFUZ2k5SDdReV9QR2xP?oc=5" class="text-dark">Zendesk Says It’s Time to Move Beyond Outdated Contact Center Metrics - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNWFNsOUgzVGZsTVZDVWc1VkVuN2ZDSHQ0VjVoekNta0Y0RlE1U3FBb1pSc0o1NFdxTnJUaWhjbkNVb1AyTmhnTmtERmRGN0Y3aGhMUWt1RjZTcGZNMFhuRENXUW5qeVJFZ3RyNzBLWW1DY25rRl9RWFd2aVR5X0xvcHVVQlk1aC02SkRRMXp6aFdQV1E3aG92NGJSMzdCZEQ4MHhxM9IBWEFVX3lxTE5iM3VsRWlUR1hVeTdHUDZoajZ2Q3VsLU9JSWxiUTNIREQyUWxkQUVURlowX09HMl9sZlNEWENfRUVTajd0TXQxbHN4VmJkNG5iTmQ3ZjJ6MnE?oc=5" class="text-dark">Del. Justices Urged To Revive $10.5B Zendesk Deal Challenge - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -331,6 +331,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9642327422874-What-s-new-in-Zendesk-September-2025" class="text-dark">What's new in Zendesk: September 2025</a>
                 <span class="source-badge">Zendesk What's New</span>
             </h6>
@@ -362,7 +370,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
