@@ -84,7 +84,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">26 stories</span>
+        <span class="badge badge-info ml-2">25 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -119,7 +119,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 26 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -224,7 +224,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -306,7 +306,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -343,7 +343,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -360,14 +360,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NXhuVVhWdU9Cekk3TFZYWFVqMFBtcWZIcVB1dkFOTllvMlVQc1RCUmNUaUlGaGQwR3VTeXVzNmhJdkFHVENBUlNfUG5DNGlTQ1Z6ZlBpQnk1LWp0WU9ZTkdObXRLMjZO?oc=5" class="text-dark">I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
                 
             </h6>
             <small class="text-muted">
@@ -406,7 +398,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
