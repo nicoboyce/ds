@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">2 stories</span>
+        <span class="badge badge-primary ml-2">3 stories</span>
     </h2>
 
 
@@ -63,10 +63,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQQkFIRF96Mm1RR0hXS1gxUGQyTTZ5NzdlLTJmUi1zTjQxNTY2RUZGVnp5eFd2Q1FSWGhBR0tacFhGX3dRQUJZU2lpUWx2Nmg2VmVEb1lRTDhfX0NJRUF1VGgxS2Y2ajlhdWlMejE0X29TUmhIMVJEUTlJTXQwSmNkU0MxNDhZeGQyWUstMEFvRVRlbS1D?oc=5" class="text-dark">Zendesk to Shutter Zendesk Sell, Go All-In on Customer Service - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQUkxjeEpHdnpMOHFoYmFIRmlRd3VPQk1XQkxCS0YtdDVqZTh5U3ZKaFlCbUJVUlZnbkEzbUdnWVV2ZklTcVNnR2xpYTdmV1U1ZkNtYV91T0szanJrOEJHUGFTVHMxTVZsbk9CVWZqTnBuUEsyMlNSNGNkNXkxX2dtQ0hVV1FmcHR0ME1MRk05ZVhWRjVFZm5NRGl6cEZnd0hYSmhYQTh6NDdac1Bs?oc=5" class="text-dark">AI at the Core: Zendesk’s Bold Vision for the Future of Contact Centers - CX Today</a>
                 
@@ -406,7 +414,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:00 (London)</strong><br>
+                    <strong>20:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
