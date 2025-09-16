@@ -92,7 +92,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">26 stories</span>
+        <span class="badge badge-info ml-2">23 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -127,7 +127,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 26 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -180,19 +180,19 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9709498730010-Announcing-brand-membership-management-directly-from-the-agent-profile" class="text-dark">Announcing brand membership management directly from the agent profile</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 3 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9703831101978-Announcing-incremental-export-APIs-for-custom-object-records" class="text-dark">Announcing incremental export APIs for custom object records</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 5 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNandJWFIwSkx3NHo1NzF4Q09kbG5RUVZwNUFZbFg1TS1UUnZERVJja0RXdVJpQlRTNkwzNFFTWjROdEY4eEpzOG0tRnhMcUhpT2hPUGtrdzhxUmJCTG9WRW80MllRcDRNWDhKaExlUVI1eTVOSThJNS1EVFNMemJZUmdrenFpZEVrU1JNZFZIajJvdzRHR3c1SHdjcVJQcmpjUndmektiM2VyN0F0UlctLWZMTzFzUFJiRkkyeXFSU2kwMVNyRnc?oc=5" class="text-dark">Streamline customer support operations by integrating Zendesk with AWS Support API | Amazon Web Services - Amazon Web Services</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -248,7 +248,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 days ago
+                <i class="far fa-clock"></i> 20 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -314,28 +314,12 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">6</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFA5a2poSlJPYVlORlhWQ25ocFpVZkVnMTdzZWFYeEFrN3RvRDk1MEVvSnU1ZFkteE9tMlV1YjREMTRLc052X282Z1hqTHBuWWVkcEl5VlR1ZDVORFB5Z0xSYl9oemNMSVNNV3ZoeWdhMUVReTAtWkNTTFdkMA?oc=5" class="text-dark">Report: 95% of IT Leaders Seeing KPI Gains With AI - digit.fyi</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPakdyUnFMSGdFWUVyOHdtT0dOcHR4VmltMnVCMHhTU2Z0MHZmYXlVVktXQ1lfcHUxcmdNOGs2TTJGNFV4dTUyZlpkc1FNVFlOWG5vdFV0S2I5YkZBc2lvRlA0RXY4WDNqbTRNWVQ5UnBCdl9ZaERFa0hXNTE5WFpObnJDSjl5ekt0bWxqamV3ZmlJeDdVVmU0a3FZNER3UzFUZ2k5SDdReV9QR2xP?oc=5" class="text-dark">Zendesk Says It’s Time to Move Beyond Outdated Contact Center Metrics - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOaVpXMnVtZnJ2eW5pSVI5VXJxVW0tdWZRVTVoX0QtMDh1b3dHM2s0SGI3cVp3a2FNdTNJZW93XzEwUnBtT2R0blpiVTBQcG42amN2cUxlUkV1ZHBzXzhxb1hfVmdYa0RncE4wTGEyZ0pOVE81N09iOUJyQlppaDEyTngwSDdPckllZVBKWDJzQThhNm5QS2Y3OHdJNnVEUdIBVkFVX3lxTE1BeElDYUxWZElQWXVNS05Ic2JOMGZqZ0VzeUhwdU5ybk9KOEhBMmlYSzBZa25hbE1CR3NsTExYZEltSzdSbXNMNlhLSFg5U0o5OEIxRV9n?oc=5" class="text-dark">Del. Justices Urged To Revive $10.5B Zendesk Deal Challenge - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -375,19 +359,11 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9642327422874-What-s-new-in-Zendesk-September-2025" class="text-dark">What's new in Zendesk: September 2025</a>
                 <span class="source-badge">Zendesk What's New</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        </div>
     </div>
@@ -414,7 +390,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
