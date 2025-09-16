@@ -67,7 +67,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">24 stories</span>
+        <span class="badge badge-info ml-2">25 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -102,7 +102,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -150,7 +150,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -160,6 +160,14 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 4 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNandJWFIwSkx3NHo1NzF4Q09kbG5RUVZwNUFZbFg1TS1UUnZERVJja0RXdVJpQlRTNkwzNFFTWjROdEY4eEpzOG0tRnhMcUhpT2hPUGtrdzhxUmJCTG9WRW80MllRcDRNWDhKaExlUVI1eTVOSThJNS1EVFNMemJZUmdrenFpZEVrU1JNZFZIajJvdzRHR3c1SHdjcVJQcmpjUndmektiM2VyN0F0UlctLWZMTzFzUFJiRkkyeXFSU2kwMVNyRnc?oc=5" class="text-dark">Streamline customer support operations by integrating Zendesk with AWS Support API - Amazon Web Services</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -373,7 +381,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09:00 (London)</strong><br>
+                    <strong>10:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
