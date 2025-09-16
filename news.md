@@ -39,9 +39,26 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">3 stories</span>
+        <span class="badge badge-primary ml-2">4 stories</span>
     </h2>
 
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            🚀 Product Updates
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9722289253914-Announcing-updates-to-the-Agent-as-Requester-workflow-to-support-multibrand-requests" class="text-dark">Announcing updates to the Agent as Requester workflow to support multibrand requests</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 6 hours ago
+            </small>
+        </article>        </div>
+    </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
@@ -390,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01:00 (London)</strong><br>
+                    <strong>01:34 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
