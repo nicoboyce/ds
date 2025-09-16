@@ -10,5 +10,11 @@ if [ -n "$CLAUDE_API_KEY" ]; then
 fi
 
 # Change to site directory and run automation
-cd "/Users/nico/ds/ds"
+cd "/Users/nico/ds/ds" || exit 1
+
+# Run with explicit error capture
+echo "=== LaunchAgent execution started at $(date) ===" >> _data/rss/cron.log 2>&1
 python3 scripts/daily_rss_update.py >> _data/rss/cron.log 2>&1
+exit_code=$?
+echo "=== LaunchAgent execution ended with exit code $exit_code at $(date) ===" >> _data/rss/cron.log 2>&1
+exit $exit_code
