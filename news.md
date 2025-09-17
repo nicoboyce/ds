@@ -136,7 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving operational efficiency. The company is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, this push for innovation has been accompanied by a series of service incidents, including access issues and 5xx errors, highlighting the need for Zendesk professionals to closely monitor the platform's stability and performance. Additionally, the company has introduced new administrative features, such as configurable expiration periods for public attachments and the ability to create and edit end-users, which suggest an ongoing effort to provide more control and customization options for Zendesk users.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving operational efficiency. The company is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, this expansion has been accompanied by some stability issues, including service incidents and access problems, highlighting the need for Zendesk professionals to closely monitor the platform's health and performance. Overall, the updates suggest Zendesk is striving to stay ahead of the curve in terms of AI and automation, while also grappling with the challenges of scaling its platform to meet the evolving needs of its customers.</p>
         </div>
     </div>
     
@@ -176,7 +176,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01:48 (London)</strong><br>
+                    <strong>02:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
