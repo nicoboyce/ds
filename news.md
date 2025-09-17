@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        </div>
     </div>
@@ -136,7 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. Zendesk is pushing the boundaries of its platform, announcing advancements in areas like intelligent triage for voice calls, AI-powered integrations, and enhanced analytics capabilities. However, the ecosystem has also grappled with some stability issues, including service incidents and challenges with authentication and access. These updates and incidents suggest that Zendesk is striving to stay ahead of the curve in a rapidly evolving customer service landscape, but must also address underlying infrastructure and reliability concerns to ensure a seamless experience for its users.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving platform stability. Zendesk is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, the company has also had to contend with several service incidents, including access issues and 5xx errors, underscoring the need for robust infrastructure and proactive monitoring. For Zendesk professionals, these developments signal a continued emphasis on leveraging AI and automation to drive efficiency, while also highlighting the importance of maintaining a stable and reliable platform to support their customers.</p>
         </div>
     </div>
     
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
