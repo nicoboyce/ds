@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">5 stories</span>
     </h2>
 
 
@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 hours ago
+                <i class="far fa-clock"></i> 21 hours ago
             </small>
         </article>        </div>
     </div>
@@ -63,10 +63,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOSEM1azczckRNZG1MWFVLNzJqRW5uSy11OXR5dFV0UlpydGtEOV9oelVNU0ptNTU5SHlYZXRfQjRfWThQendTN0U1WHdZNm9jX2I4bEFLckpCekZuY0lfRTF3bkNDd2RBUGloRWhidzl4ZEhxUkdQbVJwc2dveXRuLXNURGx5VjhYVklmS3ZQZXd5NmNCY2pZNA?oc=5" class="text-dark">Help Desk Ticketing Software Market Segmentation Analysis - openPR.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/resolution-platform-pricing-from-seats-to-solutions/" class="text-dark">Resolution Platform Pricing: From Seats to Solutions</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -136,7 +144,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving operational efficiency. The company is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, this expansion has been accompanied by some stability issues, including service incidents and access problems, highlighting the need for robust infrastructure and testing. For Zendesk professionals, these developments signal a continued emphasis on leveraging AI and automation to streamline customer service, while also underscoring the importance of proactive monitoring and incident management to ensure a seamless user experience.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving operational efficiency. The company is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, this expansion has been accompanied by some stability issues, including service incidents and access problems, highlighting the need for Zendesk professionals to closely monitor the platform's health and performance. Overall, the updates suggest Zendesk is striving to stay ahead of the curve in terms of AI and automation, while also grappling with the challenges of scaling its platform to meet the evolving needs of its customers.</p>
         </div>
     </div>
     
@@ -249,7 +257,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 days ago
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -352,7 +360,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -407,7 +415,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
