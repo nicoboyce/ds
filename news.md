@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        </div>
     </div>
@@ -136,7 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. Zendesk is pushing the boundaries of its platform, announcing new AI-driven capabilities like intelligent triage for voice calls, as well as integrations with other CRM tools like Pipedrive. However, the company has also had to grapple with service incidents and stability issues, underscoring the challenges of rapidly scaling its technology. For Zendesk professionals, these updates signal a continued emphasis on innovation and automation, but also the need to carefully manage the implementation and integration of these new features to ensure a seamless customer experience.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. Zendesk is pushing the boundaries of its platform, announcing new AI-driven capabilities like intelligent triage for voice calls, as well as integrations with other CRM tools like Pipedrive. However, the company has also had to grapple with service incidents and stability issues, including delays in AI agent responses and access problems. This suggests that while Zendesk is aggressively innovating, it must also ensure the reliability and performance of its core platform to meet the evolving needs of its customers. For Zendesk professionals, these updates highlight the importance of staying up-to-date with the latest features and capabilities, while also being prepared to address any potential service disruptions or technical challenges.</p>
         </div>
     </div>
     
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>08:00 (London)</strong><br>
+                    <strong>09:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
