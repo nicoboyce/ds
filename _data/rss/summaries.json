@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. The company is pushing hard to scale its outcome-based pricing and leverage AI for intelligent triage and faster response times, as evidenced by the GPT-5 integration and the new AI-powered Pipedrive Zendesk integration. However, this expansion has been accompanied by a series of service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. For Zendesk professionals, this means navigating a rapidly evolving landscape of new capabilities and features, while also ensuring the underlying platform remains reliable and secure for their customers.",
+  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. Zendesk is pushing the boundaries of its contact center capabilities, introducing intelligent triage for voice calls, AI-powered pricing models, and GPT-5 integration for faster response times. However, this rapid innovation has been accompanied by a series of service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it scales its platform. For Zendesk professionals, this landscape signals a shift towards a more AI-centric future, but also highlights the need to carefully manage the implementation and integration of these new technologies to ensure reliable and seamless customer experiences.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-17T22:00:08.738245",
+  "generated_at": "2025-09-17T23:00:11.788357",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {

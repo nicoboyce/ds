@@ -39,14 +39,14 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">6 stories</span>
+        <span class="badge badge-primary ml-2">7 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -55,7 +55,15 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 hours ago
+                <i class="far fa-clock"></i> 8 hours ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9723160453786-Announcing-new-options-for-side-conversations" class="text-dark">Announcing new options for side conversations</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -152,7 +160,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. The company is pushing hard to scale its outcome-based pricing and leverage AI for intelligent triage and faster response times, as evidenced by the GPT-5 integration and the new AI-powered Pipedrive Zendesk integration. However, this expansion has been accompanied by a series of service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. For Zendesk professionals, this means navigating a rapidly evolving landscape of new capabilities and features, while also ensuring the underlying platform remains reliable and secure for their customers.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. Zendesk is pushing the boundaries of its contact center capabilities, introducing intelligent triage for voice calls, AI-powered pricing models, and GPT-5 integration for faster response times. However, this rapid innovation has been accompanied by a series of service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it scales its platform. For Zendesk professionals, this landscape signals a shift towards a more AI-centric future, but also highlights the need to carefully manage the implementation and integration of these new technologies to ensure reliable and seamless customer experiences.</p>
         </div>
     </div>
     
@@ -216,7 +224,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -285,14 +293,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9645756522138-Announcing-an-update-the-internal-note-trigger-action" class="text-dark">Announcing an update the internal note trigger action</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://internalnote.com/automated-ticket-redaction/" class="text-dark">Automated ticket redaction via triggers in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -339,7 +339,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">7</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -384,6 +384,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9642327422874-What-s-new-in-Zendesk-September-2025" class="text-dark">What's new in Zendesk: September 2025</a>
                 <span class="source-badge">Zendesk What's New</span>
             </h6>
@@ -415,7 +423,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
