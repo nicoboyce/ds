@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving operational efficiency. The company is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, this expansion has been accompanied by some stability issues, including service incidents and access problems, highlighting the need for Zendesk professionals to closely monitor the platform's health and performance. Overall, the updates suggest Zendesk is striving to stay ahead of the curve in terms of AI and automation, while also grappling with the challenges of scaling its platform to meet the evolving needs of its customers.",
+  "recently_narrative": "Over the past three weeks, Zendesk has been actively expanding its ecosystem with a focus on AI-powered features and integrations. The company has announced several new capabilities, including intelligent triage for voice calls, AI-powered pricing models, and GPT-5 integration for faster response times. However, this period has also seen Zendesk grapple with service incidents and stability issues, including access problems and 5xx errors. This suggests that while Zendesk is pushing the boundaries of its contact center offerings, it must also address underlying infrastructure challenges to ensure reliable performance for its customers. For Zendesk professionals, this means navigating a rapidly evolving landscape of new features and capabilities, while also being prepared to manage any potential service disruptions or technical difficulties that may arise.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-17T16:00:10.827541",
+  "generated_at": "2025-09-17T17:00:10.400674",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
