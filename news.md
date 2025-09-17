@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        </div>
     </div>
@@ -144,7 +144,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been actively expanding its ecosystem with a focus on AI-powered features and integrations. The company has announced several new capabilities, including intelligent triage for voice calls, AI-powered pricing models, and GPT-5 integration for faster response times. However, this period has also seen Zendesk grapple with service incidents and stability issues, including access problems and 5xx errors. This suggests that while Zendesk is pushing the boundaries of its contact center offerings, it must also address underlying infrastructure challenges to ensure reliable performance for its customers. For Zendesk professionals, this means navigating a rapidly evolving landscape of new features and capabilities, while also being prepared to manage any potential service disruptions or technical difficulties that may arise.</p>
+            <p>Over the past three weeks, Zendesk has been actively expanding its ecosystem with a focus on AI-powered features and integrations. The company has announced several new capabilities, including intelligent triage for voice calls, AI-powered pricing models, and GPT-5 integration for faster response times. However, this period has also seen Zendesk grapple with service incidents and stability issues, including access problems and 5xx errors. This suggests that while Zendesk is pushing the boundaries of its contact center offerings, it must also address underlying infrastructure challenges to ensure reliable performance for its customers. For Zendesk professionals, this means navigating a rapidly evolving landscape of new features and capabilities, while also being prepared to troubleshoot and mitigate any potential service disruptions.</p>
         </div>
     </div>
     
@@ -233,7 +233,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -281,7 +281,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -289,7 +289,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        </div>
     </div>
@@ -415,7 +415,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
