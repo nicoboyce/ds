@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 hours ago
+                <i class="far fa-clock"></i> 7 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -152,7 +152,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. The company is pushing hard to scale its outcome-based pricing and leverage AI for intelligent triage and faster response times, as evidenced by the GPT-5 integration and the new AI-powered Pipedrive Zendesk integration. However, this expansion has been accompanied by several service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. For Zendesk professionals, this means navigating a rapidly evolving landscape of new capabilities and features, while also ensuring the underlying infrastructure can support the increased demands on the platform.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. The company is pushing hard to scale its outcome-based pricing and leverage AI for intelligent triage and faster response times, as evidenced by the GPT-5 integration and the new AI-powered Pipedrive Zendesk integration. However, this expansion has been accompanied by a series of service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. For Zendesk professionals, this means navigating a rapidly evolving landscape of new capabilities and features, while also ensuring the underlying platform remains reliable and secure for their customers.</p>
         </div>
     </div>
     
@@ -265,7 +265,7 @@ background: grey
                 <span class="source-badge">Zendesk Developer Updates</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -415,7 +415,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>22:00 (London)</strong><br>
+                    <strong>23:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
