@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on AI-powered features and integrations. Zendesk is pushing the boundaries of its contact center capabilities, introducing intelligent triage for voice calls, AI-powered pricing models, and GPT-5 integration for faster response times. However, this rapid innovation has been accompanied by a series of service incidents, including access issues, 5xx errors, and customer-facing problems, suggesting that Zendesk is still grappling with stability challenges as it scales its platform. For Zendesk professionals, this landscape signals a shift towards a more AI-centric future, but also highlights the need to carefully manage the implementation and integration of these new technologies to ensure reliable and seamless customer experiences.",
+  "recently_narrative": "Over the past three weeks, Zendesk has been aggressively pushing its AI-powered vision for the future of contact centers, with the release of features like intelligent triage for voice calls and AI-powered integrations. However, this expansion has been accompanied by a series of service incidents, including AI agent delays and QA access issues, suggesting that the company is still grappling with stability challenges as it rapidly integrates new technologies. Zendesk professionals should be aware of these tensions as they navigate the evolving ecosystem, and ensure that their implementations are thoroughly tested and optimized to mitigate the risk of disruptions. The overall narrative points to Zendesk's determination to lead the charge in AI-driven customer experience, but also highlights the need for careful planning and execution to ensure a seamless transition for their customers.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-17T23:00:11.788357",
+  "generated_at": "2025-09-18T00:00:08.072012",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
