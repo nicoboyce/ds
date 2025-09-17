@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 hours ago
+                <i class="far fa-clock"></i> 5 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -152,7 +152,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been actively enhancing its platform with a strong focus on AI-powered features and capabilities. The company has announced the integration of GPT-5 technology, which has reportedly resulted in a 30% faster response time and 95% reliability, as well as the introduction of intelligent triage for voice calls. These AI-driven advancements suggest Zendesk is positioning itself to be at the forefront of the AI-powered contact center era. However, the ecosystem has also experienced some stability issues, with several service incidents reported, including access problems and 5xx errors. This combination of feature expansions and operational challenges highlights the need for Zendesk professionals to closely monitor the platform's health and ensure their implementations are optimized to leverage the new AI-powered capabilities while maintaining reliable service delivery.</p>
+            <p>Over the past three weeks, Zendesk has been actively enhancing its platform with a strong focus on AI-powered features and capabilities. The company has announced the integration of GPT-5 technology, which has reportedly resulted in a 30% faster response time and 95% reliability, as well as the introduction of intelligent triage for voice calls. These AI-driven advancements suggest Zendesk is positioning itself at the forefront of the AI-powered contact center era. However, the ecosystem has also experienced some stability issues, with several service incidents reported, including access problems and 5xx errors. This combination of feature expansions and technical challenges highlights the ongoing balancing act Zendesk faces as it strives to deliver innovative solutions while maintaining platform reliability for its customers.</p>
         </div>
     </div>
     
@@ -415,7 +415,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>20:00 (London)</strong><br>
+                    <strong>21:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
