@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 hours ago
+                <i class="far fa-clock"></i> 19 hours ago
             </small>
         </article>        </div>
     </div>
@@ -136,7 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. Zendesk is clearly doubling down on AI, with announcements of AI-powered triage for voice calls, GPT-5 integration for faster response times, and outcome-based pricing models. However, the ecosystem has also been plagued by a series of service incidents, including access issues and 5xx errors, suggesting that Zendesk is still grappling with stability challenges as it rapidly expands its capabilities. For Zendesk professionals, this means navigating a rapidly evolving landscape of new features and tools, while also ensuring the underlying platform remains reliable and secure for their customers.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. Zendesk is doubling down on AI integration, as evidenced by the announcement of GPT-5 integration and intelligent triage for voice calls, while also addressing stability issues with service incidents and outages. The company is pushing for more customization and automation, with updates to ticket-closing defaults, agent timeout configurations, and the ability to create and edit end-users. However, these advancements are tempered by ongoing challenges, such as the deprecation of Sunshine Conversations API wrappers, suggesting that Zendesk is navigating a complex landscape of feature development and platform maintenance. For Zendesk professionals, these updates signal a continued emphasis on AI and automation, along with the need to stay vigilant in managing the platform's stability and customization capabilities.</p>
         </div>
     </div>
     
@@ -395,7 +395,7 @@ background: grey
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>174</strong><br>
+                    <strong>175</strong><br>
                     <small class="text-muted">Total Articles</small>
                 </div>
                 <div class="col-md-3">
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14:00 (London)</strong><br>
+                    <strong>15:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
