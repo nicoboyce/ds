@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 hours ago
+                <i class="far fa-clock"></i> 14 hours ago
             </small>
         </article>        </div>
     </div>
@@ -136,7 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. Zendesk is pushing the boundaries of its platform, announcing new AI-driven capabilities like intelligent triage for voice calls, as well as integrations with other CRM tools like Pipedrive. However, the company has also had to grapple with service incidents and stability issues, including delays in AI agent responses and access problems. This suggests that while Zendesk is aggressively innovating, it must also ensure the reliability and performance of its core platform to meet the evolving needs of its customers. For Zendesk professionals, these updates highlight the importance of staying up-to-date with the latest features and capabilities, while also being prepared to address any potential service disruptions or technical challenges.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, with a clear focus on enhancing AI capabilities and improving operational efficiency. The company is pushing forward with AI-powered features like intelligent triage for voice calls and GPT-5 integration, which have reportedly led to faster response times and higher reliability. However, this expansion has been accompanied by some stability issues, including service incidents and access problems, highlighting the need for Zendesk professionals to closely monitor the platform's health and performance. Overall, the updates suggest Zendesk is striving to stay ahead of the curve in terms of AI and automation, while also grappling with the challenges of scaling its platform to meet the evolving needs of its customers.</p>
         </div>
     </div>
     
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09:00 (London)</strong><br>
+                    <strong>10:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
