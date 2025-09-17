@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 hours ago
+                <i class="far fa-clock"></i> 10 hours ago
             </small>
         </article>        </div>
     </div>
@@ -109,7 +109,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">22 stories</span>
+        <span class="badge badge-info ml-2">23 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -136,7 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its AI capabilities and improving platform stability. While Zendesk is touting features like intelligent triage for voice calls, GPT-5 integration, and new APIs for custom objects, the organization has also grappled with several service incidents, including access issues and 5xx errors. This dichotomy suggests that Zendesk is aggressively pursuing technological advancements, but must also address underlying infrastructure challenges to ensure a reliable and seamless experience for its customers. For Zendesk professionals, this means navigating a rapidly evolving landscape, where new capabilities are introduced alongside efforts to address platform stability and performance concerns.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. The company is pushing the boundaries of its platform, announcing new capabilities like intelligent triage for voice calls, configurable expiration periods for public attachments, and integrations with third-party tools like Pipedrive. However, this rapid innovation has been accompanied by some stability issues, as evidenced by the service incidents reported during this period. Zendesk professionals should be mindful of these challenges and ensure that their implementations are optimized for performance and reliability, even as they explore the new AI-driven features that promise to enhance customer service and support.</p>
         </div>
     </div>
     
@@ -144,7 +144,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -313,6 +313,23 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
             💡 Resources & Learning
             <span class="badge badge-secondary ml-2">6</span>
         </h5>
@@ -390,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>05:00 (London)</strong><br>
+                    <strong>06:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>

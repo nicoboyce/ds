@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates and announcements over the past three weeks, highlighting the company's focus on enhancing its AI capabilities and improving platform stability. While Zendesk is touting features like intelligent triage for voice calls, GPT-5 integration, and new APIs for custom objects, the organization has also grappled with several service incidents, including access issues and 5xx errors. This dichotomy suggests that Zendesk is aggressively pursuing technological advancements, but must also address underlying infrastructure challenges to ensure a reliable and seamless experience for its customers. For Zendesk professionals, this means navigating a rapidly evolving landscape, where new capabilities are introduced alongside efforts to address platform stability and performance concerns.",
+  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with a strong focus on AI-powered features and improvements to agent productivity and customer experience. The company is pushing the boundaries of its platform, announcing new capabilities like intelligent triage for voice calls, configurable expiration periods for public attachments, and integrations with third-party tools like Pipedrive. However, this rapid innovation has been accompanied by some stability issues, as evidenced by the service incidents reported during this period. Zendesk professionals should be mindful of these challenges and ensure that their implementations are optimized for performance and reliability, even as they explore the new AI-driven features that promise to enhance customer service and support.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-17T04:00:12.161576",
+  "generated_at": "2025-09-17T05:00:18.957982",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
