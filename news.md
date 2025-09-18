@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 hours ago
+                <i class="far fa-clock"></i> 10 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -144,7 +144,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI-powered vision for the future of contact centers, with the release of features like intelligent triage for voice calls and AI-powered integrations. However, this expansion has been accompanied by a series of service incidents, including AI agent delays and QA access issues, suggesting that the company is still grappling with stability challenges as it rapidly integrates new technologies. Zendesk professionals should be aware of these tensions as they navigate the evolving ecosystem, and ensure that their implementations are thoroughly tested and optimized to mitigate the risk of disruptions. The overall narrative points to Zendesk's determination to lead the charge in AI-driven customer experience, but also highlights the need for careful planning and execution to ensure a seamless transition for their customers.</p>
+            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI-powered vision for the future of contact centers, with the announcement of new features like intelligent triage for voice calls and AI-powered integrations. However, this expansion has been accompanied by a series of service incidents, including delays in AI agent responses and QA access issues, suggesting that the company is still grappling with stability challenges as it rapidly integrates new technologies. Zendesk professionals should be aware of these tensions as they navigate the evolving ecosystem, balancing the potential benefits of AI-driven features with the need for reliable and consistent service delivery.</p>
         </div>
     </div>
     
@@ -184,7 +184,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01:00 (London)</strong><br>
+                    <strong>02:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
