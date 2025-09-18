@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has been undergoing a significant transformation over the past three weeks, with a strong emphasis on AI-powered features and capabilities. The company is pushing its vision for the future of contact centers, introducing new AI-driven functionalities such as intelligent triage for voice calls and automated ticket redaction. However, this push towards AI integration has been accompanied by some stability issues, including service incidents and delays in AI agent responses. Zendesk professionals should be aware of these developments, as they indicate the company's strategic direction towards a more AI-centric approach, while also highlighting the need to address any underlying technical challenges to ensure a seamless customer experience.",
+  "recently_narrative": "Over the past three weeks, Zendesk has been aggressively pushing its AI-powered capabilities, announcing features like intelligent triage for voice calls and a 30% faster response time after integrating GPT-5. However, this AI-focused strategy has been accompanied by a series of service incidents, including AI agent delays and QA access issues, suggesting that Zendesk is still grappling with stability challenges as it transitions towards a more AI-centric contact center approach. Additionally, the company has announced the deprecation of wrappers for the Sunshine Conversations API, as well as changes to ticket-closing automation, indicating a broader shift in its product roadmap. These updates, coupled with the news of Zendesk's decision to shutter its Sell CRM offering, paint a picture of a company in flux, balancing its ambitions for AI-powered customer service with the need to address underlying platform reliability concerns.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-18T23:00:07.900399",
+  "generated_at": "2025-09-19T00:00:06.903493",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
