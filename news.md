@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -127,7 +127,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has been undergoing a significant transformation over the past three weeks, with a strong emphasis on AI-powered features and capabilities. The company is pushing its vision for the future of contact centers, introducing new AI-driven functionalities such as intelligent triage for voice calls and automated ticket redaction. However, this push towards AI integration has been accompanied by some stability issues, including service incidents and delays in AI agent responses. Zendesk professionals should be aware of these tensions as the company navigates the balance between innovation and reliability, while also considering the broader implications of an AI-powered contact center era.</p>
+            <p>The Zendesk ecosystem has been undergoing a significant transformation, with a strong emphasis on AI-powered features and capabilities. The company is pushing the boundaries of contact center technology, introducing innovations like intelligent triage for voice calls and outcome-based pricing models powered by AI. However, this rapid evolution has not been without its challenges, as Zendesk has also faced service incidents and stability issues, requiring them to address concerns around reliability and performance. For Zendesk professionals, this signals a shift towards a more AI-centric future, where the ability to leverage these advanced technologies will be crucial for delivering exceptional customer experiences. The company's focus on unifying the request view and enhancing agent configurations further suggests a holistic approach to improving the overall Zendesk ecosystem.</p>
         </div>
     </div>
     
@@ -382,7 +382,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
