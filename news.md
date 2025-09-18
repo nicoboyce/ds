@@ -127,7 +127,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has been undergoing a significant transformation over the past three weeks, with a strong emphasis on AI-powered features and capabilities. The company is pushing its vision for the future of contact centers, introducing new AI-driven functionalities such as intelligent triage for voice calls and automated ticket redaction. However, this push towards AI integration has been accompanied by some stability issues, including service incidents and delays in AI agent responses. Zendesk professionals should be aware of these developments, as they indicate the company's strategic direction towards a more AI-centric approach, while also highlighting the need to address any underlying technical challenges to ensure a seamless customer experience.</p>
+            <p>The Zendesk ecosystem has been undergoing a significant transformation over the past three weeks, with a strong emphasis on AI-powered features and capabilities. The company is pushing its vision for the future of contact centers, introducing new AI-driven offerings such as intelligent triage for voice calls and automated ticket redaction. However, this push towards AI integration has been accompanied by some stability issues, including service incidents and delays in AI agent responses. Zendesk professionals should be aware of these developments, as they indicate the company's strategic direction towards a more AI-centric approach, while also highlighting the need to address any underlying technical challenges to ensure a seamless customer experience.</p>
         </div>
     </div>
     
@@ -208,7 +208,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -240,7 +240,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
+                <i class="far fa-clock"></i> 22 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -382,7 +382,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
