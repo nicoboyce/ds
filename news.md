@@ -127,7 +127,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has been undergoing a significant transformation, with a strong emphasis on AI-powered features and capabilities. The company is pushing the boundaries of contact center technology, introducing innovations like intelligent triage for voice calls and outcome-based pricing models powered by AI. However, this rapid evolution has not been without its challenges, as Zendesk has also faced service incidents and stability issues that have required attention. For Zendesk professionals, this signals a shift towards a more AI-centric future, where the ability to leverage these advanced technologies will be crucial for delivering exceptional customer experiences. At the same time, the need to maintain a stable and reliable platform remains a top priority, requiring careful management and monitoring to ensure seamless operations.</p>
+            <p>The Zendesk ecosystem has been undergoing a significant transformation over the past three weeks, with a strong emphasis on AI-powered features and capabilities. The company is pushing its vision for the future of contact centers, introducing new AI-driven offerings such as intelligent triage for voice calls and automated ticket redaction. However, this push towards AI integration has been accompanied by some stability issues, including service incidents and delays in AI agent responses. Zendesk professionals should be aware of these developments, as they indicate the company's strategic direction and the potential challenges that may arise as it navigates the transition to a more AI-centric platform. The overall narrative suggests that Zendesk is striving to stay ahead of the curve in the rapidly evolving customer experience landscape, but must also address the operational and technical challenges that come with such ambitious technological advancements.</p>
         </div>
     </div>
     
@@ -327,7 +327,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -382,7 +382,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>20:00 (London)</strong><br>
+                    <strong>21:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
