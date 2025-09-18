@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -144,7 +144,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI-powered vision for the future of contact centers, with the release of features like intelligent triage for voice calls and AI-powered integrations. However, this expansion has been accompanied by a series of service incidents, including AI agent delays and QA access issues, suggesting that the company is still grappling with stability challenges as it rapidly innovates. Zendesk professionals should be aware of these tensions, as the company's ambitious AI roadmap may come with some growing pains, requiring careful monitoring and troubleshooting of the platform's performance and reliability.</p>
+            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI-powered vision for the future of contact centers, with the release of features like intelligent triage for voice calls and AI-powered integrations. However, this expansion has been accompanied by a series of service incidents, including delays in AI agent responses and QA access issues, suggesting that Zendesk is still grappling with stability challenges as it rapidly integrates new AI capabilities. For Zendesk professionals, this signals a period of rapid innovation and change, but also the need to closely monitor system performance and be prepared to address any disruptions that may arise as the company continues to push the boundaries of what's possible in the contact center space.</p>
         </div>
     </div>
     
@@ -407,7 +407,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04:00 (London)</strong><br>
+                    <strong>05:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
