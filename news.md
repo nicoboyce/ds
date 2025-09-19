@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company that is aggressively pushing forward with AI-powered features and capabilities, while also grappling with stability and reliability issues. Zendesk is doubling down on its vision for the future of contact centers, with announcements around AI-driven triage, GPT-5 integration, and outcome-based pricing. However, the company has also faced several service incidents, including delays with AI agents and access issues, suggesting that the transition to these advanced technologies is not without its challenges. For Zendesk professionals, this landscape signals a need to stay informed and adaptable, as the platform continues to evolve rapidly, with both exciting innovations and potential growing pains.</p>
+            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI capabilities and integrating with external platforms, while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and a bold vision for the future of contact centers, but these advancements are tempered by reports of service disruptions and the impending shutdown of its Zendesk Sell product. This dichotomy suggests Zendesk is striving to stay ahead of the curve in customer service technology, but must also address underlying operational challenges to provide a reliable and seamless experience for its users.</p>
         </div>
     </div>
     
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:14 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
