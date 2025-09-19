@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI capabilities, announcing features like intelligent triage for voice calls and a 30% faster response time after integrating GPT-5. However, this AI-focused strategy has been accompanied by a series of service incidents, including access issues and 5xx errors, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. Additionally, the company has announced the deprecation of wrappers for the Sunshine Conversations API, potentially causing disruption for some Zendesk professionals. Overall, the updates paint a picture of Zendesk's ambition to be at the forefront of AI-powered customer service, but also highlight the need to balance innovation with platform reliability and stability.</p>
+            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI capabilities, with announcements around intelligent triage for voice calls, AI-powered contact center features, and impressive performance gains from GPT-5 integration. However, this AI-focused strategy has been accompanied by a series of service incidents, including access issues, 5xx errors, and AI agent delays, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. Additionally, the company has announced the deprecation of certain API wrappers and the shuttering of its Zendesk Sell product, signaling a shift in focus towards its core customer service offerings. For Zendesk professionals, this landscape points to a company in transition, balancing ambitious AI plans with the need to ensure reliable, high-performing service for its customers.</p>
         </div>
     </div>
     
@@ -310,7 +310,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -365,7 +365,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04:00 (London)</strong><br>
+                    <strong>05:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
