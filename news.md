@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company doubling down on AI-powered features and capabilities, while also grappling with service incidents and stability challenges. Zendesk is pushing forward with new AI-driven offerings, such as intelligent triage for voice calls and a bold vision for the future of contact centers, even as it deals with service outages and performance issues. This suggests Zendesk is prioritizing innovation and technological advancement, but must also address underlying infrastructure and reliability concerns to provide a seamless experience for its customers and users.</p>
+            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI capabilities and integrating with external platforms, while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and a bold vision for the future of contact centers, but these advancements are tempered by reports of service disruptions and the impending shutdown of its Zendesk Sell product. This dichotomy suggests Zendesk is striving to stay ahead of the curve in customer service technology, but must also address underlying operational challenges to provide a reliable and seamless experience for its users.</p>
         </div>
     </div>
     
@@ -346,7 +346,7 @@ background: grey
                 <span class="source-badge">Zendesk What's New</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 days ago
+                <i class="far fa-clock"></i> 24 days ago
             </small>
         </article>        </div>
     </div>
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>20:13 (London)</strong><br>
+                    <strong>21:14 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
