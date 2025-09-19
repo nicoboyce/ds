@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI capabilities, announcing features like intelligent triage for voice calls and a 30% faster response time after integrating GPT-5. However, this AI-focused strategy has been accompanied by stability issues, with several service incidents reported, including access problems and 5xx errors. While Zendesk is touting its vision for the future of contact centers, it seems to be grappling with the challenges of implementing these advanced technologies at scale. For Zendesk professionals, this suggests a need to closely monitor the platform's reliability and performance as the company navigates this transition to an AI-powered ecosystem.</p>
+            <p>Over the past three weeks, Zendesk has been aggressively pushing its AI capabilities, announcing features like intelligent triage for voice calls and a 30% faster response time after integrating GPT-5. However, this AI-focused strategy has been accompanied by stability issues, with several service incidents reported, including access problems and 5xx errors. While Zendesk is touting its vision for the future of contact centers, it seems to be grappling with the challenges of implementing these advanced technologies at scale. For Zendesk professionals, this suggests a need to closely monitor the platform's performance and reliability, even as new AI-powered features are rolled out, to ensure a seamless customer experience.</p>
         </div>
     </div>
     
@@ -365,7 +365,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02:00 (London)</strong><br>
+                    <strong>03:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
