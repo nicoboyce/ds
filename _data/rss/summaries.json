@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "Over the past three weeks, Zendesk has been aggressively pushing its AI capabilities, with announcements around intelligent triage for voice calls, AI-powered contact center features, and impressive performance gains from GPT-5 integration. However, this AI-focused strategy has been accompanied by a series of service incidents, including access issues, 5xx errors, and AI agent delays, suggesting that Zendesk is still grappling with stability challenges as it rapidly innovates. Additionally, the company has announced the deprecation of certain API wrappers and the shuttering of its Zendesk Sell product, signaling a shift in focus towards its core customer service offerings. For Zendesk professionals, this landscape points to a company in transition, balancing ambitious AI plans with the need to ensure reliable, high-performing service for its customers.",
+  "recently_narrative": "The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI capabilities and integrations, while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and GPT-5 integration, aimed at improving customer support operations. However, the company has also faced service disruptions and outages, highlighting the need to balance innovation with platform reliability. For Zendesk professionals, these updates signal a shift towards a more AI-centric contact center experience, but also underscore the importance of proactive monitoring and incident management to ensure seamless customer service delivery.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-19T04:00:11.201636",
+  "generated_at": "2025-09-19T05:00:10.328728",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
