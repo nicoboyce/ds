@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company that is aggressively pushing forward with AI-powered features and capabilities, while also grappling with stability and reliability issues. Zendesk is doubling down on its vision for the future of contact centers, with announcements around intelligent triage, outcome-based pricing, and deep integration with AI models like GPT-5. However, the company has also faced several service incidents and outages, highlighting the challenges of implementing these advanced technologies at scale. For Zendesk professionals, this signals a period of rapid innovation and transformation, but also the need to carefully manage the risks and complexities that come with such a shift.</p>
+            <p>The Zendesk ecosystem updates over the past three weeks reveal a company that is aggressively pushing forward with AI-powered features and capabilities, while also grappling with stability and reliability issues. Zendesk is doubling down on its vision for the future of contact centers, with announcements around intelligent triage for voice calls, AI-powered agent assistance, and outcome-based pricing models. However, the company has also had to address several service incidents, including delays in AI agent responses and access issues, indicating that the transition to these new technologies is not without its challenges. For Zendesk professionals, this suggests a need to carefully navigate the balance between innovation and operational stability, as the company seeks to redefine the customer service landscape with its AI-centric approach.</p>
         </div>
     </div>
     
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
