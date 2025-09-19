@@ -55,7 +55,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        </div>
     </div>
@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company that is aggressively pushing forward with AI-powered features and capabilities, while also grappling with stability and reliability issues. Zendesk is doubling down on AI integration, touting improved response times and reliability, but is also dealing with service incidents and outages that raise concerns about the robustness of its infrastructure. This tension between innovation and operational challenges suggests that Zendesk professionals must carefully navigate the tradeoffs between cutting-edge features and the need for a stable, reliable platform to support their customer service operations.</p>
+            <p>The Zendesk ecosystem updates over the past three weeks reveal a company that is aggressively pushing forward with AI-powered features and capabilities, while also grappling with stability and reliability issues. Zendesk is doubling down on its vision for the future of contact centers, with announcements around AI-driven triage, GPT-5 integration, and outcome-based pricing. However, the company has also faced several service incidents, including delays with AI agents and access issues, suggesting that the transition to these advanced technologies is not without its challenges. For Zendesk professionals, this landscape signals a need to stay informed and adaptable, as the platform continues to evolve rapidly, with both exciting innovations and potential growing pains.</p>
         </div>
     </div>
     
@@ -183,7 +183,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
