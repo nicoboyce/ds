@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing forward with its vision for the future of contact centers, announcing new AI-driven capabilities like intelligent triage for voice calls and integrating GPT-5 to achieve faster response times and higher reliability. However, the company has also had to address service disruptions, including access issues and 5xx errors, underscoring the need to balance innovation with operational stability. For Zendesk professionals, these developments signal a rapidly evolving landscape where AI and automation are becoming increasingly central, but where reliability and resilience remain critical priorities.",
+  "recently_narrative": "The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing forward with its vision for the future of contact centers, announcing new AI-driven capabilities like intelligent triage for voice calls and outcome-based pricing. However, these advancements have been accompanied by service disruptions, including delays in AI agent responses and access issues in the QA environment. This suggests Zendesk is navigating the challenges of integrating advanced technologies while maintaining the reliability and performance that its customers expect. For Zendesk professionals, this landscape underscores the need to closely monitor the platform's stability and performance, while also staying abreast of the rapidly evolving AI-powered features that could transform their customer service operations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-19T23:00:32.193265",
+  "generated_at": "2025-09-20T00:01:33.103207",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
