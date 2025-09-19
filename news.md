@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI capabilities and integrations, while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and GPT-5 integration, aimed at improving customer support operations. However, the company has also faced service disruptions and outages, highlighting the need to balance innovation with platform reliability. For Zendesk professionals, these updates signal a shift towards a more AI-centric contact center experience, but also underscore the importance of proactive monitoring and incident management to ensure seamless customer service delivery.</p>
+            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI capabilities and integrating with external platforms, while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and a bold vision for the future of contact centers, but these advancements are tempered by reports of service disruptions and the deprecation of certain API wrappers. Additionally, Zendesk is making changes to its product portfolio, including the announcement to shutter its Zendesk Sell CRM, signaling a strategic shift towards a more customer service-centric approach. For Zendesk professionals, these updates highlight the need to stay agile and adaptable as the company navigates the evolving landscape of customer experience technology.</p>
         </div>
     </div>
     
@@ -318,7 +318,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
