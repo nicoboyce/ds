@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company focused on expanding its AI capabilities and integrating with external platforms, while also grappling with service incidents and stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and a bold vision for the future of contact centers, but these advancements are tempered by reports of service disruptions and the deprecation of certain API wrappers. Additionally, Zendesk is making changes to its product portfolio, including the announcement to shutter its Zendesk Sell CRM, signaling a strategic shift towards a more customer service-centric approach. For Zendesk professionals, these updates highlight the need to stay agile and adaptable as the company navigates the evolving landscape of customer experience technology.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing forward with its vision for the future of contact centers, announcing new AI-driven capabilities like intelligent triage for voice calls and integrating GPT-5 to achieve faster response times and higher reliability. However, the company has also had to address service disruptions, including access issues and 5xx errors, underscoring the need to balance innovation with operational stability. For Zendesk professionals, these developments signal a rapidly evolving landscape where AI and automation are becoming increasingly central to customer service, but where reliability and resilience remain critical priorities.</p>
         </div>
     </div>
     
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>07:00 (London)</strong><br>
+                    <strong>08:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
