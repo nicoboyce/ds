@@ -94,7 +94,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem updates over the past three weeks reveal a company that is aggressively pushing forward with AI-powered features and capabilities, while also grappling with stability and reliability issues. Zendesk is doubling down on its vision for the future of contact centers, with announcements around AI-driven triage, GPT-5 integration, and outcome-based pricing. However, the company has also faced several service incidents, including delays with AI agents and access issues, underscoring the challenges of implementing these advanced technologies. For Zendesk professionals, this signals a period of rapid innovation and transformation, but also the need to carefully manage the transition and ensure the platform's reliability and performance.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing forward with its vision for the future of contact centers, announcing new AI-driven capabilities like intelligent triage for voice calls and integrating GPT-5 to achieve faster response times and higher reliability. However, the company has also had to address service disruptions, including access issues and 5xx errors, underscoring the need to balance innovation with operational stability. For Zendesk professionals, these developments signal a rapidly evolving landscape where AI and automation are becoming increasingly central, but where reliability and resilience remain critical priorities.</p>
         </div>
     </div>
     
@@ -373,7 +373,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
