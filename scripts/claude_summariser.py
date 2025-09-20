@@ -185,71 +185,62 @@ REQUIREMENTS:
         return "\n\n".join(summary_parts)
     
     def generate_fallback_narrative(self, articles):
-        """Generate a fallback narrative analysis without AI"""
-        
-        # Count different types of updates
-        incidents = 0
-        features = 0
-        security = 0
-        business = 0
-        
-        for article in articles:
-            title_lower = article.get('title', '').lower()
-            if 'incident' in title_lower or 'outage' in title_lower:
-                incidents += 1
-            elif 'vulnerability' in title_lower or 'security' in title_lower:
-                security += 1
-            elif any(term in title_lower for term in ['announcing', 'eap', 'release', 'feature']):
-                features += 1
-            elif any(term in title_lower for term in ['auction', 'hq', 'partner', 'acquisition']):
-                business += 1
-        
-        # Build narrative based on patterns
-        narratives = []
-        
-        if incidents >= 3 and features >= 3:
-            narratives.append("The past few weeks show Zendesk pushing new features while struggling with platform stability.")
-        elif incidents >= 4:
-            narratives.append("Multiple service incidents over the past weeks suggest ongoing stability challenges across Zendesk products.")
-        elif features >= 5:
-            narratives.append("Zendesk has been in a heavy development cycle, rolling out multiple new capabilities and improvements.")
-            
-        if security > 0:
-            narratives.append("Security concerns require immediate attention from administrators.")
-            
-        if business > 0 and features > 0:
-            narratives.append("Business developments alongside product updates show Zendesk navigating both market pressures and technical evolution.")
-            
-        if not narratives:
-            return "Recent weeks have seen routine platform updates and maintenance across the Zendesk ecosystem."
-            
-        return " ".join(narratives[:2])  # Limit to 2 sentences
+        """Generate basic fallback when Claude API unavailable"""
+
+        if not articles:
+            return "No recent activity to analyse."
+
+        # Simple rule-based analysis
+        security_count = sum(1 for a in articles if any(term in a['title'].lower() for term in ['vulnerability', 'security', 'exploit', 'breach']))
+        incident_count = sum(1 for a in articles if any(term in a['title'].lower() for term in ['incident', 'outage', 'degradation', 'down']))
+        feature_count = sum(1 for a in articles if any(term in a['title'].lower() for term in ['announcing', 'eap', 'release', 'feature', 'copilot', 'ai']))
+
+        # Priority-based simple analysis
+        if security_count >= 2:
+            return f"Multiple security issues detected requiring immediate administrator attention. Review {security_count} security-related updates for critical patches and configuration changes."
+        elif incident_count >= 3:
+            return f"Service stability concerns with {incident_count} incidents reported. Administrators should review monitoring and incident response procedures."
+        elif feature_count >= 5:
+            return f"Heavy development activity with {feature_count} feature announcements. Plan testing cycles for new capabilities before production deployment."
+        else:
+            return f"Standard ecosystem activity with {len(articles)} updates across Zendesk products and services. Regular maintenance and review procedures recommended."
     
     def build_narrative_prompt(self, articles):
-        """Build prompt for narrative analysis of recent period"""
-        
-        prompt = f"""Analyse these Zendesk ecosystem updates from the past 3 weeks and write a brief narrative (2-3 sentences).
+        """Build prompt for narrative analysis that leverages Claude's pattern recognition"""
+
+        prompt = f"""You are a Zendesk ecosystem analyst. Read these {len(articles)} recent article titles and identify the most significant operational pattern that administrators need to understand.
 
 ARTICLES:
 """
-        
+
         for i, article in enumerate(articles, 1):
             prompt += f"\n[{i}] {article['title']}\n"
-        
+
         prompt += f"""
 
-Write a narrative analysis that:
-1. Identifies the main theme or trend (e.g., "Zendesk is pushing hard on AI features while dealing with stability issues")
-2. Connects related stories (e.g., incidents alongside new features)
-3. Notes any tensions or contradictions (e.g., expansion news vs HQ auction)
-4. Provides context about what this means for Zendesk professionals
+Look for patterns across these titles that simple keyword counting would miss:
+- Timing coincidences (multiple related issues happening simultaneously)
+- Product area concentrations (problems clustering in specific Zendesk products)
+- Contradictory signals (expansion announcements during stability issues)
+- Escalating severity (minor issues becoming major incidents)
+- Strategic shifts (feature directions indicating platform changes)
+- External pressures (competitor moves, regulatory changes affecting Zendesk)
 
-Do NOT just list items. Write 2-3 connected sentences that tell the story of what's happening.
-Focus on patterns and implications, not individual items.
-Be direct and analytical, not promotional."""
+Write exactly 2 sentences that:
+1. Identify the most important pattern you observe
+2. Explain what this means for Zendesk administrators operationally
+
+Focus on insights that emerge from reading the titles together, not just counting categories. What story do these titles tell when viewed as a whole?
+
+EXAMPLES OF GOOD PATTERN RECOGNITION:
+"Three messaging-related incidents coincided with the rollout of AI-powered conversation routing, suggesting the new AI features may be destabilising core communication infrastructure. Administrators should test AI routing thoroughly in staging environments before enabling in production."
+
+"Zendesk announced major Copilot expansions while simultaneously responding to Atlassian's Jira end-of-life notice, indicating pressure to strengthen integrations as partners exit the market. This creates both opportunity and risk for administrators managing multi-tool workflows."
+
+YOUR ANALYSIS (exactly 2 sentences):"""
 
         return prompt
-    
+
     def generate_summaries(self):
         """Generate summaries including narrative analysis for recently section"""
         articles = self.load_articles()
