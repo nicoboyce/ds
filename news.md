@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing forward with its vision for the future of contact centers, announcing new AI-driven capabilities like intelligent triage for voice calls and outcome-based pricing. However, the company has also had to address several service incidents, including delays in AI agent responses and QA access issues, underscoring the need to balance innovation with reliability. For Zendesk professionals, these developments suggest a company in transition, one that is rapidly evolving its product suite but must also ensure the stability and performance of its core offerings to maintain customer trust.</p>
+            <p>Over the past three weeks, Zendesk has been actively enhancing its platform with a strong focus on AI-powered features, such as intelligent triage for voice calls and a reported 30% faster response time after integrating GPT-5. However, this push for innovation has been accompanied by some stability issues, including service incidents and access problems, which Zendesk has been working to address. The company is also making strategic decisions, such as shuttering its Zendesk Sell product to focus solely on customer service, while integrating its platform with external tools like the AWS Support API. These updates suggest Zendesk is positioning itself as a leader in the AI-powered contact center era, but it must balance this ambition with ensuring a reliable and seamless customer experience for its users.</p>
         </div>
     </div>
     
@@ -250,25 +250,8 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -327,6 +310,14 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9642327422874-What-s-new-in-Zendesk-September-2025" class="text-dark">What's new in Zendesk: September 2025</a>
+                <span class="source-badge">Zendesk What's New</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 24 days ago
+            </small>
         </article>        </div>
     </div>
         </div>
@@ -352,7 +343,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>17:00 (London)</strong><br>
+                    <strong>18:03 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
