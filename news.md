@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of activity in the past three weeks, with the company doubling down on its AI capabilities while also grappling with stability issues. Zendesk is pushing forward with new AI-powered features, such as intelligent triage for voice calls and a bold vision for the future of contact centers, even as it reports incidents of service disruptions and access problems. This suggests a tension between Zendesk's ambitious product roadmap and the need to ensure reliable and consistent performance for its customers. For Zendesk professionals, this means navigating a rapidly evolving landscape where AI-driven innovation is balanced against the need for robust and resilient infrastructure, underscoring the importance of proactive monitoring and troubleshooting to maintain optimal customer experiences.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing the boundaries of contact center technology, announcing advancements in areas like intelligent triage for voice calls, outcome-based pricing with AI, and integrations with AWS Support API. However, these ambitious moves have been tempered by reports of service disruptions and outages, highlighting the need for Zendesk professionals to closely monitor the platform's reliability and performance. As Zendesk navigates this transition towards an AI-centric future, it will be crucial for customers and partners to carefully evaluate the tradeoffs between innovative features and operational stability.</p>
         </div>
     </div>
     
@@ -129,7 +129,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 days ago
+                <i class="far fa-clock"></i> 23 days ago
             </small>
         </article>        </div>
     </div>
@@ -305,7 +305,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -352,7 +352,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:13 (London)</strong><br>
+                    <strong>11:14 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
