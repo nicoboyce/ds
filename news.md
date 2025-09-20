@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing the boundaries of contact center technology, announcing advancements in areas like intelligent triage for voice calls, outcome-based pricing with AI, and integrations with AWS Support API. However, these ambitious moves have been tempered by reports of service disruptions and outages, underscoring the need for Zendesk professionals to closely monitor the platform's reliability and performance. As Zendesk navigates this transition towards an AI-centric future, it will be crucial for customers and partners to carefully evaluate the tradeoffs between innovative features and operational stability.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing the boundaries of contact center technology, announcing advancements in areas like intelligent triage for voice calls, outcome-based pricing with AI, and integrations with AWS Support API. However, these ambitious moves have been accompanied by service disruptions, including delays in AI agent responses and QA access issues, highlighting the challenges of implementing cutting-edge technologies at scale. For Zendesk professionals, this period underscores the need to carefully navigate the balance between innovation and operational reliability, as the company navigates the transition to an AI-powered future.</p>
         </div>
     </div>
     
@@ -352,7 +352,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14:15 (London)</strong><br>
+                    <strong>15:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
