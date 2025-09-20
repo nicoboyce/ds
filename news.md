@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing forward with its vision for the future of contact centers, announcing new AI-driven capabilities like intelligent triage for voice calls and outcome-based pricing. However, the company has also had to address several service incidents, including delays in AI agent responses and QA access issues, highlighting the need to balance innovation with platform reliability. For Zendesk professionals, these developments suggest a company in transition, leveraging cutting-edge technologies to enhance customer support while also working to address underlying infrastructure challenges.</p>
+            <p>The Zendesk ecosystem has seen a flurry of updates in the past three weeks, with the company doubling down on AI-powered features while also grappling with service incidents and stability issues. Zendesk is pushing the boundaries of contact center technology, announcing advancements in areas like intelligent triage for voice calls, outcome-based pricing with AI, and integrations with AWS Support API. However, these ambitious moves have been tempered by reports of service disruptions and outages, underscoring the need for Zendesk professionals to closely monitor the platform's reliability and performance. As Zendesk navigates this transition towards an AI-centric future, it will be crucial for customers and partners to carefully evaluate the tradeoffs between innovative features and operational stability.</p>
         </div>
     </div>
     
@@ -111,7 +111,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 9 days ago
+                        <i class="far fa-clock"></i> 10 days ago
                     </small>
                 </div>
             </div>
@@ -352,7 +352,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:15 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
