@@ -162,7 +162,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 days ago
+                <i class="far fa-clock"></i> 4 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -352,7 +352,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:06 (London)</strong><br>
+                    <strong>20:03 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
