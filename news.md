@@ -81,8 +81,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors. This suggests that Zendesk administrators need to closely monitor the stability and reliability of the platform, particularly as new features and integrations are introduced, and be prepared to respond quickly to any disruptions in service.</p>
-            <p>Additionally, the titles indicate a strategic shift towards AI-powered features and outcome-based pricing, which may require administrators to re-evaluate their support workflows, agent training, and performance metrics to ensure they are aligned with these changes. Administrators should closely follow Zendesk's product roadmap and be proactive in adapting their operations to support the evolving platform.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product expansions and strategic shifts, such as the integration of GPT-5 and the deprecation of Zendesk Sell.</p>
+            <p>This suggests that Zendesk administrators need to closely monitor the stability and performance of the platform, especially during periods of rapid innovation and change, and prioritize thorough testing and gradual rollouts of new features to mitigate the risk of disruptions to critical customer support operations.</p>
         </div>
     </div>
     
@@ -298,14 +298,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -323,6 +315,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NXhuVVhWdU9Cekk3TFZYWFVqMFBtcWZIcVB1dkFOTllvMlVQc1RCUmNUaUlGaGQwR3VTeXVzNmhJdkFHVENBUlNfUG5DNGlTQ1Z6ZlBpQnk1LWp0WU9ZTkdObXRLMjZO?oc=5" class="text-dark">I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnRDTWZCZDU4djBLNDFHMGEzMWVQN2E4NGxleEZYZFBpNVJVUXpqUUFsN1p6Y0dKcVYzc3VYb0FJZjlOT3NKdmt2b1VZdzU5WlB0a2poYUcwVFBCODJza0Z2cGdwTE5fRTg0amwyWFRYLTBfTTdUWUM1UTZrNnVNWFpUeEFSVEZFcG84V012em4zVzVuUllVYjVPcTFHR3BH?oc=5" class="text-dark">Are We Entering a New, AI-Powered Contact Center Era? - CX Today</a>
                 
             </h6>
             <small class="text-muted">
@@ -353,7 +353,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:07 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
