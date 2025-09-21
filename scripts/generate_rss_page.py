@@ -870,51 +870,7 @@ document.addEventListener('DOMContentLoaded', function() {{
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
 
-                    # Extract multiple specific topics from content - prioritise diverse detection
-                    topics_found = []
-
-                    # Check for multiple different topics in order of specificity
-                    if 'Jira' in content and 'Atlassian' in content:
-                        topics_found.append('Jira Data Center sunset')
-                    if 'side conversation' in content or 'Side conversations' in content:
-                        topics_found.append('side conversations')
-                    if 'brand membership' in content:
-                        topics_found.append('brand management')
-                    if 'agent profile' in content:
-                        topics_found.append('agent profiles')
-                    if 'attachment' in content and 'expiration' in content:
-                        topics_found.append('attachment controls')
-                    if 'custom object' in content and 'export' in content:
-                        topics_found.append('export APIs')
-                    if 'Gmail' in content or 'Exchange' in content:
-                        topics_found.append('email connectors')
-                    if 'agent timeout' in content:
-                        topics_found.append('agent timeouts')
-                    if 'WhatsApp' in content:
-                        topics_found.append('WhatsApp Flows')
-                    if 'Sunshine' in content and 'API' in content:
-                        topics_found.append('Sunshine API')
-                    if 'OAuth' in content and 'client' in content:
-                        topics_found.append('OAuth clients')
-                    if 'Copilot' in content and 'voice' in content:
-                        topics_found.append('voice triage')
-                    if 'messaging auth' in content:
-                        topics_found.append('messaging auth')
-                    if 'two-step verification' in content:
-                        topics_found.append('2FA rollout')
-                    if 'password access' in content and 'removal' in content:
-                        topics_found.append('password removal')
-                    if 'incident' in content.lower() and len(topics_found) == 0:
-                        topics_found.append('service incidents')
-
-                    # Default if nothing found
-                    if not topics_found:
-                        topics_found.append('platform updates')
-
-                    # Take first 2 unique topics, avoid repetition
-                    topics = ' & '.join(topics_found[:2]) if len(topics_found) >= 2 else topics_found[0]
-
-                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topics}</a></li>\n'
+                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">Zendesk news - {display_date}</a></li>\n'
 
                     if date_obj.month == 9:  # September
                         sept_files.append(entry)
