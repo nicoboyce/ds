@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing frequency and severity of service incidents and technical issues across Zendesk's product portfolio, coinciding with announcements of major platform changes and feature expansions.\n\nThis suggests that Zendesk administrators need to closely monitor the impact of new AI-powered capabilities, integration updates, and architectural shifts on the stability and reliability of the Zendesk ecosystem, and be prepared to implement robust testing and rollback procedures to mitigate the risk of disruptions to critical customer support operations.",
+  "recently_narrative": "The most significant operational pattern observed across the article titles is the increasing reliance on AI and automation in Zendesk's product roadmap, coupled with a series of service incidents and stability issues. This suggests that Zendesk administrators need to closely monitor the impact of AI-powered features on their core customer support operations, and ensure thorough testing and gradual rollout of new technologies to maintain reliable service delivery.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-21T02:12:13.821398",
+  "generated_at": "2025-09-21T03:01:51.754667",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
