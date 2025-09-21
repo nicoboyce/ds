@@ -870,44 +870,49 @@ document.addEventListener('DOMContentLoaded', function() {{
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
 
-                    # Extract specific topics from content based on multiple keywords
+                    # Extract multiple specific topics from content - prioritise diverse detection
                     topics_found = []
 
+                    # Check for multiple different topics in order of specificity
                     if 'Jira' in content and 'Atlassian' in content:
                         topics_found.append('Jira Data Center sunset')
-                    elif 'side conversation' in content or 'Side conversations' in content:
+                    if 'side conversation' in content or 'Side conversations' in content:
                         topics_found.append('side conversations')
-                    elif 'brand membership' in content:
+                    if 'brand membership' in content:
                         topics_found.append('brand management')
-                    elif 'agent profile' in content:
+                    if 'agent profile' in content:
                         topics_found.append('agent profiles')
-                    elif 'attachment' in content and 'expiration' in content:
+                    if 'attachment' in content and 'expiration' in content:
                         topics_found.append('attachment controls')
-                    elif 'custom object' in content and 'export' in content:
+                    if 'custom object' in content and 'export' in content:
                         topics_found.append('export APIs')
-                    elif 'Gmail' in content or 'Exchange' in content:
+                    if 'Gmail' in content or 'Exchange' in content:
                         topics_found.append('email connectors')
-                    elif 'agent timeout' in content:
+                    if 'agent timeout' in content:
                         topics_found.append('agent timeouts')
-                    elif 'WhatsApp' in content:
+                    if 'WhatsApp' in content:
                         topics_found.append('WhatsApp Flows')
-                    elif 'Sunshine' in content and 'API' in content:
+                    if 'Sunshine' in content and 'API' in content:
                         topics_found.append('Sunshine API')
-                    elif 'OAuth' in content and 'client' in content:
+                    if 'OAuth' in content and 'client' in content:
                         topics_found.append('OAuth clients')
-                    elif 'Copilot' in content and 'voice' in content:
+                    if 'Copilot' in content and 'voice' in content:
                         topics_found.append('voice triage')
-                    elif 'Copilot' in content:
-                        topics_found.append('Copilot updates')
-                    elif 'authentication' in content or 'messaging auth' in content:
-                        topics_found.append('authentication')
-                    elif 'incident' in content.lower():
+                    if 'messaging auth' in content:
+                        topics_found.append('messaging auth')
+                    if 'two-step verification' in content:
+                        topics_found.append('2FA rollout')
+                    if 'password access' in content and 'removal' in content:
+                        topics_found.append('password removal')
+                    if 'incident' in content.lower() and len(topics_found) == 0:
                         topics_found.append('service incidents')
-                    else:
+
+                    # Default if nothing found
+                    if not topics_found:
                         topics_found.append('platform updates')
 
-                    # Take first 2-3 unique topics
-                    topics = ' & '.join(topics_found[:2]) if len(topics_found) >= 2 else topics_found[0] if topics_found else 'platform updates'
+                    # Take first 2 unique topics, avoid repetition
+                    topics = ' & '.join(topics_found[:2]) if len(topics_found) >= 2 else topics_found[0]
 
                     entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topics}</a></li>\n'
 
