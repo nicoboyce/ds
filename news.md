@@ -8,7 +8,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center mb-4">Essential Zendesk resources: daily and weekly summaries of ecosystem news, curated and analysed.</p>
     </div>
 </div>
 

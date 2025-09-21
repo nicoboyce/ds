@@ -22,16 +22,16 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Migrate"
-        desc: "Seamless Zendesk migration services from legacy systems with zero data loss and minimal downtime. Expert planning and execution for enterprise transitions."
+        desc: "Seamless Zendesk migration services from legacy systems with comprehensive backup policies and minimal downtime. Expert planning and execution for enterprise transitions."
         icon: fas fa-exchange-alt
       - title: "Integrate"
         desc: "Custom Zendesk integrations connecting your customer service platform with CRM, billing systems, and business tools. Eliminate manual data entry."
         icon: fas fa-network-wired
       - title: "Automate"
-        desc: "Customer experience automation that frees your agents from repetitive tasks to focus on complex problem-solving and better customer outcomes."
+        desc: "Customer experience automation that simplifies Zendesk administration and frees your agents from repetitive tasks to focus on complex problem-solving and better customer outcomes."
         icon: fas fa-robot
       - title: "Develop"
-        desc: "Bespoke Zendesk applications that extend platform functionality with custom features tailored to your specific business requirements."
+        desc: "Custom Zendesk applications built with ZAF (Zendesk App Framework) and modern development tools, extending platform functionality with bespoke features tailored to your business requirements."
         icon: fas fa-code
 
   portfolio:
