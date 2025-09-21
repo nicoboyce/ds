@@ -870,23 +870,46 @@ document.addEventListener('DOMContentLoaded', function() {{
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
 
-                    # Extract topics from existing links or use date-based fallbacks
-                    if 'Copilot' in content and 'voice' in content:
-                        topics = 'Copilot voice triage & messaging auth'
-                    elif 'Jira' in content:
-                        topics = 'Jira integration response'
-                    elif 'side conversation' in content:
-                        topics = 'Side conversations & brand management'
-                    elif 'authentication' in content:
-                        topics = 'Help Center authentication changes'
-                    elif 'WhatsApp' in content:
-                        topics = 'WhatsApp integration enhancements'
-                    elif 'OAuth' in content:
-                        topics = 'OAuth client management & Copilot expansion'
-                    else:
-                        topics = 'platform updates'
+                    # Extract specific topics from content based on multiple keywords
+                    topics_found = []
 
-                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topics}</a></li>'
+                    if 'Jira' in content and 'Atlassian' in content:
+                        topics_found.append('Jira Data Center sunset')
+                    elif 'side conversation' in content or 'Side conversations' in content:
+                        topics_found.append('side conversations')
+                    elif 'brand membership' in content:
+                        topics_found.append('brand management')
+                    elif 'agent profile' in content:
+                        topics_found.append('agent profiles')
+                    elif 'attachment' in content and 'expiration' in content:
+                        topics_found.append('attachment controls')
+                    elif 'custom object' in content and 'export' in content:
+                        topics_found.append('export APIs')
+                    elif 'Gmail' in content or 'Exchange' in content:
+                        topics_found.append('email connectors')
+                    elif 'agent timeout' in content:
+                        topics_found.append('agent timeouts')
+                    elif 'WhatsApp' in content:
+                        topics_found.append('WhatsApp Flows')
+                    elif 'Sunshine' in content and 'API' in content:
+                        topics_found.append('Sunshine API')
+                    elif 'OAuth' in content and 'client' in content:
+                        topics_found.append('OAuth clients')
+                    elif 'Copilot' in content and 'voice' in content:
+                        topics_found.append('voice triage')
+                    elif 'Copilot' in content:
+                        topics_found.append('Copilot updates')
+                    elif 'authentication' in content or 'messaging auth' in content:
+                        topics_found.append('authentication')
+                    elif 'incident' in content.lower():
+                        topics_found.append('service incidents')
+                    else:
+                        topics_found.append('platform updates')
+
+                    # Take first 2-3 unique topics
+                    topics = ' & '.join(topics_found[:2]) if len(topics_found) >= 2 else topics_found[0] if topics_found else 'platform updates'
+
+                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topics}</a></li>\n'
 
                     if date_obj.month == 9:  # September
                         sept_files.append(entry)
@@ -907,13 +930,13 @@ document.addEventListener('DOMContentLoaded', function() {{
                 <div class="col-md-6">
                     <h6 class="text-primary">September 2025</h6>
                     <ul class="list-unstyled archive-links">
-{''.join(sept_files[:20])}
+{''.join(sept_files[:20]).rstrip()}
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <h6 class="text-primary">August 2025</h6>
                     <ul class="list-unstyled archive-links">
-{''.join(aug_files[:10])}
+{''.join(aug_files[:10]).rstrip()}
                     </ul>
                 </div>
             </div>
