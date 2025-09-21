@@ -8,7 +8,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Essential Zendesk resources: daily and weekly summaries of ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
     </div>
 </div>
 
@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed across the article titles is the increasing reliance on AI and automation in Zendesk's product roadmap, coupled with a series of service incidents and stability issues. This suggests that Zendesk administrators need to closely monitor the impact of AI-powered features on their core customer support operations, and ensure thorough testing and gradual rollout of new technologies to maintain reliable service delivery.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product changes and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new features and integrations to ensure the stability and reliability of the platform, as well as closely monitor service health and be prepared to respond quickly to any emerging issues.</p>
         </div>
     </div>
     
@@ -352,7 +352,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:10 (London)</strong><br>
+                    <strong>00:11 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
