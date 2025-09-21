@@ -870,51 +870,45 @@ document.addEventListener('DOMContentLoaded', function() {{
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
 
-                    # Extract multiple specific topics from content - prioritise diverse detection
-                    topics_found = []
+                    # Extract actual keywords from this specific archive's content
+                    keywords = []
+                    content_lower = content.lower()
 
-                    # Check for multiple different topics in order of specificity
-                    if 'Jira' in content and 'Atlassian' in content:
-                        topics_found.append('Jira Data Center sunset')
-                    if 'side conversation' in content or 'Side conversations' in content:
-                        topics_found.append('side conversations')
-                    if 'brand membership' in content:
-                        topics_found.append('brand management')
-                    if 'agent profile' in content:
-                        topics_found.append('agent profiles')
-                    if 'attachment' in content and 'expiration' in content:
-                        topics_found.append('attachment controls')
-                    if 'custom object' in content and 'export' in content:
-                        topics_found.append('export APIs')
-                    if 'Gmail' in content or 'Exchange' in content:
-                        topics_found.append('email connectors')
-                    if 'agent timeout' in content:
-                        topics_found.append('agent timeouts')
-                    if 'WhatsApp' in content:
-                        topics_found.append('WhatsApp Flows')
-                    if 'Sunshine' in content and 'API' in content:
-                        topics_found.append('Sunshine API')
-                    if 'OAuth' in content and 'client' in content:
-                        topics_found.append('OAuth clients')
-                    if 'Copilot' in content and 'voice' in content:
-                        topics_found.append('voice triage')
-                    if 'messaging auth' in content:
-                        topics_found.append('messaging auth')
-                    if 'two-step verification' in content:
-                        topics_found.append('2FA rollout')
-                    if 'password access' in content and 'removal' in content:
-                        topics_found.append('password removal')
-                    if 'incident' in content.lower() and len(topics_found) == 0:
-                        topics_found.append('service incidents')
+                    # Scan article titles in this specific archive for unique features
+                    title_patterns = [
+                        ('jira.*atlassian', 'Jira migration'),
+                        ('side conversation', 'side conversations'),
+                        ('brand membership', 'brand membership'),
+                        ('agent.*profile', 'agent profiles'),
+                        ('attachment.*expiration', 'attachment expiry'),
+                        ('custom object.*export', 'export APIs'),
+                        ('gmail.*exchange|exchange.*gmail', 'email connectors'),
+                        ('agent timeout', 'agent timeouts'),
+                        ('whatsapp.*flow', 'WhatsApp Flows'),
+                        ('sunshine.*api', 'Sunshine API'),
+                        ('oauth.*client', 'OAuth management'),
+                        ('copilot.*voice|voice.*copilot', 'voice AI'),
+                        ('messaging.*auth', 'messaging auth'),
+                        ('two.step.*verification', '2FA rollout'),
+                        ('password.*removal', 'password sunset'),
+                        ('incident.*august|incident.*september', 'service incidents'),
+                        ('api.*wrapper.*deprecation', 'API deprecation'),
+                        ('zendesk sell.*shutter', 'Sell shutdown')
+                    ]
 
-                    # Default if nothing found
-                    if not topics_found:
-                        topics_found.append('platform updates')
+                    import re
+                    for pattern, keyword in title_patterns:
+                        if re.search(pattern, content_lower):
+                            keywords.append(keyword)
+                            if len(keywords) >= 2:  # Max 2 keywords
+                                break
 
-                    # Take first 2 unique topics, avoid repetition
-                    topics = ' & '.join(topics_found[:2]) if len(topics_found) >= 2 else topics_found[0]
+                    # Default if nothing specific found
+                    if not keywords:
+                        keywords = ['platform updates']
 
-                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topics}</a></li>\n'
+                    topic_text = ' & '.join(keywords)
+                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topic_text}</a></li>\n'
 
                     if date_obj.month == 9:  # September
                         sept_files.append(entry)
