@@ -81,8 +81,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product expansions and strategic shifts, such as the integration of GPT-5 and the deprecation of Zendesk Sell.</p>
-            <p>This suggests that Zendesk administrators need to closely monitor the stability and reliability of the platform, especially during periods of rapid innovation and change, and prioritize thorough testing and gradual rollouts of new features to mitigate the risk of disruptions to critical customer support operations.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents and technical issues across Zendesk's product portfolio, coinciding with announcements of major platform changes and feature expansions.</p>
+            <p>This suggests that Zendesk administrators need to closely monitor the impact of new AI-powered capabilities, integration updates, and architectural shifts on the stability and reliability of the Zendesk ecosystem, and be prepared to implement robust testing and rollback procedures to mitigate the risk of disruptions to critical customer support operations.</p>
         </div>
     </div>
     
@@ -353,7 +353,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02:05 (London)</strong><br>
+                    <strong>03:12 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
