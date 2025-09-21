@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Zendesk news, from Deltastring
+title: "Zendesk latest news, updated {{ 'now' | date: '%d %B %Y' }}"
 background: grey
 ---
 
