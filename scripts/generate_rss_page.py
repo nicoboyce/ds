@@ -870,45 +870,7 @@ document.addEventListener('DOMContentLoaded', function() {{
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
 
-                    # Extract actual keywords from this specific archive's content
-                    keywords = []
-                    content_lower = content.lower()
-
-                    # Scan article titles in this specific archive for unique features
-                    title_patterns = [
-                        ('jira.*atlassian', 'Jira migration'),
-                        ('side conversation', 'side conversations'),
-                        ('brand membership', 'brand membership'),
-                        ('agent.*profile', 'agent profiles'),
-                        ('attachment.*expiration', 'attachment expiry'),
-                        ('custom object.*export', 'export APIs'),
-                        ('gmail.*exchange|exchange.*gmail', 'email connectors'),
-                        ('agent timeout', 'agent timeouts'),
-                        ('whatsapp.*flow', 'WhatsApp Flows'),
-                        ('sunshine.*api', 'Sunshine API'),
-                        ('oauth.*client', 'OAuth management'),
-                        ('copilot.*voice|voice.*copilot', 'voice AI'),
-                        ('messaging.*auth', 'messaging auth'),
-                        ('two.step.*verification', '2FA rollout'),
-                        ('password.*removal', 'password sunset'),
-                        ('incident.*august|incident.*september', 'service incidents'),
-                        ('api.*wrapper.*deprecation', 'API deprecation'),
-                        ('zendesk sell.*shutter', 'Sell shutdown')
-                    ]
-
-                    import re
-                    for pattern, keyword in title_patterns:
-                        if re.search(pattern, content_lower):
-                            keywords.append(keyword)
-                            if len(keywords) >= 2:  # Max 2 keywords
-                                break
-
-                    # Default if nothing specific found
-                    if not keywords:
-                        keywords = ['platform updates']
-
-                    topic_text = ' & '.join(keywords)
-                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date} - {topic_text}</a></li>\n'
+                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">Zendesk news - {display_date}</a></li>\n'
 
                     if date_obj.month == 9:  # September
                         sept_files.append(entry)
