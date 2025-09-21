@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product expansions and strategic shifts, such as the integration of GPT-5 and the deprecation of Zendesk Sell.\n\nThis suggests that Zendesk administrators need to closely monitor the stability and performance of the platform, especially during periods of rapid innovation and change, and prioritize thorough testing and gradual rollouts of new features to mitigate the risk of disruptions to critical customer support operations.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product expansions and strategic shifts, such as the integration of GPT-5 and the deprecation of Zendesk Sell.\n\nThis suggests that Zendesk administrators need to closely monitor the stability and performance of the platform, especially during periods of rapid innovation and change, and prioritize thorough testing and gradual rollouts of new features to ensure a reliable and seamless customer experience.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-21T08:14:16.933872",
+  "generated_at": "2025-09-21T09:00:08.088907",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
