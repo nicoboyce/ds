@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Zendesk latest news, updated {{ 'now' | date: '%d %B %Y' }}"
+title: "Zendesk latest news"
 background: grey
 ---
 

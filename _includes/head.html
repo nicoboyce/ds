@@ -36,10 +36,18 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="canonical" href="https://deltastring.com{{ page.url | replace:'index.html','' }}">
 
+  {% if page.url == '/news/' %}
+  <title>Zendesk latest news, updated {{ site.time | date: '%d %B %Y' }} | {{ site.company_name }}</title>
+  {% else %}
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.company_name }}{% else %}{{ site.company_name }}{% endif %}</title>
+  {% endif %}
   
   <!-- Open Graph Meta Tags -->
+  {% if page.url == '/news/' %}
+  <meta property="og:title" content="Zendesk latest news, updated {{ site.time | date: '%d %B %Y' }} | {{ site.title }}">
+  {% else %}
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
+  {% endif %}
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -49,7 +57,11 @@
   
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
+  {% if page.url == '/news/' %}
+  <meta name="twitter:title" content="Zendesk latest news, updated {{ site.time | date: '%d %B %Y' }} | {{ site.title }}">
+  {% else %}
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
+  {% endif %}
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
   
