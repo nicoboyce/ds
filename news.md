@@ -372,34 +372,34 @@ background: grey
                 <div class="col-md-6">
                     <h6 class="text-primary">September 2025</h6>
                     <ul class="list-unstyled archive-links">
-                        <li><a href="/news-2025-09-21/" class="text-dark">21 September - Latest Zendesk Updates</a></li>
-                        <li><a href="/news-2025-09-20/" class="text-dark">20 September - Weekly Industry Roundup</a></li>
-                        <li><a href="/news-2025-09-19/" class="text-dark">19 September - Product Announcements</a></li>
-                        <li><a href="/news-2025-09-18/" class="text-dark">18 September - Security & Updates</a></li>
-                        <li><a href="/news-2025-09-17/" class="text-dark">17 September - Integration News</a></li>
-                        <li><a href="/news-2025-09-16/" class="text-dark">16 September - AI & Automation</a></li>
-                        <li><a href="/news-2025-09-15/" class="text-dark">15 September - Weekly Summary</a></li>
-                        <li><a href="/news-2025-09-14/" class="text-dark">14 September - Platform Updates</a></li>
-                        <li><a href="/news-2025-09-13/" class="text-dark">13 September - Service Notifications</a></li>
-                        <li><a href="/news-2025-09-10/" class="text-dark">10 September - Developer Updates</a></li>
-                        <li><a href="/news-2025-09-09/" class="text-dark">9 September - Enterprise Features</a></li>
-                        <li><a href="/news-2025-09-08/" class="text-dark">8 September - Customer Experience</a></li>
-                        <li><a href="/news-2025-09-07/" class="text-dark">7 September - Ecosystem News</a></li>
-                        <li><a href="/news-2025-09-04/" class="text-dark">4 September - Industry Analysis</a></li>
-                        <li><a href="/news-2025-09-03/" class="text-dark">3 September - Weekly Digest</a></li>
-                        <li><a href="/news-2025-09-02/" class="text-dark">2 September - Market Updates</a></li>
-                        <li><a href="/news-2025-09-01/" class="text-dark">1 September - Monthly Overview</a></li>
+                        <li><a href="/news-2025-09-21/" class="text-dark">21 September - Copilot voice triage & messaging auth</a></li>
+                        <li><a href="/news-2025-09-20/" class="text-dark">20 September - Jira integration response</a></li>
+                        <li><a href="/news-2025-09-19/" class="text-dark">19 September - Side conversations & brand management</a></li>
+                        <li><a href="/news-2025-09-18/" class="text-dark">18 September - Help Center authentication changes</a></li>
+                        <li><a href="/news-2025-09-17/" class="text-dark">17 September - Agent profile enhancements</a></li>
+                        <li><a href="/news-2025-09-16/" class="text-dark">16 September - Third-party integration updates</a></li>
+                        <li><a href="/news-2025-09-15/" class="text-dark">15 September - Attachment expiration controls</a></li>
+                        <li><a href="/news-2025-09-14/" class="text-dark">14 September - Intelligent voice call triage</a></li>
+                        <li><a href="/news-2025-09-13/" class="text-dark">13 September - Service incident reports</a></li>
+                        <li><a href="/news-2025-09-10/" class="text-dark">10 September - Custom object export APIs</a></li>
+                        <li><a href="/news-2025-09-09/" class="text-dark">9 September - Gmail & Exchange connector improvements</a></li>
+                        <li><a href="/news-2025-09-08/" class="text-dark">8 September - ARC header authentication</a></li>
+                        <li><a href="/news-2025-09-07/" class="text-dark">7 September - Agent timeout configurations</a></li>
+                        <li><a href="/news-2025-09-04/" class="text-dark">4 September - OAuth client management & Copilot expansion</a></li>
+                        <li><a href="/news-2025-09-03/" class="text-dark">3 September - Password access removal rollout</a></li>
+                        <li><a href="/news-2025-09-02/" class="text-dark">2 September - Two-step verification enrollment</a></li>
+                        <li><a href="/news-2025-09-01/" class="text-dark">1 September - API authentication overhaul begins</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <h6 class="text-primary">August 2025</h6>
                     <ul class="list-unstyled archive-links">
-                        <li><a href="/news-2025-08-31/" class="text-dark">31 August - End of Month Summary</a></li>
-                        <li><a href="/news-2025-08-30/" class="text-dark">30 August - Feature Releases</a></li>
-                        <li><a href="/news-2025-08-29/" class="text-dark">29 August - Support Innovations</a></li>
-                        <li><a href="/news-2025-08-28/" class="text-dark">28 August - Platform Enhancements</a></li>
-                        <li><a href="/news-2025-08-27/" class="text-dark">27 August - Community Updates</a></li>
-                        <li><a href="/news-2025-08-26/" class="text-dark">26 August - Technology Trends</a></li>
+                        <li><a href="/news-2025-08-31/" class="text-dark">31 August - Sunshine Conversations API deprecation</a></li>
+                        <li><a href="/news-2025-08-30/" class="text-dark">30 August - WhatsApp Flows & competitive pressures</a></li>
+                        <li><a href="/news-2025-08-29/" class="text-dark">29 August - API wrappers sunset timeline</a></li>
+                        <li><a href="/news-2025-08-28/" class="text-dark">28 August - WhatsApp integration enhancements</a></li>
+                        <li><a href="/news-2025-08-27/" class="text-dark">27 August - Service stability & AI agent delays</a></li>
+                        <li><a href="/news-2025-08-26/" class="text-dark">26 August - QA user management migration</a></li>
                     </ul>
                 </div>
             </div>
