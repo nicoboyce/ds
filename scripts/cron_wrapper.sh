@@ -1,8 +1,8 @@
 #!/bin/bash
 # Cron wrapper script - sets up environment and runs RSS automation
 
-# Set up PATH for cron environment
-export PATH="/usr/local/bin:/usr/bin:/bin"
+# Set up PATH for cron environment including rbenv
+export PATH="/Users/nico/.rbenv/shims:/Users/nico/.rbenv/bin:/usr/local/bin:/usr/bin:/bin"
 
 # Preserve Claude API key if set
 if [ -n "$CLAUDE_API_KEY" ]; then

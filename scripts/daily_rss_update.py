@@ -154,8 +154,8 @@ class DailyRSSPipeline:
     def jekyll_build(self):
         """Build Jekyll site"""
         logger.info("=== JEKYLL BUILD ===")
-        # Use the local bundle installation
-        bundle_path = "/home/nico/.local/share/gem/ruby/3.1.0/bin/bundle"
+        # Use the rbenv bundle installation
+        bundle_path = "/Users/nico/.rbenv/shims/bundle"
         
         # Check if bundle exists at expected path
         import os
