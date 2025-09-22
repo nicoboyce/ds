@@ -1,22 +1,22 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the rollout of new AI-powered features and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new technologies to ensure the stability and reliability of the platform, as well as have robust incident response and communication plans in place to effectively manage and mitigate the impact of any service disruptions.",
+  "recently_narrative": "1. The article titles suggest that Zendesk is undergoing a significant strategic shift towards AI-powered contact center solutions, with a focus on improving operational efficiency and customer experience, while also grappling with product deprecation and integration challenges.\n\n2. This means that Zendesk administrators need to closely monitor the rollout and integration of AI features, ensure thorough testing and staging before production deployment, and be prepared to manage the impact of product changes and partner ecosystem shifts on their Zendesk implementation and overall customer support operations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-22T16:00:06.640578",
+  "generated_at": "2025-09-22T17:00:09.487020",
   "release_notes": {
-    "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
+    "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
-      "id": "d37576d4b09b",
-      "title": "Release notes through 2025-09-12",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9717582914970-Release-notes-through-2025-09-12",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nApp Marketplace\nProducts with no updates this week\nCopilotNew:\nIntelligent triage for voice calls helps you get structured insights on intent, entity, sentiment, and language that powers sma...",
-      "pub_date": "Mon, 15 Sep 2025 14:54:24 +0000",
+      "id": "b8e654aaaab0",
+      "title": "Release notes through 2025-09-19",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9743389957914-Release-notes-through-2025-09-19",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nProducts with no updates this week\nSupportNew:We released incremental export APIs for custom objects to help customers build reports on their custom object data in externa...",
+      "pub_date": "Mon, 22 Sep 2025 14:45:43 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-09-15T18:00:04.302187"
+      "fetched_at": "2025-09-22T17:00:04.847145"
     },
-    "generated_at": "2025-09-15T18:00:07.173788"
+    "generated_at": "2025-09-22T17:00:11.330314"
   }
 }
