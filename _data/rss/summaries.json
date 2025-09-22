@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The most significant operational pattern observed across these article titles is the increasing prevalence of AI-related features and integrations within the Zendesk ecosystem, coupled with a series of service incidents and stability issues.\n\n2. This suggests that Zendesk administrators need to closely monitor the rollout and performance of AI-powered functionalities, ensuring thorough testing and gradual deployment to mitigate the risk of disruptions to core customer service operations, while also staying vigilant for potential external pressures that could impact the Zendesk platform and its integrations.",
+  "recently_narrative": "1. The most significant operational pattern observed across these article titles is the increasing prevalence of AI-related features and integrations within the Zendesk ecosystem, coupled with a series of service incidents and stability issues.\n\n2. This suggests that Zendesk administrators need to closely monitor the rollout and performance of AI-powered functionalities, ensuring thorough testing and staged deployments to mitigate the risk of disruptions to core customer service operations, while also staying abreast of strategic shifts in Zendesk's product roadmap and external market pressures.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-22T18:00:06.385290",
+  "generated_at": "2025-09-22T19:00:09.010702",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
