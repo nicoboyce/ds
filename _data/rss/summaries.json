@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the rollout of new AI-powered features and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new technologies to ensure the stability and reliability of the platform, as well as have robust incident response and communication plans in place to effectively manage and mitigate the impact of any service disruptions.",
+  "recently_narrative": "The most significant operational pattern observed across these article titles is the increasing prevalence of service incidents and technical issues, coinciding with the rollout of new AI-powered features and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new technologies to ensure platform stability and reliability, as well as maintain close monitoring of service health metrics to quickly identify and resolve any emerging problems.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-22T13:15:36.342509",
+  "generated_at": "2025-09-22T14:00:07.014128",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
