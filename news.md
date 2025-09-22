@@ -39,9 +39,33 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">1 stories</span>
+        <span class="badge badge-primary ml-2">2 stories</span>
     </h2>
 
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            🚨 Incidents & Security
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="item-title">
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server" class="text-dark">Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
+                    </h5>
+                    <p class="item-summary text-muted">
+                        https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
+                    </p>
+                    <small class="text-muted">
+                        <i class="far fa-clock"></i> 1 hour ago
+                    </small>
+                </div>
+            </div>
+        </article>        </div>
+    </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
@@ -94,7 +118,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product changes and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new features and integrations to ensure the stability and reliability of the platform, as well as closely monitor service health and be prepared to respond quickly to any emerging issues.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the rollout of new AI-powered features and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new technologies to ensure the stability and reliability of the platform, as well as have robust incident response and communication plans in place to effectively manage and mitigate the impact of any service disruptions.</p>
         </div>
     </div>
     
@@ -124,7 +148,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 11 days ago
+                        <i class="far fa-clock"></i> 12 days ago
                     </small>
                 </div>
             </div>
@@ -326,7 +350,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -365,7 +389,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:15 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
