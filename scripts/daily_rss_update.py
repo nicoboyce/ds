@@ -172,7 +172,11 @@ class DailyRSSPipeline:
     def git_commit_push(self):
         """Commit and push changes"""
         logger.info("=== GIT COMMIT & PUSH ===")
-        
+
+        # Ensure git config is set for cron environment
+        self.run_command("git config user.name 'nicoboyce'", "Setting git user name")
+        self.run_command("git config user.email 'hello@nicoboyce.com'", "Setting git user email")
+
         # Add all changes
         if not self.run_command("git add .", "Adding changes to git"):
             return False
