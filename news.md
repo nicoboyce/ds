@@ -81,7 +81,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents and technical issues across Zendesk's product portfolio. This suggests that Zendesk administrators need to closely monitor system stability, proactively test new features and integrations, and have robust incident response and disaster recovery plans in place to ensure reliable customer support operations.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the rollout of new AI-powered features and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new technologies to ensure the stability and reliability of the platform, as well as have robust incident response and communication plans in place to effectively manage and mitigate the impact of any service disruptions.</p>
         </div>
     </div>
     
@@ -352,7 +352,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:05 (London)</strong><br>
+                    <strong>07:03 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
