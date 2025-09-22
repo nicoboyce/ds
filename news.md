@@ -81,7 +81,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the rollout of new AI-powered features and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new technologies to ensure the stability and reliability of the platform, as well as have robust incident response and communication plans in place to effectively manage and mitigate the impact of any service disruptions.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors. This suggests that Zendesk administrators need to closely monitor the stability and reliability of the platform, particularly as new features and integrations are introduced, and be prepared to quickly respond to and mitigate any service disruptions.</p>
+            <p>Additionally, the titles indicate a strategic shift towards AI-powered capabilities, such as intelligent triage for voice calls and outcome-based pricing, which may introduce new operational challenges for administrators in terms of testing, deployment, and ongoing management of these advanced technologies.</p>
         </div>
     </div>
     
@@ -352,7 +353,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>08:06 (London)</strong><br>
+                    <strong>09:07 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
