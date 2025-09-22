@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "Service stability concerns with 3 incidents reported. Administrators should review monitoring and incident response procedures.",
+  "recently_narrative": "The most significant operational pattern that Zendesk administrators need to understand is the increasing focus on AI-powered features and integrations, coupled with a series of service incidents and product changes that suggest potential stability and reliability challenges.\n\nThis pattern indicates that Zendesk is aggressively pursuing an AI-driven strategy, which may be causing disruptions to core platform functionality and integrations. Administrators should closely monitor the rollout of new AI features, thoroughly test them in staging environments, and be prepared to quickly respond to any service incidents or reliability issues that may arise.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-22T22:00:08.392801",
+  "generated_at": "2025-09-22T23:00:10.238545",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
