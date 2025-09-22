@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "Service stability concerns with 3 incidents reported. Administrators should review monitoring and incident response procedures.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing frequency and severity of service incidents, including AI agent delays, QA access issues, and 5xx errors, coinciding with the announcement of major product changes and integrations. This suggests that Zendesk administrators need to prioritize thorough testing and gradual rollout of new features and integrations to ensure the stability and reliability of the platform, as well as closely monitor service health and be prepared to respond quickly to any emerging issues.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-22T11:57:39.015430",
+  "generated_at": "2025-09-22T12:00:08.882364",
   "release_notes": {
     "summary": "Copilot: Intelligent triage for voice calls helps you get structured insights on intent, ",
     "article": {
