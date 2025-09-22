@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 7 hours ago
+                        <i class="far fa-clock"></i> 8 hours ago
                     </small>
                 </div>
             </div>
@@ -76,7 +76,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">24 stories</span>
+        <span class="badge badge-info ml-2">22 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -103,8 +103,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern that Zendesk administrators need to understand is the increasing focus on AI-powered features and integrations, coupled with a series of service incidents and product changes that suggest potential stability and reliability challenges.</p>
-            <p>This pattern indicates that Zendesk is aggressively pursuing an AI-driven strategy, which may be causing disruptions to core platform functionality and integrations. Administrators should closely monitor the rollout of new AI features, thoroughly test them in staging environments, and be prepared to quickly respond to any service incidents or reliability issues that may arise.</p>
+            <p>The most significant operational pattern observed across the article titles is the increasing reliance on AI and automation within the Zendesk ecosystem, coupled with a focus on integrating Zendesk with external systems and platforms.</p>
+            <p>This suggests that Zendesk administrators need to prioritize understanding and effectively managing the AI-powered features and integrations, as they are likely to become critical components of the Zendesk platform, with potential implications for stability, performance, and overall customer experience.</p>
         </div>
     </div>
     
@@ -112,7 +112,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -120,7 +120,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -146,21 +146,13 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 19 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors" class="text-dark">Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 25 days ago
-            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -177,7 +169,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -201,7 +193,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -233,7 +225,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -250,14 +242,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9646513178650-Announcing-the-deprecation-of-wrappers-for-the-Sunshine-Conversations-API" class="text-dark">Announcing the deprecation of wrappers for the Sunshine Conversations API</a>
-                <span class="source-badge">Zendesk Developer Updates</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 26 days ago
             </small>
         </article>        </div>
     </div>
@@ -344,7 +328,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -379,11 +363,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>22/09/2025</strong><br>
+                    <strong>23/09/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
