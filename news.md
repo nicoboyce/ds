@@ -365,7 +365,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:55 (London)</strong><br>
+                    <strong>12:57 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
