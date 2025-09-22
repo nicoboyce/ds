@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The article titles suggest that Zendesk is undergoing a significant strategic shift towards AI-powered contact center solutions, with a focus on improving operational efficiency and customer experience, while also grappling with product deprecation and integration challenges.\n\n2. This means that Zendesk administrators need to closely monitor the rollout and integration of AI features, ensure thorough testing and staging before production deployment, and be prepared to manage the impact of product changes and partner ecosystem shifts on their Zendesk implementation and overall customer support operations.",
+  "recently_narrative": "1. The most significant operational pattern observed across these article titles is the increasing prevalence of AI-related features and integrations within the Zendesk ecosystem, coupled with a series of service incidents and stability issues.\n\n2. This suggests that Zendesk administrators need to closely monitor the rollout and performance of AI-powered functionalities, ensuring thorough testing and gradual deployment to mitigate the risk of disruptions to core customer service operations, while also staying vigilant for potential external pressures that could impact the Zendesk platform and its integrations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-22T17:00:09.487020",
+  "generated_at": "2025-09-22T18:00:06.385290",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
