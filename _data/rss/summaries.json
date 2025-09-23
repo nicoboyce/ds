@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed across the article titles is the increasing reliance on AI and automation within the Zendesk ecosystem, coupled with a focus on streamlining customer support operations through integrations and workflow enhancements.\n\nThis suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of the AI-powered features, as well as ensuring seamless integration with other tools and platforms to optimize the overall customer experience, while also maintaining a close eye on system stability and performance as the platform evolves.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-powered triage, Workday integration, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize understanding and effectively managing the deployment of these AI-driven capabilities to ensure seamless customer support operations and mitigate any potential stability issues.\n\nAdditionally, the titles indicate a strategic shift towards outcome-based pricing and a focus on contact center modernization, which means Zendesk administrators should closely monitor the impact of these changes on their existing workflows and be prepared to adapt their support processes accordingly.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-23T02:00:13.707543",
+  "generated_at": "2025-09-23T03:00:07.369619",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
