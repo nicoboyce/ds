@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -72,7 +72,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 hours ago
+                <i class="far fa-clock"></i> 9 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -80,7 +80,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 hours ago
+                <i class="far fa-clock"></i> 19 hours ago
             </small>
         </article>        </div>
     </div>
@@ -97,7 +97,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 hours ago
+                <i class="far fa-clock"></i> 14 hours ago
             </small>
         </article>        </div>
     </div>
@@ -140,7 +140,7 @@ background: grey
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9720523288986-Announcing-the-WFM-Workday-integration-EAP" class="text-dark" target="_blank">Announcing the WFM Workday integration EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 6 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 7 days ago</small>
             
             </div>
         </div>
@@ -153,7 +153,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-powered conversation routing, GPT-5 integration, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven features, as well as their potential impact on core platform stability and customer experience, in order to effectively manage and optimize their Zendesk deployments.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like intelligent triage, auto-assist procedures, and outcome-based pricing. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven tools, as well as developing robust testing and monitoring strategies to ensure seamless integration and reliable performance within their customer service operations.</p>
         </div>
     </div>
     
@@ -234,7 +234,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -377,7 +377,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -416,7 +416,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:03 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
