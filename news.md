@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 13 hours ago
+                        <i class="far fa-clock"></i> 14 hours ago
                     </small>
                 </div>
             </div>
@@ -72,7 +72,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -97,7 +97,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 hours ago
+                <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>        </div>
     </div>
@@ -234,7 +234,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -424,7 +424,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:10 (London)</strong><br>
+                    <strong>20:11 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
