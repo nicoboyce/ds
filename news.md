@@ -41,7 +41,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">5 stories</span>
     </h2>
 
 
@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 hours ago
+                        <i class="far fa-clock"></i> 5 hours ago
                     </small>
                 </div>
             </div>
@@ -72,7 +72,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 hours ago
+                <i class="far fa-clock"></i> 8 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -80,7 +80,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        </div>
     </div>
@@ -97,7 +97,24 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            💡 Resources & Learning
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://internalnote.com/moving-from-manual-ticket-categorization-to-ai-powered-intent-detection-in-zendesk/" class="text-dark">Moving from manual ticket categorization to AI-powered intent detection in Zendesk</a>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -136,7 +153,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-driven triage, outcome-based pricing, and integrations with external platforms like Pipedrive and AWS. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-powered features, as well as ensuring robust testing and monitoring to maintain stability and reliability during the rollout of these new technologies.</p>
+            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-powered conversation routing, GPT-5 integration, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven features, as well as their potential impact on core platform stability and customer experience, in order to effectively manage and optimize their Zendesk deployments.</p>
         </div>
     </div>
     
@@ -176,7 +193,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 25 days ago
+                <i class="far fa-clock"></i> 26 days ago
             </small>
         </article>        </div>
     </div>
@@ -399,7 +416,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:00 (London)</strong><br>
+                    <strong>11:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
