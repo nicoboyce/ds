@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 9 hours ago
+                        <i class="far fa-clock"></i> 10 hours ago
                     </small>
                 </div>
             </div>
@@ -72,7 +72,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -80,7 +80,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        </div>
     </div>
@@ -97,7 +97,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        </div>
     </div>
@@ -153,7 +153,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-powered conversation routing, GPT-5 integration, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven features, as well as their potential impact on core platform stability and customer experience, in order to effectively manage and optimize their Zendesk deployments.</p>
+            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-powered conversation routing, Workday integration, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI and machine learning technologies, as well as thoroughly testing and monitoring the performance and reliability of these AI-powered features to ensure seamless customer experiences.</p>
         </div>
     </div>
     
@@ -210,7 +210,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -250,7 +250,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -416,7 +416,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:01 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
