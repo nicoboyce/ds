@@ -62,7 +62,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 hours ago
+                        <i class="far fa-clock"></i> 4 hours ago
                     </small>
                 </div>
             </div>
@@ -72,7 +72,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 hours ago
+                <i class="far fa-clock"></i> 7 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -80,7 +80,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        </div>
     </div>
@@ -97,7 +97,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 hours ago
+                <i class="far fa-clock"></i> 12 hours ago
             </small>
         </article>        </div>
     </div>
@@ -136,8 +136,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features such as intelligent triage for voice calls, auto-assist procedure insights, and the integration of GPT-5 technology. This suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-driven capabilities, ensuring they are thoroughly tested and integrated seamlessly with existing workflows to maintain service reliability and customer experience.</p>
-            <p>Additionally, the titles indicate a strategic shift towards outcome-based pricing and a focus on core customer service capabilities, as evidenced by the decision to shutter the Zendesk Sell product. This shift may require Zendesk administrators to reevaluate their integration strategies and ensure that their Zendesk implementation aligns with the company's evolving product direction and pricing models.</p>
+            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-driven triage, outcome-based pricing, and integrations with external platforms like Pipedrive and AWS. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-powered features, as well as ensuring robust testing and monitoring to maintain stability and reliability during the rollout of these new technologies.</p>
         </div>
     </div>
     
@@ -400,7 +399,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09:00 (London)</strong><br>
+                    <strong>10:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
