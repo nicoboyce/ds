@@ -114,7 +114,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 hours ago
+                <i class="far fa-clock"></i> 4 hours ago
             </small>
         </article>        </div>
     </div>
@@ -449,7 +449,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:04 (London)</strong><br>
+                    <strong>00:05 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
