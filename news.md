@@ -41,7 +41,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">8 stories</span>
+        <span class="badge badge-primary ml-2">9 stories</span>
     </h2>
 
 
@@ -105,10 +105,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3BmaUVMak85aWxGbFNTa1FQNE8wVGVIZnNqeXBDYmJ5M3JEMFJqXzJPS0lBYWxTUElPWXNLNFNybFhKczdodUZSd3BTOUhsemVqSW0ya2s0YXprelU4TFFNQ3pfUW5QcnNldWgxSWgycUlTMmNGZkR4dDkxNG5oUDNQc3FfSzdK?oc=5" class="text-dark">Faye Builds Tool to Seamlessly Migrate Zendesk Sell Data to Pipedrive - Yahoo Finance</a>
                 
@@ -118,7 +126,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2JfTjNsT2pmME1KdURpd01iOTdxZlBkaXl5ZTh1Vnk5b1Z3d0M2TlhEbDl0Umg3aEV2cXFYQUVzaGF1MjZILU9IWmF4MGRoYkV6ZUJMWmFEZzFhY2R1anQ2dDhMcWdSaG5nbHJ6UmxQc2pxNWEzOE44T3NuLWh0c3MzMzktNFBWOEMyLXJTMjBqWGZqTXRmYjdXLTlZTzA0SFd3aG1scw?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
+                <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHhmSVRuUnFLYXkxbzZDX1pldWVQSWVOenpkZzBxbWloYXNHc0thSUdNOG9DNEZXbV9RbXFCMDh6TVlkNUtRV0k4eTFtUUY4dE42U2tZenJzQXNFWkxiZXU5MXhkUGtJQkoyQXhreGh5MFk1aExneHY1dGRZN2RvcmRWb0R3N1Ixc0xCX1pJTlpRa0dSWVFhRXh1c1B4dkFjQVFrTk1yUXBrWWRLU2t3VUNwb21TQQ?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
                 
             </h6>
             <small class="text-muted">
@@ -150,7 +158,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">19 stories</span>
+        <span class="badge badge-info ml-2">20 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -177,7 +185,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the strategic shift towards AI-powered features and integrations across Zendesk's product suite. This indicates that Zendesk administrators need to prioritize upskilling their teams in AI and automation technologies, as well as carefully planning and testing the rollout of these new capabilities to ensure stability and reliability of the Zendesk ecosystem.</p>
+            <p>The most significant operational pattern observed across these article titles is a strategic shift towards AI-powered features and integrations, coupled with a focus on streamlining customer support operations.</p>
+            <p>This suggests that Zendesk administrators need to prioritize the evaluation and testing of new AI-driven capabilities, while also ensuring seamless integration with external systems and platforms to optimize customer support workflows. Careful planning and staged rollouts will be crucial to managing the operational impact of these strategic changes.</p>
         </div>
     </div>
     
@@ -185,7 +194,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 19 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 20 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -323,10 +332,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxPb21ManhHZmFPR3lHR09ENlRib3Y4UXVPd2RxQWpjUExUX0tZbi02ZnZZcENINVZ4SFJneUxjS3ZyTmdIT19CbFZ1VmFISWNsRGhweWFtaUFnME5XN2s3X0Z4b1dMVnhBelZwQUVCNVJ4UGZJck5lWnFkSTd2cWhoZkcxZnJHaGEza056WS1ldkZhVTI5dWloamExOVJsSk9QREhKRkEwV2M4VzhnZVdWN2Q2Yl9QNC1ROG5Da3Z5SWI0TXpQVERMN0xtRjJKNVJjVENRTHU2elJtZUNDMUpvU1dWbllhYmhOY3lPTURnYmlHV1Z6WTI5TjdxT3I0OVg1ZzNiLXpwN0JnbkNUNlN2VVVxbDlFb3ZSS1FqV2FCMkxfZ2dqWXgyT1FRR2haVTBIV0JQZUFkQ2hmQ1hvMnJFQzVGcng?oc=5" class="text-dark">Zendesk lays off dozens of employees at SF headquarters - MSN</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
                 
@@ -369,6 +386,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -378,14 +403,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NXhuVVhWdU9Cekk3TFZYWFVqMFBtcWZIcVB1dkFOTllvMlVQc1RCUmNUaUlGaGQwR3VTeXVzNmhJdkFHVENBUlNfUG5DNGlTQ1Z6ZlBpQnk1LWp0WU9ZTkdObXRLMjZO?oc=5" class="text-dark">I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar</a>
                 
             </h6>
             <small class="text-muted">
@@ -416,7 +433,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>20:01 (London)</strong><br>
+                    <strong>21:02 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
