@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern that administrators need to understand is the rapid evolution and integration of AI-powered features across Zendesk's product suite. This suggests that Zendesk is aggressively pursuing an AI-first strategy, which may introduce stability risks and require extensive testing and monitoring by administrators to ensure seamless customer experiences.",
+  "recently_narrative": "The most significant operational pattern observed is the rapid pace of product changes and feature updates across the Zendesk ecosystem, including new AI-powered capabilities, integrations, and workflow enhancements. This suggests that Zendesk administrators need to be proactive in testing and validating new features and integrations thoroughly in staging environments before deploying them to production, in order to ensure stability and reliability of the Zendesk platform for their organizations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-24T00:11:10.663057",
+  "generated_at": "2025-09-24T01:12:12.514564",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
