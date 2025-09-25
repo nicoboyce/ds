@@ -3,7 +3,7 @@
   "recently_narrative": "1. The article titles suggest a pattern of Zendesk rapidly expanding its product offerings and capabilities, particularly in the areas of AI, workforce management, and custom object management, while also experiencing some operational stability issues that require administrators to closely monitor and manage the platform.\n\n2. This means that Zendesk administrators need to stay vigilant in testing and validating new features and integrations before deploying them in production environments, while also ensuring that core communication and support infrastructure remains reliable and resilient in the face of these rapid platform changes.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-25T11:02:42.071285",
+  "generated_at": "2025-09-25T12:03:43.700271",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
