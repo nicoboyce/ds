@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the recurring service incidents and technical issues across Zendesk's core products, including messaging, AI agents, and quality assurance. This suggests that Zendesk administrators need to closely monitor the stability and performance of Zendesk's infrastructure, prioritize proactive maintenance, and have robust incident response and recovery plans in place to minimize disruptions to customer service operations.\n\nAdditionally, the titles indicate a strategic shift towards AI-powered features and outcome-based pricing, which may introduce new complexities and challenges for administrators. Zendesk administrators should closely evaluate the impact of these changes on their existing workflows, ensure proper testing and gradual rollouts, and develop the necessary skills and expertise to manage the new AI-driven capabilities effectively.",
+  "recently_narrative": "1. The most significant operational pattern observed is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, as evidenced by the announcements of AI-powered features such as intelligent triage for voice calls, auto-assist procedure insights, and outcome-based pricing with AI.\n\n2. This trend suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-driven capabilities, ensuring they are thoroughly tested and integrated seamlessly with existing workflows to maintain service reliability and customer experience, while also staying informed about the strategic implications of Zendesk's AI-centric vision for the future of contact centers.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-25T07:15:25.875490",
+  "generated_at": "2025-09-25T08:00:08.461252",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
