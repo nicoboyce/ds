@@ -89,7 +89,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 6 hours ago
             </small>
         </article>        </div>
     </div>
@@ -186,7 +186,7 @@ background: grey
         </div>
         <div class="summary-content">
             <p>1. The article titles suggest a pattern of Zendesk rapidly expanding its product offerings and integrations, while also experiencing operational challenges and service incidents, particularly in the areas of workforce management, AI-powered features, and messaging/communication capabilities.</p>
-            <p>2. This indicates that Zendesk administrators need to carefully balance the adoption of new features and integrations with the need to maintain stable and reliable core platform operations, and should prioritize thorough testing and monitoring of any major product changes or AI-driven enhancements to avoid disruptions to customer service.</p>
+            <p>2. This indicates that Zendesk administrators need to carefully balance the adoption of new features and integrations with ensuring the stability and reliability of core Zendesk services, as well as closely monitor the impact of AI and automation on customer support operations.</p>
         </div>
     </div>
     
@@ -393,7 +393,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -424,7 +424,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01:06 (London)</strong><br>
+                    <strong>02:07 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
@@ -444,6 +444,7 @@ background: grey
                 <div class="col-md-6">
                     <h6 class="text-primary">September 2025</h6>
                     <ul class="list-unstyled archive-links">
+                        <li><a href="/news-2025-09-25/" class="text-dark">Zendesk news - 25 September</a></li>
                         <li><a href="/news-2025-09-24/" class="text-dark">Zendesk news - 24 September</a></li>
                         <li><a href="/news-2025-09-23/" class="text-dark">Zendesk news - 23 September</a></li>
                         <li><a href="/news-2025-09-22/" class="text-dark">Zendesk news - 22 September</a></li>
@@ -463,7 +464,6 @@ background: grey
                         <li><a href="/news-2025-09-04/" class="text-dark">Zendesk news - 4 September</a></li>
                         <li><a href="/news-2025-09-03/" class="text-dark">Zendesk news - 3 September</a></li>
                         <li><a href="/news-2025-09-02/" class="text-dark">Zendesk news - 2 September</a></li>
-                        <li><a href="/news-2025-09-01/" class="text-dark">Zendesk news - 1 September</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
