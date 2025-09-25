@@ -1,4 +1,15 @@
 entries:
+  - date: "2025-09-25"
+    content: |
+      <p class="mb-2">
+          Just a couple of smaller items we want to draw your attention to this week:
+      </p>
+      <p class="mb-2">
+          The Delaware court ruled in favour of the Zendesk board once again, which likely draws and end to the matter. Regular readers know we've been following the details on this one and we're glad to see a quick resolution to this latest skirmish.
+      </p>
+      <p class="mb-0">
+        Zendesk added a new API endpoint for incremental export of custom objects. We're glad to see proper good old fashioned APIs are still something other people care about too!
+      </p>  
   - date: "2025-09-22"
     content: |
       <p class="mb-2">
