@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The most significant operational pattern observed across the article titles is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, coupled with ongoing service disruptions and product changes that suggest a period of instability and transition.\n\n2. This means that Zendesk administrators will need to carefully monitor the performance and reliability of AI-powered features, while also being prepared to adapt quickly to product roadmap shifts and potential service outages as the company navigates this technological transformation, balancing innovation with operational stability.",
+  "recently_narrative": "The most significant operational pattern observed is the clustering of service incidents and product announcements, indicating potential instability in Zendesk's core infrastructure and rapid feature development. Administrators should closely monitor the impact of new feature releases on system performance and be prepared to quickly respond to any service disruptions, while also carefully evaluating the tradeoffs between feature expansion and platform stability.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-25T22:00:44.309866",
+  "generated_at": "2025-09-25T23:07:52.518975",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
