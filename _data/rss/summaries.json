@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The article titles suggest a pattern of Zendesk rapidly expanding its product offerings and integrations, while also experiencing operational challenges and service incidents, particularly in the areas of workforce management, AI-powered features, and messaging/communication capabilities.\n\n2. This indicates that Zendesk administrators need to carefully balance the adoption of new features and integrations with ensuring the stability and reliability of core Zendesk services, as well as closely monitor the impact of AI and automation on customer support operations.",
+  "recently_narrative": "The most significant operational pattern observed is the recurring service incidents and technical issues across Zendesk's core products, including messaging, AI agents, and quality assurance. This suggests that Zendesk administrators need to closely monitor the stability and performance of Zendesk's infrastructure, prioritize proactive maintenance, and have robust incident response and recovery plans in place to minimize disruptions to customer service operations.\n\nAdditionally, the titles indicate a strategic shift towards AI-powered features and outcome-based pricing, which may introduce new complexities and challenges for administrators. Zendesk administrators should closely evaluate the impact of these changes on their existing workflows, ensure proper testing and gradual rollouts, and develop the necessary skills and expertise to manage the new AI-driven capabilities effectively.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-25T06:04:04.779689",
+  "generated_at": "2025-09-25T07:15:25.875490",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
