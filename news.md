@@ -89,7 +89,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        </div>
     </div>
@@ -172,7 +172,7 @@ background: grey
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9720523288986-Announcing-the-WFM-Workday-integration-EAP" class="text-dark" target="_blank">Announcing the WFM Workday integration EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 8 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 9 days ago</small>
             
             </div>
         </div>
@@ -275,7 +275,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
+                <i class="far fa-clock"></i> 9 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -433,7 +433,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:01 (London)</strong><br>
+                    <strong>12:02 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
