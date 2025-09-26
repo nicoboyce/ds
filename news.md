@@ -41,7 +41,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">5 stories</span>
+        <span class="badge badge-primary ml-2">1 stories</span>
     </h2>
 
 
@@ -57,48 +57,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">4</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQRERoMmdoZ1RXVDJjTzJ5Q3NyZkkydWNhU1JEN2JpSEt1aUc4dTdqa3MwQjczemN0VlIxMEpyUkZHcURRQ3J5bzFDOGJlbEkwT0lyLVI4Vjh0U2hFbU5VX1N0bV9yTEJIY295WmgzcHU2SUFnMi1pd3RPYUt0dWM3TVNWUQ?oc=5" class="text-dark">Delaware High Court Upholds Zendesk $10.5B Private Deal - USA Herald</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3BmaUVMak85aWxGbFNTa1FQNE8wVGVIZnNqeXBDYmJ5M3JEMFJqXzJPS0lBYWxTUElPWXNLNFNybFhKczdodUZSd3BTOUhsemVqSW0ya2s0YXprelU4TFFNQ3pfUW5QcnNldWgxSWgycUlTMmNGZkR4dDkxNG5oUDNQc3FfSzdK?oc=5" class="text-dark">Faye Builds Tool to Seamlessly Migrate Zendesk Sell Data to Pipedrive - Yahoo Finance</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHhmSVRuUnFLYXkxbzZDX1pldWVQSWVOenpkZzBxbWloYXNHc0thSUdNOG9DNEZXbV9RbXFCMDh6TVlkNUtRV0k4eTFtUUY4dE42U2tZenJzQXNFWkxiZXU5MXhkUGtJQkoyQXhreGh5MFk1aExneHY1dGRZN2RvcmRWb0R3N1Ixc0xCX1pJTlpRa0dSWVFhRXh1c1B4dkFjQVFrTk1yUXBrWWRLU2t3VUNwb21TQQ?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 3 hours ago
             </small>
         </article>        </div>
     </div>
@@ -110,7 +69,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">25 stories</span>
+        <span class="badge badge-info ml-2">27 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -137,8 +96,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern observed across these article titles is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, with a focus on enhancing customer support operations through features like intent detection, intelligent triage, and outcome-based pricing.</p>
-            <p>2. This trend suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-powered features, ensuring they are thoroughly tested and integrated seamlessly with existing workflows to maintain service reliability and stability, while also exploring ways to leverage these advancements to drive operational efficiencies and improve customer experiences.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI/ML management, closely monitor the performance and stability of these AI-driven features, and have robust testing and rollout strategies in place to ensure a seamless transition for their customers.</p>
         </div>
     </div>
     
@@ -146,7 +104,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -227,7 +185,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -251,7 +209,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -283,7 +241,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -299,18 +257,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxPb21ManhHZmFPR3lHR09ENlRib3Y4UXVPd2RxQWpjUExUX0tZbi02ZnZZcENINVZ4SFJneUxjS3ZyTmdIT19CbFZ1VmFISWNsRGhweWFtaUFnME5XN2s3X0Z4b1dMVnhBelZwQUVCNVJ4UGZJck5lWnFkSTd2cWhoZkcxZnJHaGEza056WS1ldkZhVTI5dWloamExOVJsSk9QREhKRkEwV2M4VzhnZVdWN2Q2Yl9QNC1ROG5Da3Z5SWI0TXpQVERMN0xtRjJKNVJjVENRTHU2elJtZUNDMUpvU1dWbllhYmhOY3lPTURnYmlHV1Z6WTI5TjdxT3I0OVg1ZzNiLXpwN0JnbkNUNlN2VVVxbDlFb3ZSS1FqV2FCMkxfZ2dqWXgyT1FRR2haVTBIV0JQZUFkQ2hmQ1hvMnJFQzVGcng?oc=5" class="text-dark">Zendesk lays off dozens of employees at SF headquarters - MSN</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
                 
@@ -324,10 +274,34 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQRERoMmdoZ1RXVDJjTzJ5Q3NyZkkydWNhU1JEN2JpSEt1aUc4dTdqa3MwQjczemN0VlIxMEpyUkZHcURRQ3J5bzFDOGJlbEkwT0lyLVI4Vjh0U2hFbU5VX1N0bV9yTEJIY295WmgzcHU2SUFnMi1pd3RPYUt0dWM3TVNWUQ?oc=5" class="text-dark">Delaware High Court Upholds Zendesk $10.5B Private Deal - USA Herald</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3BmaUVMak85aWxGbFNTa1FQNE8wVGVIZnNqeXBDYmJ5M3JEMFJqXzJPS0lBYWxTUElPWXNLNFNybFhKczdodUZSd3BTOUhsemVqSW0ya2s0YXprelU4TFFNQ3pfUW5QcnNldWgxSWgycUlTMmNGZkR4dDkxNG5oUDNQc3FfSzdK?oc=5" class="text-dark">Faye Builds Tool to Seamlessly Migrate Zendesk Sell Data to Pipedrive - Yahoo Finance</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHhmSVRuUnFLYXkxbzZDX1pldWVQSWVOenpkZzBxbWloYXNHc0thSUdNOG9DNEZXbV9RbXFCMDh6TVlkNUtRV0k4eTFtUUY4dE42U2tZenJzQXNFWkxiZXU5MXhkUGtJQkoyQXhreGh5MFk1aExneHY1dGRZN2RvcmRWb0R3N1Ixc0xCX1pJTlpRa0dSWVFhRXh1c1B4dkFjQVFrTk1yUXBrWWRLU2t3VUNwb21TQQ?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/moving-from-manual-ticket-categorization-to-ai-powered-intent-detection-in-zendesk/" class="text-dark">Moving from manual ticket categorization to AI-powered intent detection in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -341,7 +315,7 @@ background: grey
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 days ago
+                <i class="far fa-clock"></i> 4 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -412,11 +386,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>26/09/2025</strong><br>
+                    <strong>27/09/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:09 (London)</strong><br>
+                    <strong>01:12 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
