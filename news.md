@@ -121,7 +121,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the titles on AI-powered intent detection, AI agent delays, and auto-assist procedure insights. This suggests that Zendesk administrators need to prioritize the careful testing and monitoring of these AI-driven features to ensure stable and reliable customer support operations, as any issues with the AI components could have widespread impact on the overall Zendesk ecosystem.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize the careful testing and monitoring of these AI-driven features to ensure seamless integration with existing workflows and to mitigate any potential disruptions to core support operations.</p>
         </div>
     </div>
     
@@ -202,7 +202,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
+                <i class="far fa-clock"></i> 9 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -242,7 +242,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -391,7 +391,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:01 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
