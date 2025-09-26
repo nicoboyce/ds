@@ -41,7 +41,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">5 stories</span>
     </h2>
 
 
@@ -57,7 +57,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        </div>
     </div>
@@ -65,12 +65,12 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQRERoMmdoZ1RXVDJjTzJ5Q3NyZkkydWNhU1JEN2JpSEt1aUc4dTdqa3MwQjczemN0VlIxMEpyUkZHcURRQ3J5bzFDOGJlbEkwT0lyLVI4Vjh0U2hFbU5VX1N0bV9yTEJIY295WmgzcHU2SUFnMi1pd3RPYUt0dWM3TVNWUQ?oc=5" class="text-dark">Delaware High Court Upholds Zendesk $10.5B Private Deal - USA Herald</a>
                 
             </h6>
             <small class="text-muted">
@@ -78,7 +78,15 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQRERoMmdoZ1RXVDJjTzJ5Q3NyZkkydWNhU1JEN2JpSEt1aUc4dTdqa3MwQjczemN0VlIxMEpyUkZHcURRQ3J5bzFDOGJlbEkwT0lyLVI4Vjh0U2hFbU5VX1N0bV9yTEJIY295WmgzcHU2SUFnMi1pd3RPYUt0dWM3TVNWUQ?oc=5" class="text-dark">Delaware High Court Upholds Zendesk $10.5B Private Deal - USA Herald</a>
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3BmaUVMak85aWxGbFNTa1FQNE8wVGVIZnNqeXBDYmJ5M3JEMFJqXzJPS0lBYWxTUElPWXNLNFNybFhKczdodUZSd3BTOUhsemVqSW0ya2s0YXprelU4TFFNQ3pfUW5QcnNldWgxSWgycUlTMmNGZkR4dDkxNG5oUDNQc3FfSzdK?oc=5" class="text-dark">Faye Builds Tool to Seamlessly Migrate Zendesk Sell Data to Pipedrive - Yahoo Finance</a>
                 
             </h6>
             <small class="text-muted">
@@ -129,8 +137,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern observed across these article titles is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, with a focus on enhancing customer support operations through features like intent detection, intelligent triage, and outcome-based pricing.</p>
-            <p>2. This trend suggests that Zendesk administrators need to prioritize understanding and effectively managing the integration of these AI-powered capabilities, ensuring they are properly configured, tested, and monitored to maintain the stability and reliability of the platform, while also leveraging the potential efficiency and performance gains these technologies can provide.</p>
+            <p>1. The most significant operational pattern observed across the article titles is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, with a focus on enhancing customer support operations through features like intent detection, intelligent triage, and outcome-based pricing.</p>
+            <p>2. This trend suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-powered capabilities, ensuring they are thoroughly tested and integrated seamlessly with existing workflows to maintain service reliability and avoid potential disruptions, as evidenced by the service incidents related to AI agent delays and messaging authentication issues.</p>
         </div>
     </div>
     
@@ -227,7 +235,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -408,7 +416,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:04 (London)</strong><br>
+                    <strong>20:05 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
