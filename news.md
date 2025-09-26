@@ -70,7 +70,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -94,7 +94,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">25 stories</span>
+        <span class="badge badge-info ml-2">24 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -108,7 +108,7 @@ background: grey
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9720523288986-Announcing-the-WFM-Workday-integration-EAP" class="text-dark" target="_blank">Announcing the WFM Workday integration EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 9 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 10 days ago</small>
             
             </div>
         </div>
@@ -121,8 +121,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern observed across these article titles is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, which appears to be driving both innovation and instability.</p>
-            <p>2. Zendesk administrators will need to carefully manage the integration and deployment of these AI-powered features, closely monitoring their impact on core support operations and being prepared to quickly address any service disruptions or performance issues that may arise as a result.</p>
+            <p>1. The article titles suggest a pattern of Zendesk rapidly expanding its product capabilities, particularly in the areas of AI, automation, and workforce management, while also experiencing a number of service incidents and operational challenges.</p>
+            <p>2. This indicates that Zendesk administrators need to carefully balance the adoption of new features and technologies with ensuring the stability and reliability of the core platform, as well as closely monitor the impact of these changes on customer experience and support operations.</p>
         </div>
     </div>
     
@@ -130,7 +130,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -227,7 +227,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -283,18 +283,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxPb21ManhHZmFPR3lHR09ENlRib3Y4UXVPd2RxQWpjUExUX0tZbi02ZnZZcENINVZ4SFJneUxjS3ZyTmdIT19CbFZ1VmFISWNsRGhweWFtaUFnME5XN2s3X0Z4b1dMVnhBelZwQUVCNVJ4UGZJck5lWnFkSTd2cWhoZkcxZnJHaGEza056WS1ldkZhVTI5dWloamExOVJsSk9QREhKRkEwV2M4VzhnZVdWN2Q2Yl9QNC1ROG5Da3Z5SWI0TXpQVERMN0xtRjJKNVJjVENRTHU2elJtZUNDMUpvU1dWbllhYmhOY3lPTURnYmlHV1Z6WTI5TjdxT3I0OVg1ZzNiLXpwN0JnbkNUNlN2VVVxbDlFb3ZSS1FqV2FCMkxfZ2dqWXgyT1FRR2haVTBIV0JQZUFkQ2hmQ1hvMnJFQzVGcng?oc=5" class="text-dark">Zendesk lays off dozens of employees at SF headquarters - MSN</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
                 
@@ -369,7 +361,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -400,7 +392,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:14 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
