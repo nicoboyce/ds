@@ -57,7 +57,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        </div>
     </div>
@@ -69,7 +69,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">29 stories</span>
+        <span class="badge badge-info ml-2">27 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -96,8 +96,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern that Zendesk administrators need to understand is the increasing reliance on AI and automation across the platform, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and the integration of GPT-5 to improve response times and reliability.</p>
-            <p>2. This shift towards AI-driven capabilities means that Zendesk administrators will need to prioritize the careful testing and monitoring of these new features to ensure seamless integration with existing workflows and to mitigate any potential disruptions to core communication and support infrastructure.</p>
+            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI and automation across Zendesk's product suite. This is evidenced by the numerous announcements related to AI-powered intent detection, intelligent triage, and outcome-based pricing, suggesting that Zendesk is positioning itself as a leader in AI-driven customer service. Administrators will need to carefully manage the integration and deployment of these AI features to ensure stability and reliability, while also evaluating the impact on their existing workflows and processes.</p>
         </div>
     </div>
     
@@ -105,7 +104,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 29 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -258,18 +257,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixAJBVV95cUxPb21ManhHZmFPR3lHR09ENlRib3Y4UXVPd2RxQWpjUExUX0tZbi02ZnZZcENINVZ4SFJneUxjS3ZyTmdIT19CbFZ1VmFISWNsRGhweWFtaUFnME5XN2s3X0Z4b1dMVnhBelZwQUVCNVJ4UGZJck5lWnFkSTd2cWhoZkcxZnJHaGEza056WS1ldkZhVTI5dWloamExOVJsSk9QREhKRkEwV2M4VzhnZVdWN2Q2Yl9QNC1ROG5Da3Z5SWI0TXpQVERMN0xtRjJKNVJjVENRTHU2elJtZUNDMUpvU1dWbllhYmhOY3lPTURnYmlHV1Z6WTI5TjdxT3I0OVg1ZzNiLXpwN0JnbkNUNlN2VVVxbDlFb3ZSS1FqV2FCMkxfZ2dqWXgyT1FRR2haVTBIV0JQZUFkQ2hmQ1hvMnJFQzVGcng?oc=5" class="text-dark">Zendesk lays off dozens of employees at SF headquarters - MSN</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
                 
@@ -283,18 +274,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQRERoMmdoZ1RXVDJjTzJ5Q3NyZkkydWNhU1JEN2JpSEt1aUc4dTdqa3MwQjczemN0VlIxMEpyUkZHcURRQ3J5bzFDOGJlbEkwT0lyLVI4Vjh0U2hFbU5VX1N0bV9yTEJIY295WmgzcHU2SUFnMi1pd3RPYUt0dWM3TVNWUQ?oc=5" class="text-dark">Delaware High Court Upholds Zendesk $10.5B Private Deal - USA Herald</a>
                 
@@ -304,7 +287,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3BmaUVMak85aWxGbFNTa1FQNE8wVGVIZnNqeXBDYmJ5M3JEMFJqXzJPS0lBYWxTUElPWXNLNFNybFhKczdodUZSd3BTOUhsemVqSW0ya2s0YXprelU4TFFNQ3pfUW5QcnNldWgxSWgycUlTMmNGZkR4dDkxNG5oUDNQc3FfSzdK?oc=5" class="text-dark">Faye Builds Tool to Seamlessly Migrate Zendesk Sell Data to Pipedrive - Yahoo Finance</a>
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -407,7 +390,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:01 (London)</strong><br>
+                    <strong>11:13 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
