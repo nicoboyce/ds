@@ -96,8 +96,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the articles on AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI/ML management, ensuring robust testing and monitoring of these AI-driven features to maintain service reliability and customer experience.</p>
-            <p>Additionally, the articles highlight Zendesk's strategic shift towards outcome-based pricing and a focus on contact center solutions, which may require administrators to reevaluate their support operations and align their processes with these new business models and product directions.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the articles on AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI/ML management, ensuring robust testing and monitoring of these intelligent features to maintain service reliability and customer experience during the transition.</p>
+            <p>Additionally, the articles highlight a strategic shift towards outcome-based pricing and a focus on contact center solutions, indicating that Zendesk administrators should closely monitor the impact of these changes on their operational models, resource planning, and integration with other enterprise systems.</p>
         </div>
     </div>
     
@@ -145,7 +145,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -178,7 +178,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -218,7 +218,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 days ago
+                <i class="far fa-clock"></i> 17 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -383,7 +383,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:10 (London)</strong><br>
+                    <strong>16:11 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
