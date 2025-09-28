@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the numerous articles discussing AI-powered features, intent detection, and outcome-based pricing. This suggests that Zendesk administrators need to prioritize understanding and effectively managing the integration of AI and automation into their support operations, ensuring a smooth transition and mitigating any potential stability issues that may arise from the implementation of these new technologies.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing focus on AI-powered features and integrations across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI-driven technologies, as well as thoroughly testing and monitoring the implementation of these features to ensure seamless integration and stability within their Zendesk ecosystem.\n\nAdditionally, the titles indicate a strategic shift towards outcome-based pricing and a focus on enterprise-level solutions, rather than individual seat-based offerings. This means that Zendesk administrators will need to reevaluate their pricing and licensing models, as well as their approach to managing and scaling Zendesk across their organization.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-28T23:02:13.961722",
+  "generated_at": "2025-09-29T00:02:39.078189",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
