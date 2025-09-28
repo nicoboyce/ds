@@ -57,7 +57,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        </div>
     </div>
@@ -96,7 +96,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the numerous articles discussing AI-powered features, intent detection, and outcome-based pricing. This suggests that Zendesk administrators need to prioritize understanding and effectively managing the integration of AI and automation into their support operations, ensuring a smooth transition and mitigating any potential stability issues that may arise from the implementation of these new technologies.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the numerous articles discussing AI-powered features, intent detection, and outcome-based pricing. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven tools, as well as developing robust testing and monitoring strategies to ensure the stability and reliability of the platform as it becomes more dependent on advanced technologies.</p>
         </div>
     </div>
     
@@ -169,7 +169,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -279,7 +279,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -382,7 +382,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
