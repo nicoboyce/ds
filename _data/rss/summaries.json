@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize the careful testing and monitoring of these AI-driven features to ensure stable and reliable customer support operations, as any issues with the new AI capabilities could have widespread impact on core Zendesk functionality.\n\nAdditionally, the titles indicate a strategic shift towards outcome-based pricing and a focus on enterprise-level solutions, rather than individual seat-based licensing. This means that Zendesk administrators will need to reevaluate their support models and resource allocation to align with these new pricing and product strategies, ensuring that their teams can effectively deliver the desired business outcomes for their organizations.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize the careful testing and monitoring of these AI-driven features to ensure stable and reliable customer support operations, as the titles indicate potential issues with the rollout and integration of these new technologies.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-28T01:00:08.067073",
+  "generated_at": "2025-09-28T02:01:17.973969",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
