@@ -96,7 +96,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-driven features to ensure seamless integration with existing workflows and maintain service reliability, as evidenced by the service incidents related to AI agent delays.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-driven features to ensure seamless integration with existing workflows and to mitigate any potential stability issues that may arise from the increased automation.</p>
+            <p>Additionally, the titles indicate a strategic shift towards outcome-based pricing and a focus on enterprise-level solutions, rather than individual seat-based licensing. This shift requires Zendesk administrators to reevaluate their support and service delivery models to align with these new pricing and packaging approaches, ensuring that their teams are equipped to deliver the desired business outcomes for their customers.</p>
         </div>
     </div>
     
@@ -287,7 +288,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQRERoMmdoZ1RXVDJjTzJ5Q3NyZkkydWNhU1JEN2JpSEt1aUc4dTdqa3MwQjczemN0VlIxMEpyUkZHcURRQ3J5bzFDOGJlbEkwT0lyLVI4Vjh0U2hFbU5VX1N0bV9yTEJIY295WmgzcHU2SUFnMi1pd3RPYUt0dWM3TVNWUQ?oc=5" class="text-dark">Delaware High Court Upholds Zendesk $10.5B Private Deal - USA Herald</a>
                 
             </h6>
             <small class="text-muted">
@@ -295,7 +296,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2JfTjNsT2pmME1KdURpd01iOTdxZlBkaXl5ZTh1Vnk5b1Z3d0M2TlhEbDl0Umg3aEV2cXFYQUVzaGF1MjZILU9IWmF4MGRoYkV6ZUJMWmFEZzFhY2R1anQ2dDhMcWdSaG5nbHJ6UmxQc2pxNWEzOE44T3NuLWh0c3MzMzktNFBWOEMyLXJTMjBqWGZqTXRmYjdXLTlZTzA0SFd3aG1scw?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -382,7 +383,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09:13 (London)</strong><br>
+                    <strong>10:06 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
