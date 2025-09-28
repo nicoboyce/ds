@@ -96,8 +96,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-driven features to ensure seamless integration with existing workflows and to mitigate any potential stability issues that may arise from the increased automation.</p>
-            <p>Additionally, the titles indicate a strategic shift towards outcome-based pricing and a focus on enterprise-level solutions, rather than individual seat-based licensing. This shift requires Zendesk administrators to reevaluate their support and service delivery models to align with these new pricing and packaging approaches, ensuring that their teams are equipped to deliver the desired business outcomes for their customers.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and intelligent triage for voice calls. This suggests that Zendesk administrators need to prioritize the careful implementation and monitoring of these AI-driven features to ensure seamless integration with existing workflows and to mitigate any potential stability issues that may arise from the increased use of AI in customer support operations.</p>
         </div>
     </div>
     
@@ -383,7 +382,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:06 (London)</strong><br>
+                    <strong>11:13 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
