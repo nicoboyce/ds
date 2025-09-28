@@ -96,8 +96,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the articles on AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI/ML management, ensuring robust testing and monitoring of these AI-driven features to maintain service reliability and stability for their customers.</p>
-            <p>Additionally, the articles highlight Zendesk's strategic shift towards outcome-based pricing and a focus on customer service solutions, rather than standalone products, which means administrators will need to adapt their operational models to align with this new business approach, potentially requiring changes in resource allocation, performance metrics, and integration management.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the articles discussing AI-powered intent detection, auto-assist procedure insights, and the integration of GPT-5 technology. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI and machine learning, as well as implementing robust testing and monitoring procedures to ensure the stability and reliability of these AI-driven features, especially during major product rollouts or integrations.</p>
         </div>
     </div>
     
@@ -383,7 +382,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:03 (London)</strong><br>
+                    <strong>07:10 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
