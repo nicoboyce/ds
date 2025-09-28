@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the numerous articles discussing AI-powered features, intent detection, and outcome-based pricing. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven tools, as well as developing robust testing and monitoring strategies to ensure the stability and reliability of the platform as it becomes more dependent on advanced technologies.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the articles on AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI-driven technologies, as well as implementing robust testing and monitoring procedures to ensure the stability and reliability of these AI-powered features.\n\nAdditionally, the articles highlight a strategic shift towards outcome-based pricing and a focus on enterprise-level solutions, rather than individual seat-based offerings. This indicates that Zendesk administrators should be prepared to adapt their operational models to align with these changes, potentially requiring a more holistic approach to service delivery and a closer alignment with broader business objectives.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-28T21:00:06.661761",
+  "generated_at": "2025-09-28T22:00:54.122856",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
