@@ -8,7 +8,7 @@ layout: null
   <url>
     <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
@@ -18,8 +18,8 @@ layout: null
       {% if page.layout == 'page' and page.published != false and page.sitemap != false %}
         <url>
           <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
-          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-          <changefreq>monthly</changefreq>
+          <lastmod>{{ page | file_mtime }}</lastmod>
+          <changefreq>daily</changefreq>
           <priority>0.8</priority>
         </url>
       {% endif %}
@@ -31,8 +31,8 @@ layout: null
   {% for post in site.posts %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      <changefreq>monthly</changefreq>
+      <lastmod>{{ post | file_mtime }}</lastmod>
+      <changefreq>daily</changefreq>
       <priority>0.7</priority>
     </url>
   {% endfor %}
