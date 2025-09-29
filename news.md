@@ -41,13 +41,26 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">0 stories</span>
+        <span class="badge badge-primary ml-2">1 stories</span>
     </h2>
 
-        <div class="alert alert-light">
-            <i class="fas fa-info-circle text-muted"></i>
-            No new articles in the last 48 hours. Check back next hour for updates.
-        </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPVjJSQjJkbi1pTU4tQmFIYzFVaDJuM2oyaDY4c2tWY1FoZjhHT0QzNXhtZmZqeXhoUE03NHdGRHE5OV9RMmE3cS12cVhjcEtMU3FoS2NvRGJlSFppa0k2X0k4T1FFanhhMW9IT2NacDAybU1MR0JVbFpOTS00WHVYV2ZEME5Cd2RXeGJyY0dOMEJmQW5aUnZtWTZkQkU?oc=5" class="text-dark">CRM Software For Mac Market to Reach USD 2.5 billion by 2033, - openPR.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
 
 </div>
 
@@ -56,7 +69,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">26 stories</span>
+        <span class="badge badge-info ml-2">27 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -83,8 +96,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the frequency and severity of service incidents and maintenance activities across Zendesk's core products, including Support, Knowledge, Voice, and AI Agents. This suggests that Zendesk administrators need to closely monitor system stability, have robust incident response and communication plans, and be prepared for potential disruptions to their customers' experience as the platform undergoes significant technical changes and upgrades.</p>
-            <p>Additionally, the strategic shifts indicated by the announcements, such as the move to outcome-based pricing, the integration with Workday, and the decision to shutter Zendesk Sell, highlight the need for administrators to stay informed about Zendesk's product roadmap and be ready to adapt their operations and integrations accordingly.</p>
+            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI and automation across Zendesk's product suite. This is evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and the integration of GPT-5 technology, which suggest that Zendesk is positioning itself as a leader in the AI-driven future of customer service and contact centers. Administrators will need to carefully manage the implementation and integration of these AI features to ensure stability and reliability, as indicated by the service incidents related to AI agent delays and messaging authentication issues.</p>
         </div>
     </div>
     
@@ -92,7 +104,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 26 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -279,12 +291,20 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2JfTjNsT2pmME1KdURpd01iOTdxZlBkaXl5ZTh1Vnk5b1Z3d0M2TlhEbDl0Umg3aEV2cXFYQUVzaGF1MjZILU9IWmF4MGRoYkV6ZUJMWmFEZzFhY2R1anQ2dDhMcWdSaG5nbHJ6UmxQc2pxNWEzOE44T3NuLWh0c3MzMzktNFBWOEMyLXJTMjBqWGZqTXRmYjdXLTlZTzA0SFd3aG1scw?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
                 
             </h6>
             <small class="text-muted">
@@ -348,7 +368,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -379,7 +399,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:01 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
