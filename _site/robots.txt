@@ -1,3 +1,7 @@
+# Only allow indexing on root domain and www subdomain
+Host: deltastring.com
+Host: www.deltastring.com
+
 User-agent: *
 Allow: /
 
