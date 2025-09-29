@@ -56,7 +56,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">27 stories</span>
+        <span class="badge badge-info ml-2">25 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -83,7 +83,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing focus on AI-powered features and integrations within the Zendesk ecosystem, as evidenced by the articles discussing AI-powered intent detection, AI agent delays, and the integration of GPT-5 technology. This suggests that Zendesk administrators need to prioritize the testing and deployment of these AI-driven capabilities, while also closely monitoring their impact on the stability and performance of the overall platform to ensure a seamless customer experience.</p>
+            <p>1. The most significant operational pattern observed across these article titles is the increasing reliance on AI and automation technologies within the Zendesk ecosystem, coupled with a need to ensure the stability and reliability of these advanced features as they are rolled out.</p>
+            <p>2. This means that Zendesk administrators will need to prioritize thorough testing and gradual deployment of AI-powered functionalities, such as intent detection and intelligent triage, to mitigate the risk of disruptions to core communication and support channels, while also exploring ways to leverage these technologies to drive operational efficiency and enhance the customer experience.</p>
         </div>
     </div>
     
@@ -91,7 +92,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -147,7 +148,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -230,6 +231,14 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 20 days ago
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9677228809498-Announcing-intelligent-triage-for-Voice-calls" class="text-dark">Announcing intelligent triage for Voice calls</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 24 days ago
+            </small>
         </article>        </div>
     </div>
 
@@ -278,26 +287,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">7</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2JfTjNsT2pmME1KdURpd01iOTdxZlBkaXl5ZTh1Vnk5b1Z3d0M2TlhEbDl0Umg3aEV2cXFYQUVzaGF1MjZILU9IWmF4MGRoYkV6ZUJMWmFEZzFhY2R1anQ2dDhMcWdSaG5nbHJ6UmxQc2pxNWEzOE44T3NuLWh0c3MzMzktNFBWOEMyLXJTMjBqWGZqTXRmYjdXLTlZTzA0SFd3aG1scw?oc=5" class="text-dark">Zendesk Wins Again in Claims Over Sale After Pressure from Jana - Bloomberg Law News</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/moving-from-manual-ticket-categorization-to-ai-powered-intent-detection-in-zendesk/" class="text-dark">Moving from manual ticket categorization to AI-powered intent detection in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -332,14 +325,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPakdyUnFMSGdFWUVyOHdtT0dOcHR4VmltMnVCMHhTU2Z0MHZmYXlVVktXQ1lfcHUxcmdNOGs2TTJGNFV4dTUyZlpkc1FNVFlOWG5vdFV0S2I5YkZBc2lvRlA0RXY4WDNqbTRNWVQ5UnBCdl9ZaERFa0hXNTE5WFpObnJDSjl5ekt0bWxqamV3ZmlJeDdVVmU0a3FZNER3UzFUZ2k5SDdReV9QR2xP?oc=5" class="text-dark">Zendesk Says It’s Time to Move Beyond Outdated Contact Center Metrics - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
                 
             </h6>
             <small class="text-muted">
@@ -386,7 +371,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>08:13 (London)</strong><br>
+                    <strong>09:14 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
