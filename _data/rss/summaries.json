@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern that administrators need to understand is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This shift towards AI-driven solutions suggests that Zendesk administrators will need to prioritize the careful testing and monitoring of these new features to ensure seamless integration and stability, as evidenced by the service incidents related to AI agent delays and messaging authentication issues.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered intent detection, auto-assist procedure insights, and GPT-5 integration. This suggests that Zendesk administrators need to prioritize the careful testing and monitoring of these AI-driven features to ensure they are functioning reliably and not causing disruptions to core support operations, especially during major platform updates and maintenance windows.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-09-29T05:11:32.509822",
+  "generated_at": "2025-09-29T06:03:06.359395",
   "release_notes": {
     "summary": "1. Support added incremental export APIs for custom objects to enable customers to build reports on their custom object data in external reporting tools.\n\n2. AI Agents Advanced released the unified request view and enabled agents to rate their own tickets where they are requestors, but fixed an issue where agents could no longer change a CSAT score for tickets they are not requestors of if they discover a link.",
     "article": {
