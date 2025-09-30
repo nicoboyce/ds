@@ -85,7 +85,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9720523288986-Announcing-the-WFM-Workday-integration-EAP" class="text-dark" target="_blank">Announcing the WFM Workday integration EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 13 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 14 days ago</small>
             
             </div>
         </div>
@@ -98,8 +98,8 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents and maintenance activities across Zendesk's core products, including Support, Knowledge, Voice, and AI-powered features. This suggests that Zendesk administrators need to closely monitor system stability, proactively plan for more frequent maintenance windows, and have robust incident response and communication protocols in place to minimize disruptions to customer service operations.</p>
-            <p>Additionally, the strategic shifts indicated by Zendesk's announcements, such as the move towards outcome-based pricing, AI-powered features, and integrations with external systems, require administrators to stay informed about the evolving Zendesk ecosystem and adapt their operational practices accordingly to ensure seamless integration and alignment with the company's product roadmap.</p>
+            <p>1. The article titles suggest a pattern of significant operational challenges and strategic shifts within the Zendesk ecosystem, including database upgrades, service incidents, product sunsetting, and the introduction of new AI-powered features.</p>
+            <p>2. This indicates that Zendesk administrators need to be prepared for potential service disruptions, carefully manage the rollout of new technologies, and stay informed about the company's evolving product roadmap and competitive landscape in order to ensure the stability and effectiveness of their customer support operations.</p>
         </div>
     </div>
     
@@ -163,7 +163,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -204,7 +204,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -237,6 +237,14 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9692341458074-Announcing-a-configurable-expiration-period-for-public-attachments" class="text-dark">Announcing a configurable expiration period for public attachments</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        </div>
     </div>
@@ -286,12 +294,12 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">7</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -339,14 +347,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -378,7 +378,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:06 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
