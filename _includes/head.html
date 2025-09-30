@@ -49,7 +49,51 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
   {% endif %}
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+  {% comment %}Extract featured image for posts{% endcomment %}
+  {% if page.layout == 'post' %}
+    {% if page.featured_image %}
+      <meta property="og:image" content="{{ site.url }}{{ page.featured_image }}">
+    {% else %}
+      {% comment %}Try markdown image first: ![alt](/path){% endcomment %}
+      {% assign content_parts = page.content | split: '![' %}
+      {% if content_parts.size > 1 %}
+        {% assign image_part = content_parts[1] | split: '](' %}
+        {% if image_part.size > 1 %}
+          {% assign md_image = image_part[1] | split: ')' | first %}
+          {% if md_image contains '/' %}
+            {% if md_image contains 'http://' or md_image contains 'https://' %}
+              <meta property="og:image" content="{{ md_image }}">
+            {% else %}
+              <meta property="og:image" content="{{ site.url }}{{ md_image }}">
+            {% endif %}
+          {% else %}
+            <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+          {% endif %}
+        {% else %}
+          <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+        {% endif %}
+      {% else %}
+        {% comment %}Try HTML img tag: <img src="/path"{% endcomment %}
+        {% assign html_parts = page.content | split: '<img src="' %}
+        {% if html_parts.size > 1 %}
+          {% assign html_image = html_parts[1] | split: '"' | first %}
+          {% if html_image contains '/' %}
+            {% if html_image contains 'http://' or html_image contains 'https://' %}
+              <meta property="og:image" content="{{ html_image }}">
+            {% else %}
+              <meta property="og:image" content="{{ site.url }}{{ html_image }}">
+            {% endif %}
+          {% else %}
+            <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+          {% endif %}
+        {% else %}
+          <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+  {% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Deltastring">
@@ -63,7 +107,51 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}">
   {% endif %}
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+  {% comment %}Extract featured image for posts - Twitter Card{% endcomment %}
+  {% if page.layout == 'post' %}
+    {% if page.featured_image %}
+      <meta name="twitter:image" content="{{ site.url }}{{ page.featured_image }}">
+    {% else %}
+      {% comment %}Try markdown image first: ![alt](/path){% endcomment %}
+      {% assign content_parts = page.content | split: '![' %}
+      {% if content_parts.size > 1 %}
+        {% assign image_part = content_parts[1] | split: '](' %}
+        {% if image_part.size > 1 %}
+          {% assign md_image = image_part[1] | split: ')' | first %}
+          {% if md_image contains '/' %}
+            {% if md_image contains 'http://' or md_image contains 'https://' %}
+              <meta name="twitter:image" content="{{ md_image }}">
+            {% else %}
+              <meta name="twitter:image" content="{{ site.url }}{{ md_image }}">
+            {% endif %}
+          {% else %}
+            <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+          {% endif %}
+        {% else %}
+          <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+        {% endif %}
+      {% else %}
+        {% comment %}Try HTML img tag: <img src="/path"{% endcomment %}
+        {% assign html_parts = page.content | split: '<img src="' %}
+        {% if html_parts.size > 1 %}
+          {% assign html_image = html_parts[1] | split: '"' | first %}
+          {% if html_image contains '/' %}
+            {% if html_image contains 'http://' or html_image contains 'https://' %}
+              <meta name="twitter:image" content="{{ html_image }}">
+            {% else %}
+              <meta name="twitter:image" content="{{ site.url }}{{ html_image }}">
+            {% endif %}
+          {% else %}
+            <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+          {% endif %}
+        {% else %}
+          <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/ds-logo-trans-alt.svg">
+  {% endif %}
   
   <!-- Schema.org JSON-LD for Local Business -->
   <script type="application/ld+json">
