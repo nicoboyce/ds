@@ -28,6 +28,10 @@ We are based in the Southampton area, which is handy for our clients in London, 
 
 We do not take ad hoc meetings at our office, but you are welcome to <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2vJhNy3gMyKSTnIHj3xdsAONXezmHe6_8av4SPLlfGW-znFeNqORBTDvGbfbUK4Y5Iyb44DWLf">book a virtual meeting</a> to discuss your business needs.
 
+<h3>Do you work with US companies?</h3>>
+
+Yes, we regularly work with American businesses. We provide W8 forms, bill in USD, and coordinate across timezones. See our [US customers page](/us-customers) for full details on working with US companies.
+
 <h3>We would like to book Nico for our podcast or conference or other speaking engagement. What do we do?</h3>>
 
 That's great, Nico loves speaking at events and is an experienced podcast guest and host. Please email such requests to <a href="mailto:pr@deltastring.com">pr@deltastring.com</a> and we'll get back to you.
