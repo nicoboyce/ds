@@ -71,7 +71,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">23 stories</span>
+        <span class="badge badge-info ml-2">24 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -98,8 +98,8 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern observed is the clustering of service incidents and maintenance activities across Zendesk's core products, including Support, Knowledge, Voice, and Workforce Management, suggesting potential underlying infrastructure or architectural challenges.</p>
-            <p>2. This pattern indicates that Zendesk administrators need to closely monitor the stability and performance of the platform's integrated components, prioritize proactive maintenance and testing, and be prepared to respond quickly to any service disruptions that may impact their organization's customer service operations.</p>
+            <p>The most significant operational pattern observed is the increasing frequency and severity of service incidents and maintenance activities across Zendesk's core products, including Support, Knowledge, Voice, and AI-powered features. This suggests that Zendesk administrators need to closely monitor system stability, proactively plan for more frequent maintenance windows, and have robust incident response and communication protocols in place to minimize disruptions to customer service operations.</p>
+            <p>Additionally, the strategic shifts indicated by Zendesk's announcements, such as the move towards outcome-based pricing, AI-powered features, and integrations with external systems, require administrators to stay informed about the evolving Zendesk ecosystem and adapt their operational practices accordingly to ensure seamless integration and alignment with the company's product roadmap.</p>
         </div>
     </div>
     
@@ -107,7 +107,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -163,7 +163,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -238,14 +238,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9692341458074-Announcing-a-configurable-expiration-period-for-public-attachments" class="text-dark">Announcing a configurable expiration period for public attachments</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -294,10 +286,18 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/moving-from-manual-ticket-categorization-to-ai-powered-intent-detection-in-zendesk/" class="text-dark">Moving from manual ticket categorization to AI-powered intent detection in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -339,6 +339,14 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlh2dGZXY01HN2xhR2pabWNjeGtWU2hIdlYwX05kQUcyazhGbHd0cVhScXZGamVzek53SWRyVEpDT1dNbGZjakFodnNObUVxN2VqLUpQRTR4SUVfT25pYjFIUlh3d0Q0NTEtWmV6cVhIQ0tsYVhxVTlPaURPbU5uSW02VVdqbHFzS05Ud0lkOFI?oc=5" class="text-dark">Faye Launches New AI Powered Pipedrive Zendesk Integration - MarTech Cube</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
@@ -370,7 +378,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:06 (London)</strong><br>
+                    <strong>11:06 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
