@@ -59,7 +59,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 6 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -67,7 +67,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -116,7 +116,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 hours ago
+                <i class="far fa-clock"></i> 8 hours ago
             </small>
         </article>        </div>
     </div>
@@ -150,7 +150,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 hours ago
+                <i class="far fa-clock"></i> 4 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -205,8 +205,8 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The article titles suggest a significant shift towards AI-powered features and capabilities within the Zendesk ecosystem, with a focus on improving customer service and IT operations through advanced intent detection, automated assistance, and outcome-based pricing.</p>
-            <p>2. This pattern indicates that Zendesk administrators need to prioritize understanding and effectively managing the integration of AI technologies into their Zendesk deployments, ensuring a smooth transition and mitigating any potential stability or performance issues that may arise during the implementation of these new AI-driven features.</p>
+            <p>1. The article titles suggest a significant shift towards AI-powered automation and intelligence within the Zendesk ecosystem, with a focus on improving customer service and IT operations through AI-driven insights, intent detection, and agent management.</p>
+            <p>2. This pattern indicates that Zendesk administrators will need to prioritize upskilling in AI-related technologies, carefully manage the transition to AI-powered features, and closely monitor the stability and performance of these new capabilities to ensure a seamless customer experience during this transformation.</p>
         </div>
     </div>
     
@@ -456,7 +456,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
