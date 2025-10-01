@@ -59,7 +59,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 hours ago
+                <i class="far fa-clock"></i> 21 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -67,7 +67,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -139,8 +139,8 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed across these article titles is the increasing reliance on AI and automation within the Zendesk ecosystem, coupled with the potential for instability and disruption during the implementation of these new technologies.</p>
-            <p>This means that Zendesk administrators will need to carefully plan and test the deployment of AI-powered features, such as intent detection and automated resolution, to ensure a smooth transition and minimize the risk of service disruptions. They will also need to closely monitor the performance and impact of these AI systems on their overall Zendesk operations.</p>
+            <p>The most significant operational pattern observed across these article titles is the increasing reliance on AI and automation within the Zendesk ecosystem, coupled with a shift towards outcome-based pricing models.</p>
+            <p>This suggests that Zendesk administrators need to closely monitor the implementation and performance of AI-powered features, ensuring they are thoroughly tested and integrated seamlessly with existing workflows. Additionally, they should be prepared to adapt to new pricing structures and negotiate service-level agreements that align with their organization's needs.</p>
         </div>
     </div>
     
@@ -395,7 +395,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
