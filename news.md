@@ -59,7 +59,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 hours ago
+                <i class="far fa-clock"></i> 19 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -118,7 +118,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9720523288986-Announcing-the-WFM-Workday-integration-EAP" class="text-dark" target="_blank">Announcing the WFM Workday integration EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 14 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 15 days ago</small>
             
             </div>
         </div>
@@ -245,7 +245,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -308,7 +308,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEUyVnRvaXdCREZXZDBmTWtvVWt0UDZUNXEyeTNrdU5heFUwVkhpb0FxTmRfRmRRV2xhVDZ6SEhCSmk0Q0Jwd0xVeXowUkZPVE81Wi1GWWdSMXE1UDNvc2dfam45eXF5V2lhVktXeDRFUlBGRTBIaElyMFVjWTRadTNlNy1pY3ZKMzlYR25UOXhFaFV2MlV4dkZuLXFBbG1DNmV4ZjN30gFYQVVfeXFMTUpMLVE4bm1JNEtPeGU5SUpETzJsSk9jaW4zblpGNjJETnUwbk9pZTJwb2RUMzRjNnMyMU1qcDZOcW5WQjFUbE9vLUZnOXpKd0RGR3A4ZWE0cg?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
+                <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
             <small class="text-muted">
@@ -387,7 +387,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
