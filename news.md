@@ -142,7 +142,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -197,7 +197,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the rapid expansion of AI-powered features in Zendesk, including real-time QA insights, AI-powered intent detection, and AI-powered voice suggestions. This indicates that Zendesk is heavily investing in AI to drive innovation, but administrators need to be cautious about potential stability issues and ensure thorough testing of these new AI features before enabling them in production environments.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation. Several articles announce new AI-powered capabilities, such as real-time QA insights, AI suggestions for Voice, and AI-powered intent detection, while others report on issues related to AI agents, suggesting that the integration of these AI features may be causing stability and reliability concerns. Zendesk administrators should carefully plan and test the deployment of AI-powered features, ensuring they are integrated seamlessly with existing systems and processes to mitigate the risk of disruptions to core customer support operations.</p>
         </div>
     </div>
     
@@ -314,7 +314,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -362,7 +362,7 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -373,13 +373,21 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">6</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -430,14 +438,6 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -463,7 +463,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:00 (London)</strong><br>
+                    <strong>20:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
