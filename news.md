@@ -67,7 +67,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 hours ago
+                <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -108,7 +108,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        </div>
     </div>
@@ -142,7 +142,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 hours ago
+                <i class="far fa-clock"></i> 20 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -197,7 +197,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation. Several articles mention the rollout of AI-powered intent detection, AI agents, and AI-driven insights, suggesting a strategic shift towards AI-driven solutions. However, this transition appears to be accompanied by service incidents and the need to manage the impact of these AI features on core Zendesk infrastructure, such as messaging and ticket handling. Administrators should carefully plan and test the deployment of AI-powered features, ensuring they are integrated seamlessly with existing systems and processes to maintain operational stability and reliability.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation. Several articles mention the rollout of AI-powered intent detection, AI agents, and AI-driven insights, suggesting a strategic shift towards AI-driven solutions. However, this transition appears to be accompanied by service incidents and the need to manage the impact of these AI features on core Zendesk functionality, such as messaging and ticket categorization. Administrators should carefully plan and test the deployment of AI-powered features, ensuring they do not destabilize critical support operations, and be prepared to manage the operational challenges that may arise during this transition.</p>
         </div>
     </div>
     
@@ -306,7 +306,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
+                <i class="far fa-clock"></i> 3 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -463,7 +463,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
