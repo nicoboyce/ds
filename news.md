@@ -67,7 +67,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 hours ago
+                <i class="far fa-clock"></i> 19 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -108,7 +108,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 hours ago
+                <i class="far fa-clock"></i> 21 hours ago
             </small>
         </article>        </div>
     </div>
@@ -142,7 +142,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -170,7 +170,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">21 stories</span>
+        <span class="badge badge-info ml-2">22 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -197,8 +197,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation, as evidenced by the announcements of AI-powered insights, intent detection, and the removal of custom resolutions in AI agents, as well as the incidents related to AI agent delays.</p>
-            <p>2. This means that Zendesk administrators need to carefully plan and test the deployment of AI-powered features, ensuring they are stable and reliable before enabling them in production environments, and be prepared to address any issues that may arise during the transition to these new technologies.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation. Several articles mention the rollout of AI-powered intent detection, AI agents, and AI-driven insights, suggesting a strategic shift towards AI-driven solutions. However, this transition appears to be accompanied by service incidents and the need to manage the impact of these AI features on core Zendesk functionality, such as messaging and ticket categorization. Administrators should carefully plan and test the deployment of AI-powered features, ensuring they do not destabilize critical support operations, and be prepared to address any emerging issues promptly.</p>
         </div>
     </div>
     
@@ -206,7 +205,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 21 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -282,7 +281,7 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -296,6 +295,14 @@ Zen...
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9771088619418-Announcing-ticket-summaries-in-reporting-views-as-placeholders-and-via-the-API" class="text-dark">Announcing ticket summaries in reporting, views, as placeholders, and via the API</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9769997300634-Announcing-the-move-of-Google-Calendar-integration-for-WFM-to-the-Admin-Center" class="text-dark">Announcing the move of Google Calendar integration for WFM to the Admin Center</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
@@ -343,11 +350,11 @@ Zen...
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9700015747994-Announcing-auto-assist-procedure-insights" class="text-dark">Announcing auto assist procedure insights</a>
-                <span class="source-badge">Zendesk Announcements</span>
+                <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNandJWFIwSkx3NHo1NzF4Q09kbG5RUVZwNUFZbFg1TS1UUnZERVJja0RXdVJpQlRTNkwzNFFTWjROdEY4eEpzOG0tRnhMcUhpT2hPUGtrdzhxUmJCTG9WRW80MllRcDRNWDhKaExlUVI1eTVOSThJNS1EVFNMemJZUmdrenFpZEVrU1JNZFZIajJvdzRHR3c1SHdjcVJQcmpjUndmektiM2VyN0F0UlctLWZMTzFzUFJiRkkyeXFSU2kwMVNyRnc?oc=5" class="text-dark">Streamline customer support operations by integrating Zendesk with AWS Support API | Amazon Web Services - Amazon Web Services</a>
+                
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -456,7 +463,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
