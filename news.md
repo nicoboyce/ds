@@ -43,14 +43,14 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">10 stories</span>
+        <span class="badge badge-primary ml-2">7 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">5</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -76,22 +76,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> yesterday
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9774945282330-Announcing-use-of-custom-fields-in-entities-for-Zendesk-Copilot-customers" class="text-dark">Announcing use of custom fields in entities for Zendesk Copilot customers</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9774346451610-Announcing-the-removal-of-legacy-system-custom-user-fields" class="text-dark">Announcing the removal of legacy system custom user fields</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        </div>
     </div>
@@ -133,7 +117,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -152,14 +136,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/generative-email-replies/" class="text-dark">Generative email replies with AI Agent Essentials in Zendesk</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -170,7 +146,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">22 stories</span>
+        <span class="badge badge-info ml-2">24 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -184,7 +160,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9771638257178-Announcing-the-real-time-QA-insights-EAP" class="text-dark" target="_blank">Announcing the real-time QA insights EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 2 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 3 days ago</small>
             
             </div>
         </div>
@@ -197,7 +173,8 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation. Several articles mention the introduction of AI-powered insights, intent detection, and agent management, suggesting a strategic shift towards AI-driven solutions. However, this transition appears to be accompanied by service incidents and the need to manage the impact of these AI features on core Zendesk functionality. Administrators should closely monitor the rollout of AI-powered capabilities, thoroughly test them in staging environments, and be prepared to address any stability or performance issues that may arise during the implementation process.</p>
+            <p>1. The article titles suggest a significant shift towards AI-powered features and capabilities within the Zendesk ecosystem, with a focus on enhancing customer service and agent productivity through the use of generative AI, real-time insights, and intent detection.</p>
+            <p>2. This pattern indicates that Zendesk administrators will need to prioritize understanding and effectively managing the integration of these AI-driven features, ensuring seamless implementation, user adoption, and maintaining the stability and reliability of the platform during this period of technological transformation.</p>
         </div>
     </div>
     
@@ -205,7 +182,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -281,16 +258,32 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9774945282330-Announcing-use-of-custom-fields-in-entities-for-Zendesk-Copilot-customers" class="text-dark">Announcing use of custom fields in entities for Zendesk Copilot customers</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9774346451610-Announcing-the-removal-of-legacy-system-custom-user-fields" class="text-dark">Announcing the removal of legacy system custom user fields</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9771638257178-Announcing-the-real-time-QA-insights-EAP" class="text-dark">Announcing the real-time QA insights EAP</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
+                <i class="far fa-clock"></i> 3 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -384,6 +377,14 @@ Zen...
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://internalnote.com/generative-email-replies/" class="text-dark">Generative email replies with AI Agent Essentials in Zendesk</a>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0ZUNzlsdUk2UFppUlhkM3pySWtfMnJSMnBtN3J5cGs2M2lvelltWTlrcVVZdXFyWm1RYm1xTXY4TmxxcG1PZUs0TzFGLXZvenZxN3FNY3ZXdVBHckZDSDkxYlVLR3l6eWRxLTViQ0x1bF9UNHVzZVFMR2RmRVpib3RVU3lxbWV4cjJDOFQ4aFVrQkVhUHfSAVZBVV95cUxQa3dtZGkxSHU1VTNiOG9xOU0zYkNQSGtKLUYtXzh5RW1BemdoUFZWcW9TYnFNcl9LbmdjOHJYUkVJdEE1YzlCWjJiOHZKZkZOSHZ1cVRpZw?oc=5" class="text-dark">Del. Justices Uphold $10.5B Zendesk Take-Private Deal - Law360</a>
                 
             </h6>
@@ -404,7 +405,7 @@ Zen...
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -430,14 +431,6 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -459,11 +452,11 @@ Zen...
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02/10/2025</strong><br>
+                    <strong>03/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
