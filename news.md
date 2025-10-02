@@ -67,7 +67,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -108,7 +108,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 hours ago
+                <i class="far fa-clock"></i> 20 hours ago
             </small>
         </article>        </div>
     </div>
@@ -142,7 +142,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -197,7 +197,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation, as evidenced by the announcements of AI-powered insights, intent detection, and the removal of custom resolutions in AI agents, as well as the service incidents related to AI agent delays.</p>
+            <p>1. The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation, as evidenced by the announcements of AI-powered insights, intent detection, and the removal of custom resolutions in AI agents, as well as the incidents related to AI agent delays.</p>
             <p>2. This means that Zendesk administrators need to carefully plan and test the deployment of AI-powered features, ensuring they are stable and reliable before enabling them in production environments, and be prepared to address any issues that may arise during the transition to these new technologies.</p>
         </div>
     </div>
@@ -456,7 +456,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
