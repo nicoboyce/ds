@@ -75,7 +75,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        </div>
     </div>
@@ -157,7 +157,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
         </div>
         <div class="summary-content">
             <p>1. The article titles suggest a significant shift towards AI-powered features and capabilities within the Zendesk ecosystem, with a focus on enhancing customer service and agent productivity through the use of generative AI, real-time insights, and intent detection.</p>
-            <p>2. This pattern indicates that Zendesk administrators will need to prioritize understanding and effectively managing the integration of these AI-driven features, ensuring seamless implementation, user adoption, and maintaining the stability and reliability of the overall Zendesk platform for their organizations.</p>
+            <p>2. This pattern indicates that Zendesk administrators will need to prioritize understanding and effectively managing the integration of these AI-driven features, ensuring seamless implementation, user adoption, and ongoing performance monitoring to maximize the benefits while mitigating any potential operational disruptions.</p>
         </div>
     </div>
     
@@ -439,7 +439,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:00 (London)</strong><br>
+                    <strong>11:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
