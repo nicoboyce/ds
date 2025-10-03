@@ -554,13 +554,19 @@ YOUR SUMMARY (2-3 fact-packed sentences with specific feature names and numbers)
             return f"Zendesk release notes for {date} available. Check for updates to your products."
 
 if __name__ == '__main__':
-    # Change to script directory  
+    # Only run at 6am, 12pm, and 6pm to avoid unnecessary API calls
+    current_hour = datetime.now().hour
+    if current_hour not in [6, 12, 18]:
+        print(f"Skipping summary generation (current hour: {current_hour}). Only runs at 6am, 12pm, and 6pm.")
+        sys.exit(0)
+
+    # Change to script directory
     script_dir = Path(__file__).parent.parent
     os.chdir(script_dir)
-    
+
     summariser = ClaudeSummariser()
     summaries = summariser.generate_summaries()
-    
+
     print("\nLatest Summary Preview:")
     print("=" * 50)
     latest = summaries.get('latest', 'No latest summary')
