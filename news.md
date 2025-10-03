@@ -64,7 +64,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                         https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -180,8 +180,8 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern that administrators need to understand is the rapid expansion of AI-powered features and capabilities within the Zendesk platform, as evidenced by the numerous announcements related to AI agents, real-time suggestions, and intent detection.</p>
-            <p>2. This indicates that Zendesk is heavily investing in AI technology to enhance its customer service offerings, which means administrators will need to prioritize training and upskilling their teams to effectively leverage these new AI-driven features, while also closely monitoring their performance and impact on the overall customer experience.</p>
+            <p>1. The most significant operational pattern that administrators need to understand is the rapid expansion and integration of AI-powered features across Zendesk's product suite, including AI-generated email replies, real-time QA insights, and AI-powered intent detection for ticket categorization.</p>
+            <p>2. This indicates that Zendesk is heavily investing in AI as a strategic priority, which means administrators will need to closely monitor the stability and performance of these AI-driven features, ensure proper testing and rollout procedures, and be prepared to adapt workflows and processes as the AI capabilities continue to evolve.</p>
         </div>
     </div>
     
@@ -274,7 +274,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
+                <i class="far fa-clock"></i> 3 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -322,7 +322,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -330,7 +330,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -338,7 +338,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
+                <i class="far fa-clock"></i> 22 days ago
             </small>
         </article>        </div>
     </div>
@@ -463,7 +463,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
