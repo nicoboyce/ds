@@ -43,7 +43,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">3 stories</span>
+        <span class="badge badge-primary ml-2">2 stories</span>
     </h2>
 
 
@@ -73,23 +73,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
 
     <div class="category-section mb-4">
         <h5 class="category-title">
-            🚀 Product Updates
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/zendesk-news-roundup-for-october-2025/" class="text-dark">Zendesk News Roundup for October 2025</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
             📊 Business & Strategy
             <span class="badge badge-secondary ml-2">1</span>
         </h5>
@@ -112,7 +95,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">29 stories</span>
+        <span class="badge badge-info ml-2">30 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -126,7 +109,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9771638257178-Announcing-the-real-time-QA-insights-EAP" class="text-dark" target="_blank">Announcing the real-time QA insights EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 4 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 5 days ago</small>
             
             </div>
         </div>
@@ -147,7 +130,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 29 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -215,10 +198,18 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">13</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://internalnote.com/zendesk-news-roundup-for-october-2025/" class="text-dark">Zendesk News Roundup for October 2025</a>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9779098096922-Upcoming-Zendesk-virtual-events-October-2025" class="text-dark">Upcoming Zendesk virtual events: October 2025</a>
                 <span class="source-badge">Zendesk Announcements</span>
@@ -256,7 +247,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 5 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -403,7 +394,7 @@ Zen...
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -466,11 +457,11 @@ Zen...
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04/10/2025</strong><br>
+                    <strong>05/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
