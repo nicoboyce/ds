@@ -248,7 +248,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 days ago
+                <i class="far fa-clock"></i> 4 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -296,7 +296,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -304,7 +304,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 days ago
+                <i class="far fa-clock"></i> 16 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -312,7 +312,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 days ago
+                <i class="far fa-clock"></i> 23 days ago
             </small>
         </article>        </div>
     </div>
@@ -470,7 +470,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
