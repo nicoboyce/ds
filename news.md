@@ -64,7 +64,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                         https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 16 hours ago
+                        <i class="far fa-clock"></i> 17 hours ago
                     </small>
                 </div>
             </div>
@@ -112,7 +112,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">28 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -147,7 +147,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 28 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -215,7 +215,7 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -314,14 +314,6 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> 22 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNandJWFIwSkx3NHo1NzF4Q09kbG5RUVZwNUFZbFg1TS1UUnZERVJja0RXdVJpQlRTNkwzNFFTWjROdEY4eEpzOG0tRnhMcUhpT2hPUGtrdzhxUmJCTG9WRW80MllRcDRNWDhKaExlUVI1eTVOSThJNS1EVFNMemJZUmdrenFpZEVrU1JNZFZIajJvdzRHR3c1SHdjcVJQcmpjUndmektiM2VyN0F0UlctLWZMTzFzUFJiRkkyeXFSU2kwMVNyRnc?oc=5" class="text-dark">Streamline customer support operations by integrating Zendesk with AWS Support API | Amazon Web Services - Amazon Web Services</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -345,29 +337,13 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcVB2ZzNSbDdjTlJaems0M2xiMWx0czE1MTgxM3RlRXVxcWZJSW5IUlA1SmRGLU1JTGQ4MnpUZGxKQ3JaWGZvY29PSVVwWlhQdUJpSzNSdDY3ZmZ2T3VlNm9UOXNtdWpzMlgyTWNKczJDZUVPUXZPWHVqbFZXSi1hVnpLSUlScGhQcDNJ?oc=5" class="text-dark">AI Complaint Management Market Trends and Forecasts Report 2025-2033, with Benchmarking Profiles of Salesforce, Microsoft, Oracle, SAP, Zendesk, Freshworks, Zoho, NICE, Kustomer, and Verint Systems - Yahoo Finance</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://internalnote.com/resolution-platform-pricing-from-seats-to-solutions/" class="text-dark">Resolution Platform Pricing: From Seats to Solutions</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQZTdkVWJYRGZmN3VfVlQtWklDem5UX2lvcXpfZ0tBX0U2SUtZUVhOU0ZnOHBSVGtTY01yUE1wclREU1BOUTBVcy1yZURaUXQxVjZmeWdlUU0wTDdCa0dCaHlNNUNaUzBqdFR3ZjlLekNKM3BRM19DU1dDb3dMZFRTRGUyQTY3NHJPYTRRUXdEcw?oc=5" class="text-dark">Scaling outcome-based pricing with AI: Zendesk CRO - Frontier Enterprise</a>
-                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -378,7 +354,7 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -453,6 +429,14 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - VentureBeat</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        </div>
     </div>
         </div>
@@ -478,7 +462,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>03:00 (London)</strong><br>
+                    <strong>04:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
