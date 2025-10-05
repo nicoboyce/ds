@@ -43,50 +43,13 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">2 stories</span>
+        <span class="badge badge-primary ml-2">0 stories</span>
     </h2>
 
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <div class="row">
-                <div class="col-md-12">
-                    <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server" class="text-dark">Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...</a>
-                        <span class="source-badge">Zendesk Service Notifications</span>
-                    </h5>
-                    <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
-                    </p>
-                    <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 days ago
-                    </small>
-                </div>
-            </div>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNakd3TklKQ29pUEhpVFN5MFVZT2kzMnotcEg1cXhrY0g5UV9ja1YxczFGQWprekc2enNlWUN0QTNtOHF6MUltcURXY2YtWmVRZWMta0NOUFpZYjYzcVQ1TzJCelRnZGg5WE5ZT1BEMUxqOGNONGN3b0ExcDFaZnVkZzNjblRFWFF1NUFna0s4ZnM0Yjk1Ylpwdy1EdGIybl9sTUYzQWVwVGhoOFk?oc=5" class="text-dark">Lenders seize former Zendesk headquarters at 1019 Market St. - The Business Journals</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
+        <div class="alert alert-light">
+            <i class="fas fa-info-circle text-muted"></i>
+            No new articles in the last 48 hours. Check back next hour for updates.
+        </div>
 
 </div>
 
@@ -95,7 +58,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">32 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -109,7 +72,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9771638257178-Announcing-the-real-time-QA-insights-EAP" class="text-dark" target="_blank">Announcing the real-time QA insights EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 5 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 6 days ago</small>
             
             </div>
         </div>
@@ -130,7 +93,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -138,36 +101,32 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9757314230682-What-s-new-in-Zendesk-October-2025" class="text-dark">What's new in Zendesk: October 2025</a>
-                        <span class="source-badge">Zendesk What's New</span>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server" class="text-dark">Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        Click Follow in the What's New section to be notified each month when the What's New is published.Check out what's new in the last month:
-Support
-Zendesk Suite
-AI agents
-Objects and rules
-Accounts and billing
-Security
-Help center
-Quality assurance
-Workforce management
-Developer
-Also, don't miss:
-Zen...
+                        https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 10 days ago
+                        <i class="far fa-clock"></i> 2 days ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9757314230682-What-s-new-in-Zendesk-October-2025" class="text-dark">What's new in Zendesk: October 2025</a>
+                <span class="source-badge">Zendesk What's New</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 10 days ago
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update" class="text-dark">Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update</a>
@@ -247,7 +206,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -336,10 +295,18 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNakd3TklKQ29pUEhpVFN5MFVZT2kzMnotcEg1cXhrY0g5UV9ja1YxczFGQWprekc2enNlWUN0QTNtOHF6MUltcURXY2YtWmVRZWMta0NOUFpZYjYzcVQ1TzJCelRnZGg5WE5ZT1BEMUxqOGNONGN3b0ExcDFaZnVkZzNjblRFWFF1NUFna0s4ZnM0Yjk1Ylpwdy1EdGIybl9sTUYzQWVwVGhoOFk?oc=5" class="text-dark">Lenders seize former Zendesk headquarters at 1019 Market St. - The Business Journals</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/resolution-platform-pricing-from-seats-to-solutions/" class="text-dark">Resolution Platform Pricing: From Seats to Solutions</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -402,7 +369,7 @@ Zen...
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -457,11 +424,11 @@ Zen...
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>05/10/2025</strong><br>
+                    <strong>06/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
