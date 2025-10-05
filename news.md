@@ -122,7 +122,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the rapid expansion of AI-powered features and capabilities across Zendesk's product suite, including AI-driven ticket categorization, generative email replies, real-time QA insights, and AI-powered voice suggestions. This indicates that Zendesk is heavily investing in AI as a strategic priority, which means administrators will need to closely monitor the rollout and performance of these AI features, as well as ensure they have the necessary skills and resources to effectively manage and optimize the AI-powered components of their Zendesk ecosystem.</p>
+            <p>The most significant operational pattern observed is the rapid expansion of AI-powered features and capabilities across Zendesk's product suite, including generative email replies, real-time QA insights, and AI-powered intent detection. This indicates that Zendesk is heavily investing in AI as a strategic priority, which means administrators will need to closely monitor the rollout and integration of these new AI features to ensure stability and seamless user experience.</p>
         </div>
     </div>
     
@@ -231,7 +231,7 @@ Zen...
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 5 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -461,7 +461,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
