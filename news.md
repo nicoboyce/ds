@@ -461,7 +461,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14:00 (London)</strong><br>
+                    <strong>15:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
