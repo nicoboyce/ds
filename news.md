@@ -43,26 +43,13 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">1 stories</span>
+        <span class="badge badge-primary ml-2">0 stories</span>
     </h2>
 
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPekdUSmlzVUg2bDlMV1N4bFQxcFpOLUdPVjhEWlR2SV9xdlVOeHZoR2s1NU92dThOd2VjRVBiVzVkZHY0WHhUQXNfVTB6Z2RXbVFra3pPanVjcF93SmJ2RWhvX1R4U1IzbGdqUVR3TUV2TE10U1h1Zk5FQmxjSlU0Q1czT0pGZ1MwckljVlV4WUNqVmZ0MGxoVWo0OE91Sy1mREE?oc=5" class="text-dark">Social CRM Market Growth Key Drivers to Push Valuation to USD 15 - openPR.com</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
+        <div class="alert alert-light">
+            <i class="fas fa-info-circle text-muted"></i>
+            No new articles in the last 48 hours. Check back next hour for updates.
+        </div>
 
 </div>
 
@@ -71,7 +58,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">31 stories</span>
+        <span class="badge badge-info ml-2">32 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -106,7 +93,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -333,7 +320,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -408,6 +395,14 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        </div>
     </div>
         </div>
@@ -433,7 +428,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14:00 (London)</strong><br>
+                    <strong>15:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
