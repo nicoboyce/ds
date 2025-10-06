@@ -64,7 +64,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                         https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI-powered features and the potential impact on core Zendesk products. The rapid rollout of AI-driven capabilities, such as generative email replies, real-time QA insights, and AI-powered intent detection, suggests that Zendesk is heavily investing in AI to enhance its platform, but this may also introduce stability issues that administrators must proactively manage.</p>
+            <p>The most significant operational pattern that administrators need to understand is the rapid expansion of AI-powered features across Zendesk's product suite, accompanied by a strategic shift towards outcome-based pricing and the potential sunsetting of legacy products like Zendesk Sell. This suggests that Zendesk is aggressively transitioning towards an AI-first, platform-centric approach, which will require administrators to carefully manage the integration and stability of these new AI-driven capabilities while also preparing for potential changes to their existing Zendesk ecosystem.</p>
         </div>
     </div>
     
@@ -210,7 +210,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -440,7 +440,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
