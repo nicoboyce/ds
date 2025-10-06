@@ -85,7 +85,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the rapid expansion of AI-powered features and capabilities across Zendesk's product suite, including generative email replies, real-time QA insights, and AI-powered intent detection. This indicates that Zendesk is heavily investing in AI as a strategic priority, which means administrators will need to closely monitor the rollout and integration of these new AI features to ensure stability and seamless user experience.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI-powered features and the challenges associated with their implementation. Zendesk administrators need to carefully plan and test the deployment of AI-driven functionalities, such as generative email replies, real-time QA insights, and AI-powered intent detection, to ensure a smooth transition and mitigate the risk of service disruptions.</p>
         </div>
     </div>
     
@@ -428,7 +428,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
