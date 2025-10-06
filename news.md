@@ -43,13 +43,26 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">0 stories</span>
+        <span class="badge badge-primary ml-2">1 stories</span>
     </h2>
 
-        <div class="alert alert-light">
-            <i class="fas fa-info-circle text-muted"></i>
-            No new articles in the last 48 hours. Check back next hour for updates.
-        </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPekdUSmlzVUg2bDlMV1N4bFQxcFpOLUdPVjhEWlR2SV9xdlVOeHZoR2s1NU92dThOd2VjRVBiVzVkZHY0WHhUQXNfVTB6Z2RXbVFra3pPanVjcF93SmJ2RWhvX1R4U1IzbGdqUVR3TUV2TE10U1h1Zk5FQmxjSlU0Q1czT0pGZ1MwckljVlV4WUNqVmZ0MGxoVWo0OE91Sy1mREE?oc=5" class="text-dark">Social CRM Market Growth Key Drivers to Push Valuation to USD 15 - openPR.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
 
 </div>
 
@@ -428,7 +441,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
