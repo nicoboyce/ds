@@ -64,7 +64,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                         https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 7 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -111,7 +111,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">27 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -125,7 +125,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9771638257178-Announcing-the-real-time-QA-insights-EAP" class="text-dark" target="_blank">Announcing the real-time QA insights EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 6 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 7 days ago</small>
             
             </div>
         </div>
@@ -146,7 +146,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -154,7 +154,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">5</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -196,21 +196,13 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">
                 <i class="far fa-clock"></i> 13 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 26 days ago
-            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -259,7 +251,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -309,14 +301,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">
                 <i class="far fa-clock"></i> 25 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNandJWFIwSkx3NHo1NzF4Q09kbG5RUVZwNUFZbFg1TS1UUnZERVJja0RXdVJpQlRTNkwzNFFTWjROdEY4eEpzOG0tRnhMcUhpT2hPUGtrdzhxUmJCTG9WRW80MllRcDRNWDhKaExlUVI1eTVOSThJNS1EVFNMemJZUmdrenFpZEVrU1JNZFZIajJvdzRHR3c1SHdjcVJQcmpjUndmektiM2VyN0F0UlctLWZMTzFzUFJiRkkyeXFSU2kwMVNyRnc?oc=5" class="text-dark">Streamline customer support operations by integrating Zendesk with AWS Support API | Amazon Web Services - Amazon Web Services</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -365,7 +349,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -406,7 +390,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -432,14 +416,6 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -461,11 +437,11 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06/10/2025</strong><br>
+                    <strong>07/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
