@@ -43,14 +43,14 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">3 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -64,18 +64,10 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                         https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 hours ago
+                        <i class="far fa-clock"></i> 4 hours ago
                     </small>
                 </div>
             </div>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBrLXV3QXBNT3pGR0oya2tqVDNudXBLQlNZdjRSbThTWTZkc2kxWUZLc3kyVU40SEFkQ2ZIdDdLV2NQS2dRYjk3STNNV1BYd19pRnVpVzE0czFlLUJyc19IUHAzS29Cb0drTUNIM2dn?oc=5" class="text-dark">Third-party breach hits Discord - SC Media</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -88,7 +80,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPSnMwRHlQdS1Qb1BHeEJWNUdOMzhhT0tmS0QzdzlmRVE4OUs3VkxkaGVCbnNuSGpraXNTYWUwM3FTWWxZNDl2SWdjRi03QTdKbWlhMWJCN2VrUmpCQXhJTjJXRDIwdnZITWpHd1ExR25HcGFleWlBM3p3TEpUdjZMRzU2Nkd3VE5yU3RvcjAtOHZsNEhfNXVzMmxEWTQ5VzF5bzlZ?oc=5" class="text-dark">Former Zendesk HQ seized by lenders at foreclosure auction - The Real Deal</a>
-                
+                 <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -111,7 +103,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">27 stories</span>
+        <span class="badge badge-info ml-2">28 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -146,7 +138,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 28 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -324,10 +316,18 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNakd3TklKQ29pUEhpVFN5MFVZT2kzMnotcEg1cXhrY0g5UV9ja1YxczFGQWprekc2enNlWUN0QTNtOHF6MUltcURXY2YtWmVRZWMta0NOUFpZYjYzcVQ1TzJCelRnZGg5WE5ZT1BEMUxqOGNONGN3b0ExcDFaZnVkZzNjblRFWFF1NUFna0s4ZnM0Yjk1Ylpwdy1EdGIybl9sTUYzQWVwVGhoOFk?oc=5" class="text-dark">Lenders seize former Zendesk headquarters at 1019 Market St. - San Francisco Business Times - The Business Journals</a>
+                 <span class="badge badge-warning ml-2">Updated</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/resolution-platform-pricing-from-seats-to-solutions/" class="text-dark">Resolution Platform Pricing: From Seats to Solutions</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -441,7 +441,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01:00 (London)</strong><br>
+                    <strong>02:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
