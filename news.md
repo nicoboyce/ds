@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 11 hours ago
+                        <i class="far fa-clock"></i> 12 hours ago
                     </small>
                 </div>
             </div>
@@ -124,7 +124,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">28 stories</span>
+        <span class="badge badge-info ml-2">25 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -138,7 +138,7 @@ background: grey
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9771638257178-Announcing-the-real-time-QA-insights-EAP" class="text-dark" target="_blank">Announcing the real-time QA insights EAP</a></h6>
                 <p class="mb-2">Early access to test upcoming features before general release.</p>
-                <small class="text-muted">Zendesk Announcements • 7 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 8 days ago</small>
             
             </div>
         </div>
@@ -159,7 +159,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 28 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 25 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -167,7 +167,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">5</span>
+            <span class="badge badge-secondary ml-2">4</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -208,14 +208,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 14 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 27 days ago
             </small>
         </article>        </div>
     </div>
@@ -280,7 +272,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -362,7 +354,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">7</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -403,7 +395,7 @@ background: grey
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -417,22 +409,6 @@ background: grey
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQUkxjeEpHdnpMOHFoYmFIRmlRd3VPQk1XQkxCS0YtdDVqZTh5U3ZKaFlCbUJVUlZnbkEzbUdnWVV2ZklTcVNnR2xpYTdmV1U1ZkNtYV91T0szanJrOEJHUGFTVHMxTVZsbk9CVWZqTnBuUEsyMlNSNGNkNXkxX2dtQ0hVV1FmcHR0ME1MRk05ZVhWRjVFZm5NRGl6cEZnd0hYSmhYQTh6NDdac1Bs?oc=5" class="text-dark">AI at the Core: Zendesk’s Bold Vision for the Future of Contact Centers - CX Today</a>
                 
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPakdyUnFMSGdFWUVyOHdtT0dOcHR4VmltMnVCMHhTU2Z0MHZmYXlVVktXQ1lfcHUxcmdNOGs2TTJGNFV4dTUyZlpkc1FNVFlOWG5vdFV0S2I5YkZBc2lvRlA0RXY4WDNqbTRNWVQ5UnBCdl9ZaERFa0hXNTE5WFpObnJDSjl5ekt0bWxqamV3ZmlJeDdVVmU0a3FZNER3UzFUZ2k5SDdReV9QR2xP?oc=5" class="text-dark">Zendesk Says It’s Time to Move Beyond Outdated Contact Center Metrics - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/messaging-authentication-in-the-help-center/" class="text-dark">Zendesk Messaging authentication in the Help Center</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -458,11 +434,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>07/10/2025</strong><br>
+                    <strong>08/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
