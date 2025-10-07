@@ -8,29 +8,18 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725104"
+    "fetched_at": "2025-10-07T03:01:01.870510"
   },
   {
-    "id": "2545651abd23",
-    "title": "Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance",
-    "pub_date": "Mon, 06 Oct 2025 20:23:07 +0000",
-    "source": "Zendesk Service Notifications",
+    "id": "986aeef8a130",
+    "title": "Announcing general availability of real-time monitoring dashboards",
+    "link": "https://support.zendesk.com/hc/en-us/articles/9797914163610-Announcing-general-availability-of-real-time-monitoring-dashboards",
+    "description": "Announced on\nRollout starts\nRollout ends\n\n\nOctober 07, 2025\nOctober 07, 2025\nOctober 28, 2025\n\nWe’re excited to announce the launch of Zendesk real-time monitoring. Real-time monitoring is a new space within Zendesk Analytics that combines data across various channels to help customers make faster, ...",
+    "pub_date": "Mon, 06 Oct 2025 21:06:36 +0000",
+    "source": "Zendesk Announcements",
     "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113534"
-  },
-  {
-    "id": "09391c28572e",
-    "title": "Release notes through 2025-10-03",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9793799570842-Release-notes-through-2025-10-03",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nCopilotNew:\nReleased custom fields in entities.\nReleased ticket summaries in reporting, views, as placeh...",
-    "pub_date": "Sun, 05 Oct 2025 19:57:13 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925326"
+    "colour": "primary",
+    "fetched_at": "2025-10-07T03:00:03.828727"
   },
   {
     "id": "94cd4a8aeb58",
@@ -41,18 +30,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725727"
-  },
-  {
-    "id": "ea5fa912dc85",
-    "title": "Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server",
-    "pub_date": "Fri, 03 Oct 2025 09:19:08 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113575"
+    "fetched_at": "2025-10-07T03:01:01.871073"
   },
   {
     "id": "575e6381d350",
@@ -63,7 +41,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.789868"
+    "fetched_at": "2025-10-07T03:01:00.382103"
   },
   {
     "id": "9c058e1123b7",
@@ -74,7 +52,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.117602"
+    "fetched_at": "2025-10-07T03:00:03.828834"
   },
   {
     "id": "8b8bff4fa7f2",
@@ -85,7 +63,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.117827"
+    "fetched_at": "2025-10-07T03:00:03.829009"
   },
   {
     "id": "56b5134cc7c1",
@@ -96,18 +74,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724654"
-  },
-  {
-    "id": "513e6bc39e70",
-    "title": "Scheduled Maintenance - Oct 15 ~ Nov 8, 2025 | All Pods | Support, Guide & Talk - Database upgrade",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9752260731546-Scheduled-Maintenance-Oct-15-Nov-8-2025-All-Pods-Support-Guide-Talk-Database-upgrade",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9752260731546-Scheduled-Maintenance-Oct-15-Nov-8-2025-All-Pods-Support-Guide-Talk-Database-upgrade",
-    "pub_date": "Wed, 01 Oct 2025 14:16:31 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113595"
+    "fetched_at": "2025-10-07T03:01:01.870024"
   },
   {
     "id": "3cbd2a1007b7",
@@ -118,7 +85,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.117947"
+    "fetched_at": "2025-10-07T03:00:03.829119"
   },
   {
     "id": "9edb9fb07cb6",
@@ -129,7 +96,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956675"
+    "fetched_at": "2025-10-07T03:01:01.092075"
   },
   {
     "id": "995e862dfded",
@@ -140,7 +107,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118064"
+    "fetched_at": "2025-10-07T03:00:03.829237"
   },
   {
     "id": "bf85861db7b5",
@@ -151,7 +118,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118166"
+    "fetched_at": "2025-10-07T03:00:03.829338"
   },
   {
     "id": "4e2dfebaf05b",
@@ -162,7 +129,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.789904"
+    "fetched_at": "2025-10-07T03:01:00.382140"
   },
   {
     "id": "eddee4ff3fa1",
@@ -173,7 +140,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118252"
+    "fetched_at": "2025-10-07T03:00:03.829419"
   },
   {
     "id": "35cda470cb78",
@@ -184,7 +151,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118364"
+    "fetched_at": "2025-10-07T03:00:03.829539"
   },
   {
     "id": "2f6b39d3a296",
@@ -195,18 +162,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118454"
-  },
-  {
-    "id": "39d53112f1b5",
-    "title": "Release notes through 2025-09-26",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9767560449050-Release-notes-through-2025-09-26",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nA new, modernized version of the ticket settings page is now available in Admin Center. This update ...",
-    "pub_date": "Mon, 29 Sep 2025 01:14:13 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925475"
+    "fetched_at": "2025-10-07T03:00:03.829628"
   },
   {
     "id": "6dc64c19c686",
@@ -217,7 +173,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.410398"
+    "fetched_at": "2025-10-07T03:00:04.795874"
   },
   {
     "id": "0b8451dbcdd2",
@@ -228,7 +184,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118596"
+    "fetched_at": "2025-10-07T03:00:03.829772"
   },
   {
     "id": "e6cac17ba4eb",
@@ -239,7 +195,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118683"
+    "fetched_at": "2025-10-07T03:00:03.829864"
   },
   {
     "id": "ec4e21503c3b",
@@ -250,29 +206,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.789932"
-  },
-  {
-    "id": "de6931c07137",
-    "title": "Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update",
-    "pub_date": "Tue, 23 Sep 2025 04:48:30 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113612"
-  },
-  {
-    "id": "8222437519dd",
-    "title": "Service Incident - September 01, 2025 -  Customers in Spain are unable to access Zendesk custom apps and ticket attachments due ...",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025-Customers-in-Spain-are-unable-to-access-Zendesk-custom-apps-and-ticket-attachments-due-to-ISP-level-blocking",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025-Customers-in-Spain-are-unable-to-access-Zendesk-custom-apps-and-ticket-attachments-due-to-ISP-level-blocking",
-    "pub_date": "Tue, 23 Sep 2025 01:45:47 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113628"
+    "fetched_at": "2025-10-07T03:01:00.382167"
   },
   {
     "id": "f4d2869a6d08",
@@ -283,29 +217,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956702"
-  },
-  {
-    "id": "b8e654aaaab0",
-    "title": "Release notes through 2025-09-19",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9743389957914-Release-notes-through-2025-09-19",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nProducts with no updates this week\nSupportNew:We released incremental export APIs for custom objects to help customers build reports on their custom object data in externa...",
-    "pub_date": "Mon, 22 Sep 2025 14:45:43 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925523"
-  },
-  {
-    "id": "a0033d2cd459",
-    "title": "Announcing changes to AI agents - Advanced access and user management",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9729944360602-Announcing-changes-to-AI-agents-Advanced-access-and-user-management",
-    "description": "Announced on\nRollout starts\nRollout ends\n\n\nSeptember 30, 2025\nSeptember 29, 2025\nOctober 31, 2025\n\nWe’re excited to announce changes to how you access the AI agents - Advanced add-on and manage user permissions for the add-on, providing you with an improved admin and user experience.This announcemen...",
-    "pub_date": "Thu, 18 Sep 2025 15:01:12 +0000",
-    "source": "Zendesk Announcements",
-    "category": "zendesk",
-    "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118881"
+    "fetched_at": "2025-10-07T03:01:01.092114"
   },
   {
     "id": "e18599a3da29",
@@ -316,7 +228,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.789954"
+    "fetched_at": "2025-10-07T03:01:00.382190"
   },
   {
     "id": "351f84c7fd43",
@@ -327,18 +239,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724545"
-  },
-  {
-    "id": "d37576d4b09b",
-    "title": "Release notes through 2025-09-12",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9717582914970-Release-notes-through-2025-09-12",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nApp Marketplace\nProducts with no updates this week\nCopilotNew:\nIntelligent triage for voice calls helps you get structured insights on intent, entity, sentiment, and language that powers sma...",
-    "pub_date": "Mon, 15 Sep 2025 14:54:24 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925607"
+    "fetched_at": "2025-10-07T03:01:01.869924"
   },
   {
     "id": "56d1e15b2eb4",
@@ -349,7 +250,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724939"
+    "fetched_at": "2025-10-07T03:01:01.870335"
   },
   {
     "id": "5962127c7578",
@@ -360,18 +261,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725534"
-  },
-  {
-    "id": "d8ad05ee1178",
-    "title": "Announcing support for attachments on custom object records",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9704010710554-Announcing-support-for-attachments-on-custom-object-records",
-    "description": "Announced on\n        \n        \n          Rollout starts\n        \n        \n          Rollout ends\n        \n      \n      \n        September 30, 2025\n        \n          September 30, 2025\n        \n        October 10, 2025\n      \n    \n  Zendesk is excited to announce the ability to add attachments to cu...",
-    "pub_date": "Thu, 11 Sep 2025 15:35:13 +0000",
-    "source": "Zendesk Announcements",
-    "category": "zendesk",
-    "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.118959"
+    "fetched_at": "2025-10-07T03:01:01.870532"
   },
   {
     "id": "d2e9a428f979",
@@ -382,18 +272,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724987"
-  },
-  {
-    "id": "e979245fa0f1",
-    "title": "Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays",
-    "pub_date": "Wed, 10 Sep 2025 12:24:48 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113645"
+    "fetched_at": "2025-10-07T03:01:01.870281"
   },
   {
     "id": "f0a894808008",
@@ -404,7 +283,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.789975"
+    "fetched_at": "2025-10-07T03:01:00.382212"
   },
   {
     "id": "e88de92afcfe",
@@ -415,7 +294,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725323"
+    "fetched_at": "2025-10-07T03:01:01.870719"
   },
   {
     "id": "df618d7fe6b3",
@@ -426,18 +305,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725260"
-  },
-  {
-    "id": "e892740a7ffc",
-    "title": "Release notes through 2025-09-05",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9688299927962-Release-notes-through-2025-09-05",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAI Agents Advanced\nCopilot\nKnowledge\nZendesk Workforce Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nSender Authentication improvements: We've rolled out au...",
-    "pub_date": "Sun, 07 Sep 2025 23:12:48 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925741"
+    "fetched_at": "2025-10-07T03:01:01.870642"
   },
   {
     "id": "ac6c42dff38f",
@@ -448,7 +316,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790001"
+    "fetched_at": "2025-10-07T03:01:00.382235"
   },
   {
     "id": "d4ca939c8b43",
@@ -459,7 +327,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725280"
+    "fetched_at": "2025-10-07T03:01:01.870662"
   },
   {
     "id": "ba15be44e53e",
@@ -470,29 +338,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790024"
-  },
-  {
-    "id": "4bd7890db3d7",
-    "title": "Release notes through 2025-08-29",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
-    "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nAdmin Center\nCopilot\nApp Marketplace\nProducts with no updates this week\n\nAdmin Center\nNew:\n\nWe've introduced a new page called External OAuth clients in Admin Center. This page displays a list of ...",
-    "pub_date": "Sun, 31 Aug 2025 20:09:03 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925840"
-  },
-  {
-    "id": "ab5f69a75c95",
-    "title": "Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors",
-    "pub_date": "Thu, 28 Aug 2025 09:55:16 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113660"
+    "fetched_at": "2025-10-07T03:01:00.382256"
   },
   {
     "id": "3876ec9be986",
@@ -503,7 +349,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.666131"
+    "fetched_at": "2025-10-07T03:00:05.039758"
   },
   {
     "id": "c6fd21695dcf",
@@ -514,7 +360,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725300"
+    "fetched_at": "2025-10-07T03:01:01.870682"
   },
   {
     "id": "35a96f6d4269",
@@ -525,7 +371,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.410640"
+    "fetched_at": "2025-10-07T03:00:04.796150"
   },
   {
     "id": "3a34743eef96",
@@ -536,29 +382,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790044"
-  },
-  {
-    "id": "ddd63cbc19e6",
-    "title": "Release notes through 2025-08-22",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9637232938138-Release-notes-through-2025-08-22",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nAI Agents Advanced\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve introduced the ability for admins to add existing macros in auto assist procedures. This means that aut...",
-    "pub_date": "Mon, 25 Aug 2025 15:56:10 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.925933"
-  },
-  {
-    "id": "30fcdf2b78ee",
-    "title": "Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP",
-    "pub_date": "Fri, 22 Aug 2025 15:26:24 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113678"
+    "fetched_at": "2025-10-07T03:01:00.382276"
   },
   {
     "id": "eda03a06f4b1",
@@ -569,40 +393,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.119078"
-  },
-  {
-    "id": "9972cf8fa396",
-    "title": "Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9561647544986-Service-Incident-August-04-2025-Zendesk-QA-Assignments-stuck-on-pending-on-multiple-workspaces-for-several-accounts",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9561647544986-Service-Incident-August-04-2025-Zendesk-QA-Assignments-stuck-on-pending-on-multiple-workspaces-for-several-accounts",
-    "pub_date": "Fri, 22 Aug 2025 12:27:11 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113693"
-  },
-  {
-    "id": "80cc2837da32",
-    "title": "Service Incident - July 31, 2025 - All Pods | Zendesk Sales - Performance degradation and failing calls",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9548399427994-Service-Incident-July-31-2025-All-Pods-Zendesk-Sales-Performance-degradation-and-failing-calls",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9548399427994-Service-Incident-July-31-2025-All-Pods-Zendesk-Sales-Performance-degradation-and-failing-calls",
-    "pub_date": "Thu, 21 Aug 2025 12:28:45 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113710"
-  },
-  {
-    "id": "9753c7940dcb",
-    "title": "[Maintenance Rescheduled] Scheduled Maintenance - 9 September, 2025 | All Pods - Zendesk Sales (Sell) - Database maintenance",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9526260605850--Maintenance-Rescheduled-Scheduled-Maintenance-9-September-2025-All-Pods-Zendesk-Sales-Sell-Database-maintenance",
-    "pub_date": "Wed, 20 Aug 2025 14:01:44 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113727"
+    "fetched_at": "2025-10-07T03:00:03.829958"
   },
   {
     "id": "6b6001ece535",
@@ -613,29 +404,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790064"
-  },
-  {
-    "id": "567f74624ee0",
-    "title": "Release notes through 2025-08-15",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9611535601562-Release-notes-through-2025-08-15",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAdmin Center\nCopilot\nMobile\nApp Marketplace\nProducts with no updates this week\nAdmin CenterNew:As part of the removal of support for password access for API authentication, we've proactively turned ...",
-    "pub_date": "Mon, 18 Aug 2025 15:46:46 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926028"
-  },
-  {
-    "id": "d150bdd4ac33",
-    "title": "Service Incident - August 14, 2025 - Multiple Pods | SunCo - Meta apps account integration issue",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9597887995546-Service-Incident-August-14-2025-Multiple-Pods-SunCo-Meta-apps-account-integration-issue",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9597887995546-Service-Incident-August-14-2025-Multiple-Pods-SunCo-Meta-apps-account-integration-issue",
-    "pub_date": "Fri, 15 Aug 2025 07:32:29 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113743"
+    "fetched_at": "2025-10-07T03:01:00.382296"
   },
   {
     "id": "ccb559f7354e",
@@ -646,18 +415,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724625"
-  },
-  {
-    "id": "5e44d28b5c72",
-    "title": "Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge",
-    "pub_date": "Thu, 14 Aug 2025 16:58:50 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113760"
+    "fetched_at": "2025-10-07T03:01:01.869996"
   },
   {
     "id": "f7526be5c9e9",
@@ -668,7 +426,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790092"
+    "fetched_at": "2025-10-07T03:01:00.384259"
   },
   {
     "id": "aa98fe7be811",
@@ -679,7 +437,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.666348"
+    "fetched_at": "2025-10-07T03:00:05.039971"
   },
   {
     "id": "99d2728bea10",
@@ -690,18 +448,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790112"
-  },
-  {
-    "id": "9c5be4d869e0",
-    "title": "Release notes through 2025-08-08",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9586728633754-Release-notes-through-2025-08-08",
-    "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nAdmin Center\nMessaging and live chat\nApp Marketplace\nProducts with no updates this week\n\nSupport\nNew:\n\nWhen adding a new external email support address, the “Connect other” option is no lo...",
-    "pub_date": "Mon, 11 Aug 2025 16:38:07 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926120"
+    "fetched_at": "2025-10-07T03:01:00.384285"
   },
   {
     "id": "f01559263043",
@@ -712,7 +459,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724587"
+    "fetched_at": "2025-10-07T03:01:01.869970"
   },
   {
     "id": "affd8c0ebfc6",
@@ -723,7 +470,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725357"
+    "fetched_at": "2025-10-07T03:01:01.870740"
   },
   {
     "id": "36bd24441a69",
@@ -734,18 +481,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724718"
-  },
-  {
-    "id": "abfb06a86146",
-    "title": "Service Incident - July 24, 2025 - All Pods | AI Agents content page is broken",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9520482459418-Service-Incident-July-24-2025-All-Pods-AI-Agents-content-page-is-broken",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9520482459418-Service-Incident-July-24-2025-All-Pods-AI-Agents-content-page-is-broken",
-    "pub_date": "Thu, 07 Aug 2025 04:17:58 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113775"
+    "fetched_at": "2025-10-07T03:01:01.870087"
   },
   {
     "id": "46d2a980bb2a",
@@ -756,18 +492,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790132"
-  },
-  {
-    "id": "79e4ee210d78",
-    "title": "Release notes through 2025-08-01",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9561642176026-Release-notes-through-2025-08-01",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nChat and messaging\nCopilot\nTalk\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nChat and messagingNew:\nCustomers can define goals (purchases and renewals) and t...",
-    "pub_date": "Mon, 04 Aug 2025 15:53:26 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926214"
+    "fetched_at": "2025-10-07T03:01:00.384325"
   },
   {
     "id": "3b81f0864759",
@@ -778,7 +503,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956719"
+    "fetched_at": "2025-10-07T03:01:01.092133"
   },
   {
     "id": "d39fe456b9d9",
@@ -789,7 +514,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790154"
+    "fetched_at": "2025-10-07T03:01:00.384349"
   },
   {
     "id": "776c8463768f",
@@ -800,18 +525,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.411083"
-  },
-  {
-    "id": "dc25072c2400",
-    "title": "Release notes through 2025-07-25",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9534833642906-Release-notes-through-2025-07-25",
-    "description": "See our What's New for an overview of what was released last month.\nThis week's release notes include:\n\nSupport\nAI agents and knowledge\nApp Marketplace\nProducts with no updates this week\n\nSupport\nNew:\n\n\nWe've extended email status support to the Exchange Connector, so agents are now notified when em...",
-    "pub_date": "Mon, 28 Jul 2025 15:36:56 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926328"
+    "fetched_at": "2025-10-07T03:00:04.796585"
   },
   {
     "id": "988723a6a672",
@@ -822,7 +536,18 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724782"
+    "fetched_at": "2025-10-07T03:01:01.870153"
+  },
+  {
+    "id": "e492ff400f81",
+    "title": "Announcing simplified pricing and packaging for Sandboxes",
+    "link": "https://support.zendesk.com/hc/en-us/articles/9525138250650-Announcing-simplified-pricing-and-packaging-for-Sandboxes",
+    "description": "Announced on\n      \n      \n        Rollout on\n      \n    \n    \n      August 12, 2025\n      \n        October 6, 2025\n      \n    \n  \nZendesk is excited to announce an enhanced sandbox experience.This announcement includes the following topics:\nWhat is changing?\nWhy is Zendesk making this change?\nWhat ...",
+    "pub_date": "Fri, 25 Jul 2025 12:21:20 +0000",
+    "source": "Zendesk Announcements",
+    "category": "zendesk",
+    "colour": "primary",
+    "fetched_at": "2025-10-07T03:00:03.830127"
   },
   {
     "id": "824fb9f5827f",
@@ -833,7 +558,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725008"
+    "fetched_at": "2025-10-07T03:01:01.870377"
   },
   {
     "id": "0f552a778832",
@@ -844,7 +569,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725380"
+    "fetched_at": "2025-10-07T03:01:01.870760"
   },
   {
     "id": "45bf9ca8f0ed",
@@ -855,7 +580,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724802"
+    "fetched_at": "2025-10-07T03:01:01.870174"
   },
   {
     "id": "da5f2003e55f",
@@ -866,7 +591,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725146"
+    "fetched_at": "2025-10-07T03:01:01.870488"
   },
   {
     "id": "b872e9c08322",
@@ -877,18 +602,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790175"
-  },
-  {
-    "id": "b10af457b9d4",
-    "title": "Release notes through 2025-07-18",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9509459666586-Release-notes-through-2025-07-18",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents, and knowledge\nCopilot\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nAI agents, and knowledgeNew:Knowledge \nKnowledge in the Agent Workspace: quick ...",
-    "pub_date": "Mon, 21 Jul 2025 15:49:34 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926412"
+    "fetched_at": "2025-10-07T03:01:00.384369"
   },
   {
     "id": "6bfd485c1207",
@@ -899,7 +613,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724831"
+    "fetched_at": "2025-10-07T03:01:01.870196"
   },
   {
     "id": "0e74138861e0",
@@ -910,7 +624,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725216"
+    "fetched_at": "2025-10-07T03:01:01.870599"
   },
   {
     "id": "ca3b87270e8f",
@@ -921,7 +635,7 @@
     "source": "Internal Note",
     "category": "tech",
     "colour": "dark",
-    "fetched_at": "2025-10-07T02:00:04.790191"
+    "fetched_at": "2025-10-07T03:01:00.384405"
   },
   {
     "id": "09429a2c130d",
@@ -932,7 +646,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724697"
+    "fetched_at": "2025-10-07T03:01:01.870067"
   },
   {
     "id": "8f39e5ddaaf0",
@@ -943,7 +657,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724961"
+    "fetched_at": "2025-10-07T03:01:01.870357"
   },
   {
     "id": "9e1b1f75c275",
@@ -954,18 +668,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956736"
-  },
-  {
-    "id": "dd7a2a7c34b3",
-    "title": "Release notes through 2025-07-11",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9483117046170-Release-notes-through-2025-07-11",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nAI agents, and knowledge\nCopilot\nProducts with no updates this week\nAI agents, and knowledgeNew:Knowledge Increased the content tags limit from 200 to 1000 per account. AI Agents AdvancedPublic comm...",
-    "pub_date": "Mon, 14 Jul 2025 15:48:45 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926475"
+    "fetched_at": "2025-10-07T03:01:01.092150"
   },
   {
     "id": "a9ead531eaba",
@@ -976,7 +679,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724874"
+    "fetched_at": "2025-10-07T03:01:01.870240"
   },
   {
     "id": "df100e780eab",
@@ -987,7 +690,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956752"
+    "fetched_at": "2025-10-07T03:01:01.092168"
   },
   {
     "id": "e72ba801e92e",
@@ -998,29 +701,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.666635"
-  },
-  {
-    "id": "43615b2fb93c",
-    "title": "Release notes through 2025-07-04",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9455894868890-Release-notes-through-2025-07-04",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nSupport\nAdmin Center\nAI agents and knowledge\nApp Marketplace\nProducts with no updates this week\nSupportNew:\nNew ticket events can be subscribed to via webhooks - Developers can now create or edit an...",
-    "pub_date": "Sun, 06 Jul 2025 20:36:35 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926597"
-  },
-  {
-    "id": "6bd00478fde1",
-    "title": "Release notes through 2025-06-27",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9434364229018-Release-notes-through-2025-06-27",
-    "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nChat and messaging\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nChat and messagingNew:Previously, agents were unable to redact messages during active messagi...",
-    "pub_date": "Mon, 30 Jun 2025 15:38:36 +0000",
-    "source": "Zendesk Release Notes",
-    "category": "zendesk",
-    "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:03.926660"
+    "fetched_at": "2025-10-07T03:00:05.040251"
   },
   {
     "id": "9c7300440930",
@@ -1031,7 +712,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725402"
+    "fetched_at": "2025-10-07T03:01:01.870783"
   },
   {
     "id": "95c0ddb89d32",
@@ -1042,7 +723,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.411393"
+    "fetched_at": "2025-10-07T03:00:04.796898"
   },
   {
     "id": "f69ad8c69c05",
@@ -1053,7 +734,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725083"
+    "fetched_at": "2025-10-07T03:01:01.870447"
   },
   {
     "id": "0c87b33c53da",
@@ -1064,7 +745,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725684"
+    "fetched_at": "2025-10-07T03:01:01.871007"
   },
   {
     "id": "e69a7c78068f",
@@ -1075,7 +756,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724852"
+    "fetched_at": "2025-10-07T03:01:01.870217"
   },
   {
     "id": "a6e01792bca8",
@@ -1086,18 +767,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.119142"
-  },
-  {
-    "id": "d1c083c01ae7",
-    "title": "Scheduled Maintenance Period - May - September 2025 | Migration of Workforce Management (WFM) Accounts",
-    "link": "https://support.zendesk.com/hc/en-us/articles/9093880290586-Scheduled-Maintenance-Period-May-September-2025-Migration-of-Workforce-Management-WFM-Accounts",
-    "description": "https://support.zendesk.com/hc/en-us/articles/9093880290586-Scheduled-Maintenance-Period-May-September-2025-Migration-of-Workforce-Management-WFM-Accounts",
-    "pub_date": "Thu, 05 Jun 2025 13:34:42 +0000",
-    "source": "Zendesk Service Notifications",
-    "category": "zendesk",
-    "colour": "danger",
-    "fetched_at": "2025-10-07T02:00:04.113790"
+    "fetched_at": "2025-10-07T03:00:03.830201"
   },
   {
     "id": "c3f9268fe266",
@@ -1108,7 +778,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724761"
+    "fetched_at": "2025-10-07T03:01:01.870132"
   },
   {
     "id": "80b1594b8e5e",
@@ -1119,7 +789,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308512"
+    "fetched_at": "2025-10-07T03:00:50.142914"
   },
   {
     "id": "a4be2420eb94",
@@ -1130,7 +800,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.666738"
+    "fetched_at": "2025-10-07T03:00:05.040354"
   },
   {
     "id": "305e2af9938c",
@@ -1141,7 +811,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308538"
+    "fetched_at": "2025-10-07T03:00:50.142949"
   },
   {
     "id": "42d36c42c971",
@@ -1152,7 +822,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725126"
+    "fetched_at": "2025-10-07T03:01:01.870468"
   },
   {
     "id": "c18637c0f4ea",
@@ -1163,7 +833,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.411612"
+    "fetched_at": "2025-10-07T03:00:04.797118"
   },
   {
     "id": "57ceab9a3881",
@@ -1174,7 +844,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725034"
+    "fetched_at": "2025-10-07T03:01:01.870403"
   },
   {
     "id": "272ef57675f5",
@@ -1185,7 +855,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725474"
+    "fetched_at": "2025-10-07T03:01:01.870866"
   },
   {
     "id": "0e45a44a8afe",
@@ -1196,7 +866,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956768"
+    "fetched_at": "2025-10-07T03:01:01.092183"
   },
   {
     "id": "d9341e3b1044",
@@ -1207,7 +877,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308555"
+    "fetched_at": "2025-10-07T03:00:50.142967"
   },
   {
     "id": "4f87e6044a74",
@@ -1218,7 +888,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725494"
+    "fetched_at": "2025-10-07T03:01:01.870886"
   },
   {
     "id": "49e52b36f8b6",
@@ -1229,7 +899,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308571"
+    "fetched_at": "2025-10-07T03:00:50.142983"
   },
   {
     "id": "88680e6fdbf9",
@@ -1240,7 +910,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308586"
+    "fetched_at": "2025-10-07T03:00:50.142997"
   },
   {
     "id": "6bd21c02a492",
@@ -1251,7 +921,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.411920"
+    "fetched_at": "2025-10-07T03:00:04.797428"
   },
   {
     "id": "0cedb58a5f54",
@@ -1262,7 +932,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.666867"
+    "fetched_at": "2025-10-07T03:00:05.040477"
   },
   {
     "id": "839edacfd864",
@@ -1273,7 +943,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725555"
+    "fetched_at": "2025-10-07T03:01:01.870926"
   },
   {
     "id": "5a869a53aa23",
@@ -1284,7 +954,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725195"
+    "fetched_at": "2025-10-07T03:01:01.870579"
   },
   {
     "id": "b38376a1a84d",
@@ -1295,7 +965,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308602"
+    "fetched_at": "2025-10-07T03:00:50.143013"
   },
   {
     "id": "76e5d6b9fc12",
@@ -1306,7 +976,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725173"
+    "fetched_at": "2025-10-07T03:01:01.870558"
   },
   {
     "id": "47820e3b25ee",
@@ -1317,7 +987,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308617"
+    "fetched_at": "2025-10-07T03:00:50.143028"
   },
   {
     "id": "95dfed63a34c",
@@ -1328,7 +998,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667056"
+    "fetched_at": "2025-10-07T03:00:05.040657"
   },
   {
     "id": "fb57e8c3764b",
@@ -1339,7 +1009,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725615"
+    "fetched_at": "2025-10-07T03:01:01.870966"
   },
   {
     "id": "25b440171e5b",
@@ -1350,7 +1020,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725433"
+    "fetched_at": "2025-10-07T03:01:01.870825"
   },
   {
     "id": "6d4f3e12166d",
@@ -1361,7 +1031,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724676"
+    "fetched_at": "2025-10-07T03:01:01.870047"
   },
   {
     "id": "8cf9fbd947bb",
@@ -1372,7 +1042,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725056"
+    "fetched_at": "2025-10-07T03:01:01.870425"
   },
   {
     "id": "98db3f6fc4c4",
@@ -1383,7 +1053,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725453"
+    "fetched_at": "2025-10-07T03:01:01.870846"
   },
   {
     "id": "59d43ac49e7b",
@@ -1394,7 +1064,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.412346"
+    "fetched_at": "2025-10-07T03:00:04.797857"
   },
   {
     "id": "8d1855516530",
@@ -1405,7 +1075,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724911"
+    "fetched_at": "2025-10-07T03:01:01.870309"
   },
   {
     "id": "e33a16c223ee",
@@ -1416,7 +1086,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725238"
+    "fetched_at": "2025-10-07T03:01:01.870623"
   },
   {
     "id": "f8efff0b8b09",
@@ -1427,7 +1097,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956784"
+    "fetched_at": "2025-10-07T03:01:01.092200"
   },
   {
     "id": "2acabdb90537",
@@ -1438,7 +1108,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667139"
+    "fetched_at": "2025-10-07T03:00:05.040740"
   },
   {
     "id": "24852c965396",
@@ -1449,7 +1119,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725514"
+    "fetched_at": "2025-10-07T03:01:01.870906"
   },
   {
     "id": "e77bc3a0fc24",
@@ -1460,7 +1130,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.724739"
+    "fetched_at": "2025-10-07T03:01:01.870108"
   },
   {
     "id": "017a5442e706",
@@ -1471,7 +1141,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725662"
+    "fetched_at": "2025-10-07T03:01:01.871031"
   },
   {
     "id": "25eb7c693535",
@@ -1482,7 +1152,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.412637"
+    "fetched_at": "2025-10-07T03:00:04.798146"
   },
   {
     "id": "24b333d33d83",
@@ -1493,7 +1163,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725637"
+    "fetched_at": "2025-10-07T03:01:01.870986"
   },
   {
     "id": "e07ff8097602",
@@ -1504,7 +1174,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725575"
+    "fetched_at": "2025-10-07T03:01:01.870947"
   },
   {
     "id": "1312730cd47a",
@@ -1515,7 +1185,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956801"
+    "fetched_at": "2025-10-07T03:01:01.092215"
   },
   {
     "id": "babb1806ed3e",
@@ -1526,7 +1196,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308636"
+    "fetched_at": "2025-10-07T03:00:50.143044"
   },
   {
     "id": "1e687ded7ecb",
@@ -1537,7 +1207,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308652"
+    "fetched_at": "2025-10-07T03:00:50.143058"
   },
   {
     "id": "89ed1b402703",
@@ -1548,7 +1218,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308667"
+    "fetched_at": "2025-10-07T03:00:50.143072"
   },
   {
     "id": "446bbe5a7fe0",
@@ -1559,7 +1229,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.412898"
+    "fetched_at": "2025-10-07T03:00:04.798409"
   },
   {
     "id": "54421a47d589",
@@ -1570,7 +1240,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308702"
+    "fetched_at": "2025-10-07T03:00:50.143097"
   },
   {
     "id": "9a9c08e8a603",
@@ -1581,7 +1251,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667235"
+    "fetched_at": "2025-10-07T03:00:05.040839"
   },
   {
     "id": "8508e24349a3",
@@ -1592,7 +1262,7 @@
     "source": "Google News - Zendesk",
     "category": "news",
     "colour": "warning",
-    "fetched_at": "2025-10-07T02:00:05.725705"
+    "fetched_at": "2025-10-07T03:01:01.871052"
   },
   {
     "id": "a58150a6e21a",
@@ -1603,7 +1273,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308717"
+    "fetched_at": "2025-10-07T03:00:50.143112"
   },
   {
     "id": "57098b517eca",
@@ -1614,7 +1284,7 @@
     "source": "Deltastring YouTube",
     "category": "deltastring",
     "colour": "secondary",
-    "fetched_at": "2025-10-07T02:00:04.308731"
+    "fetched_at": "2025-10-07T03:00:50.143128"
   },
   {
     "id": "6437520c0eec",
@@ -1625,7 +1295,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.413194"
+    "fetched_at": "2025-10-07T03:00:04.798699"
   },
   {
     "id": "8f651bd038de",
@@ -1636,7 +1306,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667361"
+    "fetched_at": "2025-10-07T03:00:05.040947"
   },
   {
     "id": "39ab49d7a190",
@@ -1647,7 +1317,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.413438"
+    "fetched_at": "2025-10-07T03:00:04.798946"
   },
   {
     "id": "168e3832a840",
@@ -1658,7 +1328,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956816"
+    "fetched_at": "2025-10-07T03:01:01.092230"
   },
   {
     "id": "82fb73516ff9",
@@ -1669,7 +1339,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956832"
+    "fetched_at": "2025-10-07T03:01:01.092245"
   },
   {
     "id": "5469c80992ff",
@@ -1680,7 +1350,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667542"
+    "fetched_at": "2025-10-07T03:00:05.041119"
   },
   {
     "id": "32a29d8a3561",
@@ -1691,7 +1361,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667643"
+    "fetched_at": "2025-10-07T03:00:05.041229"
   },
   {
     "id": "9d99e61a1870",
@@ -1702,7 +1372,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.413739"
+    "fetched_at": "2025-10-07T03:00:04.799248"
   },
   {
     "id": "3c95f1e593a8",
@@ -1713,7 +1383,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956847"
+    "fetched_at": "2025-10-07T03:01:01.092261"
   },
   {
     "id": "d85f427c943e",
@@ -1724,7 +1394,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667718"
+    "fetched_at": "2025-10-07T03:00:05.041305"
   },
   {
     "id": "a04d09330697",
@@ -1735,7 +1405,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.414069"
+    "fetched_at": "2025-10-07T03:00:04.799573"
   },
   {
     "id": "2bec4f35b92a",
@@ -1746,7 +1416,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.414398"
+    "fetched_at": "2025-10-07T03:00:04.799879"
   },
   {
     "id": "537fe80d9e24",
@@ -1757,7 +1427,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667837"
+    "fetched_at": "2025-10-07T03:00:05.041418"
   },
   {
     "id": "19e4e4287893",
@@ -1768,7 +1438,7 @@
     "source": "Zendesk Developer Updates",
     "category": "zendesk",
     "colour": "info",
-    "fetched_at": "2025-10-07T02:00:03.667909"
+    "fetched_at": "2025-10-07T03:00:05.041491"
   },
   {
     "id": "4facd504ca57",
@@ -1779,7 +1449,7 @@
     "source": "Zendesk What's New",
     "category": "zendesk",
     "colour": "success",
-    "fetched_at": "2025-10-07T02:00:03.414936"
+    "fetched_at": "2025-10-07T03:00:04.800419"
   },
   {
     "id": "91f3fa664dfb",
@@ -1790,7 +1460,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956862"
+    "fetched_at": "2025-10-07T03:01:01.092276"
   },
   {
     "id": "711892559747",
@@ -1801,7 +1471,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956882"
+    "fetched_at": "2025-10-07T03:01:01.092297"
   },
   {
     "id": "08c5a5f84a3c",
@@ -1812,7 +1482,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956900"
+    "fetched_at": "2025-10-07T03:01:01.092314"
   },
   {
     "id": "988c844d92b7",
@@ -1823,7 +1493,7 @@
     "source": "Zendesk Press Releases",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.956914"
+    "fetched_at": "2025-10-07T03:01:01.092330"
   },
   {
     "id": "4f7b9c2c92ac",
@@ -1834,7 +1504,7 @@
     "source": "Zendesk Announcements",
     "category": "zendesk",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:03.119793"
+    "fetched_at": "2025-10-07T03:00:03.830809"
   },
   {
     "id": "05437598b20b",
@@ -1845,7 +1515,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.525430"
+    "fetched_at": "2025-10-07T03:01:00.027270"
   },
   {
     "id": "44b693d2b665",
@@ -1856,7 +1526,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.524584"
+    "fetched_at": "2025-10-07T03:01:00.026850"
   },
   {
     "id": "a41f942e8d5f",
@@ -1867,7 +1537,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.525095"
+    "fetched_at": "2025-10-07T03:01:00.027106"
   },
   {
     "id": "75f8405d0ca5",
@@ -1878,7 +1548,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.524848"
+    "fetched_at": "2025-10-07T03:01:00.026983"
   },
   {
     "id": "ee17588c51a4",
@@ -1889,7 +1559,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.524422"
+    "fetched_at": "2025-10-07T03:01:00.026771"
   },
   {
     "id": "56eb97f39efb",
@@ -1900,7 +1570,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.524978"
+    "fetched_at": "2025-10-07T03:01:00.027048"
   },
   {
     "id": "fc72c983e209",
@@ -1911,7 +1581,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.524747"
+    "fetched_at": "2025-10-07T03:01:00.026932"
   },
   {
     "id": "a3fb20036c1f",
@@ -1922,7 +1592,7 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.525798"
+    "fetched_at": "2025-10-07T03:01:00.027462"
   },
   {
     "id": "0ad07fdf74a8",
@@ -1933,6 +1603,6 @@
     "source": "Deltastring Blog",
     "category": "deltastring",
     "colour": "primary",
-    "fetched_at": "2025-10-07T02:00:04.525277"
+    "fetched_at": "2025-10-07T03:01:00.027197"
   }
 ]
