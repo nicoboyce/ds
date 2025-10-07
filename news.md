@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">5 stories</span>
+        <span class="badge badge-primary ml-2">4 stories</span>
     </h2>
 
 
@@ -70,7 +70,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        </div>
     </div>
@@ -87,24 +87,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPSnMwRHlQdS1Qb1BHeEJWNUdOMzhhT0tmS0QzdzlmRVE4OUs3VkxkaGVCbnNuSGpraXNTYWUwM3FTWWxZNDl2SWdjRi03QTdKbWlhMWJCN2VrUmpCQXhJTjJXRDIwdnZITWpHd1ExR25HcGFleWlBM3p3TEpUdjZMRzU2Nkd3VE5yU3RvcjAtOHZsNEhfNXVzMmxEWTQ5VzF5bzlZ?oc=5" class="text-dark">Former Zendesk HQ seized by lenders at foreclosure auction - The Real Deal</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        </div>
     </div>
@@ -463,7 +446,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14:00 (London)</strong><br>
+                    <strong>15:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
