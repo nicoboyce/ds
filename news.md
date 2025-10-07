@@ -43,9 +43,33 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">2 stories</span>
+        <span class="badge badge-primary ml-2">3 stories</span>
     </h2>
 
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            🚨 Incidents & Security
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="item-title">
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
+                    </h5>
+                    <p class="item-summary text-muted">
+                        https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
+                    </p>
+                    <small class="text-muted">
+                        <i class="far fa-clock"></i> 7 hours ago
+                    </small>
+                </div>
+            </div>
+        </article>        </div>
+    </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
@@ -59,7 +83,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 6 hours ago
             </small>
         </article>        </div>
     </div>
@@ -88,7 +112,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">27 stories</span>
+        <span class="badge badge-info ml-2">28 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -123,7 +147,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 28 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -131,49 +155,69 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9757314230682-What-s-new-in-Zendesk-October-2025" class="text-dark">What's new in Zendesk: October 2025</a>
-                        <span class="source-badge">Zendesk What's New</span>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server" class="text-dark">Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        Click Follow in the What's New section to be notified each month when the What's New is published.Check out what's new in the last month:
-Support
-Zendesk Suite
-AI agents
-Objects and rules
-Accounts and billing
-Security
-Help center
-Quality assurance
-Workforce management
-Developer
-Also, don't miss:
-Zen...
+                        https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 11 days ago
+                        <i class="far fa-clock"></i> 3 days ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9757314230682-What-s-new-in-Zendesk-October-2025" class="text-dark">What's new in Zendesk: October 2025</a>
+                <span class="source-badge">Zendesk What's New</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 11 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update" class="text-dark">Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 13 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025-Customers-in-Spain-are-unable-to-access-Zendesk-custom-apps-and-ticket-attachments-due-to-ISP-level-blocking" class="text-dark">Service Incident - September 01, 2025 -  Customers in Spain are unable to access Zendesk custom apps and ticket attachments due ...</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 14 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9594339646362-Service-Incident-August-13-2025-All-pods-AI-Agents-AI-Agent-delays" class="text-dark">Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 26 days ago
+            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/zendesk-news-roundup-for-october-2025/" class="text-dark">Zendesk News Roundup for October 2025</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a> <small class="text-info" title="Internal Note, Internal Note">[2 sources]</small>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -250,14 +294,6 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> 13 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNandJWFIwSkx3NHo1NzF4Q09kbG5RUVZwNUFZbFg1TS1UUnZERVJja0RXdVJpQlRTNkwzNFFTWjROdEY4eEpzOG0tRnhMcUhpT2hPUGtrdzhxUmJCTG9WRW80MllRcDRNWDhKaExlUVI1eTVOSThJNS1EVFNMemJZUmdrenFpZEVrU1JNZFZIajJvdzRHR3c1SHdjcVJQcmpjUndmektiM2VyN0F0UlctLWZMTzFzUFJiRkkyeXFSU2kwMVNyRnc?oc=5" class="text-dark">Streamline customer support operations by integrating Zendesk with AWS Support API | Amazon Web Services - Amazon Web Services</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -269,11 +305,11 @@ Zen...
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://internalnote.com/is-your-zendesk-implementation-really-working-do-a-health-check-with-premium-plus-sponsor/" class="text-dark">Is your Zendesk implementation really working? Do a Health Check with Premium Plus (sponsor)</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+                <a href="https://support.zendesk.com/hc/en-us/articles/9752260731546-Scheduled-Maintenance-Oct-15-Nov-8-2025-All-Pods-Support-Guide-Talk-Database-upgrade" class="text-dark">Scheduled Maintenance - Oct 15 ~ Nov 8, 2025 | All Pods | Support, Guide & Talk - Database upgrade</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> recently
+                <i class="far fa-clock"></i> 5 days ago
             </small>
         </article>        </div>
     </div>
@@ -314,7 +350,7 @@ Zen...
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -389,22 +425,6 @@ Zen...
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOelhGTmZJTkVIaG9tcVVNOXBUSGRoR3V1aGdUWGhQVHJkWXJpRGtqRXF6T1ZpdE5LRHpmMWlzQzhPdG1JMTF5YmkwRGxXdDFVVHh5UDZNa29ma0FQZjBnVHVyR3luRllsVkF6Nmk3VGtHZldOVld1anh4OVhGejBJM2E5cG13Q2RXTzNqWC16YmwzdGZ6ZllmSkY1bk04bUt5MlE?oc=5" class="text-dark">Zendesk reports 30% faster response, 95% reliability after GPT-5 integration - Venturebeat</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NXhuVVhWdU9Cekk3TFZYWFVqMFBtcWZIcVB1dkFOTllvMlVQc1RCUmNUaUlGaGQwR3VTeXVzNmhJdkFHVENBUlNfUG5DNGlTQ1Z6ZlBpQnk1LWp0WU9ZTkdObXRLMjZO?oc=5" class="text-dark">I reviewed Zendesk's Sell CRM and its robust mobile app makes it an excellent choice for mobile sales teams - TechRadar</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -418,7 +438,7 @@ Zen...
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>146</strong><br>
+                    <strong>176</strong><br>
                     <small class="text-muted">Total Articles</small>
                 </div>
                 <div class="col-md-3">
@@ -430,7 +450,7 @@ Zen...
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04:01 (London)</strong><br>
+                    <strong>05:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
