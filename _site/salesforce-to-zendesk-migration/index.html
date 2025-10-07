@@ -1,0 +1,662 @@
+<h1 id="salesforce-service-cloud-to-zendesk-migration-complete-guide">Salesforce Service Cloud to Zendesk Migration: Complete Guide</h1>
+
+<p>Migrating from Salesforce Service Cloud to Zendesk Support is one of the most complex platform transitions you’ll undertake. Enterprise organisations running Service Cloud typically have intricate workflows, multiple support teams, and deeply embedded processes that can’t simply be replicated with a few clicks.</p>
+
+<p>This guide covers the complete migration process from initial assessment through to team-by-team rollout, based on real-world implementations for large organisations.</p>
+
+<h2 id="why-companies-migrate-from-salesforce-to-zendesk">Why Companies Migrate from Salesforce to Zendesk</h2>
+
+<p>Salesforce Service Cloud is powerful, but it’s not always the right fit:</p>
+
+<ul>
+  <li><strong>Cost at scale</strong>: Per-agent licensing for Service Cloud becomes expensive as teams grow</li>
+  <li><strong>Complexity overhead</strong>: Simple support operations don’t need Salesforce’s enterprise capabilities</li>
+  <li><strong>Support-first design</strong>: Zendesk is built specifically for customer service, not retrofitted from a CRM</li>
+  <li><strong>Agent experience</strong>: Support teams often find Zendesk more intuitive for daily ticket work</li>
+  <li><strong>Implementation speed</strong>: Zendesk projects typically launch faster than Service Cloud implementations</li>
+</ul>
+
+<p>That said, this isn’t a trivial change. Large organisations choosing Service Cloud usually have good reasons, and migration requires careful planning.</p>
+
+<h2 id="understanding-your-current-salesforce-processes">Understanding Your Current Salesforce Processes</h2>
+
+<p>Before touching Zendesk configuration, you must document everything about how your Salesforce instance currently works.</p>
+
+<h3 id="map-every-escalation-point">Map Every Escalation Point</h3>
+
+<p>The critical detail: <strong>where tickets move between teams</strong>.</p>
+
+<p>In most migrations, you won’t flip a switch and move everyone simultaneously. You’ll migrate team by team. This means escalation points become <strong>cross-system transfers</strong>.</p>
+
+<p>For example:</p>
+<ul>
+  <li>Tier 1 support (moved to Zendesk) receives a ticket requiring specialist input</li>
+  <li>Ticket must transfer to Tier 2 (still in Salesforce)</li>
+  <li>After resolution, ticket returns to Tier 1 in Zendesk for closure</li>
+</ul>
+
+<p>Each of these handoffs requires:</p>
+<ul>
+  <li>Data mapping between systems</li>
+  <li>Integration configuration</li>
+  <li>Process documentation</li>
+  <li>Agent training on new workflows</li>
+</ul>
+
+<p><strong>Action</strong>: Document every workflow that routes cases between teams, queues, or skill groups. Note what data transfers, what triggers the movement, and what happens at each stage.</p>
+
+<h3 id="export-your-complete-configuration">Export Your Complete Configuration</h3>
+
+<p>You’ll need every piece of configuration from Salesforce as the basis for your Zendesk setup:</p>
+
+<ul>
+  <li>Case assignment rules</li>
+  <li>Escalation rules</li>
+  <li>Workflow rules and process builders</li>
+  <li>Email templates and quick text</li>
+  <li>Case fields and record types</li>
+  <li>Knowledge articles</li>
+  <li>Macros and automated responses</li>
+  <li>Queue configurations</li>
+  <li>Team structures</li>
+</ul>
+
+<h3 id="the-configuration-export-tool-recommendation">The Configuration Export Tool Recommendation</h3>
+
+<p>For exporting Salesforce configuration, use <strong>Salto</strong> (salto.io).</p>
+
+<p>I’ve watched numerous projects spend three months trying to build custom API extraction tools, only to eventually adopt Salto anyway. It’s built specifically for extracting, versioning, and comparing CRM and helpdesk configurations.</p>
+
+<p>Salto will give you:</p>
+<ul>
+  <li>Complete configuration export in readable format</li>
+  <li>Comparison between Salesforce and Zendesk structures</li>
+  <li>Change tracking during migration</li>
+  <li>Documentation of what actually exists (vs. what people remember)</li>
+</ul>
+
+<p>This isn’t a paid endorsement - it simply saves months of work on every project.</p>
+
+<h2 id="setting-incremental-migration-goals">Setting Incremental Migration Goals</h2>
+
+<p>Break your migration into the smallest possible achievable goals.</p>
+
+<h3 id="the-atomic-goals-approach">The Atomic Goals Approach</h3>
+
+<p>Think of your migration objectives as atoms - keep breaking them down until you reach the smallest indivisible unit of progress.</p>
+
+<p><strong>Bad goal</strong>: “Migrate customer support to Zendesk”</p>
+
+<p><strong>Better goal</strong>: “Move Tier 1 email support team to Zendesk”</p>
+
+<p><strong>Atomic goals</strong>:</p>
+<ol>
+  <li>Create Zendesk instance with SSO</li>
+  <li>Configure email channel for one product line</li>
+  <li>Build three most-used macros</li>
+  <li>Create basic assignment rules for one team</li>
+  <li>Set up Salesforce integration for escalations</li>
+  <li>Train five agents on Zendesk basics</li>
+  <li>Run parallel processing for one week</li>
+  <li>Migrate live traffic for product line A</li>
+  <li>Monitor for issues for two weeks</li>
+  <li>Document lessons learned</li>
+</ol>
+
+<p>Each atomic goal should:</p>
+<ul>
+  <li>Be completable in 1-5 days</li>
+  <li>Have clear completion criteria</li>
+  <li>Be independently verifiable</li>
+  <li>Have minimal dependencies</li>
+</ul>
+
+<h3 id="set-dependencies-between-goals">Set Dependencies Between Goals</h3>
+
+<p>Map which goals must complete before others can start:</p>
+
+<ul>
+  <li>“Configure SSO” must complete before “Train agents”</li>
+  <li>“Build Salesforce integration” must complete before “Test escalation workflows”</li>
+  <li>“Migrate one team successfully” must complete before “Begin next team migration”</li>
+</ul>
+
+<p>This dependency mapping prevents scope creep and maintains realistic timelines.</p>
+
+<h2 id="establish-baseline-knowledge-across-the-project-team">Establish Baseline Knowledge Across the Project Team</h2>
+
+<p>Everyone working on this migration must complete the free Zendesk training courses at training.zendesk.com.</p>
+
+<p>This isn’t optional.</p>
+
+<h3 id="why-universal-training-matters">Why Universal Training Matters</h3>
+
+<p>The single biggest time-waster on cross-platform migrations: explaining basic concepts in every single meeting.</p>
+
+<p>When half the team doesn’t know what “triggers” vs “automations” mean, or how “organisations” work in Zendesk, you’ll spend 40% of every meeting on definitions instead of solving problems.</p>
+
+<p>Required courses for everyone:</p>
+<ul>
+  <li>Zendesk Support fundamentals</li>
+  <li>Zendesk administrator essentials</li>
+  <li>Ticket workflow and automation</li>
+  <li>Reporting basics</li>
+</ul>
+
+<p>Optional but recommended:</p>
+<ul>
+  <li>Zendesk Talk (if implementing voice)</li>
+  <li>Zendesk Guide (if migrating knowledge base)</li>
+  <li>API fundamentals (for technical team members)</li>
+</ul>
+
+<h3 id="establish-common-vocabulary">Establish Common Vocabulary</h3>
+
+<p>Create a glossary mapping Salesforce terminology to Zendesk equivalents:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Salesforce</th>
+      <th>Zendesk</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Case</td>
+      <td>Ticket</td>
+    </tr>
+    <tr>
+      <td>Contact</td>
+      <td>End user</td>
+    </tr>
+    <tr>
+      <td>Account</td>
+      <td>Organisation</td>
+    </tr>
+    <tr>
+      <td>Queue</td>
+      <td>Group</td>
+    </tr>
+    <tr>
+      <td>Quick Text</td>
+      <td>Macro</td>
+    </tr>
+    <tr>
+      <td>Email Template</td>
+      <td>Trigger/automation email</td>
+    </tr>
+    <tr>
+      <td>Workflow Rule</td>
+      <td>Trigger or automation</td>
+    </tr>
+    <tr>
+      <td>Case Assignment Rule</td>
+      <td>Trigger with assignment</td>
+    </tr>
+    <tr>
+      <td>Escalation Rule</td>
+      <td>SLA policy</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Having this reference document eliminates confusion throughout the project.</p>
+
+<h2 id="configure-the-salesforce-zendesk-integration">Configure the Salesforce-Zendesk Integration</h2>
+
+<p>You’ll need bidirectional communication between systems during (and possibly after) migration.</p>
+
+<h3 id="integration-requirements">Integration Requirements</h3>
+
+<p><strong>Minimum viable integration</strong>:</p>
+<ul>
+  <li>Create tickets in Salesforce from Zendesk</li>
+  <li>Create tickets in Zendesk from Salesforce</li>
+  <li>Sync user/contact data between systems</li>
+  <li>Pass relevant case/ticket data during transfers</li>
+</ul>
+
+<p><strong>Enhanced integration</strong>:</p>
+<ul>
+  <li>Real-time user data synchronisation</li>
+  <li>Account/organisation data sync</li>
+  <li>Historical ticket data visible in both systems</li>
+  <li>Unified reporting during transition period</li>
+</ul>
+
+<h3 id="integration-architecture-options">Integration Architecture Options</h3>
+
+<p><strong>Option 1: Native Salesforce-Zendesk Integration</strong></p>
+<ul>
+  <li>Zendesk offers a Salesforce integration app</li>
+  <li>Suitable for straightforward sync requirements</li>
+  <li>Limited customisation for complex workflows</li>
+  <li>Quickest to implement</li>
+</ul>
+
+<p><strong>Option 2: Middleware Platform (Zapier, Workato, Tray.io)</strong></p>
+<ul>
+  <li>More flexibility for custom workflows</li>
+  <li>Easier to modify as requirements change</li>
+  <li>Additional cost and complexity</li>
+  <li>Better for non-standard requirements</li>
+</ul>
+
+<p><strong>Option 3: Custom Integration</strong></p>
+<ul>
+  <li>Built using Salesforce and Zendesk APIs</li>
+  <li>Complete control over data flow</li>
+  <li>Requires development resources</li>
+  <li>Best for highly specific needs</li>
+</ul>
+
+<h3 id="data-synchronisation-strategy">Data Synchronisation Strategy</h3>
+
+<p><strong>Critical rule</strong>: Customer data must be identical in both systems.</p>
+
+<p>Don’t create situations where agents wonder “which is the correct email address?” or “which phone number is current?”</p>
+
+<p><strong>Establish a single source of truth</strong> (usually Salesforce during migration) and ensure:</p>
+<ul>
+  <li>Changes propagate immediately via webhooks</li>
+  <li>Conflicts have clear resolution rules (e.g., most recent update wins)</li>
+  <li>Failed syncs trigger alerts</li>
+  <li>Manual override process exists for emergencies</li>
+</ul>
+
+<h3 id="handling-split-conversations">Handling Split Conversations</h3>
+
+<p>When a single customer enquiry requires attention from teams in both systems, split it into separate tickets.</p>
+
+<p><strong>Don’t try to maintain a “canonical thread” with “side chains” that reunite later</strong>. This creates unnecessary complexity.</p>
+
+<p>Instead:</p>
+
+<ol>
+  <li>Create separate tickets for separate teams</li>
+  <li>Link them via tags or custom fields</li>
+  <li>Update the customer profile with resolution notes</li>
+  <li>Use triggers to notify the original ticket when related tickets close</li>
+</ol>
+
+<p>Example:</p>
+<ul>
+  <li>Customer contacts support with billing query that also needs technical investigation</li>
+  <li>Create billing ticket in Salesforce (remains with accounts team)</li>
+  <li>Create technical ticket in Zendesk (handled by support team)</li>
+  <li>Link both tickets via “Related Case ID” custom field</li>
+  <li>When technical ticket resolves, trigger adds internal note to billing ticket</li>
+  <li>Customer profile shows both interactions</li>
+</ul>
+
+<p>This approach is simpler, more maintainable, and doesn’t require complex orchestration logic.</p>
+
+<h2 id="connect-zendesk-to-your-data-lake">Connect Zendesk to Your Data Lake</h2>
+
+<p>Your Zendesk data must flow into your existing business intelligence infrastructure from day one.</p>
+
+<h3 id="the-day-one-bi-integration-rule">The Day One BI Integration Rule</h3>
+
+<p>I’ve seen this mistake repeatedly: teams decide to “use Zendesk Explore initially” and “connect to our data warehouse later.”</p>
+
+<p>Your data team will resent you for years.</p>
+
+<p><strong>Why day-one integration is critical</strong>:</p>
+<ul>
+  <li>Historical comparison requires consistent data from migration start</li>
+  <li>Rebuilding reports later wastes time</li>
+  <li>Data quality issues surface immediately with proper BI tools</li>
+  <li>Executive reporting doesn’t pause for migration</li>
+  <li>You avoid dual reporting systems</li>
+</ul>
+
+<h3 id="zendesk-explore-vs-bi-tools">Zendesk Explore vs. BI Tools</h3>
+
+<p>Zendesk Explore is excellent for:</p>
+<ul>
+  <li>Team leaders monitoring agent performance</li>
+  <li>Agents checking their personal metrics</li>
+  <li>Quick operational dashboards</li>
+  <li>Standard support KPIs</li>
+</ul>
+
+<p>Your data warehouse is essential for:</p>
+<ul>
+  <li>Cross-system reporting (Salesforce + Zendesk during migration)</li>
+  <li>Custom business logic and calculations</li>
+  <li>Executive dashboards</li>
+  <li>Long-term trend analysis</li>
+  <li>Compliance and audit requirements</li>
+</ul>
+
+<p>Use both, but ensure BI integration is a phase one hard requirement.</p>
+
+<h3 id="data-export-approaches">Data Export Approaches</h3>
+
+<p><strong>Incremental API</strong> (recommended):</p>
+<ul>
+  <li>Use Zendesk’s incremental ticket export API</li>
+  <li>Run regularly (hourly or daily)</li>
+  <li>Only fetch changed records</li>
+  <li>Lower API usage</li>
+  <li>Near real-time data</li>
+</ul>
+
+<p><strong>Full export</strong> (fallback):</p>
+<ul>
+  <li>Complete data dump on schedule</li>
+  <li>Higher API costs</li>
+  <li>Simpler to implement</li>
+  <li>Suitable for small ticket volumes</li>
+</ul>
+
+<p><strong>Zendesk ETL partners</strong>:</p>
+<ul>
+  <li>Fivetran</li>
+  <li>Stitch</li>
+  <li>Airbyte</li>
+  <li>Pre-built connectors to common data warehouses</li>
+</ul>
+
+<h2 id="build-your-initial-zendesk-configuration">Build Your Initial Zendesk Configuration</h2>
+
+<p>Now you’re ready to configure Zendesk - using your Salesforce export as the blueprint.</p>
+
+<h3 id="the-orthodox-configuration-principle">The Orthodox Configuration Principle</h3>
+
+<p><strong>Your Zendesk processes must initially match your Salesforce processes exactly</strong>.</p>
+
+<p>Agents are learning a new platform. Don’t also make them learn completely new workflows.</p>
+
+<h3 id="when-platforms-differ">When Platforms Differ</h3>
+
+<p>Occasionally, Salesforce and Zendesk handle things differently. When this happens, <strong>default to the standard Zendesk approach</strong>.</p>
+
+<p>Don’t invent novel uses of Zendesk features to replicate Salesforce quirks.</p>
+
+<p><strong>Bad ideas I’ve encountered</strong>:</p>
+
+<ul>
+  <li>“Let’s use organisations to segment user groups that aren’t actually related to the same company”
+    <ul>
+      <li>No. Organisations are for actual organisations. Use tags or custom fields for segmentation.</li>
+    </ul>
+  </li>
+  <li>“Can we increase ticket priority automatically as SLA breach approaches?”
+    <ul>
+      <li>No. Priority is a business categorisation, not a countdown timer. Use SLA policies properly.</li>
+    </ul>
+  </li>
+  <li>“We’ll use groups differently than Zendesk suggests because…”
+    <ul>
+      <li>No. Groups are teams of agents. Don’t repurpose core objects.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Why strict orthodoxy matters in migration</strong>:</p>
+
+<p>You’re migrating to Zendesk because it has sensible, proven patterns for support operations. Lean into those patterns.</p>
+
+<p>In 6-12 months, once teams are comfortable and you understand the platform deeply, experiment with custom approaches. During migration: keep it textbook.</p>
+
+<h3 id="configuration-priorities">Configuration Priorities</h3>
+
+<p><strong>Phase 1 - Minimum viable Zendesk</strong>:</p>
+<ul>
+  <li>User authentication (SSO)</li>
+  <li>Email channels</li>
+  <li>Basic ticket fields</li>
+  <li>Essential macros (top 10 most-used)</li>
+  <li>Simple assignment rules</li>
+  <li>Critical automations only</li>
+  <li>SLA policies</li>
+</ul>
+
+<p><strong>Phase 2 - Feature parity</strong>:</p>
+<ul>
+  <li>Additional channels (chat, messaging, voice)</li>
+  <li>Advanced automation</li>
+  <li>All macros and saved replies</li>
+  <li>Custom fields</li>
+  <li>Advanced views</li>
+  <li>Reporting dashboards</li>
+</ul>
+
+<p><strong>Phase 3 - Optimisation</strong>:</p>
+<ul>
+  <li>Workflow improvements</li>
+  <li>Advanced routing</li>
+  <li>AI features</li>
+  <li>Custom apps</li>
+  <li>Performance tuning</li>
+</ul>
+
+<h2 id="train-your-agents-before-go-live">Train Your Agents Before Go-Live</h2>
+
+<p>Agents need hands-on experience with Zendesk before they handle live customer tickets.</p>
+
+<h3 id="the-sandbox-training-period">The Sandbox Training Period</h3>
+
+<p>Give agents at least one week in a Zendesk sandbox or training environment where they can:</p>
+
+<ul>
+  <li>Send themselves test emails and see the ticket lifecycle</li>
+  <li>Practice using macros and responding to tickets</li>
+  <li>Navigate views and find tickets</li>
+  <li>Test escalation workflows</li>
+  <li>Try every feature they’ll use daily</li>
+</ul>
+
+<p><strong>Why this matters</strong>: Agents will immediately spot configuration problems you missed from the helicopter view.</p>
+
+<h3 id="the-kaizen-effect">The Kaizen Effect</h3>
+
+<p>When agents explore the new system themselves, they’ll naturally suggest improvements. This is valuable feedback.</p>
+
+<p><strong>Capture it properly</strong>: Create a dedicated Zendesk view or form where agents can submit:</p>
+<ul>
+  <li>Bug reports</li>
+  <li>Configuration issues</li>
+  <li>Process improvement ideas</li>
+  <li>Missing features from Salesforce</li>
+  <li>Training gaps</li>
+</ul>
+
+<p>This achieves two goals:</p>
+<ol>
+  <li>You get ground-level insights that improve the migration</li>
+  <li>Agents get more familiar with Zendesk by using it to provide feedback</li>
+</ol>
+
+<h2 id="migrate-one-team-at-a-time">Migrate One Team at a Time</h2>
+
+<p>Never attempt a “big bang” cutover for large organisations.</p>
+
+<h3 id="the-team-by-team-rollout">The Team-by-Team Rollout</h3>
+
+<p><strong>Migration sequence</strong>:</p>
+
+<ol>
+  <li><strong>Pilot team</strong> (week 1-2)
+    <ul>
+      <li>Smallest team or most adaptable team</li>
+      <li>Simple workflows</li>
+      <li>Provides lessons for other teams</li>
+    </ul>
+  </li>
+  <li><strong>Early adopter teams</strong> (weeks 3-6)
+    <ul>
+      <li>Teams that expressed enthusiasm</li>
+      <li>Moderate complexity</li>
+      <li>Builds momentum</li>
+    </ul>
+  </li>
+  <li><strong>Standard teams</strong> (weeks 7-16)
+    <ul>
+      <li>Bulk of your support organisation</li>
+      <li>Use established playbook</li>
+    </ul>
+  </li>
+  <li><strong>Complex/resistant teams</strong> (weeks 17+)
+    <ul>
+      <li>Teams with the most complex workflows</li>
+      <li>Teams resistant to change</li>
+      <li>Most time for preparation and custom configuration</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="between-each-team-migration-learn">Between Each Team Migration: Learn</h3>
+
+<p>After each team goes live, gather structured feedback:</p>
+
+<p><strong>Week 1 post-migration</strong>:</p>
+<ul>
+  <li>Daily standup with team lead</li>
+  <li>Bug tracking</li>
+  <li>Immediate process fixes</li>
+</ul>
+
+<p><strong>Week 2 post-migration</strong>:</p>
+<ul>
+  <li>Agent survey</li>
+  <li>Performance metrics comparison</li>
+  <li>Workflow refinement</li>
+</ul>
+
+<p><strong>Week 3-4 post-migration</strong>:</p>
+<ul>
+  <li>Lessons learned document</li>
+  <li>Update migration playbook</li>
+  <li>Identify improvements for next team</li>
+</ul>
+
+<p>This learning process is more valuable than any amount of upfront planning. The first team migration teaches you what actually matters vs. what seemed important in planning.</p>
+
+<h3 id="parallel-running-period">Parallel Running Period</h3>
+
+<p>For each team, consider running parallel systems briefly:</p>
+
+<p><strong>Days 1-3</strong>: Agents handle tickets in both systems (if feasible)
+<strong>Days 4-7</strong>: Zendesk primary, Salesforce fallback for issues
+<strong>Week 2+</strong>: Zendesk only, Salesforce read-only access</p>
+
+<p>This provides safety net without extending dual-system overhead too long.</p>
+
+<h2 id="common-pitfalls-to-avoid">Common Pitfalls to Avoid</h2>
+
+<h3 id="data-quality-issues">Data Quality Issues</h3>
+
+<p><strong>Pitfall</strong>: Migrating historical tickets without cleaning data first</p>
+
+<p><strong>Result</strong>: Garbage in, garbage out. Poor quality historical data pollutes reporting and creates confusion.</p>
+
+<p><strong>Solution</strong>: Define data quality rules before migration. Decide what historical data is actually valuable vs. archival.</p>
+
+<h3 id="over-engineering-integration">Over-Engineering Integration</h3>
+
+<p><strong>Pitfall</strong>: Building elaborate integration trying to keep systems perfectly in sync</p>
+
+<p><strong>Result</strong>: Fragile, expensive, complex integration that breaks frequently</p>
+
+<p><strong>Solution</strong>: Define minimum viable integration. Accept that systems will diverge. Focus on critical data flows only.</p>
+
+<h3 id="migrating-process-debt">Migrating Process Debt</h3>
+
+<p><strong>Pitfall</strong>: Replicating every Salesforce workflow, including inefficient ones</p>
+
+<p><strong>Result</strong>: You’ve moved platforms but kept all the problems</p>
+
+<p><strong>Solution</strong>: Use migration as opportunity to eliminate workflows that exist because “we’ve always done it that way.” Question everything.</p>
+
+<h3 id="insufficient-training">Insufficient Training</h3>
+
+<p><strong>Pitfall</strong>: Expecting agents to learn Zendesk on the fly during go-live</p>
+
+<p><strong>Result</strong>: Frustrated agents, poor customer experience, resistance to new platform</p>
+
+<p><strong>Solution</strong>: Comprehensive training before go-live. No agent handles live tickets until they’re comfortable.</p>
+
+<h3 id="underestimating-timeline">Underestimating Timeline</h3>
+
+<p><strong>Pitfall</strong>: Assuming migration will be quick because “it’s just moving tickets between systems”</p>
+
+<p><strong>Result</strong>: Rushed implementation, missed requirements, poor quality</p>
+
+<p><strong>Solution</strong>: Plan for 3-6 months minimum for enterprise migrations. Add 30% buffer for unknowns.</p>
+
+<h2 id="when-to-get-expert-help">When to Get Expert Help</h2>
+
+<p>Salesforce to Zendesk migrations are complex enough that many organisations benefit from specialist support.</p>
+
+<p><strong>Indicators you need migration expertise</strong>:</p>
+
+<ul>
+  <li>More than 50 support agents</li>
+  <li>Complex multi-team workflows with numerous handoffs</li>
+  <li>Custom Salesforce objects and fields requiring mapping</li>
+  <li>Compliance requirements (HIPAA, SOC2, GDPR)</li>
+  <li>Integration with multiple other systems</li>
+  <li>Tight timeline constraints</li>
+  <li>Limited internal Zendesk experience</li>
+</ul>
+
+<p><strong>What migration specialists provide</strong>:</p>
+
+<ul>
+  <li><strong>Assessment and planning</strong>: Review your Salesforce setup and create detailed migration plan</li>
+  <li><strong>Data mapping</strong>: Define how Salesforce objects map to Zendesk structure</li>
+  <li><strong>Integration architecture</strong>: Design and implement system connections</li>
+  <li><strong>Configuration</strong>: Build Zendesk instance matching your requirements</li>
+  <li><strong>Training programs</strong>: Agent and admin training customised to your workflows</li>
+  <li><strong>Go-live support</strong>: On-hand expertise during cutover</li>
+  <li><strong>Post-migration optimisation</strong>: Fine-tuning based on real-world usage</li>
+</ul>
+
+<p>The ROI on migration expertise is typically measured in:</p>
+<ul>
+  <li>Reduced timeline (3-6 months faster)</li>
+  <li>Avoided mistakes (worth 10-50x the cost when they occur)</li>
+  <li>Higher adoption rates (agents productive faster)</li>
+  <li>Better long-term configuration (less technical debt)</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Migrating from Salesforce Service Cloud to Zendesk is challenging but achievable with proper planning and execution.</p>
+
+<p><strong>Key principles</strong>:</p>
+<ol>
+  <li>Document everything before you start</li>
+  <li>Set atomic, incremental goals</li>
+  <li>Ensure everyone understands Zendesk fundamentals</li>
+  <li>Keep configuration orthodox during migration</li>
+  <li>Integrate systems properly for the transition period</li>
+  <li>Train agents thoroughly before go-live</li>
+  <li>Migrate team by team, learning between each rollout</li>
+</ol>
+
+<p>The organisations that succeed treat this as a 6-12 month transformation project, not a weekend software switch. They invest in training, planning, and proper integration. They learn from each team migration and continuously improve.</p>
+
+<p>Done well, you’ll end up with a support platform that’s more intuitive for agents, more cost-effective at scale, and purpose-built for customer service operations.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p><strong>Ready to plan your Salesforce to Zendesk migration?</strong></p>
+
+<p>Book a free migration assessment with Delta String. We’ll review your Salesforce configuration, discuss your requirements, and provide a detailed migration plan.</p>
+
+<p><a href="#">Book Migration Assessment</a></p>
+
+<p><strong>Download our migration resources</strong>:</p>
+<ul>
+  <li><a href="#">Salesforce to Zendesk Migration Checklist (PDF)</a></li>
+  <li><a href="#">Configuration Mapping Template</a></li>
+  <li><a href="#">Agent Training Template</a></li>
+</ul>
+
+<hr />
+
+<p><em>Delta String specialises in Zendesk migrations, integrations, and implementations. We’ve successfully migrated dozens of organisations from Salesforce Service Cloud to Zendesk Support.</em></p>
