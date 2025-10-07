@@ -39,38 +39,46 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">5 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
-                        
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket" class="text-dark">Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has pr...</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation&nbsp;&nbsp;CX Today
+                        https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> recently
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        </div>
     </div>
@@ -87,7 +95,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        </div>
     </div>
@@ -280,7 +288,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -313,7 +321,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        </div>
     </div>
@@ -446,7 +454,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
