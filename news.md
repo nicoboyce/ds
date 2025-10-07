@@ -39,31 +39,39 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">4 stories</span>
+        <span class="badge badge-primary ml-2">5 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
-                        <span class="source-badge">Zendesk Service Notifications</span>
+                        <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
+                        
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
+                        Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation&nbsp;&nbsp;CX Today
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 14 hours ago
+                        <i class="far fa-clock"></i> recently
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 15 hours ago
+            </small>
         </article>        </div>
     </div>
 
@@ -79,7 +87,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 hours ago
+                <i class="far fa-clock"></i> 14 hours ago
             </small>
         </article>        </div>
     </div>
@@ -93,7 +101,7 @@ background: grey
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPSnMwRHlQdS1Qb1BHeEJWNUdOMzhhT0tmS0QzdzlmRVE4OUs3VkxkaGVCbnNuSGpraXNTYWUwM3FTWWxZNDl2SWdjRi03QTdKbWlhMWJCN2VrUmpCQXhJTjJXRDIwdnZITWpHd1ExR25HcGFleWlBM3p3TEpUdjZMRzU2Nkd3VE5yU3RvcjAtOHZsNEhfNXVzMmxEWTQ5VzF5bzlZ?oc=5" class="text-dark">Former Zendesk HQ seized by lenders at foreclosure auction - The Real Deal</a>
-                 <span class="badge badge-warning ml-2">Updated</span>
+                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -125,7 +133,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">28 stories</span>
+        <span class="badge badge-info ml-2">27 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -152,8 +160,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern that Zendesk administrators need to understand is the increasing reliance on AI-powered features and the potential impact on system stability.</p>
-            <p>Several articles mention the introduction of AI-powered capabilities, such as generative email replies, real-time QA insights, and AI-powered intent detection, while also reporting on service incidents and scheduled maintenance for database upgrades, suggesting that the integration of these AI features may be causing operational challenges that administrators need to carefully manage and test before deployment.</p>
+            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features such as generative email replies, real-time QA insights, and AI-powered intent detection. This shift towards AI-driven solutions means that administrators will need to carefully monitor the performance and stability of these new features, as well as ensure that they are properly configured and integrated with existing workflows to avoid disruptions to customer service operations.</p>
         </div>
     </div>
     
@@ -161,7 +168,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 28 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -331,18 +338,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">3</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNakd3TklKQ29pUEhpVFN5MFVZT2kzMnotcEg1cXhrY0g5UV9ja1YxczFGQWprekc2enNlWUN0QTNtOHF6MUltcURXY2YtWmVRZWMta0NOUFpZYjYzcVQ1TzJCelRnZGg5WE5ZT1BEMUxqOGNONGN3b0ExcDFaZnVkZzNjblRFWFF1NUFna0s4ZnM0Yjk1Ylpwdy1EdGIybl9sTUYzQWVwVGhoOFk?oc=5" class="text-dark">Lenders seize former Zendesk headquarters at 1019 Market St. - San Francisco Business Times - The Business Journals</a>
-                 <span class="badge badge-warning ml-2">Updated</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/resolution-platform-pricing-from-seats-to-solutions/" class="text-dark">Resolution Platform Pricing: From Seats to Solutions</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -464,7 +463,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
