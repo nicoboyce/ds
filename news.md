@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 13 hours ago
+                        <i class="far fa-clock"></i> 14 hours ago
                     </small>
                 </div>
             </div>
@@ -79,7 +79,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        </div>
     </div>
@@ -464,7 +464,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
