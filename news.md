@@ -70,7 +70,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        </div>
     </div>
@@ -87,7 +87,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 hours ago
+                <i class="far fa-clock"></i> 15 hours ago
             </small>
         </article>        </div>
     </div>
@@ -224,7 +224,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 26 days ago
+                <i class="far fa-clock"></i> 27 days ago
             </small>
         </article>        </div>
     </div>
@@ -463,7 +463,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
