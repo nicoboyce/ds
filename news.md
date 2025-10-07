@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 8 hours ago
+                        <i class="far fa-clock"></i> 9 hours ago
                     </small>
                 </div>
             </div>
@@ -78,7 +78,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        </div>
     </div>
@@ -95,7 +95,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        </div>
     </div>
@@ -462,7 +462,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
