@@ -43,7 +43,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">3 stories</span>
+        <span class="badge badge-primary ml-2">2 stories</span>
     </h2>
 
 
@@ -64,7 +64,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                         https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 hours ago
+                        <i class="far fa-clock"></i> 5 hours ago
                     </small>
                 </div>
             </div>
@@ -74,21 +74,13 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPSnMwRHlQdS1Qb1BHeEJWNUdOMzhhT0tmS0QzdzlmRVE4OUs3VkxkaGVCbnNuSGpraXNTYWUwM3FTWWxZNDl2SWdjRi03QTdKbWlhMWJCN2VrUmpCQXhJTjJXRDIwdnZITWpHd1ExR25HcGFleWlBM3p3TEpUdjZMRzU2Nkd3VE5yU3RvcjAtOHZsNEhfNXVzMmxEWTQ5VzF5bzlZ?oc=5" class="text-dark">Former Zendesk HQ seized by lenders at foreclosure auction - The Real Deal</a>
                  <span class="badge badge-warning ml-2">Updated</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPWm1VMXQxeGUtdVktNUpOQ2lBSkxfZG5LcU5UZ3cxSTVyTFNnQUZuY2N6RTUxR1l4b2pUU29iZ3AzY0RpX1ByaENwdTIxcW43RURkWlRrWEpsbVM2ampHa1FIQ182b1hJM3pta3l3MTZ5VGJjQWI4SDVHeE1SV0d0dWZzX0JzTndXYVdCSzZlc2lKcXhOa2tHZg?oc=5" class="text-dark">Intelligent Customer Service Market Segmentation Analysis - openPR.com</a>
-                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -186,7 +178,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        </div>
     </div>
@@ -441,7 +433,7 @@ In the Dialogue Builder, select inputs have been replaced by Zendesk Garden comp
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02:00 (London)</strong><br>
+                    <strong>03:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
