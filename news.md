@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">7 stories</span>
+        <span class="badge badge-primary ml-2">9 stories</span>
     </h2>
 
 
@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 1 hour ago
+                        <i class="far fa-clock"></i> 2 hours ago
                     </small>
                 </div>
             </div>
@@ -128,10 +128,26 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3hYTlRCYWMxWHQ4S3EtcGRFVHoweW1qUlNROEhPZ1ZLRng5N1I2M01yeUp0VnhSdlhmT1RIMmhhOU01SkxnTjhYcUc1WVE1am5rYU03X01Cd2Y0dkFKcXdoX29SQ1RfMVJVOEJBN3NVTnN3dllCdFBVdlo5Zkt6RUtvdGJ1TEZvQi1FSzRJY3ZNMkF2azhkai1KM3JvTDV1MURpQlhDckw5dWVaNGc?oc=5" class="text-dark">Zendesk Unveils Major AI Push – Voice, Admin Co-Pilot, and HyperArc Take Center Stage - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNVVY1MG52TnRyZ19qS2JzcEF1ZlZ0ZG9NUXc1aWVqSm9vNTZ4c25UckFkRkhXUzZFdnJKNnZJdGRJVnllVDFBT1ZlQzFaMHFiV2JLWTRaMEU1eEZRcWlxdUs0ZW0xVUdjaFgyRXExVTU3S3dqRmZjUTE2amRPZlhPS1FKeWRBU2JqYlZMNm5Sdw?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - Yahoo Finance</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/advanced-end-user-merge-automatically-detect-merge-duplicate-users-in-one-click-sponsor/" class="text-dark">Advanced End User Merge: Automatically detect & merge duplicate users in one click.  (sponsor)</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -471,7 +487,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14:00 (London)</strong><br>
+                    <strong>15:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
