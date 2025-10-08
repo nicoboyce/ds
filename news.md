@@ -39,14 +39,14 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">12 stories</span>
+        <span class="badge badge-primary ml-2">11 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -60,18 +60,10 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025-Pods-29-18-and-17-Analytics-Dashboard-can-not-be-accessed-for-Explore-5XX-error
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 9 hours ago
+                        <i class="far fa-clock"></i> 10 hours ago
                     </small>
                 </div>
             </div>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0JnNThjMEV1TFppakpiWXNQR1hQZk9ZdW1DaGw0Qm9nV1ZKclRaZnZDYUFLQ0U0MVlCYlVkN0NUQU4ybjRmaHRfQ3ZrSEFRVG9JYUVENXZTN3BiSlNxd1o3Z2hPT2ZlRGRKX2t4ZXZuSTJSNkcyc3hoVE9NWlMwemhEaw?oc=5" class="text-dark">Hackers Threaten to Leak 2.1M Discord Users’ Passports, Licenses in Extortion Attack - Yahoo</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNTmU3VlgtcmVOcmFPNllVZ2hlbFpNaTNzZ0tFZW5SR0RQQXE5ek9vNGEwMWFrTWtIR281VWdBSV9FSDczMm1Rb3NiSXQ2VlBUbTBDeW15VWVzbGprRzR0cWR6djRqNVk3NWRhOVptZVRzYWN5Nlhlck5pWTNxdUZUanRn?oc=5" class="text-dark">Hackers breach Zendesk to extort Discord with stolen IDs - Protos | Informed crypto news</a>
@@ -86,7 +78,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 hours ago
+                <i class="far fa-clock"></i> 6 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -502,7 +494,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
