@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -70,7 +70,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 hours ago
+                <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -206,7 +206,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 days ago
+                        <i class="far fa-clock"></i> 5 days ago
                     </small>
                 </div>
             </div>
@@ -281,7 +281,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -471,7 +471,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:00 (London)</strong><br>
+                    <strong>11:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
