@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">6 stories</span>
+        <span class="badge badge-primary ml-2">7 stories</span>
     </h2>
 
 
@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 1 hour ago
                     </small>
                 </div>
             </div>
@@ -104,6 +104,23 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> yesterday
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQaXdHWFJzMHlkWkMxNlpqaU4yNE9UOENGampwTEd1czRudUxHRHdvWVlXS09lZzlnVkY0VkdSMWpNek9tZVJaVG0xYzdVNkRUTDRNLWN5NkV6MTBZbHA5Zl92d2Z0Q3NSdTNGcmhGRENLc0FVLUNfc0FBZ2xicDhlcFVTVnpndG5YcUd0cTFFbXB6enQ1VkdsRDBqdXZyUmc?oc=5" class="text-dark">Social Customer Service Applications Market Growth Key Drivers - openPR.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -454,7 +471,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
