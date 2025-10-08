@@ -53,24 +53,24 @@ background: grey
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025" class="text-dark">Service Incident - October 8th, 2025</a>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket" class="text-dark">Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has pr...</a>
                         <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025
+                        https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 hours ago
+                        <i class="far fa-clock"></i> 1 hour ago
                     </small>
                 </div>
             </div>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket" class="text-dark">Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has pr...</a>
+                <a href="https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025-Pods-29-18-and-17-Analytics-Dashboard-can-not-be-accessed-for-Explore-5XX-error" class="text-dark">Service Incident - October 8th, 2025 - Pods 29, 18, and 17 | Analytics - Dashboard can not be accessed for Explore: 5XX error</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 4 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -281,7 +281,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -289,7 +289,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -317,14 +317,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9771088619418-Announcing-ticket-summaries-in-reporting-views-as-placeholders-and-via-the-API" class="text-dark">Announcing ticket summaries in reporting, views, as placeholders, and via the API</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9769997300634-Announcing-the-move-of-Google-Calendar-integration-for-WFM-to-the-Admin-Center" class="text-dark">Announcing the move of Google Calendar integration for WFM to the Admin Center</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
@@ -337,7 +329,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -346,6 +338,14 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 20 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9722152684186-Announcing-enhanced-Zendesk-Copilot-ticket-summarization" class="text-dark">Announcing enhanced Zendesk Copilot ticket summarization</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        </div>
     </div>
@@ -487,7 +487,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>17:00 (London)</strong><br>
+                    <strong>18:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
