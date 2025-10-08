@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">9 stories</span>
+        <span class="badge badge-primary ml-2">8 stories</span>
     </h2>
 
 
@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 1 hour ago
+                        <i class="far fa-clock"></i> 2 hours ago
                     </small>
                 </div>
             </div>
@@ -70,7 +70,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 hours ago
+                <i class="far fa-clock"></i> 5 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -104,23 +104,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> yesterday
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQaXdHWFJzMHlkWkMxNlpqaU4yNE9UOENGampwTEd1czRudUxHRHdvWVlXS09lZzlnVkY0VkdSMWpNek9tZVJaVG0xYzdVNkRUTDRNLWN5NkV6MTBZbHA5Zl92d2Z0Q3NSdTNGcmhGRENLc0FVLUNfc0FBZ2xicDhlcFVTVnpndG5YcUd0cTFFbXB6enQ1VkdsRDBqdXZyUmc?oc=5" class="text-dark">Social Customer Service Applications Market Growth Key Drivers - openPR.com</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -192,7 +175,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like generative email replies, real-time AI suggestions for Voice, and AI-driven intent detection. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-powered tools, as well as developing robust testing and monitoring strategies to ensure seamless integration with their existing workflows and processes.</p>
+            <p>The most significant operational pattern observed is the rapid expansion of AI-powered features across Zendesk's product suite, including AI-driven ticket categorization, generative email replies, and real-time voice suggestions. This indicates that Zendesk is aggressively pursuing an AI-first strategy, which will require administrators to carefully manage the integration and impact of these new AI capabilities on their customer service operations, ensuring a seamless transition and maintaining service quality.</p>
         </div>
     </div>
     
@@ -305,7 +288,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -487,7 +470,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
