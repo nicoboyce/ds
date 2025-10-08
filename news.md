@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 17 hours ago
+                        <i class="far fa-clock"></i> 18 hours ago
                     </small>
                 </div>
             </div>
@@ -151,7 +151,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI-powered features and the potential impact on system stability. Zendesk is rapidly expanding its AI capabilities, such as AI-powered intent detection, generative email replies, and real-time AI suggestions for Voice, but these new features appear to be causing service incidents and disruptions, requiring administrators to thoroughly test and monitor the integration of AI into their Zendesk ecosystem.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like generative email replies, real-time AI suggestions for Voice, and AI-driven intent detection. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-powered tools, as well as developing robust testing and monitoring strategies to ensure seamless integration with their existing workflows and processes.</p>
         </div>
     </div>
     
@@ -446,7 +446,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
