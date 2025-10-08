@@ -3,7 +3,7 @@
   "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like generative email replies, real-time AI suggestions for Voice, and AI-driven intent detection. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-powered tools, as well as developing robust testing and monitoring strategies to ensure seamless integration with their existing workflows and processes.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-08T06:00:09.346997",
+  "generated_at": "2025-10-08T12:00:10.096557",
   "release_notes": {
     "summary": "Copilot released custom fields in entities. Copilot also released ticket summaries in reporting, views, as placeholders, and via the API.",
     "article": {
