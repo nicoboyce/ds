@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9805745423898-Service-Incident-October-8-2025-Pod-27-Support-Omnichannel-routing-issues
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 14 hours ago
+                        <i class="far fa-clock"></i> 15 hours ago
                     </small>
                 </div>
             </div>
@@ -126,7 +126,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -147,7 +147,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -391,7 +391,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -399,7 +399,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -439,7 +439,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -540,7 +540,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>17:00 (London)</strong><br>
+                    <strong>18:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
