@@ -46,18 +46,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">6</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOSXVFY3plZjEzNzdFTUNwZklBRERXNm9LT2dHN0dCa2JybTdKS2ROMTJ5Zk5ISHBYMzJXUVk4QUQ3cnptRXZCUktiVXgxcDA2RmRMRndyRTR2bThSeXFSRjA5VkgzQWVMdXllUl9qaTlQUEthNzdyVWhDU0l6dTl6bnlnRXo?oc=5" class="text-dark">Discord says 70,000 users may have had their government IDs leaked in breach - The Verge</a>
+                        <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQSjdja1pPbFY3eUxDZmpIa25TUVVkSExQdlVXWDAtaVltOFdTRktyREFhX2dweFc2Qzg5U3RUVEJYRkhsUlBVTllQUnhzb2hqYjRHZzBpbjljQWlRbVpTV19rbFZwYWE2TzVHX3dFc3hpZVNKU3RZM2dobFM5MF9DTVA2dDRHVGZ6YXpBTnRCZGhwYU9OcjRKOA?oc=5" class="text-dark">The Discord Breach Might Be Worse Than We Thought, As The Hacker Is Said To Have Two Million Age Verification Photos - TheGamer</a>
                         
                     </h5>
                     <p class="item-summary text-muted">
-                        Discord says 70,000 users may have had their government IDs leaked in breach&nbsp;&nbsp;The Verge
+                        The Discord Breach Might Be Worse Than We Thought, As The Hacker Is Said To Have Two Million Age Verification Photos&nbsp;&nbsp;TheGamer
                     </p>
                     <small class="text-muted">
                         <i class="far fa-clock"></i> recently
@@ -66,19 +66,11 @@ background: grey
             </div>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQSjdja1pPbFY3eUxDZmpIa25TUVVkSExQdlVXWDAtaVltOFdTRktyREFhX2dweFc2Qzg5U3RUVEJYRkhsUlBVTllQUnhzb2hqYjRHZzBpbjljQWlRbVpTV19rbFZwYWE2TzVHX3dFc3hpZVNKU3RZM2dobFM5MF9DTVA2dDRHVGZ6YXpBTnRCZGhwYU9OcjRKOA?oc=5" class="text-dark">The Discord Breach Might Be Worse Than We Thought, As The Hacker Is Said To Have Two Million Age Verification Photos - TheGamer</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025-Pods-29-18-and-17-Analytics-Dashboard-can-not-be-accessed-for-Explore-5XX-error" class="text-dark">Service Incident - October 8th, 2025 - Pods 29, 18, and 17 | Analytics - Dashboard can not be accessed for Explore: 5XX error</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 hours ago
+                <i class="far fa-clock"></i> 15 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -102,7 +94,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 hours ago
+                <i class="far fa-clock"></i> 11 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -118,10 +110,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">7</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3Q0bzZuajZyR0ZmM0dCVHlYaUJtWFpUQWVBWnFWUUY4U3g4Sk0wMXJDazlYcnh1Y0w1UXQwQ0x1R3p1SHNZX3NjNEtMN0RyNG5ZdWI5TXM5djlnZjFKQWpGRW1XZGpCa0w2elkwY1BSZ1pPYUU5cFpOV1RGdkFkRnZyVmwxOWlwbEViX1E0bnU5NnRLZFY3M3lB0gGfAUFVX3lxTE93VjQzRHlaVE9hWHUweW15X1pvem52ZG04ZXFVaGx4UUs4OTc4NVpCVm54dXJFbG1QZW1ZNXQ2Z0Y0TGVhWTlmSVNCQmRsb2VFaTdZNjkwci1LUDlIQ0FMaVNONnJ0ZjJMYWloaEVtd0RkLTVSSmQ2Y3VmTDc0N3NWT3RocDVHNkpNZEFsT1NNMnJtSUczNEdXZVRGQXI0MA?oc=5" class="text-dark">Zendesk Reveals AI Innovations To Transform Customer And Employee Services - Pulse 2.0</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
                 
@@ -460,7 +460,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04:00 (London)</strong><br>
+                    <strong>05:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
