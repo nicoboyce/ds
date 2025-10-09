@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">20 stories</span>
+        <span class="badge badge-primary ml-2">21 stories</span>
     </h2>
 
 
@@ -126,7 +126,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 hours ago
+                <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -142,10 +142,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxObklFQlpfTzRRVXJ3Wi1uWW9zZHpBU2Uya09JU0UxRDJQOXFFeFNjQ2htd0x0b1BiLUNOeFJYWmJXWlNRb3lJNTF6ZXNXQlViRENIUnpNYVo1U3lrU010MlEtZkc0dE9QNjhFNDJUT2tuckNMcXVMUXhlQlBiQWVZMXc5anhSNmRxZDVuY3BNbl9Ta1FWbDJvOGp0czM5czhsWUZBc0doWVF5RGtIT3JNWDRxUXg5dVl0cHRVOERtLU1CMUdNRXZ2N29n?oc=5" class="text-dark">Salesforce rolls into ITSM with Slack-based agentic AI platform - TechTarget</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBvVnh1ZG9EVTNvM0RMTl90eTBWRWZnQlFGSmFjVWdGT3J1eWE2TWJzMC1Vd2N5eTlNS2pxMjJIMVI3MHYtSEVxd3BwaTBJemstVlpBRVJRNnE1MGRiUXBzUTUtbjdiZ1EwSmEtQklpd1F6TFM3?oc=5" class="text-dark">Zendesk says its AI agent can resolve up to 80% of support issues - YourStory.com</a>
                  <small class="text-info" title="Google News - Zendesk, Google News - Zendesk, Google News - Zendesk">[3 sources]</small>
@@ -415,7 +423,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -448,7 +456,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        </div>
     </div>
@@ -524,7 +532,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
