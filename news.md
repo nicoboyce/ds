@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9805745423898-Service-Incident-October-8-2025-Pod-27-Support-Omnichannel-routing-issues
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 18 hours ago
+                        <i class="far fa-clock"></i> 19 hours ago
                     </small>
                 </div>
             </div>
@@ -243,7 +243,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">23 stories</span>
+        <span class="badge badge-info ml-2">22 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -279,7 +279,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 23 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 22 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -287,7 +287,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -301,18 +301,10 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 days ago
+                        <i class="far fa-clock"></i> 3 days ago
                     </small>
                 </div>
             </div>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOQzd4dGdUNWM1SGV0ejh2THRJYl9HZmtVMmxUeF9VU0JNVW1SemVtb19Pb2VkR2lyRmo3TlNRbWphOEsyUTNva2ZDMVY5WV8wdUg0WC1UWVNGYjNJdUJUUXpxbk9nR1NYNlV1UVI3ZGlxZkY2Z1pKOHVsdWppM21hLVJ5VTV2U2NKRTllOXNhUDB3WjZMN0ZIbkFhTkxPU3dmUWFDRjVyR3ZPdWE0bHJCS1VuONIBuAFBVV95cUxNUURlRGR2eUt2NUIyUmx6S2djSkYyZ25kTlBGR2NxUHNQTkhTZXJPTi1HLVMxOWludktaMFlWLTBNek5POFdEUm5qaEdLN0NQMWUzTHF6N01kTXktQzdJTWRFYXZObWxsRGJWTEpTWGNuTEFvdy1wU1FvRVZBTS01NjM0M19PVXJLWEU2YjJ5VzR1SlI1aGZnUHlaM0dLNEJwRXJnSi1odGRENWRuQzdBNXNkNXNPRXlO?oc=5" class="text-dark">Discord discloses data breach after hackers steal support tickets - BleepingComputer</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server" class="text-dark">Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...</a>
@@ -533,7 +525,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
