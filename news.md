@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025-Pods-29-18-and-17-Analytics-Dashboard-can-not-be-accessed-for-Explore-5XX-error
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 16 hours ago
+                        <i class="far fa-clock"></i> 17 hours ago
                     </small>
                 </div>
             </div>
@@ -94,7 +94,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 hours ago
+                <i class="far fa-clock"></i> 13 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -206,7 +206,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the rapid expansion of AI-powered features across Zendesk's product suite, including AI-driven ticket categorization, generative email replies, and real-time voice suggestions. This indicates that Zendesk is aggressively pursuing an AI-first strategy, which will require administrators to carefully manage the integration and impact of these new AI capabilities on their customer service operations, ensuring a seamless transition and maintaining service quality.</p>
+            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI and automation across Zendesk's product suite. This trend is evident in the announcements of AI-powered features such as real-time monitoring dashboards, generative email replies, and AI-powered intent detection, which suggest that Zendesk is prioritizing the integration of AI and automation to enhance its platform's capabilities. Administrators should closely monitor the implementation and performance of these AI-driven features to ensure a smooth transition and mitigate any potential stability issues that may arise.</p>
         </div>
     </div>
     
@@ -460,7 +460,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
