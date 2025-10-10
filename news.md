@@ -39,31 +39,39 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">21 stories</span>
+        <span class="badge badge-primary ml-2">22 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNdlZ2LTdUcTVzdEFKcC03S1NpUmVpMWNrSkU4NmU2NzBpRTVkNFMzZGtxb2dHa1B0eEtzVDMwQUZ5U2hrUm9nNldETWw3cTc2bFNIRVRvc0JFS2dRWkJWUWJhbTM1cEV5dThfRF82Y2thM1FOcDNlb253eHEtMmFsLTRnejdobWN3UUJNbXVRcjRRcVc5WDhkWmp3a2JneldMNmlF?oc=5" class="text-dark">Discord says only 70,000 customers affected in third-party breach - Cybernews</a>
-                        
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025" class="text-dark">Service Incident - October 10th, 2025</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        Discord says only 70,000 customers affected in third-party breach&nbsp;&nbsp;Cybernews
+                        https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> recently
+                        <i class="far fa-clock"></i> 2 hours ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNdlZ2LTdUcTVzdEFKcC03S1NpUmVpMWNrSkU4NmU2NzBpRTVkNFMzZGtxb2dHa1B0eEtzVDMwQUZ5U2hrUm9nNldETWw3cTc2bFNIRVRvc0JFS2dRWkJWUWJhbTM1cEV5dThfRF82Y2thM1FOcDNlb253eHEtMmFsLTRnejdobWN3UUJNbXVRcjRRcVc5WDhkWmp3a2JneldMNmlF?oc=5" class="text-dark">Discord says only 70,000 customers affected in third-party breach - Cybernews</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9805745423898-Service-Incident-October-8-2025-Pod-27-Support-Omnichannel-routing-issues" class="text-dark">Service Incident - October 8, 2025 - Pod 27 | Support - Omnichannel routing issues</a>
@@ -90,7 +98,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2c?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
                 
             </h6>
             <small class="text-muted">
@@ -147,7 +155,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -270,8 +278,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like real-time monitoring dashboards, generative email replies, and AI-powered intent detection. This suggests that Zendesk administrators need to prioritize upskilling their teams in AI-driven technologies, as well as carefully testing and monitoring the implementation of these features to ensure seamless integration and stability within their Zendesk ecosystem.</p>
-            <p>Additionally, the occurrence of multiple service incidents and scheduled maintenance activities across various Zendesk products and regions indicates the need for administrators to have robust incident management and change control processes in place, to minimize the impact of these disruptions on their customer support operations.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like generative email replies, real-time AI suggestions for Voice, and AI-powered intent detection. This suggests that Zendesk administrators need to prioritize understanding the capabilities and limitations of these AI-driven features, as well as developing robust testing and monitoring strategies to ensure seamless integration with their existing workflows and processes.</p>
         </div>
     </div>
     
@@ -541,7 +548,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
