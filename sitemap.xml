@@ -8,7 +8,7 @@ layout: null
   <url>
     <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
@@ -19,8 +19,13 @@ layout: null
         <url>
           <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
           <lastmod>{{ page | file_mtime }}</lastmod>
+          {% if page.url contains '/news' %}
           <changefreq>daily</changefreq>
+          <priority>0.9</priority>
+          {% else %}
+          <changefreq>weekly</changefreq>
           <priority>0.8</priority>
+          {% endif %}
         </url>
       {% endif %}
     {% endunless %}
@@ -32,7 +37,7 @@ layout: null
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       <lastmod>{{ post | file_mtime }}</lastmod>
-      <changefreq>daily</changefreq>
+      <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   {% endfor %}

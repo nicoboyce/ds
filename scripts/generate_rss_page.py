@@ -461,32 +461,46 @@ class RSSPageGenerator:
     def generate_page_content(self, articles, summaries, stats):
         """Generate the complete RSS feeds page content"""
         now = datetime.now()
-        today_str = now.strftime("%d %B %Y") 
+        today_str = now.strftime("%d %B %Y")
         archive_date = now.strftime('%Y-%m-%d')
         archive_url = f"https://deltastring.com/news-{archive_date}/"
-        
+
         # Calculate deduplicated stats
         def get_deduplicated_count(article_list, timeframe):
             filtered = [a for a in article_list if 'Release notes through' not in a.get('title', '')]
             deduped = self.deduplicator.deduplicate_articles(filtered, timeframe)
             return sum(len(arts) for arts in deduped.values())
-        
+
         # Combine week and month for recently count
         recently_combined = []
         recently_combined.extend(articles.get('this_week', []))
         recently_combined.extend(articles.get('this_month', [])[:20])
-        
+
         filtered_stats = {
             'latest_count': get_deduplicated_count(articles.get('latest', []), 'latest'),
             'recently_count': get_deduplicated_count(recently_combined, 'recently'),
             'week_count': get_deduplicated_count(articles.get('this_week', []), 'week'),
             'month_count': get_deduplicated_count(articles.get('this_month', []), 'month')
         }
-        
-        
+
+        # Extract top story from latest articles
+        page_title = "Zendesk news, from Deltastring"
+        top_story_summary = "Daily and weekly summaries of Zendesk ecosystem news, curated and analysed."
+
+        all_latest = articles.get('latest', articles.get('today', []))
+        if all_latest:
+            # Get first non-release-notes article
+            for article in all_latest:
+                if 'Release notes through' not in article.get('title', ''):
+                    top_story_title = article.get('title', 'Zendesk news')
+                    page_title = f"Top Zendesk news today: {top_story_title} | Deltastring, the Zendesk experts"
+                    # Create a concise summary from the title
+                    top_story_summary = f"Latest: {top_story_title}"
+                    break
+
         content = f"""---
 layout: page
-title: Zendesk news, from Deltastring
+title: {page_title}
 background: grey
 ---
 
@@ -494,7 +508,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center mb-4">{top_story_summary}</p>
     </div>
 </div>
 
