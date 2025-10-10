@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 hours ago
+                        <i class="far fa-clock"></i> 5 hours ago
                     </small>
                 </div>
             </div>
@@ -155,7 +155,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -556,7 +556,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09:00 (London)</strong><br>
+                    <strong>10:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
