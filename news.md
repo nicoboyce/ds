@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Top Zendesk news today: Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK | Deltastring, the Zendesk experts
+title: Top Zendesk news today: Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com | Deltastring, the Zendesk experts
 background: grey
 ---
 
@@ -8,7 +8,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Latest: Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</p>
+        <p class="text-muted text-center mb-4">Latest: Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com</p>
     </div>
 </div>
 
@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">22 stories</span>
+        <span class="badge badge-primary ml-2">23 stories</span>
     </h2>
 
 
@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 13 hours ago
+                        <i class="far fa-clock"></i> 14 hours ago
                     </small>
                 </div>
             </div>
@@ -119,6 +119,23 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            🚀 Product Updates
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNcjRzQVpHS3NWajBJNDJiVW5vaEV6VzJuaGZ1WE5LZG5ZZkx4cWdxMjlNd21tQ1NJaHlvY3JKOUV1TGx0TEhtYXZveW5XMWdFTGxjQlNzNUtLdXJrc3ZMak1tY3kxVEM1TDlvQ2Y0emVmdDd4LTUyeVh5R1ZCVzdHVGJYamV3RlhyZUdHa051bk9qVzRu?oc=5" class="text-dark">Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -278,8 +295,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the frequent occurrence of service incidents and maintenance activities across Zendesk's core products, including Support, Guide, Talk, and Workforce Management. This suggests that Zendesk administrators need to be prepared for potential disruptions and have robust incident management and communication processes in place to ensure minimal impact on their organizations' customer service operations.</p>
-            <p>Additionally, the titles indicate a strategic shift towards increased AI and automation capabilities, such as AI-powered intent detection, generative email replies, and real-time AI suggestions for Voice. Administrators should closely monitor the rollout and integration of these new features to ensure a smooth transition and mitigate any potential stability issues.</p>
+            <p>1. The most significant operational pattern that administrators need to understand is the increasing reliance on AI and automation across Zendesk's product suite, as evidenced by the announcements of AI-powered features like generative email replies, real-time AI suggestions for Voice, and AI-powered intent detection for ticket categorization.</p>
+            <p>2. This shift towards AI-driven capabilities means that Zendesk administrators will need to carefully monitor the implementation and performance of these new features, ensuring they are properly integrated and configured to maintain the stability and reliability of the platform, while also exploring ways to leverage these AI-powered tools to improve efficiency and customer experience.</p>
         </div>
     </div>
     
@@ -424,7 +441,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -557,7 +574,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
