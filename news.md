@@ -39,14 +39,14 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">21 stories</span>
+        <span class="badge badge-primary ml-2">20 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -70,7 +70,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -83,14 +83,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yT0FLZjh3ZHNPQ1VaQkxZYl9mSVBaM0tzbTdMWnJEQXdHRzJBaEctblRxaWRXWXZmbFhyNVNudjlDRE9WYmZRLW1udGdSanpoQVZxS3p3?oc=5" class="text-dark">Discord Data Breach – 1.5TB of Data and 2M ID Photos Held for Ransom - Cyber Press</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQSjdja1pPbFY3eUxDZmpIa25TUVVkSExQdlVXWDAtaVltOFdTRktyREFhX2dweFc2Qzg5U3RUVEJYRkhsUlBVTllQUnhzb2hqYjRHZzBpbjljQWlRbVpTV19rbFZwYWE2TzVHX3dFc3hpZVNKU3RZM2dobFM5MF9DTVA2dDRHVGZ6YXpBTnRCZGhwYU9OcjRKOA?oc=5" class="text-dark">The Discord Breach Might Be Worse Than We Thought, As The Hacker Is Said To Have Two Million Age Verification Photos - TheGamer</a>
                 
             </h6>
             <small class="text-muted">
@@ -343,7 +335,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 days ago
+                <i class="far fa-clock"></i> 17 days ago
             </small>
         </article>        </div>
     </div>
@@ -533,7 +525,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02:00 (London)</strong><br>
+                    <strong>03:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
