@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Top Zendesk news today: Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com | Deltastring, the Zendesk experts
+title: Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts
 background: grey
 ---
 
@@ -8,7 +8,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Latest: Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com</p>
+        <p class="text-muted text-center mb-4">Latest: Service Incident - October 10th, 2025 - Zendesk Talk</p>
     </div>
 </div>
 
@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">23 stories</span>
+        <span class="badge badge-primary ml-2">24 stories</span>
     </h2>
 
 
@@ -53,14 +53,14 @@ background: grey
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025" class="text-dark">Service Incident - October 10th, 2025</a>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk" class="text-dark">Service Incident - October 10th, 2025 - Zendesk Talk</a>
                         <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025
+                        https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 16 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -143,12 +143,20 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">14</span>
+            <span class="badge badge-secondary ml-2">15</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkFHRjZXd2lkWnVzaE9GWVp2TU1BczlheXBuU25RQlVtTGo0dEVKOERpUllTbEE4SGJrV1JtU0syci1ZMGNqQndibFVpZkdQVVMybU9BNC1HOFA3ZGFUVGNkakhxZmM1dFFLZ2QyRjM4TGw0TVlSWUR0U3RWUlQ0TDl2NVM3SzM3dVpOeUFpUi1EUC15T2JPZ0g1djZvMVNqNXZtY2lyWklvcFpkMWV5bHpxNjd6cVJY?oc=5" class="text-dark">Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ2xDZUxiNjJpbTU2bFpKX1B4Wk40VUJoSXE2ekI1eVBIT0RCSVVjYnd2WU51eXJHekxNdE16Q0FhX2U3cDhWMWx0ZFF4OWN5M1BsRjBxSXY5X25BdmlTUzYyT1BaOHlUUzRua3F3d2JUOTNsd25iOFlaSF9oWWl4eUxxQXVDQUFCVlRIeDVMQXhmcVNwdmdlZnNtOXlDM3JFU2RCU0NR?oc=5" class="text-dark">Zendesk unveils AI advancements including autonomous Voice AI Agents - Mi-3.com.au.</a>
                 
             </h6>
             <small class="text-muted">
@@ -336,7 +344,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 days ago
+                <i class="far fa-clock"></i> 4 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -574,7 +582,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
