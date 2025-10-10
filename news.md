@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Zendesk news, from Deltastring
+title: Top Zendesk news today: Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK | Deltastring, the Zendesk experts
 background: grey
 ---
 
@@ -8,7 +8,7 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center mb-4">Latest: Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</p>
     </div>
 </div>
 
@@ -39,7 +39,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">22 stories</span>
+        <span class="badge badge-primary ml-2">23 stories</span>
     </h2>
 
 
@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 10 hours ago
+                        <i class="far fa-clock"></i> 11 hours ago
                     </small>
                 </div>
             </div>
@@ -126,7 +126,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">14</span>
+            <span class="badge badge-secondary ml-2">15</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -188,6 +188,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQWXlVc2hZdWJBTjVBYnZZQUFOUUpzZHZ5czI0cUFRWGx6MllWSmFib1JTbF9aME5DR19GeXRQdU9RSlJzT3RBVlZLS3NPcHFnWVBFdm9iMGg4bmcwOTJEeDF2S295THZJbFZfdWhvU0ZvcVRTZHMzVm4yOXZ1OGtmb09fTlpoQWl0V1ExT0ZHOHNBb0wyNTIxMUFkanlrdjdlc1E?oc=5" class="text-dark">Zendesk Unveils AI That Handles 80% of Customer Problems Alone - Technology Org</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwWTlJLVI4RkN4ZmVOVEVVOW9rYl9rMTlfbHBTb1lDbTJsVnFSR2tWc2c0RUdqd1g2RTBNQmFpcUNmMXZaOXF4YjlTcUpoXzg5MG9BODVod1ptOFEy0gFiQVVfeXFMUFE2dnFWZWxVQjVPempJWEpMcnpISlc4dmJMX0dsQXl0NEcxbFl5SG1xSEtrWFhSbnoyWWRONk9vWWZhTWc2aFNFVVRnQm9rRDRUckFJbHpLTzVuM0M0aEU1UVE?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - BBC</a>
                 
             </h6>
             <small class="text-muted">
@@ -440,7 +448,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -465,7 +473,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
+                <i class="far fa-clock"></i> 9 days ago
             </small>
         </article>        </div>
     </div>
@@ -549,7 +557,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
