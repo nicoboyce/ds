@@ -39,14 +39,14 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">24 stories</span>
+        <span class="badge badge-primary ml-2">17 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -96,30 +96,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0JnNThjMEV1TFppakpiWXNQR1hQZk9ZdW1DaGw0Qm9nV1ZKclRaZnZDYUFLQ0U0MVlCYlVkN0NUQU4ybjRmaHRfQ3ZrSEFRVG9JYUVENXZTN3BiSlNxd1o3Z2hPT2ZlRGRKX2t4ZXZuSTJSNkcyc3hoVE9NWlMwemhEaw?oc=5" class="text-dark">Hackers Threaten to Leak 2.1M Discord Users’ Passports, Licenses in Extortion Attack - Yahoo</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNTmU3VlgtcmVOcmFPNllVZ2hlbFpNaTNzZ0tFZW5SR0RQQXE5ek9vNGEwMWFrTWtIR281VWdBSV9FSDczMm1Rb3NiSXQ2VlBUbTBDeW15VWVzbGprRzR0cWR6djRqNVk3NWRhOVptZVRzYWN5Nlhlck5pWTNxdUZUanRn?oc=5" class="text-dark">Hackers breach Zendesk to extort Discord with stolen IDs - Protos | Informed crypto news</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket" class="text-dark">Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has pr...</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -143,7 +119,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">15</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -189,7 +165,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBvVnh1ZG9EVTNvM0RMTl90eTBWRWZnQlFGSmFjVWdGT3J1eWE2TWJzMC1Vd2N5eTlNS2pxMjJIMVI3MHYtSEVxd3BwaTBJemstVlpBRVJRNnE1MGRiUXBzUTUtbjdiZ1EwSmEtQklpd1F6TFM3?oc=5" class="text-dark">Zendesk says its AI agent can resolve up to 80% of support issues - YourStory.com</a>
-                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk">[2 sources]</small>
+                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -234,38 +210,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQUW1QUUVEMm9QT2V2MC13UExsWE9JRktJa0FtT19CUFcyNmlHX3NVUVJvUGs3Yms0czNnYWFKNGxoQmphN2g4S3Z5c19GTEUwS1JqcDlGM2pMN251aGcwR0VYUmJQb1N0NVRuRS1LR2FhSGR4MmFaRDl0RlFIamMtRmZ0TlVnVDY3d1E?oc=5" class="text-dark">Zendesk Expands AI Capabilities for Service Teams - CMSWire.com</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3hYTlRCYWMxWHQ4S3EtcGRFVHoweW1qUlNROEhPZ1ZLRng5N1I2M01yeUp0VnhSdlhmT1RIMmhhOU01SkxnTjhYcUc1WVE1am5rYU03X01Cd2Y0dkFKcXdoX29SQ1RfMVJVOEJBN3NVTnN3dllCdFBVdlo5Zkt6RUtvdGJ1TEZvQi1FSzRJY3ZNMkF2azhkai1KM3JvTDV1MURpQlhDckw5dWVaNGc?oc=5" class="text-dark">Zendesk Unveils Major AI Push – Voice, Admin Co-Pilot, and HyperArc Take Center Stage - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVjItMkNVMTMxRmo1QjFNRk1kcTUxWU1pRmtQYkltTlo2MWtkOV93SmlEYjBaZXE0UGRIWmNGUlNwakVSVHR1TGdzT256NlZPWk11N1M2TGxPX0M0WjUxdnJBWFZ4ODBIQUJFX2pKNGhmVjlZNXNnQ01OZWVBMll3SmFjS3NxR0lkZk4xR3JnWXp1MTlaRlpqSHZQcFE3c2RQSGp0WU5JejVrX1R4ZnhlOXZRemRTM3lITk9QWUZaWXFlR0ZFMGFhUFAzTzVKVE1IdlU0Y2RWU3RJLVJuUWROajNfOW1Ya3dEQ3lRVV9VdllWdFl5?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - PR Newswire</a>
-                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk, Zendesk Press Releases">[3 sources]</small>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -276,7 +220,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">24 stories</span>
+        <span class="badge badge-info ml-2">32 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -288,7 +232,7 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark" target="_blank">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a></h6>
+                <h6><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark" target="_blank">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a></h6>
                 <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
                 <small class="text-muted">Google News - Zendesk • recently</small>
             
@@ -312,7 +256,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 24 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -320,24 +264,48 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
+                        <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0JnNThjMEV1TFppakpiWXNQR1hQZk9ZdW1DaGw0Qm9nV1ZKclRaZnZDYUFLQ0U0MVlCYlVkN0NUQU4ybjRmaHRfQ3ZrSEFRVG9JYUVENXZTN3BiSlNxd1o3Z2hPT2ZlRGRKX2t4ZXZuSTJSNkcyc3hoVE9NWlMwemhEaw?oc=5" class="text-dark">Hackers Threaten to Leak 2.1M Discord Users’ Passports, Licenses in Extortion Attack - Yahoo</a>
                         
                     </h5>
                     <p class="item-summary text-muted">
-                        Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation&nbsp;&nbsp;CX Today
+                        Hackers Threaten to Leak 2.1M Discord Users’ Passports, Licenses in Extortion Attack&nbsp;&nbsp;Yahoo
                     </p>
                     <small class="text-muted">
                         <i class="far fa-clock"></i> recently
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNTmU3VlgtcmVOcmFPNllVZ2hlbFpNaTNzZ0tFZW5SR0RQQXE5ek9vNGEwMWFrTWtIR281VWdBSV9FSDczMm1Rb3NiSXQ2VlBUbTBDeW15VWVzbGprRzR0cWR6djRqNVk3NWRhOVptZVRzYWN5Nlhlck5pWTNxdUZUanRn?oc=5" class="text-dark">Hackers breach Zendesk to extort Discord with stolen IDs - Protos | Informed crypto news</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket" class="text-dark">Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has pr...</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
@@ -384,7 +352,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -467,14 +435,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 16 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9727051305498-Announcing-the-general-availability-of-AI-agent-conversations-as-tickets-in-Support-and-Agent-Workspace" class="text-dark">Announcing the general availability of AI agent conversations as tickets in Support and Agent Workspace</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 23 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -498,10 +458,58 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQUW1QUUVEMm9QT2V2MC13UExsWE9JRktJa0FtT19CUFcyNmlHX3NVUVJvUGs3Yms0czNnYWFKNGxoQmphN2g4S3Z5c19GTEUwS1JqcDlGM2pMN251aGcwR0VYUmJQb1N0NVRuRS1LR2FhSGR4MmFaRDl0RlFIamMtRmZ0TlVnVDY3d1E?oc=5" class="text-dark">Zendesk Expands AI Capabilities for Service Teams - CMSWire.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjZvNDFpRE84dDhLak1IOVhOUFZBRGRXWTR1UmFrVGo0WXZRN05ub3E5TjQ0LVJ4WFhpRFNDNUNzSURHUEd1QmRqNjBmTHQ1eHk3ZFZPQlcyV292ZkRQdXNPdDFwNmdmTWhaQV9wbkc4MUFMTFlKRTZlaVEtQ0t5MXl4Nk5HSlZ2VlZKMGVrRnVCWDAxOWhpUmJKOA?oc=5" class="text-dark">Zendesk says its new AI agent can solve 80% of support issues - TechCrunch</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNOWxvZm1CWGd3S29DWGxDU1R0eDhMalpfRjdoLU9LaGRReUJTMk1hUDR0WGRIajlnNHV4TG5saWkzVnJkNDFpWFFZek9qNnZfbWxCb0ttMTd1T0RVSlJaZ1FmeXN1WEhvSFZmTDJ2b3BCUldneFZLWjN4bVdnT0FaemNvVWstLURyX3l5Ym5hbmpUNHRHRDRWdGVGbHRyaTQ?oc=5" class="text-dark">2.1M Discord users’ ‘deleted’ ID photos may be exposed in massive leak - Cointelegraph</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3hYTlRCYWMxWHQ4S3EtcGRFVHoweW1qUlNROEhPZ1ZLRng5N1I2M01yeUp0VnhSdlhmT1RIMmhhOU01SkxnTjhYcUc1WVE1am5rYU03X01Cd2Y0dkFKcXdoX29SQ1RfMVJVOEJBN3NVTnN3dllCdFBVdlo5Zkt6RUtvdGJ1TEZvQi1FSzRJY3ZNMkF2azhkai1KM3JvTDV1MURpQlhDckw5dWVaNGc?oc=5" class="text-dark">Zendesk Unveils Major AI Push – Voice, Admin Co-Pilot, and HyperArc Take Center Stage - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVjItMkNVMTMxRmo1QjFNRk1kcTUxWU1pRmtQYkltTlo2MWtkOV93SmlEYjBaZXE0UGRIWmNGUlNwakVSVHR1TGdzT256NlZPWk11N1M2TGxPX0M0WjUxdnJBWFZ4ODBIQUJFX2pKNGhmVjlZNXNnQ01OZWVBMll3SmFjS3NxR0lkZk4xR3JnWXp1MTlaRlpqSHZQcFE3c2RQSGp0WU5JejVrX1R4ZnhlOXZRemRTM3lITk9QWUZaWXFlR0ZFMGFhUFAzTzVKVE1IdlU0Y2RWU3RJLVJuUWROajNfOW1Ya3dEQ3lRVV9VdllWdFl5?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - PR Newswire</a>
+                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk, Zendesk Press Releases">[3 sources]</small>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/advanced-end-user-merge-automatically-detect-merge-duplicate-users-in-one-click-sponsor/" class="text-dark">Advanced End User Merge: Automatically detect & merge duplicate users in one click.  (sponsor)</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
@@ -511,16 +519,16 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9779436462618-WhatsApp-to-transfer-the-ownership-of-WhatsApp-Business-Accounts-WABAs-to-all-customers" class="text-dark">WhatsApp to transfer the ownership of WhatsApp Business Accounts (WABAs) to all customers</a>
-                <span class="source-badge">Zendesk Announcements</span>
+                <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaS1yQUo1OGZKbHpFNUtfOGxmSDNMRFh6QXpIckxodTBSXzRYOThPbURxbVFRcmUwYS1rQUFEdDNVNGFMUkUzOUpwcEViQTYwY0Q5NEZkc2V5Nkh4SkNYUg?oc=5" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging - WebWire</a>
+                 <small class="text-info" title="Google News - Zendesk, Zendesk Press Releases">[2 sources]</small>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://www.zendesk.com/newsroom/press-releases/zendesks-global-impact-report-highlights-ai-support-for-nonprofits-environmental-sustainability-and-workplace-belonging/" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging</a>
-                <span class="source-badge">Zendesk Press Releases</span>
+                <a href="https://support.zendesk.com/hc/en-us/articles/9779436462618-WhatsApp-to-transfer-the-ownership-of-WhatsApp-Business-Accounts-WABAs-to-all-customers" class="text-dark">WhatsApp to transfer the ownership of WhatsApp Business Accounts (WABAs) to all customers</a>
+                <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 9 days ago
@@ -547,7 +555,7 @@ background: grey
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        </div>
     </div>
@@ -570,11 +578,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10/10/2025</strong><br>
+                    <strong>11/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
