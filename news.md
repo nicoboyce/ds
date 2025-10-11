@@ -60,7 +60,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 7 hours ago
+                        <i class="far fa-clock"></i> 8 hours ago
                     </small>
                 </div>
             </div>
@@ -70,7 +70,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -344,7 +344,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 days ago
+                <i class="far fa-clock"></i> 18 days ago
             </small>
         </article>        </div>
     </div>
@@ -574,7 +574,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02:00 (London)</strong><br>
+                    <strong>03:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
