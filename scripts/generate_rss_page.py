@@ -501,6 +501,7 @@ class RSSPageGenerator:
         # Generate NewsArticle structured data
         iso_date = now.strftime('%Y-%m-%dT%H:%M:%S+00:00')
         schema_headline = page_title.replace('"', '\\"')
+        schema_description = top_story_summary.replace('"', '\\"')
 
         schema_json = f"""
 <script type="application/ld+json">
@@ -523,7 +524,7 @@ class RSSPageGenerator:
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }}
   }},
-  "description": "{top_story_summary.replace('"', '\\"')}",
+  "description": "{schema_description}",
   "mainEntityOfPage": {{
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"

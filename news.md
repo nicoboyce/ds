@@ -4,6 +4,35 @@ title: "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk 
 background: grey
 ---
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts",
+  "datePublished": "2025-10-11T09:15:24+00:00",
+  "dateModified": "2025-10-11T09:15:24+00:00",
+  "author": {
+    "@type": "Organization",
+    "name": "Deltastring",
+    "url": "https://deltastring.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Deltastring",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
+    }
+  },
+  "description": "Latest: Service Incident - October 10th, 2025 - Zendesk Talk",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://deltastring.com/news/"
+  }
+}
+</script>
+
 <link rel="stylesheet" href="/assets/css/rss-feeds.css">
 
 <div class="row">
@@ -60,7 +89,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 13 hours ago
+                        <i class="far fa-clock"></i> 15 hours ago
                     </small>
                 </div>
             </div>
@@ -220,7 +249,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">33 stories</span>
+        <span class="badge badge-info ml-2">32 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -256,7 +285,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 33 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -466,20 +495,12 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40NnhiVHpWNTVnV21IZHFzVTRnTE1WTmsxNzRXQnloc3JYU0V3bFFnZzhQYWxsTFZTRjlsUDhMdzVJaXc3NkhxUmxSWlEzdmh0MWNlUWEtLUJlVkpEUlJCODBjdjdhcTA?oc=5" class="text-dark">Zendesk Launches AI Autonomous Agent, Customer Service Industry to be Completely Disrupted - Binance</a>
                 
             </h6>
             <small class="text-muted">
@@ -496,7 +517,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjZvNDFpRE84dDhLak1IOVhOUFZBRGRXWTR1UmFrVGo0WXZRN05ub3E5TjQ0LVJ4WFhpRFNDNUNzSURHUEd1QmRqNjBmTHQ1eHk3ZFZPQlcyV292ZkRQdXNPdDFwNmdmTWhaQV9wbkc4MUFMTFlKRTZlaVEtQ0t5MXl4Nk5HSlZ2VlZKMGVrRnVCWDAxOWhpUmJKOA?oc=5" class="text-dark">Zendesk says its new AI agent can solve 80% of support issues - TechCrunch</a>
-                
+                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk">[2 sources]</small>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -590,7 +611,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>08:00 (London)</strong><br>
+                    <strong>10:15 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
