@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts",
-  "datePublished": "2025-10-11T16:00:04+00:00",
-  "dateModified": "2025-10-11T16:00:04+00:00",
+  "datePublished": "2025-10-11T17:00:08+00:00",
+  "dateModified": "2025-10-11T17:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -90,7 +90,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 22 hours ago
+                        <i class="far fa-clock"></i> 23 hours ago
                     </small>
                 </div>
             </div>
@@ -325,7 +325,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
+                <i class="far fa-clock"></i> 3 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -414,7 +414,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -422,7 +422,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -462,7 +462,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 days ago
+                <i class="far fa-clock"></i> 17 days ago
             </small>
         </article>        </div>
     </div>
@@ -611,7 +611,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>17:00 (London)</strong><br>
+                    <strong>18:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
