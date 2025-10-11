@@ -39,7 +39,7 @@
   {% if page.url == '/news/' %}
   <title>Zendesk latest news, updated {{ site.time | date: '%d %B %Y' }} | {{ site.company_name }}</title>
   {% else %}
-  <title>{% if page.title %}{{ page.title | append: " | " | append: site.company_name }}{% else %}{{ site.company_name }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | append: " | " | append: site.company_name }}{% else %}{{ site.title }}{% endif %}</title>
   {% endif %}
   
   <!-- Open Graph Meta Tags -->
