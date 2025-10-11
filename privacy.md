@@ -4,8 +4,6 @@ title: Privacy Policy
 description: Deltastring's privacy policy - how we collect, use, and protect your personal information in compliance with GDPR and UK data protection laws.
 ---
 
-# Privacy Policy
-
 *Last updated: {{ site.time | date: "%B %d, %Y" }}*
 
 ## Introduction

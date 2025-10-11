@@ -5,8 +5,6 @@ description: Deltastring Ltd provides seamless Zendesk services to American busi
 background: grey
 ---
 
-# Working with US Companies
-
 ## Seamless Collaboration Across the Atlantic
 
 Deltastring Ltd has extensive experience working with **American businesses**, providing the same **enterprise-grade Zendesk services** whether you're based in San Francisco, New York, or anywhere across the United States.

@@ -5,7 +5,7 @@ description: Get in touch with Deltastring for Zendesk optimization, migrations,
 background: '/assets/img/office.webp'
 ---
 
-# Get In Touch
+## Get In Touch
 
 Ready to transform your customer experience? Let's discuss how Deltastring can optimize your Zendesk setup, streamline your processes, and boost your team's efficiency.
 

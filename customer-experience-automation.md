@@ -3,9 +3,9 @@ layout: page
 title: Customer Experience Automation
 description: Automate repetitive customer service tasks with intelligent Zendesk workflows. Boost agent productivity and customer satisfaction with CX automation.
 background: grey
+published: false
 ---
 
-# Customer Experience Automation
 
 ## Free Your Agents to Focus on Complex Problem-Solving
 
