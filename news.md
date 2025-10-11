@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts
+title: "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts"
 background: grey
 ---
 
