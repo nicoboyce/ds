@@ -498,11 +498,46 @@ class RSSPageGenerator:
                     top_story_summary = f"Latest: {top_story_title}"
                     break
 
+        # Generate NewsArticle structured data
+        iso_date = now.strftime('%Y-%m-%dT%H:%M:%S+00:00')
+        schema_headline = page_title.replace('"', '\\"')
+
+        schema_json = f"""
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{schema_headline}",
+  "datePublished": "{iso_date}",
+  "dateModified": "{iso_date}",
+  "author": {{
+    "@type": "Organization",
+    "name": "Deltastring",
+    "url": "https://deltastring.com"
+  }},
+  "publisher": {{
+    "@type": "Organization",
+    "name": "Deltastring",
+    "logo": {{
+      "@type": "ImageObject",
+      "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
+    }}
+  }},
+  "description": "{top_story_summary.replace('"', '\\"')}",
+  "mainEntityOfPage": {{
+    "@type": "WebPage",
+    "@id": "https://deltastring.com/news/"
+  }}
+}}
+</script>"""
+
         content = f"""---
 layout: page
 title: "{page_title}"
 background: grey
 ---
+
+{schema_json}
 
 <link rel="stylesheet" href="/assets/css/rss-feeds.css">
 
