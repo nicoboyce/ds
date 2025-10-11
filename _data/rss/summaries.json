@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation within the Zendesk ecosystem, as evidenced by the numerous announcements and incidents related to AI-powered features and capabilities. This suggests that Zendesk administrators need to prioritize understanding the impact of these AI-driven changes on their contact center operations, including potential stability issues and the need for thorough testing and monitoring to ensure a seamless transition.\n\nAdditionally, the titles indicate a heightened focus on security and compliance, with incidents related to data breaches and government ID leaks. Zendesk administrators should ensure that robust security measures are in place, including access controls, data encryption, and incident response plans, to mitigate the risks associated with these emerging threats.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation within the Zendesk ecosystem, as evidenced by the numerous announcements of new AI-powered features and capabilities. This suggests that Zendesk administrators need to prioritize understanding and effectively managing these AI-driven systems, as they will likely become critical components of the Zendesk platform and require careful monitoring and optimization to ensure stable and reliable customer support operations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-11T06:00:07.450165",
+  "generated_at": "2025-10-11T12:00:05.902994",
   "release_notes": {
     "summary": "Copilot released custom fields in entities. Copilot also released ticket summaries in reporting, views, as placeholders, and via the API.",
     "article": {
