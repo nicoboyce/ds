@@ -1,7 +1,11 @@
 <!-- Nico's Commentary - Dynamic based on page date -->
-{% assign page_date = page.title | replace: 'Industry RSS Feeds - ', '' | replace: ' Archive', '' | date: "%Y-%m-%d" %}
-{% if page_date == page.title %}
-  {% assign page_date = site.time | date: "%Y-%m-%d" %}
+{% if page.date %}
+  {% assign page_date = page.date | date: "%Y-%m-%d" %}
+{% else %}
+  {% assign page_date = page.title | replace: 'Industry RSS Feeds - ', '' | replace: ' Archive', '' | date: "%Y-%m-%d" %}
+  {% if page_date == page.title %}
+    {% assign page_date = site.time | date: "%Y-%m-%d" %}
+  {% endif %}
 {% endif %}
 
 {% assign commentary = null %}

@@ -535,6 +535,7 @@ class RSSPageGenerator:
         content = f"""---
 layout: page
 title: "{page_title}"
+date: {archive_date}
 background: grey
 ---
 
