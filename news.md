@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts",
-  "datePublished": "2025-10-11T20:00:05+00:00",
-  "dateModified": "2025-10-11T20:00:05+00:00",
+  "datePublished": "2025-10-11T21:00:08+00:00",
+  "dateModified": "2025-10-11T21:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -170,7 +170,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16a3h1QWZmRmI0SjY3VGJ6UUJkdVJFcEFKZklvVUxjWXEzbzRSdC0tZTBTUkMxR1huM3pDWkFYSUhScE11NDFfdkIyTmRhTWY2Yjl1THRtWGJWZ9IBX0FVX3lxTE5rb0NWc0lDMnBtWmwxcklUSUZrTS01d19USEl3ZTZjYVRZcDJOTkpZbjAxVlB6VkFfUzhJUzlTQ1BrbTVlZ3ltdFdMLUc3YUEtbF9CRmlNQmFCc1VIaGNz?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - BBC</a>
+                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16a3h1QWZmRmI0SjY3VGJ6UUJkdVJFcEFKZklvVUxjWXEzbzRSdC0tZTBTUkMxR1huM3pDWkFYSUhScE11NDFfdkIyTmRhTWY2Yjl1THRtWGJWZw?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - BBC</a>
                 
             </h6>
             <small class="text-muted">
@@ -342,7 +342,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 5 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -604,7 +604,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
