@@ -500,7 +500,7 @@ class RSSPageGenerator:
 
         content = f"""---
 layout: page
-title: {page_title}
+title: "{page_title}"
 background: grey
 ---
 
