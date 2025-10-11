@@ -3,6 +3,7 @@ layout: page
 title: Zendesk Migration Checklist & Planning Guide
 description: Complete Zendesk migration checklist and planning guide. Ensure zero data loss and smooth transition with our proven 50-point migration framework.
 background: grey
+published: false
 ---
 
 # Zendesk Migration Checklist & Planning Guide

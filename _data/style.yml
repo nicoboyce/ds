@@ -9,12 +9,9 @@ contact-image: "https://deltastring.com/assets/img/contact.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 
-# Add custom fonts
+# Add custom fonts - combined into single request for performance
 fonts_urls:
-    - "https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:400,700&display=swap"
-    - "https://fonts.googleapis.com/css?family=Cookie&display=swap"
-    - "https://fonts.googleapis.com/css?family=Neuton:400,700,400italic,700italic&display=swap"
-    - "https://fonts.googleapis.com/css?family=Lato:400,100,300,700&display=swap"
+    - "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Cookie&family=Neuton:ital,wght@0,400;0,700;1,400&family=Lato:wght@100;300;400;700&display=swap"
 
 # Set custom fonts
 fonts:

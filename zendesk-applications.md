@@ -3,6 +3,7 @@ layout: page
 title: Zendesk Applications Development
 description: Custom Zendesk apps and marketplace applications development. Extend Zendesk functionality with bespoke solutions for your business needs.
 background: grey
+published: false
 ---
 
 # Zendesk Applications Development

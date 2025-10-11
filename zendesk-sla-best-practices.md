@@ -3,6 +3,7 @@ layout: page
 title: Zendesk SLA Best Practices & Implementation
 description: Expert Zendesk SLA configuration and best practices. Improve customer satisfaction with optimized response times, escalation policies, and performance targets.
 background: grey
+published: false
 ---
 
 # Zendesk SLA Best Practices & Implementation

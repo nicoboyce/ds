@@ -3,6 +3,7 @@ layout: page
 title: Zendesk Optimization Services
 description: Professional Zendesk optimization consulting. Improve agent productivity, reduce response times, and maximize ROI with expert configuration and workflow optimization.
 background: grey
+published: false
 ---
 
 # Zendesk Optimization Services

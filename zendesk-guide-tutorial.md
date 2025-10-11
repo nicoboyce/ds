@@ -3,6 +3,7 @@ layout: page
 title: Zendesk Guide Tutorial & Knowledge Base Setup
 description: Comprehensive Zendesk Guide tutorial and knowledge base implementation. Reduce support tickets by 40% with professional self-service documentation.
 background: grey
+published: false
 ---
 
 # Zendesk Guide Tutorial & Knowledge Base Setup
