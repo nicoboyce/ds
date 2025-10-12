@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts",
-  "datePublished": "2025-10-12T22:00:07+00:00",
-  "dateModified": "2025-10-12T22:00:07+00:00",
+  "datePublished": "2025-10-12T23:00:05+00:00",
+  "dateModified": "2025-10-12T23:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -165,7 +165,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">14</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -202,6 +202,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOSXVFY3plZjEzNzdFTUNwZklBRERXNm9LT2dHN0dCa2JybTdKS2ROMTJ5Zk5ISHBYMzJXUVk4QUQ3cnptRXZCUktiVXgxcDA2RmRMRndyRTR2bThSeXFSRjA5VkgzQWVMdXllUl9qaTlQUEthNzdyVWhDU0l6dTl6bnlnRXo?oc=5" class="text-dark">Discord says 70,000 users may have had their government IDs leaked in breach - The Verge</a>
                 
             </h6>
             <small class="text-muted">
@@ -391,7 +399,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">21</span>
+            <span class="badge badge-secondary ml-2">20</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -477,14 +485,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40NnhiVHpWNTVnV21IZHFzVTRnTE1WTmsxNzRXQnloc3JYU0V3bFFnZzhQYWxsTFZTRjlsUDhMdzVJaXc3NkhxUmxSWlEzdmh0MWNlUWEtLUJlVkpEUlJCODBjdjdhcTA?oc=5" class="text-dark">Zendesk Launches AI Autonomous Agent, Customer Service Industry to be Completely Disrupted - Binance</a>
                 
             </h6>
             <small class="text-muted">
@@ -587,7 +587,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
