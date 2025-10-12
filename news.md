@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts",
-  "datePublished": "2025-10-12T20:00:06+00:00",
-  "dateModified": "2025-10-12T20:00:06+00:00",
+  "datePublished": "2025-10-12T21:00:07+00:00",
+  "dateModified": "2025-10-12T21:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -121,7 +121,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">45 stories</span>
+        <span class="badge badge-info ml-2">44 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -157,7 +157,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 45 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 44 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -165,7 +165,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">14</span>
+            <span class="badge badge-secondary ml-2">13</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -209,14 +209,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOSXVFY3plZjEzNzdFTUNwZklBRERXNm9LT2dHN0dCa2JybTdKS2ROMTJ5Zk5ISHBYMzJXUVk4QUQ3cnptRXZCUktiVXgxcDA2RmRMRndyRTR2bThSeXFSRjA5VkgzQWVMdXllUl9qaTlQUEthNzdyVWhDU0l6dTl6bnlnRXo?oc=5" class="text-dark">Discord says 70,000 users may have had their government IDs leaked in breach - The Verge</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0JnNThjMEV1TFppakpiWXNQR1hQZk9ZdW1DaGw0Qm9nV1ZKclRaZnZDYUFLQ0U0MVlCYlVkN0NUQU4ybjRmaHRfQ3ZrSEFRVG9JYUVENXZTN3BiSlNxd1o3Z2hPT2ZlRGRKX2t4ZXZuSTJSNkcyc3hoVE9NWlMwemhEaw?oc=5" class="text-dark">Hackers Threaten to Leak 2.1M Discord Users’ Passports, Licenses in Extortion Attack - Yahoo</a>
                 
             </h6>
@@ -253,7 +245,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -587,7 +579,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>21:00 (London)</strong><br>
+                    <strong>22:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
