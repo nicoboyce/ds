@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Top Zendesk news today: Service Incident - October 10th, 2025 - Zendesk Talk | Deltastring, the Zendesk experts",
-  "datePublished": "2025-10-12T03:00:04+00:00",
-  "dateModified": "2025-10-12T03:00:04+00:00",
+  "datePublished": "2025-10-12T04:00:06+00:00",
+  "dateModified": "2025-10-12T04:00:06+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -612,7 +612,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04:00 (London)</strong><br>
+                    <strong>05:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
