@@ -545,7 +545,10 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">{top_story_summary}</p>
+        <p class="text-muted text-center mb-2">{top_story_summary}</p>
+        <p class="text-muted text-center small mb-4">
+            <i class="far fa-clock"></i> Last updated: {now.strftime('%H:%M GMT, %d %B %Y')}
+        </p>
     </div>
 </div>
 
@@ -763,32 +766,64 @@ document.addEventListener('DOMContentLoaded', function() {{
         now = datetime.now()
         archive_date = now.strftime('%Y-%m-%d')
         archive_file = Path(f'news-{archive_date}.md')
-        
-        # Generate archive content (same as regular but with archive notice)
+
+        # Generate archive content with schema
         content = self.generate_page_content(articles, summaries, stats)
-        
-        # Replace the title in existing frontmatter instead of adding new frontmatter
+
+        # Calculate page age for title strategy
+        # For recent pages (last 7 days), avoid "Archive" to maintain freshness signals
+        page_date = datetime.strptime(archive_date, '%Y-%m-%d')
+        days_old = (datetime.now() - page_date).days
+
+        # Replace the title - no "Archive" for recent pages
+        if days_old <= 7:
+            # Fresh pages get news-focused title
+            new_title = f'Zendesk News Today - {now.strftime("%d %B %Y")} | Deltastring'
+        else:
+            # Older pages can use Archive
+            new_title = f'Zendesk News Archive - {now.strftime("%d %B %Y")} | Deltastring'
+
         content = content.replace(
-            'title: Zendesk news, from Deltastring',
-            f'title: Industry RSS Feeds - {now.strftime("%d %B %Y")} Archive'
+            'title: "Zendesk news, from Deltastring"',
+            f'title: "{new_title}"'
         )
-        
-        # Add archive notice after frontmatter
+
+        # Add meta description for SEO
+        meta_desc = f'Latest Zendesk news and platform updates for {now.strftime("%d %B %Y")}. Service incidents, product announcements, and industry developments updated today.'
+
+        # Add archive notice and canonical after frontmatter
         lines = content.split('\n')
         frontmatter_end = -1
         for i, line in enumerate(lines):
             if i > 0 and line == '---':
                 frontmatter_end = i
                 break
-        
+
         if frontmatter_end != -1:
-            archive_notice = f"""
-<div class="alert alert-warning mb-4">
-    <i class="fas fa-archive"></i> This is an archived version from {now.strftime('%d %B %Y')}. 
+            # Insert meta description in frontmatter
+            lines.insert(frontmatter_end, f'description: "{meta_desc}"')
+
+            # Add canonical tag for old pages (older than 2 days)
+            canonical_tag = ''
+            if days_old > 2:
+                canonical_tag = '<link rel="canonical" href="https://deltastring.com/news/" />\n'
+
+            # Add archive notice (less prominent for recent pages)
+            if days_old <= 7:
+                archive_notice = f"""
+{canonical_tag}<div class="alert alert-info mb-4">
+    <i class="fas fa-clock"></i> <strong>Viewing news from {now.strftime('%d %B %Y')}</strong><br>
+    <a href="/news/" class="alert-link">View today's latest Zendesk news</a>
+</div>
+"""
+            else:
+                archive_notice = f"""
+{canonical_tag}<div class="alert alert-warning mb-4">
+    <i class="fas fa-archive"></i> This is an archived version from {now.strftime('%d %B %Y')}.
     <a href="/news/">View latest updates</a>
 </div>
 """
-            lines.insert(frontmatter_end + 3, archive_notice)
+            lines.insert(frontmatter_end + 4, archive_notice)
             content = '\n'.join(lines)
         
         # Write archive file
@@ -957,6 +992,43 @@ document.addEventListener('DOMContentLoaded', function() {{
 </div>
 """
 
+    def update_recent_archives_freshness(self):
+        """Update dateModified in recent archive files to maintain freshness signals"""
+        now = datetime.now()
+        iso_now = now.strftime('%Y-%m-%dT%H:%M:%S+00:00')
+        updates_made = 0
+
+        # Update last 7 days of archives
+        for days_ago in range(1, 8):
+            archive_date = (now - timedelta(days=days_ago)).strftime('%Y-%m-%d')
+            archive_file = Path(f'news-{archive_date}.md')
+
+            if archive_file.exists():
+                try:
+                    # Read existing content
+                    with open(archive_file, 'r', encoding='utf-8') as f:
+                        content = f.read()
+
+                    # Update dateModified in schema
+                    updated_content = re.sub(
+                        r'"dateModified":\s*"[^"]*"',
+                        f'"dateModified": "{iso_now}"',
+                        content
+                    )
+
+                    # Only write if content changed
+                    if updated_content != content:
+                        with open(archive_file, 'w', encoding='utf-8') as f:
+                            f.write(updated_content)
+                        updates_made += 1
+                        print(f"  Updated freshness: {archive_file.name}")
+                except Exception as e:
+                    print(f"  Error updating {archive_file.name}: {e}")
+
+        if updates_made > 0:
+            print(f"Updated dateModified in {updates_made} recent archive(s)")
+        return updates_made
+
     def update_page(self):
         """Update the RSS feeds page with new content"""
         articles, summaries, stats = self.load_data()
@@ -967,15 +1039,18 @@ document.addEventListener('DOMContentLoaded', function() {{
         # Create daily archive
         self.create_archive(articles, summaries, stats)
 
+        # Update freshness signals in recent archives
+        self.update_recent_archives_freshness()
+
         # Write to file
         with open(self.page_path, 'w', encoding='utf-8') as f:
             f.write(content)
-        
+
         print(f"News page updated: {self.page_path}")
         print(f"  Latest (48h): {stats['latest_count']} articles")
         print(f"  This week (3-7d): {stats['week_count']} articles")
         print(f"  This month (8-35d): {stats.get('month_count', 0)} articles")
-        
+
         return stats
 
 if __name__ == '__main__':
