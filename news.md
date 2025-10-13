@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Zendesk news, from Deltastring"
+title: "Top Zendesk news today: AI can now solve most customer support problems, Zendesk says - Yahoo! Tech | Deltastring, the Zendesk experts"
 date: 2025-10-13
 background: grey
 ---
@@ -10,9 +10,9 @@ background: grey
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "Zendesk news, from Deltastring",
-  "datePublished": "2025-10-13T15:00:07+00:00",
-  "dateModified": "2025-10-13T15:00:07+00:00",
+  "headline": "Top Zendesk news today: AI can now solve most customer support problems, Zendesk says - Yahoo! Tech | Deltastring, the Zendesk experts",
+  "datePublished": "2025-10-13T16:00:04+00:00",
+  "dateModified": "2025-10-13T16:00:04+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -26,7 +26,7 @@ background: grey
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }
   },
-  "description": "Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.",
+  "description": "Latest: AI can now solve most customer support problems, Zendesk says - Yahoo! Tech",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"
@@ -38,9 +38,9 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center mb-2">Latest: AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 15:00 GMT, 13 October 2025
+            <i class="far fa-clock"></i> Last updated: 16:00 GMT, 13 October 2025
         </p>
     </div>
 </div>
@@ -72,13 +72,26 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">0 stories</span>
+        <span class="badge badge-primary ml-2">1 stories</span>
     </h2>
 
-        <div class="alert alert-light">
-            <i class="fas fa-info-circle text-muted"></i>
-            No new articles in the last 48 hours. Check back next hour for updates.
-        </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            💡 Resources & Learning
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
 
 </div>
 
@@ -87,7 +100,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">44 stories</span>
+        <span class="badge badge-info ml-2">43 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -122,7 +135,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 44 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 43 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -323,7 +336,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -364,7 +377,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">19</span>
+            <span class="badge badge-secondary ml-2">18</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -377,7 +390,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWXdIUjJSUFFTWl91MHpkU0lQak1mTWt3N3pRUUY4dWdNWVZDOHJibTJBbGl1Z3c0SlVSdjZkUWhwVmVXa3BOSGtXWXYzUm1NYVpHeHk2MmJmSkxXUFdNYlp3UGtSY2IteEFTeXhjM2VMVkZaZlBUUUlQaUMtMk5lUndlYTFFWlVHNWtDRHpVVW92cllZM3FhbnR3YmJWV1llOVNldEVFWE9teEQyTXZGRUxvTUZKZlZEdGo3SGpvUThBWDg?oc=5" class="text-dark">Zendesk Just Unveiled GPT‑5-Powered AI Agents That Handle Customers Without Human Help - inc.com</a>
+                <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWXdIUjJSUFFTWl91MHpkU0lQak1mTWt3N3pRUUY4dWdNWVZDOHJibTJBbGl1Z3c0SlVSdjZkUWhwVmVXa3BOSGtXWXYzUm1NYVpHeHk2MmJmSkxXUFdNYlp3UGtSY2IteEFTeXhjM2VMVkZaZlBUUUlQaUMtMk5lUndlYTFFWlVHNWtDRHpVVW92cllZM3FhbnR3YmJWV1llOVNldEVFWE9teEQyTXZGRUxvTUZKZlZEdGo3SGpvUThBWDg?oc=5" class="text-dark">Zendesk Just Unveiled GPT‑5-Powered AI Agents That Handle Customers Without Human Help - Inc.com</a>
                 
             </h6>
             <small class="text-muted">
@@ -393,7 +406,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -434,14 +447,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3Q0bzZuajZyR0ZmM0dCVHlYaUJtWFpUQWVBWnFWUUY4U3g4Sk0wMXJDazlYcnh1Y0w1UXQwQ0x1R3p1SHNZX3NjNEtMN0RyNG5ZdWI5TXM5djlnZjFKQWpGRW1XZGpCa0w2elkwY1BSZ1pPYUU5cFpOV1RGdkFkRnZyVmwxOWlwbEViX1E0bnU5NnRLZFY3M3lB0gGfAUFVX3lxTE93VjQzRHlaVE9hWHUweW15X1pvem52ZG04ZXFVaGx4UUs4OTc4NVpCVm54dXJFbG1QZW1ZNXQ2Z0Y0TGVhWTlmSVNCQmRsb2VFaTdZNjkwci1LUDlIQ0FMaVNONnJ0ZjJMYWloaEVtd0RkLTVSSmQ2Y3VmTDc0N3NWT3RocDVHNkpNZEFsT1NNMnJtSUczNEdXZVRGQXI0MA?oc=5" class="text-dark">Zendesk Reveals AI Innovations To Transform Customer And Employee Services - Pulse 2.0</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNZjlMaFhuVFRScVRubTdLRXZvUVgzU0J0RmNUZXhjUE85dXJEaXE1ejlHUW1icGhDZC1jTVllVGpnSTZJZFRJN2xxcW9Kekg2UERkVlFsaWl2dklqZG1TUWxOYkZQUWhCcWhiUm5NTkxBSEdEcllHc0FQWkR1eUtVY0VhZWNIWE5sdGtzRGR4NDV0RWxm?oc=5" class="text-dark">Zendesk launches AI-powered voice agents & analytics upgrades - telconews.com.au</a>
                 
             </h6>
             <small class="text-muted">
@@ -544,7 +549,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
