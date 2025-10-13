@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 13 October 2025 | Deltastring",
-  "datePublished": "2025-10-13T19:00:07+00:00",
-  "dateModified": "2025-10-13T19:00:07+00:00",
+  "datePublished": "2025-10-13T20:00:07+00:00",
+  "dateModified": "2025-10-13T20:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende...</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 19:00 GMT, 13 October 2025
+            <i class="far fa-clock"></i> Last updated: 20:00 GMT, 13 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Messaging-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 hours ago
+                        <i class="far fa-clock"></i> 4 hours ago
                     </small>
                 </div>
             </div>
@@ -423,7 +423,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16a3h1QWZmRmI0SjY3VGJ6UUJkdVJFcEFKZklvVUxjWXEzbzRSdC0tZTBTUkMxR1huM3pDWkFYSUhScE11NDFfdkIyTmRhTWY2Yjl1THRtWGJWZ9IBX0FVX3lxTE5rb0NWc0lDMnBtWmwxcklUSUZrTS01d19USEl3ZTZjYVRZcDJOTkpZbjAxVlB6VkFfUzhJUzlTQ1BrbTVlZ3ltdFdMLUc3YUEtbF9CRmlNQmFCc1VIaGNz?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - bbc.com</a>
+                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16a3h1QWZmRmI0SjY3VGJ6UUJkdVJFcEFKZklvVUxjWXEzbzRSdC0tZTBTUkMxR1huM3pDWkFYSUhScE11NDFfdkIyTmRhTWY2Yjl1THRtWGJWZ9IBX0FVX3lxTE5rb0NWc0lDMnBtWmwxcklUSUZrTS01d19USEl3ZTZjYVRZcDJOTkpZbjAxVlB6VkFfUzhJUzlTQ1BrbTVlZ3ltdFdMLUc3YUEtbF9CRmlNQmFCc1VIaGNz?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - BBC</a>
                 
             </h6>
             <small class="text-muted">
@@ -574,7 +574,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>20:00 (London)</strong><br>
+                    <strong>21:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
