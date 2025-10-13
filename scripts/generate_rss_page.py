@@ -483,18 +483,19 @@ class RSSPageGenerator:
             'month_count': get_deduplicated_count(articles.get('this_month', []), 'month')
         }
 
-        # Extract top story from latest articles
-        page_title = "Zendesk news, from Deltastring"
+        # Generate keyword-optimised title
+        # Use concise, target-keyword focused format that matches user search queries
+        page_title = f"Zendesk News Today - {now.strftime('%d %B %Y')} | Deltastring"
         top_story_summary = "Daily and weekly summaries of Zendesk ecosystem news, curated and analysed."
 
+        # Extract top story for meta description
         all_latest = articles.get('latest', articles.get('today', []))
         if all_latest:
-            # Get first non-release-notes article
+            # Get first non-release-notes article for summary
             for article in all_latest:
                 if 'Release notes through' not in article.get('title', ''):
                     top_story_title = article.get('title', 'Zendesk news')
-                    page_title = f"Top Zendesk news today: {top_story_title} | Deltastring, the Zendesk experts"
-                    # Create a concise summary from the title
+                    # Use top story in summary, not title
                     top_story_summary = f"Latest: {top_story_title}"
                     break
 
@@ -803,9 +804,10 @@ document.addEventListener('DOMContentLoaded', function() {{
             # Insert meta description in frontmatter
             lines.insert(frontmatter_end, f'description: "{meta_desc}"')
 
-            # Add canonical tag for old pages (older than 2 days)
+            # Add canonical tag for old pages (older than 7 days)
+            # Keep archives ranking for the first week to maintain search visibility
             canonical_tag = ''
-            if days_old > 2:
+            if days_old > 7:
                 canonical_tag = '<link rel="canonical" href="https://deltastring.com/news/" />\n'
 
             # Add archive notice (less prominent for recent pages)

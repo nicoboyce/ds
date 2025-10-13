@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Top Zendesk news today: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende... | Deltastring, the Zendesk experts"
+title: "Zendesk News Today - 13 October 2025 | Deltastring"
 date: 2025-10-13
 background: grey
 ---
@@ -10,9 +10,9 @@ background: grey
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "Top Zendesk news today: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende... | Deltastring, the Zendesk experts",
-  "datePublished": "2025-10-13T18:00:09+00:00",
-  "dateModified": "2025-10-13T18:00:09+00:00",
+  "headline": "Zendesk News Today - 13 October 2025 | Deltastring",
+  "datePublished": "2025-10-13T18:52:38+00:00",
+  "dateModified": "2025-10-13T18:52:38+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende...</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 18:00 GMT, 13 October 2025
+            <i class="far fa-clock"></i> Last updated: 18:52 GMT, 13 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Messaging-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -523,7 +523,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -574,7 +574,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:00 (London)</strong><br>
+                    <strong>19:52 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
