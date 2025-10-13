@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk news, from Deltastring",
-  "datePublished": "2025-10-13T01:00:08+00:00",
-  "dateModified": "2025-10-13T01:00:08+00:00",
+  "datePublished": "2025-10-13T02:00:06+00:00",
+  "dateModified": "2025-10-13T02:00:06+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -38,7 +38,10 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-4">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
+        <p class="text-muted text-center small mb-4">
+            <i class="far fa-clock"></i> Last updated: 02:00 GMT, 13 October 2025
+        </p>
     </div>
 </div>
 
@@ -84,7 +87,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">44 stories</span>
+        <span class="badge badge-info ml-2">46 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -120,7 +123,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 44 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 46 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -152,7 +155,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 days ago
+                <i class="far fa-clock"></i> 4 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -248,7 +251,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 days ago
+                <i class="far fa-clock"></i> 20 days ago
             </small>
         </article>        </div>
     </div>
@@ -362,12 +365,20 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">19</span>
+            <span class="badge badge-secondary ml-2">21</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkFHRjZXd2lkWnVzaE9GWVp2TU1BczlheXBuU25RQlVtTGo0dEVKOERpUllTbEE4SGJrV1JtU0syci1ZMGNqQndibFVpZkdQVVMybU9BNC1HOFA3ZGFUVGNkakhxZmM1dFFLZ2QyRjM4TGw0TVlSWUR0U3RWUlQ0TDl2NVM3SzM3dVpOeUFpUi1EUC15T2JPZ0g1djZvMVNqNXZtY2lyWklvcFpkMWV5bHpxNjd6cVJY?oc=5" class="text-dark">Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ2xDZUxiNjJpbTU2bFpKX1B4Wk40VUJoSXE2ekI1eVBIT0RCSVVjYnd2WU51eXJHekxNdE16Q0FhX2U3cDhWMWx0ZFF4OWN5M1BsRjBxSXY5X25BdmlTUzYyT1BaOHlUUzRua3F3d2JUOTNsd25iOFlaSF9oWWl4eUxxQXVDQUFCVlRIeDVMQXhmcVNwdmdlZnNtOXlDM3JFU2RCU0NR?oc=5" class="text-dark">Zendesk unveils AI advancements including autonomous Voice AI Agents - Mi-3.com.au.</a>
                 
             </h6>
             <small class="text-muted">
@@ -448,6 +459,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40NnhiVHpWNTVnV21IZHFzVTRnTE1WTmsxNzRXQnloc3JYU0V3bFFnZzhQYWxsTFZTRjlsUDhMdzVJaXc3NkhxUmxSWlEzdmh0MWNlUWEtLUJlVkpEUlJCODBjdjdhcTA?oc=5" class="text-dark">Zendesk Launches AI Autonomous Agent, Customer Service Industry to be Completely Disrupted - Binance</a>
                 
             </h6>
             <small class="text-muted">
@@ -542,7 +561,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>02:00 (London)</strong><br>
+                    <strong>03:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
