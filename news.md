@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk news, from Deltastring",
-  "datePublished": "2025-10-13T09:00:10+00:00",
-  "dateModified": "2025-10-13T09:00:10+00:00",
+  "datePublished": "2025-10-13T10:00:07+00:00",
+  "dateModified": "2025-10-13T10:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 09:00 GMT, 13 October 2025
+            <i class="far fa-clock"></i> Last updated: 10:00 GMT, 13 October 2025
         </p>
     </div>
 </div>
@@ -87,7 +87,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">46 stories</span>
+        <span class="badge badge-info ml-2">45 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -123,7 +123,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 46 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 45 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -235,7 +235,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -316,7 +316,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -373,7 +373,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">20</span>
+            <span class="badge badge-secondary ml-2">19</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -410,7 +410,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -459,14 +459,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40NnhiVHpWNTVnV21IZHFzVTRnTE1WTmsxNzRXQnloc3JYU0V3bFFnZzhQYWxsTFZTRjlsUDhMdzVJaXc3NkhxUmxSWlEzdmh0MWNlUWEtLUJlVkpEUlJCODBjdjdhcTA?oc=5" class="text-dark">Zendesk Launches AI Autonomous Agent, Customer Service Industry to be Completely Disrupted - Binance</a>
                 
             </h6>
             <small class="text-muted">
@@ -561,7 +553,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>10:00 (London)</strong><br>
+                    <strong>11:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
