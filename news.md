@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 13 October 2025 | Deltastring",
-  "datePublished": "2025-10-13T18:52:38+00:00",
-  "dateModified": "2025-10-13T18:52:38+00:00",
+  "datePublished": "2025-10-13T19:00:07+00:00",
+  "dateModified": "2025-10-13T19:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende...</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 18:52 GMT, 13 October 2025
+            <i class="far fa-clock"></i> Last updated: 19:00 GMT, 13 October 2025
         </p>
     </div>
 </div>
@@ -574,7 +574,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:52 (London)</strong><br>
+                    <strong>20:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
