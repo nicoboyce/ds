@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T12:00:16+00:00",
-  "dateModified": "2025-10-14T12:00:16+00:00",
+  "datePublished": "2025-10-14T13:00:08+00:00",
+  "dateModified": "2025-10-14T13:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Updates to Agent Copilot summaries in Zendesk</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 13:00 GMT, 14 October 2025
         </p>
     </div>
 </div>
@@ -72,7 +72,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">2 stories</span>
+        <span class="badge badge-primary ml-2">3 stories</span>
     </h2>
 
 
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 11 hours ago
+                        <i class="far fa-clock"></i> 12 hours ago
                     </small>
                 </div>
             </div>
@@ -110,6 +110,23 @@ background: grey
             <h6 class="item-title">
                 <a href="https://internalnote.com/updates-to-agent-copilot-summaries-in-zendesk/" class="text-dark">Updates to Agent Copilot summaries in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            💡 Resources & Learning
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</a>
+                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -534,7 +551,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
