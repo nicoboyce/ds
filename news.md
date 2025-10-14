@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T06:00:08+00:00",
-  "dateModified": "2025-10-14T06:00:08+00:00",
+  "datePublished": "2025-10-14T07:00:06+00:00",
+  "dateModified": "2025-10-14T07:00:06+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 06:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 07:00 GMT, 14 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -447,7 +447,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
+                <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3Q0bzZuajZyR0ZmM0dCVHlYaUJtWFpUQWVBWnFWUUY4U3g4Sk0wMXJDazlYcnh1Y0w1UXQwQ0x1R3p1SHNZX3NjNEtMN0RyNG5ZdWI5TXM5djlnZjFKQWpGRW1XZGpCa0w2elkwY1BSZ1pPYUU5cFpOV1RGdkFkRnZyVmwxOWlwbEViX1E0bnU5NnRLZFY3M3lB0gGfAUFVX3lxTE93VjQzRHlaVE9hWHUweW15X1pvem52ZG04ZXFVaGx4UUs4OTc4NVpCVm54dXJFbG1QZW1ZNXQ2Z0Y0TGVhWTlmSVNCQmRsb2VFaTdZNjkwci1LUDlIQ0FMaVNONnJ0ZjJMYWloaEVtd0RkLTVSSmQ2Y3VmTDc0N3NWT3RocDVHNkpNZEFsT1NNMnJtSUczNEdXZVRGQXI0MA?oc=5" class="text-dark">Zendesk Reveals AI Innovations To Transform Customer And Employee Services - Pulse 2.0</a>
                 
             </h6>
             <small class="text-muted">
@@ -455,7 +455,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40NnhiVHpWNTVnV21IZHFzVTRnTE1WTmsxNzRXQnloc3JYU0V3bFFnZzhQYWxsTFZTRjlsUDhMdzVJaXc3NkhxUmxSWlEzdmh0MWNlUWEtLUJlVkpEUlJCODBjdjdhcTA?oc=5" class="text-dark">Zendesk Launches AI Autonomous Agent, Customer Service Industry to be Completely Disrupted - Binance</a>
+                <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0g2U3RKQjFYcXpGT0l1LTRWVS10ZUJjejV0ZDJqS29DeDh2c1Y1ay13YUlFVU5NMkU5VC00SlNVZ1hTSktKbkpVQnc5TWhoaFhTTFRLV0tTYkh0SWs1QWVUdk50OWJNTmJmX0xXd21fRmROMW9yYkRwR0lic1ByeTlaX1ZyZ2pYNDVzaUt0cHdjMWFQRjd3U0pETlZMUUU?oc=5" class="text-dark">Zendesk introduces new AI automation features for contact centers - SiliconANGLE</a>
                 
             </h6>
             <small class="text-muted">
@@ -550,7 +550,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>07:00 (London)</strong><br>
+                    <strong>08:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
