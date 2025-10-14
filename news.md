@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T03:00:07+00:00",
-  "dateModified": "2025-10-14T03:00:07+00:00",
+  "datePublished": "2025-10-14T04:00:08+00:00",
+  "dateModified": "2025-10-14T04:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -26,7 +26,7 @@ background: grey
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }
   },
-  "description": "Latest: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende...",
+  "description": "Latest: Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"
@@ -38,9 +38,9 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende...</p>
+        <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 03:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 04:00 GMT, 14 October 2025
         </p>
     </div>
 </div>
@@ -86,14 +86,14 @@ background: grey
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Messaging-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk" class="text-dark">Service Incident - October 13, 2025 - Multiple pods | Messaging - Inbound emails via Gmail connector not being received in Zende...</a>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk" class="text-dark">Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</a>
                         <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Messaging-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
+                        https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 10 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -415,7 +415,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -550,7 +550,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>04:00 (London)</strong><br>
+                    <strong>05:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
