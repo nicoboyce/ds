@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T21:00:08+00:00",
-  "dateModified": "2025-10-14T21:00:08+00:00",
+  "datePublished": "2025-10-14T22:00:05+00:00",
+  "dateModified": "2025-10-14T22:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -26,7 +26,7 @@ background: grey
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }
   },
-  "description": "Latest: Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire",
+  "description": "Latest: Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - WV News",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"
@@ -38,9 +38,9 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-2">Latest: Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</p>
+        <p class="text-muted text-center mb-2">Latest: Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - WV News</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 21:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 22:00 GMT, 14 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 20 hours ago
+                        <i class="far fa-clock"></i> 21 hours ago
                     </small>
                 </div>
             </div>
@@ -125,7 +125,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
+                <a href="https://news.google.com/rss/articles/CBMi8AJBVV95cUxPWHd3dEdQVWl5cWIzaGxJNHVSZXNwZkxyOHhEb0dYYmxmWUF6QmphUl9kSWVGRVdSOTVlMGFWSTB5a041clF4djFyNWxEWmRNXzFiRkM1REhxMHAwRnR3TEplTW91R01FVG50ai1SVFJlNGhoeDQtTTJfa1pwTjE5TllXRXJmdGQ3NDFVUXdtZFdzdXNFZm0wSFJhZDluOENmbENTVTQ2TEVtWTZDRXRfV3l4WUJhYk1jOWJxMXdPYkYzSUtaOXpzWUNFNVYxaWVqVFBvcFVrdmtYcWVkQWdXNDQzeVlPTF9Jb2ZJdW5kZk5aamxfelNfUjRBb2Y2cG90UUZ4ME5xX280eHFoejN0M25BSGFKTG0zd0tPM2QzQUVBWGE0NnN3T1B5bVR0c0djdzF6Z1JqeW1VQWc3WDR1UFVaaDN4eTZIQnBaOXdvWl9GLTVyWmpVTS1zaGxOZmg5blMyY1B1ZlpZTWRPbjhiSA?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - WV News</a>
                 
             </h6>
             <small class="text-muted">
@@ -297,7 +297,7 @@ background: grey
                 <span class="source-badge">Zendesk What's New</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 days ago
+                <i class="far fa-clock"></i> 19 days ago
             </small>
         </article>        </div>
     </div>
@@ -314,7 +314,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -448,7 +448,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -575,7 +575,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>22:00 (London)</strong><br>
+                    <strong>23:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
