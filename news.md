@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T22:00:05+00:00",
-  "dateModified": "2025-10-14T22:00:05+00:00",
+  "datePublished": "2025-10-14T23:00:07+00:00",
+  "dateModified": "2025-10-14T23:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -26,7 +26,7 @@ background: grey
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }
   },
-  "description": "Latest: Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - WV News",
+  "description": "Latest: Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"
@@ -38,9 +38,9 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-2">Latest: Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - WV News</p>
+        <p class="text-muted text-center mb-2">Latest: Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 22:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 23:00 GMT, 14 October 2025
         </p>
     </div>
 </div>
@@ -72,31 +72,39 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">5 stories</span>
+        <span class="badge badge-primary ml-2">7 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">1</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk" class="text-dark">Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</a>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays" class="text-dark">Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays</a>
                         <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
+                        https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 21 hours ago
+                        <i class="far fa-clock"></i> 2 hours ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk" class="text-dark">Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 22 hours ago
+            </small>
         </article>        </div>
     </div>
 
@@ -119,13 +127,30 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
+            🔧 Operations & Maintenance
+            <span class="badge badge-secondary ml-2">1</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9752260731546-Scheduled-Maintenance-Oct-15-Nov-8-2025-All-Pods-Support-Guide-Talk-Database-upgrade" class="text-dark">Scheduled Maintenance - Oct 15 ~ Nov 8, 2025 | All Pods | Support, Guide & Talk - Database upgrade</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 hours ago
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
             💡 Resources & Learning
             <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi8AJBVV95cUxPWHd3dEdQVWl5cWIzaGxJNHVSZXNwZkxyOHhEb0dYYmxmWUF6QmphUl9kSWVGRVdSOTVlMGFWSTB5a041clF4djFyNWxEWmRNXzFiRkM1REhxMHAwRnR3TEplTW91R01FVG50ai1SVFJlNGhoeDQtTTJfa1pwTjE5TllXRXJmdGQ3NDFVUXdtZFdzdXNFZm0wSFJhZDluOENmbENTVTQ2TEVtWTZDRXRfV3l4WUJhYk1jOWJxMXdPYkYzSUtaOXpzWUNFNVYxaWVqVFBvcFVrdmtYcWVkQWdXNDQzeVlPTF9Jb2ZJdW5kZk5aamxfelNfUjRBb2Y2cG90UUZ4ME5xX280eHFoejN0M25BSGFKTG0zd0tPM2QzQUVBWGE0NnN3T1B5bVR0c0djdzF6Z1JqeW1VQWc3WDR1UFVaaDN4eTZIQnBaOXdvWl9GLTVyWmpVTS1zaGxOZmg5blMyY1B1ZlpZTWRPbjhiSA?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - WV News</a>
+                <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ21yXzQ5WXFxazJkWExxa1VCWVN3SEZpOHBpbVlMblRNRjRVNkhpOHVuU1dNem0wVmRLM3RMemRqd1dDZF9tanhHTmdpbGVkWk1VTF9rX1RqQnFuQm9XTVRiaVcyaU5CaG14SURfV05SR08zVnhmb21Qekk2SUZZUnp3c2lTMWphakl2MmRKZG9pWnRXMVpXdXNoRXF2aUcxUnY1dnp2MFJWNG12VmZleV9aT08?oc=5" class="text-dark">Zight Enhances Support Workflows With Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - 富途牛牛</a>
                 
             </h6>
             <small class="text-muted">
@@ -201,7 +226,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -299,6 +324,14 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 19 days ago
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update" class="text-dark">Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 21 days ago
+            </small>
         </article>        </div>
     </div>
 
@@ -387,23 +420,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 20 days ago
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            🔧 Operations & Maintenance
-            <span class="badge badge-secondary ml-2">1</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9752260731546-Scheduled-Maintenance-Oct-15-Nov-8-2025-All-Pods-Support-Guide-Talk-Database-upgrade" class="text-dark">Scheduled Maintenance - Oct 15 ~ Nov 8, 2025 | All Pods | Support, Guide & Talk - Database upgrade</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        </div>
     </div>
@@ -575,7 +591,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
