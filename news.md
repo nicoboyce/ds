@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Zendesk News Today - 14 October 2025 | Deltastring"
-date: 2025-10-14
+title: "Zendesk News Today - 15 October 2025 | Deltastring"
+date: 2025-10-15
 background: grey
 ---
 
@@ -10,9 +10,9 @@ background: grey
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T23:00:07+00:00",
-  "dateModified": "2025-10-14T23:00:07+00:00",
+  "headline": "Zendesk News Today - 15 October 2025 | Deltastring",
+  "datePublished": "2025-10-15T00:00:06+00:00",
+  "dateModified": "2025-10-15T00:00:06+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 23:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 00:00 GMT, 15 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 hours ago
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        </div>
     </div>
@@ -137,7 +137,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 hours ago
+                <i class="far fa-clock"></i> 3 hours ago
             </small>
         </article>        </div>
     </div>
@@ -182,7 +182,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">39 stories</span>
+        <span class="badge badge-info ml-2">37 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -194,9 +194,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk" class="text-dark" target="_blank">Service Incident - October 10th, 2025 - Zendesk Talk</a></h6>
+                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9819969387802-Release-notes-through-2025-10-10" class="text-dark" target="_blank">Release notes through 2025-10-10</a></h6>
                 <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
-                <small class="text-muted">Zendesk Service Notifications • 4 days ago</small>
+                <small class="text-muted">Zendesk Release Notes • 2 days ago</small>
             
             </div>
         </div>
@@ -218,7 +218,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 39 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 37 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -226,7 +226,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -324,14 +324,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 19 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update" class="text-dark">Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -427,7 +419,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">17</span>
+            <span class="badge badge-secondary ml-2">16</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -548,19 +540,11 @@ background: grey
                 <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://internalnote.com/generative-email-replies/" class="text-dark">Generative email replies with AI Agent Essentials in Zendesk</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/moving-from-manual-ticket-categorization-to-ai-powered-intent-detection-in-zendesk/" class="text-dark">Moving from manual ticket categorization to AI-powered intent detection in Zendesk</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
             <small class="text-muted">
@@ -587,11 +571,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>14/10/2025</strong><br>
+                    <strong>15/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
