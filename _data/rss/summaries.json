@@ -1,22 +1,22 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern that administrators need to understand is the increasing reliance on AI-powered capabilities within the Zendesk ecosystem, coupled with the potential for security and stability issues arising from external factors.\n\nThis means that Zendesk administrators must carefully evaluate the impact of AI-driven features on their core support infrastructure, while also maintaining vigilance against potential security threats and service disruptions that may originate from third-party integrations or external events beyond their control.",
+  "recently_narrative": "The most significant operational pattern that administrators need to understand is the increasing reliance on AI-powered automation within the Zendesk ecosystem, coupled with the potential for instability and security risks associated with these new capabilities.\n\nZendesk administrators should closely monitor the rollout and performance of AI-driven features, thoroughly test them in non-production environments, and have robust incident response and disaster recovery plans in place to mitigate the impact of any service disruptions or data breaches that may arise from the integration of these advanced technologies.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-13T18:00:09.271525",
+  "generated_at": "2025-10-14T06:00:07.056167",
   "release_notes": {
-    "summary": "Copilot released custom fields in entities. Copilot also released ticket summaries in reporting, views, as placeholders, and via the API.",
+    "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {
-      "id": "09391c28572e",
-      "title": "Release notes through 2025-10-03",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9793799570842-Release-notes-through-2025-10-03",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nApp Marketplace\nZendesk Workforce Management (WFM)\nProducts with no updates this week\nCopilotNew:\nReleased custom fields in entities.\nReleased ticket summaries in reporting, views, as placeh...",
-      "pub_date": "Sun, 05 Oct 2025 19:57:13 +0000",
+      "id": "2eea867a2eae",
+      "title": "Release notes through 2025-10-10",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9819969387802-Release-notes-through-2025-10-10",
+      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nVoice\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve enhanced the Copilot ticket summarization feature. You can now include both public replies and internal notes from a...",
+      "pub_date": "Sun, 12 Oct 2025 18:30:33 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-07T06:00:03.338219"
+      "fetched_at": "2025-10-14T06:00:03.685092"
     },
-    "generated_at": "2025-10-07T06:00:08.429462"
+    "generated_at": "2025-10-14T06:00:08.487892"
   }
 }
