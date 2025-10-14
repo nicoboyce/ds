@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 14 October 2025 | Deltastring",
-  "datePublished": "2025-10-14T11:00:07+00:00",
-  "dateModified": "2025-10-14T11:00:07+00:00",
+  "datePublished": "2025-10-14T12:00:16+00:00",
+  "dateModified": "2025-10-14T12:00:16+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Updates to Agent Copilot summaries in Zendesk</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 14 October 2025
+            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 14 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 10 hours ago
+                        <i class="far fa-clock"></i> 11 hours ago
                     </small>
                 </div>
             </div>
@@ -151,8 +151,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern that administrators need to understand is the increasing reliance on AI-powered automation within the Zendesk ecosystem, coupled with the potential for instability and security risks associated with these new capabilities.</p>
-            <p>Zendesk administrators should closely monitor the rollout and performance of AI-driven features, thoroughly test them in non-production environments, and have robust incident response and disaster recovery plans in place to mitigate the impact of any service disruptions or data breaches that may arise from the integration of these advanced technologies.</p>
+            <p>The most significant operational pattern that Zendesk administrators need to understand is the increasing reliance on AI-powered capabilities to handle customer support, as evidenced by the multiple announcements of Zendesk's new AI agent that can resolve up to 80% of support issues. This shift towards AI-driven automation means that administrators will need to carefully monitor the performance and stability of these AI systems, as well as ensure that they are properly integrated and configured to maintain a seamless customer experience.</p>
+            <p>Additionally, the series of service incidents and security breaches, particularly the Discord breach that exposed user data, highlights the need for Zendesk administrators to prioritize system reliability, data security, and incident response planning to mitigate the impact of such disruptions on their operations and customer trust.</p>
         </div>
     </div>
     
@@ -534,7 +534,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
