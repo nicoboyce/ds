@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Zendesk News Today - 15 October 2025 | Deltastring"
-date: 2025-10-15
+title: "Zendesk News Today - 16 October 2025 | Deltastring"
+date: 2025-10-16
 background: grey
 ---
 
@@ -10,9 +10,9 @@ background: grey
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "Zendesk News Today - 15 October 2025 | Deltastring",
-  "datePublished": "2025-10-15T23:00:09+00:00",
-  "dateModified": "2025-10-15T23:00:09+00:00",
+  "headline": "Zendesk News Today - 16 October 2025 | Deltastring",
+  "datePublished": "2025-10-16T00:00:04+00:00",
+  "dateModified": "2025-10-16T00:00:04+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Announcing a Unified Location for Service Incident Information</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 23:00 GMT, 15 October 2025
+            <i class="far fa-clock"></i> Last updated: 00:00 GMT, 16 October 2025
         </p>
     </div>
 </div>
@@ -72,7 +72,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">14 stories</span>
+        <span class="badge badge-primary ml-2">10 stories</span>
     </h2>
 
 
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 hours ago
+                <i class="far fa-clock"></i> 7 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -119,7 +119,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span> <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 16 hours ago
+                <i class="far fa-clock"></i> 17 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -135,7 +135,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -154,22 +154,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9823495512090-Announcing-the-hide-composer-feature-for-Zendesk-Messaging" class="text-dark">Announcing the hide composer feature for Zendesk Messaging</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9822922215322-Announcing-WFM-bulk-user-management-for-workstreams" class="text-dark">Announcing WFM bulk user management for workstreams</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -185,7 +169,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 hours ago
+                <i class="far fa-clock"></i> 9 hours ago
             </small>
         </article>        </div>
     </div>
@@ -193,7 +177,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -212,22 +196,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hYWhleUV3MFdXeVVzYW5LNGdYdHlYSHA2RnNkN0ZKNW5HR2JLOHpmUTgwd1UySWNUSk1qTmNfbzNIWkFTWlVJS3JzTTVKZlZxaWJPaTRvYw?oc=5" class="text-dark">Zendesk Statistics 2025: Power Moves in CX Growth - SQMagazine</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -238,7 +206,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">36 stories</span>
+        <span class="badge badge-info ml-2">31 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -250,9 +218,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9819969387802-Release-notes-through-2025-10-10" class="text-dark" target="_blank">Release notes through 2025-10-10</a></h6>
+                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9823495512090-Announcing-the-hide-composer-feature-for-Zendesk-Messaging" class="text-dark" target="_blank">Announcing the hide composer feature for Zendesk Messaging</a></h6>
                 <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
-                <small class="text-muted">Zendesk Release Notes • 3 days ago</small>
+                <small class="text-muted">Zendesk Announcements • 2 days ago</small>
             
             </div>
         </div>
@@ -273,7 +241,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 36 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -281,7 +249,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -371,30 +339,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 12 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9757314230682-What-s-new-in-Zendesk-October-2025" class="text-dark">What's new in Zendesk: October 2025</a>
-                <span class="source-badge">Zendesk What's New</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update" class="text-dark">Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 22 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9663101755802-Service-Incident-September-01-2025-Customers-in-Spain-are-unable-to-access-Zendesk-custom-apps-and-ticket-attachments-due-to-ISP-level-blocking" class="text-dark">Service Incident - September 01, 2025 -  Customers in Spain are unable to access Zendesk custom apps and ticket attachments due ...</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 22 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -405,6 +349,22 @@ background: grey
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9823495512090-Announcing-the-hide-composer-feature-for-Zendesk-Messaging" class="text-dark">Announcing the hide composer feature for Zendesk Messaging</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9822922215322-Announcing-WFM-bulk-user-management-for-workstreams" class="text-dark">Announcing WFM bulk user management for workstreams</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9812669617306-Announcing-the-ability-to-rotate-automatic-shifts-in-WFM" class="text-dark">Announcing the ability to rotate automatic shifts in WFM</a>
                 <span class="source-badge">Zendesk Announcements</span>
@@ -452,32 +412,32 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 14 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9769997300634-Announcing-the-move-of-Google-Calendar-integration-for-WFM-to-the-Admin-Center" class="text-dark">Announcing the move of Google Calendar integration for WFM to the Admin Center</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 16 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9752147521818-Announcing-real-time-AI-suggestions-for-Voice-with-Copilot" class="text-dark">Announcing real-time AI suggestions for Voice with Copilot</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 21 days ago
-            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">15</span>
+            <span class="badge badge-secondary ml-2">13</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hYWhleUV3MFdXeVVzYW5LNGdYdHlYSHA2RnNkN0ZKNW5HR2JLOHpmUTgwd1UySWNUSk1qTmNfbzNIWkFTWlVJS3JzTTVKZlZxaWJPaTRvYw?oc=5" class="text-dark">Zendesk Statistics 2025: Power Moves in CX Growth - SQMagazine</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkFHRjZXd2lkWnVzaE9GWVp2TU1BczlheXBuU25RQlVtTGo0dEVKOERpUllTbEE4SGJrV1JtU0syci1ZMGNqQndibFVpZkdQVVMybU9BNC1HOFA3ZGFUVGNkakhxZmM1dFFLZ2QyRjM4TGw0TVlSWUR0U3RWUlQ0TDl2NVM3SzM3dVpOeUFpUi1EUC15T2JPZ0g1djZvMVNqNXZtY2lyWklvcFpkMWV5bHpxNjd6cVJY?oc=5" class="text-dark">Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</a>
                 
@@ -495,7 +455,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -505,14 +465,6 @@ background: grey
             <h6 class="item-title">
                 <a href="https://internalnote.com/zendesk-ai-summit-2025/" class="text-dark">What's new from the Zendesk AI Summit 2025</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQWXlVc2hZdWJBTjVBYnZZQUFOUUpzZHZ5czI0cUFRWGx6MllWSmFib1JTbF9aME5DR19GeXRQdU9RSlJzT3RBVlZLS3NPcHFnWVBFdm9iMGg4bmcwOTJEeDF2S295THZJbFZfdWhvU0ZvcVRTZHMzVm4yOXZ1OGtmb09fTlpoQWl0V1ExT0ZHOHNBb0wyNTIxMUFkanlrdjdlc1E?oc=5" class="text-dark">Zendesk Unveils AI That Handles 80% of Customer Problems Alone - Technology Org</a>
-                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -573,30 +525,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 14 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://www.zendesk.com/newsroom/press-releases/zendesks-global-impact-report-highlights-ai-support-for-nonprofits-environmental-sustainability-and-workplace-belonging/" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging</a>
-                <span class="source-badge">Zendesk Press Releases</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/generative-email-replies/" class="text-dark">Generative email replies with AI Agent Essentials in Zendesk</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/moving-from-manual-ticket-categorization-to-ai-powered-intent-detection-in-zendesk/" class="text-dark">Moving from manual ticket categorization to AI-powered intent detection in Zendesk</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -618,11 +546,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15/10/2025</strong><br>
+                    <strong>16/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
