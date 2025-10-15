@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the recurring service incidents and security breaches affecting Zendesk's core products and integrations. This indicates that Zendesk administrators need to prioritize system stability, security, and incident response planning to ensure reliable service delivery and protect customer data, even as the company pursues ambitious AI and automation initiatives.",
+  "recently_narrative": "The most significant operational pattern observed is the recurring service incidents and security breaches affecting Zendesk's core products, particularly Zendesk Talk, Workforce Management, and the Analytics platform. This indicates that Zendesk administrators need to prioritize proactive monitoring, rigorous testing of new features and integrations, and robust incident response planning to ensure the stability and security of the Zendesk ecosystem for their organizations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-15T12:00:08.506207",
+  "generated_at": "2025-10-15T18:00:08.656500",
   "release_notes": {
     "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {
