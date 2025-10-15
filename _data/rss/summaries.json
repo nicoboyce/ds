@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The most significant operational pattern that administrators need to understand is the increasing reliance on AI-powered automation within the Zendesk ecosystem, which is causing stability issues and service disruptions across multiple product areas.\n\n2. Zendesk administrators should carefully monitor the rollout and performance of AI-driven features, thoroughly test them in non-production environments, and be prepared to quickly troubleshoot and mitigate any resulting service incidents that may arise from the integration of these new AI capabilities.",
+  "recently_narrative": "The most significant operational pattern observed across these article titles is the recurring service incidents and system failures affecting Zendesk's core products, particularly Zendesk Talk, Workforce Management, and Explore. This suggests that Zendesk administrators need to closely monitor the stability and performance of these critical components, prioritize proactive maintenance and testing, and have robust incident response and communication plans in place to minimize disruptions to customer service operations.\n\nAdditionally, the titles indicate that Zendesk is aggressively expanding its AI capabilities, which may be contributing to the observed stability issues. Administrators should carefully evaluate the impact of these AI features on their Zendesk ecosystem, ensure thorough testing and gradual rollouts, and maintain close collaboration with Zendesk's support team to address any emerging challenges.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-14T18:00:09.871878",
+  "generated_at": "2025-10-15T06:00:08.594568",
   "release_notes": {
     "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {
