@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 15 October 2025 | Deltastring",
-  "datePublished": "2025-10-15T16:00:14+00:00",
-  "dateModified": "2025-10-15T16:00:14+00:00",
+  "datePublished": "2025-10-15T17:00:12+00:00",
+  "dateModified": "2025-10-15T17:00:12+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Scheduled Maintenance - Oct 15 ~ Nov 8, 2025 | All Pods | Support, Guide, Contact Center & Talk - Database upgrade</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 16:00 GMT, 15 October 2025
+            <i class="far fa-clock"></i> Last updated: 17:00 GMT, 15 October 2025
         </p>
     </div>
 </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span> <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 hours ago
+                <i class="far fa-clock"></i> 10 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -111,7 +111,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 hours ago
+                <i class="far fa-clock"></i> 20 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -161,7 +161,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 1 hour ago
+                <i class="far fa-clock"></i> 2 hours ago
             </small>
         </article>        </div>
     </div>
@@ -313,7 +313,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 6 days ago
+                <i class="far fa-clock"></i> 7 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -410,7 +410,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -418,7 +418,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 13 days ago
+                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -434,7 +434,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 days ago
+                <i class="far fa-clock"></i> 21 days ago
             </small>
         </article>        </div>
     </div>
@@ -590,7 +590,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>17:00 (London)</strong><br>
+                    <strong>18:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
