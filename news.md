@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 16 October 2025 | Deltastring",
-  "datePublished": "2025-10-16T02:00:19+00:00",
-  "dateModified": "2025-10-16T02:00:19+00:00",
+  "datePublished": "2025-10-16T03:00:05+00:00",
+  "dateModified": "2025-10-16T03:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -26,7 +26,7 @@ background: grey
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }
   },
-  "description": "Latest: Announcing a Unified Location for Service Incident Information",
+  "description": "Latest: Advisory: Increase in relay spam from Zendesk accounts",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"
@@ -38,9 +38,9 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-2">Latest: Announcing a Unified Location for Service Incident Information</p>
+        <p class="text-muted text-center mb-2">Latest: Advisory: Increase in relay spam from Zendesk accounts</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 02:00 GMT, 16 October 2025
+            <i class="far fa-clock"></i> Last updated: 03:00 GMT, 16 October 2025
         </p>
     </div>
 </div>
@@ -72,7 +72,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">10 stories</span>
+        <span class="badge badge-primary ml-2">11 stories</span>
     </h2>
 
 
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 8 hours ago
+                        <i class="far fa-clock"></i> 9 hours ago
                     </small>
                 </div>
             </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 hours ago
+                <i class="far fa-clock"></i> 10 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -119,7 +119,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span> <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 hours ago
+                <i class="far fa-clock"></i> 20 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -169,7 +169,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 hours ago
+                <i class="far fa-clock"></i> 12 hours ago
             </small>
         </article>        </div>
     </div>
@@ -177,10 +177,18 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9833274501786-Advisory-Increase-in-relay-spam-from-Zendesk-accounts" class="text-dark">Advisory: Increase in relay spam from Zendesk accounts</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 3 hours ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE8yVlBWd1c2ZXpOb19BeHZjU1FUaEZMaDMybmtNNGxqVTRjQXFCOWI3cU1ZM05JN0lpOXFYNmZvVVZ2MTV5VDdIdFI4OVlyUTYxVjBVQjktZkc1U2o1VjFuN1h2QWhPVkxlMkFUWDlRUEdqZjFsV0k3NQ?oc=5" class="text-dark">Many users baffled by surprise support ticket email from help@gotinder - PiunikaWeb</a>
                 
@@ -519,11 +527,11 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9779436462618-WhatsApp-to-transfer-the-ownership-of-WhatsApp-Business-Accounts-WABAs-to-all-customers" class="text-dark">WhatsApp to transfer the ownership of WhatsApp Business Accounts (WABAs) to all customers</a>
-                <span class="source-badge">Zendesk Announcements</span>
+                <a href="https://www.zendesk.com/newsroom/press-releases/zendesks-global-impact-report-highlights-ai-support-for-nonprofits-environmental-sustainability-and-workplace-belonging/" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging</a>
+                <span class="source-badge">Zendesk Press Releases</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
+                <i class="far fa-clock"></i> 15 days ago
             </small>
         </article>        </div>
     </div>
@@ -550,7 +558,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>03:00 (London)</strong><br>
+                    <strong>04:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
