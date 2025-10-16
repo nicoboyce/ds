@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 16 October 2025 | Deltastring",
-  "datePublished": "2025-10-16T11:00:07+00:00",
-  "dateModified": "2025-10-16T11:00:07+00:00",
+  "datePublished": "2025-10-16T12:00:07+00:00",
+  "dateModified": "2025-10-16T12:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Advisory: Increase in relay spam from Zendesk accounts</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 16 October 2025
+            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 16 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 17 hours ago
+                        <i class="far fa-clock"></i> 18 hours ago
                     </small>
                 </div>
             </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 hours ago
+                <i class="far fa-clock"></i> 19 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -169,7 +169,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 hours ago
+                <i class="far fa-clock"></i> 21 hours ago
             </small>
         </article>        </div>
     </div>
@@ -186,7 +186,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 hours ago
+                <i class="far fa-clock"></i> 12 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -214,7 +214,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">31 stories</span>
+        <span class="badge badge-info ml-2">30 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -241,7 +241,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the recurring service incidents and security breaches affecting Zendesk's core products and infrastructure. This indicates that Zendesk administrators need to prioritize system stability, security, and incident response planning to ensure reliable service delivery and protect customer data, even as the company pursues ambitious AI and automation initiatives.</p>
+            <p>1. The most significant operational pattern observed across these article titles is the rapid expansion of Zendesk's AI capabilities, particularly in the areas of customer support and workforce management, coinciding with multiple service incidents and security breaches.</p>
+            <p>2. This suggests that Zendesk administrators need to carefully monitor the rollout and integration of these new AI features, ensuring thorough testing and validation before deployment to production environments, while also prioritizing robust security measures to mitigate the risk of data breaches and service disruptions.</p>
         </div>
     </div>
     
@@ -249,7 +250,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -345,7 +346,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -412,14 +413,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 14 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9779008181018-Announcing-IP-restrictions-support-for-Zendesk-Messaging" class="text-dark">Announcing IP restrictions support for Zendesk Messaging</a>
-                <span class="source-badge">Zendesk Announcements</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
-            </small>
         </article>        </div>
     </div>
 
@@ -456,14 +449,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPMW5EaE1IdmVOV1pKb2cySkhTSjBuNHZKdzEtUUktNDlZaDRSRmpSWE43NUdmZ01RaXVNMzFpWmp1d0U5Zlp2UWxub2ZqbUpLMWNwWktoVkRYX0QwU0syWWJJdzIxb3JqaXpPcXFtT1o2Zm5jc1NUcXFjVjd2M1VMUTl3amdvdmtBWVBDdDBn?oc=5" class="text-dark">The Latest BIG News from Salesforce, Zendesk, SAP & Qualtrics - CX Today</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16a3h1QWZmRmI0SjY3VGJ6UUJkdVJFcEFKZklvVUxjWXEzbzRSdC0tZTBTUkMxR1huM3pDWkFYSUhScE11NDFfdkIyTmRhTWY2Yjl1THRtWGJWZ9IBX0FVX3lxTE5rb0NWc0lDMnBtWmwxcklUSUZrTS01d19USEl3ZTZjYVRZcDJOTkpZbjAxVlB6VkFfUzhJUzlTQ1BrbTVlZ3ltdFdMLUc3YUEtbF9CRmlNQmFCc1VIaGNz?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - BBC</a>
                 
             </h6>
             <small class="text-muted">
@@ -533,6 +518,14 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaS1yQUo1OGZKbHpFNUtfOGxmSDNMRFh6QXpIckxodTBSXzRYOThPbURxbVFRcmUwYS1rQUFEdDNVNGFMUkUzOUpwcEViQTYwY0Q5NEZkc2V5Nkh4SkNYUg?oc=5" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging - WebWire</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        </div>
     </div>
         </div>
@@ -558,7 +551,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
