@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 16 October 2025 | Deltastring",
-  "datePublished": "2025-10-16T18:00:15+00:00",
-  "dateModified": "2025-10-16T18:00:15+00:00",
+  "datePublished": "2025-10-16T19:00:09+00:00",
+  "dateModified": "2025-10-16T19:00:09+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: AI Agents, Smart Automation Boost Customer Experience - Mexico Business News</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 18:00 GMT, 16 October 2025
+            <i class="far fa-clock"></i> Last updated: 19:00 GMT, 16 October 2025
         </p>
     </div>
 </div>
@@ -144,7 +144,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -211,7 +211,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 18 hours ago
+                <i class="far fa-clock"></i> 19 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -239,7 +239,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">29 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -275,7 +275,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 29 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -452,18 +452,10 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">12</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hYWhleUV3MFdXeVVzYW5LNGdYdHlYSHA2RnNkN0ZKNW5HR2JLOHpmUTgwd1UySWNUSk1qTmNfbzNIWkFTWlVJS3JzTTVKZlZxaWJPaTRvYw?oc=5" class="text-dark">Zendesk Statistics 2025: Power Moves in CX Growth - SQMagazine</a>
                 
@@ -529,6 +521,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3hYTlRCYWMxWHQ4S3EtcGRFVHoweW1qUlNROEhPZ1ZLRng5N1I2M01yeUp0VnhSdlhmT1RIMmhhOU01SkxnTjhYcUc1WVE1am5rYU03X01Cd2Y0dkFKcXdoX29SQ1RfMVJVOEJBN3NVTnN3dllCdFBVdlo5Zkt6RUtvdGJ1TEZvQi1FSzRJY3ZNMkF2azhkai1KM3JvTDV1MURpQlhDckw5dWVaNGc?oc=5" class="text-dark">Zendesk Unveils Major AI Push – Voice, Admin Co-Pilot, and HyperArc Take Center Stage - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVjItMkNVMTMxRmo1QjFNRk1kcTUxWU1pRmtQYkltTlo2MWtkOV93SmlEYjBaZXE0UGRIWmNGUlNwakVSVHR1TGdzT256NlZPWk11N1M2TGxPX0M0WjUxdnJBWFZ4ODBIQUJFX2pKNGhmVjlZNXNnQ01OZWVBMll3SmFjS3NxR0lkZk4xR3JnWXp1MTlaRlpqSHZQcFE3c2RQSGp0WU5JejVrX1R4ZnhlOXZRemRTM3lITk9QWUZaWXFlR0ZFMGFhUFAzTzVKVE1IdlU0Y2RWU3RJLVJuUWROajNfOW1Ya3dEQ3lRVV9VdllWdFl5?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - PR Newswire</a>
                  <small class="text-info" title="Google News - Zendesk, Zendesk Press Releases">[2 sources]</small>
             </h6>
@@ -539,14 +539,6 @@ background: grey
             <h6 class="item-title">
                 <a href="https://internalnote.com/advanced-end-user-merge-automatically-detect-merge-duplicate-users-in-one-click-sponsor/" class="text-dark">Advanced End User Merge: Automatically detect & merge duplicate users in one click.  (sponsor)</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaS1yQUo1OGZKbHpFNUtfOGxmSDNMRFh6QXpIckxodTBSXzRYOThPbURxbVFRcmUwYS1rQUFEdDNVNGFMUkUzOUpwcEViQTYwY0Q5NEZkc2V5Nkh4SkNYUg?oc=5" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging - WebWire</a>
-                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -576,7 +568,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>19:00 (London)</strong><br>
+                    <strong>20:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
