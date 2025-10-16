@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 16 October 2025 | Deltastring",
-  "datePublished": "2025-10-16T15:00:05+00:00",
-  "dateModified": "2025-10-16T15:00:05+00:00",
+  "datePublished": "2025-10-16T16:00:05+00:00",
+  "dateModified": "2025-10-16T16:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Advisory: Increase in relay spam from Zendesk accounts</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 15:00 GMT, 16 October 2025
+            <i class="far fa-clock"></i> Last updated: 16:00 GMT, 16 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 21 hours ago
+                        <i class="far fa-clock"></i> 22 hours ago
                     </small>
                 </div>
             </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -186,7 +186,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -567,7 +567,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
