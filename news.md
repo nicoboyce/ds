@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 16 October 2025 | Deltastring",
-  "datePublished": "2025-10-16T10:00:06+00:00",
-  "dateModified": "2025-10-16T10:00:06+00:00",
+  "datePublished": "2025-10-16T11:00:07+00:00",
+  "dateModified": "2025-10-16T11:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Advisory: Increase in relay spam from Zendesk accounts</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 10:00 GMT, 16 October 2025
+            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 16 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 16 hours ago
+                        <i class="far fa-clock"></i> 17 hours ago
                     </small>
                 </div>
             </div>
@@ -103,7 +103,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -169,7 +169,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 19 hours ago
+                <i class="far fa-clock"></i> 20 hours ago
             </small>
         </article>        </div>
     </div>
@@ -186,7 +186,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 hours ago
+                <i class="far fa-clock"></i> 11 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -293,14 +293,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNTmU3VlgtcmVOcmFPNllVZ2hlbFpNaTNzZ0tFZW5SR0RQQXE5ek9vNGEwMWFrTWtIR281VWdBSV9FSDczMm1Rb3NiSXQ2VlBUbTBDeW15VWVzbGprRzR0cWR6djRqNVk3NWRhOVptZVRzYWN5Nlhlck5pWTNxdUZUanRn?oc=5" class="text-dark">Hackers breach Zendesk to extort Discord with stolen IDs - Protos | Informed crypto news</a>
                 
             </h6>
@@ -314,6 +306,14 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 7 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -378,7 +378,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -463,6 +463,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16a3h1QWZmRmI0SjY3VGJ6UUJkdVJFcEFKZklvVUxjWXEzbzRSdC0tZTBTUkMxR1huM3pDWkFYSUhScE11NDFfdkIyTmRhTWY2Yjl1THRtWGJWZ9IBX0FVX3lxTE5rb0NWc0lDMnBtWmwxcklUSUZrTS01d19USEl3ZTZjYVRZcDJOTkpZbjAxVlB6VkFfUzhJUzlTQ1BrbTVlZ3ltdFdMLUc3YUEtbF9CRmlNQmFCc1VIaGNz?oc=5" class="text-dark">ID photos of 70,000 users may have been leaked, Discord says - BBC</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
                 
             </h6>
@@ -525,14 +533,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://www.zendesk.com/newsroom/press-releases/zendesks-global-impact-report-highlights-ai-support-for-nonprofits-environmental-sustainability-and-workplace-belonging/" class="text-dark">Zendesk’s Global Impact Report Highlights AI Support for Nonprofits, Environmental Sustainability, and Workplace Belonging</a>
-                <span class="source-badge">Zendesk Press Releases</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 15 days ago
-            </small>
         </article>        </div>
     </div>
         </div>
@@ -558,7 +558,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
