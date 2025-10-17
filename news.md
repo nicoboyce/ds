@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 17 October 2025 | Deltastring",
-  "datePublished": "2025-10-17T04:00:09+00:00",
-  "dateModified": "2025-10-17T04:00:09+00:00",
+  "datePublished": "2025-10-17T05:00:05+00:00",
+  "dateModified": "2025-10-17T05:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: AI Agents, Smart Automation Boost Customer Experience - Mexico Business News</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 04:00 GMT, 17 October 2025
+            <i class="far fa-clock"></i> Last updated: 05:00 GMT, 17 October 2025
         </p>
     </div>
 </div>
@@ -198,7 +198,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">27 stories</span>
+        <span class="badge badge-info ml-2">31 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -234,7 +234,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 27 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -242,7 +242,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -310,6 +310,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
@@ -322,7 +330,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -367,6 +375,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNcjRzQVpHS3NWajBJNDJiVW5vaEV6VzJuaGZ1WE5LZG5ZZkx4cWdxMjlNd21tQ1NJaHlvY3JKOUV1TGx0TEhtYXZveW5XMWdFTGxjQlNzNUtLdXJrc3ZMak1tY3kxVEM1TDlvQ2Y0emVmdDd4LTUyeVh5R1ZCVzdHVGJYamV3RlhyZUdHa051bk9qVzRu?oc=5" class="text-dark">Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9812669617306-Announcing-the-ability-to-rotate-automatic-shifts-in-WFM" class="text-dark">Announcing the ability to rotate automatic shifts in WFM</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
@@ -387,7 +403,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        </div>
     </div>
@@ -395,10 +411,34 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">13</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - Yahoo! Tech</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hYWhleUV3MFdXeVVzYW5LNGdYdHlYSHA2RnNkN0ZKNW5HR2JLOHpmUTgwd1UySWNUSk1qTmNfbzNIWkFTWlVJS3JzTTVKZlZxaWJPaTRvYw?oc=5" class="text-dark">Zendesk Statistics 2025: Power Moves in CX Growth - SQMagazine</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkFHRjZXd2lkWnVzaE9GWVp2TU1BczlheXBuU25RQlVtTGo0dEVKOERpUllTbEE4SGJrV1JtU0syci1ZMGNqQndibFVpZkdQVVMybU9BNC1HOFA3ZGFUVGNkakhxZmM1dFFLZ2QyRjM4TGw0TVlSWUR0U3RWUlQ0TDl2NVM3SzM3dVpOeUFpUi1EUC15T2JPZ0g1djZvMVNqNXZtY2lyWklvcFpkMWV5bHpxNjd6cVJY?oc=5" class="text-dark">Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</a>
                 
@@ -426,14 +466,6 @@ background: grey
             <h6 class="item-title">
                 <a href="https://internalnote.com/zendesk-ai-summit-2025/" class="text-dark">What's new from the Zendesk AI Summit 2025</a>
                 <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQWXlVc2hZdWJBTjVBYnZZQUFOUUpzZHZ5czI0cUFRWGx6MllWSmFib1JTbF9aME5DR19GeXRQdU9RSlJzT3RBVlZLS3NPcHFnWVBFdm9iMGg4bmcwOTJEeDF2S295THZJbFZfdWhvU0ZvcVRTZHMzVm4yOXZ1OGtmb09fTlpoQWl0V1ExT0ZHOHNBb0wyNTIxMUFkanlrdjdlc1E?oc=5" class="text-dark">Zendesk Unveils AI That Handles 80% of Customer Problems Alone - Technology Org</a>
-                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -511,7 +543,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>05:00 (London)</strong><br>
+                    <strong>06:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
