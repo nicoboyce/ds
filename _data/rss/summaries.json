@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The most significant operational pattern observed across these article titles is the recurring service incidents and stability issues affecting Zendesk's core products, particularly Workforce Management (WFM) and the Resolution Platform, which appear to be coinciding with the rollout of new AI-powered features and capabilities.\n\n2. This suggests that Zendesk administrators need to closely monitor the impact of these AI-driven enhancements on the overall platform stability and performance, and ensure thorough testing and gradual rollout of new features to mitigate the risk of disruptions to critical customer support operations.",
+  "recently_narrative": "The most significant operational pattern observed across these article titles is the increasing prevalence of AI-related capabilities and incidents within the Zendesk ecosystem. This suggests that Zendesk administrators need to closely monitor the rollout and performance of AI-powered features, ensuring thorough testing and staged deployment to mitigate potential disruptions to core support workflows.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-16T18:00:15.188596",
+  "generated_at": "2025-10-17T06:00:07.427944",
   "release_notes": {
     "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {
