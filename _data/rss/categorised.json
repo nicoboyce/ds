@@ -9,7 +9,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991232"
+      "fetched_at": "2025-10-17T18:00:07.510018"
     },
     {
       "id": "e4054c98a319",
@@ -20,7 +20,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350312"
+      "fetched_at": "2025-10-17T18:00:09.461178"
     },
     {
       "id": "6bf51a23d88a",
@@ -31,7 +31,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350232"
+      "fetched_at": "2025-10-17T18:00:09.461067"
     },
     {
       "id": "9c64800acedc",
@@ -42,7 +42,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350374"
+      "fetched_at": "2025-10-17T18:00:09.461253"
     },
     {
       "id": "c90a2000f4cf",
@@ -53,7 +53,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350404"
+      "fetched_at": "2025-10-17T18:00:09.461307"
     },
     {
       "id": "2969f5775dba",
@@ -64,7 +64,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.027769"
+      "fetched_at": "2025-10-17T18:00:06.437184"
     },
     {
       "id": "67f730f75a92",
@@ -75,7 +75,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991272"
+      "fetched_at": "2025-10-17T18:00:07.510061"
     },
     {
       "id": "a66aebdfe7ce",
@@ -86,7 +86,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991291"
+      "fetched_at": "2025-10-17T18:00:07.510080"
     },
     {
       "id": "fc2daadd59e0",
@@ -97,7 +97,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991312"
+      "fetched_at": "2025-10-17T18:00:07.510100"
     },
     {
       "id": "5e7de356ddc8",
@@ -108,7 +108,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350660"
+      "fetched_at": "2025-10-17T18:00:09.461774"
     },
     {
       "id": "695ca5e67112",
@@ -119,7 +119,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350470"
+      "fetched_at": "2025-10-17T18:00:09.461396"
     },
     {
       "id": "b9548a7bf720",
@@ -130,7 +130,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991329"
+      "fetched_at": "2025-10-17T18:00:07.510115"
     }
   ],
   "this_week": [
@@ -143,7 +143,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.027939"
+      "fetched_at": "2025-10-17T18:00:06.437368"
     },
     {
       "id": "7a64c90a5efe",
@@ -154,7 +154,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350638"
+      "fetched_at": "2025-10-17T18:00:09.461750"
     },
     {
       "id": "9bea351d34a0",
@@ -165,7 +165,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473672"
+      "fetched_at": "2025-10-17T18:00:08.374855"
     },
     {
       "id": "e5675eba1cc6",
@@ -176,7 +176,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028103"
+      "fetched_at": "2025-10-17T18:00:06.437527"
     },
     {
       "id": "e57d99d2353c",
@@ -187,7 +187,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028199"
+      "fetched_at": "2025-10-17T18:00:06.437635"
     },
     {
       "id": "0bd80b5c9a42",
@@ -198,7 +198,18 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028342"
+      "fetched_at": "2025-10-17T18:00:06.437785"
+    },
+    {
+      "id": "1b03c083b267",
+      "title": "AI can now solve most customer support problems, Zendesk says - Yahoo! Tech",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUNCR3RtcDFDakluQ2lCQkJqT2cwNkt4aXg1djM0YS1MbVo0TFZjYjl3R1Uxa0ZlVlVsZHk5ejdFWFlwRmZhRmZ0dmNVNGQ3UWtYU3ZlcG4yanZ4My0zUnMxRl9WOXA2M0ZVakNFVm9Vb3dDU1dYbnRzNDJyQi1nS1l3?oc=5",
+      "description": "AI can now solve most customer support problems, Zendesk says&nbsp;&nbsp;Yahoo! Tech",
+      "pub_date": "Mon, 13 Oct 2025 14:44:33 GMT",
+      "source": "Google News - Zendesk",
+      "category": "news",
+      "colour": "warning",
+      "fetched_at": "2025-10-17T18:00:09.462393"
     },
     {
       "id": "a8670274d407",
@@ -209,7 +220,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028454"
+      "fetched_at": "2025-10-17T18:00:06.437895"
     },
     {
       "id": "7a93e9dab1c6",
@@ -220,7 +231,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350427"
+      "fetched_at": "2025-10-17T18:00:09.461351"
     },
     {
       "id": "2eea867a2eae",
@@ -231,7 +242,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834011"
+      "fetched_at": "2025-10-17T18:00:07.308953"
     },
     {
       "id": "a3967700e843",
@@ -242,7 +253,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991346"
+      "fetched_at": "2025-10-17T18:00:07.510131"
     },
     {
       "id": "b861939fed7e",
@@ -253,18 +264,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028590"
-    },
-    {
-      "id": "f77518e7f44e",
-      "title": "Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkFHRjZXd2lkWnVzaE9GWVp2TU1BczlheXBuU25RQlVtTGo0dEVKOERpUllTbEE4SGJrV1JtU0syci1ZMGNqQndibFVpZkdQVVMybU9BNC1HOFA3ZGFUVGNkakhxZmM1dFFLZ2QyRjM4TGw0TVlSWUR0U3RWUlQ0TDl2NVM3SzM3dVpOeUFpUi1EUC15T2JPZ0g1djZvMVNqNXZtY2lyWklvcFpkMWV5bHpxNjd6cVJY?oc=5",
-      "description": "Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs&nbsp;&nbsp;Computing UK",
-      "pub_date": "Fri, 10 Oct 2025 09:27:32 GMT",
-      "source": "Google News - Zendesk",
-      "category": "news",
-      "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350508"
+      "fetched_at": "2025-10-17T18:00:06.438024"
     },
     {
       "id": "98c778eb9d3d",
@@ -275,7 +275,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350568"
+      "fetched_at": "2025-10-17T18:00:09.461583"
     }
   ],
   "this_month": [
@@ -288,7 +288,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991362"
+      "fetched_at": "2025-10-17T18:00:07.510147"
     },
     {
       "id": "f47c45a9c300",
@@ -299,7 +299,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350650"
+      "fetched_at": "2025-10-17T18:00:09.461707"
     },
     {
       "id": "989ed522936c",
@@ -310,7 +310,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350390"
+      "fetched_at": "2025-10-17T18:00:09.461280"
     },
     {
       "id": "93b76bee0e03",
@@ -321,7 +321,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473714"
+      "fetched_at": "2025-10-17T18:00:08.374901"
     },
     {
       "id": "43220a9901a3",
@@ -332,7 +332,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350519"
+      "fetched_at": "2025-10-17T18:00:09.461464"
     },
     {
       "id": "c908a5841a75",
@@ -343,7 +343,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350782"
+      "fetched_at": "2025-10-17T18:00:09.462062"
     },
     {
       "id": "50841df9a2ef",
@@ -354,7 +354,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350348"
+      "fetched_at": "2025-10-17T18:00:09.461206"
     },
     {
       "id": "f55401b98f82",
@@ -365,7 +365,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991379"
+      "fetched_at": "2025-10-17T18:00:07.510163"
     },
     {
       "id": "4322cfb89ff5",
@@ -376,7 +376,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350556"
+      "fetched_at": "2025-10-17T18:00:09.461560"
     },
     {
       "id": "b06f4248ff86",
@@ -387,7 +387,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350454"
+      "fetched_at": "2025-10-17T18:00:09.461374"
     },
     {
       "id": "dbfb9bb7d256",
@@ -398,7 +398,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350484"
+      "fetched_at": "2025-10-17T18:00:09.461420"
     },
     {
       "id": "e26fefd4bd9c",
@@ -409,7 +409,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350821"
+      "fetched_at": "2025-10-17T18:00:09.462154"
     },
     {
       "id": "4e5638f588ac",
@@ -420,7 +420,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350922"
+      "fetched_at": "2025-10-17T18:00:09.462368"
     },
     {
       "id": "c40c04ae28db",
@@ -431,7 +431,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640123"
+      "fetched_at": "2025-10-17T18:00:08.570794"
     },
     {
       "id": "5516bddf69bc",
@@ -442,7 +442,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473730"
+      "fetched_at": "2025-10-17T18:00:08.374921"
     },
     {
       "id": "6154e71c5386",
@@ -453,7 +453,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350333"
+      "fetched_at": "2025-10-17T18:00:09.461121"
     },
     {
       "id": "986aeef8a130",
@@ -464,7 +464,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028760"
+      "fetched_at": "2025-10-17T18:00:06.438210"
     },
     {
       "id": "2545651abd23",
@@ -475,7 +475,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991395"
+      "fetched_at": "2025-10-17T18:00:07.510179"
     },
     {
       "id": "09391c28572e",
@@ -486,7 +486,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834123"
+      "fetched_at": "2025-10-17T18:00:07.309107"
     },
     {
       "id": "816e6c626cbc",
@@ -497,7 +497,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028898"
+      "fetched_at": "2025-10-17T18:00:06.438329"
     },
     {
       "id": "ea5fa912dc85",
@@ -508,7 +508,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991411"
+      "fetched_at": "2025-10-17T18:00:07.510196"
     },
     {
       "id": "575e6381d350",
@@ -519,7 +519,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473744"
+      "fetched_at": "2025-10-17T18:00:08.374939"
     },
     {
       "id": "539fcb0079f2",
@@ -530,7 +530,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.028995"
+      "fetched_at": "2025-10-17T18:00:06.438426"
     },
     {
       "id": "dd7e955fa62d",
@@ -541,7 +541,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.029088"
+      "fetched_at": "2025-10-17T18:00:06.438520"
     },
     {
       "id": "9edb9fb07cb6",
@@ -552,7 +552,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640185"
+      "fetched_at": "2025-10-17T18:00:08.570852"
     },
     {
       "id": "4e2dfebaf05b",
@@ -563,7 +563,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473756"
+      "fetched_at": "2025-10-17T18:00:08.374955"
     },
     {
       "id": "39d53112f1b5",
@@ -574,7 +574,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834249"
+      "fetched_at": "2025-10-17T18:00:07.309311"
     },
     {
       "id": "6dc64c19c686",
@@ -585,7 +585,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.344934"
+      "fetched_at": "2025-10-17T18:00:06.775210"
     },
     {
       "id": "ec4e21503c3b",
@@ -596,7 +596,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473789"
+      "fetched_at": "2025-10-17T18:00:08.374978"
     },
     {
       "id": "de6931c07137",
@@ -607,7 +607,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991427"
+      "fetched_at": "2025-10-17T18:00:07.510211"
     },
     {
       "id": "8222437519dd",
@@ -618,7 +618,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991444"
+      "fetched_at": "2025-10-17T18:00:07.510227"
     },
     {
       "id": "f4d2869a6d08",
@@ -629,7 +629,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640207"
+      "fetched_at": "2025-10-17T18:00:08.570872"
     },
     {
       "id": "b8e654aaaab0",
@@ -640,7 +640,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834298"
+      "fetched_at": "2025-10-17T18:00:07.309388"
     },
     {
       "id": "6fa0296dc27f",
@@ -651,7 +651,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.029222"
+      "fetched_at": "2025-10-17T18:00:06.438659"
     },
     {
       "id": "babd76b1a840",
@@ -662,7 +662,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.029347"
+      "fetched_at": "2025-10-17T18:00:06.438790"
     },
     {
       "id": "e18599a3da29",
@@ -673,7 +673,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473805"
+      "fetched_at": "2025-10-17T18:00:08.375000"
     },
     {
       "id": "351f84c7fd43",
@@ -684,7 +684,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350529"
+      "fetched_at": "2025-10-17T18:00:09.461486"
     },
     {
       "id": "d37576d4b09b",
@@ -695,7 +695,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834383"
+      "fetched_at": "2025-10-17T18:00:07.309529"
     },
     {
       "id": "56d1e15b2eb4",
@@ -706,7 +706,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350856"
+      "fetched_at": "2025-10-17T18:00:09.462233"
     }
   ],
   "older": [
@@ -719,7 +719,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350625"
+      "fetched_at": "2025-10-17T18:00:09.461683"
     },
     {
       "id": "f0a894808008",
@@ -730,7 +730,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473821"
+      "fetched_at": "2025-10-17T18:00:08.375021"
     },
     {
       "id": "e892740a7ffc",
@@ -741,7 +741,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834521"
+      "fetched_at": "2025-10-17T18:00:07.309755"
     },
     {
       "id": "d4ca939c8b43",
@@ -752,7 +752,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350773"
+      "fetched_at": "2025-10-17T18:00:09.462040"
     },
     {
       "id": "ba15be44e53e",
@@ -763,7 +763,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473837"
+      "fetched_at": "2025-10-17T18:00:08.375041"
     },
     {
       "id": "4bd7890db3d7",
@@ -774,7 +774,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834623"
+      "fetched_at": "2025-10-17T18:00:07.309985"
     },
     {
       "id": "ab5f69a75c95",
@@ -785,7 +785,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991460"
+      "fetched_at": "2025-10-17T18:00:07.510242"
     },
     {
       "id": "3876ec9be986",
@@ -796,7 +796,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.594685"
+      "fetched_at": "2025-10-17T18:00:07.046133"
     },
     {
       "id": "35a96f6d4269",
@@ -807,7 +807,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.345211"
+      "fetched_at": "2025-10-17T18:00:06.775478"
     },
     {
       "id": "3a34743eef96",
@@ -818,7 +818,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473852"
+      "fetched_at": "2025-10-17T18:00:08.375062"
     },
     {
       "id": "ddd63cbc19e6",
@@ -829,7 +829,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834724"
+      "fetched_at": "2025-10-17T18:00:07.310167"
     },
     {
       "id": "eda03a06f4b1",
@@ -840,7 +840,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.029457"
+      "fetched_at": "2025-10-17T18:00:06.438894"
     },
     {
       "id": "6b6001ece535",
@@ -851,7 +851,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473866"
+      "fetched_at": "2025-10-17T18:00:08.375083"
     },
     {
       "id": "567f74624ee0",
@@ -862,7 +862,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834827"
+      "fetched_at": "2025-10-17T18:00:07.310336"
     },
     {
       "id": "d150bdd4ac33",
@@ -873,7 +873,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991476"
+      "fetched_at": "2025-10-17T18:00:07.510259"
     },
     {
       "id": "ccb559f7354e",
@@ -884,7 +884,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350416"
+      "fetched_at": "2025-10-17T18:00:09.461329"
     },
     {
       "id": "aa98fe7be811",
@@ -895,7 +895,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.594923"
+      "fetched_at": "2025-10-17T18:00:07.046372"
     },
     {
       "id": "99d2728bea10",
@@ -906,7 +906,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473880"
+      "fetched_at": "2025-10-17T18:00:08.375102"
     },
     {
       "id": "9c5be4d869e0",
@@ -917,7 +917,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.834919"
+      "fetched_at": "2025-10-17T18:00:07.310498"
     },
     {
       "id": "f01559263043",
@@ -928,7 +928,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350540"
+      "fetched_at": "2025-10-17T18:00:09.461506"
     },
     {
       "id": "affd8c0ebfc6",
@@ -939,7 +939,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350844"
+      "fetched_at": "2025-10-17T18:00:09.462205"
     },
     {
       "id": "46d2a980bb2a",
@@ -950,7 +950,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473894"
+      "fetched_at": "2025-10-17T18:00:08.375122"
     },
     {
       "id": "79e4ee210d78",
@@ -961,7 +961,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.835105"
+      "fetched_at": "2025-10-17T18:00:07.310666"
     },
     {
       "id": "3b81f0864759",
@@ -972,7 +972,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640226"
+      "fetched_at": "2025-10-17T18:00:08.570889"
     },
     {
       "id": "d39fe456b9d9",
@@ -983,7 +983,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473944"
+      "fetched_at": "2025-10-17T18:00:08.375144"
     },
     {
       "id": "776c8463768f",
@@ -994,7 +994,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.345660"
+      "fetched_at": "2025-10-17T18:00:06.775923"
     },
     {
       "id": "dc25072c2400",
@@ -1005,7 +1005,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.835236"
+      "fetched_at": "2025-10-17T18:00:07.310878"
     },
     {
       "id": "988723a6a672",
@@ -1016,7 +1016,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350866"
+      "fetched_at": "2025-10-17T18:00:09.462255"
     },
     {
       "id": "824fb9f5827f",
@@ -1027,7 +1027,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350706"
+      "fetched_at": "2025-10-17T18:00:09.461864"
     },
     {
       "id": "0f552a778832",
@@ -1038,7 +1038,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350898"
+      "fetched_at": "2025-10-17T18:00:09.462277"
     },
     {
       "id": "45bf9ca8f0ed",
@@ -1049,7 +1049,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350689"
+      "fetched_at": "2025-10-17T18:00:09.461841"
     },
     {
       "id": "da5f2003e55f",
@@ -1060,7 +1060,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350791"
+      "fetched_at": "2025-10-17T18:00:09.462085"
     },
     {
       "id": "b872e9c08322",
@@ -1071,7 +1071,7 @@
       "source": "Internal Note",
       "category": "tech",
       "colour": "dark",
-      "fetched_at": "2025-10-17T17:00:06.473962"
+      "fetched_at": "2025-10-17T18:00:08.375165"
     },
     {
       "id": "b10af457b9d4",
@@ -1082,7 +1082,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.835320"
+      "fetched_at": "2025-10-17T18:00:07.311024"
     },
     {
       "id": "6bfd485c1207",
@@ -1093,7 +1093,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350730"
+      "fetched_at": "2025-10-17T18:00:09.461937"
     },
     {
       "id": "09429a2c130d",
@@ -1104,7 +1104,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350495"
+      "fetched_at": "2025-10-17T18:00:09.461442"
     },
     {
       "id": "8f39e5ddaaf0",
@@ -1115,7 +1115,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350590"
+      "fetched_at": "2025-10-17T18:00:09.461604"
     },
     {
       "id": "9e1b1f75c275",
@@ -1126,7 +1126,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640243"
+      "fetched_at": "2025-10-17T18:00:08.570906"
     },
     {
       "id": "dd7a2a7c34b3",
@@ -1137,7 +1137,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.835381"
+      "fetched_at": "2025-10-17T18:00:07.311131"
     },
     {
       "id": "a9ead531eaba",
@@ -1148,7 +1148,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350580"
+      "fetched_at": "2025-10-17T18:00:09.461530"
     },
     {
       "id": "df100e780eab",
@@ -1159,7 +1159,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640261"
+      "fetched_at": "2025-10-17T18:00:08.570923"
     },
     {
       "id": "e72ba801e92e",
@@ -1170,7 +1170,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595199"
+      "fetched_at": "2025-10-17T18:00:07.046676"
     },
     {
       "id": "43615b2fb93c",
@@ -1181,7 +1181,7 @@
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:04.835496"
+      "fetched_at": "2025-10-17T18:00:07.311339"
     },
     {
       "id": "9c7300440930",
@@ -1192,7 +1192,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350911"
+      "fetched_at": "2025-10-17T18:00:09.462302"
     },
     {
       "id": "95c0ddb89d32",
@@ -1203,7 +1203,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.345984"
+      "fetched_at": "2025-10-17T18:00:06.776246"
     },
     {
       "id": "f69ad8c69c05",
@@ -1214,7 +1214,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350740"
+      "fetched_at": "2025-10-17T18:00:09.461961"
     },
     {
       "id": "e69a7c78068f",
@@ -1225,7 +1225,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350360"
+      "fetched_at": "2025-10-17T18:00:09.461230"
     },
     {
       "id": "d1c083c01ae7",
@@ -1236,7 +1236,7 @@
       "source": "Zendesk Service Notifications",
       "category": "zendesk",
       "colour": "danger",
-      "fetched_at": "2025-10-17T17:00:04.991491"
+      "fetched_at": "2025-10-17T18:00:07.510276"
     },
     {
       "id": "c3f9268fe266",
@@ -1247,7 +1247,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350670"
+      "fetched_at": "2025-10-17T18:00:09.461798"
     },
     {
       "id": "80b1594b8e5e",
@@ -1258,7 +1258,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159084"
+      "fetched_at": "2025-10-17T18:00:07.712595"
     },
     {
       "id": "a4be2420eb94",
@@ -1269,7 +1269,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595304"
+      "fetched_at": "2025-10-17T18:00:07.046786"
     },
     {
       "id": "305e2af9938c",
@@ -1280,7 +1280,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159131"
+      "fetched_at": "2025-10-17T18:00:07.712638"
     },
     {
       "id": "42d36c42c971",
@@ -1291,7 +1291,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350801"
+      "fetched_at": "2025-10-17T18:00:09.462108"
     },
     {
       "id": "c18637c0f4ea",
@@ -1302,7 +1302,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.346203"
+      "fetched_at": "2025-10-17T18:00:06.776472"
     },
     {
       "id": "57ceab9a3881",
@@ -1313,7 +1313,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350752"
+      "fetched_at": "2025-10-17T18:00:09.461991"
     },
     {
       "id": "0e45a44a8afe",
@@ -1324,7 +1324,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640278"
+      "fetched_at": "2025-10-17T18:00:08.570939"
     },
     {
       "id": "d9341e3b1044",
@@ -1335,7 +1335,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159148"
+      "fetched_at": "2025-10-17T18:00:07.712675"
     },
     {
       "id": "49e52b36f8b6",
@@ -1346,7 +1346,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159165"
+      "fetched_at": "2025-10-17T18:00:07.712692"
     },
     {
       "id": "88680e6fdbf9",
@@ -1357,7 +1357,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159180"
+      "fetched_at": "2025-10-17T18:00:07.712708"
     },
     {
       "id": "6bd21c02a492",
@@ -1368,7 +1368,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.346521"
+      "fetched_at": "2025-10-17T18:00:06.776831"
     },
     {
       "id": "0cedb58a5f54",
@@ -1379,7 +1379,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595442"
+      "fetched_at": "2025-10-17T18:00:07.046915"
     },
     {
       "id": "5a869a53aa23",
@@ -1390,7 +1390,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350811"
+      "fetched_at": "2025-10-17T18:00:09.462131"
     },
     {
       "id": "b38376a1a84d",
@@ -1401,7 +1401,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159196"
+      "fetched_at": "2025-10-17T18:00:07.712724"
     },
     {
       "id": "76e5d6b9fc12",
@@ -1412,7 +1412,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350834"
+      "fetched_at": "2025-10-17T18:00:09.462182"
     },
     {
       "id": "47820e3b25ee",
@@ -1423,7 +1423,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159211"
+      "fetched_at": "2025-10-17T18:00:07.712739"
     },
     {
       "id": "95dfed63a34c",
@@ -1434,7 +1434,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595623"
+      "fetched_at": "2025-10-17T18:00:07.047106"
     },
     {
       "id": "25b440171e5b",
@@ -1445,7 +1445,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350720"
+      "fetched_at": "2025-10-17T18:00:09.461912"
     },
     {
       "id": "6d4f3e12166d",
@@ -1456,7 +1456,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350613"
+      "fetched_at": "2025-10-17T18:00:09.461655"
     },
     {
       "id": "8cf9fbd947bb",
@@ -1467,7 +1467,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350763"
+      "fetched_at": "2025-10-17T18:00:09.462017"
     },
     {
       "id": "59d43ac49e7b",
@@ -1478,7 +1478,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.346961"
+      "fetched_at": "2025-10-17T18:00:06.777295"
     },
     {
       "id": "8d1855516530",
@@ -1489,7 +1489,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350602"
+      "fetched_at": "2025-10-17T18:00:09.461634"
     },
     {
       "id": "f8efff0b8b09",
@@ -1500,7 +1500,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640295"
+      "fetched_at": "2025-10-17T18:00:08.570955"
     },
     {
       "id": "2acabdb90537",
@@ -1511,7 +1511,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595709"
+      "fetched_at": "2025-10-17T18:00:07.047194"
     },
     {
       "id": "e77bc3a0fc24",
@@ -1522,7 +1522,7 @@
       "source": "Google News - Zendesk",
       "category": "news",
       "colour": "warning",
-      "fetched_at": "2025-10-17T17:00:07.350679"
+      "fetched_at": "2025-10-17T18:00:09.461819"
     },
     {
       "id": "25eb7c693535",
@@ -1533,7 +1533,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.347296"
+      "fetched_at": "2025-10-17T18:00:06.777595"
     },
     {
       "id": "1312730cd47a",
@@ -1544,7 +1544,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640311"
+      "fetched_at": "2025-10-17T18:00:08.570971"
     },
     {
       "id": "babb1806ed3e",
@@ -1555,7 +1555,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159227"
+      "fetched_at": "2025-10-17T18:00:07.712755"
     },
     {
       "id": "1e687ded7ecb",
@@ -1566,7 +1566,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159242"
+      "fetched_at": "2025-10-17T18:00:07.712769"
     },
     {
       "id": "89ed1b402703",
@@ -1577,7 +1577,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159258"
+      "fetched_at": "2025-10-17T18:00:07.712785"
     },
     {
       "id": "446bbe5a7fe0",
@@ -1588,7 +1588,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.347596"
+      "fetched_at": "2025-10-17T18:00:06.777865"
     },
     {
       "id": "54421a47d589",
@@ -1599,7 +1599,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159284"
+      "fetched_at": "2025-10-17T18:00:07.712808"
     },
     {
       "id": "9a9c08e8a603",
@@ -1610,7 +1610,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595806"
+      "fetched_at": "2025-10-17T18:00:07.047295"
     },
     {
       "id": "a58150a6e21a",
@@ -1621,7 +1621,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159301"
+      "fetched_at": "2025-10-17T18:00:07.712823"
     },
     {
       "id": "57098b517eca",
@@ -1632,7 +1632,7 @@
       "source": "Deltastring YouTube",
       "category": "deltastring",
       "colour": "secondary",
-      "fetched_at": "2025-10-17T17:00:05.159318"
+      "fetched_at": "2025-10-17T18:00:07.712838"
     },
     {
       "id": "6437520c0eec",
@@ -1643,7 +1643,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.347922"
+      "fetched_at": "2025-10-17T18:00:06.778177"
     },
     {
       "id": "8f651bd038de",
@@ -1654,7 +1654,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.595902"
+      "fetched_at": "2025-10-17T18:00:07.047396"
     },
     {
       "id": "39ab49d7a190",
@@ -1665,7 +1665,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.348165"
+      "fetched_at": "2025-10-17T18:00:06.778422"
     },
     {
       "id": "168e3832a840",
@@ -1676,7 +1676,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640327"
+      "fetched_at": "2025-10-17T18:00:08.570986"
     },
     {
       "id": "82fb73516ff9",
@@ -1687,7 +1687,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640342"
+      "fetched_at": "2025-10-17T18:00:08.571001"
     },
     {
       "id": "5469c80992ff",
@@ -1698,7 +1698,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.596085"
+      "fetched_at": "2025-10-17T18:00:07.047565"
     },
     {
       "id": "32a29d8a3561",
@@ -1709,7 +1709,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.596186"
+      "fetched_at": "2025-10-17T18:00:07.047668"
     },
     {
       "id": "9d99e61a1870",
@@ -1720,7 +1720,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.348482"
+      "fetched_at": "2025-10-17T18:00:06.778743"
     },
     {
       "id": "3c95f1e593a8",
@@ -1731,7 +1731,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640360"
+      "fetched_at": "2025-10-17T18:00:08.571018"
     },
     {
       "id": "d85f427c943e",
@@ -1742,7 +1742,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.596263"
+      "fetched_at": "2025-10-17T18:00:07.047748"
     },
     {
       "id": "a04d09330697",
@@ -1753,7 +1753,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.348828"
+      "fetched_at": "2025-10-17T18:00:06.779105"
     },
     {
       "id": "2bec4f35b92a",
@@ -1764,7 +1764,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.349133"
+      "fetched_at": "2025-10-17T18:00:06.779408"
     },
     {
       "id": "537fe80d9e24",
@@ -1775,7 +1775,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.596374"
+      "fetched_at": "2025-10-17T18:00:07.047864"
     },
     {
       "id": "19e4e4287893",
@@ -1786,7 +1786,7 @@
       "source": "Zendesk Developer Updates",
       "category": "zendesk",
       "colour": "info",
-      "fetched_at": "2025-10-17T17:00:04.596445"
+      "fetched_at": "2025-10-17T18:00:07.047939"
     },
     {
       "id": "4facd504ca57",
@@ -1797,7 +1797,7 @@
       "source": "Zendesk What's New",
       "category": "zendesk",
       "colour": "success",
-      "fetched_at": "2025-10-17T17:00:04.349680"
+      "fetched_at": "2025-10-17T18:00:06.779965"
     },
     {
       "id": "91f3fa664dfb",
@@ -1808,7 +1808,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640375"
+      "fetched_at": "2025-10-17T18:00:08.571033"
     },
     {
       "id": "711892559747",
@@ -1819,7 +1819,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640396"
+      "fetched_at": "2025-10-17T18:00:08.571054"
     },
     {
       "id": "08c5a5f84a3c",
@@ -1830,7 +1830,7 @@
       "source": "Zendesk Press Releases",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:06.640414"
+      "fetched_at": "2025-10-17T18:00:08.571071"
     },
     {
       "id": "4f7b9c2c92ac",
@@ -1841,7 +1841,7 @@
       "source": "Zendesk Announcements",
       "category": "zendesk",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:04.029906"
+      "fetched_at": "2025-10-17T18:00:06.439426"
     },
     {
       "id": "05437598b20b",
@@ -1852,7 +1852,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.910572"
+      "fetched_at": "2025-10-17T18:00:08.008252"
     },
     {
       "id": "44b693d2b665",
@@ -1863,7 +1863,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.909614"
+      "fetched_at": "2025-10-17T18:00:08.007421"
     },
     {
       "id": "a41f942e8d5f",
@@ -1874,7 +1874,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.910249"
+      "fetched_at": "2025-10-17T18:00:08.007926"
     },
     {
       "id": "75f8405d0ca5",
@@ -1885,7 +1885,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.909943"
+      "fetched_at": "2025-10-17T18:00:08.007682"
     },
     {
       "id": "ee17588c51a4",
@@ -1896,7 +1896,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.909479"
+      "fetched_at": "2025-10-17T18:00:08.007285"
     },
     {
       "id": "56eb97f39efb",
@@ -1907,7 +1907,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.910119"
+      "fetched_at": "2025-10-17T18:00:08.007811"
     },
     {
       "id": "fc72c983e209",
@@ -1918,7 +1918,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.909778"
+      "fetched_at": "2025-10-17T18:00:08.007584"
     },
     {
       "id": "2f7ac19ca562",
@@ -1929,7 +1929,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.909352"
+      "fetched_at": "2025-10-17T18:00:08.007160"
     },
     {
       "id": "a3fb20036c1f",
@@ -1940,7 +1940,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.910947"
+      "fetched_at": "2025-10-17T18:00:08.008698"
     },
     {
       "id": "0ad07fdf74a8",
@@ -1951,7 +1951,7 @@
       "source": "Deltastring Blog",
       "category": "deltastring",
       "colour": "primary",
-      "fetched_at": "2025-10-17T17:00:05.910433"
+      "fetched_at": "2025-10-17T18:00:08.008113"
     }
   ],
   "latest_release_notes": {
@@ -1963,6 +1963,6 @@
     "source": "Zendesk Release Notes",
     "category": "zendesk",
     "colour": "warning",
-    "fetched_at": "2025-10-17T17:00:04.834011"
+    "fetched_at": "2025-10-17T18:00:07.308953"
   }
 }
