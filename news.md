@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 17 October 2025 | Deltastring",
-  "datePublished": "2025-10-17T19:00:10+00:00",
-  "dateModified": "2025-10-17T19:00:10+00:00",
+  "datePublished": "2025-10-17T20:00:06+00:00",
+  "dateModified": "2025-10-17T20:00:06+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 19:00 GMT, 17 October 2025
+            <i class="far fa-clock"></i> Last updated: 20:00 GMT, 17 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 4 hours ago
+                        <i class="far fa-clock"></i> 5 hours ago
                     </small>
                 </div>
             </div>
@@ -325,19 +325,19 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU0tT2tycDgwb0J6UFkteUlVMVR0dkJFMEVUd29ockJhcEFfLWhVYlU1QVZCczUzcUVQV2NsaXMzbm5nSDFoQk1FTHlsNklsRjVaM2F0OFlHQzVfR1FFZzBXMWc4ejFLSEkyendHa3IzaXNFRDJORkM4QjIxd2NmQTU5SUxOcThLTlhfQ1ZSc1VmZXIxRzd6VVQ2Rl9LdXdTNmZfSG9wc2xtdVh3bjlOTEgxT1M0Si1VNFlTZjQwQ2Y?oc=5" class="text-dark">Discord Joins List of Companies Hit by CRM Breaches After Attack on Its Zendesk Implementation - CX Today</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9796612062490-Service-Incident-October-06-2025-Multiple-pods-Workforce-Management-WFM-degraded-performance" class="text-dark">Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 10 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9742773411354-Service-Incident-September-22-2025-Pods-13-15-and-27-Workforce-Management-Messaging-unable-to-establish-session-with-remote-server" class="text-dark">Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with r...</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 14 days ago
             </small>
         </article>        </div>
     </div>
@@ -431,7 +431,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
+                <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ21yXzQ5WXFxazJkWExxa1VCWVN3SEZpOHBpbVlMblRNRjRVNkhpOHVuU1dNem0wVmRLM3RMemRqd1dDZF9tanhHTmdpbGVkWk1VTF9rX1RqQnFuQm9XTVRiaVcyaU5CaG14SURfV05SR08zVnhmb21Qekk2SUZZUnp3c2lTMWphakl2MmRKZG9pWnRXMVpXdXNoRXF2aUcxUnY1dnp2MFJWNG12VmZleV9aT08?oc=5" class="text-dark">Zight Enhances Support Workflows With Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - 富途牛牛</a>
                 
             </h6>
             <small class="text-muted">
@@ -542,7 +542,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>20:00 (London)</strong><br>
+                    <strong>21:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
