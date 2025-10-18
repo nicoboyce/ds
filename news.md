@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 18 October 2025 | Deltastring",
-  "datePublished": "2025-10-18T06:00:05+00:00",
-  "dateModified": "2025-10-18T06:00:05+00:00",
+  "datePublished": "2025-10-18T07:00:07+00:00",
+  "dateModified": "2025-10-18T07:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Email Bombs Exploit Lax Authentication in Zendesk - Krebs on Security</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 06:00 GMT, 18 October 2025
+            <i class="far fa-clock"></i> Last updated: 07:00 GMT, 18 October 2025
         </p>
     </div>
 </div>
@@ -111,7 +111,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -527,7 +527,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>07:00 (London)</strong><br>
+                    <strong>08:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
