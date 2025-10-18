@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the frequency and severity of service incidents across Zendesk's core products, including Support, Talk, Messaging, and Analytics. This indicates that Zendesk administrators need to closely monitor system stability, prioritize proactive maintenance, and have robust incident response and communication plans in place to mitigate the impact of these disruptions on their customers.\n\nAdditionally, the titles suggest that Zendesk is rapidly expanding its AI capabilities, including Agent Copilot and AI-powered routing, which may be contributing to the observed stability issues. Administrators should carefully evaluate the impact of these new AI features on their Zendesk environment and ensure thorough testing and gradual rollout to avoid further disruptions.",
+  "recently_narrative": "The most significant operational pattern observed is the prevalence of service incidents and technical issues across multiple Zendesk products and pods, coinciding with major platform updates and expansions. This suggests that Zendesk administrators need to closely monitor the impact of new feature rollouts and infrastructure changes, and have robust incident response and rollback procedures in place to maintain service stability during periods of rapid innovation.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-18T06:00:05.865690",
+  "generated_at": "2025-10-18T12:00:06.110650",
   "release_notes": {
     "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {
