@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the prevalence of service incidents and technical issues across multiple Zendesk products and pods, coinciding with major platform updates and expansions. This suggests that Zendesk administrators need to closely monitor the impact of new feature rollouts and infrastructure changes, and have robust incident response and rollback procedures in place to maintain service stability during periods of rapid innovation.",
+  "recently_narrative": "The most significant operational pattern observed is the prevalence of service incidents and technical issues across multiple Zendesk products and pods, coinciding with the announcement of major AI and automation capabilities. This suggests that Zendesk administrators need to carefully monitor the stability and performance of the platform as the company rapidly expands its AI-powered features, ensuring that new functionality is thoroughly tested and rolled out in a controlled manner to avoid disrupting core support operations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-18T12:00:06.110650",
+  "generated_at": "2025-10-18T18:00:13.234741",
   "release_notes": {
     "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {

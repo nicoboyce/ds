@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 18 October 2025 | Deltastring",
-  "datePublished": "2025-10-18T17:00:05+00:00",
-  "dateModified": "2025-10-18T17:00:05+00:00",
+  "datePublished": "2025-10-18T18:00:13+00:00",
+  "dateModified": "2025-10-18T18:00:13+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -26,7 +26,7 @@ background: grey
       "url": "https://deltastring.com/assets/img/ds-logo-trans-alt.svg"
     }
   },
-  "description": "Latest: Zendesk Boosts AI Innovation to Transform Customer Service Experience - Small Business Trends",
+  "description": "Latest: Service Incident - October 18, 2025 - All Pods | Email processing delays",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://deltastring.com/news/"
@@ -38,9 +38,9 @@ background: grey
 
 <div class="row">
     <div class="col-lg-12">
-        <p class="text-muted text-center mb-2">Latest: Zendesk Boosts AI Innovation to Transform Customer Service Experience - Small Business Trends</p>
+        <p class="text-muted text-center mb-2">Latest: Service Incident - October 18, 2025 - All Pods | Email processing delays</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 17:00 GMT, 18 October 2025
+            <i class="far fa-clock"></i> Last updated: 18:00 GMT, 18 October 2025
         </p>
     </div>
 </div>
@@ -72,31 +72,39 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">8 stories</span>
+        <span class="badge badge-primary ml-2">9 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">4</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRTl1Z29EdFF0N1BVNHhiQWRZRmp1bERodjJsVkNpRk1VSUJISmNoZGFiQ0FwUlJDT0RSNWRRMDNzcEZ5RF80TzBtdTR5bXlBaVYzZ1piNHRjZG5rMGxMNFdLR0x2THNCZHNzenMxQ28xU1NHYk03SWJsOWhlNEpHdXdsVnRuZUl4dWpQTS1DOA?oc=5" class="text-dark">Email Bombs Exploit Lax Authentication in Zendesk - Krebs on Security</a>
-                        
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9425412142874-Service-Incident-October-18-2025-All-Pods-Email-processing-delays" class="text-dark">Service Incident - October 18, 2025 - All Pods | Email processing delays</a>
+                        <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        Email Bombs Exploit Lax Authentication in Zendesk&nbsp;&nbsp;Krebs on Security
+                        https://support.zendesk.com/hc/en-us/articles/9425412142874-Service-Incident-October-18-2025-All-Pods-Email-processing-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> recently
+                        <i class="far fa-clock"></i> 3 hours ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRTl1Z29EdFF0N1BVNHhiQWRZRmp1bERodjJsVkNpRk1VSUJISmNoZGFiQ0FwUlJDT0RSNWRRMDNzcEZ5RF80TzBtdTR5bXlBaVYzZ1piNHRjZG5rMGxMNFdLR0x2THNCZHNzenMxQ28xU1NHYk03SWJsOWhlNEpHdXdsVnRuZUl4dWpQTS1DOA?oc=5" class="text-dark">Email Bombs Exploit Lax Authentication in Zendesk - Krebs on Security</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1B3M2JnRDUtXzU1UUEzSTRpREg2eVFtNnRHSnVQcmt4TmVwOTR0X3phbVBCZjN2b3RjSkozV2RSLTRWTFZPRzVodUNORnBST2FUNjRocmxfTFllT2phNnpoMjJSQjVPMUJTTUV1Vi1SX2NXeFd2Z0FLaGVmTVhxMzIwVERkV1VaTWVRWkU4RQ?oc=5" class="text-dark">Cybercriminals Exploit Zendesk Flaw for Email Bomb Attacks - WebProNews</a>
@@ -208,7 +216,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the prevalence of service incidents and technical issues across multiple Zendesk products and pods, coinciding with major platform updates and expansions. This suggests that Zendesk administrators need to closely monitor the impact of new feature rollouts and infrastructure changes, and have robust incident response and rollback procedures in place to maintain service stability during periods of rapid innovation.</p>
+            <p>The most significant operational pattern observed is the prevalence of service incidents and technical issues across multiple Zendesk products and pods, coinciding with the announcement of major AI and automation capabilities. This suggests that Zendesk administrators need to carefully monitor the stability and performance of the platform as the company rapidly expands its AI-powered features, ensuring that new functionality is thoroughly tested and rolled out in a controlled manner to avoid disrupting core support operations.</p>
         </div>
     </div>
     
@@ -238,7 +246,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 2 days ago
+                        <i class="far fa-clock"></i> 3 days ago
                     </small>
                 </div>
             </div>
@@ -272,7 +280,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -361,7 +369,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 4 days ago
+                <i class="far fa-clock"></i> 5 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -534,7 +542,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
