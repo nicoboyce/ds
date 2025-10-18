@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Zendesk News Today - 18 October 2025 | Deltastring"
-date: 2025-10-18
+title: "Zendesk News Today - 19 October 2025 | Deltastring"
+date: 2025-10-19
 background: grey
 ---
 
@@ -10,9 +10,9 @@ background: grey
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "Zendesk News Today - 18 October 2025 | Deltastring",
-  "datePublished": "2025-10-18T23:00:05+00:00",
-  "dateModified": "2025-10-18T23:00:05+00:00",
+  "headline": "Zendesk News Today - 19 October 2025 | Deltastring",
+  "datePublished": "2025-10-19T00:00:04+00:00",
+  "dateModified": "2025-10-19T00:00:04+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 18, 2025 - All Pods | Email processing delays</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 23:00 GMT, 18 October 2025
+            <i class="far fa-clock"></i> Last updated: 00:00 GMT, 19 October 2025
         </p>
     </div>
 </div>
@@ -72,7 +72,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">8 stories</span>
+        <span class="badge badge-primary ml-2">6 stories</span>
     </h2>
 
 
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9425412142874-Service-Incident-October-18-2025-All-Pods-Email-processing-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 8 hours ago
+                        <i class="far fa-clock"></i> 9 hours ago
                     </small>
                 </div>
             </div>
@@ -134,38 +134,13 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
-            📊 Business & Strategy
+            💡 Resources & Learning
             <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMihwJBVV95cUxNdmNyZ1NsSjVnRzN0V0pfOE9wOXBTNUpOMHRobGEtd1dUZWIxTTc1M1BZTU5IdWwzeWFaMmdqZnprNEZVRU0xcFd1clFWMDMxQzNtUTB5MXN3dlF3aGVWVTAwUmtWdEJfTF9kSDNvRm55WFdWWkdOQ253a19zZlBqX3hrb014S1pzNi1EVmdYSG5UMExWZG9vN2xKWnVWNFEzZU9talRnMHpadkVZOUdudUhMclQ5R09pNHNoWVdVbzJycDFnUl83Mmhnd0x6UFQ5Q2Q5Sm13cmZGNE1obmhIX0cwODlERXpnVUtERjRlUWlwQVUxaW52UnVyU3ZINUNuMkRVWlBjVQ?oc=5" class="text-dark">Zendesk Selects Gong Revenue AI Platform to Accelerate its Go-to-Market Transformation as it Introduces New AI Offerings - PR Newswire</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        </div>
-    </div>
-
-    <div class="category-section mb-4">
-        <h5 class="category-title">
-            💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">2</span>
-        </h5>
-        <div class="category-articles">
-        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOV2R4XzJUOUIyUnk4MlhqWFM4Zi1qRTFqMzJCN2p1eF8xcWtFR0hjTVlBMTdaVThqVk05bkVZQWxfLVFQU203TnZCLUV2OW1fRkpnM3VmMHhRZVViUEtYc2dhOXNsUl9xSVJWeXdqLWM2VUlzdVdKQUFtOUxURG0teWw0N2dVei1tY1AzYTRocTZVb2ZaZGwzeGozeEpwdw?oc=5" class="text-dark">Zendesk Boosts AI Innovation to Transform Customer Service Experience - Small Business Trends</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFh0ejFLaGx5cmVOZlFGaVNqS3FQSHBkclg0eXBwTkdaNWs4QVlqYzc2YmtTdXpvNktnNmxqY2lxa1o1RnBfUDBEcjZWcUZ1UnJtVF84OVhXLUpURjFNcHVpSWZ6eVZaalJ4TzVkTGJFMnM1SEpMdXFMZi15NGJkUWhHRHhYOWhKNERySUZzMWRYRmgzbG9EZ1ZuUQ?oc=5" class="text-dark">AI Agents, Smart Automation Boost Customer Experience - Mexico Business News</a>
                 
             </h6>
             <small class="text-muted">
@@ -181,7 +156,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">31 stories</span>
+        <span class="badge badge-info ml-2">33 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -193,9 +168,9 @@ background: grey
             </div>
             <div class="card-body">
                 
-                <h6><a href="https://support.zendesk.com/hc/en-us/articles/9833274501786-Update-October-17-Important-notice-about-recent-spam-emails-via-Zendesk" class="text-dark" target="_blank">Update [October 17]: Important notice about recent spam emails via Zendesk</a></h6>
+                <h6><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFh0ejFLaGx5cmVOZlFGaVNqS3FQSHBkclg0eXBwTkdaNWs4QVlqYzc2YmtTdXpvNktnNmxqY2lxa1o1RnBfUDBEcjZWcUZ1UnJtVF84OVhXLUpURjFNcHVpSWZ6eVZaalJ4TzVkTGJFMnM1SEpMdXFMZi15NGJkUWhHRHhYOWhKNERySUZzMWRYRmgzbG9EZ1ZuUQ?oc=5" class="text-dark" target="_blank">AI Agents, Smart Automation Boost Customer Experience - Mexico Business News</a></h6>
                 <p class="mb-2">Significant platform update affecting Zendesk administrators.</p>
-                <small class="text-muted">Zendesk Announcements • 2 days ago</small>
+                <small class="text-muted">Google News - Zendesk • recently</small>
             
             </div>
         </div>
@@ -216,7 +191,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 33 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -329,7 +304,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
+                <i class="far fa-clock"></i> 3 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -417,11 +392,36 @@ background: grey
 
     <div class="category-section mb-4">
         <h5 class="category-title">
-            💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">11</span>
+            📊 Business & Strategy
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMihwJBVV95cUxNdmNyZ1NsSjVnRzN0V0pfOE9wOXBTNUpOMHRobGEtd1dUZWIxTTc1M1BZTU5IdWwzeWFaMmdqZnprNEZVRU0xcFd1clFWMDMxQzNtUTB5MXN3dlF3aGVWVTAwUmtWdEJfTF9kSDNvRm55WFdWWkdOQ253a19zZlBqX3hrb014S1pzNi1EVmdYSG5UMExWZG9vN2xKWnVWNFEzZU9talRnMHpadkVZOUdudUhMclQ5R09pNHNoWVdVbzJycDFnUl83Mmhnd0x6UFQ5Q2Q5Sm13cmZGNE1obmhIX0cwODlERXpnVUtERjRlUWlwQVUxaW52UnVyU3ZINUNuMkRVWlBjVQ?oc=5" class="text-dark">Zendesk Selects Gong Revenue AI Platform to Accelerate its Go-to-Market Transformation as it Introduces New AI Offerings - PR Newswire</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        </div>
+    </div>
+
+    <div class="category-section mb-4">
+        <h5 class="category-title">
+            💡 Resources & Learning
+            <span class="badge badge-secondary ml-2">12</span>
+        </h5>
+        <div class="category-articles">
+        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFh0ejFLaGx5cmVOZlFGaVNqS3FQSHBkclg0eXBwTkdaNWs4QVlqYzc2YmtTdXpvNktnNmxqY2lxa1o1RnBfUDBEcjZWcUZ1UnJtVF84OVhXLUpURjFNcHVpSWZ6eVZaalJ4TzVkTGJFMnM1SEpMdXFMZi15NGJkUWhHRHhYOWhKNERySUZzMWRYRmgzbG9EZ1ZuUQ?oc=5" class="text-dark">AI Agents, Smart Automation Boost Customer Experience - Mexico Business News</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE8yVlBWd1c2ZXpOb19BeHZjU1FUaEZMaDMybmtNNGxqVTRjQXFCOWI3cU1ZM05JN0lpOXFYNmZvVVZ2MTV5VDdIdFI4OVlyUTYxVjBVQjktZkc1U2o1VjFuN1h2QWhPVkxlMkFUWDlRUEdqZjFsV0k3NQ?oc=5" class="text-dark">Many users baffled by surprise support ticket email from help@gotinder - PiunikaWeb</a>
                 
@@ -530,11 +530,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18/10/2025</strong><br>
+                    <strong>19/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
