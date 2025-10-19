@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 19 October 2025 | Deltastring",
-  "datePublished": "2025-10-19T11:00:05+00:00",
-  "dateModified": "2025-10-19T11:00:05+00:00",
+  "datePublished": "2025-10-19T12:00:14+00:00",
+  "dateModified": "2025-10-19T12:00:14+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: AI can now solve most customer support problems, Zendesk says - The Star</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 19 October 2025
+            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 19 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9425412142874-Service-Incident-October-18-2025-All-Pods-Email-processing-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 20 hours ago
+                        <i class="far fa-clock"></i> 21 hours ago
                     </small>
                 </div>
             </div>
@@ -191,8 +191,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing reliance on AI and automation in Zendesk's product offerings, coupled with a series of service incidents and security breaches that suggest these new technologies may be introducing instability and vulnerabilities into the platform.</p>
-            <p>Zendesk administrators need to carefully evaluate the impact of AI and automation on their core support infrastructure, prioritizing thorough testing and monitoring to ensure these new features do not disrupt critical customer service workflows, while also strengthening security measures to protect against the growing threat of cyber attacks targeting Zendesk's ecosystem.</p>
+            <p>The most significant operational pattern observed is the increasing reliance on AI and automation in Zendesk's product offerings, coupled with a series of service incidents and security breaches that suggest these new technologies may be introducing instability and vulnerabilities. Zendesk administrators need to carefully evaluate the impact of AI and automation on their core infrastructure, thoroughly test new features in staging environments, and implement robust security measures to mitigate the risks associated with these technological advancements.</p>
         </div>
     </div>
     
@@ -543,7 +542,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
