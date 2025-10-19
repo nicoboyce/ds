@@ -35,13 +35,15 @@ package-lock.json
 ehthumbs.db
 Thumbs.db
 
-# SEO files
-seo.md
-C_seo.md
+# Planning & internal documentation
+C_*.md
 SEO_RECOVERY_PLAN.md
+SEO_MONITORING_SCHEDULE.md
 zendesk_queries.csv
 zendesk_queries_updated.csv
 
 # Other
 qz
 zendesk_*.py
+video_shorts_questions.md
+zendesk_components_video_plan.md
