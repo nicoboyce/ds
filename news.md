@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 19 October 2025 | Deltastring",
-  "datePublished": "2025-10-19T08:00:05+00:00",
-  "dateModified": "2025-10-19T08:00:05+00:00",
+  "datePublished": "2025-10-19T09:00:08+00:00",
+  "dateModified": "2025-10-19T09:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: AI can now solve most customer support problems, Zendesk says - The Star</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 08:00 GMT, 19 October 2025
+            <i class="far fa-clock"></i> Last updated: 09:00 GMT, 19 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9425412142874-Service-Incident-October-18-2025-All-Pods-Email-processing-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 17 hours ago
+                        <i class="far fa-clock"></i> 18 hours ago
                     </small>
                 </div>
             </div>
@@ -208,7 +208,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -265,14 +265,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 10 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -419,7 +411,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -441,6 +433,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ21yXzQ5WXFxazJkWExxa1VCWVN3SEZpOHBpbVlMblRNRjRVNkhpOHVuU1dNem0wVmRLM3RMemRqd1dDZF9tanhHTmdpbGVkWk1VTF9rX1RqQnFuQm9XTVRiaVcyaU5CaG14SURfV05SR08zVnhmb21Qekk2SUZZUnp3c2lTMWphakl2MmRKZG9pWnRXMVpXdXNoRXF2aUcxUnY1dnp2MFJWNG12VmZleV9aT08?oc=5" class="text-dark">Zight Enhances Support Workflows With Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - 富途牛牛</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkFHRjZXd2lkWnVzaE9GWVp2TU1BczlheXBuU25RQlVtTGo0dEVKOERpUllTbEE4SGJrV1JtU0syci1ZMGNqQndibFVpZkdQVVMybU9BNC1HOFA3ZGFUVGNkakhxZmM1dFFLZ2QyRjM4TGw0TVlSWUR0U3RWUlQ0TDl2NVM3SzM3dVpOeUFpUi1EUC15T2JPZ0g1djZvMVNqNXZtY2lyWklvcFpkMWV5bHpxNjd6cVJY?oc=5" class="text-dark">Discord admits compromise of 70,000 Online Safety Act proof-of-age IDs - Computing UK</a>
                 
             </h6>
             <small class="text-muted">
@@ -481,7 +481,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjZvNDFpRE84dDhLak1IOVhOUFZBRGRXWTR1UmFrVGo0WXZRN05ub3E5TjQ0LVJ4WFhpRFNDNUNzSURHUEd1QmRqNjBmTHQ1eHk3ZFZPQlcyV292ZkRQdXNPdDFwNmdmTWhaQV9wbkc4MUFMTFlKRTZlaVEtQ0t5MXl4Nk5HSlZ2VlZKMGVrRnVCWDAxOWhpUmJKOA?oc=5" class="text-dark">Zendesk says its new AI agent can solve 80% of support issues - TechCrunch</a>
-                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk">[2 sources]</small>
+                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -535,7 +535,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>09:00 (London)</strong><br>
+                    <strong>10:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
