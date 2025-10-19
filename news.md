@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 19 October 2025 | Deltastring",
-  "datePublished": "2025-10-19T10:00:08+00:00",
-  "dateModified": "2025-10-19T10:00:08+00:00",
+  "datePublished": "2025-10-19T11:00:05+00:00",
+  "dateModified": "2025-10-19T11:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: AI can now solve most customer support problems, Zendesk says - The Star</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 10:00 GMT, 19 October 2025
+            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 19 October 2025
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9425412142874-Service-Incident-October-18-2025-All-Pods-Email-processing-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 19 hours ago
+                        <i class="far fa-clock"></i> 20 hours ago
                     </small>
                 </div>
             </div>
@@ -361,7 +361,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
+                <i class="far fa-clock"></i> 9 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -543,7 +543,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>11:00 (London)</strong><br>
+                    <strong>12:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
