@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the prevalence of service incidents and technical issues across multiple Zendesk products and pods, coinciding with the announcement of major AI and automation capabilities. This suggests that Zendesk administrators need to carefully monitor the stability and performance of the platform as the company rapidly expands its AI-powered features, ensuring that new functionality is thoroughly tested and rolled out in a controlled manner to avoid disrupting core support operations.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing reliance on AI and automation in Zendesk's product offerings, coupled with a series of service incidents and security breaches that suggest these new technologies may be introducing instability and vulnerabilities into the platform.\n\nZendesk administrators need to carefully evaluate the impact of AI and automation on their core support infrastructure, prioritizing thorough testing and monitoring to ensure these new features do not disrupt critical customer service workflows, while also strengthening security measures to protect against the growing threat of cyber attacks targeting Zendesk's ecosystem.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-18T18:00:13.234741",
+  "generated_at": "2025-10-19T06:00:53.817509",
   "release_notes": {
     "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
     "article": {
