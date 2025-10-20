@@ -1,22 +1,22 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed across these article titles is the prevalence of security incidents and service disruptions affecting Zendesk's core products and integrations. This indicates that Zendesk administrators need to prioritize proactive monitoring, incident response planning, and robust security measures to ensure the stability and reliability of the Zendesk ecosystem for their organizations.\n\nAdditionally, the titles suggest that Zendesk is rapidly expanding its AI and automation capabilities, which may be contributing to some of the service disruptions. Administrators should closely evaluate the impact of these new features on their Zendesk environment and ensure thorough testing and gradual rollouts to mitigate potential instability.",
+  "recently_narrative": "The most significant operational pattern observed is the increasing focus on AI-powered capabilities and the potential impact on Zendesk's core infrastructure and service delivery. This suggests that Zendesk administrators need to closely monitor the rollout and integration of these AI features, ensuring thorough testing and staged deployment to mitigate any destabilizing effects on critical communication and support channels.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-20T12:00:09.054256",
+  "generated_at": "2025-10-20T18:00:11.047914",
   "release_notes": {
-    "summary": "Copilot ticket summarization now includes both public replies and internal notes, with an expanded word limit to capture more ticket context. Copilot's real-time AI suggestions for agents during live voice calls provide instant, context-aware recommendations from the help center to help resolve customer issues more efficiently.",
+    "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
-      "id": "2eea867a2eae",
-      "title": "Release notes through 2025-10-10",
-      "link": "https://support.zendesk.com/hc/en-us/articles/9819969387802-Release-notes-through-2025-10-10",
-      "description": "See our What's New for an overview of what was released last month.This week's release notes include:\nCopilot\nVoice\nApp Marketplace\nProducts with no updates this week\nCopilotNew:We’ve enhanced the Copilot ticket summarization feature. You can now include both public replies and internal notes from a...",
-      "pub_date": "Sun, 12 Oct 2025 18:30:33 +0000",
+      "id": "7584af848dec",
+      "title": "Release notes through 2025-10-17",
+      "link": "https://support.zendesk.com/hc/en-us/articles/9849642961946-Release-notes-through-2025-10-17",
+      "description": "See the What's New section for an overview of what was released last month.This week's release notes include:\nSupport\nVoice\nZendesk Workforce Management (WFM)\nApp Marketplace\nProducts with no updates this week\nSupportNew:Connect your custom objects to your knowledge base with new lookup relationship...",
+      "pub_date": "Mon, 20 Oct 2025 16:20:08 +0000",
       "source": "Zendesk Release Notes",
       "category": "zendesk",
       "colour": "warning",
-      "fetched_at": "2025-10-14T06:00:03.685092"
+      "fetched_at": "2025-10-20T18:00:06.279554"
     },
-    "generated_at": "2025-10-14T06:00:08.487892"
+    "generated_at": "2025-10-20T18:00:13.073977"
   }
 }
