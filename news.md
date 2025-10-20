@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 20 October 2025 | Deltastring",
-  "datePublished": "2025-10-20T02:00:06+00:00",
-  "dateModified": "2025-10-20T02:00:06+00:00",
+  "datePublished": "2025-10-20T03:00:07+00:00",
+  "dateModified": "2025-10-20T03:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: AI can now solve most customer support problems, Zendesk says - The Star</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 02:00 GMT, 20 October 2025
+            <i class="far fa-clock"></i> Last updated: 03:00 GMT, 20 October 2025
         </p>
     </div>
 </div>
@@ -527,7 +527,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>03:00 (London)</strong><br>
+                    <strong>04:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
