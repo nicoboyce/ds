@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 21 October 2025 | Deltastring",
-  "datePublished": "2025-10-21T05:00:08+00:00",
-  "dateModified": "2025-10-21T05:00:08+00:00",
+  "datePublished": "2025-10-21T06:00:07+00:00",
+  "dateModified": "2025-10-21T06:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 20th, 2025</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 05:00 GMT, 21 October 2025
+            <i class="far fa-clock"></i> Last updated: 06:00 GMT, 21 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9848445213210-Service-Incident-October-20th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 5 hours ago
+                        <i class="far fa-clock"></i> 6 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 20 hours ago
+                <i class="far fa-clock"></i> 21 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -113,7 +113,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span> <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 hours ago
+                <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -138,7 +138,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 hours ago
+                <i class="far fa-clock"></i> 9 hours ago
             </small>
         </article>        </div>
     </div>
@@ -151,7 +151,7 @@ background: grey
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHpxT21zb1RTdDY3ajhxWjJjMkVDeHdQUk1iRXhsMk5fR3duZGM0VHZvU1FLdDhIZ09JYkEyRUhLajQ5ekNpWEItMHlHWG1rVWRyTEJQSE00NzlXaFl2aTY0YnZFN2JoT2dqRGV2T0pHTE8zaHlFYkU3X2pIbzVhZy1NQWdJTWhxY3lSQ3JFN3B0UDlFbGVWMWZTZGo0N19qSVdYRTNuY1A5VEcwOGVacHctdw?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - The Star</a>
+                <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHpxT21zb1RTdDY3ajhxWjJjMkVDeHdQUk1iRXhsMk5fR3duZGM0VHZvU1FLdDhIZ09JYkEyRUhLajQ5ekNpWEItMHlHWG1rVWRyTEJQSE00NzlXaFl2aTY0YnZFN2JoT2dqRGV2T0pHTE8zaHlFYkU3X2pIbzVhZy1NQWdJTWhxY3lSQ3JFN3B0UDlFbGVWMWZTZGo0N19qSVdYRTNuY1A5VEcwOGVacHctdw?oc=5" class="text-dark">AI can now solve most customer support problems, Zendesk says - The Star | Malaysia</a>
                 
             </h6>
             <small class="text-muted">
@@ -167,7 +167,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">32 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -194,7 +194,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the increasing focus on AI-powered capabilities and the potential impact on Zendesk's core infrastructure and service delivery. This suggests that Zendesk administrators need to closely monitor the rollout and integration of these AI features, ensuring thorough testing and staged deployment to mitigate any destabilizing effects on critical communication and support channels.</p>
+            <p>The most significant operational pattern observed across these article titles is the prevalence of security and stability issues affecting Zendesk's core products and infrastructure. Multiple incidents involving authentication vulnerabilities, email bombing attacks, and service disruptions suggest that Zendesk administrators need to prioritize proactive monitoring, rigorous testing, and rapid incident response to ensure the reliability and security of their Zendesk ecosystem.</p>
+            <p>Furthermore, the titles indicate that Zendesk is aggressively pursuing AI-driven innovation, with the introduction of new AI capabilities for customer service and agent productivity. However, the concurrent reports of stability issues and security breaches highlight the need for Zendesk administrators to carefully manage the rollout and integration of these AI features, ensuring they do not introduce additional operational complexities or vulnerabilities.</p>
         </div>
     </div>
     
@@ -202,7 +203,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -210,7 +211,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -228,6 +229,22 @@ background: grey
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1B3M2JnRDUtXzU1UUEzSTRpREg2eVFtNnRHSnVQcmt4TmVwOTR0X3phbVBCZjN2b3RjSkozV2RSLTRWTFZPRzVodUNORnBST2FUNjRocmxfTFllT2phNnpoMjJSQjVPMUJTTUV1Vi1SX2NXeFd2Z0FLaGVmTVhxMzIwVERkV1VaTWVRWkU4RQ?oc=5" class="text-dark">Cybercriminals Exploit Zendesk Flaw for Email Bomb Attacks - WebProNews</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9WbThCZWx5dDdJbEwwMFpUanlraDdNVFR1V0tveUI0NU5XWWhGTUR0N19VdHQ1Y3prNDRGcEZEUl83cnVCVG9QME53SDVhZTZTY0g4akxPZVBqSF96cGxiM0psREZsYk5MclpJdHFhZFpFV2NPbGpjWtIBfkFVX3lxTE9ROWpYNUwycG1ScFo2SlN1aEJpaksyYklJVzBMVEdZczR2aWplU05iUEpqa01XTVhmYUt1YkljZFdsRVZ3LXBPTkJhX1VvZ1RTYzIySWxVSHRURlJJeUVYRk1oMkZZTHNMd2EweDFNTTNCcFZ2Y1dtZTVYUHV3Zw?oc=5" class="text-dark">Attackers Exploit Zendesk Authentication Issue to Flood Targets’ Inboxes with Corporate Notifications - GBHackers News</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information" class="text-dark">Announcing a Unified Location for Service Incident Information</a>
@@ -287,6 +304,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNTmU3VlgtcmVOcmFPNllVZ2hlbFpNaTNzZ0tFZW5SR0RQQXE5ek9vNGEwMWFrTWtIR281VWdBSV9FSDczMm1Rb3NiSXQ2VlBUbTBDeW15VWVzbGprRzR0cWR6djRqNVk3NWRhOVptZVRzYWN5Nlhlck5pWTNxdUZUanRn?oc=5" class="text-dark">Hackers breach Zendesk to extort Discord with stolen IDs - Protos | Informed crypto news</a>
                 
             </h6>
             <small class="text-muted">
@@ -388,20 +413,12 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             📊 Business & Strategy
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMihwJBVV95cUxNdmNyZ1NsSjVnRzN0V0pfOE9wOXBTNUpOMHRobGEtd1dUZWIxTTc1M1BZTU5IdWwzeWFaMmdqZnprNEZVRU0xcFd1clFWMDMxQzNtUTB5MXN3dlF3aGVWVTAwUmtWdEJfTF9kSDNvRm55WFdWWkdOQ253a19zZlBqX3hrb014S1pzNi1EVmdYSG5UMExWZG9vN2xKWnVWNFEzZU9talRnMHpadkVZOUdudUhMclQ5R09pNHNoWVdVbzJycDFnUl83Mmhnd0x6UFQ5Q2Q5Sm13cmZGNE1obmhIX0cwODlERXpnVUtERjRlUWlwQVUxaW52UnVyU3ZINUNuMkRVWlBjVQ?oc=5" class="text-dark">Zendesk Selects Gong Revenue AI Platform to Accelerate its Go-to-Market Transformation as it Introduces New AI Offerings - PR Newswire</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNl82c29PQWk0S1N3QWlvNG1OOTZfRXloRm9GZ290dS1DWXQ5aWprRVJsLVp4NzRJQ0d1WDEyNWdxeTlQQ1JTQUNFdDJiME52OUJLdWRjWUhVdGNWelltR2NiMEx0VTFBdmtGT25xVnltQjI3UHcxVmlxOV91X1pZWkV1T25DNnhsYW1JNGUxaFAxNkRvR3JyMWY4bnBwQ0paX2NPeVJQM0hkUQ?oc=5" class="text-dark">Zendesk - 2025 Funding Rounds & List of Investors - Tracxn</a>
                 
             </h6>
             <small class="text-muted">
@@ -426,7 +443,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
+                <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXQ5VDNFZjU3X1lMeWoxNzZZWExIU2JJeVRWeVhOUU9mWktKLW1lNDFnRWNlSTBaV3ZMR1dEaE1KbjRBRENpX3JPZkprcXhiTzl6cXhncnNkZFpoTzloUmRtc0lFRllZV042enYxa0U5NkliblJ5cjJHWWlwTXRkMUNBSEN3bmZueXpqODJFZVVuVmxhNVNlZkJMdmFpaksydFNNUXBaWDVYMTJyVkd6RXkyNzRrbzc2bjRn0gHAAUFVX3lxTE1Mcm9FSkxqaGluOVlGcGNuQ1lWcUV5ZXlRcXFZbkhVWDNBZXFyZmJxUVE1b09FeEhMSXgzSENjZ3Z6R2IzNE1jT0NtSkYyU1VWVWRZN0ctUTAzRFNNV2N6R191VHBWZTBsSnhTNW4yR0xtTHZndjdDR1RHVGRGZFFvRnVucXo3enFha0EybEJmQjdKOWo3S3VEbFVSQzFLUGpqZjNwNkRKS0FpdnM1TGlObXlvOE16aTZOeEROTlJUeg?oc=5" class="text-dark">AI doesn't replace customer service teams, it empowers them to do things differently, says Zendesk CTO - Diginomica</a>
                 
             </h6>
             <small class="text-muted">
@@ -491,7 +508,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVjItMkNVMTMxRmo1QjFNRk1kcTUxWU1pRmtQYkltTlo2MWtkOV93SmlEYjBaZXE0UGRIWmNGUlNwakVSVHR1TGdzT256NlZPWk11N1M2TGxPX0M0WjUxdnJBWFZ4ODBIQUJFX2pKNGhmVjlZNXNnQ01OZWVBMll3SmFjS3NxR0lkZk4xR3JnWXp1MTlaRlpqSHZQcFE3c2RQSGp0WU5JejVrX1R4ZnhlOXZRemRTM3lITk9QWUZaWXFlR0ZFMGFhUFAzTzVKVE1IdlU0Y2RWU3RJLVJuUWROajNfOW1Ya3dEQ3lRVV9VdllWdFl5?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - PR Newswire</a>
-                 <small class="text-info" title="Google News - Zendesk, Zendesk Press Releases">[2 sources]</small>
+                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -521,7 +538,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
