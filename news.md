@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 21 October 2025 | Deltastring",
-  "datePublished": "2025-10-21T06:00:07+00:00",
-  "dateModified": "2025-10-21T06:00:07+00:00",
+  "datePublished": "2025-10-21T07:00:07+00:00",
+  "dateModified": "2025-10-21T07:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 20th, 2025</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 06:00 GMT, 21 October 2025
+            <i class="far fa-clock"></i> Last updated: 07:00 GMT, 21 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9848445213210-Service-Incident-October-20th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 6 hours ago
+                        <i class="far fa-clock"></i> 7 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 21 hours ago
+                <i class="far fa-clock"></i> 22 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -113,7 +113,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span> <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 22 hours ago
+                <i class="far fa-clock"></i> 23 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -138,7 +138,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 hours ago
+                <i class="far fa-clock"></i> 10 hours ago
             </small>
         </article>        </div>
     </div>
@@ -275,7 +275,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span> <span class="badge badge-warning ml-2">Updated</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 5 days ago
+                <i class="far fa-clock"></i> 6 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -484,7 +484,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjZvNDFpRE84dDhLak1IOVhOUFZBRGRXWTR1UmFrVGo0WXZRN05ub3E5TjQ0LVJ4WFhpRFNDNUNzSURHUEd1QmRqNjBmTHQ1eHk3ZFZPQlcyV292ZkRQdXNPdDFwNmdmTWhaQV9wbkc4MUFMTFlKRTZlaVEtQ0t5MXl4Nk5HSlZ2VlZKMGVrRnVCWDAxOWhpUmJKOA?oc=5" class="text-dark">Zendesk says its new AI agent can solve 80% of support issues - TechCrunch</a>
-                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk">[2 sources]</small>
+                
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -508,7 +508,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVjItMkNVMTMxRmo1QjFNRk1kcTUxWU1pRmtQYkltTlo2MWtkOV93SmlEYjBaZXE0UGRIWmNGUlNwakVSVHR1TGdzT256NlZPWk11N1M2TGxPX0M0WjUxdnJBWFZ4ODBIQUJFX2pKNGhmVjlZNXNnQ01OZWVBMll3SmFjS3NxR0lkZk4xR3JnWXp1MTlaRlpqSHZQcFE3c2RQSGp0WU5JejVrX1R4ZnhlOXZRemRTM3lITk9QWUZaWXFlR0ZFMGFhUFAzTzVKVE1IdlU0Y2RWU3RJLVJuUWROajNfOW1Ya3dEQ3lRVV9VdllWdFl5?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - PR Newswire</a>
-                
+                 <small class="text-info" title="Google News - Zendesk, Zendesk Press Releases">[2 sources]</small>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -538,7 +538,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>07:00 (London)</strong><br>
+                    <strong>08:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
