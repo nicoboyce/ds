@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 21 October 2025 | Deltastring",
-  "datePublished": "2025-10-21T22:00:06+00:00",
-  "dateModified": "2025-10-21T22:00:06+00:00",
+  "datePublished": "2025-10-21T23:00:05+00:00",
+  "dateModified": "2025-10-21T23:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 22:00 GMT, 21 October 2025
+            <i class="far fa-clock"></i> Last updated: 23:00 GMT, 21 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 9 hours ago
+                        <i class="far fa-clock"></i> 10 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 hours ago
+                <i class="far fa-clock"></i> 11 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -183,7 +183,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">31 stories</span>
+        <span class="badge badge-info ml-2">32 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -196,7 +196,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRTl1Z29EdFF0N1BVNHhiQWRZRmp1bERodjJsVkNpRk1VSUJISmNoZGFiQ0FwUlJDT0RSNWRRMDNzcEZ5RF80TzBtdTR5bXlBaVYzZ1piNHRjZG5rMGxMNFdLR0x2THNCZHNzenMxQ28xU1NHYk03SWJsOWhlNEpHdXdsVnRuZUl4dWpQTS1DOA?oc=5" class="text-dark" target="_blank">Email Bombs Exploit Lax Authentication in Zendesk - Krebs on Security</a></h6>
-                <p class="mb-2">This article highlights a critical security vulnerability in Zendesk's authentication system, which could allow attackers to launch email bomb attacks, emphasising the need for Zendesk administrators to review and strengthen their security protocols to protect their customers' data and mitigate such exploits.</p>
+                <p class="mb-2">The article highlights a critical security vulnerability in Zendesk's authentication system, allowing malicious actors to orchestrate email bombing attacks, which Zendesk administrators must urgently address to safeguard their customers' data and prevent service disruptions.</p>
                 <small class="text-muted">Google News - Zendesk • recently</small>
             
             </div>
@@ -219,7 +219,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -396,7 +396,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 12 days ago
+                <i class="far fa-clock"></i> 13 days ago
             </small>
         </article>        </div>
     </div>
@@ -438,7 +438,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">10</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -452,6 +452,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXQ5VDNFZjU3X1lMeWoxNzZZWExIU2JJeVRWeVhOUU9mWktKLW1lNDFnRWNlSTBaV3ZMR1dEaE1KbjRBRENpX3JPZkprcXhiTzl6cXhncnNkZFpoTzloUmRtc0lFRllZV042enYxa0U5NkliblJ5cjJHWWlwTXRkMUNBSEN3bmZueXpqODJFZVVuVmxhNVNlZkJMdmFpaksydFNNUXBaWDVYMTJyVkd6RXkyNzRrbzc2bjRn0gHAAUFVX3lxTE1Mcm9FSkxqaGluOVlGcGNuQ1lWcUV5ZXlRcXFZbkhVWDNBZXFyZmJxUVE1b09FeEhMSXgzSENjZ3Z6R2IzNE1jT0NtSkYyU1VWVWRZN0ctUTAzRFNNV2N6R191VHBWZTBsSnhTNW4yR0xtTHZndjdDR1RHVGRGZFFvRnVucXo3enFha0EybEJmQjdKOWo3S3VEbFVSQzFLUGpqZjNwNkRKS0FpdnM1TGlObXlvOE16aTZOeEROTlJUeg?oc=5" class="text-dark">AI doesn't replace customer service teams, it empowers them to do things differently, says Zendesk CTO - Diginomica</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
                 
             </h6>
             <small class="text-muted">
@@ -546,7 +554,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23:00 (London)</strong><br>
+                    <strong>00:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
