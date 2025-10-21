@@ -383,27 +383,38 @@ class RSSPageGenerator:
             title = dont_miss['title']
             source = dont_miss.get('source', '')
             time_ago = self.format_time_ago(dont_miss.get('pub_date', ''))
-            
-            # Add context about why this matters
-            context = ""
-            title_lower = title.lower()
-            if 'oauth' in title_lower or 'authentication' in title_lower:
-                context = "This fundamentally changes how you'll manage third-party integrations."
-            elif 'eap' in title_lower:
-                context = "Early access to test upcoming features before general release."
-            elif 'vulnerability' in title_lower:
-                context = "Critical security issue requiring immediate attention."
-            elif 'deprecat' in title_lower:
-                context = "Breaking change that may affect your integrations."
-            else:
-                context = "Significant platform update affecting Zendesk administrators."
-                
+
+            # Try Claude-generated context first
+            context = None
+            try:
+                from claude_summariser import ClaudeSummariser
+                summariser = ClaudeSummariser()
+                context = summariser.generate_dont_miss_context(dont_miss)
+                if context:
+                    print(f"Generated AI context for Don't Miss: {context}")
+            except Exception as e:
+                print(f"Failed to generate AI context: {e}")
+
+            # Fallback to template-based context
+            if not context:
+                title_lower = title.lower()
+                if 'oauth' in title_lower or 'authentication' in title_lower:
+                    context = "This fundamentally changes how you'll manage third-party integrations."
+                elif 'eap' in title_lower:
+                    context = "Early access to test upcoming features before general release."
+                elif 'vulnerability' in title_lower:
+                    context = "Critical security issue requiring immediate attention."
+                elif 'deprecat' in title_lower:
+                    context = "Breaking change that may affect your integrations."
+                else:
+                    context = "Significant platform update affecting Zendesk administrators."
+
             return f"""
                 <h6><a href="{link}" class="text-dark" target="_blank">{title}</a></h6>
                 <p class="mb-2">{context}</p>
                 <small class="text-muted">{source} • {time_ago}</small>
             """
-            
+
         return "<p class='text-muted'>No significant updates in the recent period.</p>"
     
     def generate_categorised_section(self, deduplicated_articles, section_title="Latest Updates"):

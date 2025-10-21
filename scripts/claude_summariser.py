@@ -129,7 +129,61 @@ REQUIREMENTS:
             # Fallback summaries will be used instead
             print(f"Claude API error: {e}")
             return None  # Will be handled by caller
-    
+
+    def generate_dont_miss_context(self, article):
+        """
+        Generate a contextual comment for the "Don't Miss" article using Claude.
+
+        Args:
+            article: Dictionary with title, description, source
+
+        Returns:
+            String: 1-2 sentence contextual explanation, or None if API fails
+        """
+        if not self.api_key:
+            return None
+
+        title = article.get('title', '')
+        description = article.get('description', '')
+        source = article.get('source', '')
+
+        prompt = f"""You are a technical editor for Zendesk administrators.
+
+Article: {title}
+Description: {description}
+Source: {source}
+
+Write ONE compelling sentence (under 25 words) explaining why this specific article matters to Zendesk admins. Be specific and practical, referencing technical details from the article. Use British English."""
+
+        try:
+            headers = {
+                'Content-Type': 'application/json',
+                'x-api-key': self.api_key,
+                'anthropic-version': '2023-06-01'
+            }
+
+            payload = {
+                'model': 'claude-3-haiku-20240307',
+                'max_tokens': 150,
+                'temperature': 0.3,
+                'messages': [{'role': 'user', 'content': prompt}]
+            }
+
+            response = requests.post(
+                'https://api.anthropic.com/v1/messages',
+                headers=headers,
+                json=payload,
+                timeout=10
+            )
+
+            response.raise_for_status()
+            result = response.json()
+            return result['content'][0]['text'].strip()
+
+        except Exception as e:
+            print(f"Don't Miss context generation failed: {e}")
+            return None
+
     def fallback_summary(self, articles):
         """Generate comprehensive fallback summary matching the new format"""
         if not articles:
