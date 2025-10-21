@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 21 October 2025 | Deltastring",
-  "datePublished": "2025-10-21T11:00:05+00:00",
-  "dateModified": "2025-10-21T11:00:05+00:00",
+  "datePublished": "2025-10-21T12:00:07+00:00",
+  "dateModified": "2025-10-21T12:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 20th, 2025</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 21 October 2025
+            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 21 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9848445213210-Service-Incident-October-20th-2025
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 11 hours ago
+                        <i class="far fa-clock"></i> 12 hours ago
                     </small>
                 </div>
             </div>
@@ -138,7 +138,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 hours ago
+                <i class="far fa-clock"></i> 15 hours ago
             </small>
         </article>        </div>
     </div>
@@ -167,7 +167,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">32 stories</span>
+        <span class="badge badge-info ml-2">30 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -194,8 +194,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed across these article titles is the prevalence of security and stability issues affecting Zendesk's core products and infrastructure. Multiple incidents involving authentication vulnerabilities, email bombing attacks, and service disruptions suggest that Zendesk administrators need to prioritize proactive monitoring, rigorous testing, and rapid incident response to ensure the reliability and security of their Zendesk ecosystem.</p>
-            <p>Furthermore, the titles indicate that Zendesk is aggressively pursuing AI-driven innovation, with the introduction of new AI capabilities for customer service and agent productivity. However, the concurrent reports of stability issues and security breaches highlight the need for Zendesk administrators to carefully manage the rollout and integration of these AI features, ensuring they do not introduce additional operational complexities or vulnerabilities.</p>
+            <p>1. The most significant operational pattern observed is the increasing prevalence of security incidents and vulnerabilities in the Zendesk ecosystem, including email bombing attacks, authentication issues, and data breaches affecting high-profile customers like Discord.</p>
+            <p>2. This indicates that Zendesk administrators need to prioritize security monitoring, incident response planning, and proactive vulnerability management to protect their organizations from the growing threat landscape, while also closely evaluating the security implications of Zendesk's new AI-powered features and integrations.</p>
         </div>
     </div>
     
@@ -203,7 +203,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 32 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -422,7 +422,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">11</span>
+            <span class="badge badge-secondary ml-2">9</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -436,14 +436,6 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXQ5VDNFZjU3X1lMeWoxNzZZWExIU2JJeVRWeVhOUU9mWktKLW1lNDFnRWNlSTBaV3ZMR1dEaE1KbjRBRENpX3JPZkprcXhiTzl6cXhncnNkZFpoTzloUmRtc0lFRllZV042enYxa0U5NkliblJ5cjJHWWlwTXRkMUNBSEN3bmZueXpqODJFZVVuVmxhNVNlZkJMdmFpaksydFNNUXBaWDVYMTJyVkd6RXkyNzRrbzc2bjRn0gHAAUFVX3lxTE1Mcm9FSkxqaGluOVlGcGNuQ1lWcUV5ZXlRcXFZbkhVWDNBZXFyZmJxUVE1b09FeEhMSXgzSENjZ3Z6R2IzNE1jT0NtSkYyU1VWVWRZN0ctUTAzRFNNV2N6R191VHBWZTBsSnhTNW4yR0xtTHZndjdDR1RHVGRGZFFvRnVucXo3enFha0EybEJmQjdKOWo3S3VEbFVSQzFLUGpqZjNwNkRKS0FpdnM1TGlObXlvOE16aTZOeEROTlJUeg?oc=5" class="text-dark">AI doesn't replace customer service teams, it empowers them to do things differently, says Zendesk CTO - Diginomica</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
                 
             </h6>
             <small class="text-muted">
@@ -476,7 +468,7 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjZvNDFpRE84dDhLak1IOVhOUFZBRGRXWTR1UmFrVGo0WXZRN05ub3E5TjQ0LVJ4WFhpRFNDNUNzSURHUEd1QmRqNjBmTHQ1eHk3ZFZPQlcyV292ZkRQdXNPdDFwNmdmTWhaQV9wbkc4MUFMTFlKRTZlaVEtQ0t5MXl4Nk5HSlZ2VlZKMGVrRnVCWDAxOWhpUmJKOA?oc=5" class="text-dark">Zendesk says its new AI agent can solve 80% of support issues - TechCrunch</a>
-                
+                 <small class="text-info" title="Google News - Zendesk, Google News - Zendesk">[2 sources]</small>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -501,14 +493,6 @@ background: grey
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVjItMkNVMTMxRmo1QjFNRk1kcTUxWU1pRmtQYkltTlo2MWtkOV93SmlEYjBaZXE0UGRIWmNGUlNwakVSVHR1TGdzT256NlZPWk11N1M2TGxPX0M0WjUxdnJBWFZ4ODBIQUJFX2pKNGhmVjlZNXNnQ01OZWVBMll3SmFjS3NxR0lkZk4xR3JnWXp1MTlaRlpqSHZQcFE3c2RQSGp0WU5JejVrX1R4ZnhlOXZRemRTM3lITk9QWUZaWXFlR0ZFMGFhUFAzTzVKVE1IdlU0Y2RWU3RJLVJuUWROajNfOW1Ya3dEQ3lRVV9VdllWdFl5?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - PR Newswire</a>
                  <small class="text-info" title="Google News - Zendesk, Zendesk Press Releases">[2 sources]</small>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/advanced-end-user-merge-automatically-detect-merge-duplicate-users-in-one-click-sponsor/" class="text-dark">Advanced End User Merge: Automatically detect & merge duplicate users in one click.  (sponsor)</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> recently
@@ -538,7 +522,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
