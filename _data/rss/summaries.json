@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The most significant operational pattern observed is the increasing prevalence of security incidents and vulnerabilities in the Zendesk ecosystem, including email bombing attacks, authentication issues, and data breaches affecting high-profile customers like Discord.\n\n2. This indicates that Zendesk administrators need to prioritize security monitoring, incident response planning, and proactive vulnerability management to protect their organizations from the growing threat landscape, while also closely evaluating the security implications of Zendesk's new AI-powered features and integrations.",
+  "recently_narrative": "1. The most significant operational pattern that administrators need to understand is the increasing focus on AI-powered features and capabilities within the Zendesk ecosystem, as evidenced by the numerous articles highlighting the company's AI innovation, new AI offerings, and AI-powered automation features for contact centers.\n\n2. This indicates that Zendesk is heavily investing in AI technology to transform the customer service experience, which means administrators will need to carefully evaluate and test these AI-driven features to ensure they are stable, reliable, and integrated seamlessly with existing Zendesk products and workflows, while also considering the potential impact on their support teams and overall operations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-21T12:00:07.329218",
+  "generated_at": "2025-10-21T18:00:07.028712",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
