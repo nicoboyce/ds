@@ -1,4 +1,12 @@
 entries:
+  - date: "2025-10-21"
+    content: |
+      <p class="mb-2">
+          How was the AWS outage for you? I'm glad that Zendesk and the ecosystem mostly continued as usual. If your company had problems, definitely put some time into evaluating backup options and redundancy solutions!
+      </p>
+      <p class="mb-2">
+          Given that we've some relatively mundane updates this week I'm waving another old article in front of readers. I wrote a while ago about designing the Nico logo for my own website and you might find it interesting. It's <a href="https://nicoboyce.com/2024/05/25/where-did-the-nico-logo-design-originate/">here</a>.
+      </p>
   - date: "2025-10-11"
     content: |
       <p class="mb-2">
