@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 22 October 2025 | Deltastring",
-  "datePublished": "2025-10-22T05:00:05+00:00",
-  "dateModified": "2025-10-22T05:00:05+00:00",
+  "datePublished": "2025-10-22T06:00:08+00:00",
+  "dateModified": "2025-10-22T06:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 05:00 GMT, 22 October 2025
+            <i class="far fa-clock"></i> Last updated: 06:00 GMT, 22 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 16 hours ago
+                        <i class="far fa-clock"></i> 17 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -179,7 +179,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRTl1Z29EdFF0N1BVNHhiQWRZRmp1bERodjJsVkNpRk1VSUJISmNoZGFiQ0FwUlJDT0RSNWRRMDNzcEZ5RF80TzBtdTR5bXlBaVYzZ1piNHRjZG5rMGxMNFdLR0x2THNCZHNzenMxQ28xU1NHYk03SWJsOWhlNEpHdXdsVnRuZUl4dWpQTS1DOA?oc=5" class="text-dark" target="_blank">Email Bombs Exploit Lax Authentication in Zendesk - Krebs on Security</a></h6>
-                <p class="mb-2">This article highlights a critical vulnerability in Zendesk's authentication system, which could allow malicious actors to launch email bombing attacks, disrupting customer support operations and exposing sensitive data, making it a must-read for Zendesk administrators seeking to strengthen their platform's security.</p>
+                <p class="mb-2">The article highlights a critical vulnerability in Zendesk's authentication system, which could allow malicious actors to launch email bomb attacks, emphasising the need for Zendesk administrators to review and strengthen their security protocols to protect their customers' data and systems.</p>
                 <small class="text-muted">Google News - Zendesk • recently</small>
             
             </div>
@@ -193,8 +193,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>1. The most significant operational pattern that administrators need to understand is the increasing focus on AI-powered features and capabilities within the Zendesk ecosystem, as evidenced by the numerous articles highlighting the company's AI innovation, new AI offerings, and AI-powered automation features for contact centers.</p>
-            <p>2. This indicates that Zendesk is heavily investing in AI technology to transform the customer service experience, which means administrators will need to carefully evaluate and test these AI-driven features to ensure they are stable, reliable, and integrated seamlessly with existing Zendesk products and workflows, while also considering the potential impact on their support teams and overall operations.</p>
+            <p>The most significant operational pattern observed across these article titles is the rapid expansion of Zendesk's AI capabilities, particularly in the areas of customer service automation and agent assistance. This suggests that Zendesk administrators need to prioritize upskilling their teams to effectively leverage these new AI features, while also closely monitoring their impact on core platform stability and end-user experience to ensure a smooth transition.</p>
         </div>
     </div>
     
@@ -521,7 +520,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
