@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed across these article titles is the rapid expansion of Zendesk's AI capabilities, particularly in the areas of customer service automation and agent assistance. This suggests that Zendesk administrators need to prioritize upskilling their teams to effectively leverage these new AI features, while also closely monitoring their impact on core platform stability and end-user experience to ensure a smooth transition.",
+  "recently_narrative": "1. The most significant operational pattern observed across these article titles is the increasing prevalence of AI-related incidents and announcements, suggesting that Zendesk is rapidly expanding its AI capabilities while potentially struggling to maintain the stability and reliability of its core platform.\n\n2. This means that Zendesk administrators need to closely monitor the rollout and integration of new AI features, thoroughly test them in staging environments, and be prepared to quickly respond to any service disruptions or security issues that may arise as a result of the increased reliance on AI-powered systems.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-22T06:00:08.330449",
+  "generated_at": "2025-10-22T12:00:09.197927",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
