@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 22 October 2025 | Deltastring",
-  "datePublished": "2025-10-22T02:00:10+00:00",
-  "dateModified": "2025-10-22T02:00:10+00:00",
+  "datePublished": "2025-10-22T03:00:05+00:00",
+  "dateModified": "2025-10-22T03:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 02:00 GMT, 22 October 2025
+            <i class="far fa-clock"></i> Last updated: 03:00 GMT, 22 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 13 hours ago
+                        <i class="far fa-clock"></i> 14 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 hours ago
+                <i class="far fa-clock"></i> 15 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -179,7 +179,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRTl1Z29EdFF0N1BVNHhiQWRZRmp1bERodjJsVkNpRk1VSUJISmNoZGFiQ0FwUlJDT0RSNWRRMDNzcEZ5RF80TzBtdTR5bXlBaVYzZ1piNHRjZG5rMGxMNFdLR0x2THNCZHNzenMxQ28xU1NHYk03SWJsOWhlNEpHdXdsVnRuZUl4dWpQTS1DOA?oc=5" class="text-dark" target="_blank">Email Bombs Exploit Lax Authentication in Zendesk - Krebs on Security</a></h6>
-                <p class="mb-2">This article highlights a critical security vulnerability in Zendesk's email authentication process, which could allow malicious actors to launch email bombing attacks, potentially disrupting customer support operations and compromising Zendesk administrators' ability to effectively manage their platforms.</p>
+                <p class="mb-2">This article highlights a critical vulnerability in Zendesk's authentication system, which could allow malicious actors to launch email bombing attacks, disrupting customer support operations and exposing sensitive data - a serious concern for Zendesk administrators tasked with ensuring the security and reliability of their platform.</p>
                 <small class="text-muted">Google News - Zendesk • recently</small>
             
             </div>
@@ -513,7 +513,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>03:00 (London)</strong><br>
+                    <strong>04:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
