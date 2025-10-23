@@ -48,7 +48,7 @@ We took Bootstrap 5, stripped out everything Zendesk doesn't need, optimised wha
 The result: perfect Lighthouse scores across all metrics. Performance, accessibility, best practices, SEO. All 100.
 
 ![Lighthouse scores showing perfect 100s](/assets/img/lighthouse/deltastring.png)
-*This is what your help centre can achieve.*
+*This is what your help centre can achieve. When you get a perfect score, Chrome gives you fireworks in celebration.*
 
 ### What this actually means
 
