@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The article titles suggest a pattern of security and reliability issues affecting Zendesk's core support and communication capabilities, coinciding with the company's push to expand its AI and automation features.\n\n2. This indicates that Zendesk administrators need to carefully monitor the impact of new AI and automation deployments on their existing support infrastructure, and ensure robust testing and rollout processes to maintain service quality and security during periods of rapid product evolution.",
+  "recently_narrative": "1. The article titles indicate a pattern of security vulnerabilities and service disruptions in Zendesk's core products, coinciding with the company's efforts to expand its AI and integration capabilities.\n\n2. This suggests that Zendesk administrators need to prioritize system stability and security over rapid feature expansion, ensuring that new AI and integration functionalities are thoroughly tested and hardened against potential exploits before deployment to production environments.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-23T12:00:09.193260",
+  "generated_at": "2025-10-23T18:00:07.273234",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
