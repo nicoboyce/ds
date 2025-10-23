@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 23 October 2025 | Deltastring",
-  "datePublished": "2025-10-23T12:00:09+00:00",
-  "dateModified": "2025-10-23T12:00:09+00:00",
+  "datePublished": "2025-10-23T13:00:08+00:00",
+  "dateModified": "2025-10-23T13:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 23 October 2025
+            <i class="far fa-clock"></i> Last updated: 13:00 GMT, 23 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 9 hours ago
+                        <i class="far fa-clock"></i> 10 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 15 hours ago
+                <i class="far fa-clock"></i> 16 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -113,7 +113,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> yesterday
+                <i class="far fa-clock"></i> 2 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -138,7 +138,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 14 hours ago
+                <i class="far fa-clock"></i> 15 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -158,7 +158,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">31 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -171,7 +171,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre provides Zendesk administrators with a centralised view of critical account settings, empowering them to proactively manage their organisation's security posture.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates critical account settings, empowering Zendesk administrators to efficiently manage and enhance the security of their organisation's Zendesk instance.</p>
                 <small class="text-muted">Zendesk Announcements • 2 days ago</small>
             
             </div>
@@ -194,7 +194,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -202,7 +202,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">8</span>
+            <span class="badge badge-secondary ml-2">10</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -262,6 +262,14 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SV2IxZ1ZtRk9SYVlhU2l3ZXZEVkd1VmtwT25Bcm00TUppMWxPRWl4U0l0VFh4VDdBb1lRM0lZVzAwNkJHQ1EzS2NQMFpEdHo2dXM3Sl83M2FmeFRCUDRlS3VCRGxXdw?oc=5" class="text-dark">Discord Breach: What We Know So Far? - SOCRadar® Cyber Intelligence Inc.</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information" class="text-dark">Announcing a Unified Location for Service Incident Information</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
@@ -276,13 +284,21 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 14 days ago
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">12</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -375,14 +391,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNcjRzQVpHS3NWajBJNDJiVW5vaEV6VzJuaGZ1WE5LZG5ZZkx4cWdxMjlNd21tQ1NJaHlvY3JKOUV1TGx0TEhtYXZveW5XMWdFTGxjQlNzNUtLdXJrc3ZMak1tY3kxVEM1TDlvQ2Y0emVmdDd4LTUyeVh5R1ZCVzdHVGJYamV3RlhyZUdHa051bk9qVzRu?oc=5" class="text-dark">Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9806699043866-Announcing-a-modernized-Views-admin-page" class="text-dark">Announcing a modernized Views admin page</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
@@ -457,7 +465,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - Venturebeat</a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
                 
             </h6>
             <small class="text-muted">
@@ -504,7 +512,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>13:00 (London)</strong><br>
+                    <strong>14:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
