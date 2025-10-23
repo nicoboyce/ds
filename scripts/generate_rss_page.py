@@ -937,15 +937,36 @@ document.addEventListener('DOMContentLoaded', function() {{
 
         print(f"Archive section updated with: {display_date} - {topic_str}")
 
+    def extract_top_story_from_archive(self, file_path):
+        """Extract the first article title from an archive file"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # Find the first article in the "Latest - Last 48 Hours" section
+            # Look for the first article title after the Latest section starts
+            pattern = r'<article class="feed-item[^>]*>.*?<a href="[^"]*" class="text-dark">([^<]+)</a>'
+            match = re.search(pattern, content, re.DOTALL)
+
+            if match:
+                title = match.group(1).strip()
+                # Truncate if too long
+                if len(title) > 80:
+                    title = title[:77] + '...'
+                return title
+            return None
+        except Exception:
+            return None
+
     def generate_archive_section(self):
-        """Generate the archive section HTML"""
+        """Generate the archive section HTML with collapsible months"""
         # Scan for existing archive files
         archive_files = []
         for file_path in Path('.').glob('news-2025-*.md'):
             date_str = file_path.stem.replace('news-', '')
             try:
                 date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-                archive_files.append((date_obj, date_str))
+                archive_files.append((date_obj, date_str, file_path))
             except ValueError:
                 continue
 
@@ -956,27 +977,45 @@ document.addEventListener('DOMContentLoaded', function() {{
             return ""
 
         # Group by month
-        sept_files = []
-        aug_files = []
+        from collections import defaultdict
+        months = defaultdict(list)
 
-        for date_obj, date_str in archive_files:
+        for date_obj, date_str, file_path in archive_files:
             display_date = date_obj.strftime('%d %B').lstrip('0')
+            month_key = date_obj.strftime('%Y-%m')
+            month_name = date_obj.strftime('%B %Y')
 
-            # Read the file to extract key topics
-            try:
-                file_path = Path(f'news-{date_str}.md')
-                if file_path.exists():
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        content = f.read()
+            # Extract top story
+            top_story = self.extract_top_story_from_archive(file_path)
+            story_text = f' - {top_story}' if top_story else ''
 
-                    entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">Zendesk news - {display_date}</a></li>\n'
+            entry = f'                        <li><a href="/news-{date_str}/" class="text-dark">{display_date}{story_text}</a></li>\n'
+            months[month_key].append((month_name, entry))
 
-                    if date_obj.month == 9:  # September
-                        sept_files.append(entry)
-                    elif date_obj.month == 8:  # August
-                        aug_files.append(entry)
-            except Exception:
-                continue
+        # Build HTML for each month (collapsible)
+        month_sections = []
+        for month_key in sorted(months.keys(), reverse=True):
+            month_name = months[month_key][0][0]
+            entries = [entry for _, entry in months[month_key]]
+            count = len(entries)
+
+            # Create a month ID for collapse
+            month_id = month_key.replace('-', '')
+
+            month_html = f'''                <div class="mb-3">
+                    <h6 class="text-primary">
+                        <a href="#" data-toggle="collapse" data-target="#archive-{month_id}" class="text-decoration-none">
+                            <i class="fas fa-chevron-right"></i> {month_name} <span class="badge badge-secondary">{count}</span>
+                        </a>
+                    </h6>
+                    <div class="collapse" id="archive-{month_id}">
+                        <ul class="list-unstyled archive-links">
+{''.join(entries).rstrip()}
+                        </ul>
+                    </div>
+                </div>'''
+
+            month_sections.append(month_html)
 
         return f"""<!-- News Archive -->
 <div class="news-archive mt-5">
@@ -986,23 +1025,25 @@ document.addEventListener('DOMContentLoaded', function() {{
             <p class="mb-0 text-muted">Historical Zendesk industry news summaries and analysis</p>
         </div>
         <div class="card-body">
-            <div class="row">
-                <div class="col-md-6">
-                    <h6 class="text-primary">September 2025</h6>
-                    <ul class="list-unstyled archive-links">
-{''.join(sept_files[:20]).rstrip()}
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h6 class="text-primary">August 2025</h6>
-                    <ul class="list-unstyled archive-links">
-{''.join(aug_files[:10]).rstrip()}
-                    </ul>
-                </div>
-            </div>
+{''.join(month_sections)}
         </div>
     </div>
 </div>
+
+<script>
+// Update chevron icons when collapsing/expanding archives
+$('.news-archive .collapse').on('show.bs.collapse', function() {{
+    $(this).parent().find('.fa-chevron-right').first()
+        .removeClass('fa-chevron-right')
+        .addClass('fa-chevron-down');
+}});
+
+$('.news-archive .collapse').on('hide.bs.collapse', function() {{
+    $(this).parent().find('.fa-chevron-down').first()
+        .removeClass('fa-chevron-down')
+        .addClass('fa-chevron-right');
+}});
+</script>
 """
 
     def update_recent_archives_freshness(self):

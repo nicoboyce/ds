@@ -2,6 +2,9 @@ entries:
   - date: "2025-10-21"
     content: |
       <p class="mb-2">
+          Is your help centre performing as it should? We've done some research and see that many fail basic tests of accessibility and performance. We are now offering ready-to-go and also custom themes for Zendesk help centres, Bootstrap based and blazing fast. <a href="https://deltastring.com/themes/">Find out more!</a>
+      </p>
+      <p class="mb-2">
           How was the AWS outage for you? I'm glad that Zendesk and the ecosystem mostly continued as usual. If your company had problems, definitely put some time into evaluating backup options and redundancy solutions!
       </p>
       <p class="mb-2">
@@ -31,7 +34,7 @@ entries:
       <p class="mb-2">
           The Delaware court ruled in favour of the Zendesk board once again, which likely draws and end to the matter. Regular readers know we've been following the details on this one and we're glad to see a quick resolution to this latest skirmish.
       </p>
-      <p class="mb-0">
+      <p class="mb-2">
         Zendesk added a new API endpoint for incremental export of custom objects. We're glad to see proper good old fashioned APIs are still something other people care about too!
       </p>  
   - date: "2025-09-22"
@@ -42,7 +45,7 @@ entries:
       <p class="mb-2">
           I've seen discussion around the Zendesk admin certification. My view is that if you compare the Zendesk offering with other platforms, like Salesforce Trailhead, it's so far short of something which would be useful to people buying or selling Zendesk services. The cert as it stands is barely more than a tax on Zendesk specialists. 
       </p>
-      <p class="mb-0">
+      <p class="mb-2">
         I'd like to see the Zendesk community come together to establish some specific Zendesk roles, some definition of what it means to be a "Zendesk architect" or a "Zendesk engineer" and some third party way of assessing this. If developing this idea appeals to you, get in contact!
       </p>
   - date: "2025-09-10"
@@ -53,7 +56,7 @@ entries:
       <p class="mb-2">
           It's feeling like Zendesk QA (FKA Klaus) is not a priority. A long time ago I did a QA implementation project and evaluated a bunch of tools and I'm sure the competition aren't sitting still. The Tallinn office are recruiting engineers (<a href="https://linkedin.com/jobs/view/staff-software-engineer-at-zendesk-4296716374">see</a>) so we will be keeping a close eye on the future of this product.
       </p>
-      <p class="mb-0">
+      <p class="mb-2">
           Tangential but I <a href="https://www.linkedin.com/posts/nicoboyce_i-got-a-bit-obsessed-with-a-couple-of-details-activity-7371300371169918976-4KWF"> wrote some notes</a> on the design of the gradients you see on this page and there's a demo <a href="https://deltastring.com/gradients/">gradient comparison tool</a> if you want to play!
       </p>
   - date: "2025-09-02"
@@ -64,6 +67,6 @@ entries:
       <p class="mb-2">
           I'm still not sold on the copilot features. I have support managers ask "What is the secret to getting good value out of this?" and if you've figured this out then please do let me know. Sorry friends at Zendesk but this feature feels like it's not quite ready. Maybe these items will help?
       </p>
-      <p class="mb-0">
+      <p class="mb-2">
           There has been a distinct lack of quality-of-life improvements for Zendesk admins of late. I would really like to see the config interface for the core features get brought up to date before much longer.
       </p>
