@@ -950,6 +950,15 @@ document.addEventListener('DOMContentLoaded', function() {{
 
             if match:
                 title = match.group(1).strip()
+
+                # Process service incident titles to remove confusing dates
+                if title.startswith('Service Incident'):
+                    # Remove date patterns like "- October 14, 2025 -" or "October 14, 2025 |"
+                    # Pattern: "Service Incident - [DATE] - [REST]" or "Service Incident - [DATE] | [REST]"
+                    title = re.sub(r'Service Incident\s*-\s*[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}\s*[-|]', 'Update: Service Incident -', title)
+                    # Also handle format without "Service Incident" prefix already removed
+                    title = re.sub(r'-\s*[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}\s*[-|]', '-', title)
+
                 # Truncate if too long
                 if len(title) > 80:
                     title = title[:77] + '...'
