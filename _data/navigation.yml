@@ -17,16 +17,16 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       url: "https://deltastring.com/#services"
-    - title: "About"
-      url: "https://deltastring.com/#about"
-    - title: "Timeline"
-      url: "https://deltastring.com/#timeline"
-    - title: "Team"
-      url: "https://deltastring.com/#team"
-    - title: "FAQs"
-      url: "https://deltastring.com/faqs"
-    - title: "Zendesk News"
+    - title: "Themes"
+      url: "/themes"
+    - title: "News"
       url: "/news"
+    - title: "Blog"
+      url: "/blog"
+    - title: "FAQs"
+      url: "/faqs"
+    - title: "Contact"
+      url: "/contact"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
