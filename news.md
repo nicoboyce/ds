@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 23 October 2025 | Deltastring",
-  "datePublished": "2025-10-23T05:00:05+00:00",
-  "dateModified": "2025-10-23T05:00:05+00:00",
+  "datePublished": "2025-10-23T06:00:08+00:00",
+  "dateModified": "2025-10-23T06:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Latest: Announcing support for WhatsApp Product Catalogs</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 05:00 GMT, 23 October 2025
+            <i class="far fa-clock"></i> Last updated: 06:00 GMT, 23 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9858456215194-Service-Incident-October-22-2025-Multiple-pods-Issues-with-AI-Agent-tickets
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 8 hours ago
+                        <i class="far fa-clock"></i> 9 hours ago
                     </small>
                 </div>
             </div>
@@ -130,7 +130,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 hours ago
+                <i class="far fa-clock"></i> 8 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -163,7 +163,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates critical account settings, empowering Zendesk administrators to swiftly assess and enhance their organisation's security posture.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings that can significantly influence the overall security of your Zendesk instance, empowering administrators to better manage and monitor their organisation's data protection.</p>
                 <small class="text-muted">Zendesk Announcements • 2 days ago</small>
             
             </div>
@@ -177,8 +177,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed across these article titles is the increasing reliance on AI-powered features and capabilities within the Zendesk ecosystem, coupled with a series of service incidents and security vulnerabilities that appear to be related to these AI-driven innovations.</p>
-            <p>This suggests that Zendesk administrators need to carefully monitor the rollout and integration of AI technologies, ensuring thorough testing and gradual deployment to mitigate the risk of disruptions to core customer support functions, while also maintaining a strong focus on security and authentication measures to protect against potential exploitation of these new AI-powered features.</p>
+            <p>1. The article titles suggest a pattern of increasing reliance on AI and automation in Zendesk's product offerings, which coincides with a series of service incidents and security vulnerabilities that have impacted core functionality and customer experience.</p>
+            <p>2. This indicates that Zendesk administrators need to closely monitor the rollout and integration of AI-powered features, thoroughly test them in staging environments, and have robust incident response and communication plans in place to address any disruptions or security issues that may arise from the rapid adoption of these new technologies.</p>
         </div>
     </div>
     
@@ -497,7 +497,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>06:00 (London)</strong><br>
+                    <strong>07:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
