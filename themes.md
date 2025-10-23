@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Zendesk Themes That Actually Work
+title: Zendesk themes that actually work
 description: Modern, accessible Zendesk help centre themes. Perfect Lighthouse scores, proper ARIA implementation, Bootstrap 5 framework. Stop using Copenhagen.
 background: grey
 ---
 
-# Zendesk Themes That Actually Work
-
-## Your Help Centre Isn't Performing As Well As It Could
+## Your help centre isn't performing as well as it could
 
 We see it constantly. Companies spending millions on their brand, building beautiful websites, then using Zendesk's default theme and assuming it's optimised. It isn't.
 
@@ -18,7 +16,7 @@ Even Zendesk's own default theme can't hit perfect Lighthouse scores:
 ![Copenhagen theme Lighthouse scores](/assets/img/lighthouse/copenhagen.png)
 *Copenhagen - Zendesk's default theme. Close, but not optimal.*
 
-## This Is A Widespread Problem
+## This is a widespread problem
 
 Even major tech companies and Zendesk themselves struggle to achieve optimal help centre performance:
 
@@ -43,7 +41,7 @@ These aren't terrible scores. But they're leaving performance on the table. And 
 
 All of this hurts deflection. When customers can't find answers quickly, they submit tickets. Your agents get swamped. Your metrics suffer.
 
-## We Rebuilt Bootstrap 5 For Zendesk
+## We rebuilt Bootstrap 5 for Zendesk
 
 We took Bootstrap 5, stripped out everything Zendesk doesn't need, optimised what remained, and built a proper theme framework.
 
@@ -52,7 +50,7 @@ The result: perfect Lighthouse scores across all metrics. Performance, accessibi
 ![Lighthouse scores showing perfect 100s](/assets/img/lighthouse/deltastring.png)
 *This is what your help centre can achieve.*
 
-### What This Actually Means
+### What this actually means
 
 **Proper ARIA implementation.** Screen readers work correctly. Keyboard navigation makes sense. Colour contrast passes WCAG AAA standards.
 
@@ -64,28 +62,28 @@ The result: perfect Lighthouse scores across all metrics. Performance, accessibi
 
 **SEO benefits.** Google cares about page speed and accessibility. Perfect Lighthouse scores help your help articles rank properly.
 
-## What We Offer
+## What we offer
 
-### Pre-Built Themes
+### Pre-built themes
 Ready to deploy. Choose a theme from our catalogue, install it, done. Single-use licence, no ongoing support or updates.
 
-### Custom Theme Development
+### Custom theme development
 We take one of our themes and customise it to match your brand. Colours, fonts, layout tweaks. Ongoing updates to the base theme engine included.
 
-### Enterprise Solutions
+### Enterprise solutions
 Multi-brand setups, major customisations, bespoke features. Get in touch for a quote.
 
-## Part of Our Zendesk Services
+## Part of our Zendesk services
 
 If you're already working with us on Zendesk integrations, migrations, or custom applications, theme development is included. Your help centre should match your brand and actually work properly.
 
-## There's A Better Way
+## There's a better way
 
 Your help centre is probably leaving performance on the table right now. Slower loading times increase bounce rates. Accessibility gaps exclude customers. Sub-optimal scores affect SEO. Mobile experience could be faster.
 
 You can fix this. Perfect Lighthouse scores aren't just possible, they're achievable.
 
-### Here's The Challenge
+### Here's the challenge
 
 Open an incognito Chrome tab, open the element inspector, generate a Lighthouse report for desktop and another for mobile. Less than perfect? That's okay! Get in touch with us today.
 
