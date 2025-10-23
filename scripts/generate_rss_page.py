@@ -499,16 +499,33 @@ class RSSPageGenerator:
         page_title = f"Zendesk News Today - {now.strftime('%d %B %Y')} | Deltastring"
         top_story_summary = "Daily and weekly summaries of Zendesk ecosystem news, curated and analysed."
 
-        # Extract top story for meta description
+        # Extract top story for meta description - only show truly recent critical items
         all_latest = articles.get('latest', articles.get('today', []))
         if all_latest:
-            # Get first non-release-notes article for summary
+            # Look for current service incidents or outages (within 48 hours)
             for article in all_latest:
-                if 'Release notes through' not in article.get('title', ''):
-                    top_story_title = article.get('title', 'Zendesk news')
-                    # Use top story in summary, not title
-                    top_story_summary = f"Latest: {top_story_title}"
-                    break
+                title = article.get('title', '')
+                pub_date = article.get('published_date')
+
+                # Skip release notes
+                if 'Release notes through' in title:
+                    continue
+
+                # Check if article is truly recent (within 48 hours)
+                if pub_date:
+                    try:
+                        article_date = datetime.fromisoformat(pub_date.replace('Z', '+00:00'))
+                        age_hours = (datetime.now(article_date.tzinfo) - article_date).total_seconds() / 3600
+
+                        # Only show if very recent (< 48 hours) AND it's an incident/outage
+                        if age_hours < 48 and ('Service Incident' in title or 'outage' in title.lower() or 'incident' in title.lower()):
+                            top_story_summary = f"Latest: {title}"
+                            break
+                    except:
+                        pass
+
+            # If no recent incident found, show nothing (keep default message)
+            # This prevents showing stale "latest" items that aren't actually latest
 
         # Generate NewsArticle structured data
         iso_date = now.strftime('%Y-%m-%dT%H:%M:%S+00:00')
