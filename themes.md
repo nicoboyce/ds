@@ -75,7 +75,7 @@ Multi-brand setups, major customisations, bespoke features. Get in touch for a q
 
 ## Part of our Zendesk services
 
-If you're already working with us on Zendesk integrations, migrations, or custom applications, theme development is included. Your help centre should match your brand and actually work properly.
+If you're already working with us on Zendesk integrations, migrations, or custom applications, theme development is now included. Your help centre should match your brand and actually work properly.
 
 ## There's a better way
 
