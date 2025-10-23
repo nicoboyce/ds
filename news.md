@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Zendesk News Today - 23 October 2025 | Deltastring"
-date: 2025-10-23
+title: "Zendesk News Today - 24 October 2025 | Deltastring"
+date: 2025-10-24
 background: grey
 ---
 
@@ -10,9 +10,9 @@ background: grey
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "Zendesk News Today - 23 October 2025 | Deltastring",
-  "datePublished": "2025-10-23T23:00:06+00:00",
-  "dateModified": "2025-10-23T23:00:06+00:00",
+  "headline": "Zendesk News Today - 24 October 2025 | Deltastring",
+  "datePublished": "2025-10-24T00:00:05+00:00",
+  "dateModified": "2025-10-24T00:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 23:00 GMT, 23 October 2025
+            <i class="far fa-clock"></i> Last updated: 00:00 GMT, 24 October 2025
         </p>
     </div>
 </div>
@@ -74,14 +74,14 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">7 stories</span>
+        <span class="badge badge-primary ml-2">3 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">5</span>
+            <span class="badge badge-secondary ml-2">2</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 20 hours ago
+                        <i class="far fa-clock"></i> 21 hours ago
                     </small>
                 </div>
             </div>
@@ -107,37 +107,13 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> yesterday
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors" class="text-dark">Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://support.zendesk.com/hc/en-us/articles/9848445213210-Service-Incident-October-20th-2025-Multiple-pods-AWS-US-East-issues-impacting-several-Zendesk-services-Explore-Omnichannel" class="text-dark">Service Incident - October 20th, 2025 | Multiple pods - AWS US East issues impacting several Zendesk services (Explore, Omnichan...</a>
-                <span class="source-badge">Zendesk Service Notifications</span>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> 2 days ago
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQang0TlZsTmpnRTRtRzZ2QndNeTVvaHJjSU5QZ0VCMFk4YWFUdmptQmxzZDhIemppRl94VDhueEhfWWVHRGZiU2xnZDJGdTM5NFZRZnNCTmxGUjVwdzBGUUdCRkZJTldXUTFGcGN3MmJMV3hUZFFDQkxpSWg5R2piQWFzcVlsZ0FQTG9j0gGQAUFVX3lxTE9VTkdBZHllWHBUZ1lJeG9PUDA3YkdOSldNRXJjMXJLcmVUczFrOHVERThhVHhicHBfZWxYNkVRNXNoeXdVOW1tYlRhMVR5Yl9xeWwyR0M1Q2xVWmVPLUJNTmVBQkV3d3lLZTdpS2pwV0J1Zm1OZDFRSk83bFlGVmViZER2bEpzSlAwZ2xZc2FYVA?oc=5" class="text-dark">70,000 government ID, partial credit card details exposed in Discord data breach - WION</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">1</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -147,14 +123,6 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> yesterday
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://internalnote.com/custom-widget-themes/" class="text-dark">Make Zendesk fit your brand with custom widget themes</a>
-                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -166,7 +134,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">30 stories</span>
+        <span class="badge badge-info ml-2">33 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -179,7 +147,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings, empowering Zendesk administrators to proactively manage their organisation's security posture and mitigate potential risks.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre provides Zendesk administrators with a centralised view of critical account settings, empowering them to proactively manage their organisation's security posture.</p>
                 <small class="text-muted">Zendesk Announcements • 3 days ago</small>
             
             </div>
@@ -202,7 +170,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 33 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -210,24 +178,48 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">9</span>
+            <span class="badge badge-secondary ml-2">11</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk" class="text-dark">Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</a>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors" class="text-dark">Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors</a>
                         <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk
+                        https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 days ago
+                        <i class="far fa-clock"></i> 2 days ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9848445213210-Service-Incident-October-20th-2025-Multiple-pods-AWS-US-East-issues-impacting-several-Zendesk-services-Explore-Omnichannel" class="text-dark">Service Incident - October 20th, 2025 | Multiple pods - AWS US East issues impacting several Zendesk services (Explore, Omnichan...</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 2 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQang0TlZsTmpnRTRtRzZ2QndNeTVvaHJjSU5QZ0VCMFk4YWFUdmptQmxzZDhIemppRl94VDhueEhfWWVHRGZiU2xnZDJGdTM5NFZRZnNCTmxGUjVwdzBGUUdCRkZJTldXUTFGcGN3MmJMV3hUZFFDQkxpSWg5R2piQWFzcVlsZ0FQTG9j0gGQAUFVX3lxTE9VTkdBZHllWHBUZ1lJeG9PUDA3YkdOSldNRXJjMXJLcmVUczFrOHVERThhVHhicHBfZWxYNkVRNXNoeXdVOW1tYlRhMVR5Yl9xeWwyR0M1Q2xVWmVPLUJNTmVBQkV3d3lLZTdpS2pwV0J1Zm1OZDFRSk83bFlGVmViZER2bEpzSlAwZ2xZc2FYVA?oc=5" class="text-dark">70,000 government ID, partial credit card details exposed in Discord data breach - WION</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9822806939418-Service-Incident-October-13-2025-Multiple-pods-Support-Inbound-emails-via-Gmail-connector-not-being-received-in-Zendesk" class="text-dark">Service Incident - October 13, 2025 - Multiple pods | Support - Inbound emails via Gmail connector not being received in Zendesk</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 3 days ago
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9805745423898-Service-Incident-October-8-2025-Support-Pod-27-Omnichannel-routing-issues" class="text-dark">Service Incident - October 8, 2025 - Support | Pod 27 - Omnichannel routing issues</a>
@@ -284,14 +276,6 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 15 days ago
             </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
         </article>        </div>
     </div>
 
@@ -302,6 +286,14 @@ background: grey
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://internalnote.com/custom-widget-themes/" class="text-dark">Make Zendesk fit your brand with custom widget themes</a>
+                <a href="https://internalnote.com" target="_blank" class="source-badge text-white">Internal Note</a>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9850316391322-Announcing-an-updated-look-to-the-team-member-and-end-user-sign-in-experiences" class="text-dark">Announcing an updated look to the team member and end user sign-in experiences</a>
                 <span class="source-badge">Zendesk Announcements</span>
@@ -331,7 +323,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 7 days ago
+                <i class="far fa-clock"></i> 8 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -391,14 +383,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNcjRzQVpHS3NWajBJNDJiVW5vaEV6VzJuaGZ1WE5LZG5ZZkx4cWdxMjlNd21tQ1NJaHlvY3JKOUV1TGx0TEhtYXZveW5XMWdFTGxjQlNzNUtLdXJrc3ZMak1tY3kxVEM1TDlvQ2Y0emVmdDd4LTUyeVh5R1ZCVzdHVGJYamV3RlhyZUdHa051bk9qVzRu?oc=5" class="text-dark">Top MarTech News From the Week of October 10th: Updates from Zendesk, CallMiner, ZoomInfo, and More - solutionsreview.com</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9806699043866-Announcing-a-modernized-Views-admin-page" class="text-dark">Announcing a modernized Views admin page</a>
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
@@ -428,7 +412,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">8</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -450,6 +434,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXQ5VDNFZjU3X1lMeWoxNzZZWExIU2JJeVRWeVhOUU9mWktKLW1lNDFnRWNlSTBaV3ZMR1dEaE1KbjRBRENpX3JPZkprcXhiTzl6cXhncnNkZFpoTzloUmRtc0lFRllZV042enYxa0U5NkliblJ5cjJHWWlwTXRkMUNBSEN3bmZueXpqODJFZVVuVmxhNVNlZkJMdmFpaksydFNNUXBaWDVYMTJyVkd6RXkyNzRrbzc2bjRn0gHAAUFVX3lxTE1Mcm9FSkxqaGluOVlGcGNuQ1lWcUV5ZXlRcXFZbkhVWDNBZXFyZmJxUVE1b09FeEhMSXgzSENjZ3Z6R2IzNE1jT0NtSkYyU1VWVWRZN0ctUTAzRFNNV2N6R191VHBWZTBsSnhTNW4yR0xtTHZndjdDR1RHVGRGZFFvRnVucXo3enFha0EybEJmQjdKOWo3S3VEbFVSQzFLUGpqZjNwNkRKS0FpdnM1TGlObXlvOE16aTZOeEROTlJUeg?oc=5" class="text-dark">AI doesn't replace customer service teams, it empowers them to do things differently, says Zendesk CTO - Diginomica</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
                 
             </h6>
             <small class="text-muted">
@@ -508,11 +500,11 @@ background: grey
                     <small class="text-muted">RSS Sources</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>23/10/2025</strong><br>
+                    <strong>24/10/2025</strong><br>
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>00:00 (London)</strong><br>
+                    <strong>01:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
