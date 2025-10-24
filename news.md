@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 24 October 2025 | Deltastring",
-  "datePublished": "2025-10-24T17:00:06+00:00",
-  "dateModified": "2025-10-24T17:00:06+00:00",
+  "datePublished": "2025-10-24T18:00:09+00:00",
+  "dateModified": "2025-10-24T18:00:09+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 17:00 GMT, 24 October 2025
+            <i class="far fa-clock"></i> Last updated: 18:00 GMT, 24 October 2025
         </p>
     </div>
 </div>
@@ -74,31 +74,39 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-clock text-primary"></i>
         Latest - Last 48 Hours
-        <span class="badge badge-primary ml-2">3 stories</span>
+        <span class="badge badge-primary ml-2">4 stories</span>
     </h2>
 
 
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚨 Incidents & Security
-            <span class="badge badge-secondary ml-2">2</span>
+            <span class="badge badge-secondary ml-2">3</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="item-title">
-                        <a href="https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays" class="text-dark">Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays</a>
+                        <a href="https://support.zendesk.com/hc/en-us/articles/9866986135962-Service-Incident-October-24-2025-Pod-17-AI-Agents-Auth-Access-User-Does-Not-Have-Permission" class="text-dark">Service Incident - October 24, 2025 | Pod 17 [AI Agents] - Auth/Access "User Does Not Have Permission"</a>
                         <span class="source-badge">Zendesk Service Notifications</span>
                     </h5>
                     <p class="item-summary text-muted">
-                        https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays
+                        https://support.zendesk.com/hc/en-us/articles/9866986135962-Service-Incident-October-24-2025-Pod-17-AI-Agents-Auth-Access-User-Does-Not-Have-Permission
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> yesterday
+                        <i class="far fa-clock"></i> 1 hour ago
                     </small>
                 </div>
             </div>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays" class="text-dark">Service Incident - October 14, 2025 - Pod 13 | Sunshine Conversations - Messaging delays</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> yesterday
+            </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9858456215194-Service-Incident-October-22-2025-Multiple-pods-Issues-with-AI-Agent-tickets" class="text-dark">Service Incident - October 22, 2025 | Multiple pods - Issues with AI Agent tickets</a>
@@ -147,7 +155,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates critical account settings, empowering Zendesk administrators to efficiently manage and enhance the security of their organisation's Zendesk instance.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre provides Zendesk administrators with a centralised view of critical account settings, empowering them to proactively manage their organisation's security posture.</p>
                 <small class="text-muted">Zendesk Announcements • 3 days ago</small>
             
             </div>
@@ -161,7 +169,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern that administrators need to understand is the recurring service incidents and infrastructure issues impacting multiple Zendesk products and services. These incidents, ranging from email processing delays to routing problems and dashboard access issues, suggest that Zendesk's platform stability and reliability may be a growing concern for administrators, who will need to closely monitor service health, test changes thoroughly, and have robust incident response and communication plans in place.</p>
+            <p>The most significant operational pattern observed across the article titles is the recurring service incidents and infrastructure issues impacting multiple Zendesk products and services. This suggests that Zendesk administrators need to closely monitor the stability and reliability of the Zendesk ecosystem, prioritize proactive maintenance and testing, and have robust incident response and communication plans in place to mitigate the impact of such disruptions on their customer service operations.</p>
         </div>
     </div>
     
@@ -257,7 +265,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
+                <i class="far fa-clock"></i> 9 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -354,7 +362,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -487,7 +495,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
