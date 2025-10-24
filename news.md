@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 24 October 2025 | Deltastring",
-  "datePublished": "2025-10-24T14:00:08+00:00",
-  "dateModified": "2025-10-24T14:00:08+00:00",
+  "datePublished": "2025-10-24T15:00:08+00:00",
+  "dateModified": "2025-10-24T15:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 14:00 GMT, 24 October 2025
+            <i class="far fa-clock"></i> Last updated: 15:00 GMT, 24 October 2025
         </p>
     </div>
 </div>
@@ -147,7 +147,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre provides Zendesk administrators with a centralised view of critical account settings, empowering them to proactively manage their organisation's security posture.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings, empowering Zendesk administrators to efficiently manage their organisation's security posture and mitigate potential risks.</p>
                 <small class="text-muted">Zendesk Announcements • 3 days ago</small>
             
             </div>
@@ -370,7 +370,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 10 days ago
+                <i class="far fa-clock"></i> 11 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -395,7 +395,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 8 days ago
+                <i class="far fa-clock"></i> 9 days ago
             </small>
         </article>        </div>
     </div>
@@ -487,7 +487,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>15:00 (London)</strong><br>
+                    <strong>16:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
