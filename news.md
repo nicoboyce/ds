@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 24 October 2025 | Deltastring",
-  "datePublished": "2025-10-24T02:00:05+00:00",
-  "dateModified": "2025-10-24T02:00:05+00:00",
+  "datePublished": "2025-10-24T03:01:03+00:00",
+  "dateModified": "2025-10-24T03:01:03+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 02:00 GMT, 24 October 2025
+            <i class="far fa-clock"></i> Last updated: 03:01 GMT, 24 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9828286660122-Service-Incident-October-14-2025-Pod-13-Sunshine-Conversations-Messaging-delays
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 23 hours ago
+                        <i class="far fa-clock"></i> yesterday
                     </small>
                 </div>
             </div>
@@ -147,7 +147,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates critical account settings, empowering Zendesk administrators to efficiently manage and enhance their organisation's security posture from a centralised location.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings, empowering Zendesk administrators to proactively manage their organisation's security posture and mitigate potential risks.</p>
                 <small class="text-muted">Zendesk Announcements • 3 days ago</small>
             
             </div>
@@ -484,7 +484,7 @@ background: grey
             <h6><i class="fas fa-chart-line"></i> Feed Analytics</h6>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <strong>177</strong><br>
+                    <strong>163</strong><br>
                     <small class="text-muted">Total Articles</small>
                 </div>
                 <div class="col-md-3">
@@ -496,7 +496,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>03:00 (London)</strong><br>
+                    <strong>04:01 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
