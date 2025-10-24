@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "1. The article titles indicate a pattern of security vulnerabilities and service disruptions in Zendesk's core products, coinciding with the company's efforts to expand its AI and integration capabilities.\n\n2. This suggests that Zendesk administrators need to prioritize system stability and security over rapid feature expansion, ensuring that new AI and integration functionalities are thoroughly tested and hardened against potential exploits before deployment to production environments.",
+  "recently_narrative": "The most significant operational pattern that administrators need to understand is the recurring service incidents and infrastructure issues impacting multiple Zendesk products and services. These incidents, which include email processing delays, routing problems, and dashboard access failures, suggest that Zendesk's platform stability and reliability may be a growing concern for administrators, who will need to closely monitor service health, test new features thoroughly, and have robust incident response and communication plans in place.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-23T18:00:07.273234",
+  "generated_at": "2025-10-24T06:00:10.419082",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
