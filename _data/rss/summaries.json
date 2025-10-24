@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern that administrators need to understand is the recurring service incidents and infrastructure issues impacting multiple Zendesk products and services. These incidents, which include email processing delays, routing problems, and dashboard access failures, suggest that Zendesk's platform stability and reliability may be a growing concern for administrators, who will need to closely monitor service health, test new features thoroughly, and have robust incident response and communication plans in place.",
+  "recently_narrative": "The most significant operational pattern that administrators need to understand is the recurring service incidents and infrastructure issues impacting multiple Zendesk products and services. These incidents, ranging from email processing delays to routing problems and dashboard access issues, suggest that Zendesk's platform stability and reliability may be a growing concern for administrators, who will need to closely monitor service health, test changes thoroughly, and have robust incident response and communication plans in place.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-24T06:00:10.419082",
+  "generated_at": "2025-10-24T12:00:10.844120",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
