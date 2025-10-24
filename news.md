@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 24 October 2025 | Deltastring",
-  "datePublished": "2025-10-24T15:00:08+00:00",
-  "dateModified": "2025-10-24T15:00:08+00:00",
+  "datePublished": "2025-10-24T16:00:11+00:00",
+  "dateModified": "2025-10-24T16:00:11+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 15:00 GMT, 24 October 2025
+            <i class="far fa-clock"></i> Last updated: 16:00 GMT, 24 October 2025
         </p>
     </div>
 </div>
@@ -134,7 +134,7 @@ background: grey
     <h2 class="summary-title">
         <i class="fas fa-history text-info"></i>
         Recently
-        <span class="badge badge-info ml-2">31 stories</span>
+        <span class="badge badge-info ml-2">30 stories</span>
     </h2>
     
     <!-- Don't Miss Highlight -->
@@ -147,7 +147,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings, empowering Zendesk administrators to efficiently manage their organisation's security posture and mitigate potential risks.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings that can profoundly influence the overall security posture of a Zendesk instance, empowering administrators to better safeguard their organisation's data and systems.</p>
                 <small class="text-muted">Zendesk Announcements • 3 days ago</small>
             
             </div>
@@ -169,7 +169,7 @@ background: grey
     <div class="collapsed-articles">
         <small class="text-muted">
             <a href="#" data-toggle="collapse" data-target="#recently-list" class="text-decoration-none">
-                <i class="fas fa-chevron-right"></i> Show all 31 stories by topic
+                <i class="fas fa-chevron-right"></i> Show all 30 stories by topic
             </a>
         </small>
         <div class="collapse" id="recently-list">
@@ -245,14 +245,6 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SV2IxZ1ZtRk9SYVlhU2l3ZXZEVkd1VmtwT25Bcm00TUppMWxPRWl4U0l0VFh4VDdBb1lRM0lZVzAwNkJHQ1EzS2NQMFpEdHo2dXM3Sl83M2FmeFRCUDRlS3VCRGxXdw?oc=5" class="text-dark">Discord Breach: What We Know So Far? - SOCRadar® Cyber Intelligence Inc.</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information" class="text-dark">Announcing a Unified Location for Service Incident Information</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
@@ -266,6 +258,14 @@ background: grey
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 15 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnB0U0VfY3pmTXBNOTExUE5nalVkb1NzbGF3NlZpc3RoS2xnRTUtV3JNaVF6bVZfeDNMRS1vc3BhQjVBdHgzS04xTFdKM3k2STM4dnRFUjRyTFpHZnRHT3VVcDFOWGxia0tnMk9CajRMQVMxZTk1WWoxcmszVUlKUUFQWHBxTWtZVFB2ZXdmRTdOSDN4TXE2NWo5OGxwSEQ0czRIYkprdHUwYk15V2fSAbMBQVVfeXFMT2lKcURNai03Q0NNdXpIYV9Eb3VxZHFVdlNtcm45YnZMaWc4anM3azBSVkZuTUxSb3ZVeTVjaVNFZkJuMnNKYm95TlZtWG5aaktMU05JZEVvQ284ckpUV1N2NTlpTnJEUWY3Z0F3b0VHdUo3dHFCcGRhbGZMMWZ1Rzl1QWZxRjNoNFRpZFg1NVVsdS1rZDVmWFJWVUNmSlNGNzE3cHpJdWhCY0pFMDdjbHBxNFE?oc=5" class="text-dark">Hackers claim Discord breach exposed data of 5.5 million users - BleepingComputer</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
             </small>
         </article>        </div>
     </div>
@@ -330,7 +330,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -403,20 +403,12 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">7</span>
+            <span class="badge badge-secondary ml-2">6</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOV2R4XzJUOUIyUnk4MlhqWFM4Zi1qRTFqMzJCN2p1eF8xcWtFR0hjTVlBMTdaVThqVk05bkVZQWxfLVFQU203TnZCLUV2OW1fRkpnM3VmMHhRZVViUEtYc2dhOXNsUl9xSVJWeXdqLWM2VUlzdVdKQUFtOUxURG0teWw0N2dVei1tY1AzYTRocTZVb2ZaZGwzeGozeEpwdw?oc=5" class="text-dark">Zendesk Boosts AI Innovation to Transform Customer Service Experience - Small Business Trends</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXQ5VDNFZjU3X1lMeWoxNzZZWExIU2JJeVRWeVhOUU9mWktKLW1lNDFnRWNlSTBaV3ZMR1dEaE1KbjRBRENpX3JPZkprcXhiTzl6cXhncnNkZFpoTzloUmRtc0lFRllZV042enYxa0U5NkliblJ5cjJHWWlwTXRkMUNBSEN3bmZueXpqODJFZVVuVmxhNVNlZkJMdmFpaksydFNNUXBaWDVYMTJyVkd6RXkyNzRrbzc2bjRn0gHAAUFVX3lxTE1Mcm9FSkxqaGluOVlGcGNuQ1lWcUV5ZXlRcXFZbkhVWDNBZXFyZmJxUVE1b09FeEhMSXgzSENjZ3Z6R2IzNE1jT0NtSkYyU1VWVWRZN0ctUTAzRFNNV2N6R191VHBWZTBsSnhTNW4yR0xtTHZndjdDR1RHVGRGZFFvRnVucXo3enFha0EybEJmQjdKOWo3S3VEbFVSQzFLUGpqZjNwNkRKS0FpdnM1TGlObXlvOE16aTZOeEROTlJUeg?oc=5" class="text-dark">AI doesn't replace customer service teams, it empowers them to do things differently, says Zendesk CTO - Diginomica</a>
                 
             </h6>
             <small class="text-muted">
@@ -487,7 +479,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>16:00 (London)</strong><br>
+                    <strong>17:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
