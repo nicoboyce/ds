@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed is the recurring service incidents and infrastructure issues across multiple Zendesk products and pods, coinciding with major platform updates and feature expansions. This suggests that Zendesk administrators need to closely monitor the impact of new releases and AI-powered features on the stability and reliability of the core Zendesk ecosystem, and ensure thorough testing and gradual rollouts to mitigate the risk of disruptions to critical customer support operations.",
+  "recently_narrative": "The most significant operational pattern that administrators need to understand is the recurring service incidents and infrastructure issues impacting Zendesk's core products and services. These incidents, which span multiple pods, services, and regions, suggest that Zendesk is facing significant operational challenges that require close monitoring and proactive mitigation strategies from administrators to ensure the stability and reliability of the platform.\n\nFurthermore, the announcements of new features and integrations during these service incidents indicate that Zendesk is attempting to expand its capabilities and ecosystem while also grappling with underlying infrastructure and reliability problems. Administrators will need to carefully balance the adoption of new features with the need to maintain a stable and reliable Zendesk environment for their organizations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-25T12:00:08.294698",
+  "generated_at": "2025-10-25T18:00:07.914792",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {

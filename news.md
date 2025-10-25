@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 25 October 2025 | Deltastring",
-  "datePublished": "2025-10-25T17:00:08+00:00",
-  "dateModified": "2025-10-25T17:00:08+00:00",
+  "datePublished": "2025-10-25T18:00:07+00:00",
+  "dateModified": "2025-10-25T18:00:07+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 17:00 GMT, 25 October 2025
+            <i class="far fa-clock"></i> Last updated: 18:00 GMT, 25 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9868796554394-Service-Incident-October-25-2025-Pod-15-Sunshine-Conversations-SunCo-errors-and-latency-pod-15-ticket-creation-delays-pod-19
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 1 hour ago
+                        <i class="far fa-clock"></i> 2 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 23 hours ago
+                <i class="far fa-clock"></i> yesterday
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -138,7 +138,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates critical account settings, empowering Zendesk administrators to efficiently manage and strengthen their organisation's security posture from a single, centralised location.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings that influence the overall security of your Zendesk instance, empowering administrators to efficiently manage and strengthen their organisation's data protection.</p>
                 <small class="text-muted">Zendesk Announcements • 4 days ago</small>
             
             </div>
@@ -152,7 +152,8 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the recurring service incidents and infrastructure issues across multiple Zendesk products and pods, coinciding with major platform updates and feature expansions. This suggests that Zendesk administrators need to closely monitor the impact of new releases and AI-powered features on the stability and reliability of the core Zendesk ecosystem, and ensure thorough testing and gradual rollouts to mitigate the risk of disruptions to critical customer support operations.</p>
+            <p>The most significant operational pattern that administrators need to understand is the recurring service incidents and infrastructure issues impacting Zendesk's core products and services. These incidents, which span multiple pods, services, and regions, suggest that Zendesk is facing significant operational challenges that require close monitoring and proactive mitigation strategies from administrators to ensure the stability and reliability of the platform.</p>
+            <p>Furthermore, the announcements of new features and integrations during these service incidents indicate that Zendesk is attempting to expand its capabilities and ecosystem while also grappling with underlying infrastructure and reliability problems. Administrators will need to carefully balance the adoption of new features with the need to maintain a stable and reliable Zendesk environment for their organizations.</p>
         </div>
     </div>
     
@@ -248,7 +249,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 9 days ago
+                <i class="far fa-clock"></i> 10 days ago
             </small>
         </article>        </div>
     </div>
@@ -345,7 +346,7 @@ background: grey
                 <span class="source-badge">Zendesk Announcements</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 11 days ago
+                <i class="far fa-clock"></i> 12 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -454,7 +455,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>18:00 (London)</strong><br>
+                    <strong>19:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
