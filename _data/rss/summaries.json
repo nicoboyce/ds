@@ -1,9 +1,9 @@
 {
   "latest": "",
-  "recently_narrative": "The most significant operational pattern observed across the article titles is the recurring service incidents and infrastructure issues impacting multiple Zendesk products and services. This suggests that Zendesk administrators need to closely monitor the stability and reliability of the Zendesk ecosystem, prioritize proactive maintenance and testing, and have robust incident response and communication plans in place to mitigate the impact of such disruptions on their customer service operations.",
+  "recently_narrative": "The most significant operational pattern observed is the recurring service incidents and outages across multiple Zendesk products and pods, indicating potential underlying infrastructure or platform stability issues. Zendesk administrators should closely monitor the service health dashboard, proactively test new feature rollouts in staging environments, and have robust incident response and communication plans in place to mitigate the impact of these recurring service disruptions on their customer support operations.",
   "weekly": "",
   "monthly": "",
-  "generated_at": "2025-10-24T18:00:09.670217",
+  "generated_at": "2025-10-25T06:00:12.420032",
   "release_notes": {
     "summary": "1. New lookup relationships added to connect custom objects to Guide articles in Support, and Zendesk Workforce Management (WFM) introduced bulk actions for assigning and unassigning users to or from WFM workstreams.\n\n2. Voice fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts with no phone numbers, and an issue where some calls stayed in wrap-up past the configured time.",
     "article": {
