@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 25 October 2025 | Deltastring",
-  "datePublished": "2025-10-25T11:00:04+00:00",
-  "dateModified": "2025-10-25T11:00:04+00:00",
+  "datePublished": "2025-10-25T12:00:08+00:00",
+  "dateModified": "2025-10-25T12:00:08+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 11:00 GMT, 25 October 2025
+            <i class="far fa-clock"></i> Last updated: 12:00 GMT, 25 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9868796554394-Service-Incident-October-25-2025-Pod-15-Sunshine-Conversations-SunCo-errors-and-latency-pod-15-ticket-creation-delays-pod-19
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 3 hours ago
+                        <i class="far fa-clock"></i> 4 hours ago
                     </small>
                 </div>
             </div>
@@ -105,7 +105,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 17 hours ago
+                <i class="far fa-clock"></i> 18 hours ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -138,7 +138,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings that influence the overall security of your Zendesk instance, empowering administrators to efficiently manage and strengthen their organisation's data protection.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings that can significantly influence the overall security of a Zendesk instance, empowering administrators to better manage and monitor their organisation's data protection.</p>
                 <small class="text-muted">Zendesk Announcements • 4 days ago</small>
             
             </div>
@@ -152,7 +152,7 @@ background: grey
             <small class="text-muted">Generated this morning</small>
         </div>
         <div class="summary-content">
-            <p>The most significant operational pattern observed is the recurring service incidents and outages across multiple Zendesk products and pods, indicating potential underlying infrastructure or platform stability issues. Zendesk administrators should closely monitor the service health dashboard, proactively test new feature rollouts in staging environments, and have robust incident response and communication plans in place to mitigate the impact of these recurring service disruptions on their customer support operations.</p>
+            <p>The most significant operational pattern observed is the recurring service incidents and infrastructure issues across multiple Zendesk products and pods, coinciding with major platform updates and feature expansions. This suggests that Zendesk administrators need to closely monitor the impact of new releases and AI-powered features on the stability and reliability of the core Zendesk ecosystem, and ensure thorough testing and gradual rollouts to mitigate the risk of disruptions to critical customer support operations.</p>
         </div>
     </div>
     
@@ -200,7 +200,7 @@ background: grey
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
-                <i class="far fa-clock"></i> 3 days ago
+                <i class="far fa-clock"></i> 4 days ago
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
@@ -236,19 +236,19 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SV2IxZ1ZtRk9SYVlhU2l3ZXZEVkd1VmtwT25Bcm00TUppMWxPRWl4U0l0VFh4VDdBb1lRM0lZVzAwNkJHQ1EzS2NQMFpEdHo2dXM3Sl83M2FmeFRCUDRlS3VCRGxXdw?oc=5" class="text-dark">Discord Breach: What We Know So Far? - SOCRadar® Cyber Intelligence Inc.</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://support.zendesk.com/hc/en-us/articles/9832283232154-Announcing-a-Unified-Location-for-Service-Incident-Information" class="text-dark">Announcing a Unified Location for Service Incident Information</a>
                 <span class="source-badge">Zendesk Service Notifications</span>
             </h6>
             <small class="text-muted">
                 <i class="far fa-clock"></i> 9 days ago
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9800032444058-Service-Incident-October-07-2025-Multiple-pods-Support-Unable-to-update-ticket-Error-an-app-has-timed-out-and-has-prevented-the-submission-of-the-ticket" class="text-dark">Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has pr...</a>
+                <span class="source-badge">Zendesk Service Notifications</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 16 days ago
             </small>
         </article>        </div>
     </div>
@@ -256,7 +256,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             🚀 Product Updates
-            <span class="badge badge-secondary ml-2">13</span>
+            <span class="badge badge-secondary ml-2">14</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -363,6 +363,14 @@ background: grey
             <small class="text-muted">
                 <i class="far fa-clock"></i> 11 days ago
             </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://support.zendesk.com/hc/en-us/articles/9806699043866-Announcing-a-modernized-Views-admin-page" class="text-dark">Announcing a modernized Views admin page</a>
+                <span class="source-badge">Zendesk Announcements</span>
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> 16 days ago
+            </small>
         </article>        </div>
     </div>
 
@@ -386,7 +394,7 @@ background: grey
     <div class="category-section mb-4">
         <h5 class="category-title">
             💡 Resources & Learning
-            <span class="badge badge-secondary ml-2">6</span>
+            <span class="badge badge-secondary ml-2">5</span>
         </h5>
         <div class="category-articles">
         <article class="feed-item border-bottom py-3">
@@ -399,23 +407,7 @@ background: grey
             </small>
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXQ5VDNFZjU3X1lMeWoxNzZZWExIU2JJeVRWeVhOUU9mWktKLW1lNDFnRWNlSTBaV3ZMR1dEaE1KbjRBRENpX3JPZkprcXhiTzl6cXhncnNkZFpoTzloUmRtc0lFRllZV042enYxa0U5NkliblJ5cjJHWWlwTXRkMUNBSEN3bmZueXpqODJFZVVuVmxhNVNlZkJMdmFpaksydFNNUXBaWDVYMTJyVkd6RXkyNzRrbzc2bjRn0gHAAUFVX3lxTE1Mcm9FSkxqaGluOVlGcGNuQ1lWcUV5ZXlRcXFZbkhVWDNBZXFyZmJxUVE1b09FeEhMSXgzSENjZ3Z6R2IzNE1jT0NtSkYyU1VWVWRZN0ctUTAzRFNNV2N6R191VHBWZTBsSnhTNW4yR0xtTHZndjdDR1RHVGRGZFFvRnVucXo3enFha0EybEJmQjdKOWo3S3VEbFVSQzFLUGpqZjNwNkRKS0FpdnM1TGlObXlvOE16aTZOeEROTlJUeg?oc=5" class="text-dark">AI doesn't replace customer service teams, it empowers them to do things differently, says Zendesk CTO - Diginomica</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdVkyaWlsUk5XOEhiRHluVjBnVFNGcWRRYVd6QjduRFdaOHNOam1TMEJSLU1GQUtWdkszd2otRlpGalBlVFFhcXY5Qy1ya3RPdkk1OW96N2NfNWIwc19FcFVtUWtScEt1WHctYWxxRDV5MGNkS040WVlQOFZMblF1MVlWblUtMWhaenJUSzlQaF83TmVnQUM3WWZBVHVuNUp2VWd2WHM3bGxHaFJUUm8tc1M1VVlJTVJlY2ZRcEdTMl9BeUhabjFjTnkzLTdjVk5lYkROV2ZzMGJJaHczSk4xUUlMQ0RwUlhvbUNGZ19OZG1Ub2pqc0E?oc=5" class="text-dark">Zight Enhances Support Workflows with Request Video Logs, Zendesk Upgrades, and a New Integration Marketplace - PR Newswire</a>
-                
-            </h6>
-            <small class="text-muted">
-                <i class="far fa-clock"></i> recently
-            </small>
-        </article>        <article class="feed-item border-bottom py-3">
-            <h6 class="item-title">
-                <a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM3N5MzZwb09SRnVncWhfM0JreFB1U3kyQVJDa3lCTzNpSzhJRU1jNjdUZ1AwQmhYdEd3b2JwRFphUzFTUk5xY3NwbUNkcDVGNlhoZ09UcmthUVNzUEJ0MW9kbEJPdHBCbVM1YjJIckU3ZHk2T3BYekRQcFVZR0hTZmhqbnEzV3gzODB6TXBDREJpaU5USWlzTkJjQ0x3NWhRb3VxbHYtNUZyeWNxWnVqWGpUa09HRUxqMDJKd2gtc2dUVTRHTGFDb3gxdHpwZHBvcmVaWHJENmlhUFZLeXc?oc=5" class="text-dark">Zendesk Unveils Powerful New AI Capabilities within the Resolution Platform to Accelerate Service at Scale - Directors Club News -</a>
                 
             </h6>
             <small class="text-muted">
@@ -432,6 +424,14 @@ background: grey
         </article>        <article class="feed-item border-bottom py-3">
             <h6 class="item-title">
                 <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGVlNzNFMDJsVUdlSXpZeV9ydUNxejlUTDhKVHhaYzZnX1p4T09sTk95RFhHZGV3VUQ3VWJ2TjYydjZ4bWxwNHJ5UkxtcEl2M2ZnNEVzOEdCemFGM0VSV3p3SGdjVnVkcjRrSFhZcXlvOWczWTk3cjR0MG44ZWVFZ1YwM3owMFpTbi1GWFlOQ1pDbzFZMjJKSmRYOUZPeno4UkE?oc=5" class="text-dark">Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all - VentureBeat</a>
+                
+            </h6>
+            <small class="text-muted">
+                <i class="far fa-clock"></i> recently
+            </small>
+        </article>        <article class="feed-item border-bottom py-3">
+            <h6 class="item-title">
+                <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNWjZvNDFpRE84dDhLak1IOVhOUFZBRGRXWTR1UmFrVGo0WXZRN05ub3E5TjQ0LVJ4WFhpRFNDNUNzSURHUEd1QmRqNjBmTHQ1eHk3ZFZPQlcyV292ZkRQdXNPdDFwNmdmTWhaQV9wbkc4MUFMTFlKRTZlaVEtQ0t5MXl4Nk5HSlZ2VlZKMGVrRnVCWDAxOWhpUmJKOA?oc=5" class="text-dark">Zendesk says its new AI agent can solve 80% of support issues - TechCrunch</a>
                 
             </h6>
             <small class="text-muted">
@@ -462,7 +462,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>12:00 (London)</strong><br>
+                    <strong>13:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
