@@ -11,8 +11,8 @@ background: grey
   "@context": "https://schema.org",
   "@type": "NewsArticle",
   "headline": "Zendesk News Today - 26 October 2025 | Deltastring",
-  "datePublished": "2025-10-26T00:00:09+00:00",
-  "dateModified": "2025-10-26T00:00:09+00:00",
+  "datePublished": "2025-10-26T01:00:05+00:00",
+  "dateModified": "2025-10-26T01:00:05+00:00",
   "author": {
     "@type": "Organization",
     "name": "Deltastring",
@@ -40,7 +40,7 @@ background: grey
     <div class="col-lg-12">
         <p class="text-muted text-center mb-2">Daily and weekly summaries of Zendesk ecosystem news, curated and analysed.</p>
         <p class="text-muted text-center small mb-4">
-            <i class="far fa-clock"></i> Last updated: 00:00 GMT, 26 October 2025
+            <i class="far fa-clock"></i> Last updated: 01:00 GMT, 26 October 2025
         </p>
     </div>
 </div>
@@ -95,7 +95,7 @@ background: grey
                         https://support.zendesk.com/hc/en-us/articles/9868796554394-Service-Incident-October-25-2025-Pod-15-Sunshine-Conversations-SunCo-errors-and-latency-pod-15-ticket-creation-delays-pod-19
                     </p>
                     <small class="text-muted">
-                        <i class="far fa-clock"></i> 6 hours ago
+                        <i class="far fa-clock"></i> 7 hours ago
                     </small>
                 </div>
             </div>
@@ -130,7 +130,7 @@ background: grey
             <div class="card-body">
                 
                 <h6><a href="https://support.zendesk.com/hc/en-us/articles/9849972918426-Announcing-the-new-security-posture-dashboard-in-Admin-Center" class="text-dark" target="_blank">Announcing the new security posture dashboard in Admin Center</a></h6>
-                <p class="mb-2">The new security posture dashboard in Admin Centre consolidates crucial account settings, empowering Zendesk administrators to proactively manage their organisation's security posture and mitigate potential risks.</p>
+                <p class="mb-2">The new security posture dashboard in Admin Centre provides Zendesk administrators with a centralised view of crucial account settings, empowering them to proactively manage their organisation's security posture.</p>
                 <small class="text-muted">Zendesk Announcements • 5 days ago</small>
             
             </div>
@@ -455,7 +455,7 @@ background: grey
                     <small class="text-muted">Last Updated</small>
                 </div>
                 <div class="col-md-3">
-                    <strong>01:00 (London)</strong><br>
+                    <strong>02:00 (London)</strong><br>
                     <small class="text-muted">Next Update</small>
                 </div>
             </div>
@@ -474,11 +474,12 @@ background: grey
                 <div class="mb-3">
                     <h6 class="text-primary">
                         <a href="#" data-toggle="collapse" data-target="#archive-202510" class="text-decoration-none">
-                            <i class="fas fa-chevron-right"></i> October 2025 <span class="badge badge-secondary">25</span>
+                            <i class="fas fa-chevron-right"></i> October 2025 <span class="badge badge-secondary">26</span>
                         </a>
                     </h6>
                     <div class="collapse" id="archive-202510">
                         <ul class="list-unstyled archive-links">
+                        <li><a href="/news-2025-10-26/" class="text-dark">26 October - Update: Service Incident - Pod 15 | Sunshine Conversations - SunCo errors and...</a></li>
                         <li><a href="/news-2025-10-25/" class="text-dark">25 October - Update: Service Incident - Pod 15 | Sunshine Conversations - SunCo errors and...</a></li>
                         <li><a href="/news-2025-10-24/" class="text-dark">24 October - Update: Service Incident - Pod 17 [AI Agents] - Auth/Access "User Does Not Ha...</a></li>
                         <li><a href="/news-2025-10-23/" class="text-dark">23 October - Update: Service Incident - Pod 13 | Sunshine Conversations - Messaging delays</a></li>
